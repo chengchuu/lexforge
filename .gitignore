@@ -13,3 +13,6 @@ run/
 typings/
 .nyc_output/
 config.prod.js
+
+# Rebuild Anki imports from entries/.
+/dist/

@@ -1,0 +1,12 @@
+id: idiomatic-tech
+word: idiomatic
+pronunciation: /ˌɪdiəˈmætɪk/
+part_of_speech: adjective
+meaning: 地道的；惯用的
+context: 符合某种语言、框架或技术生态惯用方式的。
+example: Prefer idiomatic Go code.
+notes: Common usage includes "idiomatic Go" and "idiomatic JavaScript".
+tags:
+  - tech
+  - programming
+  - adjective
