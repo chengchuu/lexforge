@@ -3,6 +3,7 @@ package vocabulary
 import (
 	"bytes"
 	"encoding/csv"
+	"fmt"
 	"os"
 	"path/filepath"
 	"reflect"
@@ -79,7 +80,7 @@ func TestValidation(t *testing.T) {
 			root := t.TempDir()
 			writeFile(t, root, "entries/idiomatic.yml", tc.data)
 			_, _, err := Load(root)
-			if err == nil || !strings.Contains(err.Error(), "entries/idiomatic.yml:") || !strings.Contains(err.Error(), tc.want) {
+			if err == nil || !strings.Contains(err.Error(), filepath.Join("entries", "idiomatic.yml")+":") || !strings.Contains(err.Error(), tc.want) {
 				t.Fatalf("want file and %q in error, got %v", tc.want, err)
 			}
 		})
@@ -126,7 +127,8 @@ func TestDuplicateIDsAndDeterministicErrors(t *testing.T) {
 	writeFile(t, root, "entries/a.yml", validEntry)
 	writeFile(t, root, "entries/c.yml", validEntry+"typo: value\n")
 	_, _, err := Load(root)
-	want := "entries/b.yml: duplicate id \"idiomatic-tech\" (also in entries/a.yml); use a unique stable ID\nentries/c.yml: line 6: unknown field \"typo\"; check the schema in README.md"
+	want := fmt.Sprintf("%s: duplicate id \"idiomatic-tech\" (also in %s); use a unique stable ID\n%s: line 6: unknown field \"typo\"; check the schema in README.md",
+		filepath.Join("entries", "b.yml"), filepath.Join("entries", "a.yml"), filepath.Join("entries", "c.yml"))
 	if err == nil || err.Error() != want {
 		t.Fatalf("want %q, got %v", want, err)
 	}

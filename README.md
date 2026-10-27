@@ -59,7 +59,7 @@ Repeated words produce warnings for human review, including when their capitaliz
 
 ## Set up Anki once
 
-Use Anki Desktop 2.1.54 or later for import-header support. The export contains ten columns: nine note fields and Anki tags.
+Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains ten columns: nine note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
 1. In **Tools → Manage Note Types**, clone the **Basic** note type and name it `LexForge`.
 2. In **Fields**, rename `Front` to `ID` and `Back` to `English`. Add the remaining fields in this exact order:
