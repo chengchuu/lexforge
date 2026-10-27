@@ -138,7 +138,9 @@ Add a pronunciation MP3 at `media/<id>.mp3` and set the entry's `audio` field to
 
 Before importing, copy referenced MP3 files directly into your Anki profile's `collection.media` folder, without subdirectories. Anki's **Tools → Check Media** command helps identify missing files. See [Anki file locations](https://docs.ankiweb.net/files.html) to find your profile. Sync media through AnkiWeb to AnkiDroid.
 
-The validator checks the filename and that the file is a nonempty regular file; it does not decode MP3 data. This milestone does not generate audio or require a TTS service. Keep media in Git and reuse existing files; replace audio only when you intend to update it.
+The validator checks the filename and that the file is a nonempty regular file; it does not decode MP3 data. The build does not synthesize audio or require a TTS service. Keep media in Git and reuse existing files; replace audio only when you intend to update it.
+
+The five sample pronunciations were generated locally with macOS's Samantha voice (US English) at 150 words per minute and encoded as 96 kbps mono MP3s using LAME through `lameenc` 1.9.0. These tools are not project dependencies.
 
 ## Verify changes
 

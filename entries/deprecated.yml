@@ -5,6 +5,7 @@ meaning: 已弃用的；不建议继续使用的
 context: 仍可能可用，但已不建议使用，通常有替代方案，并可能在后续版本中移除。
 example: Replace the deprecated API before upgrading the library.
 notes: Deprecated does not necessarily mean removed or broken.
+audio: deprecated-tech.mp3
 tags:
   - tech
   - programming

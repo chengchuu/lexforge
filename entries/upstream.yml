@@ -5,6 +5,7 @@ meaning: 上游的
 context: 在 fork 工作流中，指派生仓库所基于的原始项目或仓库。
 example: Submit the fix to the upstream repository.
 notes: A Git remote named "upstream" is a convention, not a required name.
+audio: upstream-git.mp3
 tags:
   - tech
   - git
