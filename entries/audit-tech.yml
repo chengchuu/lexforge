@@ -1,0 +1,12 @@
+id: audit-tech
+word: "audit"
+part_of_speech: noun
+meaning: "审查"
+context: "对明确范围内的内容进行系统检查。"
+example: "The investigation is not a complete backlog audit."
+notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR)."
+audio: audit-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun

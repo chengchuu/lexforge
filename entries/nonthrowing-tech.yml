@@ -1,0 +1,12 @@
+id: nonthrowing-tech
+word: "nonthrowing"
+part_of_speech: adjective
+meaning: "不会抛出异常的"
+context: "执行时不产生需要异常处理器捕获的异常。"
+example: "The optimizer incorrectly treats every array expression as nonthrowing."
+notes: "Source: react/react-a-compiler.md (relative to docs/PR)."
+audio: nonthrowing-tech.mp3
+tags:
+  - tech
+  - compiler
+  - adjective

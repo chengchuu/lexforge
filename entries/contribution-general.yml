@@ -1,0 +1,12 @@
+id: contribution-general
+word: "contribution"
+part_of_speech: noun
+meaning: "贡献"
+context: "为项目提供的代码、文档、调查或其他有用工作。"
+example: "Check existing contributions before starting a duplicate fix."
+notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR)."
+audio: contribution-general.mp3
+tags:
+  - general
+  - documentation
+  - noun

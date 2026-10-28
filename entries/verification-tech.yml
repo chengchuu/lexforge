@@ -1,0 +1,12 @@
+id: verification-tech
+word: "verification"
+part_of_speech: noun
+meaning: "核实；验证"
+context: "针对具体行为或结论检查其是否成立。"
+example: "Direct-worker verification covers both compilation paths."
+notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR)."
+audio: verification-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun

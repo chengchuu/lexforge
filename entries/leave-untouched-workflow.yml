@@ -1,0 +1,12 @@
+id: leave-untouched-workflow
+word: "leave untouched"
+part_of_speech: phrase
+meaning: "保持原样；不修改"
+context: "处理相关任务时不改变指定对象或内容。"
+example: "Leave existing worktrees untouched."
+notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR). Source form: were left untouched. Pattern: leave X untouched. Source wording: left untouched."
+audio: leave-untouched-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

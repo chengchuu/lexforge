@@ -1,0 +1,13 @@
+id: transport-failure-tech
+word: "transport failure"
+part_of_speech: noun
+meaning: "传输层故障"
+context: "通信通道在发送或接收数据时发生的失败。"
+example: "The server still reports transport failures."
+notes: "Source: typescript/typescript-1.md (relative to docs/PR)."
+audio: transport-failure-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun
+  - phrase

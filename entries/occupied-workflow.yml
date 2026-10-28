@@ -1,0 +1,12 @@
+id: occupied-workflow
+word: "occupied"
+part_of_speech: adjective
+meaning: "被占用的"
+context: "某个资源正被其他任务使用，当前任务不能再次占用。"
+example: "Do not repeatedly retry an occupied lock."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: occupied-workflow.mp3
+tags:
+  - tech
+  - devops
+  - adjective

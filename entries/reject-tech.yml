@@ -1,0 +1,12 @@
+id: reject-tech
+word: "reject"
+part_of_speech: verb
+meaning: "拒绝接受"
+context: "校验或处理时不接受不符合规则的输入或操作。"
+example: "Reject invalid identifiers before generating JavaScript."
+notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR). Related form: rejection."
+audio: reject-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

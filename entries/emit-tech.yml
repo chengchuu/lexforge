@@ -1,0 +1,12 @@
+id: emit-tech
+word: "emit"
+part_of_speech: verb
+meaning: "生成；输出"
+context: "编译器输出代码、声明或诊断信息。"
+example: "Emit a diagnostic instead of crashing on invalid input."
+notes: "Source: typescript/typescript-64952.md (relative to docs/PR). Related form: emission."
+audio: emit-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

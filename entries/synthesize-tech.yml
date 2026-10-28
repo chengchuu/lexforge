@@ -1,0 +1,12 @@
+id: synthesize-tech
+word: "synthesize"
+part_of_speech: verb
+meaning: "合成；构造"
+context: "编译器根据规则创建源代码中未直接写出的结构或信息。"
+example: "The checker synthesizes a promise alternative for the return context."
+notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR). Related form: synthesized."
+audio: synthesize-tech.mp3
+tags:
+  - tech
+  - compiler
+  - verb

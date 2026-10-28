@@ -1,0 +1,12 @@
+id: at-most-workflow
+word: "at most"
+part_of_speech: phrase
+meaning: "最多；至多"
+context: "指定数量或范围的上限。"
+example: "Select at most one candidate for implementation."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: at-most-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

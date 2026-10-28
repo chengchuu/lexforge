@@ -1,0 +1,12 @@
+id: derive-tech
+word: "derive"
+part_of_speech: verb
+meaning: "推导；取得"
+context: "根据已有信息计算或确定另一个结果。"
+example: "Derive the context name from the declared class name."
+notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR). Pattern: derive X from Y."
+audio: derive-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

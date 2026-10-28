@@ -1,0 +1,12 @@
+id: introduce-tech
+word: "introduce"
+part_of_speech: verb
+meaning: "引入"
+context: "通过修改新增某种行为、依赖或问题。"
+example: "The new escape format introduces another collision."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: introduce-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

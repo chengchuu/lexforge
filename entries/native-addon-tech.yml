@@ -1,0 +1,13 @@
+id: native-addon-tech
+word: "native addon"
+part_of_speech: noun
+meaning: "原生扩展"
+context: "由宿主环境加载并调用的原生代码组件。"
+example: "Rebuild the native addon before running the fixtures."
+notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+audio: native-addon-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun
+  - phrase

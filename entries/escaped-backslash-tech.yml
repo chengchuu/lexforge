@@ -1,0 +1,13 @@
+id: escaped-backslash-tech
+word: "escaped backslash"
+part_of_speech: noun
+meaning: "转义后的反斜杠"
+context: "在转义语法中用来表示普通反斜杠的字符序列。"
+example: "Consume the escaped backslash before examining the next escape."
+notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+audio: escaped-backslash-tech.mp3
+tags:
+  - tech
+  - unicode
+  - noun
+  - phrase

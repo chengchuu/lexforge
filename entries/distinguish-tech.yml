@@ -1,0 +1,12 @@
+id: distinguish-tech
+word: "distinguish"
+part_of_speech: verb
+meaning: "区分；辨别"
+context: "识别两个概念、值或行为之间有意义的差别。"
+example: "Distinguish a missing field from a field whose value is null."
+notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR). Related form: distinction. Pattern: distinguish X from Y."
+audio: distinguish-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

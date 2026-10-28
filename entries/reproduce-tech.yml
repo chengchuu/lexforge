@@ -1,0 +1,12 @@
+id: reproduce-tech
+word: "reproduce"
+part_of_speech: verb
+meaning: "复现"
+context: "按照明确步骤再次观察到报告中的行为。"
+example: "Reproduce the crash on the unmodified base revision."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Related form: reproduction. A reproduction can also mean a small project that demonstrates a bug."
+audio: reproduce-tech.mp3
+tags:
+  - tech
+  - testing
+  - verb

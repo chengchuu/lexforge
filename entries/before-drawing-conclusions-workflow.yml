@@ -1,0 +1,12 @@
+id: before-drawing-conclusions-workflow
+word: "before drawing conclusions"
+part_of_speech: phrase
+meaning: "在得出结论之前"
+context: "强调应先完成必要检查，再作出判断。"
+example: "Inspect the correct source path before drawing conclusions."
+notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR)."
+audio: before-drawing-conclusions-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

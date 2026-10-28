@@ -1,0 +1,12 @@
+id: unmount-tech
+word: "unmount"
+part_of_speech: verb
+meaning: "卸载"
+context: "从渲染环境移除组件或根节点并执行相关清理。"
+example: "Unmount the inner root before the outer root."
+notes: "Source: react/react-37721.md (relative to docs/PR)."
+audio: unmount-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

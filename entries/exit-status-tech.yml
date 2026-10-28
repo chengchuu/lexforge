@@ -1,0 +1,13 @@
+id: exit-status-tech
+word: "exit status"
+part_of_speech: noun
+meaning: "退出状态"
+context: "进程结束时向调用方返回的成功或失败状态。"
+example: "The process returns a nonzero exit status after the failure."
+notes: "Source: typescript/typescript-1.md (relative to docs/PR). Equivalent expression in this context: exit code."
+audio: exit-status-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun
+  - phrase

@@ -1,0 +1,12 @@
+id: probe-tech
+word: "probe"
+part_of_speech: noun
+meaning: "针对性验证程序；探查"
+context: "用于检验具体假设的小型实验或检查。"
+example: "A native probe checks the exact UTF-16 values."
+notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+audio: probe-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun

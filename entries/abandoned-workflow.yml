@@ -1,0 +1,12 @@
+id: abandoned-workflow
+word: "abandoned"
+part_of_speech: adjective
+meaning: "被遗弃的；无人继续处理的"
+context: "原任务似乎已经停止维护，但仍可能留下状态或资源。"
+example: "Inspect an apparently abandoned lock before removing it."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: abandoned-workflow.mp3
+tags:
+  - tech
+  - devops
+  - adjective

@@ -1,0 +1,12 @@
+id: getter-tech
+word: "getter"
+part_of_speech: noun
+meaning: "取值访问器"
+context: "读取属性时执行的访问器。"
+example: "Computing the decorator context must not invoke the getter early."
+notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR)."
+audio: getter-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun

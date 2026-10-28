@@ -1,0 +1,12 @@
+id: applicable-tech
+word: "applicable"
+part_of_speech: adjective
+meaning: "适用的"
+context: "与当前条件、对象或工作内容相关并应当采用。"
+example: "Run the applicable runtime checks before review."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Expression: when applicable."
+audio: applicable-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

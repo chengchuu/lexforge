@@ -1,0 +1,12 @@
+id: setup-tech
+word: "setup"
+part_of_speech: noun
+meaning: "初始化设置"
+context: "为后续运行建立状态、资源或注册关系。"
+example: "Defer setup until the container is ready."
+notes: "Source: react/react-37721.md (relative to docs/PR)."
+audio: setup-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

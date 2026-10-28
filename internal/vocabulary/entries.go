@@ -27,6 +27,8 @@ type Entry struct {
 	Notes         string
 	Audio         string
 	Tags          []string
+	sourcePath    string
+	sourceData    []byte
 }
 
 var kebabCase = regexp.MustCompile(`^[a-z0-9]+(-[a-z0-9]+)*$`)
@@ -70,6 +72,8 @@ func Load(root string) ([]Entry, []string, error) {
 			problems = append(problems, fmt.Errorf("%s: %w", path, err))
 			continue
 		}
+		entry.sourcePath = path
+		entry.sourceData = data
 		if previous, ok := ids[entry.ID]; ok {
 			problems = append(problems, fmt.Errorf("%s: duplicate id %q (also in %s); use a unique stable ID", path, entry.ID, previous))
 		} else {

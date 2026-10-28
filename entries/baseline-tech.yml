@@ -1,0 +1,12 @@
+id: baseline-tech
+word: "baseline"
+part_of_speech: noun
+meaning: "基准输出"
+context: "保存的预期结果，用于比较新的编译或测试输出。"
+example: "Review each changed baseline before accepting the update."
+notes: "Source: typescript/typescript-64965.md (relative to docs/PR)."
+audio: baseline-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun

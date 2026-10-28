@@ -1,0 +1,13 @@
+id: static-initialization-tech
+word: "static initialization"
+part_of_speech: noun
+meaning: "静态初始化"
+context: "建立类的静态成员和相关状态的过程。"
+example: "The getter must not run before static initialization."
+notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR)."
+audio: static-initialization-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun
+  - phrase

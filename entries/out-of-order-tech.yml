@@ -1,0 +1,12 @@
+id: out-of-order-tech
+word: "out-of-order"
+part_of_speech: adjective
+meaning: "乱序的；未按预期顺序的"
+context: "完成或到达顺序与发起顺序不一致。"
+example: "The test covers out-of-order compilation completion."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: out-of-order-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

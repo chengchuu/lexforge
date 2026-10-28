@@ -1,0 +1,12 @@
+id: clarify-general
+word: "clarify"
+part_of_speech: verb
+meaning: "澄清；说清楚"
+context: "使原本不够明确的内容更容易理解。"
+example: "Clarify which tests were actually run."
+notes: "Source: go101/go101-321.md (relative to docs/PR)."
+audio: clarify-general.mp3
+tags:
+  - general
+  - documentation
+  - verb

@@ -1,0 +1,13 @@
+id: overlap-prevention-workflow
+word: "overlap prevention"
+part_of_speech: noun
+meaning: "重叠执行防护"
+context: "防止多次任务同时执行并相互干扰的措施。"
+example: "The lock provides overlap prevention for scheduled runs."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: overlap-prevention-workflow.mp3
+tags:
+  - tech
+  - devops
+  - noun
+  - phrase

@@ -1,0 +1,12 @@
+id: rather-than-workflow
+word: "rather than"
+part_of_speech: phrase
+meaning: "而不是"
+context: "对比实际采用或推荐采用的方式与另一种方式。"
+example: "Check field presence rather than the field's truthiness."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: rather-than-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

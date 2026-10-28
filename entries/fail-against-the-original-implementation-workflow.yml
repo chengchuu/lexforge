@@ -1,0 +1,12 @@
+id: fail-against-the-original-implementation-workflow
+word: "fail against the original implementation"
+part_of_speech: phrase
+meaning: "在原始实现上测试失败"
+context: "说明测试能够暴露修复前的问题，而非只验证修复后结果。"
+example: "Both regression tests fail against the original implementation."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: fail-against-the-original-implementation-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

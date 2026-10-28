@@ -1,0 +1,12 @@
+id: material-tech
+word: "material"
+part_of_speech: adjective
+meaning: "实质性的；影响判断的"
+context: "差异或限制足以影响结论或决策。"
+example: "Disclose material limitations in the validation report."
+notes: "Source: AGENTS.md (relative to docs/PR). Pattern: unless the scope materially changes. Do not duplicate the fix unless its scope materially changes."
+audio: material-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

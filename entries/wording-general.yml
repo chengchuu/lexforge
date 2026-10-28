@@ -1,0 +1,12 @@
+id: wording-general
+word: "wording"
+part_of_speech: noun
+meaning: "措辞"
+context: "表达某个意思时选用的具体词语和句式。"
+example: "Clarify the wording without changing the technical facts."
+notes: "Source: go101/go101-321.md (relative to docs/PR)."
+audio: wording-general.mp3
+tags:
+  - general
+  - documentation
+  - noun

@@ -1,0 +1,12 @@
+id: read-only-workflow
+word: "read-only"
+part_of_speech: adjective
+meaning: "只读的"
+context: "允许查看信息，但不修改被检查的内容或状态。"
+example: "Keep the investigation read-only."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: read-only-workflow.mp3
+tags:
+  - tech
+  - devops
+  - adjective

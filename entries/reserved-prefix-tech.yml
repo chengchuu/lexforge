@@ -1,0 +1,13 @@
+id: reserved-prefix-tech
+word: "reserved prefix"
+part_of_speech: noun
+meaning: "保留前缀"
+context: "为内部表示或协议专门保留的开头部分。"
+example: "Escape every literal occurrence of the reserved prefix."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: reserved-prefix-tech.mp3
+tags:
+  - tech
+  - unicode
+  - noun
+  - phrase

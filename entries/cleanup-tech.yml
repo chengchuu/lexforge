@@ -1,0 +1,12 @@
+id: cleanup-tech
+word: "cleanup"
+part_of_speech: noun
+meaning: "清理"
+context: "释放资源、移除注册或恢复运行状态的收尾操作。"
+example: "Cleanup removes the render counter from the registry."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: cleanup-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

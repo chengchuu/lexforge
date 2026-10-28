@@ -1,0 +1,12 @@
+id: reproducible-tech
+word: "reproducible"
+part_of_speech: adjective
+meaning: "可复现的"
+context: "能够通过明确步骤再次观察到相同问题。"
+example: "Implement the fix only when the behavior is reproducible."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: reproducible-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

@@ -1,0 +1,12 @@
+id: prune-tech
+word: "prune"
+part_of_speech: verb
+meaning: "剪除；删减"
+context: "分析之后移除被判定不需要的分支或候选项。"
+example: "Prune later candidates only after traversal completes."
+notes: "Source: typescript/typescript-64936.md (relative to docs/PR). Related form: pruning. Source wording: pruning."
+audio: prune-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

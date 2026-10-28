@@ -1,0 +1,12 @@
+id: limitation-tech
+word: "limitation"
+part_of_speech: noun
+meaning: "限制；局限"
+context: "实现或验证结论尚不能覆盖的条件或范围。"
+example: "State the limitations of the runtime checks."
+notes: "Source: AGENTS.md (relative to docs/PR)."
+audio: limitation-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun

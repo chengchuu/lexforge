@@ -1,0 +1,13 @@
+id: heritage-type-tech
+word: "heritage type"
+part_of_speech: noun
+meaning: "继承或实现关系中的类型"
+context: "类或接口通过 extends 或 implements 引用的类型。"
+example: "The diagnostic identifies an inaccessible heritage type."
+notes: "Source: typescript/typescript-64952.md (relative to docs/PR)."
+audio: heritage-type-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun
+  - phrase

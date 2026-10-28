@@ -1,0 +1,12 @@
+id: overload-tech
+word: "overload"
+part_of_speech: noun
+meaning: "重载"
+context: "同名函数或方法提供的不同调用签名。"
+example: "Preserve overload handling when resolving parameter documentation."
+notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR)."
+audio: overload-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun

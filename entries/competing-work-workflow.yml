@@ -1,0 +1,13 @@
+id: competing-work-workflow
+word: "competing work"
+part_of_speech: noun
+meaning: "相互重叠的在途工作"
+context: "其他贡献正在处理同一问题，可能使新实现重复。"
+example: "Check competing work before selecting an issue."
+notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR)."
+audio: competing-work-workflow.mp3
+tags:
+  - tech
+  - devops
+  - noun
+  - phrase

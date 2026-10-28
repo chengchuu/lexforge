@@ -1,0 +1,13 @@
+id: attribute-to-general
+word: "attribute to"
+part_of_speech: verb
+meaning: "归因于"
+context: "认为某个结果是由某种原因引起的。"
+example: "The report attributes the failure to missing binding checks."
+notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR). Pattern: attribute X to Y. Attribute the missing diagnostic to the filtering rule. Source wording: attributes acceptance."
+audio: attribute-to-general.mp3
+tags:
+  - general
+  - documentation
+  - verb
+  - phrase

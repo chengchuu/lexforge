@@ -1,0 +1,12 @@
+id: based-on-workflow
+word: "based on"
+part_of_speech: phrase
+meaning: "基于；根据"
+context: "说明判断的依据或实现的基础。"
+example: "Exclude the issue based on existing contribution reports."
+notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR)."
+audio: based-on-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

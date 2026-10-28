@@ -1,0 +1,12 @@
+id: remain-intact-workflow
+word: "remain intact"
+part_of_speech: phrase
+meaning: "保持完整；未受破坏"
+context: "强调修改后原有内容、断言或保障仍被完整保留。"
+example: "Existing assertions remain intact."
+notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+audio: remain-intact-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

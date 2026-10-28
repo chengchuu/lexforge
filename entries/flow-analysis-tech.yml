@@ -1,0 +1,13 @@
+id: flow-analysis-tech
+word: "flow analysis"
+part_of_speech: noun
+meaning: "流分析"
+context: "沿控制流追踪变量或类型状态的分析。"
+example: "Read-after-assignment flow analysis remains unchanged."
+notes: "Source: typescript/typescript-64965.md (relative to docs/PR)."
+audio: flow-analysis-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun
+  - phrase

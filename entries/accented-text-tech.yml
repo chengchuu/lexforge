@@ -1,0 +1,13 @@
+id: accented-text-tech
+word: "accented text"
+part_of_speech: noun
+meaning: "带附加符号的文字"
+context: "包含带重音或其他附加符号字母的文本。"
+example: "The regression tests cover accented text."
+notes: "Source: react/react-37898.md (relative to docs/PR)."
+audio: accented-text-tech.mp3
+tags:
+  - tech
+  - unicode
+  - noun
+  - phrase

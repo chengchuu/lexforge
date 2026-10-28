@@ -1,0 +1,13 @@
+id: static-inspection-tech
+word: "static inspection"
+part_of_speech: noun
+meaning: "静态检查"
+context: "在不执行目标程序的情况下检查代码和结构。"
+example: "Static inspection identified a likely lifecycle problem."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: static-inspection-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun
+  - phrase

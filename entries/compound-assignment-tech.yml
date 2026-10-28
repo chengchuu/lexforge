@@ -1,0 +1,13 @@
+id: compound-assignment-tech
+word: "compound assignment"
+part_of_speech: noun
+meaning: "复合赋值"
+context: "将计算和赋值结合的操作，例如加后赋值。"
+example: "Add coverage for compound assignments through type assertions."
+notes: "Source: typescript/typescript-64965.md (relative to docs/PR)."
+audio: compound-assignment-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun
+  - phrase

@@ -1,0 +1,12 @@
+id: register-tech
+word: "register"
+part_of_speech: verb
+meaning: "注册"
+context: "将对象或处理器加入系统维护的集合，使其参与后续操作。"
+example: "Register the counter during effect setup."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR). Related form: registration."
+audio: register-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

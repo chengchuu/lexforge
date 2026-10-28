@@ -1,0 +1,12 @@
+id: eligible-tech
+word: "eligible"
+part_of_speech: adjective
+meaning: "符合条件的"
+context: "满足某个处理流程的准入条件。"
+example: "Both components are eligible for compilation."
+notes: "Source: react/react-37836.md (relative to docs/PR)."
+audio: eligible-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

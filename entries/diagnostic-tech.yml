@@ -1,0 +1,12 @@
+id: diagnostic-tech
+word: "diagnostic"
+part_of_speech: noun
+meaning: "诊断信息"
+context: "编译器或语言工具报告的错误、警告等信息。"
+example: "The compiler reports a diagnostic instead of panicking."
+notes: "Source: typescript/typescript-64952.md (relative to docs/PR)."
+audio: diagnostic-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun

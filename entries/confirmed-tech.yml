@@ -1,0 +1,12 @@
+id: confirmed-tech
+word: "confirmed"
+part_of_speech: adjective
+meaning: "已确认的"
+context: "已有直接观察或其他证据支持。"
+example: "Record the confirmed behavior and its validation limits."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: confirmed-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

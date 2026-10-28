@@ -1,0 +1,12 @@
+id: pre-existing-tech
+word: "pre-existing"
+part_of_speech: adjective
+meaning: "原先就存在的"
+context: "在当前修改或任务开始之前已经存在。"
+example: "Separate pre-existing failures from new regressions."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: pre-existing-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

@@ -1,0 +1,12 @@
+id: invoke-tech
+word: "invoke"
+part_of_speech: verb
+meaning: "调用"
+context: "执行函数、方法或访问器。"
+example: "Reading this property invokes its getter."
+notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR)."
+audio: invoke-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

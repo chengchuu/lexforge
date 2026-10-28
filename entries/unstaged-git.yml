@@ -1,0 +1,12 @@
+id: unstaged-git
+word: "unstaged"
+part_of_speech: adjective
+meaning: "未暂存的"
+context: "工作树中的更改尚未加入 Git 索引。"
+example: "Inspect the remaining unstaged changes."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: unstaged-git.mp3
+tags:
+  - tech
+  - git
+  - adjective

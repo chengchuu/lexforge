@@ -84,12 +84,14 @@ Front template:
 
 ```html
 <div class="english">{{English}}</div>
+{{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
+{{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
 ```
 
 Back template:
 
 ```html
-{{FrontSide}}
+<div class="english">{{English}}</div>
 <hr id="answer">
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
 {{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
@@ -171,6 +173,10 @@ Styling:
   font-size: clamp(20px, 5vw, 22px);
 }
 
+.english + .pronunciation {
+  margin-top: 12px;
+}
+
 .part-of-speech,
 .notes {
   font-size: 19px;
@@ -222,9 +228,17 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-For an existing LexForge note type, replace its **Back Template** and **Styling** in **Cards**, then sync Anki Desktop and AnkiDroid. These presentation changes apply to existing cards without rebuilding or reimporting the TSV.
+The front shows IPA when the `Pronunciation` field is populated and a playback control when `Audio` is populated. Entries without IPA still show their English text and audio. Both templates include their own audio field so pronunciation appears once per side and audio remains available on both sides. See Anki's [field replacements and audio behavior](https://docs.ankiweb.net/templates/fields.html#special-fields).
+
+For an existing LexForge note type, replace its **Front Template**, **Back Template**, and **Styling** in **Cards**, then sync Anki Desktop and AnkiDroid. These presentation changes apply to existing cards without rebuilding or reimporting the TSV. Editing this README does not update an installed note type automatically.
 
 If multiple meanings make the English-only prompt ambiguous, optionally add `{{Example}}` below `{{English}}` on the front. Keep translations on the back.
+
+### Larger AnkiDroid answer buttons
+
+To enlarge **Again**, **Hard**, **Good**, and **Easy**, open AnkiDroid's **Settings → Accessibility** and increase **Answer buttons height** (called **Answer button size** in some versions). Try **150%**, then adjust toward **200%** if needed. Current [AnkiDroid accessibility preferences](https://github.com/ankidroid/Anki-Android/blob/main/AnkiDroid/src/main/res/xml/preferences_accessibility.xml) provide this control; older layouts place **Answer button size** under **Reviewing → Display**, as described in the [AnkiDroid manual](https://docs.ankidroid.org/#_display).
+
+These are AnkiDroid controls outside the card content. Change their size in the app; the card template's CSS controls the content above them. No TSV rebuild or reimport is needed.
 
 ### Import and update
 
@@ -242,13 +256,49 @@ The exporter escapes plain text for HTML display and converts line breaks to `<b
 
 ### Audio
 
-Add a pronunciation MP3 at `media/<id>.mp3` and set the entry's `audio` field to that filename. The build emits `[sound:<id>.mp3]` without modifying the media file.
+Generate pronunciation audio locally on macOS with the Samantha (US English) voice, LAME CLI, and `mpg123`. Install the command-line tools yourself if needed:
+
+```bash
+brew install lame mpg123
+```
+
+The command checks these prerequisites and the voice before processing entries; it does not install anything or call a remote service. Run it from the repository root:
+
+```bash
+go run scripts/audio/main.go --id preserve-tech
+go run scripts/audio/main.go --all
+```
+
+Select exactly one of `--id` or `--all`. The command validates the collection first, reads each selected entry's `word`, and generates `media/<id>.mp3` using Samantha at 150 words per minute and LAME at 96 kbps mono. It requires decoded audio samples before adding the `audio` field, preserving the entry's other content and formatting. A successful decoder exit without samples is rejected. Unverified IPA can remain omitted even when audio is available.
+
+Existing referenced audio is skipped. A correctly named MP3 without an `audio` reference is decode-checked and reused. Replace a recording only when intended:
+
+```bash
+go run scripts/audio/main.go --id preserve-tech --overwrite
+```
+
+`--all --overwrite` replaces every recording. Without `--overwrite`, reruns preserve existing recordings. An empty or undecodable unreferenced MP3 causes an error instead of being silently replaced. Validation errors, including missing referenced files, must be resolved before generation.
+
+Batch processing follows stable-ID order and stops at the first failure with a nonzero exit status and the affected entry ID. Completed entries remain valid; rerun the same command to resume. The command checks for source edits before attaching audio, cleans up temporary files on handled failures, and reports generated, reused, and skipped counts. Avoid editing selected entries while it runs. Filenames and settings are stable, but audio bytes can differ across macOS or encoder versions.
+
+Audio generation does not build the export or perform Git operations. After a successful batch, run:
+
+```bash
+go run scripts/validate/main.go
+go run scripts/build/main.go
+```
+
+Generation requires macOS; validation, export, and the resulting MP3s remain portable. Decoding checks confirm that files are readable, not that every technical term is pronounced correctly. Audition unfamiliar terms before importing them into Anki.
+
+Alternatively, add a pronunciation MP3 at `media/<id>.mp3` and set the entry's `audio` field to that filename. The build emits `[sound:<id>.mp3]` without modifying the media file.
 
 Before importing, copy referenced MP3 files directly into your Anki profile's `collection.media` folder, without subdirectories. Anki's **Tools → Check Media** command helps identify missing files. See [Anki file locations](https://docs.ankiweb.net/files.html) to find your profile. Sync media through AnkiWeb to AnkiDroid.
 
 The validator checks the filename and that the file is a nonempty regular file; it does not decode MP3 data. The build does not synthesize audio or require a TTS service. Keep media in Git and reuse existing files; replace audio only when you intend to update it.
 
-The five sample pronunciations were generated locally with macOS's Samantha voice (US English) at 150 words per minute and encoded as 96 kbps mono MP3s using LAME through `lameenc` 1.9.0. These tools are not project dependencies.
+The five original sample pronunciations were generated locally with macOS's Samantha voice (US English) at 150 words per minute and encoded as 96 kbps mono MP3s using LAME through `lameenc` 1.9.0. The `vocabulary` recording and subsequent recordings use LAME CLI. Existing recordings do not need to be regenerated.
+
+The [PR vocabulary import record](docs/pr-vocabulary-import.md) maps the reviewed source vocabulary to entries, grouped forms, and exclusions.
 
 ## Verify changes
 
@@ -272,6 +322,7 @@ media/                 Optional pronunciation MP3 files
 internal/vocabulary/   Shared validation and export logic, with tests
 scripts/validate/      Validation command
 scripts/build/         Build command
+scripts/audio/         Local macOS pronunciation command
 dist/                  Generated Anki TSV; ignored by Git
 ```
 

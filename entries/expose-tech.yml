@@ -1,0 +1,12 @@
+id: expose-tech
+word: "expose"
+part_of_speech: verb
+meaning: "暴露；使显现"
+context: "让原本不明显的问题可以被观察到。"
+example: "Effect replay exposes the lifecycle bug."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: expose-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

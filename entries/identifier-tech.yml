@@ -1,0 +1,12 @@
+id: identifier-tech
+word: "identifier"
+part_of_speech: noun
+meaning: "标识符"
+context: "变量、函数等代码实体使用的名称。"
+example: "Validate the identifier before passing it to the native compiler."
+notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR)."
+audio: identifier-tech.mp3
+tags:
+  - tech
+  - unicode
+  - noun

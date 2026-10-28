@@ -1,0 +1,12 @@
+id: multibyte-tech
+word: "multibyte"
+part_of_speech: adjective
+meaning: "多字节的"
+context: "使用多个字节表示字符或数据单位。"
+example: "The round-trip tests include multibyte text."
+notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+audio: multibyte-tech.mp3
+tags:
+  - tech
+  - unicode
+  - adjective

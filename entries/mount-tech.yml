@@ -1,0 +1,12 @@
+id: mount-tech
+word: "mount"
+part_of_speech: verb
+meaning: "挂载"
+context: "创建并将组件或根节点接入实际渲染环境。"
+example: "Mount the inner root after its container commits."
+notes: "Source: react/react-37721.md (relative to docs/PR)."
+audio: mount-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

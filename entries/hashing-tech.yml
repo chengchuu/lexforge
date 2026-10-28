@@ -1,0 +1,12 @@
+id: hashing-tech
+word: "hashing"
+part_of_speech: noun
+meaning: "哈希计算"
+context: "将输入按算法映射为哈希值的过程。"
+example: "The build uses hashing for production cache entries."
+notes: "Source: react/react-37859.md (relative to docs/PR)."
+audio: hashing-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

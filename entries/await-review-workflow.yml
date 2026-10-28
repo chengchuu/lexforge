@@ -1,0 +1,12 @@
+id: await-review-workflow
+word: "await review"
+part_of_speech: phrase
+meaning: "等待审查"
+context: "工作已经提交或准备完成，正在等待他人检查。"
+example: "The existing contribution awaits review."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Source form: awaiting review. Source wording: awaiting review."
+audio: await-review-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

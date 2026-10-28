@@ -1,0 +1,13 @@
+id: actual-behavior-workflow
+word: "actual behavior"
+part_of_speech: noun
+meaning: "实际行为"
+context: "程序运行或检查中真正出现的行为。"
+example: "Compare the actual behavior with the expected result."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: actual-behavior-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - noun
+  - phrase

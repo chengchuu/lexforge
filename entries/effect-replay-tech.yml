@@ -1,0 +1,13 @@
+id: effect-replay-tech
+word: "effect replay"
+part_of_speech: noun
+meaning: "副作用重放"
+context: "再次执行 effect 的设置及相关清理流程，以检查生命周期行为。"
+example: "The fixture handles Strict Mode effect replay."
+notes: "Source: react/react-37721.md (relative to docs/PR)."
+audio: effect-replay-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun
+  - phrase

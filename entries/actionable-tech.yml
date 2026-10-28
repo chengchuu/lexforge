@@ -1,0 +1,12 @@
+id: actionable-tech
+word: "actionable"
+part_of_speech: adjective
+meaning: "可据以采取行动的"
+context: "信息足够具体且有证据支持，可以用于决定下一步。"
+example: "Report actionable candidates with reproduction evidence."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: actionable-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

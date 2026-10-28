@@ -1,0 +1,12 @@
+id: inaccessible-tech
+word: "inaccessible"
+part_of_speech: adjective
+meaning: "不可访问的"
+context: "某个类型或成员不能在当前使用位置被引用。"
+example: "Report the inaccessible type argument without crashing."
+notes: "Source: typescript/typescript-64952.md (relative to docs/PR)."
+audio: inaccessible-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

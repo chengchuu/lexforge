@@ -1,0 +1,12 @@
+id: traversal-tech
+word: "traversal"
+part_of_speech: noun
+meaning: "遍历"
+context: "按某种顺序访问结构中的节点或条目。"
+example: "Remove later candidates after traversal finishes."
+notes: "Source: typescript/typescript-64936.md (relative to docs/PR)."
+audio: traversal-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun

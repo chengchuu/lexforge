@@ -1,0 +1,12 @@
+id: coerce-tech
+word: "coerce"
+part_of_speech: verb
+meaning: "转换类型"
+context: "按照语言规则将一个值转换为另一种类型。"
+example: "The global isNaN function coerces strings before checking them."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR). Related form: coercion."
+audio: coerce-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

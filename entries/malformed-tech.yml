@@ -1,0 +1,12 @@
+id: malformed-tech
+word: "malformed"
+part_of_speech: adjective
+meaning: "格式错误的"
+context: "输入不符合所要求的结构或编码格式。"
+example: "Reject malformed marker text without silently rewriting it."
+notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+audio: malformed-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

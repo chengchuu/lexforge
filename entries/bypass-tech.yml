@@ -1,0 +1,12 @@
+id: bypass-tech
+word: "bypass"
+part_of_speech: verb
+meaning: "绕过"
+context: "跳过通常应经过的处理层或检查步骤。"
+example: "The native test bypasses the JavaScript bridge."
+notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+audio: bypass-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

@@ -1,0 +1,12 @@
+id: amend-git
+word: "amend"
+part_of_speech: verb
+meaning: "修改已有提交"
+context: "替换或修订最近一次或指定的已有提交内容。"
+example: "Do not amend another contribution's commit."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: amend-git.mp3
+tags:
+  - tech
+  - git
+  - verb

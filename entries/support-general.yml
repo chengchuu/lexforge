@@ -1,0 +1,12 @@
+id: support-general
+word: "support"
+part_of_speech: verb
+meaning: "支持；提供依据"
+context: "证据使某项判断更可信，但不一定单独构成完整证明。"
+example: "Source inspection supports the reported cause."
+notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR). Related form: supporting. Expression: supporting evidence. Pattern: supports the reported cause. Local inspection supports the reported cause."
+audio: support-general.mp3
+tags:
+  - general
+  - documentation
+  - verb

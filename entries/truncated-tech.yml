@@ -1,0 +1,12 @@
+id: truncated-tech
+word: "truncated"
+part_of_speech: adjective
+meaning: "被截断的"
+context: "内容提前结束，缺少本应存在的后续部分。"
+example: "The decoder rejects a truncated escape sequence."
+notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+audio: truncated-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

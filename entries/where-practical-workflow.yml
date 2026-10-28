@@ -1,0 +1,12 @@
+id: where-practical-workflow
+word: "where practical"
+part_of_speech: phrase
+meaning: "在实际可行时"
+context: "在现实条件允许且有意义的情况下采用某种方法。"
+example: "Use focused probes where practical."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: where-practical-workflow.mp3
+tags:
+  - tech
+  - documentation
+  - phrase

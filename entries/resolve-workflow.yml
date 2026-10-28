@@ -1,0 +1,12 @@
+id: resolve-workflow
+word: "resolve"
+part_of_speech: verb
+meaning: "解决；处理完毕"
+context: "消除问题或不确定性，使工作可以继续。"
+example: "Resolve the remaining validation failures before submission."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: resolve-workflow.mp3
+tags:
+  - tech
+  - programming
+  - verb

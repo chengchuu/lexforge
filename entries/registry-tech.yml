@@ -1,0 +1,12 @@
+id: registry-tech
+word: "registry"
+part_of_speech: noun
+meaning: "注册表；注册集合"
+context: "保存已注册对象或处理器的集合。"
+example: "The registry loses the counter after the first update."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: registry-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

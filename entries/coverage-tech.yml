@@ -1,0 +1,12 @@
+id: coverage-tech
+word: "coverage"
+part_of_speech: noun
+meaning: "覆盖范围"
+context: "测试或调查实际检查到的行为与场景。"
+example: "Runtime coverage includes both dispatcher layouts."
+notes: "Source: react/react-d-compiler.md (relative to docs/PR). Expressions: coverage gap; skipped coverage. Related expression: coverage gap."
+audio: coverage-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun

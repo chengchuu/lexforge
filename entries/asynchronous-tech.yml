@@ -1,0 +1,12 @@
+id: asynchronous-tech
+word: "asynchronous"
+part_of_speech: adjective
+meaning: "异步的"
+context: "操作的完成不要求按发起时的同步顺序发生。"
+example: "Ignore stale asynchronous compilation results."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: asynchronous-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

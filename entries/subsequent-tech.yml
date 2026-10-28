@@ -1,0 +1,12 @@
+id: subsequent-tech
+word: "subsequent"
+part_of_speech: adjective
+meaning: "后续的；随后的"
+context: "在某次操作或某个对象之后出现的。"
+example: "Subsequent files must use a fresh compilation guard."
+notes: "Source: react/react-37836.md (relative to docs/PR)."
+audio: subsequent-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

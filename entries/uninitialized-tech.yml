@@ -1,0 +1,12 @@
+id: uninitialized-tech
+word: "uninitialized"
+part_of_speech: adjective
+meaning: "未初始化的"
+context: "变量或状态尚未获得可供使用的初始值。"
+example: "The test distinguishes uninitialized reads from assignments."
+notes: "Source: typescript/typescript-64965.md (relative to docs/PR)."
+audio: uninitialized-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

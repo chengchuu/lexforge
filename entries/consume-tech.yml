@@ -1,0 +1,12 @@
+id: consume-tech
+word: "consume"
+part_of_speech: verb
+meaning: "读取并处理"
+context: "解析输入时处理一段内容，并将读取位置向后移动。"
+example: "Consume escaped backslashes before checking surrogate escapes."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR). Source wording: consuming escaped backslashes."
+audio: consume-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

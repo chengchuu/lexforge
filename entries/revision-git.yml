@@ -1,0 +1,12 @@
+id: revision-git
+word: "revision"
+part_of_speech: noun
+meaning: "代码版本；提交版本"
+context: "用于确定某一时刻代码状态的版本或提交。"
+example: "Reproduce the error on the revision before the fix."
+notes: "Source: react/react-37859.md (relative to docs/PR). Distinct from an editorial revision."
+audio: revision-git.mp3
+tags:
+  - tech
+  - git
+  - noun

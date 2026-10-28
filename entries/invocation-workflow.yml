@@ -1,0 +1,12 @@
+id: invocation-workflow
+word: "invocation"
+part_of_speech: noun
+meaning: "一次调用"
+context: "一次工具调用或任务启动及其执行过程。"
+example: "Measure elapsed time from the start of this invocation."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: invocation-workflow.mp3
+tags:
+  - tech
+  - devops
+  - noun

@@ -1,0 +1,12 @@
+id: generalize-general
+word: "generalize"
+part_of_speech: verb
+meaning: "推广；概括"
+context: "将有限场景中的结果扩展为更广泛的结论。"
+example: "Do not generalize synthetic results to every project."
+notes: "Source: AGENTS.md (relative to docs/PR). Source wording: generalizing synthetic results."
+audio: generalize-general.mp3
+tags:
+  - general
+  - documentation
+  - verb

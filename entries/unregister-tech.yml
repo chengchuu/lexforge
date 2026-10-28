@@ -1,0 +1,12 @@
+id: unregister-tech
+word: "unregister"
+part_of_speech: verb
+meaning: "取消注册"
+context: "将已注册对象从集合或机制中移除。"
+example: "Unregister the counter during cleanup."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: unregister-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

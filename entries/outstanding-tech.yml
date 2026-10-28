@@ -1,0 +1,12 @@
+id: outstanding-tech
+word: "outstanding"
+part_of_speech: adjective
+meaning: "尚未完成的"
+context: "工作或问题仍然等待处理。"
+example: "Native integration validation remains outstanding."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+audio: outstanding-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

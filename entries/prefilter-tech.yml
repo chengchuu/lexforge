@@ -1,0 +1,12 @@
+id: prefilter-tech
+word: "prefilter"
+part_of_speech: noun
+meaning: "预筛选器"
+context: "在完整处理前先判断哪些输入需要继续处理的步骤。"
+example: "The prefilter must not skip eligible functions."
+notes: "Source: react/react-37871.md (relative to docs/PR)."
+audio: prefilter-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun

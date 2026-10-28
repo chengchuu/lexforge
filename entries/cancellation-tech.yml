@@ -1,0 +1,12 @@
+id: cancellation-tech
+word: "cancellation"
+part_of_speech: noun
+meaning: "取消"
+context: "使正在进行或等待执行的操作停止继续。"
+example: "Preserve errors caused by external cancellation."
+notes: "Source: typescript/typescript-1.md (relative to docs/PR)."
+audio: cancellation-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

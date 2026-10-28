@@ -1,0 +1,12 @@
+id: imperative-general
+word: "imperative"
+part_of_speech: adjective
+meaning: "祈使语气的"
+context: "用动词原形表达指令或行动，常用于提交或 PR 标题。"
+example: "Use an imperative title for the pull request."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+audio: imperative-general.mp3
+tags:
+  - general
+  - documentation
+  - adjective

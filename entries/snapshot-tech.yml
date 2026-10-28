@@ -1,0 +1,12 @@
+id: snapshot-tech
+word: "snapshot"
+part_of_speech: noun
+meaning: "快照"
+context: "保存某次输出或状态，作为后续比较的依据。"
+example: "Update the snapshot to include the new diagnostic."
+notes: "Source: react/react-37871.md (relative to docs/PR)."
+audio: snapshot-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun

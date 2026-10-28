@@ -1,0 +1,12 @@
+id: accessor-tech
+word: "accessor"
+part_of_speech: noun
+meaning: "属性访问器"
+context: "控制属性读取或写入的成员。"
+example: "The transform must preserve static accessors."
+notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR)."
+audio: accessor-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun
