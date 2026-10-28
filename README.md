@@ -2,6 +2,16 @@
 
 LexForge turns English vocabulary from everyday technical work into contextual Anki cards. Git owns the vocabulary; Anki owns review history and scheduling.
 
+- [Quick start](#quick-start)
+- [Add vocabulary during work](#add-vocabulary-during-work)
+  - [Entry schema](#entry-schema)
+- [Set up Anki once](#set-up-anki-once)
+  - [Larger AnkiDroid answer buttons](#larger-ankidroid-answer-buttons)
+  - [Import and update](#import-and-update)
+  - [Audio](#audio)
+- [Verify changes](#verify-changes)
+- [Project layout](#project-layout)
+
 ## Quick start
 
 Install Go 1.25 or later. Run these commands from the repository root:
