@@ -91,30 +91,138 @@ Back template:
 ```html
 {{FrontSide}}
 <hr id="answer">
-{{#Pronunciation}}<div>{{Pronunciation}}</div>{{/Pronunciation}}
-{{#PartOfSpeech}}<div>{{PartOfSpeech}}</div>{{/PartOfSpeech}}
+{{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
+{{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
 <div class="meaning">{{Meaning}}</div>
-<div>{{Context}}</div>
+<div class="context">{{Context}}</div>
 <div class="example">{{Example}}</div>
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
-{{#Audio}}<div>{{Audio}}</div>{{/Audio}}
+{{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
 ```
 
 Styling:
 
 ```css
-.card {
+:root {
+  color-scheme: light;
+  --color-primary: #4d8ffb;
+  --color-on-primary: #141414;
+  --color-surface: #ffffff;
+  --color-heading: #2d2d2d;
+  --color-body: #626262;
+  --color-muted: #828282;
+  --color-divider: #f6f6f6;
+  --color-field: #ebebeb;
+  --color-focus: #d9d9d9;
+  --color-fieldset: #c0c0c0;
+  --color-code-bg: #eeeeee;
+  --color-code: #e83e8c;
+  --color-highlight: #fff9c0;
+}
+
+.card.nightMode {
+  color-scheme: dark;
+  --color-primary: #5089e8;
+  --color-surface: #141414;
+  --color-heading: #d6d6d6;
+  --color-body: #a5a5a5;
+  --color-muted: #878787;
+  --color-divider: #1d1d1d;
+  --color-field: #272727;
+  --color-focus: #373737;
+  --color-fieldset: #4e4e4e;
+  --color-code-bg: #242424;
+  --color-code: #d44386;
+  --color-highlight: #413f2b;
+}
+
+.card,
+.card.nightMode {
+  background: var(--color-surface);
+  color: var(--color-body);
+  margin: 0;
+  padding: 20px 16px 32px;
   font-family: sans-serif;
-  font-size: 20px;
+  font-size: 22px;
+  font-size: clamp(22px, 5.5vw, 26px);
   line-height: 1.5;
   text-align: left;
+  overflow-wrap: break-word;
   overflow-wrap: anywhere;
 }
-.english { font-size: 28px; font-weight: bold; }
-.meaning { margin-top: 16px; font-weight: bold; }
-.example { margin-top: 12px; }
-.notes { margin-top: 12px; font-size: 16px; }
+
+.english {
+  color: var(--color-heading);
+  font-size: 48px;
+  font-size: clamp(48px, 12vw, 56px);
+  font-weight: bold;
+  line-height: 1.15;
+}
+
+#answer {
+  max-width: 42rem;
+  margin: 24px 0 16px;
+  border: 0;
+  border-top: 1px solid var(--color-divider);
+}
+
+.pronunciation {
+  font-size: 20px;
+  font-size: clamp(20px, 5vw, 22px);
+}
+
+.part-of-speech,
+.notes {
+  font-size: 19px;
+  font-size: clamp(19px, 4.5vw, 20px);
+}
+
+/* Small metadata uses the body color in light mode for contrast. */
+.nightMode .pronunciation,
+.nightMode .part-of-speech,
+.nightMode .notes {
+  color: var(--color-muted);
+}
+
+.meaning {
+  margin-top: 20px;
+  color: var(--color-heading);
+  font-size: 26px;
+  font-size: clamp(26px, 7vw, 30px);
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.context,
+.example,
+.notes {
+  box-sizing: border-box;
+  max-width: 42rem;
+  margin-top: 16px;
+}
+
+.example {
+  padding-left: 14px;
+  border-left: 3px solid var(--color-fieldset);
+  font-size: 21px;
+  font-size: clamp(21px, 5.25vw, 24px);
+}
+
+.audio {
+  margin-top: 20px;
+}
+
+@media (min-width: 700px) {
+  .card,
+  .card.nightMode {
+    padding: 28px 32px 40px;
+  }
+}
 ```
+
+The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
+
+For an existing LexForge note type, replace its **Back Template** and **Styling** in **Cards**, then sync Anki Desktop and AnkiDroid. These presentation changes apply to existing cards without rebuilding or reimporting the TSV.
 
 If multiple meanings make the English-only prompt ambiguous, optionally add `{{Example}}` below `{{English}}` on the front. Keep translations on the back.
 
