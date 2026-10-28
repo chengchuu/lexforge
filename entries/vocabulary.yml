@@ -1,0 +1,11 @@
+id: vocabulary-general
+word: vocabulary
+part_of_speech: noun
+meaning: 词汇；词汇量
+context: 某种语言或领域使用的词汇，也可指一个人掌握的词汇。
+example: Reading technical documentation helps me expand my vocabulary.
+notes: Usually uncountable in this sense. Common usage includes "technical vocabulary" and "expand your vocabulary".
+audio: vocabulary-general.mp3
+tags:
+  - general
+  - noun
