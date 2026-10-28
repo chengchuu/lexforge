@@ -4,6 +4,7 @@ LexForge turns English vocabulary from everyday technical work into contextual A
 
 - [Quick start](#quick-start)
 - [Add vocabulary during work](#add-vocabulary-during-work)
+  - [Add vocabulary with Codex](#add-vocabulary-with-codex)
   - [Entry schema](#entry-schema)
 - [Set up Anki once](#set-up-anki-once)
   - [Larger AnkiDroid answer buttons](#larger-ankidroid-answer-buttons)
@@ -48,6 +49,55 @@ tags:
 ```
 
 Use separate IDs and descriptive filenames for distinct meanings, such as `commit-git` and `commit-general`. Changing an ID can create another Anki note. Renaming a source file while preserving its ID does not change its identity.
+
+### Add vocabulary with Codex
+
+Copy this prompt into Codex from the repository root. Replace the placeholders; context and audio are optional.
+
+```text
+Add the following vocabulary to LexForge.
+
+Words or expressions:
+- <word or expression>
+
+Language: <English, Japanese, Korean, or another language>
+Encountered in: <sentence, technical context, or intended meaning>
+Generate audio: <yes or no; default: no>
+
+Read AGENTS.md and inspect the current schema, existing entries,
+and available commands before making changes.
+
+Search for existing entries covering the same language and meaning.
+Reuse or update matching entries without changing their stable IDs.
+Create a separate entry only for a distinct meaning.
+
+For each entry:
+- Use a globally unique stable ID and lowercase kebab-case filename.
+- Add a concise Chinese meaning, practical context, and a natural
+  example in the vocabulary's language.
+- Prefer software-engineering usage when it matches the supplied context.
+- Follow existing tag conventions and omit unused optional fields.
+- Include pronunciation only when reliable. For Japanese, use kana
+  rather than romaji.
+- Preserve unrelated content and existing audio.
+
+Use only fields and language capabilities supported by the current
+implementation. A proposed plan is not an implemented feature.
+If the requested language is unsupported, explain the limitation
+before adding entries; do not change the schema or tooling.
+
+If audio is requested, use the existing generator only when it
+supports the entry's language and a suitable voice is available.
+Preserve existing recordings unless replacement is explicitly requested.
+Report unavailable audio without substituting another language's voice.
+
+Run validation and rebuild the Anki export using the documented commands.
+Never edit generated output manually.
+
+Review the diff and report added or updated entries, validation/build
+results, and any pronunciation or audio limitations.
+Do not commit, push, or modify the user's Anki collection.
+```
 
 ### Entry schema
 
