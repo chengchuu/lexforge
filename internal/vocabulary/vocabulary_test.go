@@ -12,6 +12,7 @@ import (
 )
 
 const validEntry = `id: idiomatic-tech
+language: en
 word: idiomatic
 meaning: 地道的；惯用的
 context: 符合某种语言惯用方式的。
@@ -127,7 +128,7 @@ func TestDuplicateIDsAndDeterministicErrors(t *testing.T) {
 	writeFile(t, root, "entries/a.yml", validEntry)
 	writeFile(t, root, "entries/c.yml", validEntry+"typo: value\n")
 	_, _, err := Load(root)
-	want := fmt.Sprintf("%s: duplicate id \"idiomatic-tech\" (also in %s); use a unique stable ID\n%s: line 6: unknown field \"typo\"; check the schema in README.md",
+	want := fmt.Sprintf("%s: duplicate id \"idiomatic-tech\" (also in %s); use a unique stable ID\n%s: line 7: unknown field \"typo\"; check the schema in README.md",
 		filepath.Join("entries", "b.yml"), filepath.Join("entries", "a.yml"), filepath.Join("entries", "c.yml"))
 	if err == nil || err.Error() != want {
 		t.Fatalf("want %q, got %v", want, err)
@@ -140,8 +141,8 @@ func TestDuplicateIDsAndDeterministicErrors(t *testing.T) {
 
 func TestDistinctMeaningsAndIDSorting(t *testing.T) {
 	root := t.TempDir()
-	writeFile(t, root, "entries/a.yml", "id: commit-git\nword: commit\nmeaning: 提交\ncontext: 保存一组 Git 更改。\nexample: Commit the fix.\n")
-	writeFile(t, root, "entries/z.yml", "id: commit-general\nword: Commit\nmeaning: 承诺\ncontext: 承诺投入时间或资源。\nexample: Commit to a schedule.\n")
+	writeFile(t, root, "entries/a.yml", "id: commit-git\nlanguage: en\nword: commit\nmeaning: 提交\ncontext: 保存一组 Git 更改。\nexample: Commit the fix.\n")
+	writeFile(t, root, "entries/z.yml", "id: commit-general\nlanguage: en\nword: Commit\nmeaning: 承诺\ncontext: 承诺投入时间或资源。\nexample: Commit to a schedule.\n")
 	entries, warnings, err := Load(root)
 	if err != nil {
 		t.Fatal(err)
@@ -171,7 +172,7 @@ func TestAudio(t *testing.T) {
 
 func TestExportEscapingAndMetadata(t *testing.T) {
 	entries := []Entry{{
-		ID: "example-tech", Word: "example", Pronunciation: "/test/", PartOfSpeech: "noun",
+		ID: "example-tech", Language: "en", Word: "example", Pronunciation: "/test/", PartOfSpeech: "noun",
 		Meaning: "示例", Context: "Use <div> & \"quotes\".\r\nNext\rLast",
 		Example: "one\ttwo", Notes: "Literal [sound:other.mp3]", Audio: "example-tech.mp3",
 		Tags: []string{"tech", "programming"},
@@ -180,18 +181,18 @@ func TestExportEscapingAndMetadata(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:10\n#columns:ID\tEnglish\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTags\n"
+	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:11\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTags\n"
 	if !bytes.HasPrefix(data, []byte(headers)) {
 		t.Fatalf("wrong headers: %s", data)
 	}
 	reader := csv.NewReader(bytes.NewReader(data[len(headers):]))
 	reader.Comma = '\t'
-	reader.FieldsPerRecord = 10
+	reader.FieldsPerRecord = 11
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := [][]string{{"example-tech", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "programming tech"}}
+	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "lang-en programming tech"}}
 	if !reflect.DeepEqual(rows, want) {
 		t.Fatalf("want %#v, got %#v", want, rows)
 	}

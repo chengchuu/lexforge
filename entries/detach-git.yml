@@ -1,4 +1,5 @@
 id: detach-git
+language: en
 word: "detach"
 part_of_speech: verb
 meaning: "分离 HEAD"

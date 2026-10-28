@@ -14,7 +14,7 @@ import (
 func fakeAudioTools(t *testing.T, hook func(string, []string) error) func() (audioTools, error) {
 	t.Helper()
 	return func() (audioTools, error) {
-		return audioTools{say: "say", lame: "lame", decoder: "mpg123", run: func(name string, args ...string) ([]byte, error) {
+		return audioTools{voices: parseVoices("Samantha en_US"), say: "say", lame: "lame", decoder: "mpg123", run: func(name string, args ...string) ([]byte, error) {
 			if hook != nil {
 				if err := hook(name, args); err != nil {
 					return nil, err
@@ -62,11 +62,7 @@ func TestAudioPrerequisites(t *testing.T) {
 			t.Fatalf("missing %s: %v", missing, err)
 		}
 	}
-	for _, output := range []string{"", "Samantha2 en_US", "Samantha en_GB"} {
-		if _, err := findAudioTools("darwin", lookup, func(string, ...string) ([]byte, error) { return []byte(output), nil }); err == nil {
-			t.Fatalf("accepted voice list %q", output)
-		}
-	}
+
 	if _, err := findAudioTools("darwin", lookup, func(string, ...string) ([]byte, error) { return nil, errors.New("voice failure") }); err == nil {
 		t.Fatal("ignored voice-list failure")
 	}
@@ -83,8 +79,8 @@ func TestInsertAudioPreservesYAML(t *testing.T) {
 		validEntry + "notes: 'quoted: text'\n... # end\n",
 		validEntry + "notes: |+\n  Keep the trailing blank line.\n\n",
 		validEntry + "notes: |\n  ...\n  This is literal text.\n",
-		"{id: idiomatic-tech, word: idiomatic, meaning: natural, context: usage, example: Use idiomatic Go.}\n",
-		"!!map # a comment containing {\n{id: idiomatic-tech, word: idiomatic, meaning: natural, context: usage, example: Use idiomatic Go.}\n",
+		"{id: idiomatic-tech, language: en, word: idiomatic, meaning: natural, context: usage, example: Use idiomatic Go.}\n",
+		"!!map # a comment containing {\n{id: idiomatic-tech, language: en, word: idiomatic, meaning: natural, context: usage, example: Use idiomatic Go.}\n",
 	} {
 		updated, err := insertAudio([]byte(data), "idiomatic-tech.mp3")
 		if err != nil {
@@ -284,7 +280,7 @@ func TestAudioRejectsEmptyEncoderOutput(t *testing.T) {
 	root := t.TempDir()
 	writeFile(t, root, "entries/idiomatic.yml", validEntry)
 	_, _, err := generateAudio(root, AudioOptions{All: true}, io.Discard, func() (audioTools, error) {
-		return audioTools{say: "say", lame: "lame", decoder: "mpg123", run: func(name string, args ...string) ([]byte, error) {
+		return audioTools{voices: parseVoices("Samantha en_US"), say: "say", lame: "lame", decoder: "mpg123", run: func(name string, args ...string) ([]byte, error) {
 			if name == "lame" {
 				return nil, os.WriteFile(args[len(args)-1], nil, 0644)
 			}

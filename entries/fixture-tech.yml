@@ -1,4 +1,5 @@
 id: fixture-tech
+language: en
 word: "fixture"
 part_of_speech: noun
 meaning: "测试或演示样例"

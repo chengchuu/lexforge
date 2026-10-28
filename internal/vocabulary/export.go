@@ -7,6 +7,7 @@ import (
 	"html"
 	"os"
 	"path/filepath"
+	"slices"
 	"sort"
 	"strings"
 )
@@ -49,12 +50,12 @@ func Build(root string) (int, []string, error) {
 
 func render(entries []Entry) ([]byte, error) {
 	var output bytes.Buffer
-	output.WriteString("#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:10\n")
-	output.WriteString("#columns:ID\tEnglish\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTags\n")
+	output.WriteString("#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:11\n")
+	output.WriteString("#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTags\n")
 	writer := csv.NewWriter(&output)
 	writer.Comma = '\t'
 	for _, entry := range entries {
-		fields := []string{entry.ID, entry.Word, entry.Pronunciation, entry.PartOfSpeech, entry.Meaning, entry.Context, entry.Example, entry.Notes}
+		fields := []string{entry.ID, entry.Language, entry.Word, entry.Pronunciation, entry.PartOfSpeech, entry.Meaning, entry.Context, entry.Example, entry.Notes}
 		for i := range fields {
 			fields[i] = displayText(fields[i])
 		}
@@ -63,7 +64,9 @@ func render(entries []Entry) ([]byte, error) {
 			audio = "[sound:" + entry.Audio + "]"
 		}
 		tags := append([]string(nil), entry.Tags...)
+		tags = append(tags, "lang-"+strings.ToLower(entry.Language))
 		sort.Strings(tags)
+		tags = slices.Compact(tags)
 		fields = append(fields, audio, strings.Join(tags, " "))
 		if err := writer.Write(fields); err != nil {
 			return nil, err

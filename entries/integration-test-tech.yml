@@ -1,4 +1,5 @@
 id: integration-test-tech
+language: en
 word: "integration test"
 part_of_speech: noun
 meaning: "集成测试"

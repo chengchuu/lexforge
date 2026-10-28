@@ -10,15 +10,19 @@ import (
 	"path/filepath"
 	"runtime"
 	"slices"
+	"strconv"
 	"strings"
 
 	"go.yaml.in/yaml/v3"
 )
 
 type AudioOptions struct {
-	ID        string
-	All       bool
-	Overwrite bool
+	ID         string
+	All        bool
+	Overwrite  bool
+	Voice      string
+	Rate       int
+	TextSource string
 }
 
 type AudioSummary struct {
@@ -36,6 +40,7 @@ func GenerateAudio(root string, options AudioOptions, output io.Writer) (AudioSu
 
 type audioTools struct {
 	say, lame, decoder string
+	voices             []speechVoice
 	run                func(string, ...string) ([]byte, error)
 }
 
@@ -65,7 +70,7 @@ func (t audioTools) decode(path string) error {
 func findAudioTools(platform string, lookup func(string) (string, error), run func(string, ...string) ([]byte, error)) (audioTools, error) {
 	t := audioTools{run: run}
 	if platform != "darwin" {
-		return t, errors.New("audio generation requires macOS with the Samantha voice")
+		return t, errors.New("audio generation requires macOS")
 	}
 	for _, tool := range []struct {
 		name string
@@ -81,19 +86,26 @@ func findAudioTools(platform string, lookup func(string) (string, error), run fu
 	if err != nil {
 		return t, fmt.Errorf("list macOS voices: %w", err)
 	}
-	for _, line := range strings.Split(string(voices), "\n") {
-		fields := strings.Fields(line)
-		if len(fields) >= 2 && fields[0] == "Samantha" && fields[1] == "en_US" {
-			return t, nil
-		}
-	}
-	return t, errors.New("Samantha (en_US) is unavailable; install the voice in macOS settings before generating audio")
+	t.voices = parseVoices(string(voices))
+	return t, nil
 }
 
 func generateAudio(root string, options AudioOptions, output io.Writer, prepare func() (audioTools, error)) (AudioSummary, []string, error) {
 	var summary AudioSummary
 	if options.All == (options.ID != "") {
 		return summary, nil, errors.New("select exactly one of --id <stable-id> or --all")
+	}
+	if options.Rate < 0 {
+		return summary, nil, errors.New("--rate must be positive or zero for the default")
+	}
+	if options.TextSource == "" {
+		options.TextSource = "word"
+	}
+	if options.TextSource != "word" && options.TextSource != "pronunciation" {
+		return summary, nil, errors.New("--text-source must be word or pronunciation")
+	}
+	if options.All && (options.Voice != "" || options.Rate != 0 || options.TextSource != "word") {
+		return summary, nil, errors.New("--voice, --rate, and --text-source pronunciation require --id")
 	}
 	entries, warnings, err := Load(root)
 	if err != nil {
@@ -111,12 +123,32 @@ func generateAudio(root string, options AudioOptions, output io.Writer, prepare 
 		}
 		entries = selected
 	}
+	if options.TextSource == "pronunciation" {
+		if err := validateKanaReading(entries[0]); err != nil {
+			return summary, warnings, err
+		}
+	}
 	t, err := prepare()
 	if err != nil {
 		return summary, warnings, err
 	}
+	settings := make(map[string]speechSettings)
 	for _, entry := range entries {
-		status, err := t.process(root, entry, options.Overwrite)
+		_, statErr := os.Lstat(filepath.Join(root, "media", entry.ID+".mp3"))
+		if !options.Overwrite && (entry.Audio != "" || statErr == nil) {
+			continue
+		}
+		if statErr != nil && !os.IsNotExist(statErr) {
+			return summary, warnings, fmt.Errorf("%s: %w", entry.ID, statErr)
+		}
+		speech, err := selectSpeech(entry, options, t.voices)
+		if err != nil {
+			return summary, warnings, fmt.Errorf("%s: %w", entry.ID, err)
+		}
+		settings[entry.ID] = speech
+	}
+	for _, entry := range entries {
+		status, err := t.process(root, entry, options.Overwrite, settings[entry.ID])
 		if err != nil {
 			return summary, warnings, fmt.Errorf("%s (%s): %w", entry.ID, entry.sourcePath, err)
 		}
@@ -156,7 +188,7 @@ func sourceUnchanged(path string, expected []byte) error {
 	return nil
 }
 
-func (t audioTools) process(root string, entry Entry, overwrite bool) (string, error) {
+func (t audioTools) process(root string, entry Entry, overwrite bool, speech speechSettings) (string, error) {
 	source := filepath.Join(root, entry.sourcePath)
 	if err := sourceUnchanged(source, entry.sourceData); err != nil {
 		return "", err
@@ -192,6 +224,9 @@ func (t audioTools) process(root string, entry Entry, overwrite bool) (string, e
 		}
 		return "reused", replaceSource(source, entry.sourceData, updated)
 	}
+	if speech.voice == "" {
+		return "", errors.New("audio disappeared after preflight; rerun to select a voice")
+	}
 	if err := os.MkdirAll(media, 0755); err != nil {
 		return "", err
 	}
@@ -203,10 +238,15 @@ func (t audioTools) process(root string, entry Entry, overwrite bool) (string, e
 	textPath := filepath.Join(tmp, "word.txt")
 	aiff := filepath.Join(tmp, "speech.aiff")
 	mp3 := filepath.Join(tmp, "speech.mp3")
-	if err := os.WriteFile(textPath, []byte(entry.Word), 0600); err != nil {
+	if err := os.WriteFile(textPath, []byte(speech.text), 0600); err != nil {
 		return "", err
 	}
-	if _, err := t.run(t.say, "-v", "Samantha", "-r", "150", "-f", textPath, "-o", aiff); err != nil {
+	args := []string{"-v", speech.voice}
+	if speech.rate > 0 {
+		args = append(args, "-r", strconv.Itoa(speech.rate))
+	}
+	args = append(args, "-f", textPath, "-o", aiff)
+	if _, err := t.run(t.say, args...); err != nil {
 		return "", err
 	}
 	if _, err := t.run(t.lame, "--silent", "-m", "m", "-b", "96", aiff, mp3); err != nil {
@@ -327,7 +367,7 @@ func checkAudioInsertion(before, after []byte, filename string) ([]byte, error) 
 		return nil, fmt.Errorf("cannot insert audio without changing YAML structure: %w", err)
 	}
 	original.Audio = filename
-	if original.ID != updated.ID || original.Word != updated.Word ||
+	if original.ID != updated.ID || original.Language != updated.Language || original.Word != updated.Word ||
 		original.Pronunciation != updated.Pronunciation || original.PartOfSpeech != updated.PartOfSpeech ||
 		original.Meaning != updated.Meaning || original.Context != updated.Context ||
 		original.Example != updated.Example || original.Notes != updated.Notes ||

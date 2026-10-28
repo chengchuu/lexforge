@@ -1,4 +1,5 @@
 id: pinned-checkout-workflow
+language: en
 word: "pinned checkout"
 part_of_speech: noun
 meaning: "固定版本的检出目录"

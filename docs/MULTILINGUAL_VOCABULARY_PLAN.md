@@ -1,6 +1,6 @@
 # Multilingual Vocabulary Plan
 
-Status: Proposed. Implementation requires explicit approval. Creating this plan does not authorize schema, vocabulary, template, or audio changes.
+Implementation requires explicit approval. Creating this plan does not authorize schema, vocabulary, template, or audio changes.
 
 ## Goal
 
@@ -57,10 +57,10 @@ Audio
 - Rename the exported `English` field to `Word`; update headers, field mapping, templates, and documentation together.
 - Retain `dist/vocabulary.tsv` as the single export. Preserve deterministic ordering, escaping, audio references, and safe replacement after validation.
 - Derive one lowercase language tag for filtering, using `lang-` plus the lowercase canonical language tag, such as `lang-en` or `lang-en-us`. Merge it with source tags, deduplicate, and sort without modifying source tags.
-- Show only `Word` on the front. Repeat it on the back through `FrontSide`, followed by pronunciation, part of speech, meaning, context, example, notes, and audio.
+- Show `Word`, optional pronunciation, and optional audio on the front. Render each side explicitly rather than using `FrontSide`, so these fields appear once per side. The back adds part of speech, meaning, context, example, and notes.
 - Preserve optional-field conditionals, mobile typography, light/dark styling, and top alignment. Rename English-specific CSS classes and selectors consistently.
 
-For Japanese, show the original Japanese expression on both sides and reveal its kana reading on the back. For example, `確認` appears on both sides, with `かくにん` and the Chinese meaning on the back. Use Japanese example sentences. Do not use romaji as the Japanese pronunciation convention.
+For Japanese, show the original Japanese expression and its kana reading on both sides. For example, `確認` and `かくにん` appear on both sides, with the Chinese meaning on the back. Use Japanese example sentences. Do not use romaji as the Japanese pronunciation convention.
 
 Use language-appropriate pronunciation conventions for other languages. Keep meanings in concise Chinese and explanations practical. Furigana, pitch-accent notation, reverse cards, and additional pronunciation fields are outside this implementation.
 

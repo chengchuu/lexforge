@@ -1,4 +1,5 @@
 id: negative-lookbehind-tech
+language: en
 word: "negative lookbehind"
 part_of_speech: noun
 meaning: "否定后行断言"

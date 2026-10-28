@@ -1,4 +1,5 @@
 id: amend-git
+language: en
 word: "amend"
 part_of_speech: verb
 meaning: "修改已有提交"

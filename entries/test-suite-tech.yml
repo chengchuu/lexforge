@@ -1,4 +1,5 @@
 id: test-suite-tech
+language: en
 word: "test suite"
 part_of_speech: noun
 meaning: "测试套件"

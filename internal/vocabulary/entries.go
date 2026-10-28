@@ -14,10 +14,12 @@ import (
 	"unicode"
 
 	"go.yaml.in/yaml/v3"
+	"golang.org/x/text/language"
 )
 
 type Entry struct {
 	ID            string
+	Language      string
 	Word          string
 	Pronunciation string
 	PartOfSpeech  string
@@ -79,7 +81,7 @@ func Load(root string) ([]Entry, []string, error) {
 		} else {
 			ids[entry.ID] = path
 		}
-		word := strings.ToLower(strings.Join(strings.Fields(entry.Word), " "))
+		word := entry.Language + "\x00" + strings.ToLower(strings.Join(strings.Fields(entry.Word), " "))
 		if previous, ok := words[word]; ok {
 			warnings = append(warnings, fmt.Sprintf("%s: word %q also appears in %s; review meaning and context before keeping both entries", path, entry.Word, previous))
 		} else {
@@ -118,7 +120,7 @@ func parse(data []byte) (Entry, error) {
 		return entry, errors.New("expected a YAML mapping of vocabulary fields")
 	}
 	fields := map[string]*string{
-		"id": &entry.ID, "word": &entry.Word, "pronunciation": &entry.Pronunciation,
+		"id": &entry.ID, "language": &entry.Language, "word": &entry.Word, "pronunciation": &entry.Pronunciation,
 		"part_of_speech": &entry.PartOfSpeech, "meaning": &entry.Meaning,
 		"context": &entry.Context, "example": &entry.Example, "notes": &entry.Notes,
 		"audio": &entry.Audio,
@@ -164,11 +166,19 @@ func parse(data []byte) (Entry, error) {
 		}
 		*destination = value.Value
 	}
-	for _, name := range []string{"id", "word", "meaning", "context", "example"} {
+	for _, name := range []string{"id", "language", "word", "meaning", "context", "example"} {
 		if !seen[name] {
 			return entry, fmt.Errorf("missing required field %q", name)
 		}
 	}
+	if strings.Contains(entry.Language, "_") {
+		return entry, errors.New(`field "language": use BCP 47 hyphens, not underscores`)
+	}
+	tag, err := language.Parse(entry.Language)
+	if err != nil {
+		return entry, fmt.Errorf("field %q: %w", "language", err)
+	}
+	entry.Language = tag.String()
 	return entry, nil
 }
 

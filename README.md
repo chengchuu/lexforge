@@ -1,6 +1,6 @@
 # LexForge
 
-LexForge turns English vocabulary from everyday technical work into contextual Anki cards. Git owns the vocabulary; Anki owns review history and scheduling.
+LexForge turns vocabulary in English, Japanese, Korean, and other languages from everyday work into contextual Anki cards. Git owns the vocabulary; Anki owns review history and scheduling.
 
 - [Quick start](#quick-start)
 - [Add vocabulary during work](#add-vocabulary-during-work)
@@ -37,6 +37,7 @@ For example, `entries/idiomatic.yml` can contain:
 
 ```yaml
 id: idiomatic-tech
+language: en
 word: idiomatic
 pronunciation: /ˌɪdiəˈmætɪk/
 part_of_speech: adjective
@@ -101,7 +102,13 @@ Do not commit, push, or modify the user's Anki collection.
 
 ### Entry schema
 
-Required string fields are `id`, `word`, `meaning`, `context`, and `example`.
+`language` is a BCP 47 tag, parsed with `golang.org/x/text/language` v0.38.0. Use `en`, `ja`, `ko`, `fr`, or a more specific tag such as `en-US` or `zh-Hant`. Underscores are rejected. Parser errors, including unknown subtags, fail validation. Case and deprecated aliases are canonicalized internally and in exports, without rewriting source spelling. Valid private-use tags and extensions are accepted according to the parser; they do not guarantee an available speech voice.
+
+Exports derive a lowercase `lang-<canonical-tag>` Anki tag, deduplicated with source tags. IDs remain globally unique. Use descriptive Latin kebab-case filenames for Japanese and Korean entries too.
+
+For Japanese, `word: 確認` and `pronunciation: かくにん` show 確認 and its kana reading on both sides. Use a Japanese example, such as 設定を確認してください。 Meanings remain concise Chinese. Romanized Japanese readings, furigana markup, and pitch-accent fields are not required.
+
+Required string fields are `id`, `language`, `word`, `meaning`, `context`, and `example`.
 
 Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audio`. `tags` is an optional list of strings. Omit unused optional fields instead of adding empty strings, nulls, or empty lists.
 
@@ -109,24 +116,25 @@ Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audi
 - Keep one YAML mapping in each file directly under `entries/`. Nested directories, symlinks, aliases, merge keys, unknown fields, and duplicate keys are rejected. Dot-prefixed files are ignored.
 - Quote text that YAML would interpret as a number or boolean, and text containing `: ` or other YAML syntax.
 - Tabs and line breaks are supported in text; other control characters are rejected.
-- Use concise Chinese meanings and practical context; examples normally use English. Keep text as plain text, not HTML or Markdown formatting.
-- Add IPA only when verified or supplied reliably. The sample IPA comes from the project specification; other samples omit it.
+- Use concise Chinese meanings and practical context; examples use the entry’s language. Keep text as plain text, not HTML or Markdown formatting.
+- Use verified IPA for English and kana readings for Japanese; omit uncertain pronunciation. The sample IPA comes from the project specification; other samples omit it.
 - Use `audio: <id>.mp3` only after adding the corresponding file to `media/`.
 
 Validation rejects missing or blank required fields, incorrect types, invalid names or tags, duplicate IDs or tags, and missing or empty referenced audio files. Errors go to stderr and return a nonzero exit status.
 
-Repeated words produce warnings for human review, including when their capitalization or whitespace differs. Distinct meanings remain valid. This check does not infer semantic equivalence or detect synonyms. Warnings do not block a build.
+Repeated words within the same canonical language tag produce warnings for human review, including when their capitalization or whitespace differs. Distinct meanings remain valid. This check does not infer semantic equivalence or detect synonyms. Warnings do not block a build.
 
 ## Set up Anki once
 
-Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains ten columns: nine note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
+Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains eleven columns: ten note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
 1. In **Tools → Manage Note Types**, clone the **Basic** note type and name it `LexForge`.
-2. In **Fields**, rename `Front` to `ID` and `Back` to `English`. Add the remaining fields in this exact order:
+2. In **Fields**, rename `Front` to `ID` and `Back` to `Language`. Add the remaining fields in this exact order:
 
    ```text
    ID
-   English
+   Language
+   Word
    Pronunciation
    PartOfSpeech
    Meaning
@@ -140,10 +148,12 @@ Use a current Anki Desktop release. These instructions require Anki 2.1.58 or la
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
 5. Create a deck named `LexForge`, or choose another deck for this collection.
 
+If you previously used the English-only setup, the new export requires the field order above and the updated templates. For a fresh collection, recreate the note type and import the rebuilt export. Deleting and recreating notes discards their review history; do not do this to a collection whose scheduling you want to preserve.
+
 Front template:
 
 ```html
-<div class="english">{{English}}</div>
+<div class="word">{{Word}}</div>
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
 {{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
 ```
@@ -151,7 +161,7 @@ Front template:
 Back template:
 
 ```html
-<div class="english">{{English}}</div>
+<div class="word">{{Word}}</div>
 <hr id="answer">
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
 {{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
@@ -213,7 +223,7 @@ Styling:
   overflow-wrap: anywhere;
 }
 
-.english {
+.word {
   color: var(--color-heading);
   font-size: 48px;
   font-size: clamp(48px, 12vw, 56px);
@@ -233,7 +243,7 @@ Styling:
   font-size: clamp(20px, 5vw, 22px);
 }
 
-.english + .pronunciation {
+.word + .pronunciation {
   margin-top: 12px;
 }
 
@@ -288,11 +298,11 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows IPA when the `Pronunciation` field is populated and a playback control when `Audio` is populated. Entries without IPA still show their English text and audio. Both templates include their own audio field so pronunciation appears once per side and audio remains available on both sides. See Anki's [field replacements and audio behavior](https://docs.ankiweb.net/templates/fields.html#special-fields).
+The front shows the word, pronunciation, and audio when available. Each side renders these fields explicitly, so pronunciation and audio appear once per side. The back adds part of speech, meaning, context, examples, and notes. Japanese pronunciation uses kana.
 
-For an existing LexForge note type, replace its **Front Template**, **Back Template**, and **Styling** in **Cards**, then sync Anki Desktop and AnkiDroid. These presentation changes apply to existing cards without rebuilding or reimporting the TSV. Editing this README does not update an installed note type automatically.
+For an existing LexForge note type, replace its **Front Template**, **Back Template**, and **Styling** in **Cards**, then sync Anki Desktop and AnkiDroid. Rebuild and reimport the TSV when changing from the old English-only fields; later styling-only edits do not require reimport. Editing this README does not update an installed note type automatically.
 
-If multiple meanings make the English-only prompt ambiguous, optionally add `{{Example}}` below `{{English}}` on the front. Keep translations on the back.
+If multiple meanings make the prompt ambiguous, optionally add `{{Example}}` below `{{Word}}` on the front. Keep translations on the back.
 
 ### Larger AnkiDroid answer buttons
 
@@ -304,7 +314,7 @@ These are AnkiDroid controls outside the card content. Change their size in the 
 
 1. Build `dist/vocabulary.tsv`.
 2. In Anki Desktop, import the TSV and select the `LexForge` note type and your deck.
-3. Verify the preview: tab separator, HTML enabled, columns 1–9 mapped to the matching fields, and column 10 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
+3. Verify the preview: tab separator, HTML enabled, columns 1–10 mapped to the matching fields, and column 11 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
 4. Choose to **update** existing notes. Use **note type** as the match scope, rather than note type and deck. Keep these settings for later imports.
 5. Import, inspect a card, and sync with AnkiWeb. Then sync AnkiDroid to review on mobile.
 
@@ -316,20 +326,26 @@ The exporter escapes plain text for HTML display and converts line breaks to `<b
 
 ### Audio
 
-Generate pronunciation audio locally on macOS with the Samantha (US English) voice, LAME CLI, and `mpg123`. Install the command-line tools yourself if needed:
+Generate pronunciation audio locally on macOS with an installed language-matching voice, LAME CLI, and `mpg123`. Install the command-line tools yourself if needed:
 
 ```bash
 brew install lame mpg123
 ```
 
-The command checks these prerequisites and the voice before processing entries; it does not install anything or call a remote service. Run it from the repository root:
+The command checks these prerequisites and voices needed for new recordings before processing entries; it does not install anything or call a remote service. Run it from the repository root:
 
 ```bash
 go run scripts/audio/main.go --id preserve-tech
 go run scripts/audio/main.go --all
 ```
 
-Select exactly one of `--id` or `--all`. The command validates the collection first, reads each selected entry's `word`, and generates `media/<id>.mp3` using Samantha at 150 words per minute and LAME at 96 kbps mono. It requires decoded audio samples before adding the `audio` field, preserving the entry's other content and formatting. A successful decoder exit without samples is rejected. Unverified IPA can remain omitted even when audio is available.
+Select exactly one of `--id` or `--all`. The command validates the collection first, reads each selected entry's `word`, and generates `media/<id>.mp3` using the selected voice and LAME at 96 kbps mono. It requires decoded audio samples before adding the `audio` field, preserving the entry's other content and formatting. A successful decoder exit without samples is rejected. Unverified IPA can remain omitted even when audio is available.
+
+Bare `en`, `ja`, and `ko` prefer Samantha, Kyoko, and Yuna respectively when installed. English defaults to 150 words per minute; other languages use the selected voice's native rate. Japanese and Korean native rates are starting points that need listening review, not a claim of pronunciation quality. Explicit regional tags require a matching region. Other languages use a unique matching installed voice; ambiguous or unavailable matches produce an actionable error.
+
+Inspect installed voices with `say -v '?'`. For a single entry, choose `--voice "Voice Name"` or `--rate 160`. An explicit voice may select a different region of the same language, but cannot substitute another language. `--rate 0` uses the language default. These overrides require `--id`.
+
+For an ambiguous Japanese kanji reading, add `--text-source pronunciation` to a single-entry command. This speaks the verified kana reading instead of `word` and rejects missing, non-kana, or non-Japanese readings. It does not guarantee correct pitch accent. No voice selection is needed to validate or export vocabulary.
 
 Existing referenced audio is skipped. A correctly named MP3 without an `audio` reference is decode-checked and reused. Replace a recording only when intended:
 

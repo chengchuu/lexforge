@@ -14,14 +14,14 @@ Repository name:
 lexforge
 ```
 
-LexForge is a Git-native personal English vocabulary system.
+LexForge is a Git-native personal multilingual vocabulary system.
 
 Its purpose is to turn useful words encountered during everyday technical work into structured vocabulary entries that can be exported to Anki and reviewed with AnkiDroid.
 
 Primary learning direction:
 
 ```text
-English → Meaning + Context
+Word → Meaning + Context
 ```
 
 ---
@@ -176,6 +176,7 @@ The initial vocabulary schema should support:
 
 ```text
 id
+language
 word
 pronunciation
 part_of_speech
@@ -191,6 +192,7 @@ Example:
 
 ```yaml
 id: idiomatic-tech
+language: en
 word: idiomatic
 pronunciation: /ˌɪdiəˈmætɪk/
 part_of_speech: adjective
@@ -212,6 +214,7 @@ At minimum, an entry should contain:
 
 ```text
 id
+language
 word
 meaning
 context
@@ -294,7 +297,7 @@ Avoid unnecessary abbreviations in filenames.
 
 When creating or updating vocabulary, prioritize:
 
-- common modern English
+- common modern usage in the entry’s language
 - real-world usage
 - technical usage when relevant
 - concise meanings
@@ -347,7 +350,7 @@ The primary `meaning` field may use concise Chinese translations.
 
 The `context` field should explain the practical meaning naturally.
 
-The `example` field should normally be English.
+The `example` field should use the entry’s language.
 
 Example:
 
@@ -391,7 +394,7 @@ Avoid awkward textbook-style sentences.
 
 When pronunciation is included, use a consistent format.
 
-Prefer IPA.
+Use verified IPA for English and kana readings for Japanese. Use language-appropriate conventions for other languages.
 
 Example:
 
@@ -592,7 +595,8 @@ Recommended generated fields:
 
 ```text
 ID
-English
+Language
+Word
 Pronunciation
 PartOfSpeech
 Meaning
@@ -655,7 +659,7 @@ Rules:
 
 - use the stable entry ID
 - do not regenerate existing audio unless requested
-- prefer neutral, clear English pronunciation
+- prefer neutral, clear pronunciation in the entry’s language
 - keep the audio generation implementation replaceable
 - do not bind the vocabulary schema to one TTS provider
 
@@ -885,6 +889,7 @@ Recommended order:
 
 ```text
 id
+language
 word
 pronunciation
 part_of_speech
@@ -1149,3 +1154,11 @@ Find word
 ```
 
 Every implementation decision should make that workflow simpler, safer, or more maintainable.
+
+## Multilingual Entries
+
+Require a standard BCP 47 `language` tag with no project-specific allowlist. Use `ko` for Korean and `ja` for Japanese. Validation uses a standards-aware parser; internal and exported tags are canonicalized without rewriting source spelling. Duplicate-word warnings are scoped by canonical language, while stable IDs remain globally unique.
+
+Use Chinese meanings, practical context, and examples in the vocabulary language. Japanese cards show the original expression and kana readings on both sides, with optional audio once per side. Render each side explicitly; keep meanings on the back. Keep language metadata separate from lowercase vocabulary tags; export derives `lang-<canonical-tag>` automatically.
+
+Use the documented local macOS audio command with language-matching voices. Never substitute an English voice for another language. Voice and rate overrides belong to CLI options, not vocabulary data. A valid language does not require an installed voice for validation or export.
