@@ -1,0 +1,16 @@
+id: pronunciation-general
+word: pronunciation
+pronunciation: /prəˌnʌnsiˈeɪʃn/
+part_of_speech: noun
+meaning: 发音；读音
+context: 指单词或语言的读法，也可指一个人的发音方式。
+example: Listen to the recording to check the pronunciation of this word.
+notes: >-
+  Related verb: pronounce. The noun is spelled "pronunciation", not "pronounciation".
+  Common usage includes "clear pronunciation" and "improve your pronunciation".
+  American IPA verified against Oxford Advanced American Dictionary:
+  https://www.oxfordlearnersdictionaries.com/definition/american_english/pronunciation
+audio: pronunciation-general.mp3
+tags:
+  - general
+  - noun

@@ -326,4 +326,4 @@ scripts/audio/         Local macOS pronunciation command
 dist/                  Generated Anki TSV; ignored by Git
 ```
 
-[GOAL.md](GOAL.md) defines project direction. [AGENTS.md](AGENTS.md) defines coding-agent conventions.
+[AGENTS.md](AGENTS.md) defines coding-agent conventions.

@@ -24,8 +24,6 @@ Primary learning direction:
 English → Meaning + Context
 ```
 
-Read `GOAL.md` before making architectural or behavioral changes.
-
 ---
 
 ## User Background
@@ -156,7 +154,6 @@ Prefer the following structure unless there is a strong reason to change it:
 ```text
 lexforge/
 ├── README.md
-├── GOAL.md
 ├── AGENTS.md
 ├── entries/
 ├── media/
@@ -930,11 +927,9 @@ Do not let documentation drift from implementation.
 - how to import into Anki
 - how audio works
 
-`GOAL.md` defines project direction.
-
 `AGENTS.md` defines how coding agents should work.
 
-Do not duplicate large sections unnecessarily across all three files.
+Do not duplicate large sections unnecessarily across both files.
 
 ---
 
@@ -1064,16 +1059,15 @@ Do not create excessive test infrastructure for trivial code.
 
 Before considering a task complete:
 
-1. review `GOAL.md`
-2. inspect existing conventions
-3. keep the change scoped
-4. run formatting
-5. run validation
-6. run relevant tests
-7. run the build if affected
-8. inspect the Git diff
-9. confirm no secrets were added
-10. report important changes and limitations
+1. inspect existing conventions
+2. keep the change scoped
+3. run formatting
+4. run validation
+5. run relevant tests
+6. run the build if affected
+7. inspect the Git diff
+8. confirm no secrets were added
+9. report important changes and limitations
 
 ---
 
