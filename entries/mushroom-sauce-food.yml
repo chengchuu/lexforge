@@ -1,0 +1,10 @@
+id: mushroom-sauce-food
+language: en
+word: "mushroom sauce"
+part_of_speech: noun
+meaning: "蘑菇酱汁"
+context: "以蘑菇为主要食材或风味的酱汁，可搭配肉类。"
+example: "The chicken comes with mushroom sauce."
+tags:
+  - noun
+  - food

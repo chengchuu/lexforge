@@ -1,0 +1,10 @@
+id: fish-food
+language: en
+word: "fish"
+part_of_speech: noun
+meaning: "鱼；鱼肉"
+context: "在餐食选择中通常指供食用的鱼肉或鱼类菜肴。"
+example: "The fish comes with potatoes."
+tags:
+  - noun
+  - food

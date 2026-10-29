@@ -1,0 +1,11 @@
+id: chicken-with-rice-airline
+language: en
+word: "chicken with rice"
+part_of_speech: phrase
+meaning: "鸡肉配米饭"
+context: "航班餐食选项中的搭配描述；with 引出配菜或酱汁。"
+example: "Would you like chicken with rice or beef with noodles?"
+tags:
+  - phrase
+  - food
+  - airline

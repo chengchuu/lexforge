@@ -1,0 +1,11 @@
+id: roast-chicken-with-potatoes-airline
+language: en
+word: "roast chicken with potatoes"
+part_of_speech: phrase
+meaning: "烤鸡配土豆"
+context: "航班餐食选项中的搭配描述；with 引出配菜或酱汁。"
+example: "Would you like roast chicken with potatoes or beef with rice?"
+tags:
+  - phrase
+  - food
+  - airline

@@ -1,0 +1,11 @@
+id: sweet-and-sour-pork-with-rice-airline
+language: en
+word: "sweet and sour pork with rice"
+part_of_speech: phrase
+meaning: "糖醋猪肉配米饭"
+context: "航班餐食选项中的搭配描述；with 引出配菜或酱汁。"
+example: "Would you like sweet and sour pork with rice or chicken noodles?"
+tags:
+  - phrase
+  - food
+  - airline

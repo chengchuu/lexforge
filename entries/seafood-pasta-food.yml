@@ -1,0 +1,10 @@
+id: seafood-pasta-food
+language: en
+word: "seafood pasta"
+part_of_speech: noun
+meaning: "海鲜意面"
+context: "搭配海鲜的意大利面类餐食。"
+example: "Would you like pork with rice or seafood pasta?"
+tags:
+  - noun
+  - food

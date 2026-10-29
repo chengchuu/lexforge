@@ -1,0 +1,10 @@
+id: chicken-pasta-food
+language: en
+word: "chicken pasta"
+part_of_speech: noun
+meaning: "鸡肉意面"
+context: "搭配鸡肉的意大利面类餐食。"
+example: "Would you like chicken pasta or pork with rice?"
+tags:
+  - noun
+  - food

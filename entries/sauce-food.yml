@@ -1,0 +1,10 @@
+id: sauce-food
+language: en
+word: "sauce"
+part_of_speech: noun
+meaning: "酱汁"
+context: "用于搭配或调味的液体、半流质酱料。"
+example: "Is there sauce on the chicken?"
+tags:
+  - noun
+  - food

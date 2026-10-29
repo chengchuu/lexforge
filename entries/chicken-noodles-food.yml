@@ -1,0 +1,10 @@
+id: chicken-noodles-food
+language: en
+word: "chicken noodles"
+part_of_speech: noun
+meaning: "鸡肉面"
+context: "以鸡肉搭配面条的菜肴，具体做法取决于菜单。"
+example: "We have chicken noodles today."
+tags:
+  - noun
+  - food

@@ -1,0 +1,10 @@
+id: roast-food
+language: en
+word: "roast"
+part_of_speech: adjective
+meaning: "烤制的；烘烤的"
+context: "放在食物名称前，说明食物采用烤制方式。"
+example: "The roast chicken comes with potatoes."
+tags:
+  - adjective
+  - food

@@ -1,0 +1,10 @@
+id: beef-food
+language: en
+word: "beef"
+part_of_speech: noun
+meaning: "牛肉"
+context: "航空餐食和日常餐饮中常见的肉类选项。"
+example: "The beef is served with rice."
+tags:
+  - noun
+  - food

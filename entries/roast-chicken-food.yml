@@ -1,0 +1,10 @@
+id: roast-chicken-food
+language: en
+word: "roast chicken"
+part_of_speech: noun
+meaning: "烤鸡"
+context: "采用烤制方式烹饪的鸡肉，可指整鸡或分份鸡肉。"
+example: "Would you like roast chicken with potatoes?"
+tags:
+  - noun
+  - food

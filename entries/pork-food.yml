@@ -1,0 +1,10 @@
+id: pork-food
+language: en
+word: "pork"
+part_of_speech: noun
+meaning: "猪肉"
+context: "指作为食物的猪肉，可搭配米饭或面条。"
+example: "Would you like pork with rice?"
+tags:
+  - noun
+  - food

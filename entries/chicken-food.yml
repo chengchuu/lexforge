@@ -1,0 +1,10 @@
+id: chicken-food
+language: en
+word: "chicken"
+part_of_speech: noun
+meaning: "鸡肉"
+context: "指作为食物的鸡肉，而不是活鸡。"
+example: "Would you like chicken or beef?"
+tags:
+  - noun
+  - food

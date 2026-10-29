@@ -1,0 +1,11 @@
+id: beef-with-noodles-airline
+language: en
+word: "beef with noodles"
+part_of_speech: phrase
+meaning: "牛肉配面条"
+context: "航班餐食选项中的搭配描述；with 引出配菜或酱汁。"
+example: "Would you like chicken with rice or beef with noodles?"
+tags:
+  - phrase
+  - food
+  - airline

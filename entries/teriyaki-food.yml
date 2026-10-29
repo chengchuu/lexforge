@@ -1,0 +1,10 @@
+id: teriyaki-food
+language: en
+word: "teriyaki"
+part_of_speech: adjective
+meaning: "照烧"
+context: "在菜名中作修饰语，表示使用照烧酱调味的做法或风味。"
+example: "We have teriyaki chicken with rice."
+tags:
+  - adjective
+  - food

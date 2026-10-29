@@ -1,0 +1,11 @@
+id: fish-with-rice-airline
+language: en
+word: "fish with rice"
+part_of_speech: phrase
+meaning: "鱼肉配米饭"
+context: "航班餐食选项中的搭配描述；with 引出配菜或酱汁。"
+example: "Would you like fish with rice or beef with noodles?"
+tags:
+  - phrase
+  - food
+  - airline

@@ -1,0 +1,10 @@
+id: mashed-food
+language: en
+word: "mashed"
+part_of_speech: adjective
+meaning: "捣碎的；做成泥的"
+context: "描述食物被压碎或捣成泥状，常见于土豆配菜。"
+example: "The chicken is served with mashed potatoes."
+tags:
+  - adjective
+  - food

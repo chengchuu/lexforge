@@ -1,0 +1,10 @@
+id: teriyaki-chicken-food
+language: en
+word: "teriyaki chicken"
+part_of_speech: noun
+meaning: "照烧鸡肉"
+context: "使用照烧酱调味的鸡肉菜肴。"
+example: "The teriyaki chicken is served with rice."
+tags:
+  - noun
+  - food
