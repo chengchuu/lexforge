@@ -162,7 +162,7 @@ Back template:
 
 ```html
 <div class="word">{{Word}}</div>
-<hr id="answer">
+<hr class="answer-divider">
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
 {{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
 <div class="meaning">{{Meaning}}</div>
@@ -231,7 +231,7 @@ Styling:
   line-height: 1.15;
 }
 
-#answer {
+.answer-divider {
   max-width: 42rem;
   margin: 24px 0 16px;
   border: 0;
