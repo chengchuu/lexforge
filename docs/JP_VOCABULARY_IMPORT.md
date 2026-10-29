@@ -89,6 +89,10 @@ Learning units: [nani-ga-seigi-da](../entries/nani-ga-seigi-da.yml), [jiyuu](../
 
 ## Audio, export, and verification
 
+### Import verification before audio generation
+
+The following records the vocabulary import and grouping checks before the separately approved audio follow-up below.
+
 All 181 new entries use `language: ja`, retain the approved Japanese reading, and omit audio. Existing English entries and recordings are preserved. No audio was generated or replaced. Anki collections, review state, synchronization, and AnkiDroid were not modified. The schema, templates, dependencies, and Go tooling remain unchanged.
 
 - `go test ./...`: passed.
@@ -101,6 +105,14 @@ All 181 new entries use `language: ja`, retain the approved Japanese reading, an
 - All 346 pre-existing entry files and 284 MP3 files remained byte-identical. The media directory is unchanged.
 - The five existing duplicate-word warnings concern distinct English senses of artifact, literal, resolve, revision, and scope. This batch adds no duplicate-word warnings.
 - No Anki import, device rendering, audio generation, or listening verification was performed. The supplied readings and source attributions were preserved without claiming independent verification.
+
+### Audio follow-up
+
+- Generated 181 Japanese recordings with the local Kyoko voice from the supplied kana readings, plus 62 missing English recordings with Samantha from their words. All 527 entries now reference an MP3.
+- Japanese speech input preserves ordinary sentence punctuation and omits `～`/`〜` grammar placeholders. The source readings, words, IDs, and other existing fields remain unchanged; only audio references were added to the 243 entries.
+- All 284 existing MP3 files retain their original SHA-256 hashes. Each new recording passed decoding with nonempty audio samples before its reference was added.
+- Focused speech-input regression tests, `go test ./...`, `go vet ./...`, vocabulary validation, and `git diff --check` passed. Two export builds produced identical bytes, with 527 eleven-column rows and matching audio references.
+- Audio was not auditioned; pronunciation and pitch accent are not independently verified. No Anki import, sync, or review-state changes were made.
 
 ## Approved item index
 

@@ -6,5 +6,6 @@ part_of_speech: pronoun
 meaning: "那个；那件事"
 context: "指前文提到或靠近对方的事物。"
 example: "それは何ですか。"
+audio: sore.mp3
 tags:
   - pronoun

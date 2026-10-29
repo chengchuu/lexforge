@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "神"
 context: "表示神或神明，不限定某一作品中的角色。"
 example: "神に祈ります。"
+audio: kami.mp3
 tags:
   - noun

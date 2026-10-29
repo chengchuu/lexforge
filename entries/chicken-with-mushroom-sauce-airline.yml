@@ -5,6 +5,7 @@ part_of_speech: phrase
 meaning: "蘑菇汁鸡肉"
 context: "航班餐食选项中的搭配描述；with 引出配菜或酱汁。"
 example: "Would you like chicken with mushroom sauce or beef pasta?"
+audio: chicken-with-mushroom-sauce-airline.mp3
 tags:
   - phrase
   - food

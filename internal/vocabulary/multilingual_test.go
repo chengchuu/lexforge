@@ -112,10 +112,12 @@ func TestAudioPreflightAndUnsupportedReuse(t *testing.T) {
 
 func TestMultilingualAudioArguments(t *testing.T) {
 	for _, tc := range []struct {
-		lang, word, reading, voice string
-		rate                       int
+		lang, word, reading, voice, spoken string
+		rate                               int
 	}{
-		{"ja", "確認", "かくにん", "Kyoko", 180}, {"ko", "확인", "", "Yuna", 0},
+		{"ja", "確認", "かくにん", "Kyoko", "かくにん", 180},
+		{"ja", "何が～だ", "なにが～だ！", "Kyoko", "なにがだ！", 0},
+		{"ko", "확인", "", "Yuna", "확인", 0},
 	} {
 		t.Run(tc.lang, func(t *testing.T) {
 			root := t.TempDir()
@@ -150,11 +152,7 @@ func TestMultilingualAudioArguments(t *testing.T) {
 				if err != nil {
 					return err
 				}
-				want := tc.word
-				if tc.reading != "" {
-					want = tc.reading
-				}
-				if string(input) != want {
+				if string(input) != tc.spoken {
 					t.Fatalf("wrong speech input %q", input)
 				}
 				return nil
@@ -166,6 +164,10 @@ func TestMultilingualAudioArguments(t *testing.T) {
 			})
 			if err != nil || !called || summary.Generated != 1 {
 				t.Fatalf("%+v %v", summary, err)
+			}
+			updated, err := os.ReadFile(filepath.Join(root, "entries/word.yml"))
+			if err != nil || strings.Replace(string(updated), "audio: idiomatic-tech.mp3\n", "", 1) != data {
+				t.Fatalf("source fields changed: %s; %v", updated, err)
 			}
 		})
 	}
@@ -202,6 +204,29 @@ func TestKanaUnicodeForms(t *testing.T) {
 	for _, reading := range []string{"\u3099", "ﾞ", "ｶﾞa"} {
 		if err := validateKanaReading(Entry{Language: "ja", Pronunciation: reading}); err == nil {
 			t.Errorf("accepted invalid kana %q", reading)
+		}
+	}
+}
+
+func TestKanaSpeechPunctuationAndPlaceholders(t *testing.T) {
+	voices := parseVoices("Kyoko ja_JP")
+	for _, tc := range []struct{ reading, spoken string }{
+		{"～になる", "になる"},
+		{"〜てみる", "てみる"},
+		{"なにが～だ", "なにがだ"},
+		{"いっぺん、しんでみる？", "いっぺん、しんでみる？"},
+		{"「レリーズ！」（かいじょ）。…", "「レリーズ！」（かいじょ）。…"},
+		{"か\u3099〜", "か\u3099"},
+	} {
+		entry := Entry{Language: "ja", Pronunciation: tc.reading}
+		speech, err := selectSpeech(entry, AudioOptions{TextSource: "pronunciation"}, voices)
+		if err != nil || speech.text != tc.spoken || entry.Pronunciation != tc.reading {
+			t.Errorf("reading %q: speech %+v, error %v", tc.reading, speech, err)
+		}
+	}
+	for _, reading := range []string{"～〜？！…", "解除！", "レリーズrelease", "かくにん123", "かくにん[[rate 1]]", "~になる"} {
+		if err := validateKanaReading(Entry{Language: "ja", Pronunciation: reading}); err == nil {
+			t.Errorf("accepted invalid reading %q", reading)
 		}
 	}
 }

@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "钱"
 context: "日常表示钱，常用于支付、金额或生活开支。"
 example: "お金を払います。"
+audio: okane.mp3
 tags:
   - noun

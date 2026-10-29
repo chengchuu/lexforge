@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "我叫……；我是……"
 context: "在姓名后接「と申します」，用于正式或礼貌的自我介绍。"
 example: "森本と申します。よろしくお願いいたします。"
+audio: to-moushimasu-grammar.mp3
 tags:
   - phrase
   - formal

@@ -6,5 +6,6 @@ part_of_speech: verb
 meaning: "自报姓名；自称"
 context: "表示报出自己的姓名或自称某种身份，本身不保证身份真实。"
 example: "電話では、まず名前を名乗ります。"
+audio: nanoru.mp3
 tags:
   - verb

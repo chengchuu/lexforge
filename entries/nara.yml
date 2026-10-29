@@ -6,5 +6,6 @@ part_of_speech: proper noun
 meaning: "奈良"
 context: "日本地名，具体指城市或地区时需结合上下文。"
 example: "奈良へ行きます。"
+audio: nara.mp3
 tags:
   - proper-noun

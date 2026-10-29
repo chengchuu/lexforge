@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "动漫周边"
 context: "与动画作品或角色相关的周边商品。"
 example: "アニメグッズを集めています。"
+audio: anime-guzzu.mp3
 tags:
   - noun

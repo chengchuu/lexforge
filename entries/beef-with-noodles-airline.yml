@@ -5,6 +5,7 @@ part_of_speech: phrase
 meaning: "牛肉配面条"
 context: "航班餐食选项中的搭配描述；with 引出配菜或酱汁。"
 example: "Would you like chicken with rice or beef with noodles?"
+audio: beef-with-noodles-airline.mp3
 tags:
   - phrase
   - food

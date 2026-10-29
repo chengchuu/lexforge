@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "小猫"
 context: "指年幼的猫，不必带有亲昵称呼的意味。"
 example: "子猫が遊んでいます。"
+audio: koneko.mp3
 tags:
   - noun

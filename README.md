@@ -345,7 +345,7 @@ Bare `en`, `ja`, and `ko` prefer Samantha, Kyoko, and Yuna respectively when ins
 
 Inspect installed voices with `say -v '?'`. For a single entry, choose `--voice "Voice Name"` or `--rate 160`. An explicit voice may select a different region of the same language, but cannot substitute another language. `--rate 0` uses the language default. These overrides require `--id`.
 
-For an ambiguous Japanese kanji reading, add `--text-source pronunciation` to a single-entry command. This speaks the verified kana reading instead of `word` and rejects missing, non-kana, or non-Japanese readings. It does not guarantee correct pitch accent. No voice selection is needed to validate or export vocabulary.
+For a Japanese entry, add `--text-source pronunciation` to a single-entry command to speak its supplied kana reading instead of `word`. This accepts ordinary sentence punctuation and removes the grammar placeholders `～` and `〜` from speech input only; the YAML reading stays unchanged. It rejects missing readings, readings without kana, unsupported characters, and non-Japanese entries. It does not guarantee correct pitch accent. No voice selection is needed to validate or export vocabulary.
 
 Existing referenced audio is skipped. A correctly named MP3 without an `audio` reference is decode-checked and reused. Replace a recording only when intended:
 

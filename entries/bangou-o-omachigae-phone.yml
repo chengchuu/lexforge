@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "您可能打错号码了吧？"
 context: "接到疑似打错的电话时，委婉请对方检查号码。"
 example: "失礼ですが、番号をお間違えではないでしょうか。"
+audio: bangou-o-omachigae-phone.mp3
 tags:
   - phrase
   - phone

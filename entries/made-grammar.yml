@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "直到……；到……为止"
 context: "标记时间、地点或过程的终点，句中也可接在动词后。"
 example: "駅まで歩きます。"
+audio: made-grammar.mp3
 tags:
   - phrase
   - grammar

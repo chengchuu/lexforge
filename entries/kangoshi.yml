@@ -6,6 +6,7 @@ part_of_speech: noun
 meaning: "护士"
 context: "医院等场所中的护理专业人员，不限定性别。"
 example: "看護師に相談しました。"
+audio: kangoshi.mp3
 tags:
   - noun
   - hospital

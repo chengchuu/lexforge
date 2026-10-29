@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "要不要死一次看看？"
 context: "所给《地獄少女》短句，保留带威胁感的反问语气。"
 example: "いっぺん、死んでみる？"
+audio: ippen-shinde-miru.mp3
 tags:
   - phrase
   - anime

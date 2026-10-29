@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "树木"
 context: "较书面地称呼树木，常用于环境或植物描述。"
 example: "公園の樹木を観察します。"
+audio: jumoku.mp3
 tags:
   - noun

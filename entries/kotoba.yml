@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "话；语言；言辞"
 context: "可指词语、语言或说过的话。"
 example: "この言葉の意味を教えてください。"
+audio: kotoba.mp3
 tags:
   - noun

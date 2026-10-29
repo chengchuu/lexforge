@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "我不是您要找的那个人"
 context: "电话中礼貌说明自己不是对方所找的人。"
 example: "申し訳ありませんが、私はその方ではありません。"
+audio: watashi-wa-sono-kata-dewa-arimasen.mp3
 tags:
   - phrase
   - phone

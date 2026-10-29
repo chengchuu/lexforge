@@ -6,5 +6,6 @@ part_of_speech: phrase
 meaning: "有电话；接到电话"
 context: "表示有来电或接到电话，过去的来电常用「ありました」。"
 example: "病院から電話がありました。"
+audio: denwa-ga-aru.mp3
 tags:
   - phrase

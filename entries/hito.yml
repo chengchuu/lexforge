@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "人"
 context: "表示人，也可在上下文中指他人。"
 example: "あの人は先生です。"
+audio: hito.mp3
 tags:
   - noun

@@ -6,5 +6,6 @@ part_of_speech: pronoun
 meaning: "大家；所有人"
 context: "指大家或全部相关对象，是日常口语表达。"
 example: "みんなで食事をします。"
+audio: minna.mp3
 tags:
   - pronoun

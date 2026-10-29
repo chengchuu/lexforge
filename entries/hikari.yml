@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "光"
 context: "表示光线，也可在比喻中表示希望。"
 example: "窓から光が入ってきます。"
+audio: hikari.mp3
 tags:
   - noun

@@ -6,5 +6,6 @@ part_of_speech: phrase
 meaning: "这个号码"
 context: "指正在谈论或显示的这个号码。"
 example: "この番号でよろしいですか。"
+audio: kono-bangou.mp3
 tags:
   - phrase

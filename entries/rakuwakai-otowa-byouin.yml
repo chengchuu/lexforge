@@ -6,6 +6,7 @@ part_of_speech: proper noun
 meaning: "洛和会音羽医院"
 context: "所给医院名称，用于识别和朗读名称，不表示已核实任何来电身份。"
 example: "「洛和会音羽病院」の読み方を確認します。"
+audio: rakuwakai-otowa-byouin.mp3
 tags:
   - proper-noun
   - hospital

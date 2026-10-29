@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "号码"
 context: "泛指号码或编号，具体类别由上下文决定。"
 example: "番号を確認してください。"
+audio: bangou.mp3
 tags:
   - noun

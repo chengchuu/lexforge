@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "用于说明、解释或强调"
 context: "口语中用于说明、解释或强调；名词和な形容词后通常用「なんだ」。"
 example: "明日は休みなんだ。"
+audio: nda-grammar.mp3
 tags:
   - phrase
   - grammar

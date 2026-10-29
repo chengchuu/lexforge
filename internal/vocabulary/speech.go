@@ -45,7 +45,7 @@ func selectSpeech(entry Entry, options AudioOptions, voices []speechVoice) (spee
 		if err := validateKanaReading(entry); err != nil {
 			return result, err
 		}
-		result.text = entry.Pronunciation
+		result.text = kanaSpeechText(entry.Pronunciation)
 	}
 	if result.rate == 0 && base.String() == "en" {
 		result.rate = 150
@@ -89,21 +89,26 @@ func selectSpeech(entry Entry, options AudioOptions, voices []speechVoice) (spee
 	return result, fmt.Errorf("language %s has %d matching voices [%s]; install a matching voice or select one with --id and --voice", entry.Language, len(matches), strings.Join(names, ", "))
 }
 
+// Grammar placeholders are display notation, not spoken content.
+func kanaSpeechText(reading string) string {
+	return strings.NewReplacer("～", "", "〜", "").Replace(reading)
+}
+
 func validateKanaReading(entry Entry) error {
 	if strings.Split(entry.Language, "-")[0] != "ja" || entry.Pronunciation == "" {
 		return fmt.Errorf("--text-source pronunciation requires a Japanese entry with a kana reading")
 	}
 	hasKana := false
 	// Accept decomposed and half-width kana without rewriting source or speech text.
-	for _, r := range norm.NFKC.String(entry.Pronunciation) {
+	for _, r := range norm.NFKC.String(kanaSpeechText(entry.Pronunciation)) {
 		if unicode.In(r, unicode.Hiragana, unicode.Katakana) {
 			hasKana = true
 			continue
 		}
-		if unicode.IsSpace(r) || strings.ContainsRune("ー・", r) {
+		if unicode.IsSpace(r) || strings.ContainsRune("ー・、。!?.,…「」『』()", r) {
 			continue
 		}
-		return fmt.Errorf("pronunciation must contain kana only for speech; found %q", r)
+		return fmt.Errorf("pronunciation must contain kana, sentence punctuation, or ～/〜 placeholders for speech; found %q", r)
 	}
 	if !hasKana {
 		return fmt.Errorf("pronunciation must contain a kana reading")

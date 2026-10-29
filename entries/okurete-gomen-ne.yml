@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "抱歉我迟到了"
 context: "向熟人说明自己迟到并道歉。"
 example: "遅れてごめんね。電車が遅れたんだ。"
+audio: okurete-gomen-ne.mp3
 tags:
   - phrase
   - daily

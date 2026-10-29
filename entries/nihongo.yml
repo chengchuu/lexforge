@@ -6,5 +6,6 @@ part_of_speech: noun
 meaning: "日语"
 context: "指日语，可用于说明学习内容或沟通语言。"
 example: "日本語を勉強しています。"
+audio: nihongo.mp3
 tags:
   - noun

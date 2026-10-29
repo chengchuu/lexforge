@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "这算什么……；还谈什么……"
 context: "反问式地否定或质疑对方的说法，不是中性的定义提问。"
 example: "何が正義だ！"
+audio: nani-ga-da-rhetorical.mp3
 tags:
   - phrase
   - grammar
