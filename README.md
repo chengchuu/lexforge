@@ -303,6 +303,50 @@ Styling:
   align-items: center;
 }
 
+.pronunciation-row .audio .replay-button,
+.pronunciation-row .audio .replaybutton {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.pronunciation-row .audio .replay-button span,
+.pronunciation-row .audio .replaybutton span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+.pronunciation-row .audio .replay-button svg,
+.pronunciation-row .audio .replay-button img,
+.pronunciation-row .audio .replaybutton svg,
+.pronunciation-row .audio .replaybutton img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  min-width: 24px;
+  min-height: 24px;
+  max-width: 24px;
+  max-height: 24px;
+}
+
+.pronunciation-row .audio .replay-button:focus,
+.pronunciation-row .audio .replaybutton:focus {
+  outline: 2px solid var(--color-heading);
+  outline-offset: 2px;
+}
+
 .pronunciation + .audio {
   margin-left: 8px;
 }
@@ -352,6 +396,10 @@ Styling:
 .example-speech a:focus {
   outline: 2px solid var(--color-heading);
   outline-offset: 2px;
+}
+
+.example-speech a:focus:not(:focus-visible) {
+  outline: none;
 }
 
 @media (min-width: 700px) {
