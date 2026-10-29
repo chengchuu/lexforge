@@ -1,6 +1,7 @@
 id: callback-tech
 language: en
 word: "callback"
+pronunciation: /ˈkɔlbæk/
 part_of_speech: noun
 meaning: "回调函数"
 context: "传给其他代码、在指定时机由其调用的函数。"

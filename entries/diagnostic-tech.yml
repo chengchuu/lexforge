@@ -1,6 +1,7 @@
 id: diagnostic-tech
 language: en
 word: "diagnostic"
+pronunciation: /ˌdaɪəɡˈnɑstɪk/
 part_of_speech: noun
 meaning: "诊断信息"
 context: "编译器或语言工具报告的错误、警告等信息。"

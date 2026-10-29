@@ -1,11 +1,12 @@
 id: native-addon-tech
 language: en
 word: "native addon"
+pronunciation: /ˈneɪtɪv ˈædɑn/
 part_of_speech: noun
 meaning: "原生扩展"
 context: "由宿主环境加载并调用的原生代码组件。"
 example: "Rebuild the native addon before running the fixtures."
-notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+notes: "Source: react/reports/react-b-plan.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: native-addon-tech.mp3
 tags:
   - tech

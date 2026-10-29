@@ -1,11 +1,12 @@
 id: test-suite-tech
 language: en
 word: "test suite"
+pronunciation: /tɛst swit/
 part_of_speech: noun
 meaning: "测试套件"
 context: "一起组织和执行的一组测试。"
 example: "Run the full test suite after the focused checks pass."
-notes: "Source: react/react-37757.md (relative to docs/PR). Source wording: full Flight fixture suite."
+notes: "Source: react/react-37757.md (relative to docs/PR). Source wording: full Flight fixture suite. IPA composed from verified American English component pronunciations."
 audio: test-suite-tech.mp3
 tags:
   - tech

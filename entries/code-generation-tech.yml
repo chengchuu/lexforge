@@ -1,11 +1,12 @@
 id: code-generation-tech
 language: en
 word: "code generation"
+pronunciation: /koʊd ˌdʒɛnəˈreɪʃn/
 part_of_speech: noun
 meaning: "代码生成"
 context: "将内部表示转换为输出代码的过程。"
 example: "Code generation emits negative zero explicitly."
-notes: "Source: react/react-37995.md (relative to docs/PR)."
+notes: "Source: react/react-37995.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: code-generation-tech.mp3
 tags:
   - tech

@@ -1,6 +1,7 @@
 id: artifact-tech
 language: en
 word: artifact
+pronunciation: /ˈɑrtəˌfækt/
 part_of_speech: noun
 meaning: 构建产物
 context: 构建、编译或 CI 流程生成的文件，例如可执行文件、安装包或测试报告。

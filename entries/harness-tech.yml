@@ -1,6 +1,7 @@
 id: harness-tech
 language: en
 word: "harness"
+pronunciation: /ˈhɑrnəs/
 part_of_speech: noun
 meaning: "测试驱动程序"
 context: "为测试组织运行环境、执行步骤和结果检查的辅助程序。"

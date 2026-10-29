@@ -1,6 +1,7 @@
 id: registry-tech
 language: en
 word: "registry"
+pronunciation: /ˈrɛdʒəstri/
 part_of_speech: noun
 meaning: "注册表；注册集合"
 context: "保存已注册对象或处理器的集合。"

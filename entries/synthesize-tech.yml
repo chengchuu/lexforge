@@ -1,6 +1,7 @@
 id: synthesize-tech
 language: en
 word: "synthesize"
+pronunciation: /ˈsɪnθəˌsaɪz/
 part_of_speech: verb
 meaning: "合成；构造"
 context: "编译器根据规则创建源代码中未直接写出的结构或信息。"

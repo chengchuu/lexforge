@@ -1,6 +1,7 @@
 id: benchmark-tech
 language: en
 word: "benchmark"
+pronunciation: /ˈbɛntʃmɑrk/
 part_of_speech: noun
 meaning: "性能基准测试"
 context: "使用明确的任务负载衡量性能表现。"

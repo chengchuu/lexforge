@@ -1,6 +1,7 @@
 id: anonymous-tech
 language: en
 word: "anonymous"
+pronunciation: /əˈnɑnəməs/
 part_of_speech: adjective
 meaning: "匿名的"
 context: "代码实体没有显式声明的名称。"

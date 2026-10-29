@@ -1,6 +1,7 @@
 id: staged-git
 language: en
 word: "staged"
+pronunciation: /steɪdʒd/
 part_of_speech: adjective
 meaning: "已暂存的"
 context: "更改已加入 Git 索引，准备进入下一次提交。"

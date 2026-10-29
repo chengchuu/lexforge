@@ -1,11 +1,12 @@
 id: hashing-tech
 language: en
 word: "hashing"
+pronunciation: /ˈhæʃɪŋ/
 part_of_speech: noun
 meaning: "哈希计算"
 context: "将输入按算法映射为哈希值的过程。"
 example: "The build uses hashing for production cache entries."
-notes: "Source: react/react-37859.md (relative to docs/PR)."
+notes: "Source: react/react-37859.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: hashing-tech.mp3
 tags:
   - tech

@@ -1,6 +1,7 @@
 id: runtime-tech
 language: en
 word: "runtime"
+pronunciation: /ˈrʌntaɪm/
 part_of_speech: noun
 meaning: "运行时；运行支持组件"
 context: "指程序实际执行的阶段，也可指支持其执行的组件。"

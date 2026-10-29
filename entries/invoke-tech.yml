@@ -1,6 +1,7 @@
 id: invoke-tech
 language: en
 word: "invoke"
+pronunciation: /ɪnˈvoʊk/
 part_of_speech: verb
 meaning: "调用"
 context: "执行函数、方法或访问器。"

@@ -1,11 +1,12 @@
 id: regression-test-tech
 language: en
 word: "regression test"
+pronunciation: /rɪˈɡrɛʃn tɛst/
 part_of_speech: noun
 meaning: "回归测试"
 context: "针对特定问题设置的测试，用来验证修复并防止问题再次出现。"
 example: "Add a regression test that fails before the fix."
-notes: "Source: react/react-37898.md (relative to docs/PR)."
+notes: "Source: react/react-37898.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: regression-test-tech.mp3
 tags:
   - tech

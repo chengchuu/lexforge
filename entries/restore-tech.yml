@@ -1,6 +1,7 @@
 id: restore-tech
 language: en
 word: "restore"
+pronunciation: /rɪˈstɔr/
 part_of_speech: verb
 meaning: "恢复"
 context: "将数据或运行状态恢复到先前的值。"

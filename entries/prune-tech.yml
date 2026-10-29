@@ -1,6 +1,7 @@
 id: prune-tech
 language: en
 word: "prune"
+pronunciation: /prun/
 part_of_speech: verb
 meaning: "剪除；删减"
 context: "分析之后移除被判定不需要的分支或候选项。"

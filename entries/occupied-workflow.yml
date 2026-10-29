@@ -1,6 +1,7 @@
 id: occupied-workflow
 language: en
 word: "occupied"
+pronunciation: /ˈɑkjəˌpaɪd/
 part_of_speech: adjective
 meaning: "被占用的"
 context: "某个资源正被其他任务使用，当前任务不能再次占用。"

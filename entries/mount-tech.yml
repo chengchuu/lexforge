@@ -1,6 +1,7 @@
 id: mount-tech
 language: en
 word: "mount"
+pronunciation: /maʊnt/
 part_of_speech: verb
 meaning: "挂载"
 context: "创建并将组件或根节点接入实际渲染环境。"

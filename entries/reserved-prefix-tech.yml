@@ -1,11 +1,12 @@
 id: reserved-prefix-tech
 language: en
 word: "reserved prefix"
+pronunciation: /rɪˈzərvd ˈprifɪks/
 part_of_speech: noun
 meaning: "保留前缀"
 context: "为内部表示或协议专门保留的开头部分。"
 example: "Escape every literal occurrence of the reserved prefix."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: reserved-prefix-tech.mp3
 tags:
   - tech

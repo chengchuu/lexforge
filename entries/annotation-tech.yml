@@ -1,6 +1,7 @@
 id: annotation-tech
 language: en
 word: "annotation"
+pronunciation: /ˌænəˈteɪʃn/
 part_of_speech: noun
 meaning: "标注"
 context: "附加在源码上用于表达类型或处理意图的信息。"

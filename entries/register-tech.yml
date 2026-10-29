@@ -1,6 +1,7 @@
 id: register-tech
 language: en
 word: "register"
+pronunciation: /ˈrɛdʒəstər/
 part_of_speech: verb
 meaning: "注册"
 context: "将对象或处理器加入系统维护的集合，使其参与后续操作。"

@@ -1,6 +1,7 @@
 id: consume-tech
 language: en
 word: "consume"
+pronunciation: /kənˈsum/
 part_of_speech: verb
 meaning: "读取并处理"
 context: "解析输入时处理一段内容，并将读取位置向后移动。"

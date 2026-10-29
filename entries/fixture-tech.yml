@@ -1,6 +1,7 @@
 id: fixture-tech
 language: en
 word: "fixture"
+pronunciation: /ˈfɪkstʃər/
 part_of_speech: noun
 meaning: "测试或演示样例"
 context: "用于复现、测试或手动演示行为的输入、代码或环境。"

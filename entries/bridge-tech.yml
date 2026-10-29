@@ -1,6 +1,7 @@
 id: bridge-tech
 language: en
 word: "bridge"
+pronunciation: /brɪdʒ/
 part_of_speech: noun
 meaning: "桥接层"
 context: "连接不同语言或运行环境并传递数据的组件。"

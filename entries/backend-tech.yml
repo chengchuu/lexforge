@@ -1,6 +1,7 @@
 id: backend-tech
 language: en
 word: "backend"
+pronunciation: /ˈbæk ˌɛnd/
 part_of_speech: noun
 meaning: "实现后端"
 context: "负责同一处理任务的一套具体实现，此处包含 TypeScript 和 Rust 两种编译器实现。"

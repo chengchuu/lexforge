@@ -1,6 +1,7 @@
 id: defer-tech
 language: en
 word: "defer"
+pronunciation: /dɪˈfər/
 part_of_speech: verb
 meaning: "推迟执行"
 context: "将操作延后到合适的生命周期阶段或时间。"

@@ -1,11 +1,12 @@
 id: signed-zero-tech
 language: en
 word: "signed zero"
+pronunciation: /saɪnd ˈzɪroʊ/
 part_of_speech: noun
 meaning: "带符号的零"
 context: "数值表示中区分正零与负零的情况。"
 example: "The optimizer preserves signed zero when merging constants."
-notes: "Source: react/react-37995.md (relative to docs/PR)."
+notes: "Source: react/react-37995.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: signed-zero-tech.mp3
 tags:
   - tech

@@ -1,6 +1,7 @@
 id: correctness-tech
 language: en
 word: "correctness"
+pronunciation: /kəˈrɛktnəs/
 part_of_speech: noun
 meaning: "正确性"
 context: "实现是否满足要求并保持预期行为。"

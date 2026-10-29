@@ -1,11 +1,12 @@
 id: run-in-parallel-workflow
 language: en
 word: "run in parallel"
+pronunciation: /rʌn ɪn ˈpærəˌlɛl/
 part_of_speech: phrase
 meaning: "并行运行"
 context: "让多个任务在时间上重叠执行。"
 example: "Earlier candidates still run in parallel."
-notes: "Source: typescript/typescript-64936.md (relative to docs/PR)."
+notes: "Source: typescript/typescript-64936.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: run-in-parallel-workflow.mp3
 tags:
   - tech

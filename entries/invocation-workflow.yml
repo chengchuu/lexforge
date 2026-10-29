@@ -1,6 +1,7 @@
 id: invocation-workflow
 language: en
 word: "invocation"
+pronunciation: /ˌɪnvəˈkeɪʃn/
 part_of_speech: noun
 meaning: "一次调用"
 context: "一次工具调用或任务启动及其执行过程。"

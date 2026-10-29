@@ -1,11 +1,12 @@
 id: pass-with-the-fix-workflow
 language: en
 word: "pass with the fix"
+pronunciation: /pæs wɪθ ðə fɪks/
 part_of_speech: phrase
 meaning: "应用修复后通过"
 context: "说明同一检查在修复后的代码上成功。"
 example: "The new fixtures pass with the fix."
-notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: pass-with-the-fix-workflow.mp3
 tags:
   - tech

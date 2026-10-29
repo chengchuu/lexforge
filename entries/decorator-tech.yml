@@ -1,6 +1,7 @@
 id: decorator-tech
 language: en
 word: "decorator"
+pronunciation: /ˈdɛkəˌreɪtər/
 part_of_speech: noun
 meaning: "装饰器"
 context: "应用于类或成员并参与其定义或初始化处理的构造。"

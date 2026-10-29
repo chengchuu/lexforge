@@ -1,11 +1,12 @@
 id: internals-tech
 language: en
 word: "internals"
+pronunciation: /ɪnˈtərnlz/
 part_of_speech: noun
 meaning: "内部实现"
 context: "不属于公开接口的内部数据结构或机制。"
 example: "The test uses mocked legacy internals."
-notes: "Source: react/react-d-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-d-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: internals-tech.mp3
 tags:
   - tech

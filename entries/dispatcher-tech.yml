@@ -1,6 +1,7 @@
 id: dispatcher-tech
 language: en
 word: "dispatcher"
+pronunciation: /dɪˈspætʃər/
 part_of_speech: noun
 meaning: "分派器"
 context: "将调用交给当前适用实现的运行时组件。"

@@ -1,6 +1,7 @@
 id: guard-tech
 language: en
 word: "guard"
+pronunciation: /ɡɑrd/
 part_of_speech: noun
 meaning: "保护性检查或机制"
 context: "用于阻止不允许的调用或重复执行的条件和处理逻辑。"

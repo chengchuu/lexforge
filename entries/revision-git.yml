@@ -1,6 +1,7 @@
 id: revision-git
 language: en
 word: "revision"
+pronunciation: /rɪˈvɪʒn/
 part_of_speech: noun
 meaning: "代码版本；提交版本"
 context: "用于确定某一时刻代码状态的版本或提交。"

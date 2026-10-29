@@ -1,11 +1,12 @@
 id: generated-output-only-workflow
 language: en
 word: "generated output only"
+pronunciation: /ˈdʒɛnəˌreɪtɪd ˈaʊtpʊt ˈoʊnli/
 part_of_speech: phrase
 meaning: "仅限生成结果"
 context: "限定检查只覆盖生成的代码或文本，没有覆盖实际运行。"
 example: "The existing fixture checks generated output only."
-notes: "Source: react/react-d-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-d-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: generated-output-only-workflow.mp3
 tags:
   - tech

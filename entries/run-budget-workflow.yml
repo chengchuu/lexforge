@@ -1,11 +1,12 @@
 id: run-budget-workflow
 language: en
 word: "run budget"
+pronunciation: /rʌn ˈbʌdʒət/
 part_of_speech: noun
 meaning: "任务预算"
 context: "单次任务允许使用的时间或其他资源上限。"
 example: "The reporting reserve is included in the run budget."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Source wording: total budget."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Source wording: total budget. IPA composed from verified American English component pronunciations."
 audio: run-budget-workflow.mp3
 tags:
   - tech

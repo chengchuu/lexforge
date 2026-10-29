@@ -1,6 +1,7 @@
 id: encode-tech
 language: en
 word: "encode"
+pronunciation: /ɪnˈkoʊd/
 part_of_speech: verb
 meaning: "编码"
 context: "按照指定规则将数据转换为另一种表示。"

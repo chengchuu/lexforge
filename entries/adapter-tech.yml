@@ -1,6 +1,7 @@
 id: adapter-tech
 language: en
 word: "adapter"
+pronunciation: /əˈdæptər/
 part_of_speech: noun
 meaning: "适配器"
 context: "将一种接口或数据表示转换为另一种可用形式的组件。"

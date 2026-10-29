@@ -1,11 +1,12 @@
 id: version-pin-tech
 language: en
 word: "version pin"
+pronunciation: /ˈvərʒn pɪn/
 part_of_speech: noun
 meaning: "版本固定"
 context: "明确固定依赖或工具所用版本的约束。"
 example: "The fix does not add a separate Unicode version pin."
-notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: version-pin-tech.mp3
 tags:
   - tech

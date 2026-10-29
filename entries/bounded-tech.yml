@@ -1,11 +1,12 @@
 id: bounded-tech
 language: en
 word: "bounded"
+pronunciation: /ˈbaʊndɪd/
 part_of_speech: adjective
 meaning: "有界的；范围受限的"
 context: "调查或操作具有明确的数量、时间或范围限制。"
 example: "This was a bounded investigation of recently updated issues."
-notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR)."
+notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: bounded-tech.mp3
 tags:
   - tech

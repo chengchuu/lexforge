@@ -1,11 +1,12 @@
 id: multiline-range-tech
 language: en
 word: "multiline range"
+pronunciation: /ˌmʌltiˈlaɪn reɪndʒ/
 part_of_speech: noun
 meaning: "跨行范围"
 context: "从一行延伸到另一行的文本区域。"
 example: "The formatter handles multiline ranges separately."
-notes: "Source: react/react-37898.md (relative to docs/PR)."
+notes: "Source: react/react-37898.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: multiline-range-tech.mp3
 tags:
   - tech

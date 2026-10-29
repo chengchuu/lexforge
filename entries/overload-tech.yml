@@ -1,6 +1,7 @@
 id: overload-tech
 language: en
 word: "overload"
+pronunciation: /ˈoʊvərˌloʊd/
 part_of_speech: noun
 meaning: "重载"
 context: "同名函数或方法提供的不同调用签名。"

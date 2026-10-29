@@ -1,6 +1,7 @@
 id: validation-tech
 language: en
 word: "validation"
+pronunciation: /ˌvælɪˈdeɪʃn/
 part_of_speech: noun
 meaning: "验证"
 context: "通过检查确认实现、输入或输出是否符合要求。"

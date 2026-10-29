@@ -1,6 +1,7 @@
 id: edge-case-tech
 language: en
 word: "edge case"
+pronunciation: /ˈɛdʒ keɪs/
 part_of_speech: noun
 meaning: "边界情况；特殊情况"
 context: "不常见但可能影响正确性的输入或条件。"

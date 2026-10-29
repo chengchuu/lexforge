@@ -1,11 +1,12 @@
 id: combining-mark-tech
 language: en
 word: "combining mark"
+pronunciation: /kəmˈbaɪnɪŋ mɑrk/
 part_of_speech: noun
 meaning: "组合附加符号"
 context: "与其他字符组合显示的符号，而非总是独立占据一个显示位置。"
 example: "The identifier contains a combining mark."
-notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: combining-mark-tech.mp3
 tags:
   - tech

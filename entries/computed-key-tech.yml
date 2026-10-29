@@ -1,11 +1,12 @@
 id: computed-key-tech
 language: en
 word: "computed key"
+pronunciation: /kəmˈpjutɪd ki/
 part_of_speech: noun
 meaning: "计算属性键"
 context: "通过执行表达式得到的属性名称或键。"
 example: "Preserve the evaluation order of computed keys."
-notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR)."
+notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: computed-key-tech.mp3
 tags:
   - tech

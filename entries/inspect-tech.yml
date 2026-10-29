@@ -1,6 +1,7 @@
 id: inspect-tech
 language: en
 word: "inspect"
+pronunciation: /ɪnˈspɛkt/
 part_of_speech: verb
 meaning: "检查；查看"
 context: "仔细查看代码、文件或状态以获取事实。"

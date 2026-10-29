@@ -1,6 +1,7 @@
 id: manifest-tech
 language: en
 word: "manifest"
+pronunciation: /ˈmænəˌfɛst/
 part_of_speech: noun
 meaning: "清单文件"
 context: "声明项目依赖或配置等信息的文件。"

@@ -1,6 +1,7 @@
 id: profiling-tech
 language: en
 word: "profiling"
+pronunciation: /ˈproʊfaɪlɪŋ/
 part_of_speech: noun
 meaning: "性能分析"
 context: "使用额外测量或分析机制观察程序运行特征。"

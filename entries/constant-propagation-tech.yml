@@ -1,11 +1,12 @@
 id: constant-propagation-tech
 language: en
 word: "constant propagation"
+pronunciation: /ˈkɑnstənt ˌprɑpəˈɡeɪʃn/
 part_of_speech: noun
 meaning: "常量传播"
 context: "利用已知常量值推导或替换后续表达式的优化。"
 example: "Constant propagation must preserve the distinction between positive and negative zero."
-notes: "Source: react/react-37995.md (relative to docs/PR)."
+notes: "Source: react/react-37995.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: constant-propagation-tech.mp3
 tags:
   - tech

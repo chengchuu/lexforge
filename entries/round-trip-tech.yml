@@ -1,6 +1,7 @@
 id: round-trip-tech
 language: en
 word: "round trip"
+pronunciation: /ˌraʊnd ˈtrɪp/
 part_of_speech: noun
 meaning: "往返转换"
 context: "将数据转换到另一种表示，再转换回来。"

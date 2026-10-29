@@ -1,6 +1,7 @@
 id: joiner-tech
 language: en
 word: "joiner"
+pronunciation: /ˈdʒɔɪnər/
 part_of_speech: noun
 meaning: "连接控制字符"
 context: "影响相邻字符如何连接或组合呈现的字符。"

@@ -1,11 +1,12 @@
 id: in-order-workflow
 language: en
 word: "in order"
+pronunciation: /ɪn ˈɔrdər/
 part_of_speech: phrase
 meaning: "按顺序"
 context: "按输入或规定的先后顺序处理内容。"
 example: "Scan JSON escapes in order."
-notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: in-order-workflow.mp3
 tags:
   - tech

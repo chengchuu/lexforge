@@ -1,6 +1,7 @@
 id: mutable-tech
 language: en
 word: "mutable"
+pronunciation: /ˈmjutəbl/
 part_of_speech: adjective
 meaning: "可修改的"
 context: "对象或值允许在创建后发生变化。"

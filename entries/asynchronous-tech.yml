@@ -1,6 +1,7 @@
 id: asynchronous-tech
 language: en
 word: "asynchronous"
+pronunciation: /eɪˈsɪŋkrənəs/
 part_of_speech: adjective
 meaning: "异步的"
 context: "操作的完成不要求按发起时的同步顺序发生。"

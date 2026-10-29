@@ -1,6 +1,7 @@
 id: submission-workflow
 language: en
 word: "submission"
+pronunciation: /səbˈmɪʃn/
 part_of_speech: noun
 meaning: "提交审查"
 context: "将贡献交给维护者审查的动作或结果。"

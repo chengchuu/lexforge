@@ -1,11 +1,12 @@
 id: at-most-workflow
 language: en
 word: "at most"
+pronunciation: /æt moʊst/
 part_of_speech: phrase
 meaning: "最多；至多"
 context: "指定数量或范围的上限。"
 example: "Select at most one candidate for implementation."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: at-most-workflow.mp3
 tags:
   - tech

@@ -1,6 +1,7 @@
 id: unmount-tech
 language: en
 word: "unmount"
+pronunciation: /ˌʌnˈmaʊnt/
 part_of_speech: verb
 meaning: "卸载"
 context: "从渲染环境移除组件或根节点并执行相关清理。"

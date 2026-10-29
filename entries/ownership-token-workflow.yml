@@ -1,11 +1,12 @@
 id: ownership-token-workflow
 language: en
 word: "ownership token"
+pronunciation: /ˈoʊnərˌʃɪp ˈtoʊkən/
 part_of_speech: noun
 meaning: "所有权标记"
 context: "用于确认某个资源属于当前任务的唯一标记。"
 example: "Release the lock only when its ownership token matches."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: ownership-token-workflow.mp3
 tags:
   - tech

@@ -1,6 +1,7 @@
 id: reject-tech
 language: en
 word: "reject"
+pronunciation: /rɪˈdʒɛkt/
 part_of_speech: verb
 meaning: "拒绝接受"
 context: "校验或处理时不接受不符合规则的输入或操作。"

@@ -1,11 +1,12 @@
 id: forwarding-tech
 language: en
 word: "forwarding"
+pronunciation: /ˈfɔrwərdɪŋ/
 part_of_speech: noun
 meaning: "转发"
 context: "将收到的调用、数据或操作继续传递给另一处处理。"
 example: "The test covers memo-cache forwarding."
-notes: "Source: react/react-d-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-d-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: forwarding-tech.mp3
 tags:
   - tech

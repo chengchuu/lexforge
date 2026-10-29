@@ -1,11 +1,12 @@
 id: graceful-shutdown-tech
 language: en
 word: "graceful shutdown"
+pronunciation: /ˈɡreɪsfl ˈʃʌtdaʊn/
 part_of_speech: noun
 meaning: "正常有序关闭"
 context: "遵循预定关闭流程结束服务，而不是因异常中断。"
 example: "A graceful shutdown should return a successful exit status."
-notes: "Source: typescript/typescript-1.md (relative to docs/PR). Source wording: graceful LSP shutdown."
+notes: "Source: typescript/typescript-1.md (relative to docs/PR). Source wording: graceful LSP shutdown. IPA composed from verified American English component pronunciations."
 audio: graceful-shutdown-tech.mp3
 tags:
   - tech

@@ -1,6 +1,7 @@
 id: stale-tech
 language: en
 word: "stale"
+pronunciation: /steɪl/
 part_of_speech: adjective
 meaning: "过时的；未更新的"
 context: "缓存或状态没有反映最新输入，因而可能不再可靠。"

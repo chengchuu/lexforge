@@ -1,6 +1,7 @@
 id: atomically-workflow
 language: en
 word: "atomically"
+pronunciation: /əˈtɑmɪkəli/
 part_of_speech: adverb
 meaning: "原子地"
 context: "以不可分割的操作完成检查或状态变化，避免其他操作插入。"

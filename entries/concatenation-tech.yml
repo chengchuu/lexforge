@@ -1,6 +1,7 @@
 id: concatenation-tech
 language: en
 word: "concatenation"
+pronunciation: /kənˌkætnˈeɪʃn/
 part_of_speech: noun
 meaning: "连接；拼接"
 context: "把多个字符串依次连接成一个字符串。"

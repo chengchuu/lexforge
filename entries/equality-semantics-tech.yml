@@ -1,11 +1,12 @@
 id: equality-semantics-tech
 language: en
 word: "equality semantics"
+pronunciation: /ɪˈkwɑləti səˈmæntɪks/
 part_of_speech: noun
 meaning: "相等比较语义"
 context: "决定何时将两个值视为相等的规则。"
 example: "JavaScript equality semantics remain unchanged by the fix."
-notes: "Source: react/react-37995.md (relative to docs/PR)."
+notes: "Source: react/react-37995.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: equality-semantics-tech.mp3
 tags:
   - tech

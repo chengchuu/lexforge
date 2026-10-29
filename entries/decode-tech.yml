@@ -1,6 +1,7 @@
 id: decode-tech
 language: en
 word: "decode"
+pronunciation: /diˈkoʊd/
 part_of_speech: verb
 meaning: "解码"
 context: "按照对应规则从编码表示还原数据。"

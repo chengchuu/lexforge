@@ -1,6 +1,7 @@
 id: union-tech
 language: en
 word: "union"
+pronunciation: /ˈjunjən/
 part_of_speech: noun
 meaning: "联合类型"
 context: "表示一个值可以属于多个候选类型之一的类型。"

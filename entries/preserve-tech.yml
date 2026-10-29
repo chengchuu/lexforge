@@ -1,6 +1,7 @@
 id: preserve-tech
 language: en
 word: "preserve"
+pronunciation: /prɪˈzərv/
 part_of_speech: verb
 meaning: "保留；保持不变"
 context: "修改代码时保持已有行为、数据或约束不变。"

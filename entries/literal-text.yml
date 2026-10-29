@@ -1,6 +1,7 @@
 id: literal-text
 language: en
 word: "literal"
+pronunciation: /ˈlɪtərəl/
 part_of_speech: adjective
 meaning: "按原样解释的；字面的"
 context: "将文本视为普通字符，不把它解释为转义或内部标记。"

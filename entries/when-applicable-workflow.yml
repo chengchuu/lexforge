@@ -1,11 +1,12 @@
 id: when-applicable-workflow
 language: en
 word: "when applicable"
+pronunciation: /wɛn ˈæplɪkəbl/
 part_of_speech: phrase
 meaning: "在适用时"
 context: "只有满足相关条件时才采用某项做法。"
 example: "Explain why no fix was made when applicable."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: when-applicable-workflow.mp3
 tags:
   - tech

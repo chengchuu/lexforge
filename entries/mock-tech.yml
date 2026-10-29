@@ -1,6 +1,7 @@
 id: mock-tech
 language: en
 word: "mock"
+pronunciation: /mɑk/
 part_of_speech: verb
 meaning: "模拟；替代依赖"
 context: "测试时用受控实现代替真实组件或内部状态。"

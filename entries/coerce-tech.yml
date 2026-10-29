@@ -1,6 +1,7 @@
 id: coerce-tech
 language: en
 word: "coerce"
+pronunciation: /koʊˈərs/
 part_of_speech: verb
 meaning: "转换类型"
 context: "按照语言规则将一个值转换为另一种类型。"

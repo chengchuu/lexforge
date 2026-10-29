@@ -1,6 +1,7 @@
 id: directive-tech
 language: en
 word: "directive"
+pronunciation: /dəˈrɛktɪv/
 part_of_speech: noun
 meaning: "指令"
 context: "源码中用于指示编译器采用特定处理方式的内容。"

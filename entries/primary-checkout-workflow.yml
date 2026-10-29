@@ -1,11 +1,12 @@
 id: primary-checkout-workflow
 language: en
 word: "primary checkout"
+pronunciation: /ˈpraɪˌmɛri ˈtʃɛkaʊt/
 part_of_speech: noun
 meaning: "主检出目录"
 context: "日常使用的主要仓库工作目录。"
 example: "Leave the primary checkout on its current branch."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: primary-checkout-workflow.mp3
 tags:
   - tech

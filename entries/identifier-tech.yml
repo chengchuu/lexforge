@@ -1,6 +1,7 @@
 id: identifier-tech
 language: en
 word: "identifier"
+pronunciation: /aɪˈdɛntəˌfaɪər/
 part_of_speech: noun
 meaning: "标识符"
 context: "变量、函数等代码实体使用的名称。"

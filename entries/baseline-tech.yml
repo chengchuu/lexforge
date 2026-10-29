@@ -1,6 +1,7 @@
 id: baseline-tech
 language: en
 word: "baseline"
+pronunciation: /ˈbeɪslaɪn/
 part_of_speech: noun
 meaning: "基准输出"
 context: "保存的预期结果，用于比较新的编译或测试输出。"

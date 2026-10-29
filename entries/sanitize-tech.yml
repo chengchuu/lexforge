@@ -1,6 +1,7 @@
 id: sanitize-tech
 language: en
 word: "sanitize"
+pronunciation: /ˈsænəˌtaɪz/
 part_of_speech: verb
 meaning: "清理或转换为可接受的输入"
 context: "在系统边界将输入转换为下游能够安全、正确处理的形式。"

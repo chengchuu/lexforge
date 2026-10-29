@@ -1,11 +1,12 @@
 id: negative-lookbehind-tech
 language: en
 word: "negative lookbehind"
+pronunciation: /ˈnɛɡətɪv ˈlʊkbɪˌhaɪnd/
 part_of_speech: noun
 meaning: "否定后行断言"
 context: "要求当前位置之前不能匹配指定模式的正则表达式条件。"
 example: "The negative lookbehind checks only the preceding backslash."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: negative-lookbehind-tech.mp3
 tags:
   - tech

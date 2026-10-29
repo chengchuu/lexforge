@@ -1,11 +1,12 @@
 id: remain-unchanged-workflow
 language: en
 word: "remain unchanged"
+pronunciation: /rɪˈmeɪn ʌnˈtʃeɪndʒd/
 part_of_speech: phrase
 meaning: "保持不变"
 context: "说明某次修改没有改变指定的行为或结果。"
 example: "Tab handling and ASCII behavior remain unchanged."
-notes: "Source: react/react-37898.md (relative to docs/PR)."
+notes: "Source: react/react-37898.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: remain-unchanged-workflow.mp3
 tags:
   - tech

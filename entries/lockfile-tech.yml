@@ -1,11 +1,12 @@
 id: lockfile-tech
 language: en
 word: "lockfile"
+pronunciation: /ˈlɑkˌfaɪl/
 part_of_speech: noun
 meaning: "依赖锁定文件"
 context: "记录解析后的依赖版本等信息，以便重复安装。"
 example: "Update the stale lockfile entries."
-notes: "Source: react/react-37859.md (relative to docs/PR)."
+notes: "Source: react/react-37859.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: lockfile-tech.mp3
 tags:
   - tech

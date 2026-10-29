@@ -1,11 +1,12 @@
 id: static-inspection-tech
 language: en
 word: "static inspection"
+pronunciation: /ˈstætɪk ɪnˈspɛkʃn/
 part_of_speech: noun
 meaning: "静态检查"
 context: "在不执行目标程序的情况下检查代码和结构。"
 example: "Static inspection identified a likely lifecycle problem."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+notes: "Source: react/reports/react-candidates.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: static-inspection-tech.mp3
 tags:
   - tech

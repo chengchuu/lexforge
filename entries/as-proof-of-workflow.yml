@@ -1,11 +1,12 @@
 id: as-proof-of-workflow
 language: en
 word: "as proof of"
+pronunciation: /æz pruf əv/
 part_of_speech: phrase
 meaning: "作为……的证明"
 context: "把某个结果当作判断另一件事成立的依据。"
 example: "Do not use directory existence as proof of ownership."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: as-proof-of-workflow.mp3
 tags:
   - tech

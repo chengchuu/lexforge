@@ -1,6 +1,7 @@
 id: closure-tech
 language: en
 word: "closure"
+pronunciation: /ˈkloʊʒər/
 part_of_speech: noun
 meaning: "闭包"
 context: "函数及其可访问的外部词法环境。"

@@ -1,6 +1,7 @@
 id: inaccessible-tech
 language: en
 word: "inaccessible"
+pronunciation: /ˌɪnəkˈsɛsəbl/
 part_of_speech: adjective
 meaning: "不可访问的"
 context: "某个类型或成员不能在当前使用位置被引用。"

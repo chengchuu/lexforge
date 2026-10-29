@@ -1,11 +1,12 @@
 id: catch-handler-tech
 language: en
 word: "catch handler"
+pronunciation: /kætʃ ˈhændlər/
 part_of_speech: noun
 meaning: "异常捕获处理器"
 context: "在异常被捕获后负责处理它的代码。"
 example: "Do not remove the catch handler for a potentially throwing spread."
-notes: "Source: react/react-a-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-a-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: catch-handler-tech.mp3
 tags:
   - tech

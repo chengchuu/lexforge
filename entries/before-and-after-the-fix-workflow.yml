@@ -1,11 +1,12 @@
 id: before-and-after-the-fix-workflow
 language: en
 word: "before and after the fix"
+pronunciation: /bɪˈfɔr ænd ˈæftər ðə fɪks/
 part_of_speech: phrase
 meaning: "修复前后"
 context: "对照修改前后的行为，以说明问题及修复效果。"
 example: "Compare the runtime results before and after the fix."
-notes: "Source: react/react-37898.md (relative to docs/PR)."
+notes: "Source: react/react-37898.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: before-and-after-the-fix-workflow.mp3
 tags:
   - tech

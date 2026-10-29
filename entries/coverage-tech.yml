@@ -1,6 +1,7 @@
 id: coverage-tech
 language: en
 word: "coverage"
+pronunciation: /ˈkʌvrɪdʒ/
 part_of_speech: noun
 meaning: "覆盖范围"
 context: "测试或调查实际检查到的行为与场景。"

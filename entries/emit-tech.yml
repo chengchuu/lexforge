@@ -1,6 +1,7 @@
 id: emit-tech
 language: en
 word: "emit"
+pronunciation: /ɪˈmɪt/
 part_of_speech: verb
 meaning: "生成；输出"
 context: "编译器输出代码、声明或诊断信息。"

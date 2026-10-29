@@ -1,6 +1,7 @@
 id: legacy-tech
 language: en
 word: "legacy"
+pronunciation: /ˈlɛɡəsi/
 part_of_speech: adjective
 meaning: "旧版的；历史遗留的"
 context: "描述为兼容旧实现而保留的接口或行为。"

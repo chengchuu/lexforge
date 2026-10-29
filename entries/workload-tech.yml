@@ -1,6 +1,7 @@
 id: workload-tech
 language: en
 word: "workload"
+pronunciation: /ˈwərkloʊd/
 part_of_speech: noun
 meaning: "工作负载"
 context: "程序或测试所处理的任务内容和规模。"

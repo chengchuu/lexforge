@@ -1,11 +1,12 @@
 id: maintainable-tech
 language: en
 word: "maintainable"
+pronunciation: /meɪnˈteɪnəbl/
 part_of_speech: adjective
 meaning: "易维护的"
 context: "便于后续理解、修改和验证。"
 example: "Prefer a small, maintainable fix."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: maintainable-tech.mp3
 tags:
   - tech

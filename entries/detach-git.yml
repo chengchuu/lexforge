@@ -1,6 +1,7 @@
 id: detach-git
 language: en
 word: "detach"
+pronunciation: /dɪˈtætʃ/
 part_of_speech: verb
 meaning: "分离 HEAD"
 context: "使工作树直接指向提交，而不继续附着在某个分支上。"

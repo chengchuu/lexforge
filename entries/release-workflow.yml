@@ -1,6 +1,7 @@
 id: release-workflow
 language: en
 word: "release"
+pronunciation: /rɪˈlis/
 part_of_speech: verb
 meaning: "释放"
 context: "结束对资源或锁的占用。"

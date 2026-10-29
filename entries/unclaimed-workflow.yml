@@ -1,6 +1,7 @@
 id: unclaimed-workflow
 language: en
 word: "unclaimed"
+pronunciation: /ʌnˈkleɪmd/
 part_of_speech: adjective
 meaning: "尚未被承接的"
 context: "还没有明确贡献或进行中的实现覆盖。"

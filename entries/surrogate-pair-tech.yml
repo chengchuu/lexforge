@@ -1,11 +1,12 @@
 id: surrogate-pair-tech
 language: en
 word: "surrogate pair"
+pronunciation: /ˈsərəɡət pɛr/
 part_of_speech: noun
 meaning: "代理对"
 context: "UTF-16 中共同表示一个字符的一对代理码元。"
 example: "Preserve valid surrogate pairs during serialization."
-notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: surrogate-pair-tech.mp3
 tags:
   - tech

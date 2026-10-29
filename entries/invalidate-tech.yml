@@ -1,6 +1,7 @@
 id: invalidate-tech
 language: en
 word: "invalidate"
+pronunciation: /ɪnˈvæləˌdeɪt/
 part_of_speech: verb
 meaning: "使失效"
 context: "在输入发生变化后，使旧缓存或已有判断不再可用。"

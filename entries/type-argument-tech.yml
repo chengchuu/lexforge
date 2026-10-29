@@ -1,11 +1,12 @@
 id: type-argument-tech
 language: en
 word: "type argument"
+pronunciation: /taɪp ˈɑrɡjəmənt/
 part_of_speech: noun
 meaning: "类型实参"
 context: "使用泛型时传入的具体类型。"
 example: "The exported interface refers to an inaccessible type argument."
-notes: "Source: typescript/typescript-64952.md (relative to docs/PR)."
+notes: "Source: typescript/typescript-64952.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: type-argument-tech.mp3
 tags:
   - tech

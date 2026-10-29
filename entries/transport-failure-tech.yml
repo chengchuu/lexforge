@@ -1,11 +1,12 @@
 id: transport-failure-tech
 language: en
 word: "transport failure"
+pronunciation: /ˈtrænspɔrt ˈfeɪljər/
 part_of_speech: noun
 meaning: "传输层故障"
 context: "通信通道在发送或接收数据时发生的失败。"
 example: "The server still reports transport failures."
-notes: "Source: typescript/typescript-1.md (relative to docs/PR)."
+notes: "Source: typescript/typescript-1.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: transport-failure-tech.mp3
 tags:
   - tech

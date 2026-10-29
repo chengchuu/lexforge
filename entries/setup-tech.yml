@@ -1,6 +1,7 @@
 id: setup-tech
 language: en
 word: "setup"
+pronunciation: /ˈsɛtʌp/
 part_of_speech: noun
 meaning: "初始化设置"
 context: "为后续运行建立状态、资源或注册关系。"

@@ -1,6 +1,7 @@
 id: regression-tech
 language: en
 word: "regression"
+pronunciation: /rɪˈɡrɛʃn/
 part_of_speech: noun
 meaning: "回归问题；行为退化"
 context: "修改之后出现的错误或原有正确行为的丢失。"

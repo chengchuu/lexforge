@@ -1,6 +1,7 @@
 id: artifact-workflow
 language: en
 word: "artifact"
+pronunciation: /ˈɑrtəˌfækt/
 part_of_speech: noun
 meaning: "工作成果文件"
 context: "一次任务产生或关联的报告、草稿等文件，不限于构建产物。"

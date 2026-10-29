@@ -1,6 +1,7 @@
 id: amend-git
 language: en
 word: "amend"
+pronunciation: /əˈmɛnd/
 part_of_speech: verb
 meaning: "修改已有提交"
 context: "替换或修订最近一次或指定的已有提交内容。"

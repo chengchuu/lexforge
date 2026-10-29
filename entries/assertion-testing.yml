@@ -1,6 +1,7 @@
 id: assertion-testing
 language: en
 word: "assertion"
+pronunciation: /əˈsərʃn/
 part_of_speech: noun
 meaning: "测试断言"
 context: "测试中要求某个值或条件成立的检查。"

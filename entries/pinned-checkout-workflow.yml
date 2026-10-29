@@ -1,11 +1,12 @@
 id: pinned-checkout-workflow
 language: en
 word: "pinned checkout"
+pronunciation: /pɪnd ˈtʃɛkaʊt/
 part_of_speech: noun
 meaning: "固定版本的检出目录"
 context: "明确停留在某个提交或版本的本地代码副本。"
 example: "These observations describe the pinned checkout."
-notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR)."
+notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
 audio: pinned-checkout-workflow.mp3
 tags:
   - tech

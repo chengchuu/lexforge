@@ -1,6 +1,7 @@
 id: blocker-workflow
 language: en
 word: "blocker"
+pronunciation: /ˈblɑkər/
 part_of_speech: noun
 meaning: "阻碍事项"
 context: "阻止当前任务继续完成的问题或缺失条件。"
