@@ -1,10 +1,14 @@
 # PR vocabulary import
 
+## Status
+
+Import and audio generation complete; status reviewed on 2026-10-29. The counts and verification below describe the original import. Subsequent IPA work is recorded in [pronunciation sources](PRONUNCIATION_SOURCES.md); later imports increased the collection beyond this batch's totals. Specialized pronunciations still need listening review. This record does not establish a live Anki import or synchronization.
+
 This collection comes from a read-only review of 27 Markdown documents under `docs/PR`: 21 PR descriptions, four reports or plans, one scheduler document, and the contributor guide. The two image assets were not text sources. Historical statements were used as language examples, not as current project or PR status.
 
 ## Coverage and grouping
 
-- Added 277 entries, with no fixed count limit; the collection now contains 283 entries.
+- Added 277 entries, with no fixed count limit; the collection contained 283 entries after this import.
 - Related inflections and derivations share a headword where they express the same learning item. Related forms and sentence patterns are recorded in entry notes.
 - Distinct meanings have separate IDs: work scope and lexical scope; literal text and programming literals; resolving a reference and resolving a problem; editorial revisions and Git revisions; workflow artifacts and build artifacts.
 - Test assertions and type assertions are separate learning items. Opposite actions such as mount/unmount and encode/decode are also separate.

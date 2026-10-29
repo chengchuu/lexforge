@@ -1,0 +1,12 @@
+id: doitsu
+language: ja
+word: "ドイツ"
+pronunciation: "ドイツ"
+part_of_speech: noun
+meaning: "德国"
+context: "日语中对德国的称呼。"
+example: "ドイツから来ました。"
+audio: doitsu.mp3
+tags:
+  - proper-noun
+  - travel

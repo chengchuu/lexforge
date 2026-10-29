@@ -1,5 +1,9 @@
 # English airline meal vocabulary import
 
+## Status
+
+Import complete; status reviewed on 2026-10-29. All 62 entries now have recordings from the subsequent [audio follow-up](JP_VOCABULARY_IMPORT.md#audio-follow-up). IPA remains absent for this batch, and the recordings have not been independently auditioned. Counts and checks below describe the original import, before audio generation and later batches.
+
 Source: the user-provided approved list for airline in-flight meal conversation practice. The list defines the complete import scope; no additional vocabulary was selected.
 
 ## Import result
@@ -12,7 +16,7 @@ Source: the user-provided approved list for airline in-flight meal conversation 
 
 ## Pronunciation and audio
 
-Pronunciation is omitted for all 62 new entries because verified IPA was not supplied or available in matching existing entries. No separate pronunciation research was performed. Audio is omitted for the new entries; all existing recordings are preserved. The import requires no audio generation.
+Pronunciation is omitted for all 62 new entries because verified IPA was not supplied or available in matching existing entries. No separate pronunciation research was performed. Audio was omitted during the original import, which preserved all existing recordings. The later audio follow-up generated these 62 recordings from their English words using Samantha; all passed decoding.
 
 Anki collections, review state, AnkiWeb synchronization, and AnkiDroid were not modified.
 

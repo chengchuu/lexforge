@@ -1,0 +1,12 @@
+id: koube
+language: ja
+word: "神戸"
+pronunciation: "こうべ"
+part_of_speech: noun
+meaning: "神户"
+context: "日本地名「神戸」，读作「こうべ」。"
+example: "神戸に住んでいます。"
+audio: koube.mp3
+tags:
+  - proper-noun
+  - travel

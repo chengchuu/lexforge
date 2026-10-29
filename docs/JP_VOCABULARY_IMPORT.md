@@ -1,5 +1,9 @@
 # Japanese vocabulary import
 
+## Status
+
+Both imports and their audio generation are complete; status reviewed on 2026-10-29. The initial batch contains 181 entries after the approved merge; the [Minna no Nihongo batch](#2026-10-29-minna-no-nihongo-study-notes) adds 44 and reuses five. The current collection contains 571 entries (346 English and 225 Japanese), all with audio references. Listening verification and live Anki checks remain outstanding. Each section retains its batch-specific counts and verification results.
+
 Source: the user-provided approved Japanese vocabulary and quote list. No original source corpus was re-analyzed and no additional vocabulary or quotes were selected. Readings are retained from that approved list, not presented as an independent dictionary or audiovisual verification.
 
 ## Coverage
@@ -349,3 +353,84 @@ Each distinct written item appears once below. Repeated table occurrences reuse 
 | 救う                             | [sukuu](../entries/sukuu.yml)                                                                           | New entry |
 | 救える                           | [sukueru](../entries/sukueru.yml)                                                                       | New entry |
 | ～のか                           | [no-ka-grammar](../entries/no-ka-grammar.yml)                                                           | New entry |
+
+## 2026-10-29: Minna no Nihongo study notes
+
+Source: the user's study notes from 《大家的日语》 (みんなの日本語), represented by `Screenshot_20261029_012025_AnkiDroid.png` and the approved [import plan](MINNA_NO_NIHONGO_IMPORT_PLAN.md). This batch follows the plan's transcription and corrections; it does not claim independent verification against a textbook edition or lesson. Screenshot spacing and optional brackets are retained in the mapping below; display line wrapping is omitted.
+
+### Coverage and decisions
+
+- Accounted for all 49 approved items: 44 new entries, five existing entries reused, and zero skipped items or unapproved additions.
+- Collection before this batch: 527 entries (346 English, 181 Japanese). Collection after this batch: 571 entries (346 English, 225 Japanese).
+- Reused `yoroshiku-onegai-shimasu`, `donata`, `hajimemashite`, `byouin`, and `watashi`. Only `yoroshiku-onegai-shimasu` gains notes explaining optional wording, the more formal `どうぞよろしくお願いします`, and informal `よろしく`. Its primary form, ID, and recording are unchanged.
+- Applied the approved corrections: `いちさい` → `一歳` with reading `いっさい`; `おいくし` → `おいくつ`; and `きゅう` → `九` with reading `きゅう`. The two erroneous spellings are identified as corrections in the affected entries' notes.
+- Kept `教師` versus `先生`, `会社員` versus `社員`, and base vocabulary versus suffixes and complete expressions distinct. The origin pattern `～から来ました` is separate from causal `～から`; `さん` is the name suffix, not the numeral. `一歳` and `八歳` retain their age readings.
+- Preserved `こうべ病院`, `さくら大学`, `ふじ大学`, `エー・ケー・シー`, `パワー電気`, and `ブラジルエアー` without inventing institution identities, acronym expansions, or unconfirmed kanji. Their examples illustrate use of the supplied names rather than assert facts about real organizations. `タオル` retains its ordinary towel meaning.
+
+### Item-to-ID mapping
+
+Each screenshot item maps to one new or reused entry:
+
+| Screenshot text                    | Entry                                                               | Handling |
+|:-----------------------------------|:--------------------------------------------------------------------|:---------|
+| `[どうぞ]よろしく[おねがいします]` | [yoroshiku-onegai-shimasu](../entries/yoroshiku-onegai-shimasu.yml) | Reuse    |
+| `～からきました`                   | [kara-kimashita-origin](../entries/kara-kimashita-origin.yml)       | New      |
+| `～じん`                           | [jin-nationality-suffix](../entries/jin-nationality-suffix.yml)     | New      |
+| `あなた`                           | [anata](../entries/anata.yml)                                       | New      |
+| `あのかた`                         | [ano-kata](../entries/ano-kata.yml)                                 | New      |
+| `あのひと`                         | [ano-hito](../entries/ano-hito.yml)                                 | New      |
+| `いいえ`                           | [iie](../entries/iie.yml)                                           | New      |
+| `いしゃ`                           | [isha](../entries/isha.yml)                                         | New      |
+| `いちさい`                         | [issai](../entries/issai.yml)                                       | New      |
+| `お なまえ は`                     | [onamae-wa](../entries/onamae-wa.yml)                               | New      |
+| `おいくし`                         | [oikutsu](../entries/oikutsu.yml)                                   | New      |
+| `おはようございます`               | [ohayou-gozaimasu](../entries/ohayou-gozaimasu.yml)                 | New      |
+| `かいしゃいん`                     | [kaishain](../entries/kaishain.yml)                                 | New      |
+| `かんこく`                         | [kankoku](../entries/kankoku.yml)                                   | New      |
+| `がくせい`                         | [gakusei](../entries/gakusei.yml)                                   | New      |
+| `きゅう`                           | [kyuu-number](../entries/kyuu-number.yml)                           | New      |
+| `きょうし`                         | [kyoushi](../entries/kyoushi.yml)                                   | New      |
+| `けんきゅうしゃ`                   | [kenkyuusha](../entries/kenkyuusha.yml)                             | New      |
+| `こうべ`                           | [koube](../entries/koube.yml)                                       | New      |
+| `こうべ びょういん`                | [koube-byouin](../entries/koube-byouin.yml)                         | New      |
+| `こちらは～さんです`               | [kochira-wa-san-desu](../entries/kochira-wa-san-desu.yml)           | New      |
+| `さくらだいがく`                   | [sakura-daigaku](../entries/sakura-daigaku.yml)                     | New      |
+| `さん`                             | [san-name-suffix](../entries/san-name-suffix.yml)                   | New      |
+| `しつれい ですが`                  | [shitsurei-desu-ga](../entries/shitsurei-desu-ga.yml)               | New      |
+| `しゃいん`                         | [shain](../entries/shain.yml)                                       | New      |
+| `せんせい`                         | [sensei](../entries/sensei.yml)                                     | New      |
+| `だいがく`                         | [daigaku](../entries/daigaku.yml)                                   | New      |
+| `だれ`                             | [dare](../entries/dare.yml)                                         | New      |
+| `ちゅうごく`                       | [chuugoku](../entries/chuugoku.yml)                                 | New      |
+| `ちゅうごくじん`                   | [chuugokujin](../entries/chuugokujin.yml)                           | New      |
+| `どなた`                           | [donata](../entries/donata.yml)                                     | Reuse    |
+| `なんさい`                         | [nansai](../entries/nansai.yml)                                     | New      |
+| `にほん`                           | [nihon](../entries/nihon.yml)                                       | New      |
+| `はい`                             | [hai](../entries/hai.yml)                                           | New      |
+| `はじめまして`                     | [hajimemashite](../entries/hajimemashite.yml)                       | Reuse    |
+| `はっさい`                         | [hassai](../entries/hassai.yml)                                     | New      |
+| `びょういん`                       | [byouin](../entries/byouin.yml)                                     | Reuse    |
+| `ふじ だいがく`                    | [fuji-daigaku](../entries/fuji-daigaku.yml)                         | New      |
+| `わたし`                           | [watashi](../entries/watashi.yml)                                   | Reuse    |
+| `アメリカ`                         | [amerika](../entries/amerika.yml)                                   | New      |
+| `アメリカからきました`             | [amerika-kara-kimashita](../entries/amerika-kara-kimashita.yml)     | New      |
+| `イギリス`                         | [igirisu](../entries/igirisu.yml)                                   | New      |
+| `インドネシア`                     | [indoneshia](../entries/indoneshia.yml)                             | New      |
+| `エー・ケー・シー`                 | [ee-kee-shii](../entries/ee-kee-shii.yml)                           | New      |
+| `タイ`                             | [tai-country](../entries/tai-country.yml)                           | New      |
+| `タオル`                           | [taoru](../entries/taoru.yml)                                       | New      |
+| `ドイツ`                           | [doitsu](../entries/doitsu.yml)                                     | New      |
+| `パワー でんき`                    | [pawaa-denki](../entries/pawaa-denki.yml)                           | New      |
+| `ブラジル エアー`                  | [burajiru-eaa](../entries/burajiru-eaa.yml)                         | New      |
+
+### Audio and verification
+
+- Used the existing single-ID audio command with `--text-source pronunciation`, Kyoko's default rate, and 96 kbps mono MP3 encoding. No `--all` or `--overwrite` operation was used.
+- Generator results: 44 generated, zero reused, zero skipped, and zero failures. The five reused entries were excluded from generation; their existing recordings were preserved. Every new MP3 decoded to nonempty audio samples before its reference was attached.
+- Grammar placeholders remain in YAML and are omitted only from speech input. `～からきました` speaks `からきました`; `こちらは～さんです` speaks the incomplete fragment `こちらはさんです`. No names or example sentences were substituted into pattern recordings.
+- Listening verification was unavailable. Age readings, names, suffixes, and especially the incomplete introduction pattern require human audition; successful decoding does not establish pitch accent or natural intonation.
+- All 527 pre-existing MP3 SHA-256 hashes are unchanged. Of the 527 existing entries, 526 are byte-identical; the remaining entry differs only by the approved variant notes. All stable IDs are preserved.
+- `go test ./...`, `go vet ./...`, vocabulary validation, the export build, and `git diff --check` passed. New YAML files passed separate LF, final-newline, and trailing-whitespace checks; all mapping links resolve.
+- Two builds produced identical bytes: 571 twelve-column data rows, including 225 Japanese rows with `ja`, `ja_JP`, derived `lang-ja` tags, and matching `[sound:<id>.mp3]` references. Every entry now has a nonempty referenced MP3.
+- The five existing duplicate-word warnings remain for the distinct English senses of artifact, literal, resolve, revision, and scope. This batch adds no duplicate-word warnings.
+- No schema, tooling, dependencies, card templates, or styling changed. No live Anki import, review-state changes, AnkiWeb sync, or AnkiDroid operations were performed. No staging, commit, or push was performed.

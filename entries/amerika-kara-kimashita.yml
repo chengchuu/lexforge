@@ -1,0 +1,13 @@
+id: amerika-kara-kimashita
+language: ja
+word: "アメリカから来ました"
+pronunciation: "アメリカからきました"
+part_of_speech: phrase
+meaning: "我来自美国"
+context: "自我介绍时说明自己来自美国，是来源模式的完整表达。"
+example: "はじめまして。アメリカから来ました。"
+notes: "与可替换地名的模式「～から来ました」分别保留。"
+audio: amerika-kara-kimashita.mp3
+tags:
+  - phrase
+  - travel

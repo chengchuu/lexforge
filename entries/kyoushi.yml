@@ -1,0 +1,12 @@
+id: kyoushi
+language: ja
+word: "教師"
+pronunciation: "きょうし"
+part_of_speech: noun
+meaning: "教师"
+context: "作为职业名称指教师，可用于说明自己或家人的职业。"
+example: "母は高校の教師です。"
+notes: "「先生」用于称呼或尊称老师等人；介绍自己的职业时用「教師」，不用「先生」自称。"
+audio: kyoushi.mp3
+tags:
+  - noun

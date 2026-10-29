@@ -1,0 +1,12 @@
+id: chuugoku
+language: ja
+word: "中国"
+pronunciation: "ちゅうごく"
+part_of_speech: noun
+meaning: "中国"
+context: "国家名称，可用于介绍出身或说明地点。"
+example: "中国から来ました。"
+audio: chuugoku.mp3
+tags:
+  - proper-noun
+  - travel

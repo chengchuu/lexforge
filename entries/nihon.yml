@@ -1,0 +1,12 @@
+id: nihon
+language: ja
+word: "日本"
+pronunciation: "にほん"
+part_of_speech: noun
+meaning: "日本"
+context: "国家名称，本条使用学习记录中的读音「にほん」。"
+example: "日本で働いています。"
+audio: nihon.mp3
+tags:
+  - proper-noun
+  - travel

@@ -1,6 +1,10 @@
 # Multilingual Vocabulary Plan
 
-Implementation requires explicit approval. Creating this plan does not authorize schema, vocabulary, template, or audio changes.
+## Status
+
+Implemented; status reviewed on 2026-10-29. The repository supports BCP 47 language validation, language-scoped duplicate warnings, multilingual exports and templates, and language-matching local macOS audio with explicit kana-reading and rate options.
+
+The sections below retain the original design and acceptance criteria. Later example-speech support added derived `TTSLanguage` after `Audio`: the current export has eleven note fields plus tags in column 12. Use the [README](../README.md#set-up-anki-once) for current setup and commands. Live Anki import, synchronization, device playback, and pronunciation accuracy are not established by this status update.
 
 ## Goal
 
@@ -12,7 +16,7 @@ Capture → YAML → validate → build → Anki Desktop → AnkiWeb → AnkiDro
 
 Use one shared schema, deterministic TSV export, and Anki note type. Keep learning state in Anki. The project is new, and recreating the Anki field setup is acceptable.
 
-## Current Constraints
+## Constraints at Planning Time
 
 - Source entries already accept Unicode text, but the exporter and documented templates call the target word `English`.
 - The schema has no language field. Duplicate-word warnings currently compare words across the entire collection.

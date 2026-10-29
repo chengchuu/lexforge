@@ -1,0 +1,12 @@
+id: amerika
+language: ja
+word: "アメリカ"
+pronunciation: "アメリカ"
+part_of_speech: noun
+meaning: "美国"
+context: "在这里指美国，常用于介绍出身或旅行目的地。"
+example: "アメリカから来ました。"
+audio: amerika.mp3
+tags:
+  - proper-noun
+  - travel

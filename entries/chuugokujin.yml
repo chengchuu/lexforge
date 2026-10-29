@@ -1,0 +1,11 @@
+id: chuugokujin
+language: ja
+word: "中国人"
+pronunciation: "ちゅうごくじん"
+part_of_speech: noun
+meaning: "中国人"
+context: "表示中国人，由国家名称「中国」加后缀「人」构成。"
+example: "私は中国人です。"
+audio: chuugokujin.mp3
+tags:
+  - noun

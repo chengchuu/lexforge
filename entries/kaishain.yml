@@ -1,0 +1,12 @@
+id: kaishain
+language: ja
+word: "会社員"
+pronunciation: "かいしゃいん"
+part_of_speech: noun
+meaning: "公司职员"
+context: "表示在公司工作的职员，常用于介绍职业；不指定哪家公司。"
+example: "私は会社員です。"
+notes: "与「社員」区分：会社員侧重职业类别，社員侧重某家公司的成员身份。"
+audio: kaishain.mp3
+tags:
+  - noun

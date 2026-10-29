@@ -1,0 +1,11 @@
+id: kenkyuusha
+language: ja
+word: "研究者"
+pronunciation: "けんきゅうしゃ"
+part_of_speech: noun
+meaning: "研究人员"
+context: "从事研究工作的人，可用于介绍职业或工作身份。"
+example: "兄は大学の研究者です。"
+audio: kenkyuusha.mp3
+tags:
+  - noun

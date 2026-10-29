@@ -1,0 +1,12 @@
+id: fuji-daigaku
+language: ja
+word: "ふじ大学"
+pronunciation: "ふじだいがく"
+part_of_speech: noun
+meaning: "大学名称；ふじ大学"
+context: "学习记录中的大学名称，保留「ふじ大学」写法。"
+example: "資料には「ふじ大学」と書いてあります。"
+notes: "不推定实际学校身份，也不把「ふじ」擅自改为汉字。"
+audio: fuji-daigaku.mp3
+tags:
+  - proper-noun

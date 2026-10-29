@@ -1,0 +1,11 @@
+id: isha
+language: ja
+word: "医者"
+pronunciation: "いしゃ"
+part_of_speech: noun
+meaning: "医生"
+context: "指从事诊断和治疗的医生，是职业名称。"
+example: "姉は医者です。"
+audio: isha.mp3
+tags:
+  - noun

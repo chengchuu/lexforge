@@ -1,0 +1,12 @@
+id: taoru
+language: ja
+word: "タオル"
+pronunciation: "タオル"
+part_of_speech: noun
+meaning: "毛巾"
+context: "用于擦手或擦身体等的毛巾。"
+example: "タオルで手を拭きます。"
+audio: taoru.mp3
+tags:
+  - noun
+  - daily

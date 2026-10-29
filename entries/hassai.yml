@@ -1,0 +1,12 @@
+id: hassai
+language: ja
+word: "八歳"
+pronunciation: "はっさい"
+part_of_speech: phrase
+meaning: "八岁"
+context: "表示年龄为八岁，读音包含促音。"
+example: "弟は八歳です。"
+audio: hassai.mp3
+tags:
+  - phrase
+  - counter

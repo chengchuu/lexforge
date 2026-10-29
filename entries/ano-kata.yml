@@ -1,0 +1,12 @@
+id: ano-kata
+language: ja
+word: "あの方"
+pronunciation: "あのかた"
+part_of_speech: phrase
+meaning: "那位；礼貌说法"
+context: "礼貌地指离双方较远或已提到的第三者，对应「あの人」。"
+example: "あの方はどなたですか。"
+audio: ano-kata.mp3
+tags:
+  - phrase
+  - polite

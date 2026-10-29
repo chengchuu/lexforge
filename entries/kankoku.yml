@@ -1,0 +1,12 @@
+id: kankoku
+language: ja
+word: "韓国"
+pronunciation: "かんこく"
+part_of_speech: noun
+meaning: "韩国"
+context: "国家名称，用于介绍出身或旅行目的地。"
+example: "韓国から来ました。"
+audio: kankoku.mp3
+tags:
+  - proper-noun
+  - travel

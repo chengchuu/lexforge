@@ -1,0 +1,12 @@
+id: igirisu
+language: ja
+word: "イギリス"
+pronunciation: "イギリス"
+part_of_speech: noun
+meaning: "英国"
+context: "日语中对英国的常用称呼。"
+example: "イギリスに住んでいます。"
+audio: igirisu.mp3
+tags:
+  - proper-noun
+  - travel

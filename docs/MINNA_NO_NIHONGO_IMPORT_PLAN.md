@@ -2,7 +2,9 @@
 
 ## Status and source
 
-Planned; not implemented. Creating this file does not authorize importing entries, generating audio, or changing Anki. Wait for implementation confirmation.
+Implemented on 2026-10-29 after user approval. All 49 items are accounted for: 44 new entries and recordings, plus five reused entries with their recordings preserved. The collection contains 571 entries (346 English and 225 Japanese). See the [import record](JP_VOCABULARY_IMPORT.md#2026-10-29-minna-no-nihongo-study-notes) for mappings, passed checks, and preservation results.
+
+Listening verification remains outstanding, especially for names, age readings, suffixes, and incomplete grammar patterns. No Anki import or synchronization was performed. The sections below retain the approved implementation scope.
 
 The user recorded these items while studying 《大家的日语》 (みんなの日本語). The supplied AnkiDroid screenshot, `Screenshot_20261029_012025_AnkiDroid.png`, shows 49 cards. Treat these as the user's study notes, not as a transcription independently checked against a particular textbook edition or lesson.
 
@@ -117,4 +119,4 @@ Append a separate dated batch section to `docs/JP_VOCABULARY_IMPORT.md`, preserv
 
 Modify only the scoped vocabulary, import record, new audio, and generated export. Do not change the schema, tooling, dependencies, card templates, or styling. Do not edit generated TSV manually.
 
-Do not import into Anki, delete notes, change review state, synchronize AnkiWeb, or modify AnkiDroid. Do not stage, commit, or push. Audio generation and vocabulary import remain pending until the user confirms implementation.
+Do not import into Anki, delete notes, change review state, synchronize AnkiWeb, or modify AnkiDroid. Do not stage, commit, or push. The approved repository import and audio generation are complete; these boundaries still apply to any follow-up work.

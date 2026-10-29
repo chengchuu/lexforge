@@ -1,0 +1,12 @@
+id: ee-kee-shii
+language: ja
+word: "エー・ケー・シー"
+pronunciation: "エー・ケー・シー"
+part_of_speech: noun
+meaning: "A・K・C 的读音；名称"
+context: "学习记录中的名称读音，对应字母 A・K・C。"
+example: "資料には「エー・ケー・シー」と書いてあります。"
+notes: "保留给定读音与间隔点，不推定字母全称或实际组织身份。"
+audio: ee-kee-shii.mp3
+tags:
+  - proper-noun

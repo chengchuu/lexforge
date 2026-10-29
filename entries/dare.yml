@@ -1,0 +1,12 @@
+id: dare
+language: ja
+word: "誰"
+pronunciation: "だれ"
+part_of_speech: pronoun
+meaning: "谁"
+context: "询问人的身份；更礼貌的说法是「どなた」。"
+example: "あの人は誰ですか。"
+audio: dare.mp3
+tags:
+  - pronoun
+  - daily

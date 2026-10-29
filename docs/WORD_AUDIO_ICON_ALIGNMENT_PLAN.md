@@ -2,7 +2,9 @@
 
 ## Status
 
-Planned. Creating this document does not authorize implementation or changes to live Anki templates.
+Implemented in the [README card styling](../README.md#set-up-anki-once); status reviewed on 2026-10-29. Word-audio controls use centered 24px icons inside 44px touch targets, scoped to the pronunciation row.
+
+Live appearance and playback on Mac Anki and AnkiDroid remain unverified. Updating the documented styling does not update installed templates; applying it to the user's Anki collection remains a separate step.
 
 ## Problem
 

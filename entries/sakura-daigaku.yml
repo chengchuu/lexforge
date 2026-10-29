@@ -1,0 +1,12 @@
+id: sakura-daigaku
+language: ja
+word: "さくら大学"
+pronunciation: "さくらだいがく"
+part_of_speech: noun
+meaning: "大学名称；さくら大学"
+context: "学习记录中的大学名称，保留「さくら大学」写法。"
+example: "資料には「さくら大学」と書いてあります。"
+notes: "名称来自学习记录，不推定对应的实际学校或补写汉字。"
+audio: sakura-daigaku.mp3
+tags:
+  - proper-noun

@@ -1,0 +1,13 @@
+id: ohayou-gozaimasu
+language: ja
+word: "おはようございます"
+pronunciation: "おはようございます"
+part_of_speech: phrase
+meaning: "早上好"
+context: "早晨见面时使用的礼貌问候。"
+example: "先生、おはようございます。"
+audio: ohayou-gozaimasu.mp3
+tags:
+  - phrase
+  - daily
+  - polite

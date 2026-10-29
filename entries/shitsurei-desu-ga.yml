@@ -1,0 +1,12 @@
+id: shitsurei-desu-ga
+language: ja
+word: "失礼ですが"
+pronunciation: "しつれいですが"
+part_of_speech: phrase
+meaning: "冒昧问一下"
+context: "询问姓名等私人信息或打断谈话前，用于缓和语气。"
+example: "失礼ですが、お名前は。"
+audio: shitsurei-desu-ga.mp3
+tags:
+  - phrase
+  - polite

@@ -1,5 +1,9 @@
 # American English pronunciation sources
 
+## Status
+
+Research pass complete with three unresolved entries; status reviewed on 2026-10-29. `accessor-tech`, `iterable-tech`, and `symlink-tech` still have no IPA. Counts below cover the original 284-entry collection, not later vocabulary batches. This record documents transcription evidence, not independent verification of generated audio pronunciation.
+
 This pass accounts for the 282 entries that previously lacked pronunciation: **176 direct transcriptions**, **103 composed or derived transcriptions**, and **3 unresolved entries**. Together with the two preserved pronunciations, 281 of 284 entries have IPA. All 284 retain their existing audio references.
 
 ## Method and notation
@@ -18,7 +22,7 @@ No American IPA was established for **accessor**, **iterable**, or **symlink**. 
 
 ## Apply the updated content in Anki
 
-Use the existing multilingual LexForge note type and its eleven-column field mapping from the [README](../README.md#set-up-anki-once). Reimport the rebuilt `dist/vocabulary.tsv`, choose to update existing notes using the first `ID` field and note-type match scope, then sync Anki Desktop and AnkiDroid. Keep the existing note type and notes to preserve scheduling. The front template already includes conditional pronunciation and audio fields; no template change or new media copy is needed for this update.
+Use the existing multilingual LexForge note type and the current field mapping from the [README](../README.md#set-up-anki-once): eleven note fields, including derived `TTSLanguage`, followed by tags in column 12. Reimport the rebuilt `dist/vocabulary.tsv`, choose to update existing notes using the first `ID` field and note-type match scope, then sync Anki Desktop and AnkiDroid. Keep the existing note type and notes to preserve scheduling. The front template already includes conditional pronunciation and audio fields; no template change or new media copy is needed for this pronunciation update once the current README setup is in place.
 
 ## Verification
 
