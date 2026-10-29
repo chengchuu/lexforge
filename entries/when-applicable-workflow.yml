@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "在适用时"
 context: "只有满足相关条件时才采用某项做法。"
 example: "Explain why no fix was made when applicable."
-notes: "Source: daily-1am-issue-investigation.md. IPA composed from verified American English component pronunciations."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: when-applicable-workflow.mp3
 tags:
   - tech

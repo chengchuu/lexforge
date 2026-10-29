@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "任务预算"
 context: "单次任务允许使用的时间或其他资源上限。"
 example: "The reporting reserve is included in the run budget."
-notes: "Source: daily-1am-issue-investigation.md. Source wording: total budget. IPA composed from verified American English component pronunciations."
+notes: "Source: daily-1am-issue-investigation.md. Source wording: total budget."
 audio: run-budget-workflow.mp3
 tags:
   - tech

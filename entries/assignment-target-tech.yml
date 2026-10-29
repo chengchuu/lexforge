@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "赋值目标"
 context: "赋值操作准备写入的变量、属性或其他可写位置。"
 example: "The checker must recognize the assignment target through the assertion."
-notes: "Source: typescript-64965.md. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-64965.md."
 audio: assignment-target-tech.mp3
 tags:
   - tech

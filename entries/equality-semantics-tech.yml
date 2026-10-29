@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "相等比较语义"
 context: "决定何时将两个值视为相等的规则。"
 example: "JavaScript equality semantics remain unchanged by the fix."
-notes: "Source: react-37995.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-37995.md."
 audio: equality-semantics-tech.mp3
 tags:
   - tech

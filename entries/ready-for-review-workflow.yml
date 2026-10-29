@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "已准备好供审查"
 context: "工作已达到可以交给他人检查的状态，不等同于已经发布。"
 example: "The fix is ready for review after validation passes."
-notes: "Source: daily-1am-issue-investigation.md. IPA composed from verified American English component pronunciations."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: ready-for-review-workflow.mp3
 tags:
   - tech

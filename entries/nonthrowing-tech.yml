@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "不会抛出异常的"
 context: "执行时不产生需要异常处理器捕获的异常。"
 example: "The optimizer incorrectly treats every array expression as nonthrowing."
-notes: "Source: react-a-compiler.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-a-compiler.md."
 audio: nonthrowing-tech.mp3
 tags:
   - tech

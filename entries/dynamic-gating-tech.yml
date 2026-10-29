@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "动态条件控制"
 context: "根据运行时条件决定是否采用某种编译结果或行为的机制。"
 example: "Dynamic gating validates the condition name before code generation."
-notes: "Source: react-9-rust-compiler.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-9-rust-compiler.md."
 audio: dynamic-gating-tech.mp3
 tags:
   - tech

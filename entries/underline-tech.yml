@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "下划线标记"
 context: "诊断输出中用来标明问题所在文本范围的线条或标记。"
 example: "The underline starts one column too early."
-notes: "Source: react-37898.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-37898.md."
 audio: underline-tech.mp3
 tags:
   - tech

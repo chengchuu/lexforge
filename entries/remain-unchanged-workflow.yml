@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "保持不变"
 context: "说明某次修改没有改变指定的行为或结果。"
 example: "Tab handling and ASCII behavior remain unchanged."
-notes: "Source: react-37898.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-37898.md."
 audio: remain-unchanged-workflow.mp3
 tags:
   - tech

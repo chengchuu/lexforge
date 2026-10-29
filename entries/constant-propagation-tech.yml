@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "常量传播"
 context: "利用已知常量值推导或替换后续表达式的优化。"
 example: "Constant propagation must preserve the distinction between positive and negative zero."
-notes: "Source: react-37995.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-37995.md."
 audio: constant-propagation-tech.mp3
 tags:
   - tech

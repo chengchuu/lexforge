@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "在实际可行时"
 context: "在现实条件允许且有意义的情况下采用某种方法。"
 example: "Use focused probes where practical."
-notes: "Source: react-candidates.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-candidates.md."
 audio: where-practical-workflow.mp3
 tags:
   - tech

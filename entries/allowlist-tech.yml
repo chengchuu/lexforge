@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "允许列表"
 context: "明确列出允许通过检查或采用某项处理的内容。"
 example: "The diagnostic is missing from the JavaScript allowlist."
-notes: "Source: typescript-tueoct27.md. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-tueoct27.md."
 audio: allowlist-tech.mp3
 tags:
   - tech

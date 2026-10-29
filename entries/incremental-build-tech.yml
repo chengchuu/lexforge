@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "增量构建"
 context: "利用先前结果，仅更新受输入变化影响的构建部分。"
 example: "The incremental build must invalidate affected diagnostics."
-notes: "Source: typescript-tueoct27.md. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-tueoct27.md."
 audio: incremental-build-tech.mp3
 tags:
   - tech

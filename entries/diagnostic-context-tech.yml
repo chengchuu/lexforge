@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "诊断上下文"
 context: "用于确定诊断位置和相关语义的程序上下文。"
 example: "Recognize the heritage reference as a diagnostic context."
-notes: "Source: typescript-64952.md. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-64952.md."
 audio: diagnostic-context-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "继承或实现关系中的类型"
 context: "类或接口通过 extends 或 implements 引用的类型。"
 example: "The diagnostic identifies an inaccessible heritage type."
-notes: "Source: typescript-64952.md. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-64952.md."
 audio: heritage-type-tech.mp3
 tags:
   - tech

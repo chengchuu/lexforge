@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "依赖锁定文件"
 context: "记录解析后的依赖版本等信息，以便重复安装。"
 example: "Update the stale lockfile entries."
-notes: "Source: react-37859.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-37859.md."
 audio: lockfile-tech.mp3
 tags:
   - tech

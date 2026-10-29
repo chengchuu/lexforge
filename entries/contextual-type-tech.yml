@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "上下文类型"
 context: "由表达式所处位置或预期用法提供的类型信息。"
 example: "The method receives its contextual type from the surrounding object."
-notes: "Source: typescript-wedoct28.md. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-wedoct28.md."
 audio: contextual-type-tech.mp3
 tags:
   - tech

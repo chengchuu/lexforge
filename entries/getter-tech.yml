@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "取值访问器"
 context: "读取属性时执行的访问器。"
 example: "Computing the decorator context must not invoke the getter early."
-notes: "Source: typescript-a-62854.md. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-a-62854.md."
 audio: getter-tech.mp3
 tags:
   - tech

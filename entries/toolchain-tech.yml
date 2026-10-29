@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "工具链"
 context: "完成编译、构建等流程所需的一组工具。"
 example: "Use the same toolchain when comparing the two builds."
-notes: "Source: go101-321.md. IPA composed from verified American English component pronunciations."
+notes: "Source: go101-321.md."
 audio: toolchain-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "带附加符号的文字"
 context: "包含带重音或其他附加符号字母的文本。"
 example: "The regression tests cover accented text."
-notes: "Source: react-37898.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-37898.md."
 audio: accented-text-tech.mp3
 tags:
   - tech

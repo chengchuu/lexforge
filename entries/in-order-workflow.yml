@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "按顺序"
 context: "按输入或规定的先后顺序处理内容。"
 example: "Scan JSON escapes in order."
-notes: "Source: react-c-rust-compiler.md. IPA composed from verified American English component pronunciations."
+notes: "Source: react-c-rust-compiler.md."
 audio: in-order-workflow.mp3
 tags:
   - tech
