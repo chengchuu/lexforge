@@ -181,18 +181,18 @@ func TestExportEscapingAndMetadata(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:11\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTags\n"
+	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:12\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tTags\n"
 	if !bytes.HasPrefix(data, []byte(headers)) {
 		t.Fatalf("wrong headers: %s", data)
 	}
 	reader := csv.NewReader(bytes.NewReader(data[len(headers):]))
 	reader.Comma = '\t'
-	reader.FieldsPerRecord = 11
+	reader.FieldsPerRecord = 12
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "lang-en programming tech"}}
+	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "en_US", "lang-en programming tech"}}
 	if !reflect.DeepEqual(rows, want) {
 		t.Fatalf("want %#v, got %#v", want, rows)
 	}
@@ -243,5 +243,43 @@ func TestInvalidBuildCreatesNoOutput(t *testing.T) {
 	}
 	if _, err := os.Stat(filepath.Join(root, "dist")); !os.IsNotExist(err) {
 		t.Fatalf("invalid build created output: %v", err)
+	}
+}
+
+func TestTTSLanguageExport(t *testing.T) {
+	for _, tc := range []struct{ tag, want string }{
+		{"en", "en_US"}, {"ja", "ja_JP"}, {"ko", "ko_KR"}, {"fr", "fr_FR"},
+		{"en-GB", "en_GB"}, {"es-419", "es_419"}, {"de", ""}, {"zh-Hant-TW", ""}, {"und", ""},
+	} {
+		t.Run(tc.tag, func(t *testing.T) {
+			root := t.TempDir()
+			source := strings.Replace(validEntry, "language: en", "language: "+tc.tag, 1)
+			writeFile(t, root, "entries/word.yml", source)
+			count, warnings, err := Build(root)
+			if err != nil || count != 1 {
+				t.Fatalf("build: %d %v", count, err)
+			}
+			if (len(warnings) == 1) != (tc.want == "") {
+				t.Fatalf("warnings: %v", warnings)
+			}
+			if tc.want == "" && !strings.Contains(warnings[0], "no TTS locale mapping") {
+				t.Fatal(warnings)
+			}
+			lines := bytes.SplitN(readExport(t, root), []byte("\n"), 6)
+			reader := csv.NewReader(bytes.NewReader(lines[5]))
+			reader.Comma = '\t'
+			reader.FieldsPerRecord = 12
+			row, err := reader.Read()
+			if err != nil {
+				t.Fatal(err)
+			}
+			if row[0] != "idiomatic-tech" || row[10] != tc.want || row[11] != "lang-"+strings.ToLower(tc.tag) {
+				t.Fatalf("row: %v", row)
+			}
+			actual, err := os.ReadFile(filepath.Join(root, "entries/word.yml"))
+			if err != nil || string(actual) != source {
+				t.Fatal("build changed source")
+			}
+		})
 	}
 }

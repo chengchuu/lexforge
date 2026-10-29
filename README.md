@@ -126,7 +126,7 @@ Repeated words within the same canonical language tag produce warnings for human
 
 ## Set up Anki once
 
-Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains eleven columns: ten note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
+Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains twelve columns: eleven note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
 1. In **Tools → Manage Note Types**, clone the **Basic** note type and name it `LexForge`.
 2. In **Fields**, rename `Front` to `ID` and `Back` to `Language`. Add the remaining fields in this exact order:
@@ -142,6 +142,7 @@ Use a current Anki Desktop release. These instructions require Anki 2.1.58 or la
    Example
    Notes
    Audio
+   TTSLanguage
    ```
 
 3. Keep `ID` first. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID.
@@ -153,23 +154,64 @@ If you previously used the English-only setup, the new export requires the field
 Front template:
 
 ```html
+<div class="lexforge-card">
 <div class="word">{{Word}}</div>
+<hr class="answer-divider">
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
 {{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
+<script>
+(function () {
+  var card = document.querySelector(".lexforge-card");
+  var example = card.querySelector(".example-speech .replay-button, .example-speech .replaybutton");
+  if (example) {
+    example.textContent = "Read example";
+    example.setAttribute("aria-label", "Read example");
+  }
+  var word = card.querySelector(".audio .replay-button, .audio .replaybutton");
+  if (word && !word.hasAttribute("data-autoplayed")) {
+    word.setAttribute("data-autoplayed", "true");
+    setTimeout(function () {
+      if (word.isConnected) word.click();
+    }, 0);
+  }
+})();
+</script>
+</div>
 ```
 
 Back template:
 
 ```html
+<div class="lexforge-card">
 <div class="word">{{Word}}</div>
 <hr class="answer-divider">
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
 {{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
 <div class="meaning">{{Meaning}}</div>
 <div class="context">{{Context}}</div>
-<div class="example">{{Example}}</div>
+<div class="example">{{Example}}
+{{#Example}}{{#TTSLanguage}}<span class="example-speech">[anki:tts lang={{TTSLanguage}}]{{Example}}[/anki:tts]</span>{{/TTSLanguage}}{{/Example}}
+</div>
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
 {{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
+<script>
+(function () {
+  var card = document.querySelector(".lexforge-card");
+  var example = card.querySelector(".example-speech .replay-button, .example-speech .replaybutton");
+  if (example) {
+    example.textContent = "Read example";
+    example.setAttribute("aria-label", "Read example");
+  }
+  var word = card.querySelector(".audio .replay-button, .audio .replaybutton");
+  if (word && !word.hasAttribute("data-autoplayed")) {
+    word.setAttribute("data-autoplayed", "true");
+    setTimeout(function () {
+      if (word.isConnected) word.click();
+    }, 0);
+  }
+})();
+</script>
+</div>
 ```
 
 Styling:
@@ -284,6 +326,31 @@ Styling:
   font-size: clamp(21px, 5.25vw, 24px);
 }
 
+.example-speech {
+  display: inline-block;
+  margin-left: 0.4em;
+}
+
+.example-speech a {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 10px;
+  border: 1px solid var(--color-fieldset);
+  border-radius: 6px;
+  background: var(--color-field);
+  color: var(--color-heading);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.example-speech a:focus {
+  outline: 2px solid var(--color-heading);
+  outline-offset: 2px;
+}
+
 .audio {
   margin-top: 20px;
 }
@@ -300,7 +367,19 @@ The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/st
 
 The front shows the word, pronunciation, and audio when available. Each side renders these fields explicitly, so pronunciation and audio appear once per side. The back adds part of speech, meaning, context, examples, and notes. Japanese pronunciation uses kana.
 
-For an existing LexForge note type, replace its **Front Template**, **Back Template**, and **Styling** in **Cards**, then sync Anki Desktop and AnkiDroid. Rebuild and reimport the TSV when changing from the old English-only fields; later styling-only edits do not require reimport. Editing this README does not update an installed note type automatically.
+### Enable example speech and update an existing note type
+
+Add `TTSLanguage` after `Audio` in **Tools → Manage Note Types → LexForge → Fields**. Keep existing fields and `ID` intact; do not recreate notes. Replace the front, back, and styling with the templates above, rebuild the TSV, and reimport with **update existing notes** and **note type** match scope. Verify all eleven fields and the tags column before importing, then sync Anki Desktop and AnkiDroid. Editing this README does not update installed templates.
+
+In the LexForge deck's options, enable **Don't play audio automatically**. Keep replay buttons visible in both clients. Use a separate deck preset if other decks should retain native autoplay. The template script automatically clicks only the word recording once on each side; **Read example** speaks the full example only when tapped. Leaving native autoplay enabled can play the example automatically and play the word twice. The app's general Replay Audio action may replay all audio on that side, including the example; use the individual controls to choose one.
+
+Example speech requires AnkiDroid 2.17 or later and a matching installed TTS voice. Anki Desktop on macOS uses system voices; AnkiDroid uses its configured Android speech engine. Install the desired language's voice in the device's text-to-speech settings; `{{tts-voices:}}` in a temporary template lists Anki's available voices. Missing voices produce Anki's native playback error. Japanese names and fictional readings in examples may be mispronounced. No example MP3s are generated or synced.
+
+`TTSLanguage` is derived during export, not stored in YAML. Bare `en`, `ja`, `ko`, and `fr` map to `en_US`, `ja_JP`, `ko_KR`, and `fr_FR`. Ordinary language-region tags such as `en-GB` become `en_GB`. Other valid tags remain accepted, but produce an empty TTS locale and a build warning until an explicit mapping is added in `internal/vocabulary/export.go`. Cards with an empty locale show the example without a speech control. A locale mapping does not guarantee an installed voice.
+
+After setup, check English and Japanese cards on both devices: word audio plays once on the front and back, examples stay silent until tapped, and each control plays only its own content. Check rapid card transitions, repeated taps, missing word audio, and light/dark mode. Live Pixel playback must be verified on the device. To roll back the playback behavior, remove the example speech span and both scripts, then restore native autoplay; the extra note field can remain.
+
+Later styling-only edits do not require a rebuild or reimport. See Anki's [native TTS documentation](https://docs.ankiweb.net/templates/fields.html#text-to-speech-for-individual-fields) and [audio options](https://docs.ankiweb.net/deck-options.html#audio).
 
 If multiple meanings make the prompt ambiguous, optionally add `{{Example}}` below `{{Word}}` on the front. Keep translations on the back.
 
@@ -314,7 +393,7 @@ These are AnkiDroid controls outside the card content. Change their size in the 
 
 1. Build `dist/vocabulary.tsv`.
 2. In Anki Desktop, import the TSV and select the `LexForge` note type and your deck.
-3. Verify the preview: tab separator, HTML enabled, columns 1–10 mapped to the matching fields, and column 11 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
+3. Verify the preview: tab separator, HTML enabled, columns 1–11 mapped to the matching fields, and column 12 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
 4. Choose to **update** existing notes. Use **note type** as the match scope, rather than note type and deck. Keep these settings for later imports.
 5. Import, inspect a card, and sync with AnkiWeb. Then sync AnkiDroid to review on mobile.
 

@@ -7,6 +7,7 @@ import (
 	"html"
 	"os"
 	"path/filepath"
+	"regexp"
 	"slices"
 	"sort"
 	"strings"
@@ -18,6 +19,11 @@ func Build(root string) (int, []string, error) {
 	entries, warnings, err := Load(root)
 	if err != nil {
 		return 0, warnings, err
+	}
+	for _, entry := range entries {
+		if ttsLanguage(entry.Language) == "" {
+			warnings = append(warnings, fmt.Sprintf("%s: no TTS locale mapping for language %q; example speech is unavailable; add a mapping in export.go if a matching device voice exists", entry.sourcePath, entry.Language))
+		}
 	}
 	data, err := render(entries)
 	if err != nil {
@@ -50,8 +56,8 @@ func Build(root string) (int, []string, error) {
 
 func render(entries []Entry) ([]byte, error) {
 	var output bytes.Buffer
-	output.WriteString("#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:11\n")
-	output.WriteString("#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTags\n")
+	output.WriteString("#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:12\n")
+	output.WriteString("#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tTags\n")
 	writer := csv.NewWriter(&output)
 	writer.Comma = '\t'
 	for _, entry := range entries {
@@ -67,7 +73,7 @@ func render(entries []Entry) ([]byte, error) {
 		tags = append(tags, "lang-"+strings.ToLower(entry.Language))
 		sort.Strings(tags)
 		tags = slices.Compact(tags)
-		fields = append(fields, audio, strings.Join(tags, " "))
+		fields = append(fields, audio, ttsLanguage(entry.Language), strings.Join(tags, " "))
 		if err := writer.Write(fields); err != nil {
 			return nil, err
 		}
@@ -83,4 +89,24 @@ func displayText(value string) string {
 	// Keep literal Anki media markers in vocabulary text from becoming audio.
 	value = strings.ReplaceAll(value, "[", "&#91;")
 	return strings.ReplaceAll(value, "\n", "<br>")
+}
+
+// Anki voice locales are distinct from the canonical BCP 47 source tags.
+var ttsRegionTag = regexp.MustCompile(`^[a-z]{2,3}-(?:[A-Z]{2}|[0-9]{3})$`)
+
+func ttsLanguage(tag string) string {
+	switch tag {
+	case "en":
+		return "en_US"
+	case "ja":
+		return "ja_JP"
+	case "ko":
+		return "ko_KR"
+	case "fr":
+		return "fr_FR"
+	}
+	if ttsRegionTag.MatchString(tag) {
+		return strings.ReplaceAll(tag, "-", "_")
+	}
+	return ""
 }

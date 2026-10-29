@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "位于之前"
 context: "在文本顺序或执行顺序中出现在另一项之前。"
 example: "A backslash precedes the surrogate escape."
-notes: "Source: react-c-rust-compiler.md. Related form: preceding. Passive pattern: be preceded by. Pattern: preceded by. The escape is preceded by two backslashes."
+notes: "Source: react-c-rust-compiler.md. Related form: preceding. Passive pattern: be preceded by. The escape is preceded by two backslashes."
 audio: precede-tech.mp3
 tags:
   - tech

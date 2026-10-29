@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "工作范围"
 context: "一次变更、调查或验证包含和排除的内容边界。"
 example: "State the scope of the investigation before listing findings."
-notes: "Source: daily-1am-issue-investigation.md. Distinct from lexical scope. Expressions: out of scope; outside this fix. Expressions: outside this fix; out of scope. The upstream failure remains outside this fix."
+notes: "Source: daily-1am-issue-investigation.md. Distinct from lexical scope. Expressions: out of scope; outside this fix. The upstream failure remains outside this fix."
 audio: scope-workflow.mp3
 tags:
   - tech
