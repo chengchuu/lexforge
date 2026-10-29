@@ -157,14 +157,15 @@ Front template:
 <div class="lexforge-card">
 <div class="word">{{Word}}</div>
 <hr class="answer-divider">
+<div class="pronunciation-row">
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
 {{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
+</div>
 <script>
 (function () {
   var card = document.querySelector(".lexforge-card");
   var example = card.querySelector(".example-speech .replay-button, .example-speech .replaybutton");
   if (example) {
-    example.textContent = "Read example";
     example.setAttribute("aria-label", "Read example");
   }
   var word = card.querySelector(".audio .replay-button, .audio .replaybutton");
@@ -185,7 +186,10 @@ Back template:
 <div class="lexforge-card">
 <div class="word">{{Word}}</div>
 <hr class="answer-divider">
+<div class="pronunciation-row">
 {{#Pronunciation}}<div class="pronunciation">{{Pronunciation}}</div>{{/Pronunciation}}
+{{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
+</div>
 {{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
 <div class="meaning">{{Meaning}}</div>
 <div class="context">{{Context}}</div>
@@ -193,13 +197,11 @@ Back template:
 {{#Example}}{{#TTSLanguage}}<span class="example-speech">[anki:tts lang={{TTSLanguage}}]{{Example}}[/anki:tts]</span>{{/TTSLanguage}}{{/Example}}
 </div>
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
-{{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
 <script>
 (function () {
   var card = document.querySelector(".lexforge-card");
   var example = card.querySelector(".example-speech .replay-button, .example-speech .replaybutton");
   if (example) {
-    example.textContent = "Read example";
     example.setAttribute("aria-label", "Read example");
   }
   var word = card.querySelector(".audio .replay-button, .audio .replaybutton");
@@ -285,8 +287,24 @@ Styling:
   font-size: clamp(20px, 5vw, 22px);
 }
 
-.word + .pronunciation {
-  margin-top: 12px;
+.pronunciation-row {
+  display: flex;
+  align-items: center;
+}
+
+.pronunciation-row .pronunciation {
+  min-width: 0;
+  flex: 0 1 auto;
+}
+
+.pronunciation-row .audio {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.pronunciation + .audio {
+  margin-left: 8px;
 }
 
 .part-of-speech,
@@ -331,28 +349,9 @@ Styling:
   margin-left: 0.4em;
 }
 
-.example-speech a {
-  display: inline-flex;
-  width: auto;
-  height: auto;
-  align-items: center;
-  min-height: 44px;
-  padding: 0 10px;
-  border: 1px solid var(--color-fieldset);
-  border-radius: 6px;
-  background: var(--color-field);
-  color: var(--color-heading);
-  font-size: 18px;
-  text-decoration: none;
-}
-
 .example-speech a:focus {
   outline: 2px solid var(--color-heading);
   outline-offset: 2px;
-}
-
-.audio {
-  margin-top: 20px;
 }
 
 @media (min-width: 700px) {
@@ -365,13 +364,13 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows the word, pronunciation, and audio when available. Each side renders these fields explicitly, so pronunciation and audio appear once per side. The back adds part of speech, meaning, context, examples, and notes. Japanese pronunciation uses kana.
+The front shows the word, pronunciation, and audio when available. On both sides, pronunciation and its native word-audio icon share a row; long readings wrap within the row while the icon stays beside them. Missing fields leave no empty row spacing. Each side renders these fields explicitly, so pronunciation and audio appear once per side. The back adds part of speech, meaning, context, examples, and notes. Japanese pronunciation uses kana.
 
 ### Enable example speech and update an existing note type
 
 Add `TTSLanguage` after `Audio` in **Tools → Manage Note Types → LexForge → Fields**. Keep existing fields and `ID` intact; do not recreate notes. Replace the front, back, and styling with the templates above, rebuild the TSV, and reimport with **update existing notes** and **note type** match scope. Verify all eleven fields and the tags column before importing, then sync Anki Desktop and AnkiDroid. Editing this README does not update installed templates.
 
-In the LexForge deck's options, enable **Don't play audio automatically**. Keep replay buttons visible in both clients. Use a separate deck preset if other decks should retain native autoplay. The template script automatically clicks only the word recording once on each side; **Read example** speaks the full example only when tapped. Leaving native autoplay enabled can play the example automatically and play the word twice. The app's general Replay Audio action may replay all audio on that side, including the example; use the individual controls to choose one.
+In the LexForge deck's options, enable **Don't play audio automatically**. Keep replay buttons visible in both clients. Use a separate deck preset if other decks should retain native autoplay. The template script automatically clicks only the word recording once on each side. The native replay icon beside the example speaks the full example only when tapped; its accessible label is **Read example**. Leaving native autoplay enabled can play the example automatically and play the word twice. The app's general Replay Audio action may replay all audio on that side, including the example; use the individual controls to choose one.
 
 Example speech requires AnkiDroid 2.17 or later and a matching installed TTS voice. Anki Desktop on macOS uses system voices; AnkiDroid uses its configured Android speech engine. Install the desired language's voice in the device's text-to-speech settings; `{{tts-voices:}}` in a temporary template lists Anki's available voices. Missing voices produce Anki's native playback error. Japanese names and fictional readings in examples may be mispronounced. No example MP3s are generated or synced.
 
