@@ -2,7 +2,7 @@
 
 ## Status and source
 
-Implemented on 2026-10-29 after user approval. All 49 items are accounted for: 44 new entries and recordings, plus five reused entries with their recordings preserved. The collection contains 571 entries (346 English and 225 Japanese). See the [import record](JP_VOCABULARY_IMPORT.md#2026-10-29-minna-no-nihongo-study-notes) for mappings, passed checks, and preservation results.
+Implemented on 2026-10-29 after user approval. All 49 items are accounted for: 44 new entries and recordings, plus five reused entries with their recordings preserved. The collection contained 571 entries (346 English and 225 Japanese) immediately after this batch, before the later English cleanup. See the [import record](JP_VOCABULARY_IMPORT.md#2026-10-29-minna-no-nihongo-study-notes) for mappings, passed checks, and preservation results.
 
 Listening verification remains outstanding, especially for names, age readings, suffixes, and incomplete grammar patterns. No Anki import or synchronization was performed. The sections below retain the approved implementation scope.
 

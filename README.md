@@ -33,6 +33,8 @@ The first run downloads the YAML parser. Subsequent runs can work offline once d
 3. Validate, review the diff, and commit the source file.
 4. Build and import a batch when convenient.
 
+Choose one useful learning target per entry. Prefer dictionary headwords where appropriate, while keeping meaningful fixed expressions, grammatical forms, and natural plural forms. Put ordinary sentences and freely assembled descriptions in `example` or `notes`; create a phrase entry when the phrase itself is the learning target. For example, reuse `beef`, `rice`, and `sauce` for a meal description, but keep a useful expression such as `mashed potatoes` or the pattern `Would you like A or B?`. Do not generate every combination of existing words or split phrases solely by length.
+
 For example, `entries/idiomatic.yml` can contain:
 
 ```yaml
@@ -71,6 +73,14 @@ and available commands before making changes.
 Search for existing entries covering the same language and meaning.
 Reuse or update matching entries without changing their stable IDs.
 Create a separate entry only for a distinct meaning.
+
+For supplied sentences or descriptions, identify the useful learning
+targets and check existing component vocabulary first. Keep ordinary
+usage in examples or notes instead of creating a card for each sentence
+or combination. Preserve useful fixed expressions and grammar patterns;
+do not split them mechanically or enforce a word-count limit.
+Prefer dictionary headwords where appropriate, retaining meaningful
+inflections and natural plural forms. Report any grouping decisions.
 
 For each entry:
 - Use a globally unique stable ID and lowercase kebab-case filename.

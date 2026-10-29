@@ -316,6 +316,12 @@ Avoid:
 - redundant explanations
 - beginner-level teaching
 
+Choose one useful learning target per entry. Prefer dictionary headwords where appropriate, while retaining meaningful fixed expressions, grammatical forms, and natural plural forms. Search for existing component vocabulary before adding a phrase from a supplied sentence.
+
+Use ordinary sentences and freely assembled descriptions as examples or notes. Create a phrase entry when the phrase itself has independent learning value, such as a fixed expression, technical term, named dish, or reusable grammar pattern. Do not generate every combination of already-covered words or split expressions solely by word count.
+
+When consolidating a supplied list, record how source items map to retained entries or preserved examples. Apply this selection policy to the requested scope; it does not authorize unrelated entry deletion, ID changes, or audio regeneration.
+
 ---
 
 ## Technical Vocabulary

@@ -1,0 +1,12 @@
+id: potato-food
+language: en
+word: "potato"
+part_of_speech: noun
+meaning: "土豆；马铃薯"
+context: "可作主食或配菜的块茎蔬菜；菜单中常用复数 potatoes 表示土豆配菜。"
+example: "The fish comes with potatoes."
+notes: "复数为 potatoes。mashed potatoes 指土豆泥。"
+audio: potato-food.mp3
+tags:
+  - noun
+  - food

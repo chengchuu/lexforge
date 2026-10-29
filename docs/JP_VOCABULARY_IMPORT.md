@@ -2,7 +2,7 @@
 
 ## Status
 
-Both imports and their audio generation are complete; status reviewed on 2026-10-29. The initial batch contains 181 entries after the approved merge; the [Minna no Nihongo batch](#2026-10-29-minna-no-nihongo-study-notes) adds 44 and reuses five. The current collection contains 571 entries (346 English and 225 Japanese), all with audio references. Listening verification and live Anki checks remain outstanding. Each section retains its batch-specific counts and verification results.
+Both imports and their audio generation are complete; status reviewed on 2026-10-29. The initial batch contains 181 entries after the approved merge; the [Minna no Nihongo batch](#2026-10-29-minna-no-nihongo-study-notes) adds 44 and reuses five. After that batch, the collection contained 571 entries (346 English and 225 Japanese), all with audio references; the later [English cleanup](EN_VOCABULARY_IMPORT.md#vocabulary-focused-cleanup) reduced the English total. Listening verification and live Anki checks remain outstanding. Each section retains its batch-specific counts and verification results.
 
 Source: the user-provided approved Japanese vocabulary and quote list. No original source corpus was re-analyzed and no additional vocabulary or quotes were selected. Readings are retained from that approved list, not presented as an independent dictionary or audiovisual verification.
 
