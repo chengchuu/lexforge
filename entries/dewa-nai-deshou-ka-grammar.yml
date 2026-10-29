@@ -1,0 +1,12 @@
+id: dewa-nai-deshou-ka-grammar
+language: ja
+word: "～ではないでしょうか"
+pronunciation: "～ではないでしょうか"
+part_of_speech: phrase
+meaning: "会不会是……；是不是……"
+context: "用于委婉提出判断、猜测或请对方确认，而非直接断言。"
+example: "こちらではないでしょうか。"
+tags:
+  - phrase
+  - grammar
+  - polite

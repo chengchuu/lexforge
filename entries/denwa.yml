@@ -1,0 +1,10 @@
+id: denwa
+language: ja
+word: "電話"
+pronunciation: "でんわ"
+part_of_speech: noun
+meaning: "电话"
+context: "表示电话或电话联系这一方式。"
+example: "あとで電話します。"
+tags:
+  - noun

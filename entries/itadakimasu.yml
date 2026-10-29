@@ -1,0 +1,12 @@
+id: itadakimasu
+language: ja
+word: "いただきます"
+pronunciation: "いただきます"
+part_of_speech: phrase
+meaning: "我开动了"
+context: "开始吃饭前使用的习惯表达。"
+example: "では、いただきます。"
+tags:
+  - phrase
+  - food
+  - daily

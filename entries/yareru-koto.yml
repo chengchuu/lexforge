@@ -1,0 +1,11 @@
+id: yareru-koto
+language: ja
+word: "やれること"
+pronunciation: "やれること"
+part_of_speech: phrase
+meaning: "能做到的事"
+context: "将可能形式「やれる」修饰「こと」，表示能够做到的事。"
+example: "今やれることから始めます。"
+notes: "やる → やれる（可能形）。所给来源语句：俺がやれることをやりたいだけだよ。"
+tags:
+  - phrase

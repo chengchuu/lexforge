@@ -1,0 +1,10 @@
+id: namida
+language: ja
+word: "涙"
+pronunciation: "なみだ"
+part_of_speech: noun
+meaning: "眼泪"
+context: "指眼泪，可与流下、擦去等动作搭配。"
+example: "涙を拭きます。"
+tags:
+  - noun

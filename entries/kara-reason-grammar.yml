@@ -1,0 +1,11 @@
+id: kara-reason-grammar
+language: ja
+word: "～から"
+pronunciation: "～から"
+part_of_speech: phrase
+meaning: "因为……"
+context: "此处表示理由，接在原因说明后，不学习表示起点的用法。"
+example: "雨が降っているから、家にいます。"
+tags:
+  - phrase
+  - grammar

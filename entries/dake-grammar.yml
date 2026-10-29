@@ -1,0 +1,11 @@
+id: dake-grammar
+language: ja
+word: "～だけ"
+pronunciation: "～だけ"
+part_of_speech: phrase
+meaning: "只是……；仅仅……"
+context: "限制数量、范围或理由，表示只是或仅仅。"
+example: "一つだけください。"
+tags:
+  - phrase
+  - grammar

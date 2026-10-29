@@ -1,0 +1,10 @@
+id: koukishin
+language: ja
+word: "好奇心"
+pronunciation: "こうきしん"
+part_of_speech: noun
+meaning: "好奇心"
+context: "对未知事物产生兴趣并想了解的心理。"
+example: "子どもは好奇心でいっぱいです。"
+tags:
+  - noun

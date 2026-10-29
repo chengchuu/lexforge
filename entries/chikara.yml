@@ -1,0 +1,10 @@
+id: chikara
+language: ja
+word: "力"
+pronunciation: "ちから"
+part_of_speech: noun
+meaning: "力量；能力"
+context: "可表示身体力量，也可指能力或作用。"
+example: "みんなで力を合わせます。"
+tags:
+  - noun

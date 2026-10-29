@@ -1,0 +1,11 @@
+id: morimoto
+language: ja
+word: "森本"
+pronunciation: "もりもと"
+part_of_speech: proper noun
+meaning: "森本，日本姓氏"
+context: "所给日本姓氏，读作「もりもと」；例句为语言练习，不指认真实来电者。"
+example: "森本と申します。"
+tags:
+  - proper-noun
+  - name

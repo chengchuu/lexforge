@@ -1,0 +1,12 @@
+id: hokage-naruto
+language: ja
+word: "火影"
+pronunciation: "ほかげ"
+part_of_speech: proper noun
+meaning: "火影"
+context: "所给《NARUTO》中的称号，读作「ほかげ」。"
+example: "「火影」は「ほかげ」と読みます。"
+tags:
+  - proper-noun
+  - anime
+  - naruto

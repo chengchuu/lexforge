@@ -1,0 +1,10 @@
+id: koneko
+language: ja
+word: "子猫"
+pronunciation: "こねこ"
+part_of_speech: noun
+meaning: "小猫"
+context: "指年幼的猫，不必带有亲昵称呼的意味。"
+example: "子猫が遊んでいます。"
+tags:
+  - noun

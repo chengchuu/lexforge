@@ -1,0 +1,11 @@
+id: byouin
+language: ja
+word: "病院"
+pronunciation: "びょういん"
+part_of_speech: noun
+meaning: "医院"
+context: "提供诊疗服务的医院，电话沟通时可用于确认联系对象。"
+example: "病院に電話します。"
+tags:
+  - noun
+  - hospital

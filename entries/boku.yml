@@ -1,0 +1,11 @@
+id: boku
+language: ja
+word: "僕"
+pronunciation: "ぼく"
+part_of_speech: pronoun
+meaning: "我；男性自称"
+context: "主要由男性使用的第一人称，语气和适用场合取决于关系与情境。"
+example: "僕の名前は森本です。"
+notes: "所给柯南原句使用片假名「ボク」：ボクの名前は江戸川コナン！探偵さ！该写法在此作为同一自称的文字变体保留。"
+tags:
+  - pronoun

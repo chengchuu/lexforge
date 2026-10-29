@@ -1,0 +1,11 @@
+id: sochira-no-byouin
+language: ja
+word: "そちらの病院"
+pronunciation: "そちらのびょういん"
+part_of_speech: phrase
+meaning: "贵院；你们医院"
+context: "礼貌地指对方所在或代表的医院。"
+example: "そちらの病院に確認したいことがあります。"
+tags:
+  - phrase
+  - hospital

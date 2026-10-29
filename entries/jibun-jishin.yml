@@ -1,0 +1,10 @@
+id: jibun-jishin
+language: ja
+word: "自分自身"
+pronunciation: "じぶんじしん"
+part_of_speech: noun
+meaning: "自己本身；自己本人"
+context: "强调自己本人或自身，与单独的「自分」相比强调更明显。"
+example: "自分自身を大切にしてください。"
+tags:
+  - noun

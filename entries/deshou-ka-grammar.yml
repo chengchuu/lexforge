@@ -1,0 +1,12 @@
+id: deshou-ka-grammar
+language: ja
+word: "～でしょうか"
+pronunciation: "～でしょうか"
+part_of_speech: phrase
+meaning: "请问是否……；会不会……"
+context: "用于较委婉、礼貌地询问或确认，需接在完整谓语结构后。"
+example: "今、お時間は大丈夫でしょうか。"
+tags:
+  - phrase
+  - grammar
+  - polite

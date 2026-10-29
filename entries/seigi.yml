@@ -1,0 +1,10 @@
+id: seigi
+language: ja
+word: "正義"
+pronunciation: "せいぎ"
+part_of_speech: noun
+meaning: "正义"
+context: "表示正当、公正的原则或理念，具体评价需结合语境。"
+example: "正義について考えます。"
+tags:
+  - noun

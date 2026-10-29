@@ -1,0 +1,10 @@
+id: machigaeru
+language: ja
+word: "間違える"
+pronunciation: "まちがえる"
+part_of_speech: verb
+meaning: "弄错；搞错"
+context: "表示把号码、姓名等弄错，是动词形式。"
+example: "電話番号を間違えました。"
+tags:
+  - verb

@@ -1,0 +1,10 @@
+id: yomikata
+language: ja
+word: "読み方"
+pronunciation: "よみかた"
+part_of_speech: noun
+meaning: "读法"
+context: "指文字、词语或姓名的读法。"
+example: "この名前の読み方を教えてください。"
+tags:
+  - noun

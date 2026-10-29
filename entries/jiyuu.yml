@@ -1,0 +1,10 @@
+id: jiyuu
+language: ja
+word: "自由"
+pronunciation: "じゆう"
+part_of_speech: noun
+meaning: "自由"
+context: "表示不受不必要限制的状态或自主选择的空间。"
+example: "自由を大切にします。"
+tags:
+  - noun

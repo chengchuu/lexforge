@@ -1,0 +1,11 @@
+id: ore
+language: ja
+word: "俺"
+pronunciation: "おれ"
+part_of_speech: pronoun
+meaning: "我；男性较随意或粗犷的自称"
+context: "主要由男性使用的随意第一人称，可能显得粗犷，不适合正式自我介绍。"
+example: "俺がやるよ。"
+notes: "所给角色台词中的「オレ」是片假名文字变体；一般词条使用「俺」。"
+tags:
+  - pronoun

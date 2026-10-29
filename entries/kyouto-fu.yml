@@ -1,0 +1,10 @@
+id: kyouto-fu
+language: ja
+word: "京都府"
+pronunciation: "きょうとふ"
+part_of_speech: proper noun
+meaning: "京都府"
+context: "日本行政区名称，用于地址或地区说明。"
+example: "住所の「京都府」を確認します。"
+tags:
+  - proper-noun

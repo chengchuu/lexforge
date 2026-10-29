@@ -1,0 +1,11 @@
+id: no-ka-grammar
+language: ja
+word: "～のか"
+pronunciation: "～のか"
+part_of_speech: phrase
+meaning: "疑问；根据语气可表示强烈反问"
+context: "用于疑问、确认或反问，强度取决于语境和语气。"
+example: "本当に行くのか。"
+tags:
+  - phrase
+  - grammar

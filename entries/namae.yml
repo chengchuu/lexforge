@@ -1,0 +1,11 @@
+id: namae
+language: ja
+word: "名前"
+pronunciation: "なまえ"
+part_of_speech: noun
+meaning: "名字"
+context: "表示姓名或名称；与姓氏对比时可指名字。"
+example: "お名前を教えていただけますか。"
+notes: "所给完整语境：ボクの名前は江戸川コナン！探偵さ！此条保留一般词义，不限定作品。"
+tags:
+  - noun

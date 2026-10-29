@@ -1,0 +1,10 @@
+id: tsuki
+language: ja
+word: "月"
+pronunciation: "つき"
+part_of_speech: noun
+meaning: "月亮"
+context: "此处表示月亮，读「つき」，与月份相关的其他读法区分。"
+example: "今夜は月がきれいです。"
+tags:
+  - noun

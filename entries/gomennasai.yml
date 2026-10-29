@@ -1,0 +1,11 @@
+id: gomennasai
+language: ja
+word: "ごめんなさい"
+pronunciation: "ごめんなさい"
+part_of_speech: phrase
+meaning: "对不起；请原谅"
+context: "向对方直接表达歉意，比「ごめんね」郑重。"
+example: "遅れてごめんなさい。"
+tags:
+  - phrase
+  - daily

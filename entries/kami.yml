@@ -1,0 +1,10 @@
+id: kami
+language: ja
+word: "神"
+pronunciation: "かみ"
+part_of_speech: noun
+meaning: "神"
+context: "表示神或神明，不限定某一作品中的角色。"
+example: "神に祈ります。"
+tags:
+  - noun

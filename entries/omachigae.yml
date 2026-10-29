@@ -1,0 +1,12 @@
+id: omachigae
+language: ja
+word: "お間違え"
+pronunciation: "おまちがえ"
+part_of_speech: noun
+meaning: "弄错；「間違える」的礼貌表达形式"
+context: "「間違える」在礼貌表达中的形式，常用于委婉指出对方弄错。"
+example: "番号をお間違えではないでしょうか。"
+notes: "間違える → お間違え。结合完整礼貌句学习，与名词「間違い」和动词「間違える」分别保留。"
+tags:
+  - noun
+  - polite

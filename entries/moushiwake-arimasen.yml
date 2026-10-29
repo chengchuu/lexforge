@@ -1,0 +1,11 @@
+id: moushiwake-arimasen
+language: ja
+word: "申し訳ありません"
+pronunciation: "もうしわけありません"
+part_of_speech: phrase
+meaning: "非常抱歉；深表歉意"
+context: "较正式的道歉表达，用于给对方添麻烦或造成不便时。"
+example: "お待たせして申し訳ありません。"
+tags:
+  - phrase
+  - formal

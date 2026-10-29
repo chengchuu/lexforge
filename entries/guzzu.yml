@@ -1,0 +1,11 @@
+id: guzzu
+language: ja
+word: "グッズ"
+pronunciation: "グッズ"
+part_of_speech: noun
+meaning: "周边；商品"
+context: "常指商品或与作品、角色相关的周边用品。"
+example: "新しいグッズを買いました。"
+tags:
+  - noun
+  - loanword

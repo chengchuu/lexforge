@@ -1,0 +1,11 @@
+id: nihongo-ga-hanasemasen
+language: ja
+word: "日本語が話せません。"
+pronunciation: "にほんごがはなせません"
+part_of_speech: phrase
+meaning: "我不会说日语"
+context: "礼貌说明自己不能用日语交流。"
+example: "すみません、日本語が話せません。"
+tags:
+  - phrase
+  - daily

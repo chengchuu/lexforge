@@ -1,0 +1,11 @@
+id: sono-kata
+language: ja
+word: "その方"
+pronunciation: "そのかた"
+part_of_speech: phrase
+meaning: "那位；那个人（礼貌）"
+context: "礼貌地指称前文提到的那个人。"
+example: "その方のお名前を教えてください。"
+tags:
+  - phrase
+  - polite

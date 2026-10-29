@@ -1,0 +1,10 @@
+id: machigai
+language: ja
+word: "間違い"
+pronunciation: "まちがい"
+part_of_speech: noun
+meaning: "错误；弄错"
+context: "表示错误或弄错这件事，是名词形式。"
+example: "名前に間違いがあります。"
+tags:
+  - noun

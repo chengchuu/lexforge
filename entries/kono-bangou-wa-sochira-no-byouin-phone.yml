@@ -1,0 +1,11 @@
+id: kono-bangou-wa-sochira-no-byouin-phone
+language: ja
+word: "この番号はそちらの病院の電話番号でしょうか。"
+pronunciation: "このばんごうはそちらのびょういんのでんわばんごうでしょうか"
+part_of_speech: phrase
+meaning: "请问这个号码是贵院的电话号码吗？"
+context: "向医院确认某个号码是否属于该院，不自行判断号码归属。"
+example: "この番号はそちらの病院の電話番号でしょうか。"
+tags:
+  - phrase
+  - phone

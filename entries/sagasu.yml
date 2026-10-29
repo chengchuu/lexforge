@@ -1,0 +1,10 @@
+id: sagasu
+language: ja
+word: "探す"
+pronunciation: "さがす"
+part_of_speech: verb
+meaning: "寻找"
+context: "表示寻找人、物品或信息。"
+example: "鍵を探しています。"
+tags:
+  - verb

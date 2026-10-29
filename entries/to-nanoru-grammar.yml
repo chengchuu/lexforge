@@ -1,0 +1,10 @@
+id: to-nanoru-grammar
+language: ja
+word: "～と名乗る"
+pronunciation: "～となのる"
+part_of_speech: phrase
+meaning: "自称是……"
+context: "用「と」引出对方报出的姓名或身份。"
+example: "電話の相手は森本と名乗りました。"
+tags:
+  - phrase

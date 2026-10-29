@@ -1,0 +1,10 @@
+id: kotoba
+language: ja
+word: "言葉"
+pronunciation: "ことば"
+part_of_speech: noun
+meaning: "话；语言；言辞"
+context: "可指词语、语言或说过的话。"
+example: "この言葉の意味を教えてください。"
+tags:
+  - noun

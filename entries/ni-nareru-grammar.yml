@@ -1,0 +1,12 @@
+id: ni-nareru-grammar
+language: ja
+word: "～になれる"
+pronunciation: "～になれる"
+part_of_speech: phrase
+meaning: "能够成为……"
+context: "「〜になる」的可能形式，表示能够成为某种身份或状态。"
+example: "練習すれば、もっと上手になれます。"
+notes: "なる → なれる（可能形）。与「〜になる」保留为不同学习单位。"
+tags:
+  - phrase
+  - grammar

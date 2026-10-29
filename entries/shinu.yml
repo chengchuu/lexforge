@@ -1,0 +1,10 @@
+id: shinu
+language: ja
+word: "死ぬ"
+pronunciation: "しぬ"
+part_of_speech: verb
+meaning: "死"
+context: "表示生命结束；引用作品台词时也应区分字面意义和角色语气。"
+example: "水がないと、魚は死んでしまいます。"
+tags:
+  - verb

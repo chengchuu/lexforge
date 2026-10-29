@@ -1,0 +1,10 @@
+id: tantei
+language: ja
+word: "探偵"
+pronunciation: "たんてい"
+part_of_speech: noun
+meaning: "侦探"
+context: "调查事件、搜集线索的人，作为一般职业或角色名称使用。"
+example: "探偵が事件を調べています。"
+tags:
+  - noun

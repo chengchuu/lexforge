@@ -1,0 +1,10 @@
+id: hitotsu
+language: ja
+word: "一つ"
+pronunciation: "ひとつ"
+part_of_speech: counter
+meaning: "一个"
+context: "数一个事物的常用形式，也可表示一个选择或方面。"
+example: "質問が一つあります。"
+tags:
+  - counter

@@ -1,0 +1,12 @@
+id: te-miru-grammar
+language: ja
+word: "〜てみる"
+pronunciation: "〜てみる"
+part_of_speech: phrase
+meaning: "试着做……"
+context: "接在动词て形后表示尝试做某事，不是字面上的看。"
+example: "この料理を食べてみます。"
+notes: "结构：动词て形 + みる。占位符「〜」不是需要朗读的文字。"
+tags:
+  - phrase
+  - grammar

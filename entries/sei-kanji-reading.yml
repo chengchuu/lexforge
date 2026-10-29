@@ -1,0 +1,12 @@
+id: sei-kanji-reading
+language: ja
+word: "成"
+pronunciation: "せい"
+part_of_speech: noun
+meaning: "“成”的日语音读之一"
+context: "学习汉字「成」的音读「せい」，不表示它在所有词或姓名中都这样读。"
+example: "「成功」の「成」は「せい」と読みます。"
+notes: "音读之一：せい。具体词语和姓名的读法需分别确认；不把单字读音当作姓名读音的通用规则。"
+tags:
+  - noun
+  - kanji-reading

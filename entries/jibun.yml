@@ -1,0 +1,10 @@
+id: jibun
+language: ja
+word: "自分"
+pronunciation: "じぶん"
+part_of_speech: pronoun
+meaning: "自己"
+context: "指自己，所指对象需结合句子和说话者判断。"
+example: "自分の名前を書きます。"
+tags:
+  - pronoun

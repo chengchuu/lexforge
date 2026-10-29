@@ -1,0 +1,10 @@
+id: sakura-no-ki
+language: ja
+word: "桜の木"
+pronunciation: "さくらのき"
+part_of_speech: phrase
+meaning: "樱花树"
+context: "用「の」连接树种与树，表示樱花树。"
+example: "川のそばに桜の木があります。"
+tags:
+  - phrase

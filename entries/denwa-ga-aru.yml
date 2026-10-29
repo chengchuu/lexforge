@@ -1,0 +1,10 @@
+id: denwa-ga-aru
+language: ja
+word: "電話がある"
+pronunciation: "でんわがある"
+part_of_speech: phrase
+meaning: "有电话；接到电话"
+context: "表示有来电或接到电话，过去的来电常用「ありました」。"
+example: "病院から電話がありました。"
+tags:
+  - phrase

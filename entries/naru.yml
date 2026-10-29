@@ -1,0 +1,10 @@
+id: naru
+language: ja
+word: "なる"
+pronunciation: "なる"
+part_of_speech: verb
+meaning: "成为；变成"
+context: "表示状态、身份或性质发生变化。"
+example: "春になると、暖かくなります。"
+tags:
+  - verb

@@ -1,0 +1,11 @@
+id: iryou-houjin-shadan
+language: ja
+word: "医療法人社団"
+pronunciation: "いりょうほうじんしゃだん"
+part_of_speech: noun
+meaning: "医疗法人社团"
+context: "日本医疗机构名称中可出现的法人类别用语，这里只学习名称表达。"
+example: "書類に「医療法人社団」と書いてあります。"
+tags:
+  - noun
+  - formal

@@ -1,0 +1,11 @@
+id: ni-kawatte-grammar
+language: ja
+word: "～にかわって"
+pronunciation: "～にかわって"
+part_of_speech: phrase
+meaning: "代替……；代表……"
+context: "表示代替某人或代表某一方做事，不表示变成某物。"
+example: "母にかわって、私が電話します。"
+tags:
+  - phrase
+  - grammar

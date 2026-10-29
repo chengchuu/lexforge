@@ -1,0 +1,11 @@
+id: yoroshiku-onegai-shimasu
+language: ja
+word: "よろしくお願いします"
+pronunciation: "よろしくおねがいします"
+part_of_speech: phrase
+meaning: "请多关照"
+context: "初次见面、请求合作或托付事情时使用，具体含义取决于场景。"
+example: "今日からお世話になります。よろしくお願いします。"
+tags:
+  - phrase
+  - daily

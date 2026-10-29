@@ -1,0 +1,10 @@
+id: gaikokujin
+language: ja
+word: "外国人"
+pronunciation: "がいこくじん"
+part_of_speech: noun
+meaning: "外国人"
+context: "从所处国家的立场称来自其他国家的人。"
+example: "私は外国人です。"
+tags:
+  - noun

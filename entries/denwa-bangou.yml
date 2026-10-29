@@ -1,0 +1,10 @@
+id: denwa-bangou
+language: ja
+word: "電話番号"
+pronunciation: "でんわばんごう"
+part_of_speech: noun
+meaning: "电话号码"
+context: "用于拨打或识别电话的号码。"
+example: "電話番号を教えてください。"
+tags:
+  - noun

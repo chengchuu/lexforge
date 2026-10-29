@@ -1,0 +1,10 @@
+id: sei-surname
+language: ja
+word: "姓"
+pronunciation: "せい"
+part_of_speech: noun
+meaning: "姓氏"
+context: "指姓氏，与个人的名字区分。"
+example: "姓と名前を別々に書いてください。"
+tags:
+  - noun

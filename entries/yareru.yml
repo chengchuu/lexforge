@@ -1,0 +1,11 @@
+id: yareru
+language: ja
+word: "やれる"
+pronunciation: "やれる"
+part_of_speech: verb
+meaning: "能做；能够做到"
+context: "「やる」的可能形式，表示有能力或条件做到。"
+example: "一人でもやれます。"
+notes: "やる的可能形式；保留独立条目以区分行为与能力。"
+tags:
+  - verb

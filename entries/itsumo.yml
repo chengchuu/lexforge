@@ -1,0 +1,10 @@
+id: itsumo
+language: ja
+word: "いつも"
+pronunciation: "いつも"
+part_of_speech: adverb
+meaning: "总是；一直"
+context: "表示经常、一贯或总是如此，需结合上下文理解。"
+example: "いつもありがとうございます。"
+tags:
+  - adverb

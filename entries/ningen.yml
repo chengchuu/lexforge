@@ -1,0 +1,10 @@
+id: ningen
+language: ja
+word: "人間"
+pronunciation: "にんげん"
+part_of_speech: noun
+meaning: "人；人类"
+context: "表示人类或作为人的存在。"
+example: "人間は一人では生きられません。"
+tags:
+  - noun

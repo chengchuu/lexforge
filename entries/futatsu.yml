@@ -1,0 +1,10 @@
+id: futatsu
+language: ja
+word: "二つ"
+pronunciation: "ふたつ"
+part_of_speech: counter
+meaning: "两个"
+context: "数两个事物的常用形式，不依赖具体物品类别。"
+example: "りんごを二つください。"
+tags:
+  - counter

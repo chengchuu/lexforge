@@ -1,0 +1,10 @@
+id: hanasu
+language: ja
+word: "話す"
+pronunciation: "はなす"
+part_of_speech: verb
+meaning: "说；讲话"
+context: "表示讲话、交谈或使用某种语言。"
+example: "友達と話します。"
+tags:
+  - verb

@@ -1,0 +1,11 @@
+id: mottomo-antei-ui
+language: ja
+word: "最も安定"
+pronunciation: "もっともあんてい"
+part_of_speech: phrase
+meaning: "最稳定"
+context: "界面中表示稳定程度最高的选项，是省略后续成分的简短标签。"
+example: "「最も安定」と表示された設定を選びます。"
+tags:
+  - phrase
+  - ui

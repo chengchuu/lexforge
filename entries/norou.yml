@@ -1,0 +1,10 @@
+id: norou
+language: ja
+word: "呪う"
+pronunciation: "のろう"
+part_of_speech: verb
+meaning: "诅咒"
+context: "表示诅咒或怀着恶意希望他人遭遇不幸。"
+example: "物語には、人を呪う人物が登場します。"
+tags:
+  - verb

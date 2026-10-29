@@ -1,0 +1,11 @@
+id: moyasu
+language: ja
+word: "燃やす"
+pronunciation: "もやす"
+part_of_speech: verb
+meaning: "燃烧；使……燃烧"
+context: "使某物燃烧的他动词，也可比喻激发热情。"
+example: "彼は仕事に情熱を燃やしています。"
+notes: "他动词；命令形「燃やせ」出现在所给短句「小宇宙を燃やせ！」中。"
+tags:
+  - verb

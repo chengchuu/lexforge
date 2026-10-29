@@ -1,0 +1,10 @@
+id: gimu
+language: ja
+word: "義務"
+pronunciation: "ぎむ"
+part_of_speech: noun
+meaning: "义务"
+context: "表示因职责、约定等而必须承担的事情。"
+example: "約束を守る義務があります。"
+tags:
+  - noun

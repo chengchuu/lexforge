@@ -1,0 +1,10 @@
+id: shouhin
+language: ja
+word: "商品"
+pronunciation: "しょうひん"
+part_of_speech: noun
+meaning: "商品；产品"
+context: "供出售的物品或产品。"
+example: "この商品はいくらですか。"
+tags:
+  - noun

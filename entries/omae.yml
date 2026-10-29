@@ -1,0 +1,10 @@
+id: omae
+language: ja
+word: "お前"
+pronunciation: "おまえ"
+part_of_speech: pronoun
+meaning: "你；较直接或粗鲁的第二人称"
+context: "直接、随意的第二人称，可带粗鲁或强硬语气，不适合礼貌电话场景。"
+example: "お前も来るのか。"
+tags:
+  - pronoun

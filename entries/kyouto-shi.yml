@@ -1,0 +1,10 @@
+id: kyouto-shi
+language: ja
+word: "京都市"
+pronunciation: "きょうとし"
+part_of_speech: proper noun
+meaning: "京都市"
+context: "日本城市名称，用于地址或地区说明。"
+example: "京都市に住んでいます。"
+tags:
+  - proper-noun

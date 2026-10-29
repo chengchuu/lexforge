@@ -1,0 +1,10 @@
+id: ana
+language: ja
+word: "穴"
+pronunciation: "あな"
+part_of_speech: noun
+meaning: "洞；坑"
+context: "指物体上的孔洞或地面上的坑。"
+example: "地面に穴を掘ります。"
+tags:
+  - noun

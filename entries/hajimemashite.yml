@@ -1,0 +1,11 @@
+id: hajimemashite
+language: ja
+word: "はじめまして"
+pronunciation: "はじめまして"
+part_of_speech: phrase
+meaning: "初次见面"
+context: "初次见面时使用的招呼语。"
+example: "はじめまして。森本です。"
+tags:
+  - phrase
+  - daily

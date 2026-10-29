@@ -1,0 +1,10 @@
+id: chan-suffix
+language: ja
+word: "ちゃん"
+pronunciation: "ちゃん"
+part_of_speech: suffix
+meaning: "亲昵称呼后缀"
+context: "接在人名或称呼后表达亲近，不宜随意用于正式关系。"
+example: "妹は友達を「ゆきちゃん」と呼びます。"
+tags:
+  - suffix

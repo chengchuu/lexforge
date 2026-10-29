@@ -1,0 +1,11 @@
+id: toka-grammar
+language: ja
+word: "～とか"
+pronunciation: "～とか"
+part_of_speech: phrase
+meaning: "……之类；诸如……"
+context: "列举例子或表示某种类别；语气和含义取决于搭配。"
+example: "魚とか野菜とかを食べます。"
+tags:
+  - phrase
+  - grammar

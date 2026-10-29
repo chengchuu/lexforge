@@ -1,0 +1,11 @@
+id: fisshu-baagaa
+language: ja
+word: "フィッシュバーガー"
+pronunciation: "フィッシュバーガー"
+part_of_speech: noun
+meaning: "鱼肉汉堡"
+context: "以鱼肉为主要夹馅的汉堡。"
+example: "フィッシュバーガーを一つください。"
+tags:
+  - noun
+  - food

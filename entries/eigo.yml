@@ -1,0 +1,10 @@
+id: eigo
+language: ja
+word: "英語"
+pronunciation: "えいご"
+part_of_speech: noun
+meaning: "英语"
+context: "指英语，可用于询问能否改用英语沟通。"
+example: "英語で話してもいいですか。"
+tags:
+  - noun

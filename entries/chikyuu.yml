@@ -1,0 +1,10 @@
+id: chikyuu
+language: ja
+word: "地球"
+pronunciation: "ちきゅう"
+part_of_speech: noun
+meaning: "地球"
+context: "表示地球，不限定虚构作品中的语境。"
+example: "地球には多くの生き物がいます。"
+tags:
+  - noun

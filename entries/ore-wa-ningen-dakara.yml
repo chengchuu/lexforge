@@ -1,0 +1,13 @@
+id: ore-wa-ningen-dakara
+language: ja
+word: "俺は人間だから"
+pronunciation: "おれはにんげんだから"
+part_of_speech: phrase
+meaning: "因为我是人类"
+context: "所给《ウルトラマンティガ》短语，用「だから」说明理由并保留随意自称。"
+example: "俺は人間だから。"
+notes: "来源语句：義務とかじゃないよ。俺は人間だから。俺がやれることをやりたいだけだよ。"
+tags:
+  - phrase
+  - tokusatsu
+  - ultraman-tiga

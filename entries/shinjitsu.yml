@@ -1,0 +1,10 @@
+id: shinjitsu
+language: ja
+word: "真実"
+pronunciation: "しんじつ"
+part_of_speech: noun
+meaning: "真相；真实"
+context: "表示事实或真实情况。"
+example: "真実を知りたいです。"
+tags:
+  - noun

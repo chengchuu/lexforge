@@ -1,0 +1,13 @@
+id: sen-kanji-reading
+language: ja
+word: "銭"
+pronunciation: "せん"
+part_of_speech: noun
+meaning: "钱；“銭”的读音"
+context: "学习汉字「銭」的读音「せん」；不能据此推断所有词或姓名的读法。"
+example: "「銭」という字の読み方を確認します。"
+notes: "此条保留所给读音「せん」；日常泛指钱可用「お金」。姓名读法需另行确认，不由此条推定。"
+tags:
+  - noun
+  - name
+  - kanji-reading
