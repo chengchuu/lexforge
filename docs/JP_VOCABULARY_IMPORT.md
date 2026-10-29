@@ -5,18 +5,20 @@ Source: the user-provided approved Japanese vocabulary and quote list. No origin
 ## Coverage
 
 - Approved table rows: 191; distinct written items: 187.
-- Added: 182 Japanese entries; pre-existing entries reused or updated: 0; skipped approved items: 0.
-- Existing collection: 346 English entries. Resulting collection: 528 entries.
+- Added: 181 Japanese entries; pre-existing entries reused or updated: 0; skipped approved items: 0.
+- Existing collection: 346 English entries. Resulting collection: 527 entries.
 - Four repeated table occurrences reuse their batch entries: `いっぺん、死んでみる？`, `人を呪わば穴二つ`, `大丈夫`, and `絶対`. The later references to other previously listed items also reuse those batch entries.
-- Five alternate or combined written forms are accounted for through four grouping decisions below. Grouping is not an omission.
-- Learning units: 112 lexical entries, 17 grammar entries, and 53 other phrases or quotes. Counts use the `grammar` tag first, then the phrase part of speech, then other parts of speech.
-- The quote section references 86 distinct resulting entries: 49 lexical, 14 grammar, and 23 phrase/quote entries. Of these, 14 also appear in the earlier approved lists and are reused within the batch. All are new to the repository.
+- Six alternate, combined, or merged written forms are accounted for through four grouping decisions below. Grouping is not an omission.
+- Learning units: 111 lexical entries, 17 grammar entries, and 53 other phrases or quotes. Counts use the `grammar` tag first, then the phrase part of speech, then other parts of speech.
+- The quote section references 85 distinct resulting entries: 48 lexical, 14 grammar, and 23 phrase/quote entries. Of these, 14 also appear in the earlier approved lists and are reused within the batch. All are new to the repository.
 
 ## Grouped forms
 
+The user-approved follow-up merge of `レリーズ` into `fuuin-kaijo-reriizu` reduces the original import from 182 to 181 Japanese entries. The retained ID, word, and pronunciation are unchanged; all source items remain accounted for.
+
 - **おもてなし** includes `オモテナシ` and its supplied katakana reading in notes.
 - **ごちそう** includes `ご馳走` with reading `ごちそう` in notes.
-- **封印解除（レリーズ）！** is the primary magic-phrase entry, pronounced `レリーズ`. Its notes retain `封印解除`, `封印解除！`, and the ordinary reading `ふういんかいじょ`. The approved lexical items `封印`, `解除`, and `レリーズ` remain separate.
+- **封印解除（レリーズ）！** is the primary magic-phrase entry, pronounced `レリーズ`. Its notes retain `封印解除`, `封印解除！`, and the ordinary reading `ふういんかいじょ`. The standalone `レリーズ` entry is merged into this entry, preserving its release/解除 explanation and reading example in notes. The approved lexical items `封印` and `解除` remain separate.
 - **私は外国人です** and **日本人ではありません** remain separate short entries. Both retain `私は外国人です。日本人ではありません。`, its complete supplied reading, and its Chinese meaning in notes. No third combined-response card is created.
 
 ## Learning distinctions and readings
@@ -87,15 +89,15 @@ Learning units: [nani-ga-seigi-da](../entries/nani-ga-seigi-da.yml), [jiyuu](../
 
 ## Audio, export, and verification
 
-All 182 new entries use `language: ja`, retain the approved Japanese reading, and omit audio. Existing English entries and recordings are preserved. No audio was generated or replaced. Anki collections, review state, synchronization, and AnkiDroid were not modified. The schema, templates, dependencies, and Go tooling remain unchanged.
+All 181 new entries use `language: ja`, retain the approved Japanese reading, and omit audio. Existing English entries and recordings are preserved. No audio was generated or replaced. Anki collections, review state, synchronization, and AnkiDroid were not modified. The schema, templates, dependencies, and Go tooling remain unchanged.
 
 - `go test ./...`: passed.
 - `go vet ./...`: passed.
-- `go run scripts/validate/main.go`: passed for 528 entries.
+- `go run scripts/validate/main.go`: passed for 527 entries.
 - `go run scripts/build/main.go`: passed; two builds produced identical bytes.
 - `git diff --check`: passed. All new files were separately checked for trailing whitespace, LF line endings, and final newlines.
-- All 191 table rows map to the 182 new entries or their documented grouped forms. The index accounts for all 187 distinct written items; its local links resolve.
-- All 528 exported data rows have eleven columns. The 182 Japanese rows retain their expected content and readings, include derived `lang-ja` tags, and have empty audio columns.
+- All 191 table rows map to the 181 new entries or their documented grouped forms. The index accounts for all 187 distinct written items; its local links resolve.
+- All 527 exported data rows have eleven columns. The 181 Japanese rows retain their expected content and readings, include derived `lang-ja` tags, and have empty audio columns.
 - All 346 pre-existing entry files and 284 MP3 files remained byte-identical. The media directory is unchanged.
 - The five existing duplicate-word warnings concern distinct English senses of artifact, literal, resolve, revision, and scope. This batch adds no duplicate-word warnings.
 - No Anki import, device rendering, audio generation, or listening verification was performed. The supplied readings and source attributions were preserved without claiming independent verification.
@@ -321,7 +323,7 @@ Each distinct written item appears once below. Repeated table occurrences reuse 
 | 封印                     | [fuuin](../entries/fuuin.yml)                                         | New entry        |
 | 解除                     | [kaijo](../entries/kaijo.yml)                                         | New entry        |
 | 封印解除                 | [fuuin-kaijo-reriizu](../entries/fuuin-kaijo-reriizu.yml)             | Grouped in notes |
-| レリーズ                 | [reriizu-cardcaptor-sakura](../entries/reriizu-cardcaptor-sakura.yml) | New entry        |
+| レリーズ                 | [fuuin-kaijo-reriizu](../entries/fuuin-kaijo-reriizu.yml)             | Merged in notes  |
 
 ### ウルトラマンレオ / Ultraman Leo
 
