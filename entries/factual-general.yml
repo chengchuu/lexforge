@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "基于事实的"
 context: "只陈述有依据的内容，不夸大或补造结论。"
 example: "Keep the report concise and factual."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: factual-general.mp3
 tags:
   - general

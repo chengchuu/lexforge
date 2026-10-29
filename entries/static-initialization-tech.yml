@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "静态初始化"
 context: "建立类的静态成员和相关状态的过程。"
 example: "The getter must not run before static initialization."
-notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-a-62854.md. IPA composed from verified American English component pronunciations."
 audio: static-initialization-tech.mp3
 tags:
   - tech

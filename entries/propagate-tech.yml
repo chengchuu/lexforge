@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "传播；传递"
 context: "将已知信息沿程序结构或处理流程传递下去。"
 example: "The optimizer propagates known constants through the function."
-notes: "Source: react/react-37995.md (relative to docs/PR). Related form: propagation. See also constant propagation. Source wording: constant propagation."
+notes: "Source: react-37995.md. Related form: propagation. See also constant propagation. Source wording: constant propagation."
 audio: propagate-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "清理或转换为可接受的输入"
 context: "在系统边界将输入转换为下游能够安全、正确处理的形式。"
 example: "Sanitize lone surrogates before parsing the JSON in Rust."
-notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR). Related forms: sanitizer, sanitization. Here this preserves string data; it is not necessarily an HTML security filter."
+notes: "Source: react-c-rust-compiler.md. Related forms: sanitizer, sanitization. Here this preserves string data; it is not necessarily an HTML security filter."
 audio: sanitize-tech.mp3
 tags:
   - tech

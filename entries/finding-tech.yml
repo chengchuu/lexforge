@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "调查发现"
 context: "检查或调查得到的观察与结论。"
 example: "Separate confirmed findings from unresolved questions."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: finding-tech.mp3
 tags:
   - tech

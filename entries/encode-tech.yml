@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "编码"
 context: "按照指定规则将数据转换为另一种表示。"
 example: "Encode lone surrogates using the marker format."
-notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR). Related form: encoding. Source wording: encoding lone surrogates."
+notes: "Source: react-c-rust-compiler.md. Related form: encoding. Source wording: encoding lone surrogates."
 audio: encode-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "联合类型"
 context: "表示一个值可以属于多个候选类型之一的类型。"
 example: "Distinguish an intentional union from a synthesized promise alternative."
-notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR)."
+notes: "Source: typescript-wedoct28.md."
 audio: union-tech.mp3
 tags:
   - tech

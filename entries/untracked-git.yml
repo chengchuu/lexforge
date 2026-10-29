@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "未跟踪的"
 context: "文件尚未被 Git 纳入版本跟踪。"
 example: "Read untracked files directly during review."
-notes: "Source: AGENTS.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: AGENTS.md. IPA composed from verified American English component pronunciations."
 audio: untracked-git.mp3
 tags:
   - tech

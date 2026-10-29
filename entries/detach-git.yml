@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "分离 HEAD"
 context: "使工作树直接指向提交，而不继续附着在某个分支上。"
 example: "Detach the temporary worktree after the local commit."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Related form: detachment."
+notes: "Source: daily-1am-issue-investigation.md. Related form: detachment."
 audio: detach-git.mp3
 tags:
   - tech

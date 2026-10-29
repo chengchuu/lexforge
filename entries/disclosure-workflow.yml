@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "披露说明"
 context: "按项目要求说明协助来源或其他需公开的信息。"
 example: "Follow the project's disclosure requirements."
-notes: "Source: AGENTS.md (relative to docs/PR)."
+notes: "Source: AGENTS.md."
 audio: disclosure-workflow.mp3
 tags:
   - tech

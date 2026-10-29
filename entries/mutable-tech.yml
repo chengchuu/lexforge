@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "可修改的"
 context: "对象或值允许在创建后发生变化。"
 example: "The assertion refers to a mutable object."
-notes: "Source: typescript/typescript-64965.md (relative to docs/PR)."
+notes: "Source: typescript-64965.md."
 audio: mutable-tech.mp3
 tags:
   - tech

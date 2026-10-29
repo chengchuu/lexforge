@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "解码"
 context: "按照对应规则从编码表示还原数据。"
 example: "Decode escape tokens and markers in one pass."
-notes: "Source: react/reports/react-b-plan.md (relative to docs/PR). Related form: decoder."
+notes: "Source: react-b-plan.md. Related form: decoder."
 audio: decode-tech.mp3
 tags:
   - tech

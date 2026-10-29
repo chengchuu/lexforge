@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "指令"
 context: "源码中用于指示编译器采用特定处理方式的内容。"
 example: "The prefilter recognizes the directive prefix."
-notes: "Source: react/react-37871.md (relative to docs/PR)."
+notes: "Source: react-37871.md."
 audio: directive-tech.mp3
 tags:
   - tech

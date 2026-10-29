@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "真正的"
 context: "确实属于所指类别，而非只是外观相似。"
 example: "Handle genuine surrogate escapes without changing literal text."
-notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react-c-rust-compiler.md."
 audio: genuine-tech.mp3
 tags:
   - tech

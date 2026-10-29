@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "未配对的代理码元"
 context: "UTF-16 中没有与对应码元组成有效代理对的代理码元。"
 example: "Encode the lone surrogate before sending JSON to Rust."
-notes: "Source: react/react-c-rust-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: react-c-rust-compiler.md. IPA composed from verified American English component pronunciations."
 audio: lone-surrogate-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "证明合理；提供充分理由"
 context: "给出足以支持某个行动或判断的依据。"
 example: "Incomplete validation does not justify a duplicate implementation."
-notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR). Pattern: justify X. The evidence does not justify a broader refactor."
+notes: "Source: typescript-wedoct28.md. Pattern: justify X. The evidence does not justify a broader refactor."
 audio: justify-general.mp3
 tags:
   - general

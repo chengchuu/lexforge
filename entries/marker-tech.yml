@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "标记"
 context: "临时表示特殊数据或位置的字符序列。"
 example: "Decode the marker without changing ordinary user text."
-notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+notes: "Source: react-b-plan.md."
 audio: marker-tech.mp3
 tags:
   - tech

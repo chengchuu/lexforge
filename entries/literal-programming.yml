@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "字面量"
 context: "直接在源码中表达某个值的语法构造。"
 example: "The object literal receives a contextual type."
-notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR). Distinct from literal text, which means text treated exactly as written. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-wedoct28.md. Distinct from literal text, which means text treated exactly as written. IPA composed from verified American English component pronunciations."
 audio: literal-programming.mp3
 tags:
   - tech

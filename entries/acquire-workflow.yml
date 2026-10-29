@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "获取；取得"
 context: "成功取得某项资源或操作权限。"
 example: "Acquire the lock before reserving a report."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Source wording: acquiring the run lock."
+notes: "Source: daily-1am-issue-investigation.md. Source wording: acquiring the run lock."
 audio: acquire-workflow.mp3
 tags:
   - tech

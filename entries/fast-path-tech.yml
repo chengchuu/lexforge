@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "快速处理路径"
 context: "为满足特定条件的输入设置的较短处理流程。"
 example: "Use a fast path when the loaded project already contains the file."
-notes: "Source: typescript/typescript-64936.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-64936.md. IPA composed from verified American English component pronunciations."
 audio: fast-path-tech.mp3
 tags:
   - tech

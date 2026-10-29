@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "转义符数量的奇偶关系"
 context: "根据连续反斜杠的奇偶数量判断后续字符是否被转义。"
 example: "Checking one preceding character does not account for escape parity."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: react-candidates.md. IPA composed from verified American English component pronunciations."
 audio: escape-parity-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "一致的"
 context: "多个值、规则或处理路径相互吻合。"
 example: "Keep the reset value consistent with the initial state."
-notes: "Source: react/react-37953.md (relative to docs/PR). Pattern: consistent with X."
+notes: "Source: react-37953.md. Pattern: consistent with X."
 audio: consistent-tech.mp3
 tags:
   - tech

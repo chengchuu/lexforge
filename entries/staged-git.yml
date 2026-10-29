@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "已暂存的"
 context: "更改已加入 Git 索引，准备进入下一次提交。"
 example: "Review the staged diff before committing."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: staged-git.mp3
 tags:
   - tech

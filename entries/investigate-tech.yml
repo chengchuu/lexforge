@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "调查；研究问题"
 context: "检查报告、代码与实际行为，以确定问题及可行的下一步。"
 example: "Investigate the issue before proposing a patch."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Related form: investigation."
+notes: "Source: daily-1am-issue-investigation.md. Related form: investigation."
 audio: investigate-tech.mp3
 tags:
   - tech

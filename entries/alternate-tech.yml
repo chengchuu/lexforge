@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "交替变化"
 context: "在两种或多种状态之间轮流变化。"
 example: "The result alternates between positive and negative infinity."
-notes: "Source: react/react-37995.md (relative to docs/PR). Pattern: alternate between X and Y."
+notes: "Source: react-37995.md. Pattern: alternate between X and Y."
 audio: alternate-tech.mp3
 tags:
   - tech

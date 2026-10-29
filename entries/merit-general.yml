@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "值得"
 context: "某件事的重要性或证据足以支持进一步处理。"
 example: "Decide whether the issue merits reproduction."
-notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR)."
+notes: "Source: typescript-tueoct27.md."
 audio: merit-general.mp3
 tags:
   - general

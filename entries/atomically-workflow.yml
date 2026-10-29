@@ -6,7 +6,7 @@ part_of_speech: adverb
 meaning: "原子地"
 context: "以不可分割的操作完成检查或状态变化，避免其他操作插入。"
 example: "Create the lock directory atomically."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: atomically-workflow.mp3
 tags:
   - tech

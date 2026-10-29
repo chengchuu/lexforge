@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "工作成果文件"
 context: "一次任务产生或关联的报告、草稿等文件，不限于构建产物。"
 example: "Keep related artifacts associated with the same run identifier."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Distinct from artifact-tech, which covers outputs produced by builds or CI."
+notes: "Source: daily-1am-issue-investigation.md. Distinct from artifact-tech, which covers outputs produced by builds or CI."
 audio: artifact-workflow.mp3
 tags:
   - tech

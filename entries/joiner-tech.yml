@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "连接控制字符"
 context: "影响相邻字符如何连接或组合呈现的字符。"
 example: "The validator accepts permitted joiners in identifiers."
-notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react-9-rust-compiler.md."
 audio: joiner-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "交接"
 context: "将当前结果、状态和未完成事项交给下一步处理者。"
 example: "Reserve time for validation and handoff."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: handoff-workflow.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "适配器"
 context: "将一种接口或数据表示转换为另一种可用形式的组件。"
 example: "The Babel adapter passes validation results to Rust."
-notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react-9-rust-compiler.md."
 audio: adapter-tech.mp3
 tags:
   - tech

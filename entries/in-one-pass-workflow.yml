@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "通过一遍处理"
 context: "一次顺序处理完成任务，不重复处理该轮产生的结果。"
 example: "Decode escape tokens and markers in one pass."
-notes: "Source: react/reports/react-b-plan.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: react-b-plan.md. IPA composed from verified American English component pronunciations."
 audio: in-one-pass-workflow.mp3
 tags:
   - tech

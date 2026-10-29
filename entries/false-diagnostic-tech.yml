@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "误报的诊断信息"
 context: "程序本应被接受，却收到错误或警告。"
 example: "The fix removes a false diagnostic on the assignment."
-notes: "Source: typescript/typescript-64965.md (relative to docs/PR). Source wording: false TS2454. IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-64965.md. Source wording: false TS2454. IPA composed from verified American English component pronunciations."
 audio: false-diagnostic-tech.mp3
 tags:
   - tech

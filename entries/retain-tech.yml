@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "保留；继续维持"
 context: "经过处理或修改之后，仍然保有某项内容或能力。"
 example: "The adapter retains responsibility for parsing directives."
-notes: "Source: react/react-9-rust-compiler.md (relative to docs/PR)."
+notes: "Source: react-9-rust-compiler.md."
 audio: retain-tech.mp3
 tags:
   - tech

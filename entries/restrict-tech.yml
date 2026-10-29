@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "限制"
 context: "缩小允许使用的值、操作或处理范围。"
 example: "The checker restricts writes through certain generic indexes."
-notes: "Source: typescript/typescript-64965.md (relative to docs/PR). Related form: restricted."
+notes: "Source: typescript-64965.md. Related form: restricted."
 audio: restrict-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "简洁的"
 context: "以较少文字表达必要信息，没有多余重复。"
 example: "Write a concise title that describes the change."
-notes: "Source: AGENTS.md (relative to docs/PR)."
+notes: "Source: AGENTS.md."
 audio: concise-general.mp3
 tags:
   - general

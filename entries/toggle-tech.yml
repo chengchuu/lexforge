@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "切换"
 context: "改变开关或条件的当前状态。"
 example: "Toggle the condition to exercise both branches."
-notes: "Source: react/react-37995.md (relative to docs/PR)."
+notes: "Source: react-37995.md."
 audio: toggle-tech.mp3
 tags:
   - tech

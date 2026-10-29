@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "损坏；错误改变"
 context: "处理过程中破坏数据原本的内容或含义。"
 example: "The decoder must not corrupt literal marker text."
-notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+notes: "Source: react-b-plan.md."
 audio: corrupt-tech.mp3
 tags:
   - tech

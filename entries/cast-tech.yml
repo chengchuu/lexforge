@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "类型转换写法；类型断言写法"
 context: "源码中要求以另一种类型看待或处理表达式的写法；实际效果取决于语言。"
 example: "The test includes mutable-object casts."
-notes: "Source: typescript/typescript-64965.md (relative to docs/PR). In these TypeScript examples, casts are type assertions and do not themselves convert runtime values."
+notes: "Source: typescript-64965.md. In these TypeScript examples, casts are type assertions and do not themselves convert runtime values."
 audio: cast-tech.mp3
 tags:
   - tech

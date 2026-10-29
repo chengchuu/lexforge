@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "释放"
 context: "结束对资源或锁的占用。"
 example: "Release only the lock owned by this run."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: release-workflow.mp3
 tags:
   - tech

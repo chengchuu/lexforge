@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "嵌套的"
 context: "一个结构包含在另一个同类或相关结构内部。"
 example: "Preserve the inner handler in nested try blocks."
-notes: "Source: react/react-a-compiler.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: react-a-compiler.md. IPA composed from verified American English component pronunciations."
 audio: nested-tech.mp3
 tags:
   - tech

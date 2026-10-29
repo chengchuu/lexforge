@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "全面的；穷尽的"
 context: "覆盖某个明确范围内所有需要考虑的情况。"
 example: "The scan was not an exhaustive audit of the compiler."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+notes: "Source: react-candidates.md."
 audio: exhaustive-tech.mp3
 tags:
   - tech

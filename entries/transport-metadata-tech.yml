@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "传输元数据"
 context: "系统传输数据时用于辅助解释或还原内容的信息。"
 example: "Do not interpret ordinary user text as transport metadata."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: react-candidates.md. IPA composed from verified American English component pronunciations."
 audio: transport-metadata-tech.mp3
 tags:
   - tech

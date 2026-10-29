@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "预期行为"
 context: "根据要求或语义应当发生的行为。"
 example: "State the expected behavior before describing the failure."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: react-candidates.md. IPA composed from verified American English component pronunciations."
 audio: expected-behavior-workflow.mp3
 tags:
   - tech

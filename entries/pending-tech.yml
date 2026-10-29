@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "待处理的；待完成的"
 context: "事项还没有达到最终状态。"
 example: "The framework tests are still pending."
-notes: "Source: typescript/reports/typescript-wedoct28.md (relative to docs/PR)."
+notes: "Source: typescript-wedoct28.md."
 audio: pending-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "丢弃"
 context: "放弃已有内容或更改，使其不再保留。"
 example: "Do not discard unrelated working-tree changes."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: discard-workflow.mp3
 tags:
   - tech

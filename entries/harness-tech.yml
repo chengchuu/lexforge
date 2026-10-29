@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "测试驱动程序"
 context: "为测试组织运行环境、执行步骤和结果检查的辅助程序。"
 example: "The scope harness skips unsupported rename cases."
-notes: "Source: react/react-a-compiler.md (relative to docs/PR)."
+notes: "Source: react-a-compiler.md."
 audio: harness-tech.mp3
 tags:
   - tech

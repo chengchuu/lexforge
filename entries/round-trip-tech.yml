@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "往返转换"
 context: "将数据转换到另一种表示，再转换回来。"
 example: "Literal text must survive the serialization round trip."
-notes: "Source: react/reports/react-b-plan.md (relative to docs/PR). Adjective form: round-trip, as in round-trip coverage."
+notes: "Source: react-b-plan.md. Adjective form: round-trip, as in round-trip coverage."
 audio: round-trip-tech.mp3
 tags:
   - tech

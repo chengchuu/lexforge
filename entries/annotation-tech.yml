@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "标注"
 context: "附加在源码上用于表达类型或处理意图的信息。"
 example: "The annotation fixture should fail when the directive is ignored."
-notes: "Source: react/react-37871.md (relative to docs/PR)."
+notes: "Source: react-37871.md."
 audio: annotation-tech.mp3
 tags:
   - tech

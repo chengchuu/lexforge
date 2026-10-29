@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "远端跟踪分支"
 context: "本地用于记录某个远端分支状态的引用。"
 example: "Check remote-tracking branches before choosing a run identifier."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: daily-1am-issue-investigation.md. IPA composed from verified American English component pronunciations."
 audio: remote-tracking-branch-git.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "连接；拼接"
 context: "把多个字符串依次连接成一个字符串。"
 example: "Concatenation can create new marker-shaped text."
-notes: "Source: react/reports/react-b-plan.md (relative to docs/PR)."
+notes: "Source: react-b-plan.md."
 audio: concatenation-tech.mp3
 tags:
   - tech

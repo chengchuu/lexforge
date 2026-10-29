@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "检查；查看"
 context: "仔细查看代码、文件或状态以获取事实。"
 example: "Inspect the generated baseline before accepting it."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Related form: inspection."
+notes: "Source: daily-1am-issue-investigation.md. Related form: inspection."
 audio: inspect-tech.mp3
 tags:
   - tech

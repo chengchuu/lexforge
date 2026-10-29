@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "暗示"
 context: "虽未直接声明，却使读者理解为某个结论。"
 example: "Do not imply that skipped checks passed."
-notes: "Source: AGENTS.md (relative to docs/PR)."
+notes: "Source: AGENTS.md."
 audio: imply-general.mp3
 tags:
   - general

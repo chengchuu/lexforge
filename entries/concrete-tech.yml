@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "具体的；有实际依据的"
 context: "能够明确描述或验证，而非停留在泛泛推测。"
 example: "Prioritize concrete correctness issues."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR)."
+notes: "Source: react-candidates.md."
 audio: concrete-tech.mp3
 tags:
   - tech

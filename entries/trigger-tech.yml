@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "触发条件"
 context: "使某个行为或问题发生的输入、条件或动作。"
 example: "Document the trigger for the parsing failure."
-notes: "Source: react/reports/react-candidates.md (relative to docs/PR). Also a verb: The script triggers the error."
+notes: "Source: react-candidates.md. Also a verb: The script triggers the error."
 audio: trigger-tech.mp3
 tags:
   - tech

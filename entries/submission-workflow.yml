@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "提交审查"
 context: "将贡献交给维护者审查的动作或结果。"
 example: "The user handles the final submission manually."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: submission-workflow.mp3
 tags:
   - tech

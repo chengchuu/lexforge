@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "复合赋值"
 context: "将计算和赋值结合的操作，例如加后赋值。"
 example: "Add coverage for compound assignments through type assertions."
-notes: "Source: typescript/typescript-64965.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-64965.md. IPA composed from verified American English component pronunciations."
 audio: compound-assignment-tech.mp3
 tags:
   - tech

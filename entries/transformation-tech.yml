@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "转换"
 context: "将程序从一种结构或表示改写为另一种的过程。"
 example: "Reset the guard for each transformation."
-notes: "Source: react/react-37836.md (relative to docs/PR)."
+notes: "Source: react-37836.md."
 audio: transformation-tech.mp3
 tags:
   - tech

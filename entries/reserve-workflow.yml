@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "预留量"
 context: "提前保留给收尾、报告等步骤使用的时间或资源。"
 example: "Begin the handoff when the reporting reserve starts."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: reserve-workflow.mp3
 tags:
   - tech

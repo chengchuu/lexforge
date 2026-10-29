@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "清单文件"
 context: "声明项目依赖或配置等信息的文件。"
 example: "The lockfile must match the manifest ranges."
-notes: "Source: react/react-37859.md (relative to docs/PR)."
+notes: "Source: react-37859.md."
 audio: manifest-tech.mp3
 tags:
   - tech

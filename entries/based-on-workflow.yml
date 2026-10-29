@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "基于；根据"
 context: "说明判断的依据或实现的基础。"
 example: "Exclude the issue based on existing contribution reports."
-notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-tueoct27.md. IPA composed from verified American English component pronunciations."
 audio: based-on-workflow.mp3
 tags:
   - tech

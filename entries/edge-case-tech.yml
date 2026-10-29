@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "边界情况；特殊情况"
 context: "不常见但可能影响正确性的输入或条件。"
 example: "The reported edge cases still need verification."
-notes: "Source: typescript/reports/typescript-tueoct27.md (relative to docs/PR)."
+notes: "Source: typescript-tueoct27.md."
 audio: edge-case-tech.mp3
 tags:
   - tech

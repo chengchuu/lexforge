@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "实际观察结果"
 context: "通过本次检查直接得到的结果，而非预期或引用他人结论。"
 example: "Record each observed result with the command that produced it."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR). Source form: observed results. IPA composed from verified American English component pronunciations."
+notes: "Source: daily-1am-issue-investigation.md. Source form: observed results. IPA composed from verified American English component pronunciations."
 audio: observed-result-workflow.mp3
 tags:
   - tech

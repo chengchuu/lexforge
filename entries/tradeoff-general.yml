@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "取舍"
 context: "选择方案时在不同收益和代价之间作出的平衡。"
 example: "Explain the tradeoff that affects maintainability."
-notes: "Source: AGENTS.md (relative to docs/PR)."
+notes: "Source: AGENTS.md."
 audio: tradeoff-general.mp3
 tags:
   - general

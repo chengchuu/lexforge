@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "限定说明；注意事项"
 context: "影响结论成立条件或适用范围的说明。"
 example: "Retain material caveats in the pull request description."
-notes: "Source: typescript/schedulers/daily-1am-issue-investigation.md (relative to docs/PR)."
+notes: "Source: daily-1am-issue-investigation.md."
 audio: caveat-general.mp3
 tags:
   - general

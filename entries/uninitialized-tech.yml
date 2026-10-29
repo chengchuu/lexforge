@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "未初始化的"
 context: "变量或状态尚未获得可供使用的初始值。"
 example: "The test distinguishes uninitialized reads from assignments."
-notes: "Source: typescript/typescript-64965.md (relative to docs/PR). IPA composed from verified American English component pronunciations."
+notes: "Source: typescript-64965.md. IPA composed from verified American English component pronunciations."
 audio: uninitialized-tech.mp3
 tags:
   - tech

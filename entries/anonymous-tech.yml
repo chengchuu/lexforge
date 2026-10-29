@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "匿名的"
 context: "代码实体没有显式声明的名称。"
 example: "The transform also handles anonymous classes."
-notes: "Source: typescript/typescript-a-62854.md (relative to docs/PR)."
+notes: "Source: typescript-a-62854.md."
 audio: anonymous-tech.mp3
 tags:
   - tech
