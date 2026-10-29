@@ -16,7 +16,7 @@ lexforge
 
 LexForge is a Git-native personal multilingual vocabulary system.
 
-Its purpose is to turn useful words encountered during everyday technical work into structured vocabulary entries that can be exported to Anki and reviewed with AnkiDroid.
+It turns vocabulary encountered during everyday technical work into structured entries for export to Anki and review in AnkiDroid.
 
 Primary learning direction:
 
@@ -28,9 +28,7 @@ Word → Meaning + Context
 
 ## User Background
 
-The primary user is an experienced full-stack developer.
-
-Technical background includes:
+Write for an experienced full-stack developer with a background in:
 
 - Go
 - Node.js
@@ -48,7 +46,7 @@ Technical background includes:
 - Git
 - GitHub
 
-Do not write beginner-oriented explanations unless explicitly requested.
+Explain project-specific behavior; avoid beginner explanations unless requested.
 
 Prefer:
 
@@ -69,11 +67,7 @@ Always follow these principles.
 
 ### 1. Git Is the Source of Truth
 
-Vocabulary source files are canonical.
-
-Generated files are derived artifacts.
-
-Do not manually edit generated output.
+Vocabulary source files are canonical. Generate exports from those files; do not edit generated output manually.
 
 Conceptually:
 
@@ -166,13 +160,13 @@ lexforge/
     └── vocabulary.tsv
 ```
 
-Possible future directories should only be added when needed.
+This outline shows the core vocabulary pipeline. Shared tooling and tests live in `internal/vocabulary/`; the audio command lives in `scripts/audio/`. See the [README project layout](README.md#project-layout) for the current command directories. Add directories only when needed.
 
 ---
 
 ## Vocabulary Schema
 
-The initial vocabulary schema should support:
+The vocabulary schema contains these fields:
 
 ```text
 id
@@ -210,7 +204,7 @@ tags:
 
 ## Required Vocabulary Fields
 
-At minimum, an entry should contain:
+Every entry must contain these nonempty string fields:
 
 ```text
 id
@@ -221,7 +215,7 @@ context
 example
 ```
 
-Optional fields include:
+Optional fields are:
 
 ```text
 pronunciation
@@ -231,15 +225,13 @@ audio
 tags
 ```
 
-Do not add empty optional fields unless required by the schema.
+Optional fields are strings except for `tags`, which is a list of strings. Omit unused optional fields; validation rejects empty values.
 
 ---
 
 ## Stable IDs
 
-Every entry must have a stable `id`.
-
-The ID is the permanent identity of the vocabulary entry.
+Every entry must have a globally unique, stable `id`. It is the entry’s permanent identity.
 
 Examples:
 
@@ -251,7 +243,7 @@ address-network
 address-general
 ```
 
-The ID may be used for:
+Stable IDs support:
 
 - Anki note identity
 - filenames
@@ -280,7 +272,7 @@ entries/backward-compatible.yml
 entries/de-facto-standard.yml
 ```
 
-For a word with multiple entries, make the filename descriptive.
+For a word with multiple meanings, use a descriptive filename for each entry.
 
 Example:
 
@@ -352,11 +344,7 @@ Do not prioritize an unrelated dictionary meaning when the entry is clearly tech
 
 ## Meaning Language
 
-The primary `meaning` field may use concise Chinese translations.
-
-The `context` field should explain the practical meaning naturally.
-
-The `example` field should use the entry’s language.
+Use concise Chinese in `meaning` and explain practical usage in `context`. Write `example` in the entry’s language.
 
 Example:
 
@@ -398,9 +386,7 @@ Avoid awkward textbook-style sentences.
 
 ## Pronunciation
 
-When pronunciation is included, use a consistent format.
-
-Use verified IPA for English and kana readings for Japanese. Use language-appropriate conventions for other languages.
+Use a consistent pronunciation format: verified IPA for English, kana readings for Japanese, and the appropriate conventions for other languages.
 
 Example:
 
@@ -464,21 +450,13 @@ unless there is a clear reason.
 
 When asked to add a word:
 
-1. Search existing entries first.
-2. Check whether the word already exists.
-3. Determine whether the requested meaning is already covered.
-4. If needed, create a new entry.
-5. Choose a stable ID.
-6. Create the YAML file.
-7. Add concise meaning.
-8. Add practical context.
-9. Add a natural example.
-10. Add relevant tags.
-11. Add pronunciation if reliable.
-12. Add audio metadata if audio generation is enabled.
-13. Run validation.
-14. Run the build when appropriate.
-15. Report the files changed.
+1. Search existing entries for the same word, language, and meaning.
+2. Reuse a matching entry. For a new meaning, choose a stable ID and create one YAML file.
+3. Add a concise meaning, practical context, and a natural example.
+4. Add relevant tags and pronunciation if reliable.
+5. If audio generation is enabled, generate the recording before adding its metadata.
+6. Run validation and build the export when appropriate.
+7. Report the files changed and the verification results.
 
 Do not create duplicate entries for the same meaning.
 
@@ -532,13 +510,13 @@ Do not automatically merge semantically different entries.
 
 ## Validation
 
-The validation program should be runnable with:
+Run vocabulary validation from the repository root:
 
 ```bash
 go run scripts/validate/main.go
 ```
 
-It should detect at least:
+Validation checks for:
 
 - malformed YAML
 - missing required fields
@@ -548,7 +526,7 @@ It should detect at least:
 - invalid filenames
 - invalid tag format
 - missing referenced audio files
-- inconsistent entries
+- invalid language tags and unsupported fields
 
 Errors should identify:
 
@@ -569,7 +547,7 @@ Prefer deterministic validation output.
 
 ## Build
 
-The build program should be runnable with:
+Build the Anki export from the repository root:
 
 ```bash
 go run scripts/build/main.go
@@ -581,7 +559,7 @@ Expected output:
 dist/vocabulary.tsv
 ```
 
-The build should:
+The build must continue to:
 
 - read all valid source entries
 - produce deterministic ordering
@@ -597,7 +575,7 @@ Running the build twice without source changes should produce identical output.
 
 ## Anki Export
 
-Recommended generated fields:
+The export contains these columns in order:
 
 ```text
 ID
@@ -614,7 +592,7 @@ TTSLanguage
 Tags
 ```
 
-The stable ID should be exported.
+Keep the stable ID in the first column. The export has eleven note fields followed by Anki tags; `TTSLanguage` is derived during export, not stored in YAML.
 
 Example audio field:
 
@@ -628,7 +606,7 @@ Do not mix Anki review state into the LexForge source data.
 
 ## Generated Files
 
-Generated artifacts should live under:
+Keep generated artifacts under:
 
 ```text
 dist/
@@ -648,9 +626,7 @@ then regenerate it.
 
 ## Audio
 
-Pronunciation audio should use deterministic filenames.
-
-Preferred format:
+Use deterministic pronunciation-audio filenames based on the stable ID:
 
 ```text
 media/<id>.mp3
@@ -670,9 +646,7 @@ Rules:
 - keep the audio generation implementation replaceable
 - do not bind the vocabulary schema to one TTS provider
 
-If audio generation requires an external API or credential, do not hardcode credentials.
-
-Use environment variables.
+If a future audio provider requires credentials, read them from environment variables rather than hardcoding them.
 
 ---
 
@@ -830,9 +804,7 @@ Keep changes scoped.
 
 ## GitHub
 
-The repository should work naturally with GitHub.
-
-Potential future GitHub Actions may include:
+No GitHub Actions workflow is currently configured. If CI is needed, useful checks include:
 
 - validation
 - build verification
@@ -1039,12 +1011,10 @@ Once entries exist, avoid breaking schema changes.
 
 If the schema must evolve:
 
-1. explain the reason
-2. preserve existing data where possible
-3. provide migration logic if necessary
-4. update validation
-5. update build logic
-6. update documentation
+1. Explain the reason.
+2. Preserve existing data where possible.
+3. Provide migration logic if necessary.
+4. Update validation, build logic, and documentation.
 
 Do not silently reinterpret existing fields.
 
@@ -1071,21 +1041,18 @@ Do not create excessive test infrastructure for trivial code.
 
 Before considering a task complete:
 
-1. inspect existing conventions
-2. keep the change scoped
-3. run formatting
-4. run validation
-5. run relevant tests
-6. run the build if affected
-7. inspect the Git diff
-8. confirm no secrets were added
-9. report important changes and limitations
+1. Inspect existing conventions and keep the change scoped.
+2. Format changed files.
+3. Run validation and relevant tests.
+4. Run the build if affected.
+5. Inspect the Git diff and confirm that no secrets were added.
+6. Report important changes, verification results, and limitations.
 
 ---
 
 ## Expected Commands
 
-The initial project should support:
+Run these commands from the repository root:
 
 ```bash
 go run scripts/validate/main.go
@@ -1164,8 +1131,8 @@ Every implementation decision should make that workflow simpler, safer, or more 
 
 ## Multilingual Entries
 
-Require a standard BCP 47 `language` tag with no project-specific allowlist. Use `ko` for Korean and `ja` for Japanese. Validation uses a standards-aware parser; internal and exported tags are canonicalized without rewriting source spelling. Duplicate-word warnings are scoped by canonical language, while stable IDs remain globally unique.
+Require a standard BCP 47 `language` tag with no project-specific allowlist. Use `ko` for Korean and `ja` for Japanese. Validation uses a standards-aware parser and canonicalizes language tags internally and in exports without rewriting source spelling. Duplicate-word warnings apply within each canonical language tag; stable IDs remain globally unique.
 
-Use Chinese meanings, practical context, and examples in the vocabulary language. Japanese cards show the original expression and kana readings on both sides, with optional audio once per side. Render each side explicitly; keep meanings on the back. Keep language metadata separate from lowercase vocabulary tags; export derives `lang-<canonical-tag>` automatically.
+Write meanings and practical context in Chinese, and examples in the vocabulary language. Japanese cards show the original expression and kana reading on both sides, with optional audio once per side. Render each side explicitly and keep meanings on the back. Keep language metadata separate from lowercase vocabulary tags; the exporter derives `lang-<canonical-tag>` automatically.
 
 Use the documented local macOS audio command with language-matching voices. Never substitute an English voice for another language. Voice and rate overrides belong to CLI options, not vocabulary data. A valid language does not require an installed voice for validation or export.

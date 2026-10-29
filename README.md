@@ -1,12 +1,13 @@
 # LexForge
 
-LexForge turns vocabulary in English, Japanese, Korean, and other languages from everyday work into contextual Anki cards. Git owns the vocabulary; Anki owns review history and scheduling.
+LexForge turns vocabulary encountered during everyday work into Anki cards with meanings, context, and examples. It supports English, Japanese, Korean, and other languages. Git tracks vocabulary content; Anki manages review history and scheduling.
 
 - [Quick start](#quick-start)
 - [Add vocabulary during work](#add-vocabulary-during-work)
   - [Add vocabulary with Codex](#add-vocabulary-with-codex)
   - [Entry schema](#entry-schema)
 - [Set up Anki once](#set-up-anki-once)
+  - [Enable example speech and update an existing note type](#enable-example-speech-and-update-an-existing-note-type)
   - [Larger AnkiDroid answer buttons](#larger-ankidroid-answer-buttons)
   - [Import and update](#import-and-update)
   - [Audio](#audio)
@@ -22,7 +23,9 @@ go run scripts/validate/main.go
 go run scripts/build/main.go
 ```
 
-The first run downloads the YAML parser. Subsequent runs can work offline once dependencies are cached. The build validates all entries and writes `dist/vocabulary.tsv`, sorted by stable ID. Identical sources produce identical output. Failed validation leaves an existing export untouched.
+The first run downloads any uncached Go dependencies, including the YAML and language-tag parsers. Once the toolchain and dependencies are available locally, these commands can run offline.
+
+The build validates all entries and writes `dist/vocabulary.tsv`, sorted by stable ID. Identical sources produce identical output. Failed validation leaves an existing export untouched.
 
 `dist/` is ignored by Git. Rebuild it when you want to import a batch into Anki; never edit it manually.
 
@@ -55,7 +58,7 @@ Use separate IDs and descriptive filenames for distinct meanings, such as `commi
 
 ### Add vocabulary with Codex
 
-Copy this prompt into Codex from the repository root. Replace the placeholders; context and audio are optional.
+Open Codex in the repository root and use the following prompt. Replace the placeholders with your vocabulary and language; add context if useful, and specify whether to generate audio.
 
 ```text
 Add the following vocabulary to LexForge.
@@ -114,13 +117,13 @@ Do not commit, push, or modify the user's Anki collection.
 
 `language` is a BCP 47 tag, parsed with `golang.org/x/text/language` v0.38.0. Use `en`, `ja`, `ko`, `fr`, or a more specific tag such as `en-US` or `zh-Hant`. Underscores are rejected. Parser errors, including unknown subtags, fail validation. Case and deprecated aliases are canonicalized internally and in exports, without rewriting source spelling. Valid private-use tags and extensions are accepted according to the parser; they do not guarantee an available speech voice.
 
-Exports derive a lowercase `lang-<canonical-tag>` Anki tag, deduplicated with source tags. IDs remain globally unique. Use descriptive Latin kebab-case filenames for Japanese and Korean entries too.
+The exporter adds a lowercase `lang-<canonical-tag>` Anki tag and removes duplicates from the combined tag list. IDs remain globally unique across languages. Use descriptive Latin kebab-case filenames for Japanese and Korean entries too.
 
 For Japanese, `word: 確認` and `pronunciation: かくにん` show 確認 and its kana reading on both sides. Use a Japanese example, such as 設定を確認してください。 Meanings remain concise Chinese. Romanized Japanese readings, furigana markup, and pitch-accent fields are not required.
 
 Required string fields are `id`, `language`, `word`, `meaning`, `context`, and `example`.
 
-Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audio`. `tags` is an optional list of strings. Omit unused optional fields instead of adding empty strings, nulls, or empty lists.
+Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audio`. The optional `tags` field is a list of strings. Omit unused optional fields; empty strings, nulls, and empty lists fail validation.
 
 - Use lowercase letters, digits, and single separating hyphens for IDs, filename stems, and tags.
 - Keep one YAML mapping in each file directly under `entries/`. Nested directories, symlinks, aliases, merge keys, unknown fields, and duplicate keys are rejected. Dot-prefixed files are ignored.
@@ -159,7 +162,7 @@ Use a current Anki Desktop release. These instructions require Anki 2.1.58 or la
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
 5. Create a deck named `LexForge`, or choose another deck for this collection.
 
-If you previously used the English-only setup, the new export requires the field order above and the updated templates. For a fresh collection, recreate the note type and import the rebuilt export. Deleting and recreating notes discards their review history; do not do this to a collection whose scheduling you want to preserve.
+If you already have LexForge notes, update the existing note type to use this field order and the current templates. Follow [Update an existing note type](#enable-example-speech-and-update-an-existing-note-type). Deleting and recreating notes discards their review history.
 
 Front template:
 
@@ -422,19 +425,34 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows the word, pronunciation, and audio when available. On both sides, pronunciation and its native word-audio icon share a row; long readings wrap within the row while the icon stays beside them. Missing fields leave no empty row spacing. Each side renders these fields explicitly, so pronunciation and audio appear once per side. The back adds part of speech, meaning, context, examples, and notes. Japanese pronunciation uses kana.
+The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, context, the example, and notes. Japanese pronunciation uses kana.
+
+Both sides render pronunciation and word audio explicitly, once per side. They share a row: long readings wrap while the native replay icon stays beside the reading. Missing pronunciation or audio fields do not leave an empty row.
 
 ### Enable example speech and update an existing note type
 
-Add `TTSLanguage` after `Audio` in **Tools → Manage Note Types → LexForge → Fields**. Keep existing fields and `ID` intact; do not recreate notes. Replace the front, back, and styling with the templates above, rebuild the TSV, and reimport with **update existing notes** and **note type** match scope. Verify all eleven fields and the tags column before importing, then sync Anki Desktop and AnkiDroid. Editing this README does not update installed templates.
+Update your existing note type in Anki; editing this README does not update installed templates. Keep existing notes and their `ID` values intact.
 
-In the LexForge deck's options, enable **Don't play audio automatically**. Keep replay buttons visible in both clients. Use a separate deck preset if other decks should retain native autoplay. The template script automatically clicks only the word recording once on each side. The native replay icon beside the example speaks the full example only when tapped; its accessible label is **Read example**. Leaving native autoplay enabled can play the example automatically and play the word twice. The app's general Replay Audio action may replay all audio on that side, including the example; use the individual controls to choose one.
+1. In **Tools → Manage Note Types → LexForge → Fields**, add `TTSLanguage` after `Audio` if it is missing. Confirm the field order shown in [Set up Anki once](#set-up-anki-once).
+2. Replace the front, back, and styling with the templates in that section.
+3. Rebuild the TSV and reimport with **update existing notes** and **note type** match scope. Verify all eleven fields and the tags column before importing.
+4. Sync Anki Desktop and AnkiDroid.
+
+In the LexForge deck's options, enable **Don't play audio automatically** and keep replay buttons visible in both clients. Use a separate deck preset if other decks should retain native autoplay.
+
+The template script plays only the word recording automatically, once on each side. Tap the native replay icon beside the example to hear the full example; its accessible label is **Read example**. Leaving native autoplay enabled can play the example automatically and play the word twice. The app's general Replay Audio action may replay all audio on that side, including the example. Use the individual controls to choose one.
 
 Example speech requires AnkiDroid 2.17 or later and a matching installed TTS voice. Anki Desktop on macOS uses system voices; AnkiDroid uses its configured Android speech engine. Install the desired language's voice in the device's text-to-speech settings; `{{tts-voices:}}` in a temporary template lists Anki's available voices. Missing voices produce Anki's native playback error. Japanese names and fictional readings in examples may be mispronounced. No example MP3s are generated or synced.
 
 `TTSLanguage` is derived during export, not stored in YAML. Bare `en`, `ja`, `ko`, and `fr` map to `en_US`, `ja_JP`, `ko_KR`, and `fr_FR`. Ordinary language-region tags such as `en-GB` become `en_GB`. Other valid tags remain accepted, but produce an empty TTS locale and a build warning until an explicit mapping is added in `internal/vocabulary/export.go`. Cards with an empty locale show the example without a speech control. A locale mapping does not guarantee an installed voice.
 
-After setup, check English and Japanese cards on both devices: word audio plays once on the front and back, examples stay silent until tapped, and each control plays only its own content. Check rapid card transitions, repeated taps, missing word audio, and light/dark mode. Live Pixel playback must be verified on the device. To roll back the playback behavior, remove the example speech span and both scripts, then restore native autoplay; the extra note field can remain.
+After setup, check English and Japanese cards on Anki Desktop and each Android device:
+
+- Confirm that word audio plays once on the front and once on the back.
+- Confirm that examples stay silent until tapped and each control plays only its own content.
+- Check rapid card transitions, repeated taps, missing word audio, and light and dark modes.
+
+Verify playback on the actual devices; template checks do not establish device behavior. To roll back the playback behavior, remove the example speech span and both scripts, then restore native autoplay. The extra note field can remain.
 
 Later styling-only edits do not require a rebuild or reimport. See Anki's [native TTS documentation](https://docs.ankiweb.net/templates/fields.html#text-to-speech-for-individual-fields) and [audio options](https://docs.ankiweb.net/deck-options.html#audio).
 
@@ -475,7 +493,9 @@ go run scripts/audio/main.go --id preserve-tech
 go run scripts/audio/main.go --all
 ```
 
-Select exactly one of `--id` or `--all`. The command validates the collection first, reads each selected entry's `word`, and generates `media/<id>.mp3` using the selected voice and LAME at 96 kbps mono. It requires decoded audio samples before adding the `audio` field, preserving the entry's other content and formatting. A successful decoder exit without samples is rejected. Unverified IPA can remain omitted even when audio is available.
+Select exactly one of `--id` or `--all`. The command validates the collection first. By default, it reads each selected entry's `word` and generates `media/<id>.mp3` using the selected voice and LAME at 96 kbps mono.
+
+Before adding the `audio` field, the command verifies that the recording produces decoded audio samples. A successful decoder exit without samples is rejected. Other entry content and formatting are preserved. Omit unverified IPA even when audio is available.
 
 Bare `en`, `ja`, and `ko` prefer Samantha, Kyoko, and Yuna respectively when installed. English defaults to 150 words per minute; other languages use the selected voice's native rate. Japanese and Korean native rates are starting points that need listening review, not a claim of pronunciation quality. Explicit regional tags require a matching region. Other languages use a unique matching installed voice; ambiguous or unavailable matches produce an actionable error.
 
@@ -491,7 +511,9 @@ go run scripts/audio/main.go --id preserve-tech --overwrite
 
 `--all --overwrite` replaces every recording. Without `--overwrite`, reruns preserve existing recordings. An empty or undecodable unreferenced MP3 causes an error instead of being silently replaced. Validation errors, including missing referenced files, must be resolved before generation.
 
-Batch processing follows stable-ID order and stops at the first failure with a nonzero exit status and the affected entry ID. Completed entries remain valid; rerun the same command to resume. The command checks for source edits before attaching audio, cleans up temporary files on handled failures, and reports generated, reused, and skipped counts. Avoid editing selected entries while it runs. Filenames and settings are stable, but audio bytes can differ across macOS or encoder versions.
+Batch processing follows stable-ID order and stops at the first failure with a nonzero exit status and the affected entry ID. Completed entries remain valid. Without `--overwrite`, rerun the same command to resume while preserving completed recordings.
+
+Avoid editing selected entries while the command runs. It checks for source edits before attaching audio, cleans up temporary files on handled failures, and reports generated, reused, and skipped counts. Filenames and settings are stable, but audio bytes can differ across macOS or encoder versions.
 
 Audio generation does not build the export or perform Git operations. After a successful batch, run:
 
