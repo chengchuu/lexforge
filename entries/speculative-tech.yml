@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "推测性的"
 context: "依赖尚未建立的假设，而非已确认的需求或事实。"
 example: "Avoid speculative helpers in a focused fix."
-notes: "Source: daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: speculative-tech.mp3
 tags:
   - tech

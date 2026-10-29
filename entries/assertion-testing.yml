@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "测试断言"
 context: "测试中要求某个值或条件成立的检查。"
 example: "Keep the existing assertions when adding the new case."
-notes: "Source: react-b-plan.md. Distinct from a type assertion in TypeScript."
+notes: "Source: reports/react-b-plan.md. Distinct from a type assertion in TypeScript."
 audio: assertion-testing.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "修订"
 context: "根据检查或反馈对内容作出的修改。"
 example: "I will handle review feedback and revisions."
-notes: "Source: typescript-64952.md. Distinct from a source-code revision."
+notes: "Source: typescript/typescript-64952.md. Distinct from a source-code revision."
 audio: revision-general.mp3
 tags:
   - general

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "已用时间"
 context: "从指定起点到当前已经过去的时间。"
 example: "Check elapsed time before starting another build."
-notes: "Source: daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: elapsed-time-workflow.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "笔误；打字错误"
 context: "输入或书写时产生的拼写或字符错误。"
 example: "Fix the typo in the example's variable name."
-notes: "Source: go101-321.md."
+notes: "Source: go101/go101-321.md."
 audio: typo-general.mp3
 tags:
   - general

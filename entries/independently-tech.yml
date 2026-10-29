@@ -6,7 +6,7 @@ part_of_speech: adverb
 meaning: "独立地"
 context: "自行核实，不直接把他人的结论当作验证结果。"
 example: "The reported cause was not independently reproduced."
-notes: "Source: typescript-tueoct27.md. Pattern: was not independently reproduced. The reported failure was not independently reproduced."
+notes: "Source: reports/typescript-tueoct27.md. Pattern: was not independently reproduced. The reported failure was not independently reproduced."
 audio: independently-tech.mp3
 tags:
   - tech

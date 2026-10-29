@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "转义序列"
 context: "用特殊写法表示无法直接书写或具有特殊含义的字符。"
 example: "Scan JSON escapes in order."
-notes: "Source: react-c-rust-compiler.md. Also a verb: Escape every literal reserved prefix."
+notes: "Source: react/react-c-rust-compiler.md. Also a verb: Escape every literal reserved prefix."
 audio: escape-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "再次进入"
 context: "尚需避免重复处理时，执行流程再次进入同一段逻辑。"
 example: "The guard prevents re-entry after the node is replaced."
-notes: "Source: react-37836.md."
+notes: "Source: react/react-37836.md."
 audio: re-entry-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "适用的"
 context: "与当前条件、对象或工作内容相关并应当采用。"
 example: "Run the applicable runtime checks before review."
-notes: "Source: daily-1am-issue-investigation.md. Expression: when applicable."
+notes: "Source: schedulers/daily-1am-issue-investigation.md. Expression: when applicable."
 audio: applicable-tech.mp3
 tags:
   - tech

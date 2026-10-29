@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "测试或演示样例"
 context: "用于复现、测试或手动演示行为的输入、代码或环境。"
 example: "The fixture reproduces the failure with a nested catch handler."
-notes: "Source: react-a-compiler.md. In this corpus, fixture can mean a compiler input file or an interactive DOM example."
+notes: "Source: react/react-a-compiler.md. In this corpus, fixture can mean a compiler input file or an interactive DOM example."
 audio: fixture-tech.mp3
 tags:
   - tech

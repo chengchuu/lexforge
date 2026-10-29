@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "保留；保持不变"
 context: "修改代码时保持已有行为、数据或约束不变。"
 example: "Preserve the existing error messages when updating the parser."
-notes: "Source: react-37721.md. Pattern: preserve X while Y. Preserve the public API while fixing the parser. Pattern: without changing X. Fix the parser without changing the public API."
+notes: "Source: react/react-37721.md. Pattern: preserve X while Y. Preserve the public API while fixing the parser. Pattern: without changing X. Fix the parser without changing the public API."
 audio: preserve-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "源码映射"
 context: "将生成代码的位置对应到原始源码位置的信息。"
 example: "Review the affected source-map baselines."
-notes: "Source: typescript-a-62854.md. Attributive form: source-map."
+notes: "Source: typescript/typescript-a-62854.md. Attributive form: source-map."
 audio: source-map-tech.mp3
 tags:
   - tech

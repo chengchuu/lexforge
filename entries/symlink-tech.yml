@@ -5,7 +5,7 @@ part_of_speech: noun
 meaning: "符号链接"
 context: "指向另一文件系统路径的链接。"
 example: "Create a symlink only when the tool requires that path."
-notes: "Source: react-37995.md."
+notes: "Source: react/react-37995.md."
 audio: symlink-tech.mp3
 tags:
   - tech

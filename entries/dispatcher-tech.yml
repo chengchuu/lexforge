@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "分派器"
 context: "将调用交给当前适用实现的运行时组件。"
 example: "The guard temporarily replaces the dispatcher."
-notes: "Source: react-d-compiler.md."
+notes: "Source: react/react-d-compiler.md."
 audio: dispatcher-tech.mp3
 tags:
   - tech

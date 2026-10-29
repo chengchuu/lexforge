@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "报告中的行为"
 context: "他人或问题描述声称观察到的现象，可能尚未自行验证。"
 example: "The patch addresses the reported behavior."
-notes: "Source: typescript-wedoct28.md."
+notes: "Source: reports/typescript-wedoct28.md."
 audio: reported-behavior-workflow.mp3
 tags:
   - tech

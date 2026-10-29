@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "解析；确定所指对象"
 context: "依据上下文、声明或规则找到引用所对应的信息。"
 example: "The language service resolves documentation for the parameter."
-notes: "Source: typescript-wedoct28.md. Related form: resolution."
+notes: "Source: reports/typescript-wedoct28.md. Related form: resolution."
 audio: resolve-tech.mp3
 tags:
   - tech

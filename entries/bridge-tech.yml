@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "桥接层"
 context: "连接不同语言或运行环境并传递数据的组件。"
 example: "The bridge must preserve the original string values."
-notes: "Source: react-b-plan.md."
+notes: "Source: reports/react-b-plan.md."
 audio: bridge-tech.mp3
 tags:
   - tech

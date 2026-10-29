@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "已确认的"
 context: "已有直接观察或其他证据支持。"
 example: "Record the confirmed behavior and its validation limits."
-notes: "Source: react-candidates.md."
+notes: "Source: reports/react-candidates.md."
 audio: confirmed-tech.mp3
 tags:
   - tech

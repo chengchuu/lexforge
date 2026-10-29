@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "感谢之情"
 context: "对他人帮助或贡献的感激。"
 example: "Express gratitude for the maintainer's work."
-notes: "Source: go101-267.md."
+notes: "Source: go101/go101-267.md."
 audio: gratitude-general.mp3
 tags:
   - general

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "相互重叠的在途工作"
 context: "其他贡献正在处理同一问题，可能使新实现重复。"
 example: "Check competing work before selecting an issue."
-notes: "Source: typescript-tueoct27.md."
+notes: "Source: reports/typescript-tueoct27.md."
 audio: competing-work-workflow.mp3
 tags:
   - tech

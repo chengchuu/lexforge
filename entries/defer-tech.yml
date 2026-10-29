@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "推迟执行"
 context: "将操作延后到合适的生命周期阶段或时间。"
 example: "Defer cleanup until the parent commit finishes."
-notes: "Source: react-37721.md."
+notes: "Source: react/react-37721.md."
 audio: defer-tech.mp3
 tags:
   - tech

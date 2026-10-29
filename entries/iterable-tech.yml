@@ -5,7 +5,7 @@ part_of_speech: adjective
 meaning: "可迭代的"
 context: "能够按语言的迭代协议提供一系列值。"
 example: "The successful case spreads an iterable value."
-notes: "Source: react-a-compiler.md. Opposite: non-iterable. The regression also covers non-iterable spreads."
+notes: "Source: react/react-a-compiler.md. Opposite: non-iterable. The regression also covers non-iterable spreads."
 audio: iterable-tech.mp3
 tags:
   - tech

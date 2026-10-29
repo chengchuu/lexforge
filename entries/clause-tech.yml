@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "语法子句"
 context: "较大语法结构中承担特定作用的部分。"
 example: "The regression covers both the extends and implements clauses."
-notes: "Source: typescript-64952.md."
+notes: "Source: typescript/typescript-64952.md."
 audio: clause-tech.mp3
 tags:
   - tech

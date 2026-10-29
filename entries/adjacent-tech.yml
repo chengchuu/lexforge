@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "相邻的"
 context: "在文本或结构中彼此紧挨着。"
 example: "The test covers adjacent surrogate values."
-notes: "Source: react-c-rust-compiler.md."
+notes: "Source: react/react-c-rust-compiler.md."
 audio: adjacent-tech.mp3
 tags:
   - tech

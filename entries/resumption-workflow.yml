@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "恢复继续"
 context: "任务中断之后再次继续执行。"
 example: "On resumption, the investigation moved directly to reporting."
-notes: "Source: typescript-tueoct27.md."
+notes: "Source: reports/typescript-tueoct27.md."
 audio: resumption-workflow.mp3
 tags:
   - tech

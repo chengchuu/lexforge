@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "码元"
 context: "某种编码使用的基本单位，不一定等于一个完整字符。"
 example: "Measure the columns in UTF-16 code units."
-notes: "Source: react-37898.md."
+notes: "Source: react/react-37898.md."
 audio: code-unit-tech.mp3
 tags:
   - tech

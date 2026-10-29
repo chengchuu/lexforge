@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "在每条退出路径上"
 context: "要求正常结束和错误结束等所有路径都执行某项处理。"
 example: "Release the owned lock on every exit path."
-notes: "Source: daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: on-every-exit-path-workflow.mp3
 tags:
   - tech

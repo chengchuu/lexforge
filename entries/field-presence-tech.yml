@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "字段是否存在"
 context: "检查对象是否具有某个字段，而非仅检查该字段的值是否为真。"
 example: "Field presence checks handle a null dispatcher correctly."
-notes: "Source: react-d-compiler.md."
+notes: "Source: react/react-d-compiler.md."
 audio: field-presence-tech.mp3
 tags:
   - tech

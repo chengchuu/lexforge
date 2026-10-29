@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "类型断言"
 context: "告诉 TypeScript 按指定类型检查表达式，而不自动添加运行时转换。"
 example: "The assignment target is wrapped in a type assertion."
-notes: "Source: typescript-64965.md. Distinct from a runtime or test assertion."
+notes: "Source: typescript/typescript-64965.md. Distinct from a runtime or test assertion."
 audio: type-assertion-tech.mp3
 tags:
   - tech

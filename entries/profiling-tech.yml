@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "性能分析"
 context: "使用额外测量或分析机制观察程序运行特征。"
 example: "Run the fixture through the profiling compilation path."
-notes: "Source: react-9-rust-compiler.md."
+notes: "Source: react/react-9-rust-compiler.md."
 audio: profiling-tech.mp3
 tags:
   - tech

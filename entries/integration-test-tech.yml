@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "集成测试"
 context: "验证多个实际组件结合工作时的行为。"
 example: "The integration test checks rendering and state updates."
-notes: "Source: react-d-compiler.md."
+notes: "Source: react/react-d-compiler.md."
 audio: integration-test-tech.mp3
 tags:
   - tech

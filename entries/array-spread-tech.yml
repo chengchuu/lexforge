@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "数组展开"
 context: "使用展开语法将可迭代对象的元素放入数组。"
 example: "An array spread can throw when its operand is not iterable."
-notes: "Source: react-a-compiler.md."
+notes: "Source: react/react-a-compiler.md."
 audio: array-spread-tech.mp3
 tags:
   - tech

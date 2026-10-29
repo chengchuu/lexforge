@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "暴露；使显现"
 context: "让原本不明显的问题可以被观察到。"
 example: "Effect replay exposes the lifecycle bug."
-notes: "Source: react-candidates.md."
+notes: "Source: reports/react-candidates.md."
 audio: expose-tech.mp3
 tags:
   - tech

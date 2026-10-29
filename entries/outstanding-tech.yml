@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "尚未完成的"
 context: "工作或问题仍然等待处理。"
 example: "Native integration validation remains outstanding."
-notes: "Source: react-candidates.md."
+notes: "Source: reports/react-candidates.md."
 audio: outstanding-tech.mp3
 tags:
   - tech

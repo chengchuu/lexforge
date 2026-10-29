@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "完整的；未受破坏的"
 context: "经过修改或处理之后，内容或保障仍然保持原状。"
 example: "Existing assertions remain intact after the fix."
-notes: "Source: react-c-rust-compiler.md. Useful expression: remain intact."
+notes: "Source: react/react-c-rust-compiler.md. Useful expression: remain intact."
 audio: intact-tech.mp3
 tags:
   - tech

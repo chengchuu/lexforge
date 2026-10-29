@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "使错位；未正确对齐"
 context: "计算或显示的位置偏离应当对应的位置。"
 example: "The formatter misaligns underlines after non-ASCII characters."
-notes: "Source: react-37898.md."
+notes: "Source: react/react-37898.md."
 audio: misalign-tech.mp3
 tags:
   - tech

@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "同步"
 context: "使相关文件或状态保持一致。"
 example: "Synchronize the lockfile with the dependency manifest."
-notes: "Source: react-37859.md."
+notes: "Source: react/react-37859.md."
 audio: synchronize-tech.mp3
 tags:
   - tech

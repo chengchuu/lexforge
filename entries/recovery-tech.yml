@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "错误后的恢复"
 context: "发生错误之后重新回到可正常工作的状态。"
 example: "The integration test checks recovery after a rejected hook call."
-notes: "Source: react-d-compiler.md."
+notes: "Source: react/react-d-compiler.md."
 audio: recovery-tech.mp3
 tags:
   - tech

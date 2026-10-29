@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "符合条件的"
 context: "满足某个处理流程的准入条件。"
 example: "Both components are eligible for compilation."
-notes: "Source: react-37836.md."
+notes: "Source: react/react-37836.md."
 audio: eligible-tech.mp3
 tags:
   - tech

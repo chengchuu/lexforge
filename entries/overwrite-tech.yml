@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "覆盖"
 context: "用新值或新内容替换原有内容。"
 example: "Do not overwrite a report from an earlier run."
-notes: "Source: daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: overwrite-tech.mp3
 tags:
   - tech

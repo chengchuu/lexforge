@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "过时的；未更新的"
 context: "缓存或状态没有反映最新输入，因而可能不再可靠。"
 example: "Ignore stale results from an earlier compilation."
-notes: "Source: react-candidates.md. Expression: stale result. Discard a stale result after the document changes."
+notes: "Source: reports/react-candidates.md. Expression: stale result. Discard a stale result after the document changes."
 audio: stale-tech.mp3
 tags:
   - tech

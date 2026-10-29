@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "序列化"
 context: "将数据转换为可传输或存储的表示。"
 example: "JavaScript and Rust must use matching serialization rules."
-notes: "Source: react-b-plan.md."
+notes: "Source: reports/react-b-plan.md."
 audio: serialization-tech.mp3
 tags:
   - tech

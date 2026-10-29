@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "隔离工作树"
 context: "为当前任务准备的独立检出目录，用于避免干扰其他工作。"
 example: "Reproduce the bug in a new isolated worktree."
-notes: "Source: daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: isolated-worktree-workflow.mp3
 tags:
   - tech

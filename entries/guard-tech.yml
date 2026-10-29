@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "保护性检查或机制"
 context: "用于阻止不允许的调用或重复执行的条件和处理逻辑。"
 example: "The compilation guard resets for each file."
-notes: "Source: react-37836.md."
+notes: "Source: react/react-37836.md."
 audio: guard-tech.mp3
 tags:
   - tech

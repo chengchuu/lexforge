@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "实现后端"
 context: "负责同一处理任务的一套具体实现，此处包含 TypeScript 和 Rust 两种编译器实现。"
 example: "Both backends preserve the required catch handler."
-notes: "Source: react-a-compiler.md."
+notes: "Source: react/react-a-compiler.md."
 audio: backend-tech.mp3
 tags:
   - tech

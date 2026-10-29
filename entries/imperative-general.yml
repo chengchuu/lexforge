@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "祈使语气的"
 context: "用动词原形表达指令或行动，常用于提交或 PR 标题。"
 example: "Use an imperative title for the pull request."
-notes: "Source: daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: imperative-general.mp3
 tags:
   - general

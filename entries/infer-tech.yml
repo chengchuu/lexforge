@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "推断"
 context: "根据上下文或规则确定没有直接写明的信息。"
 example: "The compiler infers the class name from its surrounding expression."
-notes: "Source: typescript-a-62854.md. Related form: inferred."
+notes: "Source: typescript/typescript-a-62854.md. Related form: inferred."
 audio: infer-tech.mp3
 tags:
   - tech

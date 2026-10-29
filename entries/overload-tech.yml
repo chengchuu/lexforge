@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "重载"
 context: "同名函数或方法提供的不同调用签名。"
 example: "Preserve overload handling when resolving parameter documentation."
-notes: "Source: typescript-wedoct28.md."
+notes: "Source: reports/typescript-wedoct28.md."
 audio: overload-tech.mp3
 tags:
   - tech

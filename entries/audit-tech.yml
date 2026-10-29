@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "审查"
 context: "对明确范围内的内容进行系统检查。"
 example: "The investigation is not a complete backlog audit."
-notes: "Source: typescript-tueoct27.md."
+notes: "Source: reports/typescript-tueoct27.md."
 audio: audit-tech.mp3
 tags:
   - tech

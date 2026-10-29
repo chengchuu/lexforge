@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "明确的；显式的"
 context: "直接写明或明确执行，而非依赖推断。"
 example: "Replacing existing audio requires an explicit flag."
-notes: "Source: daily-1am-issue-investigation.md. Related form: explicitly."
+notes: "Source: schedulers/daily-1am-issue-investigation.md. Related form: explicitly."
 audio: explicit-tech.mp3
 tags:
   - tech

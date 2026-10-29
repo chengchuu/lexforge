@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "尚未被承接的"
 context: "还没有明确贡献或进行中的实现覆盖。"
 example: "Choose an unclaimed issue for the next investigation."
-notes: "Source: typescript-wedoct28.md."
+notes: "Source: reports/typescript-wedoct28.md."
 audio: unclaimed-workflow.mp3
 tags:
   - tech

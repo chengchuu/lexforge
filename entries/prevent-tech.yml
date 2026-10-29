@@ -6,7 +6,7 @@ part_of_speech: verb
 meaning: "防止"
 context: "阻止不希望发生的行为或结果。"
 example: "The guard prevents the plugin from compiling the same file twice."
-notes: "Source: react-37836.md. Pattern: prevent something from happening."
+notes: "Source: react/react-37836.md. Pattern: prevent something from happening."
 audio: prevent-tech.mp3
 tags:
   - tech

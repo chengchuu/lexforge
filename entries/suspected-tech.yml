@@ -6,7 +6,7 @@ part_of_speech: adjective
 meaning: "疑似的；尚未证实的"
 context: "已有线索，但原因或行为还没有得到充分验证。"
 example: "Keep suspected causes separate from confirmed findings."
-notes: "Source: daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: suspected-tech.mp3
 tags:
   - tech

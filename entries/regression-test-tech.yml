@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "回归测试"
 context: "针对特定问题设置的测试，用来验证修复并防止问题再次出现。"
 example: "Add a regression test that fails before the fix."
-notes: "Source: react-37898.md."
+notes: "Source: react/react-37898.md."
 audio: regression-test-tech.mp3
 tags:
   - tech

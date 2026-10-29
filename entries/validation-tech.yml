@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "验证"
 context: "通过检查确认实现、输入或输出是否符合要求。"
 example: "Validation includes both compiler tests and runtime checks."
-notes: "Source: typescript-a-62854.md. Pattern: leave validation to X. Leave identifier validation to Babel."
+notes: "Source: typescript/typescript-a-62854.md. Pattern: leave validation to X. Leave identifier validation to Babel."
 audio: validation-tech.mp3
 tags:
   - tech
