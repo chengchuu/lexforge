@@ -7,6 +7,11 @@ meaning: "我不是您要找的那个人"
 context: "电话中礼貌说明自己不是对方所找的人。"
 example: "申し訳ありませんが、私はその方ではありません。"
 audio: watashi-wa-sono-kata-dewa-arimasen.mp3
+learning_priority: 2
+prerequisites:
+  - watashi
+  - sono-kata
+  - dewa-arimasen-grammar
 tags:
   - phrase
   - phone

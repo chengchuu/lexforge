@@ -8,6 +8,7 @@ context: "表示感谢，或承认某件事的价值和帮助。"
 example: "I appreciate the detailed review feedback."
 notes: "Source: go101/go101-267.md."
 audio: appreciate-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

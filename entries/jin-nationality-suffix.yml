@@ -8,6 +8,7 @@ context: "接在国家名称后表示国籍或该国的人。"
 example: "私は中国人です。"
 notes: "此处读「じん」，不把其他「人」的读法混用于这个后缀。"
 audio: jin-nationality-suffix.mp3
+learning_priority: 1
 tags:
   - suffix
   - grammar

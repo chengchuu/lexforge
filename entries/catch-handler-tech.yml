@@ -8,6 +8,7 @@ context: "在异常被捕获后负责处理它的代码。"
 example: "Do not remove the catch handler for a potentially throwing spread."
 notes: "Source: react/react-a-compiler.md."
 audio: catch-handler-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

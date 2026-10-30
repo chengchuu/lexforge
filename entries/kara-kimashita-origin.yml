@@ -8,6 +8,7 @@ context: "介绍自己从哪个国家或地方来，与表示原因的「～か�
 example: "中国から来ました。"
 notes: "「～」代表地名；读音保留原模式，录音不补入地名。"
 audio: kara-kimashita-origin.mp3
+learning_priority: 1
 tags:
   - grammar
   - travel

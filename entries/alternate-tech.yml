@@ -8,6 +8,7 @@ context: "在两种或多种状态之间轮流变化。"
 example: "The result alternates between positive and negative infinity."
 notes: "Source: react/react-37995.md. Pattern: alternate between X and Y."
 audio: alternate-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

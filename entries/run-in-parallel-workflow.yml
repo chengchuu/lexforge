@@ -8,6 +8,7 @@ context: "让多个任务在时间上重叠执行。"
 example: "Earlier candidates still run in parallel."
 notes: "Source: typescript/typescript-64936.md."
 audio: run-in-parallel-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

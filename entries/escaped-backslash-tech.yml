@@ -8,6 +8,9 @@ context: "在转义语法中用来表示普通反斜杠的字符序列。"
 example: "Consume the escaped backslash before examining the next escape."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: escaped-backslash-tech.mp3
+learning_priority: 3
+prerequisites:
+  - escape-tech
 tags:
   - tech
   - unicode

@@ -8,6 +8,7 @@ context: "选择方案时在不同收益和代价之间作出的平衡。"
 example: "Explain the tradeoff that affects maintainability."
 notes: "Source: AGENTS.md."
 audio: tradeoff-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

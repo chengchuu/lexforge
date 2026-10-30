@@ -7,5 +7,8 @@ meaning: "这个号码"
 context: "指正在谈论或显示的这个号码。"
 example: "この番号でよろしいですか。"
 audio: kono-bangou.mp3
+learning_priority: 2
+prerequisites:
+  - bangou
 tags:
   - phrase

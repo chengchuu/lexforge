@@ -8,6 +8,7 @@ context: "日常使用的主要仓库工作目录。"
 example: "Leave the primary checkout on its current branch."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: primary-checkout-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

@@ -4,7 +4,7 @@
 
 Implemented; status reviewed on 2026-10-29. The repository supports BCP 47 language validation, language-scoped duplicate warnings, multilingual exports and templates, and language-matching local macOS audio with explicit kana-reading and rate options.
 
-The sections below retain the original design and acceptance criteria. Later example-speech support added derived `TTSLanguage` after `Audio`: the current export has eleven note fields plus tags in column 12. Use the [README](../README.md#set-up-anki-once) for current setup and commands. Live Anki import, synchronization, device playback, and pronunciation accuracy are not established by this status update.
+The sections below retain the original design and acceptance criteria. Later example-speech support added derived `TTSLanguage` after `Audio`, and learning-order support added `StudyOrder` after it. The current export has twelve note fields plus tags in column 13. Use the [README](../README.md#set-up-anki-once) for current setup and commands. Live Anki import, synchronization, device playback, and pronunciation accuracy are not established by this status update.
 
 ## Goal
 

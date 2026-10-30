@@ -8,6 +8,10 @@ context: "从所给柯南自我介绍中保留的短句，句尾「さ」带随�
 example: "探偵さ！"
 notes: "完整来源语句：ボクの名前は江戸川コナン！探偵さ！「さ」在这里是句尾语气。"
 audio: tantei-sa.mp3
+learning_priority: 3
+prerequisites:
+  - tantei
+  - sa-ending-grammar
 tags:
   - phrase
   - anime

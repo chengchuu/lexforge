@@ -8,6 +8,7 @@ context: "遵循预定关闭流程结束服务，而不是因异常中断。"
 example: "A graceful shutdown should return a successful exit status."
 notes: "Source: typescript/typescript-1.md. Source wording: graceful LSP shutdown."
 audio: graceful-shutdown-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

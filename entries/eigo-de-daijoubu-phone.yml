@@ -7,6 +7,10 @@ meaning: "可以说英语吗？"
 context: "询问对方是否可以接受用英语交流，不直接断言对方会英语。"
 example: "日本語が話せません。英語で大丈夫ですか？"
 audio: eigo-de-daijoubu-phone.mp3
+learning_priority: 2
+prerequisites:
+  - eigo
+  - daijoubu
 tags:
   - phrase
   - phone

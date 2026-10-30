@@ -8,6 +8,7 @@ context: "影响结论成立条件或适用范围的说明。"
 example: "Retain material caveats in the pull request description."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: caveat-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

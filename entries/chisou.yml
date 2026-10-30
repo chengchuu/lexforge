@@ -7,5 +7,8 @@ meaning: "奔走准备；款待的词源形式"
 context: "在「ご馳走」等表达中学习的词形；词源说明涉及奔走准备与款待。"
 example: "「ご馳走」の「馳走」は「ちそう」と読みます。"
 audio: chisou.mp3
+learning_priority: 3
+prerequisites:
+  - gochisou
 tags:
   - noun

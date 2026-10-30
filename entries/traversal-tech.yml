@@ -8,6 +8,7 @@ context: "按某种顺序访问结构中的节点或条目。"
 example: "Remove later candidates after traversal finishes."
 notes: "Source: typescript/typescript-64936.md."
 audio: traversal-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

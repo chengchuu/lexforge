@@ -8,6 +8,7 @@ context: "附加在源码上用于表达类型或处理意图的信息。"
 example: "The annotation fixture should fail when the directive is ignored."
 notes: "Source: react/react-37871.md."
 audio: annotation-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

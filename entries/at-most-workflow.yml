@@ -8,6 +8,7 @@ context: "指定数量或范围的上限。"
 example: "Select at most one candidate for implementation."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: at-most-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - documentation

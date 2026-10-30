@@ -8,6 +8,7 @@ context: "在系统边界将输入转换为下游能够安全、正确处理的�
 example: "Sanitize lone surrogates before parsing the JSON in Rust."
 notes: "Source: react/react-c-rust-compiler.md. Related forms: sanitizer, sanitization. Here this preserves string data; it is not necessarily an HTML security filter."
 audio: sanitize-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - unicode

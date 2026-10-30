@@ -8,6 +8,7 @@ context: "在现实条件允许且有意义的情况下采用某种方法。"
 example: "Use focused probes where practical."
 notes: "Source: reports/react-candidates.md."
 audio: where-practical-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - documentation

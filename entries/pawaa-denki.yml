@@ -8,5 +8,6 @@ context: "学习记录中的名称，保留「パワー電気」写法。"
 example: "資料には「パワー電気」と書いてあります。"
 notes: "不推定实际组织身份或业务范围。"
 audio: pawaa-denki.mp3
+learning_priority: 2
 tags:
   - proper-noun

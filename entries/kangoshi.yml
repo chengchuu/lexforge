@@ -7,6 +7,7 @@ meaning: "护士"
 context: "医院等场所中的护理专业人员，不限定性别。"
 example: "看護師に相談しました。"
 audio: kangoshi.mp3
+learning_priority: 1
 tags:
   - noun
   - hospital

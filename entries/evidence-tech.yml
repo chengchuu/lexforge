@@ -8,6 +8,7 @@ context: "支持某个判断的观察、结果或可检查的信息。"
 example: "Include evidence for each reported failure."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Pattern: supporting evidence."
 audio: evidence-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - testing

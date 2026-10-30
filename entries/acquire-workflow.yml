@@ -8,6 +8,7 @@ context: "成功取得某项资源或操作权限。"
 example: "Acquire the lock before reserving a report."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Source wording: acquiring the run lock."
 audio: acquire-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - devops

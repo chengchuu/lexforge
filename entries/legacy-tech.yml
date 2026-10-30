@@ -8,6 +8,7 @@ context: "描述为兼容旧实现而保留的接口或行为。"
 example: "Keep the legacy dispatcher layout working."
 notes: "Source: react/react-d-compiler.md."
 audio: legacy-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

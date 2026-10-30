@@ -8,6 +8,9 @@ context: "保存已注册对象或处理器的集合。"
 example: "The registry loses the counter after the first update."
 notes: "Source: reports/react-candidates.md."
 audio: registry-tech.mp3
+learning_priority: 2
+prerequisites:
+  - register-tech
 tags:
   - tech
   - programming

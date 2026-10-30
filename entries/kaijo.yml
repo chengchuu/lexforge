@@ -8,5 +8,6 @@ context: "表示取消限制、锁定等状态，可接「する」构成动词�
 example: "画面のロックを解除します。"
 notes: "サ变用法：解除する。此条保留一般词义，与作品咒语的特殊读法分开。 作动词时例句使用「解除します」。"
 audio: kaijo.mp3
+learning_priority: 2
 tags:
   - noun

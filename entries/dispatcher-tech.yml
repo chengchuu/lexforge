@@ -8,6 +8,7 @@ context: "将调用交给当前适用实现的运行时组件。"
 example: "The guard temporarily replaces the dispatcher."
 notes: "Source: react/react-d-compiler.md."
 audio: dispatcher-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

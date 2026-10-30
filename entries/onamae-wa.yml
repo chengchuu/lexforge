@@ -7,6 +7,9 @@ meaning: "请问您的名字是？"
 context: "礼貌地询问对方姓名，省略了问句的后半部分。"
 example: "失礼ですが、お名前は。"
 audio: onamae-wa.mp3
+learning_priority: 1
+prerequisites:
+  - namae
 tags:
   - phrase
   - polite

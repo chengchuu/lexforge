@@ -7,5 +7,10 @@ meaning: "好奇心旺盛的小猫"
 context: "用「旺盛な」修饰子猫，描述它对周围事物兴趣很大。"
 example: "好奇心旺盛な子猫が箱の中をのぞいています。"
 audio: koukishin-ousei-na-koneko.mp3
+learning_priority: 3
+prerequisites:
+  - koukishin
+  - ousei
+  - koneko
 tags:
   - phrase

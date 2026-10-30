@@ -8,6 +8,7 @@ context: "文件尚未被 Git 纳入版本跟踪。"
 example: "Read untracked files directly during review."
 notes: "Source: AGENTS.md."
 audio: untracked-git.mp3
+learning_priority: 2
 tags:
   - tech
   - git

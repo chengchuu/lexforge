@@ -8,6 +8,7 @@ context: "用于称呼或尊称老师、医生等人，不只表示一种职业�
 example: "先生、質問があります。"
 notes: "教师的职业名称为「教師」；「先生」通常不用于自称。"
 audio: sensei.mp3
+learning_priority: 1
 tags:
   - noun
   - polite

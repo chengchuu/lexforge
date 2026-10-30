@@ -8,6 +8,7 @@ context: "用于确定某一时刻代码状态的版本或提交。"
 example: "Reproduce the error on the revision before the fix."
 notes: "Source: react/react-37859.md. Distinct from an editorial revision."
 audio: revision-git.mp3
+learning_priority: 2
 tags:
   - tech
   - git

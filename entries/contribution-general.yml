@@ -8,6 +8,7 @@ context: "为项目提供的代码、文档、调查或其他有用工作。"
 example: "Check existing contributions before starting a duplicate fix."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: contribution-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

@@ -8,6 +8,7 @@ context: "建立类的静态成员和相关状态的过程。"
 example: "The getter must not run before static initialization."
 notes: "Source: typescript/typescript-a-62854.md."
 audio: static-initialization-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - compiler

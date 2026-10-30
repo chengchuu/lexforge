@@ -8,6 +8,7 @@ context: "表示一个值可以属于多个候选类型之一的类型。"
 example: "Distinguish an intentional union from a synthesized promise alternative."
 notes: "Source: reports/typescript-wedoct28.md."
 audio: union-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

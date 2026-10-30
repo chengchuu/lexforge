@@ -6,6 +6,7 @@ meaning: "烤制的；烘烤的"
 context: "放在食物名称前，说明食物采用烤制方式。"
 example: "The roast chicken comes with potatoes."
 audio: roast-food.mp3
+learning_priority: 2
 tags:
   - adjective
   - food

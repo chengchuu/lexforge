@@ -8,6 +8,7 @@ context: 在 fork 工作流中，指派生仓库所基于的原始项目或仓�
 example: Submit the fix to the upstream repository.
 notes: A Git remote named "upstream" is a convention, not a required name.
 audio: upstream-git.mp3
+learning_priority: 2
 tags:
   - tech
   - git

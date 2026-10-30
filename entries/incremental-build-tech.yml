@@ -8,6 +8,7 @@ context: "利用先前结果，仅更新受输入变化影响的构建部分。"
 example: "The incremental build must invalidate affected diagnostics."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: incremental-build-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

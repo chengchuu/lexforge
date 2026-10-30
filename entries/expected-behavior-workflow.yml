@@ -8,6 +8,7 @@ context: "根据要求或语义应当发生的行为。"
 example: "State the expected behavior before describing the failure."
 notes: "Source: reports/react-candidates.md."
 audio: expected-behavior-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

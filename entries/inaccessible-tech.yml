@@ -8,6 +8,7 @@ context: "某个类型或成员不能在当前使用位置被引用。"
 example: "Report the inaccessible type argument without crashing."
 notes: "Source: typescript/typescript-64952.md."
 audio: inaccessible-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

@@ -7,5 +7,6 @@ meaning: "鱼"
 context: "日常日语中表示鱼，也可指作为食物的鱼。"
 example: "魚を食べます。"
 audio: sakana-general.mp3
+learning_priority: 1
 tags:
   - noun

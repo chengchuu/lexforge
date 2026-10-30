@@ -7,6 +7,7 @@ meaning: "泰国"
 context: "在这里指国家泰国，与其他同音词区分。"
 example: "タイへ旅行に行きます。"
 audio: tai-country.mp3
+learning_priority: 1
 tags:
   - proper-noun
   - travel

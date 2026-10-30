@@ -7,6 +7,7 @@ meaning: "多谢款待"
 context: "饭后表达感谢的较简短说法。"
 example: "ごちそうさま。おいしかったよ。"
 audio: gochisousama.mp3
+learning_priority: 1
 tags:
   - phrase
   - food

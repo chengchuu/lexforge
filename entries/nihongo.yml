@@ -7,5 +7,6 @@ meaning: "日语"
 context: "指日语，可用于说明学习内容或沟通语言。"
 example: "日本語を勉強しています。"
 audio: nihongo.mp3
+learning_priority: 1
 tags:
   - noun

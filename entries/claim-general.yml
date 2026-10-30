@@ -8,6 +8,7 @@ context: "文档中需要证据支持的陈述或结论。"
 example: "Check the draft's claims against the validation evidence."
 notes: "Source: AGENTS.md. Also a verb: Do not claim that an unrun check passed."
 audio: claim-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

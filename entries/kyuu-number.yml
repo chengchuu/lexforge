@@ -8,5 +8,6 @@ context: "数字九的读法之一；这里保留学习记录中的「きゅう�
 example: "九は八より大きいです。"
 notes: "不同数词组合可能使用不同读法，本条不表示「九」只能读「きゅう」。"
 audio: kyuu-number.mp3
+learning_priority: 1
 tags:
   - general

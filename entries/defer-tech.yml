@@ -8,6 +8,7 @@ context: "将操作延后到合适的生命周期阶段或时间。"
 example: "Defer cleanup until the parent commit finishes."
 notes: "Source: react/react-37721.md."
 audio: defer-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

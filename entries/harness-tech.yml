@@ -8,6 +8,7 @@ context: "为测试组织运行环境、执行步骤和结果检查的辅助程�
 example: "The scope harness skips unsupported rename cases."
 notes: "Source: react/react-a-compiler.md."
 audio: harness-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

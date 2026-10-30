@@ -8,6 +8,7 @@ context: "在某次操作或某个对象之后出现的。"
 example: "Subsequent files must use a fresh compilation guard."
 notes: "Source: react/react-37836.md."
 audio: subsequent-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

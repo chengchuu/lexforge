@@ -8,6 +8,7 @@ context: "信息足够具体且有证据支持，可以用于决定下一步。"
 example: "Report actionable candidates with reproduction evidence."
 notes: "Source: reports/react-candidates.md."
 audio: actionable-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

@@ -179,6 +179,8 @@ context
 example
 notes
 audio
+learning_priority
+prerequisites
 tags
 ```
 
@@ -222,12 +224,24 @@ pronunciation
 part_of_speech
 notes
 audio
+learning_priority
+prerequisites
 tags
 ```
 
-Optional fields are strings except for `tags`, which is a list of strings. Omit unused optional fields; validation rejects empty values.
+Optional fields are strings except for `tags` and `prerequisites` (lists of strings) and `learning_priority` (an integer from 1 to 3, defaulting to 2). Omit unused optional fields; validation rejects empty values.
 
 ---
+
+## Learning Order
+
+Use `learning_priority` to propose introduction order: 1 for foundations and early practical use, 2 for standard or applied vocabulary, and 3 for specialized material. Omit it to use 2 when uncertain. Judge usefulness, meaning, and complexity rather than word length; greetings can be foundational and short technical terms advanced.
+
+Add `prerequisites` only for existing stable IDs that help explain the target. Prefer direct dependencies in the same language. Do not infer them from every word in an example, confuse shared spelling with shared meaning, or create extra vocabulary just to complete a graph. Missing references, repeated IDs, self-references, and cycles fail validation.
+
+Builds place prerequisites first, then choose the lowest priority number among eligible entries, using stable ID for ties. `StudyOrder` is a derived export rank, never a source field or note identity. `Load` retains ID ordering for audio batches. Adding or removing entries can change ranks; always rebuild the full export.
+
+These fields describe content, not personal mastery. Anki owns learning state, review scheduling, and history. Use the [README workflow](README.md#apply-the-order-in-anki) to apply ranks to new cards; do not modify a live Anki collection without explicit authorization.
 
 ## Stable IDs
 
@@ -366,6 +380,8 @@ Examples should be:
 - realistic
 - relevant to the target meaning
 
+When writing an example, reuse relevant existing vocabulary in the same language when it fits naturally. Otherwise, use a more suitable example freely. Accuracy, naturalness, and practical context take priority over reuse; do not force vocabulary overlap.
+
 For technical vocabulary, prefer examples from:
 
 - software engineering
@@ -453,7 +469,7 @@ When asked to add a word:
 1. Search existing entries for the same word, language, and meaning.
 2. Reuse a matching entry. For a new meaning, choose a stable ID and create one YAML file.
 3. Add a concise meaning, practical context, and a natural example.
-4. Add relevant tags and pronunciation if reliable.
+4. Add relevant tags and pronunciation if reliable. Choose a learning priority and selective prerequisites using the rules above.
 5. If audio generation is enabled, generate the recording before adding its metadata.
 6. Run validation and build the export when appropriate.
 7. Report the files changed and the verification results.
@@ -527,6 +543,7 @@ Validation checks for:
 - invalid tag format
 - missing referenced audio files
 - invalid language tags and unsupported fields
+- invalid learning priorities, prerequisite references, and dependency cycles
 
 Errors should identify:
 
@@ -589,10 +606,11 @@ Example
 Notes
 Audio
 TTSLanguage
+StudyOrder
 Tags
 ```
 
-Keep the stable ID in the first column. The export has eleven note fields followed by Anki tags; `TTSLanguage` is derived during export, not stored in YAML.
+Keep the stable ID in the first column. The export has twelve note fields followed by Anki tags in column 13. `TTSLanguage` and `StudyOrder` are derived during export, not stored in YAML. `StudyOrder` is the browser sort field; keep `ID` first for import matching.
 
 Example audio field:
 
@@ -877,6 +895,8 @@ context
 example
 notes
 audio
+learning_priority
+prerequisites
 tags
 ```
 

@@ -7,6 +7,7 @@ meaning: "请问是否……；会不会……"
 context: "用于较委婉、礼貌地询问或确认，需接在完整谓语结构后。"
 example: "今、お時間は大丈夫でしょうか。"
 audio: deshou-ka-grammar.mp3
+learning_priority: 2
 tags:
   - phrase
   - grammar

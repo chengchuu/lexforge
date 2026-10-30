@@ -7,6 +7,9 @@ meaning: "你那眼泪算什么？"
 context: "所给《ウルトラマンレオ》短句，保留责问而非平静询问的语气。"
 example: "その涙は何だ？"
 audio: sono-namida-wa-nan-da.mp3
+learning_priority: 3
+prerequisites:
+  - namida
 tags:
   - phrase
   - tokusatsu

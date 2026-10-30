@@ -7,6 +7,12 @@ meaning: "我是洛和会音羽病院的护士，我姓森本"
 context: "所给医院电话自我介绍的语言练习句，不证明真实人员、职务或来电来源。"
 example: "洛和会音羽病院の看護師、森本と申します。"
 audio: rakuwakai-otowa-byouin-kangoshi-morimoto.mp3
+learning_priority: 3
+prerequisites:
+  - rakuwakai-otowa-byouin
+  - kangoshi
+  - morimoto
+  - to-moushimasu-grammar
 tags:
   - phrase
   - formal

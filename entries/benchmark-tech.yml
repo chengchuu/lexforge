@@ -8,6 +8,7 @@ context: "使用明确的任务负载衡量性能表现。"
 example: "Describe the workload used by the benchmark."
 notes: "Source: AGENTS.md."
 audio: benchmark-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

@@ -8,6 +8,7 @@ context: "有意不写入或不包含某项内容。"
 example: "Omit checks that were not relevant to the change."
 notes: "Source: AGENTS.md."
 audio: omit-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

@@ -8,5 +8,8 @@ context: "将可能形式「やれる」修饰「こと」，表示能够做到�
 example: "今やれることから始めます。"
 notes: "やる → やれる（可能形）。所给来源语句：俺がやれることをやりたいだけだよ。"
 audio: yareru-koto.mp3
+learning_priority: 2
+prerequisites:
+  - yareru
 tags:
   - phrase

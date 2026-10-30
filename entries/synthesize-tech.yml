@@ -8,6 +8,7 @@ context: "编译器根据规则创建源代码中未直接写出的结构或信�
 example: "The checker synthesizes a promise alternative for the return context."
 notes: "Source: reports/typescript-wedoct28.md. Related form: synthesized."
 audio: synthesize-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

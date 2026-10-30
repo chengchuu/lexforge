@@ -8,6 +8,7 @@ context: "使用多个字节表示字符或数据单位。"
 example: "The round-trip tests include multibyte text."
 notes: "Source: reports/react-b-plan.md."
 audio: multibyte-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - unicode

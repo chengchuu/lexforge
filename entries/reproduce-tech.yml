@@ -8,6 +8,7 @@ context: "按照明确步骤再次观察到报告中的行为。"
 example: "Reproduce the crash on the unmodified base revision."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Related form: reproduction. A reproduction can also mean a small project that demonstrates a bug."
 audio: reproduce-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

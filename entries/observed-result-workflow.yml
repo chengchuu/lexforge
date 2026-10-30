@@ -8,6 +8,7 @@ context: "通过本次检查直接得到的结果，而非预期或引用他人�
 example: "Record each observed result with the command that produced it."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Source form: observed results."
 audio: observed-result-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

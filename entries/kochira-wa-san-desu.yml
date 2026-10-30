@@ -8,6 +8,9 @@ context: "向对方礼貌地介绍另一人，「～」处填入姓名。"
 example: "こちらは田中さんです。"
 notes: "录音省略占位符，读作「こちらはさんです」，是未填入姓名的模式片段。"
 audio: kochira-wa-san-desu.mp3
+learning_priority: 1
+prerequisites:
+  - san-name-suffix
 tags:
   - phrase
   - polite

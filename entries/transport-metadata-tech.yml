@@ -8,6 +8,7 @@ context: "系统传输数据时用于辅助解释或还原内容的信息。"
 example: "Do not interpret ordinary user text as transport metadata."
 notes: "Source: reports/react-candidates.md."
 audio: transport-metadata-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - unicode

@@ -7,6 +7,9 @@ context: "常用调味料，也用于说明酱汁的主要风味。"
 example: "The beef comes with black pepper sauce and rice."
 notes: "Black pepper（黑胡椒）是一种 pepper（胡椒），与作为蔬菜的 pepper（甜椒或辣椒）不同。"
 audio: black-pepper-food.mp3
+learning_priority: 2
+prerequisites:
+  - pepper-food
 tags:
   - noun
   - food

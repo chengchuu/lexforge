@@ -8,6 +8,7 @@ context: "类或接口通过 extends 或 implements 引用的类型。"
 example: "The diagnostic identifies an inaccessible heritage type."
 notes: "Source: typescript/typescript-64952.md."
 audio: heritage-type-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - compiler

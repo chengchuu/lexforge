@@ -8,6 +8,7 @@ context: "便于后续理解、修改和验证。"
 example: "Prefer a small, maintainable fix."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: maintainable-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

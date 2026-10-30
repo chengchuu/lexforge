@@ -8,6 +8,10 @@ context: "所给《NARUTO》短语，表达不违背自己说过的话，保留�
 example: "言葉は曲げねェ。"
 notes: "角色化否定「曲げねェ」对应「曲げない」，一般动词词条为「曲げる」。"
 audio: kotoba-wa-magenee.mp3
+learning_priority: 3
+prerequisites:
+  - kotoba
+  - mageru
 tags:
   - phrase
   - anime

@@ -8,6 +8,7 @@ context: "描述文本或事件中紧随其后的内容。"
 example: "The input contains a backslash followed by a lone surrogate."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: followed-by-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - documentation

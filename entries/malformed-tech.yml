@@ -8,6 +8,7 @@ context: "输入不符合所要求的结构或编码格式。"
 example: "Reject malformed marker text without silently rewriting it."
 notes: "Source: reports/react-b-plan.md."
 audio: malformed-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

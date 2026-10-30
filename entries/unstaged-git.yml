@@ -8,6 +8,7 @@ context: "工作树中的更改尚未加入 Git 索引。"
 example: "Inspect the remaining unstaged changes."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: unstaged-git.mp3
+learning_priority: 2
 tags:
   - tech
   - git

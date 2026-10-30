@@ -8,6 +8,7 @@ context: "分析之后移除被判定不需要的分支或候选项。"
 example: "Prune later candidates only after traversal completes."
 notes: "Source: typescript/typescript-64936.md. Related form used in source: pruning."
 audio: prune-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

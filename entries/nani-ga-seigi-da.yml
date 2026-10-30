@@ -8,6 +8,10 @@ context: "所给《ウルトラマンティガ》反问，质疑对方所谓的�
 example: "何が正義だ！"
 notes: "来源语句：自由を踏みにじって、何が正義だ！此处是质疑对方立场的反问，不译为「什么是正义？」。"
 audio: nani-ga-seigi-da.mp3
+learning_priority: 3
+prerequisites:
+  - nani-ga-da-rhetorical
+  - seigi
 tags:
   - phrase
   - tokusatsu

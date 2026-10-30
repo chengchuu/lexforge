@@ -8,6 +8,7 @@ context: "给出足以支持某个行动或判断的依据。"
 example: "Incomplete validation does not justify a duplicate implementation."
 notes: "Source: reports/typescript-wedoct28.md. Pattern: justify X. The evidence does not justify a broader refactor."
 audio: justify-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

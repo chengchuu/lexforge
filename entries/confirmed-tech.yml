@@ -8,6 +8,7 @@ context: "已有直接观察或其他证据支持。"
 example: "Record the confirmed behavior and its validation limits."
 notes: "Source: reports/react-candidates.md."
 audio: confirmed-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

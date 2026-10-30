@@ -8,6 +8,9 @@ context: "程序本应被接受，却收到错误或警告。"
 example: "The fix removes a false diagnostic on the assignment."
 notes: "Source: typescript/typescript-64965.md. Source wording: false TS2454."
 audio: false-diagnostic-tech.mp3
+learning_priority: 2
+prerequisites:
+  - diagnostic-tech
 tags:
   - tech
   - testing

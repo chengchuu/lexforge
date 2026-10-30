@@ -8,6 +8,7 @@ context: "诊断输出中用来标明问题所在文本范围的线条或标记�
 example: "The underline starts one column too early."
 notes: "Source: react/react-37898.md."
 audio: underline-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - unicode

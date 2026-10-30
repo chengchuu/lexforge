@@ -8,6 +8,7 @@ context: "将一种接口或数据表示转换为另一种可用形式的组件�
 example: "The Babel adapter passes validation results to Rust."
 notes: "Source: react/react-9-rust-compiler.md."
 audio: adapter-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

@@ -8,6 +8,7 @@ context: "一次任务产生或关联的报告、草稿等文件，不限于构�
 example: "Keep related artifacts associated with the same run identifier."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Distinct from artifact-tech, which covers outputs produced by builds or CI."
 audio: artifact-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

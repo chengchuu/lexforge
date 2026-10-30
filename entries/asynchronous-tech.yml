@@ -8,6 +8,7 @@ context: "操作的完成不要求按发起时的同步顺序发生。"
 example: "Ignore stale asynchronous compilation results."
 notes: "Source: reports/react-candidates.md."
 audio: asynchronous-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

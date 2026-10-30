@@ -8,6 +8,7 @@ context: "放弃已有内容或更改，使其不再保留。"
 example: "Do not discard unrelated working-tree changes."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: discard-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - devops

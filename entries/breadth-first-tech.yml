@@ -8,6 +8,7 @@ context: "先访问同一层的节点，再访问更深层节点。"
 example: "Preserve breadth-first selection when pruning candidates."
 notes: "Source: typescript/typescript-64936.md."
 audio: breadth-first-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - compiler

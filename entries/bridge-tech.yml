@@ -8,6 +8,7 @@ context: "连接不同语言或运行环境并传递数据的组件。"
 example: "The bridge must preserve the original string values."
 notes: "Source: reports/react-b-plan.md."
 audio: bridge-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

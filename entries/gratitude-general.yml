@@ -8,6 +8,7 @@ context: "对他人帮助或贡献的感激。"
 example: "Express gratitude for the maintainer's work."
 notes: "Source: go101/go101-267.md."
 audio: gratitude-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

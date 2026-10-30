@@ -8,6 +8,7 @@ context: "源码中要求以另一种类型看待或处理表达式的写法；�
 example: "The test includes mutable-object casts."
 notes: "Source: typescript/typescript-64965.md. In these TypeScript examples, casts are type assertions and do not themselves convert runtime values."
 audio: cast-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

@@ -8,6 +8,11 @@ context: "所给《ウルトラマンティガ》短语，结合可能形式与�
 example: "光になれるんだ。"
 notes: "来源语句：人間はみんな、自分自身の力で光になれるんだ。「なる」的可能形式为「なれる」。"
 audio: hikari-ni-nareru-nda.mp3
+learning_priority: 3
+prerequisites:
+  - hikari
+  - ni-nareru-grammar
+  - nda-grammar
 tags:
   - phrase
   - tokusatsu

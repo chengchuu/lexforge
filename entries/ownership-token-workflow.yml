@@ -8,6 +8,7 @@ context: "用于确认某个资源属于当前任务的唯一标记。"
 example: "Release the lock only when its ownership token matches."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: ownership-token-workflow.mp3
+learning_priority: 3
 tags:
   - tech
   - devops

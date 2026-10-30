@@ -8,6 +8,7 @@ context: "直接在源码中表达某个值的语法构造。"
 example: "The object literal receives a contextual type."
 notes: "Source: reports/typescript-wedoct28.md. Distinct from literal text, which means text treated exactly as written."
 audio: literal-programming.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

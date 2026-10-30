@@ -25,7 +25,7 @@ func Build(root string) (int, []string, error) {
 			warnings = append(warnings, fmt.Sprintf("%s: no TTS locale mapping for language %q; example speech is unavailable; add a mapping in export.go if a matching device voice exists", entry.sourcePath, entry.Language))
 		}
 	}
-	data, err := render(entries)
+	data, err := render(learningOrder(entries))
 	if err != nil {
 		return 0, warnings, fmt.Errorf("encode TSV: %w", err)
 	}
@@ -56,11 +56,13 @@ func Build(root string) (int, []string, error) {
 
 func render(entries []Entry) ([]byte, error) {
 	var output bytes.Buffer
-	output.WriteString("#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:12\n")
-	output.WriteString("#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tTags\n")
+	output.WriteString("#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:13\n")
+	output.WriteString("#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tStudyOrder\tTags\n")
 	writer := csv.NewWriter(&output)
 	writer.Comma = '\t'
-	for _, entry := range entries {
+	// Equal-width ranks sort numerically in Anki's text-based Sort Field column.
+	width := len(fmt.Sprint(len(entries)))
+	for index, entry := range entries {
 		fields := []string{entry.ID, entry.Language, entry.Word, entry.Pronunciation, entry.PartOfSpeech, entry.Meaning, entry.Context, entry.Example, entry.Notes}
 		for i := range fields {
 			fields[i] = displayText(fields[i])
@@ -73,7 +75,7 @@ func render(entries []Entry) ([]byte, error) {
 		tags = append(tags, "lang-"+strings.ToLower(entry.Language))
 		sort.Strings(tags)
 		tags = slices.Compact(tags)
-		fields = append(fields, audio, ttsLanguage(entry.Language), strings.Join(tags, " "))
+		fields = append(fields, audio, ttsLanguage(entry.Language), fmt.Sprintf("%0*d", width, index+1), strings.Join(tags, " "))
 		if err := writer.Write(fields); err != nil {
 			return nil, err
 		}

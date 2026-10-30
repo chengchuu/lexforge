@@ -7,5 +7,6 @@ meaning: "京都府"
 context: "日本行政区名称，用于地址或地区说明。"
 example: "住所の「京都府」を確認します。"
 audio: kyouto-fu.mp3
+learning_priority: 3
 tags:
   - proper-noun

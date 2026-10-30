@@ -8,6 +8,7 @@ context: "将有限场景中的结果扩展为更广泛的结论。"
 example: "Do not generalize synthetic results to every project."
 notes: "Source: AGENTS.md. Source wording: generalizing synthetic results."
 audio: generalize-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

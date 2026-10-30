@@ -8,6 +8,7 @@ context: "明确列出允许通过检查或采用某项处理的内容。"
 example: "The diagnostic is missing from the JavaScript allowlist."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: allowlist-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

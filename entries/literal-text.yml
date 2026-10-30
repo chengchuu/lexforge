@@ -8,6 +8,7 @@ context: "将文本视为普通字符，不把它解释为转义或内部标记�
 example: "Preserve the literal backslash in the exported text."
 notes: "Source: react/react-c-rust-compiler.md. Distinct from the noun literal, which names a value expression in source code."
 audio: literal-text.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

@@ -8,6 +8,7 @@ context: "内容提前结束，缺少本应存在的后续部分。"
 example: "The decoder rejects a truncated escape sequence."
 notes: "Source: reports/react-b-plan.md."
 audio: truncated-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

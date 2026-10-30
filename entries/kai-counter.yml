@@ -7,5 +7,6 @@ meaning: "次；回"
 context: "表示次数的量词，与数字连用；实际读音随搭配变化。"
 example: "本日、二回電話がありました。"
 audio: kai-counter.mp3
+learning_priority: 2
 tags:
   - counter

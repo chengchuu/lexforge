@@ -7,6 +7,7 @@ meaning: "哪位"
 context: "「誰」的礼貌说法，用于询问对方或第三者的身份。"
 example: "どなたですか。"
 audio: donata.mp3
+learning_priority: 1
 tags:
   - pronoun
   - polite

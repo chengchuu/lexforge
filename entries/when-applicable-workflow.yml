@@ -8,6 +8,9 @@ context: "只有满足相关条件时才采用某项做法。"
 example: "Explain why no fix was made when applicable."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: when-applicable-workflow.mp3
+learning_priority: 1
+prerequisites:
+  - applicable-tech
 tags:
   - tech
   - documentation

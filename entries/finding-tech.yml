@@ -8,6 +8,7 @@ context: "检查或调查得到的观察与结论。"
 example: "Separate confirmed findings from unresolved questions."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: finding-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - testing

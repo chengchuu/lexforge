@@ -8,6 +8,7 @@ context: "将数据转换为可传输或存储的表示。"
 example: "JavaScript and Rust must use matching serialization rules."
 notes: "Source: reports/react-b-plan.md."
 audio: serialization-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

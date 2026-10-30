@@ -8,6 +8,7 @@ context: "其他贡献正在处理同一问题，可能使新实现重复。"
 example: "Check competing work before selecting an issue."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: competing-work-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

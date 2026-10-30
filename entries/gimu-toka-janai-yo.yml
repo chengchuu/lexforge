@@ -8,6 +8,11 @@ context: "所给《ウルトラマンティガ》短语，以口语否定义务�
 example: "義務とかじゃないよ。"
 notes: "来源语句：義務とかじゃないよ。俺は人間だから。俺がやれることをやりたいだけだよ。"
 audio: gimu-toka-janai-yo.mp3
+learning_priority: 3
+prerequisites:
+  - gimu
+  - toka-grammar
+  - janai-grammar
 tags:
   - phrase
   - tokusatsu

@@ -8,6 +8,7 @@ context: "强调应先完成必要检查，再作出判断。"
 example: "Inspect the correct source path before drawing conclusions."
 notes: "Source: reports/typescript-wedoct28.md."
 audio: before-drawing-conclusions-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

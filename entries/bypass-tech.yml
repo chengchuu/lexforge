@@ -8,6 +8,7 @@ context: "跳过通常应经过的处理层或检查步骤。"
 example: "The native test bypasses the JavaScript bridge."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: bypass-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

@@ -8,6 +8,7 @@ context: "某件事的重要性或证据足以支持进一步处理。"
 example: "Decide whether the issue merits reproduction."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: merit-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

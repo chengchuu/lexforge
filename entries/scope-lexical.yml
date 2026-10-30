@@ -8,6 +8,7 @@ context: "名称或绑定在程序中可被访问和解释的范围。"
 example: "The transform must preserve the binding's lexical scope."
 notes: "Source: react/react-37995.md. Distinct from the scope of a task or investigation."
 audio: scope-lexical.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

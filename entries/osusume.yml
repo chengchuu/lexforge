@@ -7,6 +7,7 @@ meaning: "推荐"
 context: "表示推荐的事物，也常作为界面或菜单标签。"
 example: "おすすめは何ですか。"
 audio: osusume.mp3
+learning_priority: 1
 tags:
   - noun
   - ui

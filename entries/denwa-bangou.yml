@@ -7,5 +7,9 @@ meaning: "电话号码"
 context: "用于拨打或识别电话的号码。"
 example: "電話番号を教えてください。"
 audio: denwa-bangou.mp3
+learning_priority: 2
+prerequisites:
+  - denwa
+  - bangou
 tags:
   - noun

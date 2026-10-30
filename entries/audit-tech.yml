@@ -8,6 +8,7 @@ context: "对明确范围内的内容进行系统检查。"
 example: "The investigation is not a complete backlog audit."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: audit-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

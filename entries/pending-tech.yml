@@ -8,6 +8,7 @@ context: "事项还没有达到最终状态。"
 example: "The framework tests are still pending."
 notes: "Source: reports/typescript-wedoct28.md."
 audio: pending-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

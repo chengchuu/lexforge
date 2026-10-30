@@ -7,6 +7,7 @@ meaning: 构建产物
 context: 构建、编译或 CI 流程生成的文件，例如可执行文件、安装包或测试报告。
 example: Upload the build artifacts after the test job completes.
 audio: artifact-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

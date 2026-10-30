@@ -8,6 +8,7 @@ context: "结束对资源或锁的占用。"
 example: "Release only the lock owned by this run."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: release-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - devops

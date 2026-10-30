@@ -6,6 +6,7 @@ meaning: "蘑菇"
 context: "可食用的菌类，在菜名中也常放在其他名词前说明食材。"
 example: "The chicken comes with mushroom sauce."
 audio: mushroom-food.mp3
+learning_priority: 1
 tags:
   - noun
   - food

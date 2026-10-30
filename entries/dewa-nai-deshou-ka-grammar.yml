@@ -7,6 +7,9 @@ meaning: "会不会是……；是不是……"
 context: "用于委婉提出判断、猜测或请对方确认，而非直接断言。"
 example: "こちらではないでしょうか。"
 audio: dewa-nai-deshou-ka-grammar.mp3
+learning_priority: 2
+prerequisites:
+  - deshou-ka-grammar
 tags:
   - phrase
   - grammar

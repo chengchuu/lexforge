@@ -8,6 +8,7 @@ context: "对比实际采用或推荐采用的方式与另一种方式。"
 example: "Check field presence rather than the field's truthiness."
 notes: "Source: reports/react-candidates.md."
 audio: rather-than-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - documentation

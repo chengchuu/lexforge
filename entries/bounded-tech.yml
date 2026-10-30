@@ -8,6 +8,7 @@ context: "调查或操作具有明确的数量、时间或范围限制。"
 example: "This was a bounded investigation of recently updated issues."
 notes: "Source: reports/typescript-wedoct28.md."
 audio: bounded-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

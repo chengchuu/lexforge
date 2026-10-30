@@ -8,6 +8,7 @@ context: "程序或测试所处理的任务内容和规模。"
 example: "The benchmark workload does not represent every project."
 notes: "Source: AGENTS.md."
 audio: workload-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

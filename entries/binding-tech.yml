@@ -8,6 +8,7 @@ context: "标识符与某个声明或运行时实体之间的关联。"
 example: "The assignment check also applies to class bindings."
 notes: "Source: typescript/typescript-64965.md."
 audio: binding-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

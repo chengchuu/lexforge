@@ -8,6 +8,7 @@ context: "本地用于记录某个远端分支状态的引用。"
 example: "Check remote-tracking branches before choosing a run identifier."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: remote-tracking-branch-git.mp3
+learning_priority: 2
 tags:
   - tech
   - git

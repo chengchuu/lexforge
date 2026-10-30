@@ -8,6 +8,7 @@ context: "实现或验证结论尚不能覆盖的条件或范围。"
 example: "State the limitations of the runtime checks."
 notes: "Source: AGENTS.md."
 audio: limitation-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - testing

@@ -8,6 +8,9 @@ context: "「〜になる」的可能形式，表示能够成为某种身份或�
 example: "練習すれば、もっと上手になれます。"
 notes: "なる → なれる（可能形）。与「〜になる」保留为不同学习单位。"
 audio: ni-nareru-grammar.mp3
+learning_priority: 2
+prerequisites:
+  - ni-naru-grammar
 tags:
   - phrase
   - grammar

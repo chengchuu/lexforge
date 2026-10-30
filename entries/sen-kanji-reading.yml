@@ -8,6 +8,7 @@ context: "学习汉字「銭」的读音「せん」；不能据此推断所有�
 example: "「銭」という字の読み方を確認します。"
 notes: "此条保留所给读音「せん」；日常泛指钱可用「お金」。姓名读法需另行确认，不由此条推定。"
 audio: sen-kanji-reading.mp3
+learning_priority: 3
 tags:
   - noun
   - name

@@ -8,6 +8,7 @@ context: "影响相邻字符如何连接或组合呈现的字符。"
 example: "The validator accepts permitted joiners in identifiers."
 notes: "Source: react/react-9-rust-compiler.md."
 audio: joiner-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - unicode

@@ -8,6 +8,7 @@ context: "执行函数、方法或访问器。"
 example: "Reading this property invokes its getter."
 notes: "Source: typescript/typescript-a-62854.md."
 audio: invoke-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

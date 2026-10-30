@@ -8,5 +8,6 @@ context: "礼貌地询问年龄；在数量语境中也可询问多少个。"
 example: "お子さんはおいくつですか。"
 notes: "截图原记「おいくし」已确认更正为「おいくつ」。此处主要学习询问年龄的用法。"
 audio: oikutsu.mp3
+learning_priority: 1
 tags:
   - polite

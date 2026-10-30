@@ -8,6 +8,7 @@ context: "按照语言规则将一个值转换为另一种类型。"
 example: "The global isNaN function coerces strings before checking them."
 notes: "Source: reports/react-candidates.md. Related form: coercion."
 audio: coerce-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

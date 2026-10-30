@@ -8,6 +8,7 @@ context: "能够明确描述或验证，而非停留在泛泛推测。"
 example: "Prioritize concrete correctness issues."
 notes: "Source: reports/react-candidates.md."
 audio: concrete-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

@@ -8,6 +8,7 @@ context: "为内部表示或协议专门保留的开头部分。"
 example: "Escape every literal occurrence of the reserved prefix."
 notes: "Source: reports/react-candidates.md."
 audio: reserved-prefix-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - unicode

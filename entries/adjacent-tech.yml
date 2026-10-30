@@ -8,6 +8,7 @@ context: "在文本或结构中彼此紧挨着。"
 example: "The test covers adjacent surrogate values."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: adjacent-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

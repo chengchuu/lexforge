@@ -8,6 +8,7 @@ context: "较大语法结构中承担特定作用的部分。"
 example: "The regression covers both the extends and implements clauses."
 notes: "Source: typescript/typescript-64952.md."
 audio: clause-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

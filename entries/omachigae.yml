@@ -8,6 +8,9 @@ context: "「間違える」在礼貌表达中的形式，常用于委婉指出�
 example: "番号をお間違えではないでしょうか。"
 notes: "間違える → お間違え。结合完整礼貌句学习，与名词「間違い」和动词「間違える」分别保留。"
 audio: omachigae.mp3
+learning_priority: 2
+prerequisites:
+  - machigaeru
 tags:
   - noun
   - polite

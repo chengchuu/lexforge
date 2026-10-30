@@ -7,5 +7,6 @@ meaning: "电话"
 context: "表示电话或电话联系这一方式。"
 example: "あとで電話します。"
 audio: denwa.mp3
+learning_priority: 1
 tags:
   - noun

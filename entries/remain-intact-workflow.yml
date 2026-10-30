@@ -8,6 +8,9 @@ context: "强调修改后原有内容、断言或保障仍被完整保留。"
 example: "Existing assertions remain intact."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: remain-intact-workflow.mp3
+learning_priority: 2
+prerequisites:
+  - intact-tech
 tags:
   - tech
   - documentation

@@ -7,6 +7,7 @@ meaning: "我开动了"
 context: "开始吃饭前使用的习惯表达。"
 example: "では、いただきます。"
 audio: itadakimasu.mp3
+learning_priority: 1
 tags:
   - phrase
   - food

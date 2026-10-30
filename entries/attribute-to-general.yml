@@ -8,6 +8,7 @@ context: "认为某个结果是由某种原因引起的。"
 example: "The report attributes the failure to missing binding checks."
 notes: "Source: reports/typescript-tueoct27.md. Pattern: attribute X to Y. Attribute the missing diagnostic to the filtering rule. Source wording: attributes acceptance."
 audio: attribute-to-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

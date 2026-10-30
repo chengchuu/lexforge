@@ -7,6 +7,7 @@ meaning: "最小裁剪"
 context: "在所给界面语境中表示尽量少裁剪的选项，不作图论术语解释。"
 example: "「最小カット」を選びます。"
 audio: saishou-katto-ui.mp3
+learning_priority: 2
 tags:
   - noun
   - ui

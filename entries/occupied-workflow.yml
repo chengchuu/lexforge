@@ -8,6 +8,7 @@ context: "某个资源正被其他任务使用，当前任务不能再次占用�
 example: "Do not repeatedly retry an occupied lock."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: occupied-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

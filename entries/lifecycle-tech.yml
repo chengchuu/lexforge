@@ -8,6 +8,7 @@ context: "组件或对象从建立、更新到清理的过程。"
 example: "Effect replay reveals a lifecycle problem."
 notes: "Source: reports/react-candidates.md."
 audio: lifecycle-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

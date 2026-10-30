@@ -8,6 +8,7 @@ context: "工作或问题仍然等待处理。"
 example: "Native integration validation remains outstanding."
 notes: "Source: reports/react-candidates.md."
 audio: outstanding-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

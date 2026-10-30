@@ -8,6 +8,7 @@ context: "说明某次修改没有改变指定的行为或结果。"
 example: "Tab handling and ASCII behavior remain unchanged."
 notes: "Source: react/react-37898.md."
 audio: remain-unchanged-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

@@ -7,5 +7,8 @@ meaning: "小猫；猫猫"
 context: "对猫的亲昵称呼，比「猫」更显亲近。"
 example: "あの猫ちゃんはよく寝ています。"
 audio: neko-chan.mp3
+learning_priority: 2
+prerequisites:
+  - chan-suffix
 tags:
   - noun

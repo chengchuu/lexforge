@@ -7,6 +7,10 @@ meaning: "我不会说日语"
 context: "礼貌说明自己不能用日语交流。"
 example: "すみません、日本語が話せません。"
 audio: nihongo-ga-hanasemasen.mp3
+learning_priority: 2
+prerequisites:
+  - nihongo
+  - hanasemasen
 tags:
   - phrase
   - daily

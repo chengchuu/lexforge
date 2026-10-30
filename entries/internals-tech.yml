@@ -8,6 +8,7 @@ context: "不属于公开接口的内部数据结构或机制。"
 example: "The test uses mocked legacy internals."
 notes: "Source: react/react-d-compiler.md."
 audio: internals-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

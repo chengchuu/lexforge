@@ -8,5 +8,6 @@ context: "主要由男性使用的随意第一人称，可能显得粗犷，不�
 example: "俺がやるよ。"
 notes: "所给角色台词中的「オレ」是片假名文字变体；一般词条使用「俺」。"
 audio: ore.mp3
+learning_priority: 2
 tags:
   - pronoun

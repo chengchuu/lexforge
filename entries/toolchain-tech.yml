@@ -8,6 +8,7 @@ context: "完成编译、构建等流程所需的一组工具。"
 example: "Use the same toolchain when comparing the two builds."
 notes: "Source: go101/go101-321.md."
 audio: toolchain-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

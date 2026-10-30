@@ -6,6 +6,7 @@ meaning: "鸡肉"
 context: "指作为食物的鸡肉，而不是活鸡。"
 example: "The chicken comes with rice."
 audio: chicken-food.mp3
+learning_priority: 1
 tags:
   - noun
   - food

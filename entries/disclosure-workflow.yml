@@ -8,6 +8,7 @@ context: "按项目要求说明协助来源或其他需公开的信息。"
 example: "Follow the project's disclosure requirements."
 notes: "Source: AGENTS.md."
 audio: disclosure-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

@@ -8,6 +8,9 @@ context: "告诉 TypeScript 按指定类型检查表达式，而不自动添加�
 example: "The assignment target is wrapped in a type assertion."
 notes: "Source: typescript/typescript-64965.md. Distinct from a runtime or test assertion."
 audio: type-assertion-tech.mp3
+learning_priority: 3
+prerequisites:
+  - cast-tech
 tags:
   - tech
   - compiler

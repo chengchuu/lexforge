@@ -8,6 +8,7 @@ context: "把多个字符串依次连接成一个字符串。"
 example: "Concatenation can create new marker-shaped text."
 notes: "Source: reports/react-b-plan.md."
 audio: concatenation-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - unicode

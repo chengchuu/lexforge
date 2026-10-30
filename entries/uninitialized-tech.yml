@@ -8,6 +8,7 @@ context: "变量或状态尚未获得可供使用的初始值。"
 example: "The test distinguishes uninitialized reads from assignments."
 notes: "Source: typescript/typescript-64965.md."
 audio: uninitialized-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

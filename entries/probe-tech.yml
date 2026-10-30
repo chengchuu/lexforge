@@ -8,6 +8,7 @@ context: "用于检验具体假设的小型实验或检查。"
 example: "A native probe checks the exact UTF-16 values."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: probe-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

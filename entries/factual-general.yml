@@ -8,6 +8,7 @@ context: "只陈述有依据的内容，不夸大或补造结论。"
 example: "Keep the report concise and factual."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: factual-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

@@ -7,6 +7,7 @@ context: "可作主食或配菜的块茎蔬菜；菜单中常用复数 potatoes 
 example: "The fish comes with potatoes."
 notes: "复数为 potatoes。mashed potatoes 指土豆泥。"
 audio: potato-food.mp3
+learning_priority: 1
 tags:
   - noun
   - food

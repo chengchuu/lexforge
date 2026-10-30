@@ -8,6 +8,7 @@ context: "一起组织和执行的一组测试。"
 example: "Run the full test suite after the focused checks pass."
 notes: "Source: react/react-37757.md. Source wording: full Flight fixture suite."
 audio: test-suite-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

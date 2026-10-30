@@ -8,6 +8,7 @@ context: "根据已有信息计算或确定另一个结果。"
 example: "Derive the context name from the declared class name."
 notes: "Source: typescript/typescript-a-62854.md. Pattern: derive X from Y."
 audio: derive-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

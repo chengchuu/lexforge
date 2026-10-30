@@ -8,6 +8,7 @@ context: "决定何时将两个值视为相等的规则。"
 example: "JavaScript equality semantics remain unchanged by the fix."
 notes: "Source: react/react-37995.md."
 audio: equality-semantics-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - compiler

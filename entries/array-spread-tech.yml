@@ -8,6 +8,7 @@ context: "使用展开语法将可迭代对象的元素放入数组。"
 example: "An array spread can throw when its operand is not iterable."
 notes: "Source: react/react-a-compiler.md."
 audio: array-spread-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - compiler

@@ -7,6 +7,9 @@ meaning: "那位；礼貌说法"
 context: "礼貌地指离双方较远或已提到的第三者，对应「あの人」。"
 example: "あの方はどなたですか。"
 audio: ano-kata.mp3
+learning_priority: 1
+prerequisites:
+  - kata-person
 tags:
   - phrase
   - polite

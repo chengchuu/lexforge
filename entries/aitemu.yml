@@ -7,6 +7,7 @@ meaning: "物品；项目；道具"
 context: "可指物品、条目或游戏道具，需结合具体场景理解。"
 example: "ゲームで新しいアイテムを手に入れました。"
 audio: aitemu.mp3
+learning_priority: 2
 tags:
   - noun
   - loanword

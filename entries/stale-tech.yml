@@ -8,6 +8,7 @@ context: "缓存或状态没有反映最新输入，因而可能不再可靠。"
 example: "Ignore stale results from an earlier compilation."
 notes: "Source: reports/react-candidates.md. Expression: stale result. Discard a stale result after the document changes."
 audio: stale-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

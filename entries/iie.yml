@@ -7,5 +7,6 @@ meaning: "不；不是"
 context: "用于否定对方的判断或回答是非问题。"
 example: "いいえ、学生ではありません。"
 audio: iie.mp3
+learning_priority: 1
 tags:
   - daily

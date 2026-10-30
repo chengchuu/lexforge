@@ -8,6 +8,7 @@ context: "编译器或语言工具报告的错误、警告等信息。"
 example: "The compiler reports a diagnostic instead of panicking."
 notes: "Source: typescript/typescript-64952.md."
 audio: diagnostic-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

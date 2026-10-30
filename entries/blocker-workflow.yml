@@ -8,6 +8,7 @@ context: "阻止当前任务继续完成的问题或缺失条件。"
 example: "Report the blocker without changing project state."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: blocker-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - devops

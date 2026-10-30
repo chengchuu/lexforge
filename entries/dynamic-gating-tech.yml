@@ -8,6 +8,7 @@ context: "根据运行时条件决定是否采用某种编译结果或行为的�
 example: "Dynamic gating validates the condition name before code generation."
 notes: "Source: react/react-9-rust-compiler.md."
 audio: dynamic-gating-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - compiler

@@ -8,6 +8,7 @@ context: "用新值或新内容替换原有内容。"
 example: "Do not overwrite a report from an earlier run."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: overwrite-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

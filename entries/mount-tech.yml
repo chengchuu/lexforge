@@ -8,6 +8,7 @@ context: "创建并将组件或根节点接入实际渲染环境。"
 example: "Mount the inner root after its container commits."
 notes: "Source: react/react-37721.md."
 audio: mount-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

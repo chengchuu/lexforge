@@ -7,5 +7,6 @@ meaning: "外国人"
 context: "从所处国家的立场称来自其他国家的人。"
 example: "私は外国人です。"
 audio: gaikokujin.mp3
+learning_priority: 1
 tags:
   - noun

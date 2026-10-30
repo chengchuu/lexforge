@@ -8,6 +8,7 @@ context: 符合某种语言、框架或技术生态惯用方式的。
 example: Prefer idiomatic Go code.
 notes: Common usage includes "idiomatic Go" and "idiomatic JavaScript".
 audio: idiomatic-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

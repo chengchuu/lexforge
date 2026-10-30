@@ -8,6 +8,7 @@ context: "读取属性时执行的访问器。"
 example: "Computing the decorator context must not invoke the getter early."
 notes: "Source: typescript/typescript-a-62854.md."
 audio: getter-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

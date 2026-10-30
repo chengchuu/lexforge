@@ -8,6 +8,7 @@ context: "让原本不明显的问题可以被观察到。"
 example: "Effect replay exposes the lifecycle bug."
 notes: "Source: reports/react-candidates.md."
 audio: expose-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

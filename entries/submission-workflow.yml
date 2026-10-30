@@ -8,6 +8,7 @@ context: "将贡献交给维护者审查的动作或结果。"
 example: "The user handles the final submission manually."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: submission-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

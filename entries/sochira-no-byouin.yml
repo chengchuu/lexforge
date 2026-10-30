@@ -7,6 +7,10 @@ meaning: "贵院；你们医院"
 context: "礼貌地指对方所在或代表的医院。"
 example: "そちらの病院に確認したいことがあります。"
 audio: sochira-no-byouin.mp3
+learning_priority: 2
+prerequisites:
+  - sochira
+  - byouin
 tags:
   - phrase
   - hospital

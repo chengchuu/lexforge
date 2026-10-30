@@ -8,6 +8,7 @@ context: "对象或值允许在创建后发生变化。"
 example: "The assertion refers to a mutable object."
 notes: "Source: typescript/typescript-64965.md."
 audio: mutable-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

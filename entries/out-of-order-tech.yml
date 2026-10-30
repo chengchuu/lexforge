@@ -8,6 +8,7 @@ context: "完成或到达顺序与发起顺序不一致。"
 example: "The test covers out-of-order compilation completion."
 notes: "Source: reports/react-candidates.md."
 audio: out-of-order-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

@@ -8,6 +8,7 @@ context: "处理过程中破坏数据原本的内容或含义。"
 example: "The decoder must not corrupt literal marker text."
 notes: "Source: reports/react-b-plan.md."
 audio: corrupt-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

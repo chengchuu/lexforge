@@ -8,6 +8,9 @@ context: "「探す」用于敬语结构时的形式，常见于「お探しで�
 example: "何をお探しですか。"
 notes: "探す → お探し。常用于「お探しですか」「お探しの方」等结构，不把它当作可独立替换所有「探す」的动词。"
 audio: osagashi.mp3
+learning_priority: 2
+prerequisites:
+  - sagasu
 tags:
   - noun
   - polite

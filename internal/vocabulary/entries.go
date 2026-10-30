@@ -18,19 +18,21 @@ import (
 )
 
 type Entry struct {
-	ID            string
-	Language      string
-	Word          string
-	Pronunciation string
-	PartOfSpeech  string
-	Meaning       string
-	Context       string
-	Example       string
-	Notes         string
-	Audio         string
-	Tags          []string
-	sourcePath    string
-	sourceData    []byte
+	ID               string
+	Language         string
+	Word             string
+	Pronunciation    string
+	PartOfSpeech     string
+	Meaning          string
+	Context          string
+	Example          string
+	Notes            string
+	Audio            string
+	Tags             []string
+	LearningPriority int
+	Prerequisites    []string
+	sourcePath       string
+	sourceData       []byte
 }
 
 var kebabCase = regexp.MustCompile(`^[a-z0-9]+(-[a-z0-9]+)*$`)
@@ -96,11 +98,14 @@ func Load(root string) ([]Entry, []string, error) {
 		return nil, warnings, errors.New("entries: no vocabulary found; add a lowercase kebab-case .yml file")
 	}
 	sort.Slice(entries, func(i, j int) bool { return entries[i].ID < entries[j].ID })
+	if err := validatePrerequisites(entries); err != nil {
+		return nil, warnings, err
+	}
 	return entries, warnings, nil
 }
 
 func parse(data []byte) (Entry, error) {
-	var entry Entry
+	entry := Entry{LearningPriority: 2}
 	decoder := yaml.NewDecoder(bytes.NewReader(data))
 	var document yaml.Node
 	if err := decoder.Decode(&document); err != nil {
@@ -137,6 +142,27 @@ func parse(data []byte) (Entry, error) {
 			return entry, fmt.Errorf("line %d: duplicate field %q; keep one value", key.Line, name)
 		}
 		seen[name] = true
+		if name == "learning_priority" {
+			if value.Kind != yaml.ScalarNode || value.Tag != "!!int" {
+				return entry, errors.New(`field "learning_priority": expected an integer from 1 to 3`)
+			}
+			if err := value.Decode(&entry.LearningPriority); err != nil || entry.LearningPriority < 1 || entry.LearningPriority > 3 {
+				return entry, errors.New(`field "learning_priority": expected an integer from 1 to 3`)
+			}
+			continue
+		}
+		if name == "prerequisites" {
+			if value.Kind != yaml.SequenceNode || value.Tag != "!!seq" || len(value.Content) == 0 {
+				return entry, errors.New(`field "prerequisites": expected a nonempty list of IDs; omit when unused`)
+			}
+			for _, id := range value.Content {
+				if id.Kind != yaml.ScalarNode || id.Tag != "!!str" || !kebabCase.MatchString(id.Value) {
+					return entry, errors.New(`field "prerequisites": each ID must be a lowercase kebab-case string`)
+				}
+				entry.Prerequisites = append(entry.Prerequisites, id.Value)
+			}
+			continue
+		}
 		if name == "tags" {
 			if value.Kind != yaml.SequenceNode || value.Tag != "!!seq" || len(value.Content) == 0 {
 				return entry, errors.New(`field "tags": expected a nonempty list of strings; omit unused optional fields`)

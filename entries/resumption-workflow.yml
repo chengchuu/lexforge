@@ -8,6 +8,7 @@ context: "任务中断之后再次继续执行。"
 example: "On resumption, the investigation moved directly to reporting."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: resumption-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

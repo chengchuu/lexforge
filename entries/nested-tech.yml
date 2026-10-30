@@ -8,6 +8,7 @@ context: "一个结构包含在另一个同类或相关结构内部。"
 example: "Preserve the inner handler in nested try blocks."
 notes: "Source: react/react-a-compiler.md."
 audio: nested-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

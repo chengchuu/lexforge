@@ -8,6 +8,7 @@ context: "从起点开始按字节计数的位置。"
 example: "A UTF-16 column is not a UTF-8 byte offset."
 notes: "Source: react/react-37898.md."
 audio: byte-offset-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - unicode

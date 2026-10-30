@@ -8,6 +8,7 @@ context: "接在人名后表示礼貌称呼，一般不加在自己的姓名后�
 example: "田中さん、こんにちは。"
 notes: "截图中的「さん」按称呼后缀处理，不是数字三。"
 audio: san-name-suffix.mp3
+learning_priority: 1
 tags:
   - suffix
   - polite

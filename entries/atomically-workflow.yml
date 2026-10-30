@@ -8,6 +8,7 @@ context: "以不可分割的操作完成检查或状态变化，避免其他操�
 example: "Create the lock directory atomically."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: atomically-workflow.mp3
+learning_priority: 3
 tags:
   - tech
   - devops

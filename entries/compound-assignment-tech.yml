@@ -8,6 +8,9 @@ context: "将计算和赋值结合的操作，例如加后赋值。"
 example: "Add coverage for compound assignments through type assertions."
 notes: "Source: typescript/typescript-64965.md."
 audio: compound-assignment-tech.mp3
+learning_priority: 3
+prerequisites:
+  - assignment-target-tech
 tags:
   - tech
   - compiler

@@ -8,6 +8,7 @@ context: "处理相关任务时不改变指定对象或内容。"
 example: "Leave existing worktrees untouched."
 notes: "Source: reports/typescript-tueoct27.md. Source form: were left untouched. Pattern: leave X untouched."
 audio: leave-untouched-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - documentation

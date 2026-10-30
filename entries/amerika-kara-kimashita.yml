@@ -8,6 +8,10 @@ context: "自我介绍时说明自己来自美国，是来源模式的完整表�
 example: "はじめまして。アメリカから来ました。"
 notes: "与可替换地名的模式「～から来ました」分别保留。"
 audio: amerika-kara-kimashita.mp3
+learning_priority: 2
+prerequisites:
+  - amerika
+  - kara-kimashita-origin
 tags:
   - phrase
   - travel

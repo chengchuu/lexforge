@@ -7,6 +7,7 @@ context: "说明食物经过少量液体慢炖或焖煮，常用于肉类菜名�
 example: "Would you like braised beef with rice?"
 notes: "常见搭配：braised beef（炖牛肉；焖牛肉）、braised chicken（炖鸡；焖鸡）。"
 audio: braised-food.mp3
+learning_priority: 2
 tags:
   - adjective
   - food

@@ -7,6 +7,7 @@ meaning: "印度尼西亚"
 context: "国家名称，用于说明出身或旅行目的地。"
 example: "インドネシアから来ました。"
 audio: indoneshia.mp3
+learning_priority: 1
 tags:
   - proper-noun
   - travel

@@ -8,5 +8,9 @@ context: "由「死ぬ」的て形与「みる」组成，作为所给作品台�
 example: "「死んでみる」は「死ぬ」に「てみる」を付けた表現です。"
 notes: "死ぬ → 死んで + みる。与字典形、语法模式和完整作品短句分别保留。"
 audio: shinde-miru.mp3
+learning_priority: 2
+prerequisites:
+  - shinu
+  - te-miru-grammar
 tags:
   - phrase

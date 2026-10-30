@@ -8,6 +8,7 @@ context: "不常见但可能影响正确性的输入或条件。"
 example: "The reported edge cases still need verification."
 notes: "Source: reports/typescript-tueoct27.md."
 audio: edge-case-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

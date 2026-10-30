@@ -8,6 +8,7 @@ context: "阻止不希望发生的行为或结果。"
 example: "The guard prevents the plugin from compiling the same file twice."
 notes: "Source: react/react-37836.md. Pattern: prevent something from happening."
 audio: prevent-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

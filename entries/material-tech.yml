@@ -8,6 +8,7 @@ context: "差异或限制足以影响结论或决策。"
 example: "Disclose material limitations in the validation report."
 notes: "Source: AGENTS.md. Pattern: unless the scope materially changes. Do not duplicate the fix unless its scope materially changes."
 audio: material-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

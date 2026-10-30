@@ -8,6 +8,7 @@ context: "工作已达到可以交给他人检查的状态，不等同于已经�
 example: "The fix is ready for review after validation passes."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: ready-for-review-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

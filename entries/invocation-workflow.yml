@@ -8,6 +8,9 @@ context: "一次工具调用或任务启动及其执行过程。"
 example: "Measure elapsed time from the start of this invocation."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: invocation-workflow.mp3
+learning_priority: 2
+prerequisites:
+  - invoke-tech
 tags:
   - tech
   - devops

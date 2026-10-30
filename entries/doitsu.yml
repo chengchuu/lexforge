@@ -7,6 +7,7 @@ meaning: "德国"
 context: "日语中对德国的称呼。"
 example: "ドイツから来ました。"
 audio: doitsu.mp3
+learning_priority: 1
 tags:
   - proper-noun
   - travel

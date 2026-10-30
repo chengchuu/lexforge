@@ -8,6 +8,7 @@ context: "保存某次输出或状态，作为后续比较的依据。"
 example: "Update the snapshot to include the new diagnostic."
 notes: "Source: react/react-37871.md."
 audio: snapshot-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

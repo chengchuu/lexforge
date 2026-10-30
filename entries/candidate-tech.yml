@@ -8,6 +8,7 @@ context: "仍需评估是否值得进一步处理的问题或方案。"
 example: "Exclude candidates already covered by an open pull request."
 notes: "Source: reports/typescript-wedoct28.md."
 audio: candidate-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - testing

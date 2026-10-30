@@ -8,6 +8,9 @@ context: "能够通过明确步骤再次观察到相同问题。"
 example: "Implement the fix only when the behavior is reproducible."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: reproducible-tech.mp3
+learning_priority: 2
+prerequisites:
+  - reproduce-tech
 tags:
   - tech
   - programming

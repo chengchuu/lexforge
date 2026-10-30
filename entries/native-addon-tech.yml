@@ -8,6 +8,7 @@ context: "由宿主环境加载并调用的原生代码组件。"
 example: "Rebuild the native addon before running the fixtures."
 notes: "Source: reports/react-b-plan.md."
 audio: native-addon-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - programming

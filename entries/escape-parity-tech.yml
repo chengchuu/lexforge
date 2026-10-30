@@ -8,6 +8,9 @@ context: "根据连续反斜杠的奇偶数量判断后续字符是否被转义�
 example: "Checking one preceding character does not account for escape parity."
 notes: "Source: reports/react-candidates.md."
 audio: escape-parity-tech.mp3
+learning_priority: 3
+prerequisites:
+  - escape-tech
 tags:
   - tech
   - unicode

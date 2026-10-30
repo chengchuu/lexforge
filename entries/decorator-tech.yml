@@ -8,6 +8,7 @@ context: "应用于类或成员并参与其定义或初始化处理的构造。"
 example: "The decorator receives the declared class name."
 notes: "Source: typescript/typescript-a-62854.md."
 audio: decorator-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

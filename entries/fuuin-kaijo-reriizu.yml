@@ -8,6 +8,10 @@ context: "所给《カードキャプターさくら》咒语，以作品读法�
 example: "封印解除（レリーズ）！"
 notes: "合并写法：封印解除、封印解除！、封印解除（レリーズ）！普通读法：ふういんかいじょ；作品中的主要读法：レリーズ。「レリーズ」表示 release（解除），此处仅学习作品咒语中的借词读法，不扩展到其他专业用法。「封印解除（レリーズ）」は、ここでは「レリーズ」と読みます。不同写法、读法及单独的「レリーズ」共用此卡片；「封印」「解除」仍各有独立学习条目。"
 audio: fuuin-kaijo-reriizu.mp3
+learning_priority: 3
+prerequisites:
+  - fuuin
+  - kaijo
 tags:
   - phrase
   - anime

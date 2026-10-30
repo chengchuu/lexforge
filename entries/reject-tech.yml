@@ -8,6 +8,7 @@ context: "校验或处理时不接受不符合规则的输入或操作。"
 example: "Reject invalid identifiers before generating JavaScript."
 notes: "Source: react/react-9-rust-compiler.md. Related form: rejection."
 audio: reject-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

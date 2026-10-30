@@ -8,6 +8,7 @@ context: "工作已经提交或准备完成，正在等待他人检查。"
 example: "The existing contribution awaits review."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Source form: awaiting review."
 audio: await-review-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

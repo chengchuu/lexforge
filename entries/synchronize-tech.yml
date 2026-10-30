@@ -8,6 +8,7 @@ context: "使相关文件或状态保持一致。"
 example: "Synchronize the lockfile with the dependency manifest."
 notes: "Source: react/react-37859.md."
 audio: synchronize-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

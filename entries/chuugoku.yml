@@ -7,6 +7,7 @@ meaning: "中国"
 context: "国家名称，可用于介绍出身或说明地点。"
 example: "中国から来ました。"
 audio: chuugoku.mp3
+learning_priority: 1
 tags:
   - proper-noun
   - travel

@@ -8,6 +8,7 @@ context: "不同原始内容被错误地映射到相同或相互混淆的表示�
 example: "The proposed escape format introduces a collision."
 notes: "Source: reports/react-candidates.md."
 audio: collision-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - unicode

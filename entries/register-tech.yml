@@ -8,6 +8,7 @@ context: "将对象或处理器加入系统维护的集合，使其参与后续�
 example: "Register the counter during effect setup."
 notes: "Source: reports/react-candidates.md. Related form: registration."
 audio: register-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

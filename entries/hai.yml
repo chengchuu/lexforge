@@ -7,5 +7,6 @@ meaning: "是；好的"
 context: "用于肯定回答、应答或表示听到了对方的话。"
 example: "はい、そうです。"
 audio: hai.mp3
+learning_priority: 1
 tags:
   - daily

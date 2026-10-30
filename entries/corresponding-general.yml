@@ -8,6 +8,7 @@ context: "与另一项内容相匹配或具有对应关系。"
 example: "Update the article and its corresponding HTML."
 notes: "Source: go101/go101-321.md."
 audio: corresponding-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

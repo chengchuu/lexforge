@@ -8,5 +8,8 @@ context: "「救う」的可能形式，表示有能力或可能拯救。"
 example: "私たちにも救える命があります。"
 notes: "救う的可能形式；与字典形「救う」分别学习。"
 audio: sukueru.mp3
+learning_priority: 2
+prerequisites:
+  - sukuu
 tags:
   - verb

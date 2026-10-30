@@ -8,6 +8,7 @@ context: "将当前结果、状态和未完成事项交给下一步处理者。"
 example: "Reserve time for validation and handoff."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: handoff-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

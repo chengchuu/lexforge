@@ -8,6 +8,7 @@ context: "根据检查或反馈对内容作出的修改。"
 example: "I will handle review feedback and revisions."
 notes: "Source: typescript/typescript-64952.md. Distinct from a source-code revision."
 audio: revision-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

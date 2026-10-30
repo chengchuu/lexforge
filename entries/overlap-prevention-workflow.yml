@@ -8,6 +8,10 @@ context: "防止多次任务同时执行并相互干扰的措施。"
 example: "The lock provides overlap prevention for scheduled runs."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: overlap-prevention-workflow.mp3
+learning_priority: 2
+prerequisites:
+  - overlap-tech
+  - prevent-tech
 tags:
   - tech
   - devops

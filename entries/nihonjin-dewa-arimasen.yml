@@ -8,5 +8,9 @@ context: "礼貌否定日本人身份，主语可由上下文补足。"
 example: "私は日本人ではありません。"
 notes: "组合练习句：私は外国人です。日本人ではありません。读音：わたしはがいこくじんです。にほんじんではありません。中文：我是外国人，不是日本人。完整回应保留在备注中。"
 audio: nihonjin-dewa-arimasen.mp3
+learning_priority: 2
+prerequisites:
+  - nihonjin
+  - dewa-arimasen-grammar
 tags:
   - phrase

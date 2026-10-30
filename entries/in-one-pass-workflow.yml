@@ -8,6 +8,7 @@ context: "一次顺序处理完成任务，不重复处理该轮产生的结果�
 example: "Decode escape tokens and markers in one pass."
 notes: "Source: reports/react-b-plan.md."
 audio: in-one-pass-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

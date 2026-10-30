@@ -8,6 +8,7 @@ context: "计算或显示的位置偏离应当对应的位置。"
 example: "The formatter misaligns underlines after non-ASCII characters."
 notes: "Source: react/react-37898.md."
 audio: misalign-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - unicode

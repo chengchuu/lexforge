@@ -8,6 +8,7 @@ context: "将数据或运行状态恢复到先前的值。"
 example: "Restore the dispatcher after the callback returns."
 notes: "Source: react/react-d-compiler.md. Related form used in source: restoration."
 audio: restore-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

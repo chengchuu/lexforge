@@ -8,5 +8,6 @@ context: "学习记录中的名称，保留「ブラジルエアー」写法。"
 example: "資料には「ブラジルエアー」と書いてあります。"
 notes: "不据名称推定实际机构身份或其他背景。"
 audio: burajiru-eaa.mp3
+learning_priority: 2
 tags:
   - proper-noun

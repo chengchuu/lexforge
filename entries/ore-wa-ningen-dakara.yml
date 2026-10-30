@@ -8,6 +8,11 @@ context: "所给《ウルトラマンティガ》短语，用「だから」说�
 example: "俺は人間だから。"
 notes: "来源语句：義務とかじゃないよ。俺は人間だから。俺がやれることをやりたいだけだよ。"
 audio: ore-wa-ningen-dakara.mp3
+learning_priority: 3
+prerequisites:
+  - ore
+  - ningen
+  - kara-reason-grammar
 tags:
   - phrase
   - tokusatsu

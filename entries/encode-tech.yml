@@ -8,6 +8,7 @@ context: "按照指定规则将数据转换为另一种表示。"
 example: "Encode lone surrogates using the marker format."
 notes: "Source: react/react-c-rust-compiler.md. Related form: encoding. Source wording: encoding lone surrogates."
 audio: encode-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - unicode

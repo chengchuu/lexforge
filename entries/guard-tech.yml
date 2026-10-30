@@ -8,6 +8,7 @@ context: "用于阻止不允许的调用或重复执行的条件和处理逻辑�
 example: "The compilation guard resets for each file."
 notes: "Source: react/react-37836.md."
 audio: guard-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

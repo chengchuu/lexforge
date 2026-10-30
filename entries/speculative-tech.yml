@@ -8,6 +8,7 @@ context: "依赖尚未建立的假设，而非已确认的需求或事实。"
 example: "Avoid speculative helpers in a focused fix."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: speculative-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

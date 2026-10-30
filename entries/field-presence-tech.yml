@@ -8,6 +8,7 @@ context: "检查对象是否具有某个字段，而非仅检查该字段的值�
 example: "Field presence checks handle a null dispatcher correctly."
 notes: "Source: react/react-d-compiler.md."
 audio: field-presence-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

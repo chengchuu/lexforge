@@ -7,6 +7,7 @@ meaning: "八岁"
 context: "表示年龄为八岁，读音包含促音。"
 example: "弟は八歳です。"
 audio: hassai.mp3
+learning_priority: 2
 tags:
   - phrase
   - counter

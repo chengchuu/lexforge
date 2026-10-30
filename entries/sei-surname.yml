@@ -7,5 +7,6 @@ meaning: "姓氏"
 context: "指姓氏，与个人的名字区分。"
 example: "姓と名前を別々に書いてください。"
 audio: sei-surname.mp3
+learning_priority: 2
 tags:
   - noun

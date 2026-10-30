@@ -7,6 +7,7 @@ meaning: "医院"
 context: "提供诊疗服务的医院，电话沟通时可用于确认联系对象。"
 example: "病院に電話します。"
 audio: byouin.mp3
+learning_priority: 1
 tags:
   - noun
   - hospital

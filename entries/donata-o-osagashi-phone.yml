@@ -7,6 +7,10 @@ meaning: "请问您找哪位？"
 context: "电话或接待场景中礼貌询问对方想找谁。"
 example: "お電話ありがとうございます。どなたをお探しですか？"
 audio: donata-o-osagashi-phone.mp3
+learning_priority: 2
+prerequisites:
+  - donata
+  - osagashi
 tags:
   - phrase
   - phone

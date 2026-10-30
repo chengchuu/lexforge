@@ -8,6 +8,7 @@ context: "单次任务允许使用的时间或其他资源上限。"
 example: "The reporting reserve is included in the run budget."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Source wording: total budget."
 audio: run-budget-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

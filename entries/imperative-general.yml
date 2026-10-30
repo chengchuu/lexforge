@@ -8,6 +8,7 @@ context: "用动词原形表达指令或行动，常用于提交或 PR 标题。
 example: "Use an imperative title for the pull request."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: imperative-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

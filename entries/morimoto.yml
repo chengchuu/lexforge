@@ -7,6 +7,7 @@ meaning: "森本，日本姓氏"
 context: "所给日本姓氏，读作「もりもと」；例句为语言练习，不指认真实来电者。"
 example: "森本と申します。"
 audio: morimoto.mp3
+learning_priority: 3
 tags:
   - proper-noun
   - name

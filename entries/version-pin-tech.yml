@@ -8,6 +8,7 @@ context: "明确固定依赖或工具所用版本的约束。"
 example: "The fix does not add a separate Unicode version pin."
 notes: "Source: react/react-9-rust-compiler.md."
 audio: version-pin-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

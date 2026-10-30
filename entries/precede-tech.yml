@@ -8,6 +8,7 @@ context: "在文本顺序或执行顺序中出现在另一项之前。"
 example: "A backslash precedes the surrogate escape."
 notes: "Source: react/react-c-rust-compiler.md. Related form: preceding. Passive pattern: be preceded by. The escape is preceded by two backslashes."
 audio: precede-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

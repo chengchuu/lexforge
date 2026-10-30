@@ -7,6 +7,7 @@ context: "指向另一文件系统路径的链接。"
 example: "Create a symlink only when the tool requires that path."
 notes: "Source: react/react-37995.md."
 audio: symlink-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

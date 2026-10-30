@@ -8,6 +8,7 @@ context: "要求当前位置之前不能匹配指定模式的正则表达式条�
 example: "The negative lookbehind checks only the preceding backslash."
 notes: "Source: reports/react-candidates.md."
 audio: negative-lookbehind-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - unicode

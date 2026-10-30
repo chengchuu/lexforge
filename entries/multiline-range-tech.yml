@@ -8,6 +8,7 @@ context: "从一行延伸到另一行的文本区域。"
 example: "The formatter handles multiline ranges separately."
 notes: "Source: react/react-37898.md."
 audio: multiline-range-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - unicode

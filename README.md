@@ -6,6 +6,8 @@ LexForge turns vocabulary encountered during everyday work into Anki cards with 
 - [Add vocabulary during work](#add-vocabulary-during-work)
   - [Add vocabulary with Codex](#add-vocabulary-with-codex)
   - [Entry schema](#entry-schema)
+- [Learning order](#learning-order)
+  - [Apply the order in Anki](#apply-the-order-in-anki)
 - [Set up Anki once](#set-up-anki-once)
   - [Enable example speech and update an existing note type](#enable-example-speech-and-update-an-existing-note-type)
   - [Larger AnkiDroid answer buttons](#larger-ankidroid-answer-buttons)
@@ -25,7 +27,7 @@ go run scripts/build/main.go
 
 The first run downloads any uncached Go dependencies, including the YAML and language-tag parsers. Once the toolchain and dependencies are available locally, these commands can run offline.
 
-The build validates all entries and writes `dist/vocabulary.tsv`, sorted by stable ID. Identical sources produce identical output. Failed validation leaves an existing export untouched.
+The build validates all entries and writes `dist/vocabulary.tsv` in [learning order](#learning-order). Identical sources produce identical output. Failed validation leaves an existing export untouched.
 
 `dist/` is ignored by Git. Rebuild it when you want to import a batch into Anki; never edit it manually.
 
@@ -89,7 +91,17 @@ For each entry:
 - Use a globally unique stable ID and lowercase kebab-case filename.
 - Add a concise Chinese meaning, practical context, and a natural
   example in the vocabulary's language.
+- Reuse relevant existing vocabulary in the same language when it fits
+  naturally in the example. Otherwise, use a more suitable example freely.
+  Accuracy, naturalness, and practical context take priority over reuse;
+  do not force vocabulary overlap.
 - Prefer software-engineering usage when it matches the supplied context.
+- Choose learning_priority: 1 for foundations and early practical use,
+  2 for standard or applied vocabulary, or 3 for specialized material.
+  If uncertain, omit it to use 2. Judge the learning target, not word length.
+- Add prerequisites only for existing stable IDs that help explain the
+  target. Do not infer dependencies from every word in its example or
+  create extra entries solely to satisfy a dependency. Omit when unused.
 - Follow existing tag conventions and omit unused optional fields.
 - Include pronunciation only when reliable. For Japanese, use kana
   rather than romaji.
@@ -123,7 +135,7 @@ For Japanese, `word: 確認` and `pronunciation: かくにん` show 確認 and i
 
 Required string fields are `id`, `language`, `word`, `meaning`, `context`, and `example`.
 
-Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audio`. The optional `tags` field is a list of strings. Omit unused optional fields; empty strings, nulls, and empty lists fail validation.
+Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audio`. The optional `tags` field is a list of strings. `learning_priority` is an optional integer from 1 to 3 (default: 2); `prerequisites` is an optional list of stable entry IDs. Omit unused optional fields; empty strings, nulls, and empty lists fail validation.
 
 - Use lowercase letters, digits, and single separating hyphens for IDs, filename stems, and tags.
 - Keep one YAML mapping in each file directly under `entries/`. Nested directories, symlinks, aliases, merge keys, unknown fields, and duplicate keys are rejected. Dot-prefixed files are ignored.
@@ -135,11 +147,51 @@ Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audi
 
 Validation rejects missing or blank required fields, incorrect types, invalid names or tags, duplicate IDs or tags, and missing or empty referenced audio files. Errors go to stderr and return a nonzero exit status.
 
+Learning metadata validation also rejects invalid priorities, malformed or repeated prerequisite IDs, missing entries, self-references, and dependency cycles. Cycle errors include the involved IDs.
+
 Repeated words within the same canonical language tag produce warnings for human review, including when their capitalization or whitespace differs. Distinct meanings remain valid. This check does not infer semantic equivalence or detect synonyms. Warnings do not block a build.
+
+## Learning order
+
+LexForge proposes an introduction order using editorial priorities and selected prerequisites. These describe the content, not your current mastery, and are not CEFR or JLPT levels.
+
+- `1`: foundations and early practical use, including common words, greetings, and useful everyday patterns.
+- `2`: standard or applied vocabulary; the default when the field is omitted.
+- `3`: specialized concepts, less common forms, and complex quotations.
+
+Use prerequisites where learning another existing item first helps explain the target. For example, `mashed-potatoes-food` depends on `potato-food` and `mashed-food`:
+
+```yaml
+learning_priority: 2
+prerequisites:
+  - potato-food
+  - mashed-food
+```
+
+A short technical term can be advanced; a longer greeting can be foundational. Do not split fixed expressions or link every word in an example. Select dependencies by meaning and grammatical relationship, not shared spelling. Keep example-vocabulary reuse optional.
+
+The build repeatedly selects an entry whose prerequisites have already been placed, preferring the lowest priority number and then stable ID for ties. Prerequisites take precedence over priority. Unrelated entries of equal priority still use ID order; the result is a deterministic starting curriculum, not a precisely measured difficulty scale or a guarantee that related cards are adjacent.
+
+The exporter derives `StudyOrder`: a unique, zero-padded rank shared across all languages. It is not stored in YAML or shown on the cards. Ranks may change when entries or metadata change; IDs remain permanent. Import the complete rebuilt export to refresh ranks consistently. See the [initial classification record](docs/LEARNING_ORDER.md).
+
+### Apply the order in Anki
+
+Import order alone does not rearrange existing new cards. Anki's [Sort Field](https://docs.ankiweb.net/editing.html#customizing-fields) and [Reposition](https://docs.ankiweb.net/browsing.html#cards) controls apply the generated ranks:
+
+1. In **Tools → Manage Note Types → LexForge → Fields**, add `StudyOrder` after `TTSLanguage` if missing. Select `StudyOrder` and enable **Sort by this field in the browser**. Keep `ID` as the first field for import matching; choosing the sort field does not move it.
+2. Build and [import the complete TSV](#import-and-update), updating existing notes. Verify `StudyOrder` maps to column 12 and tags to column 13.
+3. In the deck's options, use **Sequential** insertion order, **Ascending position** for **New card gather order**, and **Order gathered** for **New card sort order**. Set insertion order before repositioning: changing it can reorder existing new cards. These are Anki's [display-order settings](https://docs.ankiweb.net/deck-options.html#display-order).
+4. Empty any filtered decks containing these cards. In **Browse**, use **Cards** mode and search `note:LexForge is:new`. Show **Sort Field** and **Due** columns; sort **Sort Field** ascending. Confirm the ranks increase from top to bottom.
+5. Select all results and choose **Cards → Reposition**. Set the start position to **1**, step to **1**, and turn off **Randomize order** and **Shift position of existing cards**. Check that the Due positions now increase in the same order.
+6. Sync Anki Desktop, then AnkiDroid. After later imports or priority changes, repeat the sort and reposition steps for the remaining new cards.
+
+Use a dedicated LexForge deck so unrelated new cards do not share the same positions. Reposition the whole LexForge new-card selection, including suspended new cards, to avoid position collisions from partial selections. To study languages separately, move each language to a dedicated deck, then apply the same workflow to each entire deck using, for example, `note:LexForge deck:LexForge::Japanese is:new`. Review order is governed by the deck you choose to study; parent-deck daily limits can affect which cards are introduced.
+
+Keep the `is:new` filter. Do not reset learned cards or use **Set Due Date** for this task. Repositioning new cards leaves learning/review cards and their history intact. A prerequisite can still be suspended, excluded from your chosen deck, or not yet mastered: these links order introductions and do not unlock or block cards based on learning state. Changing source metadata does not update Anki until you import and reposition.
 
 ## Set up Anki once
 
-Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains twelve columns: eleven note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
+Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains thirteen columns: twelve note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
 1. In **Tools → Manage Note Types**, clone the **Basic** note type and name it `LexForge`.
 2. In **Fields**, rename `Front` to `ID` and `Back` to `Language`. Add the remaining fields in this exact order:
@@ -156,9 +208,10 @@ Use a current Anki Desktop release. These instructions require Anki 2.1.58 or la
    Notes
    Audio
    TTSLanguage
+   StudyOrder
    ```
 
-3. Keep `ID` first. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID.
+3. Keep `ID` first. Select `StudyOrder` as the browser sort field. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID.
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
 5. Create a deck named `LexForge`, or choose another deck for this collection.
 
@@ -445,9 +498,9 @@ Word and example replay controls use 24px icons inside 44px touch targets. On re
 
 Update your existing note type in Anki; editing this README does not update installed templates. Keep existing notes and their `ID` values intact.
 
-1. In **Tools → Manage Note Types → LexForge → Fields**, add `TTSLanguage` after `Audio` if it is missing. Confirm the field order shown in [Set up Anki once](#set-up-anki-once).
+1. In **Tools → Manage Note Types → LexForge → Fields**, add `TTSLanguage` after `Audio` and `StudyOrder` after `TTSLanguage` if missing. Select `StudyOrder` as the browser sort field. Confirm the field order shown in [Set up Anki once](#set-up-anki-once).
 2. Replace the front, back, and styling with the templates in that section.
-3. Rebuild the TSV and reimport with **update existing notes** and **note type** match scope. Verify all eleven fields and the tags column before importing.
+3. Rebuild the TSV and reimport with **update existing notes** and **note type** match scope. Verify all twelve fields and the tags column before importing. [Apply the learning order](#apply-the-order-in-anki) to new cards.
 4. Sync Anki Desktop and AnkiDroid.
 
 In the LexForge deck's options, enable **Don't play audio automatically** and keep replay buttons visible in both clients. Use a separate deck preset if other decks should retain native autoplay.
@@ -480,7 +533,7 @@ These are AnkiDroid controls outside the card content. Change their size in the 
 
 1. Build `dist/vocabulary.tsv`.
 2. In Anki Desktop, import the TSV and select the `LexForge` note type and your deck.
-3. Verify the preview: tab separator, HTML enabled, columns 1–11 mapped to the matching fields, and column 12 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
+3. Verify the preview: tab separator, HTML enabled, columns 1–12 mapped to the matching fields, and column 13 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
 4. Choose to **update** existing notes. Use **note type** as the match scope, rather than note type and deck. Keep these settings for later imports.
 5. Import, inspect a card, and sync with AnkiWeb. Then sync AnkiDroid to review on mobile.
 

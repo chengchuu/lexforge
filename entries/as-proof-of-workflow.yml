@@ -8,6 +8,7 @@ context: "把某个结果当作判断另一件事成立的依据。"
 example: "Do not use directory existence as proof of ownership."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: as-proof-of-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

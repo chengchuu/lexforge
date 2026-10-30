@@ -7,6 +7,9 @@ meaning: "那个人"
 context: "指离双方较远或已提到的那个人；礼貌说法为「あの方」。"
 example: "あの人は私の先生です。"
 audio: ano-hito.mp3
+learning_priority: 1
+prerequisites:
+  - hito
 tags:
   - phrase
   - daily

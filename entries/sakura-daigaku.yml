@@ -8,5 +8,8 @@ context: "学习记录中的大学名称，保留「さくら大学」写法。"
 example: "資料には「さくら大学」と書いてあります。"
 notes: "名称来自学习记录，不推定对应的实际学校或补写汉字。"
 audio: sakura-daigaku.mp3
+learning_priority: 2
+prerequisites:
+  - daigaku
 tags:
   - proper-noun

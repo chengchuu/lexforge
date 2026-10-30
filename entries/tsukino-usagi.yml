@@ -7,6 +7,7 @@ meaning: "月野兔"
 context: "所给《美少女戦士セーラームーン》人物名称，按专名读法学习。"
 example: "「月野うさぎ」は「つきのうさぎ」と読みます。"
 audio: tsukino-usagi.mp3
+learning_priority: 3
 tags:
   - proper-noun
   - name

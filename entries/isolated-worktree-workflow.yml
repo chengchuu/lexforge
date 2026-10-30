@@ -8,6 +8,7 @@ context: "为当前任务准备的独立检出目录，用于避免干扰其他�
 example: "Reproduce the bug in a new isolated worktree."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: isolated-worktree-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

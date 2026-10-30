@@ -8,6 +8,10 @@ context: "学习记录中的医院名称，保留「こうべ病院」写法。"
 example: "書類には「こうべ病院」と書いてあります。"
 notes: "不把名称中的「こうべ」擅自改为汉字，也不据此确认实际机构身份。"
 audio: koube-byouin.mp3
+learning_priority: 2
+prerequisites:
+  - koube
+  - byouin
 tags:
   - proper-noun
   - hospital

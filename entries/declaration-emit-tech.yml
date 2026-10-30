@@ -8,6 +8,9 @@ context: "编译过程中生成声明文件或声明输出的阶段。"
 example: "Declaration emit should report inaccessible types without crashing."
 notes: "Source: typescript/typescript-64952.md."
 audio: declaration-emit-tech.mp3
+learning_priority: 3
+prerequisites:
+  - emit-tech
 tags:
   - tech
   - compiler

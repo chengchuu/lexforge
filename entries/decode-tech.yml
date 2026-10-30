@@ -8,6 +8,7 @@ context: "按照对应规则从编码表示还原数据。"
 example: "Decode escape tokens and markers in one pass."
 notes: "Source: reports/react-b-plan.md. Related form: decoder."
 audio: decode-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - unicode

@@ -8,6 +8,9 @@ context: "与其他字符组合显示的符号，而非总是独立占据一个�
 example: "The identifier contains a combining mark."
 notes: "Source: react/react-9-rust-compiler.md."
 audio: combining-mark-tech.mp3
+learning_priority: 3
+prerequisites:
+  - accented-text-tech
 tags:
   - tech
   - unicode

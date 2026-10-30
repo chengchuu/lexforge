@@ -8,6 +8,7 @@ context: "在输入发生变化后，使旧缓存或已有判断不再可用。"
 example: "A configuration change invalidates the cached project result."
 notes: "Source: typescript/typescript-64936.md. Related form: invalidation."
 audio: invalidate-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

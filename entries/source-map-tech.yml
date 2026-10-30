@@ -8,6 +8,7 @@ context: "将生成代码的位置对应到原始源码位置的信息。"
 example: "Review the affected source-map baselines."
 notes: "Source: typescript/typescript-a-62854.md. Attributive form: source-map."
 audio: source-map-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

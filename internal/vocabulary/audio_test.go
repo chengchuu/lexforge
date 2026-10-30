@@ -74,6 +74,7 @@ func TestAudioPrerequisites(t *testing.T) {
 func TestInsertAudioPreservesYAML(t *testing.T) {
 	for _, data := range []string{
 		validEntry,
+		validEntry + "learning_priority: 1\nprerequisites: [base-tech]\ntags: [tech]\n",
 		strings.TrimSuffix(validEntry, "\n"),
 		"---\n# entry\n" + validEntry + "notes: |\n  Keep this text.\n# tags\ntags: [tech] # inline\n...\n",
 		validEntry + "notes: 'quoted: text'\n... # end\n",

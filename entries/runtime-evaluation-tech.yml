@@ -8,6 +8,9 @@ context: "实际执行代码并检查结果，而非只查看生成的代码。"
 example: "The fixtures passed runtime evaluation on both backends."
 notes: "Source: react/react-37995.md. Expression: including runtime evaluation. The selected fixtures passed, including runtime evaluation."
 audio: runtime-evaluation-tech.mp3
+learning_priority: 3
+prerequisites:
+  - runtime-tech
 tags:
   - tech
   - testing

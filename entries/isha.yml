@@ -7,5 +7,6 @@ meaning: "医生"
 context: "指从事诊断和治疗的医生，是职业名称。"
 example: "姉は医者です。"
 audio: isha.mp3
+learning_priority: 1
 tags:
   - noun

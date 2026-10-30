@@ -7,5 +7,6 @@ meaning: "学生"
 context: "指在学校接受教育的人，常用于说明身份。"
 example: "私は大学の学生です。"
 audio: gakusei.mp3
+learning_priority: 1
 tags:
   - noun

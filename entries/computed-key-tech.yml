@@ -8,6 +8,7 @@ context: "通过执行表达式得到的属性名称或键。"
 example: "Preserve the evaluation order of computed keys."
 notes: "Source: typescript/typescript-a-62854.md."
 audio: computed-key-tech.mp3
+learning_priority: 3
 tags:
   - tech
   - compiler

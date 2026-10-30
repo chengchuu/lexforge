@@ -8,6 +8,7 @@ context: "保存的预期结果，用于比较新的编译或测试输出。"
 example: "Review each changed baseline before accepting the update."
 notes: "Source: typescript/typescript-64965.md."
 audio: baseline-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

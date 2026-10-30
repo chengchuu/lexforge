@@ -7,5 +7,6 @@ meaning: "英语"
 context: "指英语，可用于询问能否改用英语沟通。"
 example: "英語で話してもいいですか。"
 audio: eigo.mp3
+learning_priority: 1
 tags:
   - noun

@@ -6,6 +6,7 @@ meaning: "米饭"
 context: "餐食搭配中指煮熟的米饭，通常作为主食或配菜。"
 example: "Would you like pork with rice?"
 audio: rice-food.mp3
+learning_priority: 1
 tags:
   - noun
   - food

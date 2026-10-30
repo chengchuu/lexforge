@@ -7,6 +7,10 @@ meaning: "真的很抱歉"
 context: "在道歉时强调自己的歉意。"
 example: "心配をかけて、本当にごめんなさい。"
 audio: hontou-ni-gomennasai.mp3
+learning_priority: 2
+prerequisites:
+  - hontou-ni
+  - gomennasai
 tags:
   - phrase
   - daily

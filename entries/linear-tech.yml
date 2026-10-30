@@ -8,6 +8,7 @@ context: "处理成本随输入数量按一次比例增长。"
 example: "Keep candidate pruning linear in the number of references."
 notes: "Source: typescript/typescript-64936.md."
 audio: linear-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

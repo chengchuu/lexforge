@@ -7,6 +7,7 @@ context: "提供两个选项时常用的礼貌询问句型，适用于航空餐�
 example: "Would you like chicken with rice or beef with noodles?"
 notes: "A and B are placeholders for meal choices: Would you like [meal option A] or [meal option B]? Replace both placeholders with actual meal options."
 audio: would-you-like-a-or-b.mp3
+learning_priority: 1
 tags:
   - phrase
   - grammar

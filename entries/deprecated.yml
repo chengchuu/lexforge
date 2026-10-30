@@ -8,6 +8,7 @@ context: 仍可能可用，但已不建议使用，通常有替代方案，并�
 example: Replace the deprecated API before upgrading the library.
 notes: Deprecated does not necessarily mean removed or broken.
 audio: deprecated-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

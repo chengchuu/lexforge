@@ -7,6 +7,9 @@ meaning: "鱼肉汉堡"
 context: "以鱼肉为主要夹馅的汉堡。"
 example: "フィッシュバーガーを一つください。"
 audio: fisshu-baagaa.mp3
+learning_priority: 2
+prerequisites:
+  - fisshu
 tags:
   - noun
   - food

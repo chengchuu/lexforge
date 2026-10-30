@@ -8,6 +8,7 @@ context: "说明测试能够暴露修复前的问题，而非只验证修复后�
 example: "Both regression tests fail against the original implementation."
 notes: "Source: reports/react-candidates.md."
 audio: fail-against-the-original-implementation-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

@@ -8,6 +8,7 @@ context: "程序运行或检查中真正出现的行为。"
 example: "Compare the actual behavior with the expected result."
 notes: "Source: reports/react-candidates.md."
 audio: actual-behavior-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

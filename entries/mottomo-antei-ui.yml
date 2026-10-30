@@ -7,6 +7,7 @@ meaning: "最稳定"
 context: "界面中表示稳定程度最高的选项，是省略后续成分的简短标签。"
 example: "「最も安定」と表示された設定を選びます。"
 audio: mottomo-antei-ui.mp3
+learning_priority: 2
 tags:
   - phrase
   - ui

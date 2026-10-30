@@ -8,6 +8,7 @@ context: "消除问题或不确定性，使工作可以继续。"
 example: "Resolve the remaining validation failures before submission."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: resolve-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

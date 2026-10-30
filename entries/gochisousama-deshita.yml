@@ -7,6 +7,7 @@ meaning: "多谢款待；谢谢这顿饭"
 context: "饭后较礼貌地感谢食物及准备或招待者。"
 example: "ごちそうさまでした。とてもおいしかったです。"
 audio: gochisousama-deshita.mp3
+learning_priority: 1
 tags:
   - phrase
   - food

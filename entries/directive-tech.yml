@@ -8,6 +8,7 @@ context: "源码中用于指示编译器采用特定处理方式的内容。"
 example: "The prefilter recognizes the directive prefix."
 notes: "Source: react/react-37871.md."
 audio: directive-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

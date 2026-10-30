@@ -8,6 +8,7 @@ context: "包含带重音或其他附加符号字母的文本。"
 example: "The regression tests cover accented text."
 notes: "Source: react/react-37898.md."
 audio: accented-text-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - unicode

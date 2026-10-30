@@ -8,6 +8,7 @@ context: "为满足特定条件的输入设置的较短处理流程。"
 example: "Use a fast path when the loaded project already contains the file."
 notes: "Source: typescript/typescript-64936.md."
 audio: fast-path-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - compiler

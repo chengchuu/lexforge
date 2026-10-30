@@ -8,6 +8,7 @@ context: "缩小允许使用的值、操作或处理范围。"
 example: "The checker restricts writes through certain generic indexes."
 notes: "Source: typescript/typescript-64965.md. Related form: restricted."
 audio: restrict-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

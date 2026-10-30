@@ -8,6 +8,7 @@ context: "修改之后出现的错误或原有正确行为的丢失。"
 example: "The new fixture catches the regression."
 notes: "Source: react/react-37871.md."
 audio: regression-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

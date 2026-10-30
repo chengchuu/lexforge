@@ -8,6 +8,7 @@ context: "提前保留给收尾、报告等步骤使用的时间或资源。"
 example: "Begin the handoff when the reporting reserve starts."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: reserve-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - devops

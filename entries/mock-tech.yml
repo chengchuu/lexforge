@@ -8,6 +8,7 @@ context: "测试时用受控实现代替真实组件或内部状态。"
 example: "Mock the legacy internals to test compatibility."
 notes: "Source: react/react-d-compiler.md. Related form: mocked."
 audio: mock-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

@@ -8,6 +8,7 @@ context: "对学习或工作具有很大帮助，语气强于 valuable。"
 example: "The book has been an invaluable resource."
 notes: "Source: go101/go101-267.md."
 audio: invaluable-general.mp3
+learning_priority: 2
 tags:
   - general
   - documentation

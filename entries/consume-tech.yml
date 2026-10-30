@@ -8,6 +8,7 @@ context: "解析输入时处理一段内容，并将读取位置向后移动。"
 example: "Consume escaped backslashes before checking surrogate escapes."
 notes: "Source: reports/react-candidates.md. Source wording: consuming escaped backslashes."
 audio: consume-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

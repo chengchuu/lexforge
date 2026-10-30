@@ -7,6 +7,7 @@ meaning: "你"
 context: "指谈话中的对方；知道姓名或称呼时，通常直接用姓名或称呼更自然。"
 example: "これはあなたの傘ですか。"
 audio: anata.mp3
+learning_priority: 1
 tags:
   - pronoun
   - daily

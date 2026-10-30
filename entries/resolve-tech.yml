@@ -8,6 +8,7 @@ context: "依据上下文、声明或规则找到引用所对应的信息。"
 example: "The language service resolves documentation for the parameter."
 notes: "Source: reports/typescript-wedoct28.md. Related form: resolution."
 audio: resolve-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - programming

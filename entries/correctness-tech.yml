@@ -8,6 +8,7 @@ context: "实现是否满足要求并保持预期行为。"
 example: "Review the patch for correctness before submission."
 notes: "Source: reports/typescript-wedoct28.md."
 audio: correctness-tech.mp3
+learning_priority: 1
 tags:
   - tech
   - testing

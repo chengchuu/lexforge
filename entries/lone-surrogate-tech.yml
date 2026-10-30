@@ -8,6 +8,9 @@ context: "UTF-16 中没有与对应码元组成有效代理对的代理码元。
 example: "Encode the lone surrogate before sending JSON to Rust."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: lone-surrogate-tech.mp3
+learning_priority: 3
+prerequisites:
+  - surrogate-pair-tech
 tags:
   - tech
   - unicode

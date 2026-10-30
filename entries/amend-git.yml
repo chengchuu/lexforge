@@ -8,6 +8,7 @@ context: "替换或修订最近一次或指定的已有提交内容。"
 example: "Do not amend another contribution's commit."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: amend-git.mp3
+learning_priority: 2
 tags:
   - tech
   - git

@@ -8,6 +8,7 @@ context: "说明同一检查在修复后的代码上成功。"
 example: "The new fixtures pass with the fix."
 notes: "Source: react/react-c-rust-compiler.md."
 audio: pass-with-the-fix-workflow.mp3
+learning_priority: 2
 tags:
   - tech
   - documentation

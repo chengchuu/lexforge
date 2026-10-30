@@ -8,5 +8,10 @@ context: "用愿望形式与「だけ」说明只是自己想做，语气随意�
 example: "自分でやりたいだけだよ。"
 notes: "やる → やりたい（愿望形式）。所给来源语句：俺がやれることをやりたいだけだよ。"
 audio: yaritai-dake-da-yo.mp3
+learning_priority: 3
+prerequisites:
+  - yaru
+  - tai-grammar
+  - dake-grammar
 tags:
   - phrase

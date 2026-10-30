@@ -7,5 +7,6 @@ meaning: "京都市"
 context: "日本城市名称，用于地址或地区说明。"
 example: "京都市に住んでいます。"
 audio: kyouto-shi.mp3
+learning_priority: 3
 tags:
   - proper-noun

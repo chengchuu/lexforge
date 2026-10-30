@@ -8,6 +8,7 @@ context: "代码实体没有显式声明的名称。"
 example: "The transform also handles anonymous classes."
 notes: "Source: typescript/typescript-a-62854.md."
 audio: anonymous-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

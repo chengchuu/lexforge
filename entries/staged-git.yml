@@ -8,6 +8,7 @@ context: "更改已加入 Git 索引，准备进入下一次提交。"
 example: "Review the staged diff before committing."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: staged-git.mp3
+learning_priority: 2
 tags:
   - tech
   - git

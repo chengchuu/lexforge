@@ -8,6 +8,7 @@ context: "为测试或分析特意生成，而非直接来自实际业务。"
 example: "Do not generalize synthetic results to all projects."
 notes: "Source: AGENTS.md."
 audio: synthetic-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - testing

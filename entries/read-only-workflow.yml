@@ -8,6 +8,7 @@ context: "允许查看信息，但不修改被检查的内容或状态。"
 example: "Keep the investigation read-only."
 notes: "Source: reports/react-candidates.md."
 audio: read-only-workflow.mp3
+learning_priority: 1
 tags:
   - tech
   - devops

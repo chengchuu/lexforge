@@ -8,6 +8,7 @@ context: "发生错误之后重新回到可正常工作的状态。"
 example: "The integration test checks recovery after a rejected hook call."
 notes: "Source: react/react-d-compiler.md."
 audio: recovery-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming

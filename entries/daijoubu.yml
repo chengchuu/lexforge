@@ -8,5 +8,6 @@ context: "表示没问题、不要紧或可以；答复时需结合上下文判�
 example: "もう大丈夫です。ありがとうございます。"
 notes: "同时保留所给「没问题；可以」与「没问题；不要紧」的用法。作品中的「絶対、だいじょうぶだよ。」作为完整短句另建条目。"
 audio: daijoubu.mp3
+learning_priority: 1
 tags:
   - adjective

@@ -8,6 +8,7 @@ context: "以较少文字表达必要信息，没有多余重复。"
 example: "Write a concise title that describes the change."
 notes: "Source: AGENTS.md."
 audio: concise-general.mp3
+learning_priority: 1
 tags:
   - general
   - documentation

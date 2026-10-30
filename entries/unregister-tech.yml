@@ -8,6 +8,9 @@ context: "将已注册对象从集合或机制中移除。"
 example: "Unregister the counter during cleanup."
 notes: "Source: reports/react-candidates.md."
 audio: unregister-tech.mp3
+learning_priority: 2
+prerequisites:
+  - register-tech
 tags:
   - tech
   - programming

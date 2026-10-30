@@ -8,6 +8,7 @@ context: "覆盖某个明确范围内所有需要考虑的情况。"
 example: "The scan was not an exhaustive audit of the compiler."
 notes: "Source: reports/react-candidates.md."
 audio: exhaustive-tech.mp3
+learning_priority: 2
 tags:
   - tech
   - programming
