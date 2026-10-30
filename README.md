@@ -60,7 +60,7 @@ Use separate IDs and descriptive filenames for distinct meanings, such as `commi
 
 ### Add vocabulary with Codex
 
-Use the [Add vocabulary with Codex guide](docs/ADD_VOCABULARY_WITH_CODEX.md) for the reusable prompt. It covers entry reuse, natural examples, learning priorities, optional audio, and validation.
+Use the [Add vocabulary with Codex guide](guides/ADD_VOCABULARY_WITH_CODEX.md) for the reusable prompt. It covers entry reuse, natural examples, learning priorities, optional audio, and validation.
 
 ### Entry schema
 
@@ -109,7 +109,7 @@ A short technical term can be advanced; a longer greeting can be foundational. D
 
 The build repeatedly selects an entry whose prerequisites have already been placed, preferring the lowest priority number and then stable ID for ties. Prerequisites take precedence over priority. Unrelated entries of equal priority still use ID order; the result is a deterministic starting curriculum, not a precisely measured difficulty scale or a guarantee that related cards are adjacent.
 
-The exporter derives `StudyOrder`: a unique, zero-padded rank shared across all languages. It is not stored in YAML or shown on the cards. Ranks may change when entries or metadata change; IDs remain permanent. Import the complete rebuilt export to refresh ranks consistently. See the [initial classification record](docs/LEARNING_ORDER.md).
+The exporter derives `StudyOrder`: a unique, zero-padded rank shared across all languages. It is not stored in YAML or shown on the cards. Ranks may change when entries or metadata change; IDs remain permanent. Import the complete rebuilt export to refresh ranks consistently. See the [initial classification record](guides/LEARNING_ORDER.md).
 
 ### Apply the order in Anki
 
@@ -152,7 +152,7 @@ Use a current Anki Desktop release. These instructions require Anki 2.1.58 or la
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
 5. Create a deck named `LexForge`, or choose another deck for this collection.
 
-If you already have LexForge notes, follow the [Anki migration guide](docs/ANKI_MIGRATION_GUIDE.md) to update the existing note type while preserving review history.
+If you already have LexForge notes, follow the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md) to update the existing note type while preserving review history.
 
 Front template:
 
@@ -433,7 +433,7 @@ Word and example replay controls use 24px icons inside 44px touch targets. On re
 
 ### Example speech
 
-For an existing note type, first follow the [Anki migration guide](docs/ANKI_MIGRATION_GUIDE.md).
+For an existing note type, first follow the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md).
 
 In the LexForge deck's options, enable **Don't play audio automatically** and keep replay buttons visible in both clients. Use a separate deck preset if other decks should retain native autoplay.
 
@@ -529,7 +529,7 @@ The validator checks the filename and that the file is a nonempty regular file; 
 
 The five original sample pronunciations were generated locally with macOS's Samantha voice (US English) at 150 words per minute and encoded as 96 kbps mono MP3s using LAME through `lameenc` 1.9.0. The `vocabulary` recording and subsequent recordings use LAME CLI. Existing recordings do not need to be regenerated.
 
-The [PR vocabulary import record](docs/PR_VOCABULARY_IMPORT.md) maps the reviewed source vocabulary to entries, grouped forms, and exclusions.
+The [PR vocabulary import record](guides/PR_VOCABULARY_IMPORT.md) maps the reviewed source vocabulary to entries, grouped forms, and exclusions.
 
 ## Verify changes
 

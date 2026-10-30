@@ -153,7 +153,7 @@ lexforge/
 ├── go.sum
 ├── entries/
 ├── media/
-├── docs/
+├── guides/
 ├── internal/
 │   └── vocabulary/
 ├── scripts/
@@ -500,7 +500,7 @@ When asked to add a word:
 
 Do not create duplicate entries for the same meaning.
 
-The reusable maintenance prompt is in [Add vocabulary with Codex](docs/ADD_VOCABULARY_WITH_CODEX.md). Keep it consistent with implemented fields and commands.
+The reusable maintenance prompt is in [Add vocabulary with Codex](guides/ADD_VOCABULARY_WITH_CODEX.md). Keep it consistent with implemented fields and commands.
 
 ---
 
@@ -650,7 +650,7 @@ Headers specify tab separation, HTML display, the `LexForge` note type, column n
 
 `TTSLanguage` maps bare `en`, `ja`, `ko`, and `fr` to Anki voice locales; supported language-region forms use underscores. Other valid tags export an empty locale with a build warning, leaving example speech unavailable. This does not prevent vocabulary import or require a voice to be installed on the build machine.
 
-For existing notes, follow the [Anki migration guide](docs/ANKI_MIGRATION_GUIDE.md). Reimport the complete export to refresh ranks, then apply the documented new-card repositioning procedure. Importing ranks alone does not reorder existing new cards. Removing YAML also does not delete the corresponding Anki note.
+For existing notes, follow the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md). Reimport the complete export to refresh ranks, then apply the documented new-card repositioning procedure. Importing ranks alone does not reorder existing new cards. Removing YAML also does not delete the corresponding Anki note.
 
 Example audio field:
 
@@ -977,12 +977,12 @@ Update documentation when:
 
 Do not let documentation drift from implementation.
 
-Keep task guides under `docs/` with uppercase snake-case filenames. Current navigation:
+Keep task guides under `guides/` with uppercase snake-case filenames. Current navigation:
 
-- [Add vocabulary with Codex](docs/ADD_VOCABULARY_WITH_CODEX.md): reusable prompt and maintenance workflow.
-- [Anki migration guide](docs/ANKI_MIGRATION_GUIDE.md): updating an existing note type without recreating notes.
-- [Learning order](docs/LEARNING_ORDER.md): ordering model, initial classification, and verification record.
-- Import records, pronunciation sources, and implementation plans in `docs/`: historical decisions and evidence; check their status and current code before treating them as implemented behavior.
+- [Add vocabulary with Codex](guides/ADD_VOCABULARY_WITH_CODEX.md): reusable prompt and maintenance workflow.
+- [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md): updating an existing note type without recreating notes.
+- [Learning order](guides/LEARNING_ORDER.md): ordering model, initial classification, and verification record.
+- Import records, pronunciation sources, and implementation plans in `guides/`: historical decisions and evidence; check their status and current code before treating them as implemented behavior.
 
 Keep the field order, templates, and current commands canonical in the README and link to them from guides. Update affected links and anchors when moving sections. Preserve historical verification counts as historical facts rather than silently rewriting them to current totals.
 

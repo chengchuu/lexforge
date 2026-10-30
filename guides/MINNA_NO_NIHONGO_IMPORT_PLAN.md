@@ -106,7 +106,7 @@ The latest read-only check found Kyoko, macOS `say`, LAME CLI, and `mpg123` avai
 
 ## Import record and verification
 
-Append a separate dated batch section to `docs/JP_VOCABULARY_IMPORT.md`, preserving the historical import record. Include the source screenshot filename, all 49 source-to-ID mappings, corrections, reuse decisions, new entry count, audio results, warnings, and any unresolved limitations. Do not invent a textbook chapter or edition.
+Append a separate dated batch section to `guides/JP_VOCABULARY_IMPORT.md`, preserving the historical import record. Include the source screenshot filename, all 49 source-to-ID mappings, corrections, reuse decisions, new entry count, audio results, warnings, and any unresolved limitations. Do not invent a textbook chapter or edition.
 
 1. Capture existing entry contents and media hashes before editing. Limit existing-entry changes to the necessary variant notes for `yoroshiku-onegai-shimasu`.
 2. Verify all 49 items are represented once as new or reused learning items. Confirm globally unique IDs, correct Japanese readings, Chinese meanings, natural examples, and no unapproved additions.
