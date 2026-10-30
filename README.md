@@ -317,7 +317,9 @@ Styling:
 }
 
 .pronunciation-row .audio .replay-button,
-.pronunciation-row .audio .replaybutton {
+.pronunciation-row .audio .replaybutton,
+.example-speech .replay-button,
+.example-speech .replaybutton {
   box-sizing: border-box;
   display: inline-flex;
   align-items: center;
@@ -332,7 +334,9 @@ Styling:
 }
 
 .pronunciation-row .audio .replay-button span,
-.pronunciation-row .audio .replaybutton span {
+.pronunciation-row .audio .replaybutton span,
+.example-speech .replay-button span,
+.example-speech .replaybutton span {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -344,7 +348,11 @@ Styling:
 .pronunciation-row .audio .replay-button svg,
 .pronunciation-row .audio .replay-button img,
 .pronunciation-row .audio .replaybutton svg,
-.pronunciation-row .audio .replaybutton img {
+.pronunciation-row .audio .replaybutton img,
+.example-speech .replay-button svg,
+.example-speech .replay-button img,
+.example-speech .replaybutton svg,
+.example-speech .replaybutton img {
   display: block;
   width: 24px;
   height: 24px;
@@ -355,9 +363,19 @@ Styling:
 }
 
 .pronunciation-row .audio .replay-button:focus,
-.pronunciation-row .audio .replaybutton:focus {
+.pronunciation-row .audio .replaybutton:focus,
+.example-speech .replay-button:focus,
+.example-speech .replaybutton:focus {
   outline: 2px solid var(--color-heading);
   outline-offset: 2px;
+}
+
+/* Keep the focus outline as a fallback for older renderers. */
+.pronunciation-row .audio .replay-button:focus:not(:focus-visible),
+.pronunciation-row .audio .replaybutton:focus:not(:focus-visible),
+.example-speech .replay-button:focus:not(:focus-visible),
+.example-speech .replaybutton:focus:not(:focus-visible) {
+  outline: none;
 }
 
 .pronunciation + .audio {
@@ -402,17 +420,9 @@ Styling:
 }
 
 .example-speech {
-  display: inline-block;
+  display: inline-flex;
+  vertical-align: middle;
   margin-left: 0.4em;
-}
-
-.example-speech a:focus {
-  outline: 2px solid var(--color-heading);
-  outline-offset: 2px;
-}
-
-.example-speech a:focus:not(:focus-visible) {
-  outline: none;
 }
 
 @media (min-width: 700px) {
@@ -428,6 +438,8 @@ The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/st
 The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, context, the example, and notes. Japanese pronunciation uses kana.
 
 Both sides render pronunciation and word audio explicitly, once per side. They share a row: long readings wrap while the native replay icon stays beside the reading. Missing pronunciation or audio fields do not leave an empty row.
+
+Word and example replay controls use 24px icons inside 44px touch targets. On renderers supporting `:focus-visible`, ordinary taps do not leave an outline; keyboard focus remains visible. Older renderers retain the focus outline. To apply this styling-only update, replace **Styling** in the existing note type and sync; no TSV reimport or audio regeneration is needed.
 
 ### Enable example speech and update an existing note type
 
