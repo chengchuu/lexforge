@@ -141,17 +141,24 @@ Do not store essential information only in generated prose or hidden AI state.
 
 ---
 
-## Expected Repository Structure
+## Repository Structure
 
-Prefer the following structure unless there is a strong reason to change it:
+The current repository uses:
 
 ```text
 lexforge/
 ├── README.md
 ├── AGENTS.md
+├── go.mod
+├── go.sum
 ├── entries/
 ├── media/
+├── docs/
+├── internal/
+│   └── vocabulary/
 ├── scripts/
+│   ├── audio/
+│   │   └── main.go
 │   ├── build/
 │   │   └── main.go
 │   └── validate/
@@ -160,7 +167,18 @@ lexforge/
     └── vocabulary.tsv
 ```
 
-This outline shows the core vocabulary pipeline. Shared tooling and tests live in `internal/vocabulary/`; the audio command lives in `scripts/audio/`. See the [README project layout](README.md#project-layout) for the current command directories. Add directories only when needed.
+Go 1.25 or later is required. Run commands from the repository root. Direct dependencies are `go.yaml.in/yaml/v3` for YAML and `golang.org/x/text` for language tags and Unicode handling; `go.mod` records their versions.
+
+The commands are thin entry points into `internal/vocabulary/`:
+
+- `entries.go`: strict YAML parsing, entry validation, duplicate warnings, and loading in stable-ID order.
+- `learning.go`: prerequisite validation and deterministic introduction ordering.
+- `export.go`: Anki TSV encoding, derived fields, and atomic export replacement.
+- `audio.go`: local speech-tool execution, MP3 publication, and source metadata updates.
+- `speech.go`: language-matching voice selection and Japanese speech-input handling.
+- `*_test.go`: validation, ordering, export, multilingual speech, and audio failure-path tests.
+
+`dist/` is generated and ignored by Git. Card templates and CSS are maintained in the README; there are no dedicated template source files or template-generation commands. Add directories only when needed.
 
 ---
 
@@ -241,7 +259,11 @@ Add `prerequisites` only for existing stable IDs that help explain the target. P
 
 Builds place prerequisites first, then choose the lowest priority number among eligible entries, using stable ID for ties. `StudyOrder` is a derived export rank, never a source field or note identity. `Load` retains ID ordering for audio batches. Adding or removing entries can change ranks; always rebuild the full export.
 
+Ranks are unique and zero-padded to the width of the collection size for text sorting in Anki. Dependencies do not guarantee adjacency or mastery. The validator permits cross-language prerequisites; prefer same-language links unless there is a clear learning reason.
+
 These fields describe content, not personal mastery. Anki owns learning state, review scheduling, and history. Use the [README workflow](README.md#apply-the-order-in-anki) to apply ranks to new cards; do not modify a live Anki collection without explicit authorization.
+
+---
 
 ## Stable IDs
 
@@ -296,6 +318,8 @@ entries/commit-general.yml
 ```
 
 Avoid unnecessary abbreviations in filenames.
+
+The filename stem does not have to equal the stable ID: `entries/idiomatic.yml` contains `id: idiomatic-tech`. Renaming a source file does not change Anki identity. Audio filenames must match the ID exactly.
 
 ---
 
@@ -470,11 +494,13 @@ When asked to add a word:
 2. Reuse a matching entry. For a new meaning, choose a stable ID and create one YAML file.
 3. Add a concise meaning, practical context, and a natural example.
 4. Add relevant tags and pronunciation if reliable. Choose a learning priority and selective prerequisites using the rules above.
-5. If audio generation is enabled, generate the recording before adding its metadata.
+5. If audio is requested, use the audio command to generate or reuse a recording and attach its metadata. Otherwise, leave existing audio unchanged and omit audio for new entries.
 6. Run validation and build the export when appropriate.
 7. Report the files changed and the verification results.
 
 Do not create duplicate entries for the same meaning.
+
+The reusable maintenance prompt is in [Add vocabulary with Codex](docs/ADD_VOCABULARY_WITH_CODEX.md). Keep it consistent with implemented fields and commands.
 
 ---
 
@@ -522,6 +548,8 @@ Duplicate detection should consider:
 
 Do not automatically merge semantically different entries.
 
+The automated warning compares words within the same canonical language tag after lowercasing and collapsing whitespace. It does not compare meanings or infer semantic duplicates; review those manually. Duplicate IDs are errors, while repeated-word warnings do not block validation or export.
+
 ---
 
 ## Validation
@@ -544,6 +572,10 @@ Validation checks for:
 - missing referenced audio files
 - invalid language tags and unsupported fields
 - invalid learning priorities, prerequisite references, and dependency cycles
+
+Each visible file directly under `entries/` must be a regular lowercase kebab-case `.yml` file containing exactly one YAML mapping. Nested directories, symlinks, aliases, merge keys, duplicate keys, unknown fields, empty optional values, and incorrect field types are rejected. Dot-prefixed entries are ignored; an empty collection fails validation. Text may contain tabs and line breaks, but not other control characters.
+
+Audio validation checks the exact `<id>.mp3` filename and a nonempty regular file. It does not decode MP3s, assess pronunciation, or verify installed speech voices. Decoding is part of audio generation and reuse.
 
 Errors should identify:
 
@@ -588,6 +620,8 @@ The build must continue to:
 
 Running the build twice without source changes should produce identical output.
 
+`Build` validates the entire collection before writing a same-directory temporary file and renaming it to `dist/vocabulary.tsv`. Invalid input leaves the previous export untouched. Build and validation do not rewrite source files or generate audio.
+
 ---
 
 ## Anki Export
@@ -611,6 +645,12 @@ Tags
 ```
 
 Keep the stable ID in the first column. The export has twelve note fields followed by Anki tags in column 13. `TTSLanguage` and `StudyOrder` are derived during export, not stored in YAML. `StudyOrder` is the browser sort field; keep `ID` first for import matching.
+
+Headers specify tab separation, HTML display, the `LexForge` note type, column names, and the tags column. Text is HTML-escaped, line breaks become `<br>`, and literal media markers in text remain literal. Tags are sorted and deduplicated after adding the derived language tag.
+
+`TTSLanguage` maps bare `en`, `ja`, `ko`, and `fr` to Anki voice locales; supported language-region forms use underscores. Other valid tags export an empty locale with a build warning, leaving example speech unavailable. This does not prevent vocabulary import or require a voice to be installed on the build machine.
+
+For existing notes, follow the [Anki migration guide](docs/ANKI_MIGRATION_GUIDE.md). Reimport the complete export to refresh ranks, then apply the documented new-card repositioning procedure. Importing ranks alone does not reorder existing new cards. Removing YAML also does not delete the corresponding Anki note.
 
 Example audio field:
 
@@ -666,6 +706,23 @@ Rules:
 
 If a future audio provider requires credentials, read them from environment variables rather than hardcoding them.
 
+The implemented generator is macOS-only and requires `say`, `lame`, `mpg123`, and suitable installed voices. Validation and export remain portable. It does not install tools or contact a remote TTS service.
+
+```bash
+go run scripts/audio/main.go --id idiomatic-tech
+go run scripts/audio/main.go --all
+go run scripts/audio/main.go --id fuuin-kaijo-reriizu --text-source pronunciation
+```
+
+- Select exactly one of `--id` and `--all`. Batch processing uses stable-ID order.
+- Spoken input defaults to `word`, including for Japanese. To use supplied Japanese kana readings, invoke each entry with `--id` and `--text-source pronunciation`; this mode is not available with `--all`.
+- `--voice` and nonzero `--rate` overrides also require `--id`. A rate of zero uses the language default. Voice selection must match the entry's language; see the [audio workflow](README.md#audio) for defaults and regional overrides.
+- Kana speech mode accepts kana and supported sentence punctuation, omitting only the documented `～` and `〜` placeholders from spoken input. It preserves the original YAML fields and rejects kanji or romaji in the reading used for speech.
+- Referenced recordings are skipped unless `--overwrite` is explicitly requested. An existing unreferenced `<id>.mp3` is decoded before attaching its metadata. Newly generated MP3s must also decode to audio samples before publication.
+- The command preserves unrelated source bytes, checks for concurrent edits, and attempts to roll back the recording if attaching its metadata fails, reporting rollback errors. A batch can retain completed entries when a later entry fails; it is not a collection-wide transaction.
+
+Build the export after successful audio changes. Example speech is separate: README templates use Anki's native TTS with `TTSLanguage`; no example MP3s are generated. Keep the documented autoplay settings and verify playback on actual devices when changing templates.
+
 ---
 
 ## Secrets
@@ -708,6 +765,8 @@ scripts/validate/main.go
 ```
 
 Use idiomatic Go.
+
+Add defensive checks only for real input boundaries, documented error cases, or resource cleanup. Avoid blanket `recover`, broad fallback behavior, redundant nil checks, and wrapper errors that add no useful context.
 
 Prefer:
 
@@ -918,6 +977,15 @@ Update documentation when:
 
 Do not let documentation drift from implementation.
 
+Keep task guides under `docs/` with uppercase snake-case filenames. Current navigation:
+
+- [Add vocabulary with Codex](docs/ADD_VOCABULARY_WITH_CODEX.md): reusable prompt and maintenance workflow.
+- [Anki migration guide](docs/ANKI_MIGRATION_GUIDE.md): updating an existing note type without recreating notes.
+- [Learning order](docs/LEARNING_ORDER.md): ordering model, initial classification, and verification record.
+- Import records, pronunciation sources, and implementation plans in `docs/`: historical decisions and evidence; check their status and current code before treating them as implemented behavior.
+
+Keep the field order, templates, and current commands canonical in the README and link to them from guides. Update affected links and anchors when moving sections. Preserve historical verification counts as historical facts rather than silently rewriting them to current totals.
+
 ---
 
 ## README Responsibilities
@@ -1052,8 +1120,14 @@ Prioritize tests for:
 - deterministic sorting
 - TSV escaping
 - Anki audio formatting
+- prerequisite references, cycles, priority ordering, and rank padding
+- language canonicalization, TTS locale mapping, and voice selection
+- kana speech-input punctuation and placeholder handling
+- audio reuse, source preservation, concurrent edits, and failure cleanup
 
 Do not create excessive test infrastructure for trivial code.
+
+Audio pipeline tests simulate speech and encoding tools; they do not establish pronunciation quality or live Anki playback. Report those verification limits explicitly. For documentation-only changes, check local links, anchors, and preserved code blocks rather than adding implementation tests.
 
 ---
 
@@ -1075,16 +1149,14 @@ Before considering a task complete:
 Run these commands from the repository root:
 
 ```bash
+go test ./...
+go vet ./...
 go run scripts/validate/main.go
-```
-
-and:
-
-```bash
 go run scripts/build/main.go
+git diff --check
 ```
 
-Prefer commands that can be copied and run directly.
+Use the checks relevant to the change. When export behavior changes, build twice and compare bytes. Audio generation is an explicit content operation, not a routine validation command.
 
 ---
 
@@ -1152,6 +1224,8 @@ Every implementation decision should make that workflow simpler, safer, or more 
 ## Multilingual Entries
 
 Require a standard BCP 47 `language` tag with no project-specific allowlist. Use `ko` for Korean and `ja` for Japanese. Validation uses a standards-aware parser and canonicalizes language tags internally and in exports without rewriting source spelling. Duplicate-word warnings apply within each canonical language tag; stable IDs remain globally unique.
+
+Use hyphens in BCP 47 tags; underscores and language-parser errors fail validation. A valid source language, an exported example-TTS locale, and an installed recording voice are separate capabilities.
 
 Write meanings and practical context in Chinese, and examples in the vocabulary language. Japanese cards show the original expression and kana reading on both sides, with optional audio once per side. Render each side explicitly and keep meanings on the back. Keep language metadata separate from lowercase vocabulary tags; the exporter derives `lang-<canonical-tag>` automatically.
 
