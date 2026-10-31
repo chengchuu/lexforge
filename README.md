@@ -132,15 +132,9 @@ Back template:
 {{#Mnemonic}}<div class="memory-aid"><strong>助记</strong><br>{{Mnemonic}}</div>{{/Mnemonic}}
 {{#RelatedWords}}<div class="memory-aid"><strong>相关词条</strong><br>{{RelatedWords}}</div>{{/RelatedWords}}
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
-{{#Tags}}<div class="tags">{{Tags}}</div>{{/Tags}}
 <script>
 (function () {
   var card = document.querySelector(".lexforge-card");
-  var tags = card.querySelector(".tags");
-  if (tags && !tags.hasAttribute("data-tags-formatted")) {
-    tags.textContent = tags.textContent.trim().split(/\s+/).join(", ");
-    tags.setAttribute("data-tags-formatted", "true");
-  }
   var example = card.querySelector(".example-speech .replay-button, .example-speech .replaybutton");
   if (example) {
     example.setAttribute("aria-label", "Read example");
@@ -311,8 +305,7 @@ Styling:
 }
 
 .part-of-speech,
-.notes,
-.tags {
+.notes {
   font-size: 19px;
   font-size: clamp(19px, 4.5vw, 20px);
 }
@@ -320,8 +313,7 @@ Styling:
 /* Small metadata uses the body color in light mode for contrast. */
 .nightMode .pronunciation,
 .nightMode .part-of-speech,
-.nightMode .notes,
-.nightMode .tags {
+.nightMode .notes {
   color: var(--color-muted);
 }
 
@@ -337,8 +329,7 @@ Styling:
 .context,
 .example,
 .memory-aid,
-.notes,
-.tags {
+.notes {
   box-sizing: border-box;
   max-width: 42rem;
   margin-top: 16px;
@@ -367,9 +358,9 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context and example, memory aids, related entries, notes, and all note tags at the bottom. Absent sections leave no labels, spacing, or replay controls. Meaning and Notes are not read by example TTS. Japanese pronunciation uses kana.
+The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context and example, memory aids, related entries, and notes. Absent sections leave no labels, spacing, or replay controls. Meaning and Notes are not read by example TTS. Japanese pronunciation uses kana.
 
-Tags use Anki's native `{{Tags}}` special field, including derived language tags such as `lang-en`; do not add a custom field. The back script separates displayed tags with a comma and a space, leaving actual tags unchanged. To apply the separator update, replace **Back Template** in your installed note type and sync. If your cards do not yet display tags, also copy **Styling**. No TSV reimport or audio regeneration is needed.
+Tags remain available for Anki searches and filtering, including derived language tags such as `lang-en`, but are hidden on cards. To hide tags on existing cards, replace **Back Template** in your installed note type and sync. No TSV reimport or audio regeneration is needed.
 
 Both sides render pronunciation and word audio explicitly, once per side. They share a row: long readings wrap while the native replay icon stays beside the reading. Missing pronunciation or audio fields do not leave an empty row.
 
