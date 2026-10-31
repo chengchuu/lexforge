@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "不是……"
 context: "「ではない」的口语形式，用于否定名词或な形容词谓语。"
 example: "これは私の電話じゃない。"
+notes: "学习来源: 《ウルトラマンティガ》。"
 audio: janai-grammar.mp3
 learning_priority: 2
 tags:

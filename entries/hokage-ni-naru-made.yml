@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "直到成为火影"
 context: "所给《NARUTO》短语，用「まで」标记成为火影这一目标。"
 example: "火影になるまで。"
+notes: "来源作品: 《NARUTO -ナルト-》。"
 audio: hokage-ni-naru-made.mp3
 learning_priority: 3
 prerequisites:

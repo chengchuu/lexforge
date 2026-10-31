@@ -1,0 +1,31 @@
+id: kimi-ga-yobu-namae-yume-no-tsuzuki
+language: ja
+word: "きみが呼ぶなまえ～夢のつづき"
+pronunciation: "きみがよぶなまえ、ゆめのつづき"
+part_of_speech: proper noun
+meaning: "你呼唤的名字～梦的延续；《続 夏目友人帳》原声曲名。"
+context: "官方收录于《続 夏目友人帳音楽集 いとうるわしきもの》，作为曲名学习构成与修饰关系。"
+example: "「きみが呼ぶなまえ～夢のつづき」を聴いています。"
+notes: |
+  保留用户提供且与官方曲目表一致的平假名、汉字和「～」，不是角色台词或歌词引用。
+  构成: きみ（君）＋ が ＋ 呼ぶ ＋ なまえ（名前）；夢 ＋ の ＋ つづき（続き）。
+  「きみが呼ぶ」是修饰「なまえ」的分句，意为你呼唤的名字，而不是在呼唤你。这里不擅自补出名字的主人或对应剧情。
+  「夢のつづき」按字面理解为梦的延续，不断言梦境、理想或具体情节中的唯一解释。
+  标题中的「～」用于分隔标题部分，不是学习资料中的语法占位符，也不表示从某处到某处。pronunciation 用「、」表示停顿；YAML 中的 Word 保留原符号。
+  复用 namae，新增四个可独立使用的普通词作为先修。不另外创建两个普通组合短语的重复卡片。
+  音频是本地生成的曲名读音，不是原曲音乐、演唱或角色录音。
+  Source: user-supplied title, encountered in 夏目友人帳.
+  Reference: Aniplex《夏目友人帳》官方 CD 页，「続 夏目友人帳音楽集 いとうるわしきもの」曲目 1: https://www.aniplex.co.jp/natsume/cd/02.html
+learning_priority: 3
+prerequisites:
+  - kimi
+  - yobu
+  - namae
+  - yume
+  - tsuzuki
+audio: kimi-ga-yobu-namae-yume-no-tsuzuki.mp3
+tags:
+  - proper-noun
+  - anime
+  - music
+  - natsume-yuujinchou

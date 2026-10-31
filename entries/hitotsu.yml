@@ -6,6 +6,7 @@ part_of_speech: counter
 meaning: "一个"
 context: "数一个事物的常用形式，也可表示一个选择或方面。"
 example: "質問が一つあります。"
+notes: "学习来源: 《名探偵コナン》。"
 audio: hitotsu.mp3
 learning_priority: 1
 tags:

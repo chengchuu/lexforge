@@ -6,6 +6,7 @@ part_of_speech: counter
 meaning: "两个"
 context: "数两个事物的常用形式，不依赖具体物品类别。"
 example: "りんごを二つください。"
+notes: "学习来源: 《地獄少女》。"
 audio: futatsu.mp3
 learning_priority: 1
 tags:

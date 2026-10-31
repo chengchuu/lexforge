@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "燃烧小宇宙！"
 context: "所给《聖闘士星矢》短句，用命令形表达激发小宇宙的强烈语气。"
 example: "小宇宙を燃やせ！"
-notes: "小宇宙 → コスモ，为所给作品读法。燃やす → 燃やせ（命令形）。"
+notes: "小宇宙 → コスモ，为所给作品读法。燃やす → 燃やせ（命令形）。 来源作品: 《聖闘士星矢》。"
 audio: kosumo-o-moyase.mp3
 learning_priority: 3
 prerequisites:

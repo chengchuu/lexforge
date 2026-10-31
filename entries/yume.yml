@@ -1,0 +1,17 @@
+id: yume
+language: ja
+word: "夢"
+pronunciation: "ゆめ"
+part_of_speech: noun
+meaning: "梦；梦想；希望实现的愿望。"
+context: "既可指睡眠中见到的梦，也可指向往的目标，具体含义由语境决定。"
+example: "昨日、懐かしい夢を見ました。"
+notes: |
+  Common usage: 夢を見る；将来の夢。曲名具有诗意，不把其中的「夢」限定为某段已核实剧情或某个角色的特定愿望。
+  Source: user-supplied title, encountered in 夏目友人帳.
+  Reference: 小学馆《デジタル大辞泉》，コトバンク「夢」: https://kotobank.jp/word/夢-145376
+learning_priority: 1
+audio: yume.mp3
+tags:
+  - noun
+  - daily

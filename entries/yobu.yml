@@ -1,0 +1,17 @@
+id: yobu
+language: ja
+word: "呼ぶ"
+pronunciation: "よぶ"
+part_of_speech: verb
+meaning: "呼唤；叫喊；叫某人的名字。"
+context: "本条侧重出声呼唤或叫名字的用法，如「名前を呼ぶ」。"
+example: "先生が私の名前を呼びました。"
+notes: |
+  五段动词。这里学习与名字搭配的普通用法，不把呼叫电话号码与所有「呼ぶ」的其他词义都混入本条。曲名中「呼ぶ」直接修饰后面的「なまえ」。
+  Source: user-supplied title, encountered in 夏目友人帳.
+  Reference: 小学馆《デジタル大辞泉》，コトバンク「呼ぶ」: https://kotobank.jp/word/呼ぶ-654878
+learning_priority: 1
+audio: yobu.mp3
+tags:
+  - verb
+  - daily

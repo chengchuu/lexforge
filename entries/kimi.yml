@@ -1,0 +1,16 @@
+id: kimi
+language: ja
+word: "君"
+pronunciation: "きみ"
+part_of_speech: pronoun
+meaning: "你；用于较亲近、同辈或晚辈之间的称呼。"
+context: "称呼语气取决于关系与场合，不能把「君」当作适用于所有人的礼貌称呼。"
+example: "君の名前を教えて。"
+notes: |
+  本条读作「きみ」，与接在人名后的「～君（くん）」不同。曲名中的「きみ」是这一代词的假名写法；子项采用常用词头「君」，保留曲名原写法。
+  Source: user-supplied title, encountered in 夏目友人帳.
+  Reference: 小学馆《デジタル大辞泉》，コトバンク「君」: https://kotobank.jp/word/君-475718
+learning_priority: 2
+audio: kimi.mp3
+tags:
+  - pronoun

@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "因为……"
 context: "此处表示理由，接在原因说明后，不学习表示起点的用法。"
 example: "雨が降っているから、家にいます。"
+notes: "学习来源: 《NARUTO -ナルト-》、《ウルトラマンティガ》。"
 audio: kara-reason-grammar.mp3
 learning_priority: 2
 tags:

@@ -1,6 +1,6 @@
 # LexForge
 
-LexForge turns vocabulary encountered during everyday work into Anki cards with meanings, context, and examples. It supports English, Japanese, Korean, and other languages. Git tracks vocabulary content; Anki manages review history and scheduling.
+LexForge turns vocabulary and concepts encountered during work and learning into Anki cards. Each entry has a meaning, with optional context, examples, and memory aids. It supports English, Japanese, Korean, and other languages. Git tracks learning content; Anki manages review history and scheduling.
 
 - [Quick start](#quick-start)
 - [Add vocabulary during work](#add-vocabulary-during-work)
@@ -75,8 +75,10 @@ Use the [Learning order guide](guides/LEARNING_ORDER.md) to define introduction 
 
 Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains seventeen columns: sixteen note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
+If you already have LexForge notes, use the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md) to update the existing note type while preserving review history.
+
 1. In **Tools → Manage Note Types**, clone the **Basic** note type and name it `LexForge`.
-2. In **Fields**, rename `Front` to `ID` and `Back` to `Language`. Add the remaining fields in this exact order:
+2. In **Fields**, rename `Front` to `ID` and `Back` to `Language`. Add the remaining fields in the recommended order below, which matches the TSV export:
 
    | No. | Field         |
    |:----|:--------------|
@@ -97,12 +99,11 @@ Use a current Anki Desktop release. These instructions require Anki 2.1.58 or la
    | 15  | Mnemonic      |
    | 16  | RelatedWords  |
 
-
 3. Keep `ID` first. Select `StudyOrder` as the browser sort field. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID.
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
 5. Create a deck named `LexForge`, or choose another deck for this collection.
 
-If you already have LexForge notes, follow the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md) to update the existing note type while preserving review history.
+The recommended field order keeps setup and import checks consistent. You can reorder fields after `ID` for editing convenience, provided each TSV column maps to the correct destination field when importing. LexForge always exports columns in the order shown above. The front and back templates determine card display order independently of the field list.
 
 Front template:
 
@@ -426,7 +427,7 @@ These are AnkiDroid controls outside the card content. Change their size in the 
 
 1. Build `dist/vocabulary.tsv`.
 2. In Anki Desktop, import the TSV and select the `LexForge` note type and your deck.
-3. Verify the preview: tab separator, HTML enabled, columns 1–16 mapped to the matching fields, and column 17 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
+3. Verify the preview: tab separator, HTML enabled, columns 1–16 mapped to the matching fields by name, and column 17 mapped to Anki tags. Check the mapping even if you use the recommended field order. The export headers supply defaults, but the note type must already exist.
 4. Choose to **update** existing notes. Use **note type** as the match scope, rather than note type and deck. Keep these settings for later imports.
 5. Import, inspect a card, and sync with AnkiWeb. Then sync AnkiDroid to review on mobile.
 

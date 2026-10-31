@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "不违背自己说过的话"
 context: "所给《NARUTO》短语，表达不违背自己说过的话，保留粗犷口语。"
 example: "言葉は曲げねェ。"
-notes: "角色化否定「曲げねェ」对应「曲げない」，一般动词词条为「曲げる」。"
+notes: "角色化否定「曲げねェ」对应「曲げない」，一般动词词条为「曲げる」。 来源作品: 《NARUTO -ナルト-》。"
 audio: kotoba-wa-magenee.mp3
 learning_priority: 3
 prerequisites:

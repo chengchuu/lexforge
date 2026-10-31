@@ -1,0 +1,17 @@
+id: tsuzuki
+language: ja
+word: "続き"
+pronunciation: "つづき"
+part_of_speech: noun
+meaning: "后续；接下来的部分；延续。"
+context: "指故事、梦或其他事物后面接续的部分，如「話の続き」。"
+example: "この話の続きを聞かせてください。"
+notes: |
+  「続き」是名词，不与表示继续的动词「続く」混为同一词性。常见形式「～の続き」表示某件事的后续部分；曲名中的「つづき」使用假名，子项采用「続き」。
+  Source: user-supplied title, encountered in 夏目友人帳.
+  Reference: 小学馆《デジタル大辞泉》，コトバンク「続き」: https://kotobank.jp/word/続き-571885
+learning_priority: 2
+audio: tsuzuki.mp3
+tags:
+  - noun
+  - daily

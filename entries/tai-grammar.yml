@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "想做……"
 context: "接动词ます形去掉「ます」后的部分，表示想做某事。"
 example: "日本語を話したいです。"
+notes: "学习来源: 《ウルトラマンティガ》。"
 audio: tai-grammar.mp3
 learning_priority: 2
 tags:

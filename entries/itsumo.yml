@@ -6,6 +6,7 @@ part_of_speech: adverb
 meaning: "总是；一直"
 context: "表示经常、一贯或总是如此，需结合上下文理解。"
 example: "いつもありがとうございます。"
+notes: "学习来源: 《名探偵コナン》。"
 audio: itsumo.mp3
 learning_priority: 1
 tags:

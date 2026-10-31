@@ -6,7 +6,7 @@ part_of_speech: phrase
 meaning: "试着死一次看看"
 context: "由「死ぬ」的て形与「みる」组成，作为所给作品台词的学习单位。"
 example: "「死んでみる」は「死ぬ」に「てみる」を付けた表現です。"
-notes: "死ぬ → 死んで + みる。与字典形、语法模式和完整作品短句分别保留。"
+notes: "死ぬ → 死んで + みる。与字典形、语法模式和完整作品短句分别保留。 学习来源: 《地獄少女》。"
 audio: shinde-miru.mp3
 learning_priority: 2
 prerequisites:

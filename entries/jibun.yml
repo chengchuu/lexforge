@@ -6,6 +6,7 @@ part_of_speech: pronoun
 meaning: "自己"
 context: "指自己，所指对象需结合句子和说话者判断。"
 example: "自分の名前を書きます。"
+notes: "学习来源: 《NARUTO -ナルト-》。"
 audio: jibun.mp3
 learning_priority: 1
 tags:

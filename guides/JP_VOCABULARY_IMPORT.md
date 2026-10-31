@@ -434,3 +434,39 @@ Each screenshot item maps to one new or reused entry:
 - Two builds produced identical bytes: 571 twelve-column data rows, including 225 Japanese rows with `ja`, `ja_JP`, derived `lang-ja` tags, and matching `[sound:<id>.mp3]` references. Every entry now has a nonempty referenced MP3.
 - The five existing duplicate-word warnings remain for the distinct English senses of artifact, literal, resolve, revision, and scope. This batch adds no duplicate-word warnings.
 - No schema, tooling, dependencies, card templates, or styling changed. No live Anki import, review-state changes, AnkiWeb sync, or AnkiDroid operations were performed. No staging, commit, or push was performed.
+
+
+## 2026-10-31: Work provenance in Notes
+
+Reviewed all 242 Japanese entries in the 623-entry collection. Work provenance follows the approved item index and six source passages above, existing phrase/component records, and the already documented DEATH NOTE and Natsume entries. This pass does not independently verify quotations against episodes or add speaker, scene, episode, or timestamp claims.
+
+- Identified 93 entries with traceable learning context across ten works. Updated only Notes in 87 entries; six already had explicit provenance and remain byte-identical.
+- Of the 28 work-specific entries, 26 needed provenance in Notes. General vocabulary and grammar use `学习来源` to record learning context without implying that the work originated the expression or limits its ordinary meaning. The existing proverb `人を呪わば穴二つ` is explicitly distinguished from a work-created quote.
+- Preserved all existing Notes text. Shared entries record multiple supported works, including `俺`, `僕`, `名前`, `絶対`, `死ぬ`, `〜から`, and `〜になる`. Counts below overlap when an entry has multiple learning sources.
+
+| Work | Updated entries | Already documented |
+|:-----|----------------:|-------------------:|
+| DEATH NOTE | 4 | 1 |
+| NARUTO -ナルト- | 17 | 0 |
+| ウルトラマンティガ | 27 | 0 |
+| ウルトラマンレオ | 8 | 0 |
+| カードキャプターさくら | 6 | 0 |
+| 名探偵コナン | 10 | 0 |
+| 地獄少女 | 10 | 0 |
+| 続 夏目友人帳 | 1 | 5 |
+| 美少女戦士セーラームーン | 6 | 0 |
+| 聖闘士星矢 | 6 | 0 |
+
+The seven work tables and six source passages above provide the primary item-to-work accounting. Additional provenance uses these existing learning groups:
+
+- 地獄少女: `ippen-shinde-miru`, `hito-o-norowaba-ana-futatsu`, and their existing components `ippen`, `shinde-miru`, `shinu`, `te-miru-grammar`, `hito`, `norou`, `ana`, and `futatsu`.
+- DEATH NOTE: `boku-wa-shinsekai-no-kami-ni-naru` and its existing prerequisites `boku`, `shinsekai`, `kami`, and `ni-naru-grammar`.
+- 続 夏目友人帳: `kimi-ga-yobu-namae-yume-no-tsuzuki` and its existing components `kimi`, `yobu`, `namae`, `yume`, and `tsuzuki`. The title retains its official Aniplex reference; the four newly added component entries retain their existing series-level source notes.
+- カードキャプターさくら: also recorded the existing `zettai` and `daijoubu` prerequisites of `zettai-daijoubu-da-yo`.
+
+Verification:
+
+- `go test ./...`, `go vet ./...`, vocabulary validation, and the export build passed. The five existing English repeated-word warnings remain unchanged.
+- Two builds produced identical bytes: 623 seventeen-column data rows. Every added work name appears in the exported Notes field.
+- Snapshot comparison confirmed that all 87 entry changes affect only Notes and preserve prior Notes text. The other 536 entries and all 623 MP3 SHA-256 hashes are unchanged, including the pre-existing untracked Natsume additions.
+- No schema, exporter, templates, learning metadata, relationships, tags, or audio changes were made. No recordings were generated or replaced. Live Anki rendering, import, and playback were not tested.
