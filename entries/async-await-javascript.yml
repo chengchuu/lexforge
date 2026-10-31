@@ -1,0 +1,17 @@
+id: async-await-javascript
+language: en
+word: "async/await"
+part_of_speech: noun
+meaning: "异步函数语法；用 await 组织基于 Promise 的控制流。"
+example: "Use async/await to propagate an asynchronous failure."
+notes: |
+  async 函数总是返回 Promise。await 暂停当前异步函数的后续执行，不阻塞整个 JavaScript 线程。连续 await 可能串行等待；独立操作可先启动再聚合等待。用 try/catch 处理等待产生的拒绝。
+
+  Source: Interviews/AprilSkill.md:387. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 16. Verified reference: MDN: async function: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+learning_priority: 2
+prerequisites:
+  - promise-javascript
+audio: async-await-javascript.mp3
+tags:
+  - tech
+  - javascript

@@ -11,6 +11,7 @@ audio: regression-test-tech.mp3
 learning_priority: 2
 prerequisites:
   - regression-tech
+  - test-tech
 tags:
   - tech
   - testing

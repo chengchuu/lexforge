@@ -1,0 +1,15 @@
+id: project-onboarding-workflow
+language: en
+word: "project onboarding"
+part_of_speech: noun phrase
+meaning: "项目熟悉过程；建立对业务、代码与交付流程的工作认识。"
+example: "Project onboarding starts with a working local environment."
+notes: |
+  先了解目标、关键用户与业务边界，再运行项目并核对文档。梳理入口、依赖、测试、发布流程和主要风险。用一个可验证的小任务检验理解，记录环境差异与待确认事项。不要仅靠阅读全部源码来判断已经熟悉项目。
+
+  Source: Interviews/AprilSkill.md:1224. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 54. Practical workflow summary from the supplied interview notes; not a claimed universal standard.
+learning_priority: 1
+audio: project-onboarding-workflow.mp3
+tags:
+  - general
+  - workflow

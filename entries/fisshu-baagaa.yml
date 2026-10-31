@@ -10,6 +10,7 @@ audio: fisshu-baagaa.mp3
 learning_priority: 2
 prerequisites:
   - fisshu
+  - baagaa
 tags:
   - noun
   - food

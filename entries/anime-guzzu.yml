@@ -10,5 +10,6 @@ audio: anime-guzzu.mp3
 learning_priority: 2
 prerequisites:
   - guzzu
+  - anime
 tags:
   - noun

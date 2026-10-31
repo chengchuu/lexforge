@@ -1,6 +1,6 @@
 # 面试知识词条导入计划
 
-状态: 已整理候选，尚未执行导入。
+状态: 已批准并完成词条导入；验证结果见实施记录。
 
 记录日期: 2026-10-31。
 
@@ -10,7 +10,7 @@
 
 本计划保存已讨论的 57 个候选点，分为六类。候选数量不等于新增词条数量。导入前仍需逐项核对现有语义和稳定 ID。
 
-本次授权仅创建计划文件。新增或更新词条、生成音频和写入关联均未执行。后续明确批准导入后，再按批准范围实施。
+用户已明确批准本计划的词条导入。实施范围包含新增词条和补充现有词条 Notes。音频与新增记忆关联不在本次实施范围内。
 
 ## 来源
 
@@ -39,7 +39,7 @@ Notes 使用纯文本段落或步骤。不要依赖 Markdown 渲染。中文推�
 
 ## 候选清单
 
-以下 Meaning 是内容方向，不是已核实的最终导入文本。Notes 列列出后续展开范围。实现前应核实技术细节及版本边界。
+以下表格保留最初的候选方向。最终内容以对应 YAML 为准，逐项去向见实施记录。
 
 ### JavaScript 与内存
 
@@ -222,8 +222,166 @@ git diff --check
 
 静态验证不能证明读音质量或真实设备播放正常。未做人工试听或 Anki 检查时，应明确说明。
 
-## 当前进度
+## 实施记录
 
-- 已完成: 六类候选整理、复用方向、风险记录和实施验收计划。
-- 待执行: 明确批准后的内容核实与词条导入。
-- 尚未执行: YAML 修改、音频生成、导出重建和 Anki 操作。
+实施日期: 2026-10-31。
+
+57 项全部有对应词条: 新增 54 项，复用并补充 3 项，合并 0 项，暂缓 0 项。词库从 530 项增至 584 项，其中英语 359 项、日语 225 项。
+
+新增词条省略无额外价值的 Context，保留英语用例。新增 54 项的 IPA 尚未逐项核实，统一省略 pronunciation。没有编造词源或助记，也没有新增 related_entries 或音频字段。
+
+复用项保留原有 Word、Meaning、Context、Example、音频、学习元数据与已批准关联，仅追加 Notes。trade-off 映射到已有 tradeoff-general，保留原拼写 tradeoff，另一拼写在 Notes 说明。其他 54 项经现有英语词条核对后新增；effect-react 与 effect-replay-tech 分别表示同步逻辑与重放行为。
+
+### 逐项去向
+
+来源位置指向原始 AprilSkill.md 的相关章节或段落。编号对应上方候选表。复用项的原来源仍保留，March 的重叠主题在词条 Notes 中补充标明。
+
+| 编号 | 稳定 ID / 源文件                                                                                  | 处理             | AprilSkill.md 行号 |
+|:-----|:--------------------------------------------------------------------------------------------------|:-----------------|:-------------------|
+| 1    | [call-stack-javascript](../entries/call-stack-javascript.yml)                                     | 新增             | 3                  |
+| 2    | [heap-memory-javascript](../entries/heap-memory-javascript.yml)                                   | 新增             | 3                  |
+| 3    | [garbage-collection-javascript](../entries/garbage-collection-javascript.yml)                     | 新增             | 565                |
+| 4    | [scope-lexical](../entries/scope-lexical.yml)                                                     | 复用，追加 Notes | 420                |
+| 5    | [closure-tech](../entries/closure-tech.yml)                                                       | 复用，追加 Notes | 393                |
+| 6    | [prototype-chain-javascript](../entries/prototype-chain-javascript.yml)                           | 新增             | 420                |
+| 7    | [hoisting-javascript](../entries/hoisting-javascript.yml)                                         | 新增             | 577                |
+| 8    | [temporal-dead-zone-javascript](../entries/temporal-dead-zone-javascript.yml)                     | 新增             | 477                |
+| 9    | [higher-order-function-javascript](../entries/higher-order-function-javascript.yml)               | 新增             | 491                |
+| 10   | [shallow-copy-javascript](../entries/shallow-copy-javascript.yml)                                 | 新增             | 551                |
+| 11   | [deep-copy-javascript](../entries/deep-copy-javascript.yml)                                       | 新增             | 551                |
+| 12   | [floating-point-precision-javascript](../entries/floating-point-precision-javascript.yml)         | 新增             | 411                |
+| 13   | [event-loop-javascript](../entries/event-loop-javascript.yml)                                     | 新增             | 434                |
+| 14   | [microtask-javascript](../entries/microtask-javascript.yml)                                       | 新增             | 399                |
+| 15   | [promise-javascript](../entries/promise-javascript.yml)                                           | 新增             | 387                |
+| 16   | [async-await-javascript](../entries/async-await-javascript.yml)                                   | 新增             | 387                |
+| 17   | [promise-all-javascript](../entries/promise-all-javascript.yml)                                   | 新增             | 988                |
+| 18   | [event-capturing-dom](../entries/event-capturing-dom.yml)                                         | 新增             | 344                |
+| 19   | [event-bubbling-dom](../entries/event-bubbling-dom.yml)                                           | 新增             | 344                |
+| 20   | [event-delegation-dom](../entries/event-delegation-dom.yml)                                       | 新增             | 366                |
+| 21   | [debounce-javascript](../entries/debounce-javascript.yml)                                         | 新增             | 1048               |
+| 22   | [worker-pool-concurrency](../entries/worker-pool-concurrency.yml)                                 | 新增             | 946                |
+| 23   | [same-origin-policy-web](../entries/same-origin-policy-web.yml)                                   | 新增             | 144                |
+| 24   | [cross-origin-resource-sharing-web](../entries/cross-origin-resource-sharing-web.yml)             | 新增             | 144                |
+| 25   | [preflight-request-web](../entries/preflight-request-web.yml)                                     | 新增             | 169                |
+| 26   | [http-caching-web](../entries/http-caching-web.yml)                                               | 新增             | 177                |
+| 27   | [cache-revalidation-web](../entries/cache-revalidation-web.yml)                                   | 新增             | 189                |
+| 28   | [web-storage-browser](../entries/web-storage-browser.yml)                                         | 新增             | 44                 |
+| 29   | [storage-event-browser](../entries/storage-event-browser.yml)                                     | 新增             | 72                 |
+| 30   | [block-formatting-context-css](../entries/block-formatting-context-css.yml)                       | 新增             | 248                |
+| 31   | [flexbox-css](../entries/flexbox-css.yml)                                                         | 新增             | 258                |
+| 32   | [grid-layout-css](../entries/grid-layout-css.yml)                                                 | 新增             | 266                |
+| 33   | [layout-browser-rendering](../entries/layout-browser-rendering.yml)                               | 新增             | 299                |
+| 34   | [paint-browser-rendering](../entries/paint-browser-rendering.yml)                                 | 新增             | 299                |
+| 35   | [virtual-dom-frontend](../entries/virtual-dom-frontend.yml)                                       | 新增             | 633                |
+| 36   | [reconciliation-react](../entries/reconciliation-react.yml)                                       | 新增             | 633                |
+| 37   | [one-way-data-flow-frontend](../entries/one-way-data-flow-frontend.yml)                           | 新增             | 970                |
+| 38   | [two-way-binding-frontend](../entries/two-way-binding-frontend.yml)                               | 新增             | 970                |
+| 39   | [memoization-programming](../entries/memoization-programming.yml)                                 | 新增             | 653                |
+| 40   | [effect-react](../entries/effect-react.yml)                                                       | 新增             | 637                |
+| 41   | [middleware-web](../entries/middleware-web.yml)                                                   | 新增             | 920                |
+| 42   | [onion-model-koa](../entries/onion-model-koa.yml)                                                 | 新增             | 926                |
+| 43   | [abstract-syntax-tree-compiler](../entries/abstract-syntax-tree-compiler.yml)                     | 新增             | 860                |
+| 44   | [tree-shaking-build](../entries/tree-shaking-build.yml)                                           | 新增             | 862                |
+| 45   | [semantic-versioning-software](../entries/semantic-versioning-software.yml)                       | 新增             | 885                |
+| 46   | [binary-search-algorithm](../entries/binary-search-algorithm.yml)                                 | 新增             | 1137               |
+| 47   | [quicksort-algorithm](../entries/quicksort-algorithm.yml)                                         | 新增             | 1066               |
+| 48   | [backtracking-algorithm](../entries/backtracking-algorithm.yml)                                   | 新增             | 1064               |
+| 49   | [linked-list-merge-algorithm](../entries/linked-list-merge-algorithm.yml)                         | 新增             | 1091               |
+| 50   | [postorder-traversal-tree](../entries/postorder-traversal-tree.yml)                               | 新增             | 1196               |
+| 51   | [least-recently-used-cache](../entries/least-recently-used-cache.yml)                             | 新增             | 1179               |
+| 52   | [progressive-enhancement-web](../entries/progressive-enhancement-web.yml)                         | 新增             | 295                |
+| 53   | [graceful-degradation-web](../entries/graceful-degradation-web.yml)                               | 新增             | 295                |
+| 54   | [project-onboarding-workflow](../entries/project-onboarding-workflow.yml)                         | 新增             | 1224               |
+| 55   | [cross-functional-collaboration-workflow](../entries/cross-functional-collaboration-workflow.yml) | 新增             | 1331               |
+| 56   | [tradeoff-general](../entries/tradeoff-general.yml)                                               | 复用，追加 Notes | 1327               |
+| 57   | [star-method-interview](../entries/star-method-interview.yml)                                     | 新增             | 1264               |
+
+### 技术核实与取舍
+
+每项技术词条 Notes 记录核实来源的标题与 URL。React 内容限定为函数组件与 Hooks，Vue 绑定示例限定为 Vue 3；未引入旧生命周期或固定浏览器进程数等版本依赖结论。
+
+- Promise.all 保留输入顺序，单独说明空输入与拒绝不取消其他任务。
+- 二分查找使用明确的闭区间边界；右半区从 mid + 1 继续。
+- 链表合并说明节点复用、字段一致、空链表和复杂度。
+- 垃圾回收按可达性说明，不按变量离开作用域直接判断。
+- 事件委托包含捕获与冒泡的适用边界。
+- 缓存区分存储、新鲜度与再验证，不混淆 no-cache 和 no-store。
+- LRU 区分精确链表设计与 Redis 的采样近似。
+- 项目熟悉、跨职能协作与取舍采用原文的实用步骤总结，不称为统一标准。
+- STAR 仅解释组织真实经历的方法，不写入个人故事或虚构成果。
+
+原文的 Fetch 风险仅保留为来源审阅记录，没有扩展为未经批准的新候选。原始两份文档不作修改。
+
+选取直接先修关系，未用章节编号强制排序。新增 20 条先修链接；不改写既有词条的学习元数据。全库先修链接从 157 条增至 177 条。
+
+### 核实来源
+
+以下来源按用途分配到各词条 Notes。浏览器与语言依据 MDN，框架与构建依据官方文档，算法依据 NIST 和题目定义。
+
+- [MDN: JavaScript execution model](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model)
+- [MDN: Memory management](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Memory_management)
+- [MDN: Scope](https://developer.mozilla.org/en-US/docs/Glossary/Scope)
+- [MDN: Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures)
+- [MDN: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain)
+- [MDN: Hoisting](https://developer.mozilla.org/en-US/docs/Glossary/Hoisting)
+- [MDN: let](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/let)
+- [MDN: First-class function](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function)
+- [MDN: Shallow copy](https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy)
+- [MDN: Deep copy](https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy)
+- [MDN: Number.EPSILON](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON)
+- [MDN: Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
+- [MDN: async function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+- [MDN: Promise.all](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all)
+- [MDN: Event bubbling](https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling)
+- [MDN: Debounce](https://developer.mozilla.org/en-US/docs/Glossary/Debounce)
+- [Node.js: Worker threads](https://nodejs.org/api/worker_threads.html)
+- [MDN: Same-origin policy](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Same-origin_policy)
+- [MDN: CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS)
+- [MDN: HTTP caching](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching)
+- [MDN: Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API)
+- [MDN: Window storage event](https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event)
+- [MDN: Block formatting context](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context)
+- [MDN: Basic concepts of flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts)
+- [MDN: Basic concepts of grid layout](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Basic_concepts)
+- [MDN: How browsers work](https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/How_browsers_work)
+- [Vue: Rendering mechanism](https://vuejs.org/guide/extras/rendering-mechanism.html)
+- [React: Preserving and resetting state](https://react.dev/learn/preserving-and-resetting-state)
+- [Vue: Props](https://vuejs.org/guide/components/props.html)
+- [Vue: Component v-model](https://vuejs.org/guide/components/v-model.html)
+- [React: useMemo](https://react.dev/reference/react/useMemo)
+- [React: Synchronizing with Effects](https://react.dev/learn/synchronizing-with-effects)
+- [Koa: Cascading](https://koajs.com/)
+- [Babel: parser](https://babeljs.io/docs/babel-parser)
+- [webpack: Tree shaking](https://webpack.js.org/guides/tree-shaking/)
+- [Semantic Versioning 2.0.0](https://semver.org/)
+- [NIST DADS: binary search](https://xlinux.nist.gov/dads/HTML/binarySearch.html)
+- [NIST DADS: quicksort](https://xlinux.nist.gov/dads/HTML/quicksort.html)
+- [NIST DADS: backtracking](https://xlinux.nist.gov/dads/HTML/backtrack.html)
+- [LeetCode: Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)
+- [NIST DADS: postorder traversal](https://xlinux.nist.gov/dads/HTML/postorderTraversal.html)
+- [Redis: Key eviction](https://redis.io/docs/latest/develop/reference/eviction/)
+- [MDN: Progressive enhancement](https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement)
+- [MDN: Graceful degradation](https://developer.mozilla.org/en-US/docs/Glossary/Graceful_degradation)
+- [National Careers Service: The STAR method](https://nationalcareers.service.gov.uk/careers-advice/interview-advice/the-star-method)
+
+### 验证记录
+
+以下检查全部通过:
+
+- `go test ./...`、`go vet ./...`。
+- 词库验证: 584 项，英语 359 项、日语 225 项。
+- 连续两次构建字节一致；全部 584 行数据均为 17 列。
+- StudyOrder 唯一且覆盖 1 至 584；全部 177 条先修链接在导出中先于目标。
+- 57 个候选各对应一个稳定 ID，其中新增 54 项、复用 3 项。
+- 527 个未涉及的既有词条字节不变；3 个复用项仅追加 Notes，原 Notes 与其他源字段保留。
+- 530 个既有 MP3 的 SHA-256 全部不变，没有新增或删除录音。
+- 对比导入前后的导出，既有字段仅有计划内 Notes 变化及 StudyOrder 重算。既有关联展示不变。
+- 新增词条的 Context、Pronunciation、Audio 与记忆辅助字段为空，Example 保留英语用例，TTSLanguage 为 en_US。
+- 新文件单独检查尾随空白、结尾换行、字段及来源；计划中的 62 个本地链接与相关锚点均可解析。
+- `git diff --check`。
+
+原有 5 条重复词警告仍为 artifact、literal、resolve、revision 和 scope。它们分别代表不同语义，保留现状；本批没有新增重复词警告。
+
+本批仅涉及词条内容与本计划。没有修改 Go 实现、schema、模板或导出格式，没有新增实现测试；通过既有测试与本批导出、身份和文件保留审计验证。
+
+音频未生成，新增项的 IPA 尚未逐项核实。未检查人工发音质量、Anki 导入、设备渲染或播放。源码与生成数据的检查不代表真实设备验证。

@@ -6,7 +6,12 @@ part_of_speech: noun
 meaning: "闭包"
 context: "函数及其可访问的外部词法环境。"
 example: "A guard in the shared plugin closure can affect later files."
-notes: "Source: react/react-37836.md."
+notes: |
+  Source: react/react-37836.md.
+
+  闭包保留对词法环境中绑定的访问，而不只是创建时值的副本。外层调用结束后，返回的函数仍可访问相关绑定。共享闭包可能共享可变状态；不再需要的引用应及时解除。
+
+  Source: Interviews/AprilSkill.md:393. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 5. Verified reference: MDN: Closures: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Closures
 audio: closure-tech.mp3
 learning_priority: 2
 related_entries:

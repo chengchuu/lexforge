@@ -1,0 +1,15 @@
+id: syntax-tech
+language: en
+word: "syntax"
+part_of_speech: noun
+meaning: "语法；规定语言符号如何组成合法结构的规则。"
+example: "The parser reports a syntax error."
+notes: |
+  语法规定结构，语义解释结构的含义。语法正确不代表计算结果符合预期。抽象语法树用节点表示语法结构，不是把源码中的每个字符原样存为树节点。
+  来源: MDN: Syntax: https://developer.mozilla.org/en-US/docs/Glossary/Syntax
+learning_priority: 1
+audio: syntax-tech.mp3
+tags:
+  - tech
+  - compiler
+  - noun

@@ -10,5 +10,6 @@ audio: sakura-no-ki.mp3
 learning_priority: 2
 prerequisites:
   - ki
+  - sakura
 tags:
   - phrase

@@ -1,0 +1,15 @@
+id: progressive-enhancement-web
+language: en
+word: "progressive enhancement"
+part_of_speech: noun phrase
+meaning: "渐进增强；先提供基础可用能力，再为更强环境增加功能。"
+example: "Progressive enhancement preserves a usable basic workflow."
+notes: |
+  先保证核心内容和操作可用，再通过能力检测添加增强。以可用性为起点，不以浏览器名称猜测能力。增强失败时基础路径仍应可用。
+
+  Source: Interviews/AprilSkill.md:295. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 52. Also: Interviews/March.md. Verified reference: MDN: Progressive enhancement: https://developer.mozilla.org/en-US/docs/Glossary/Progressive_Enhancement
+learning_priority: 1
+audio: progressive-enhancement-web.mp3
+tags:
+  - tech
+  - frontend

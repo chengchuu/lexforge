@@ -1,0 +1,15 @@
+id: sakura
+language: ja
+word: "桜"
+pronunciation: "さくら"
+part_of_speech: noun
+meaning: "樱花；樱树"
+example: "春になると桜が咲きます。"
+notes: |
+  这里依据普通植物词义学习「桜」与「桜の木」。不据同音关系把名称「さくら大学」改写成汉字，也不推定其命名来源。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「桜」: https://kotobank.jp/word/桜-448703
+learning_priority: 1
+audio: sakura.mp3
+tags:
+  - noun
+  - daily

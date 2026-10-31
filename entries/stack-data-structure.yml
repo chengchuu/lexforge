@@ -1,0 +1,15 @@
+id: stack-data-structure
+language: en
+word: "stack"
+part_of_speech: noun
+meaning: "栈；按后进先出顺序添加和移除元素的数据结构。"
+example: "The traversal stores pending nodes on a stack."
+notes: |
+  push 把元素放到栈顶，pop 移除最近加入的元素。调用栈使用这种顺序管理函数调用；栈作为抽象数据结构不限定具体内存布局。这里不把技术栈等其他含义合并进来。
+  来源: NIST DADS: stack: https://xlinux.nist.gov/dads/HTML/stack.html
+learning_priority: 1
+audio: stack-data-structure.mp3
+tags:
+  - tech
+  - algorithm
+  - noun

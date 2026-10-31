@@ -8,5 +8,7 @@ context: "指年幼的猫，不必带有亲昵称呼的意味。"
 example: "子猫が遊んでいます。"
 audio: koneko.mp3
 learning_priority: 2
+prerequisites:
+  - neko
 tags:
   - noun

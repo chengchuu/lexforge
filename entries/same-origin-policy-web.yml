@@ -1,0 +1,16 @@
+id: same-origin-policy-web
+language: en
+word: "same-origin policy"
+part_of_speech: noun phrase
+meaning: "同源策略；限制脚本访问不同源资源的浏览器安全机制。"
+example: "The same-origin policy restricts cross-origin reads."
+notes: |
+  源通常由协议、主机和端口共同确定。跨源读取受到限制，不等于所有跨源请求都无法发送。嵌入资源、导航与脚本读取的规则不同；CORS 可授权特定跨源读取。
+
+  Source: Interviews/AprilSkill.md:144. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 23. Verified reference: MDN: Same-origin policy: https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Same-origin_policy
+learning_priority: 1
+audio: same-origin-policy-web.mp3
+tags:
+  - tech
+  - frontend
+  - networking

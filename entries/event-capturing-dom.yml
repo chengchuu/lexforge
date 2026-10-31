@@ -1,0 +1,17 @@
+id: event-capturing-dom
+language: en
+word: "event capturing"
+part_of_speech: noun phrase
+meaning: "事件捕获；事件沿传播路径向目标传递的阶段。"
+example: "Register the listener for event capturing."
+notes: |
+  通过 addEventListener 的 capture: true 在捕获阶段监听祖先上的事件。随后进入目标阶段；事件是否继续冒泡取决于事件类型。捕获描述传播阶段，不代表浏览器提前触发另一个事件。
+
+  Source: Interviews/AprilSkill.md:344. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 18. Also: Interviews/March.md. Verified reference: MDN: Event bubbling: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling
+learning_priority: 1
+prerequisites:
+  - event-tech
+audio: event-capturing-dom.mp3
+tags:
+  - tech
+  - frontend

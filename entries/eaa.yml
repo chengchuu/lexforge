@@ -1,0 +1,17 @@
+id: eaa
+language: ja
+word: "エアー"
+pronunciation: "エアー"
+part_of_speech: noun
+meaning: "空气；航空"
+example: "タイヤにエアーを入れます。"
+notes: |
+  来自英语 air，是「エア」的另一种表记。按语境可指空气、压缩空气或航空。
+  例句指给轮胎充气。不能把所有语境中的 air 都机械替换为「エアー」。
+  在「ブラジルエアー」中可识别这一构成部分，但不据此确认航空公司身份或命名来历。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「エア」。https://kotobank.jp/word/えあ-1509216
+learning_priority: 2
+audio: eaa.mp3
+tags:
+  - noun
+  - daily

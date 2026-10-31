@@ -1,0 +1,15 @@
+id: gentei
+language: ja
+word: "限定"
+pronunciation: "げんてい"
+part_of_speech: noun
+meaning: "限定；限制范围或数量"
+example: "この商品は一日十個限定です。"
+notes: |
+  可限定销售时间、地点、数量或适用对象。「限定グッズ」表示在某些条件下限量或限范围供应的商品，不只指数量少。
+  来源: 日本汉字能力检定协会《漢字ペディア》「限定」: https://www.kanjipedia.jp/kotoba/0001997800
+learning_priority: 1
+audio: gentei.mp3
+tags:
+  - noun
+  - daily

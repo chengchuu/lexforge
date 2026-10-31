@@ -120,3 +120,19 @@ Append a separate dated batch section to `guides/JP_VOCABULARY_IMPORT.md`, prese
 Modify only the scoped vocabulary, import record, new audio, and generated export. Do not change the schema, tooling, dependencies, card templates, or styling. Do not edit generated TSV manually.
 
 Do not import into Anki, delete notes, change review state, synchronize AnkiWeb, or modify AnkiDroid. Do not stage, commit, or push. The approved repository import and audio generation are complete; these boundaries still apply to any follow-up work.
+
+## Name components follow-up (2026-10-31)
+
+This approved follow-up adds independently useful vocabulary from names. It preserves the original import record and its historical counts. Component meanings do not establish a name's origin, real-world identity, or business activities.
+
+- Added `pawaa` (パワー, パワー), `denki` (電気, でんき), `burajiru` (ブラジル, ブラジル), and `eaa` (エアー, エアー). The first three use priority 1; `eaa` uses priority 2.
+- Updated `pawaa-denki` to depend on `pawaa` and `denki`, and `burajiru-eaa` to depend on `burajiru` and `eaa`. Their original IDs, spellings, readings, audio references, and recordings remain intact. Notes distinguish recognizable composition from a confirmed naming history.
+- Retained `koube-byouin` and its existing `koube` and `byouin` prerequisites without changing the written name こうべ病院.
+- Retained `sakura-daigaku` and `fuji-daigaku` with their existing `daigaku` prerequisite. Added no speculative 桜 or 富士 interpretation or prerequisite.
+- Retained `ee-kee-shii` as the supplied letter reading without inventing an expansion or unrelated components.
+
+The four new entries include verified readings, Chinese meanings, natural Japanese examples, and source titles and URLs in Notes. They have no audio fields yet. No audio was generated, and no associations were added. The reusable Codex prompt now describes this component-selection and prerequisite workflow.
+
+Checks passed: `go test ./...`, `go vet ./...`, vocabulary validation (588 entries), and `git diff --check`. Two builds produced identical exports with 588 seventeen-column data rows. All four components precede their whole names; Japanese rows retain `ja`, `ja_JP`, and `lang-ja`. The original five repeated-word warnings remain unchanged.
+
+A byte-level audit confirmed that all 530 existing MP3s and unrelated entries, including the pending interview import, were preserved. The two whole-name entries changed only in Notes and prerequisites. The original plan content remains intact before this addendum. New-file formatting and guide links and anchors passed. No implementation tests were added for this content-only change. Anki import, device rendering, and playback were not performed; apply refreshed StudyOrder ranks using the learning-order guide.

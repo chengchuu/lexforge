@@ -1,0 +1,17 @@
+id: linked-list-merge-algorithm
+language: en
+word: "linked list merge"
+part_of_speech: noun phrase
+meaning: "链表合并；比较两个有序链表的当前节点，依次连接较小节点。"
+example: "The linked list merge reuses the existing nodes."
+notes: |
+  用哑节点和尾指针简化头节点处理。每次连接较小节点并推进对应游标，一侧耗尽后接上另一侧。复用原节点的版本会修改连接关系，额外空间为 O(1)，时间为 O(m + n)。节点值字段必须一致，空链表和相等值都需处理。
+
+  Source: Interviews/AprilSkill.md:1091. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 49. Verified reference: LeetCode: Merge Two Sorted Lists: https://leetcode.com/problems/merge-two-sorted-lists/description/
+learning_priority: 2
+prerequisites:
+  - linked-list-tech
+audio: linked-list-merge-algorithm.mp3
+tags:
+  - tech
+  - algorithm

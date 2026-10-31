@@ -1,0 +1,16 @@
+id: pawaa
+language: ja
+word: "パワー"
+pronunciation: "パワー"
+part_of_speech: noun
+meaning: "力量；动力"
+example: "このエンジンはパワーがあります。"
+notes: |
+  来自英语 power 的外来语。可用于人的力量或机器的动力等语境。
+  在「パワー電気」中可识别这一构成部分，但不据此确定名称来历或机构业务。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「パワー」。https://kotobank.jp/word/ぱわー-3165055
+learning_priority: 1
+audio: pawaa.mp3
+tags:
+  - noun
+  - daily

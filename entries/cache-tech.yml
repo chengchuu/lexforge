@@ -1,0 +1,15 @@
+id: cache-tech
+language: en
+word: "cache"
+part_of_speech: noun
+meaning: "缓存；暂存数据或计算结果以供后续复用的机制。"
+example: "Invalidate the cache when the source changes."
+notes: |
+  缓存可减少重复计算或读取，但需要考虑有效期、失效与容量。HTTP 缓存是具体应用；缓存再验证用于判断已有内容是否仍可复用。不是所有缓存都遵循 HTTP 规则。
+  来源: MDN: Cache: https://developer.mozilla.org/en-US/docs/Glossary/Cache
+learning_priority: 1
+audio: cache-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

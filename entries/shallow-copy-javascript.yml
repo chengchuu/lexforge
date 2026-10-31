@@ -1,0 +1,17 @@
+id: shallow-copy-javascript
+language: en
+word: "shallow copy"
+part_of_speech: noun phrase
+meaning: "浅拷贝；复制外层结构，嵌套对象仍共享引用。"
+example: "A shallow copy retains references to nested objects."
+notes: |
+  对象展开或 Object.assign 可创建外层副本。修改副本的普通自有值不改变原对象，但修改共享的嵌套对象会影响两边。复制属性不等于保留全部原型或属性描述符。
+
+  Source: Interviews/AprilSkill.md:551. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 10. Verified reference: MDN: Shallow copy: https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy
+learning_priority: 1
+prerequisites:
+  - copy-tech
+audio: shallow-copy-javascript.mp3
+tags:
+  - tech
+  - javascript

@@ -1,0 +1,16 @@
+id: worker-pool-concurrency
+language: en
+word: "worker pool"
+part_of_speech: noun phrase
+meaning: "工作池；用有限工作单元处理排队任务并控制并发。"
+example: "A worker pool bounds the number of concurrent tasks."
+notes: |
+  取出任务交给空闲工作单元，完成后补充下一个任务。要定义错误、取消、背压与结果顺序。异步任务的并发限制不等于创建线程；Node.js 的 Worker 线程池则可处理 CPU 密集工作。
+
+  Source: Interviews/AprilSkill.md:946. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 22. Verified reference: Node.js: Worker threads: https://nodejs.org/api/worker_threads.html
+learning_priority: 3
+audio: worker-pool-concurrency.mp3
+tags:
+  - tech
+  - backend
+  - concurrency

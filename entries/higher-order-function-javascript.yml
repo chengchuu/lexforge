@@ -1,0 +1,15 @@
+id: higher-order-function-javascript
+language: en
+word: "higher-order function"
+part_of_speech: noun phrase
+meaning: "高阶函数；接收函数作为参数或返回函数的函数。"
+example: "The adapter accepts a higher-order function."
+notes: |
+  函数可作为普通值传递，因此可以把变化的行为交给参数。map 接收转换函数；工厂函数可以返回带闭包的函数。高阶函数不必异步执行，也不一定创建闭包。
+
+  Source: Interviews/AprilSkill.md:491. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 9. Verified reference: MDN: First-class function: https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function
+learning_priority: 2
+audio: higher-order-function-javascript.mp3
+tags:
+  - tech
+  - javascript

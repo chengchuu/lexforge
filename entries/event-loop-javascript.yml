@@ -1,0 +1,18 @@
+id: event-loop-javascript
+language: en
+word: "event loop"
+part_of_speech: noun phrase
+meaning: "事件循环；协调 JavaScript 任务执行与宿主活动的机制。"
+example: "A long task can block the event loop."
+notes: |
+  单个代理中的任务通常运行到结束，其他任务不能中途抢占同一调用栈。浏览器在规定检查点处理微任务，并有渲染机会。Node.js 有不同的事件循环阶段，不能照搬浏览器任务顺序。
+
+  Source: Interviews/AprilSkill.md:434. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 13. Verified reference: MDN: JavaScript execution model: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model
+learning_priority: 2
+prerequisites:
+  - call-stack-javascript
+  - event-tech
+audio: event-loop-javascript.mp3
+tags:
+  - tech
+  - javascript

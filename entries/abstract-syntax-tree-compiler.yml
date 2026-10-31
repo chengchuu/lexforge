@@ -1,0 +1,18 @@
+id: abstract-syntax-tree-compiler
+language: en
+word: "abstract syntax tree"
+part_of_speech: noun phrase
+meaning: "抽象语法树；用树形节点表示程序的语法结构。"
+example: "The compiler transforms the abstract syntax tree."
+notes: |
+  解析器把源码转为表达式、语句等节点。转换工具遍历节点并修改结构，再由生成器输出代码。具体 AST 节点规范随工具不同；Babel AST 与 ESTree 并非完全一致。
+
+  Source: Interviews/AprilSkill.md:860. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 43. Verified reference: Babel: parser: https://babeljs.io/docs/babel-parser
+learning_priority: 2
+prerequisites:
+  - syntax-tech
+  - tree-data-structure
+audio: abstract-syntax-tree-compiler.mp3
+tags:
+  - tech
+  - compiler

@@ -1,0 +1,15 @@
+id: tree-data-structure
+language: en
+word: "tree"
+part_of_speech: noun
+meaning: "树；用节点的父子关系组织层级数据的结构。"
+example: "Each node in the tree represents a syntax construct."
+notes: |
+  有根树从根节点组织子节点，除根外每个节点有一个父节点。一般树不要求每个节点最多有两个子节点；二叉树是特定类型。这里学习数据结构义，与植物义区分。
+  来源: NIST DADS: tree: https://xlinux.nist.gov/dads/HTML/tree.html
+learning_priority: 1
+audio: tree-data-structure.mp3
+tags:
+  - tech
+  - algorithm
+  - noun

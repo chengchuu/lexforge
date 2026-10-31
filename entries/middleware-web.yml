@@ -1,0 +1,15 @@
+id: middleware-web
+language: en
+word: "middleware"
+part_of_speech: noun
+meaning: "中间件；在请求处理链中组合可复用处理逻辑的函数。"
+example: "Register the error-handling middleware before the route."
+notes: |
+  可处理日志、认证、错误等横切行为。注册顺序和是否向下游传递控制会影响结果。不同框架的 next 语义不同，应按框架约定处理返回值、异步等待和错误。
+
+  Source: Interviews/AprilSkill.md:920. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 41. Verified reference: Koa: Cascading: https://koajs.com/
+learning_priority: 2
+audio: middleware-web.mp3
+tags:
+  - tech
+  - backend

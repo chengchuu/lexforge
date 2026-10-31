@@ -1,0 +1,17 @@
+id: storage-event-browser
+language: en
+word: "storage event"
+part_of_speech: noun phrase
+meaning: "存储事件；其他文档修改共享存储区域时发出的通知。"
+example: "Listen for a storage event in the other tab."
+notes: |
+  修改来源窗口不会接收自己的 storage 事件。localStorage 事件可通知同源的其他标签页。sessionStorage 的通知还限于同一顶层浏览上下文，不用于不同标签页的广播。事件处理应核对 key、newValue 和 storageArea。
+
+  Source: Interviews/AprilSkill.md:72. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 29. Also: Interviews/March.md. Verified reference: MDN: Window storage event: https://developer.mozilla.org/en-US/docs/Web/API/Window/storage_event
+learning_priority: 2
+prerequisites:
+  - web-storage-browser
+audio: storage-event-browser.mp3
+tags:
+  - tech
+  - frontend

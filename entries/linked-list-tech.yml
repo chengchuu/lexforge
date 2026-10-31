@@ -1,0 +1,15 @@
+id: linked-list-tech
+language: en
+word: "linked list"
+part_of_speech: noun
+meaning: "链表；通过节点之间的链接组织元素的线性结构。"
+example: "Each node in the linked list points to the next node."
+notes: |
+  单向链表节点持有值与后继链接，不要求元素在内存中连续。按索引查找通常需要逐节点前进。已知合适节点或前驱后可以调整链接进行插入或删除；不能概括为所有链表操作都是 O(1)。
+  来源: NIST DADS: linked list: https://xlinux.nist.gov/dads/HTML/linkedList.html
+learning_priority: 1
+audio: linked-list-tech.mp3
+tags:
+  - tech
+  - algorithm
+  - noun

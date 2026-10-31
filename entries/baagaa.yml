@@ -1,0 +1,15 @@
+id: baagaa
+language: ja
+word: "バーガー"
+pronunciation: "バーガー"
+part_of_speech: noun
+meaning: "汉堡；汉堡类食品"
+example: "バーガーを一つください。"
+notes: |
+  用于食品名称，例如「フィッシュバーガー」。具体夹馅由名称与语境决定，不能默认所有バーガー都是牛肉馅。
+  来源: 日本麦当劳官方菜单，バーガー类名称用例: https://www.mcdonalds.co.jp/menu/burger/
+learning_priority: 1
+audio: baagaa.mp3
+tags:
+  - noun
+  - food

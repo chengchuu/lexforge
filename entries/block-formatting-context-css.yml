@@ -1,0 +1,16 @@
+id: block-formatting-context-css
+language: en
+word: "block formatting context"
+part_of_speech: noun phrase
+meaning: "块级格式化上下文；具有独立块布局规则的区域。"
+example: "Use flow-root to create a block formatting context."
+notes: |
+  简称 BFC。display: flow-root 可显式建立 BFC，并包含内部浮动。BFC 内外的外边距不会互相折叠，但不能概括为内部所有外边距都不折叠。overflow 的某些值也可建立 BFC，却可能带来裁剪或滚动。
+
+  Source: Interviews/AprilSkill.md:248. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 30. Also: Interviews/March.md. Verified reference: MDN: Block formatting context: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Display/Block_formatting_context
+learning_priority: 2
+audio: block-formatting-context-css.mp3
+tags:
+  - tech
+  - frontend
+  - css

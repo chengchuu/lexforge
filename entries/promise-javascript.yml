@@ -1,0 +1,15 @@
+id: promise-javascript
+language: en
+word: "Promise"
+part_of_speech: noun
+meaning: "Promise；表示异步操作最终成功或失败结果的对象。"
+example: "Return a Promise from the asynchronous callback."
+notes: |
+  状态从 pending 变为 fulfilled 或 rejected 后不再改变。then 返回新的 Promise，可通过返回值、Promise 或抛错继续链式处理。构造器的执行器同步运行，已兑现 Promise 的 then 回调仍异步调度。
+
+  Source: Interviews/AprilSkill.md:387. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 15. Verified reference: MDN: Promise: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+learning_priority: 1
+audio: promise-javascript.mp3
+tags:
+  - tech
+  - javascript

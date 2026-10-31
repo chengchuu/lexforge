@@ -1,0 +1,15 @@
+id: quicksort-algorithm
+language: en
+word: "quicksort"
+part_of_speech: noun
+meaning: "快速排序；按基准值分区，再递归排序各分区。"
+example: "Quicksort partitions the array around a pivot."
+notes: |
+  分区把元素按与基准的比较结果分开，再处理更小的子问题。空区间和单元素区间无需继续。常见随机化版本的期望时间为 O(n log n)，最坏可到 O(n²)。原地与额外数组版本的空间不同，重复值需保证每轮推进。
+
+  Source: Interviews/AprilSkill.md:1066. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 47. Verified reference: NIST DADS: quicksort: https://xlinux.nist.gov/dads/HTML/quicksort.html
+learning_priority: 2
+audio: quicksort-algorithm.mp3
+tags:
+  - tech
+  - algorithm

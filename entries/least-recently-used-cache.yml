@@ -1,0 +1,16 @@
+id: least-recently-used-cache
+language: en
+word: "least recently used"
+part_of_speech: noun phrase
+meaning: "最近最少使用；容量不足时优先淘汰最久未访问数据的策略。"
+example: "The cache evicts the least recently used entry."
+notes: |
+  简称 LRU。精确 LRU 的常见设计用哈希表定位节点、双向链表维护访问顺序，可使查找和更新达到平均 O(1)。访问或更新后移到最近端，超容量时移除最久端。LRU 不等于 TTL 或 LFU；Redis 的 LRU 是采样近似，不能当作精确链表实现。
+
+  Source: Interviews/AprilSkill.md:1179. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 51. Verified reference: Redis: Key eviction: https://redis.io/docs/latest/develop/reference/eviction/
+learning_priority: 3
+audio: least-recently-used-cache.mp3
+tags:
+  - tech
+  - algorithm
+  - database

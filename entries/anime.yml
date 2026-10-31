@@ -1,0 +1,15 @@
+id: anime
+language: ja
+word: "アニメ"
+pronunciation: "アニメ"
+part_of_speech: noun
+meaning: "动画"
+example: "週末にアニメを見ます。"
+notes: |
+  「アニメーション」的简称。「アニメグッズ」指与动画或角色有关的周边。日语中的普通词义不局限于日本制作的动画。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「アニメ」: https://kotobank.jp/word/あにめ-3206684
+learning_priority: 1
+audio: anime.mp3
+tags:
+  - noun
+  - daily

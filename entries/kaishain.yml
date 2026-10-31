@@ -11,5 +11,7 @@ audio: kaishain.mp3
 learning_priority: 1
 related_entries:
   - shain
+prerequisites:
+  - kaisha
 tags:
   - noun

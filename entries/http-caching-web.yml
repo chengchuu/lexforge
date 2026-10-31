@@ -1,0 +1,17 @@
+id: http-caching-web
+language: en
+word: "HTTP caching"
+part_of_speech: noun phrase
+meaning: "HTTP 缓存；按缓存规则复用已存储的响应。"
+example: "HTTP caching reduces repeated downloads."
+notes: |
+  先区分浏览器私有缓存与代理等共享缓存，再判断响应是否仍新鲜。max-age 控制新鲜度；private 限制共享缓存。no-cache 允许存储但复用前需要验证，no-store 要求不要存储该响应。
+
+  Source: Interviews/AprilSkill.md:177. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 26. Verified reference: MDN: HTTP caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching
+learning_priority: 1
+prerequisites:
+  - cache-tech
+audio: http-caching-web.mp3
+tags:
+  - tech
+  - networking

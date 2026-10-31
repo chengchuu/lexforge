@@ -1,0 +1,15 @@
+id: kenkyuu
+language: ja
+word: "研究"
+pronunciation: "けんきゅう"
+part_of_speech: noun
+meaning: "研究；深入调查和探究"
+example: "大学で日本語を研究しています。"
+notes: |
+  可用「研究する」表示进行研究。「研究者」指从事研究的人；本批不为所有人名词中的后缀分别建卡。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「研究」: https://kotobank.jp/word/研究-491636
+learning_priority: 1
+audio: kenkyuu.mp3
+tags:
+  - noun
+  - daily

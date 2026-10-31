@@ -1,0 +1,16 @@
+id: test-tech
+language: en
+word: "test"
+part_of_speech: noun
+meaning: "测试；用规定的检查评估软件行为或属性。"
+example: "Run the test before changing the implementation."
+notes: |
+  具体测试应明确目标、条件、操作和预期结果。集成测试关注组合后的行为，回归测试关注既有行为是否退化，测试套件组织一组测试。通过有限测试不代表证明所有输入都正确。
+  来源: MDN: Testing: https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Testing
+learning_priority: 1
+audio: test-tech.mp3
+tags:
+  - tech
+  - testing
+  - noun
+  - verb

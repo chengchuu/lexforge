@@ -1,0 +1,15 @@
+id: layout-browser-rendering
+language: en
+word: "layout"
+part_of_speech: noun
+meaning: "布局；根据样式与约束计算页面元素的位置和尺寸。"
+example: "Changing the width can trigger layout."
+notes: |
+  布局依赖视口、内容和样式。尺寸或位置变化可能触发布局；布局后通常需要更新绘制。交替修改样式并读取几何信息可能导致反复同步布局，应先测量实际瓶颈。
+
+  Source: Interviews/AprilSkill.md:299. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 33. Verified reference: MDN: How browsers work: https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/How_browsers_work
+learning_priority: 1
+audio: layout-browser-rendering.mp3
+tags:
+  - tech
+  - frontend

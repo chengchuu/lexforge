@@ -1,0 +1,15 @@
+id: web-storage-browser
+language: en
+word: "web storage"
+part_of_speech: noun phrase
+meaning: "Web 存储；浏览器提供的按源隔离的同步键值存储。"
+example: "Web storage can retain a small user preference."
+notes: |
+  localStorage 通常跨会话保留；sessionStorage 还按顶层浏览上下文划分。键和值是字符串，对象需显式序列化。存储操作同步，可能受配额与隐私设置限制。与随请求发送的 Cookie 区分。
+
+  Source: Interviews/AprilSkill.md:44. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 28. Also: Interviews/March.md. Verified reference: MDN: Web Storage API: https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+learning_priority: 1
+audio: web-storage-browser.mp3
+tags:
+  - tech
+  - frontend

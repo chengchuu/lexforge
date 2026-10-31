@@ -6,8 +6,14 @@ part_of_speech: noun
 meaning: "名称；ブラジルエアー"
 context: "学习记录中的名称，保留「ブラジルエアー」写法。"
 example: "資料には「ブラジルエアー」と書いてあります。"
-notes: "不据名称推定实际机构身份或其他背景。"
+notes: |
+  可识别的构成部分为国家名「ブラジル」和外来语「エアー」。先学习子项，再识读整体名称。
+  「エアー」具有航空相关用法，但不能据此确认整体对应实际航空公司。
+  不据名称推定实际机构身份或其他背景，也不把构成分析当作已核实的命名来历。
 audio: burajiru-eaa.mp3
 learning_priority: 2
+prerequisites:
+  - burajiru
+  - eaa
 tags:
   - proper-noun

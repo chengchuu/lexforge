@@ -6,8 +6,13 @@ part_of_speech: noun
 meaning: "名称；パワー電気"
 context: "学习记录中的名称，保留「パワー電気」写法。"
 example: "資料には「パワー電気」と書いてあります。"
-notes: "不推定实际组织身份或业务范围。"
+notes: |
+  可识别的构成部分为「パワー」和「電気」。先分别学习普通词义，再识读整体名称。
+  构成部分的词义不等于名称的命名来历。不推定实际组织身份或业务范围。
 audio: pawaa-denki.mp3
 learning_priority: 2
+prerequisites:
+  - pawaa
+  - denki
 tags:
   - proper-noun

@@ -1,0 +1,15 @@
+id: heap-memory-javascript
+language: en
+word: "heap memory"
+part_of_speech: noun phrase
+meaning: "堆内存；运行时管理动态分配对象的内存区域。"
+example: "The runtime allocates objects in heap memory."
+notes: |
+  在 JavaScript 的概念模型中，对象使用堆内存。变量可能持有对象引用，具体存储布局由引擎决定。JavaScript 通常自动回收内存，不能套用手动释放的通用说明。
+
+  Source: Interviews/AprilSkill.md:3. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 2. Also: Interviews/March.md. Verified reference: MDN: Memory management: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Memory_management
+learning_priority: 1
+audio: heap-memory-javascript.mp3
+tags:
+  - tech
+  - javascript

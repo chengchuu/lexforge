@@ -1,0 +1,15 @@
+id: star-method-interview
+language: en
+word: "STAR method"
+part_of_speech: noun phrase
+meaning: "STAR 方法；按情境、任务、行动和结果组织真实经历。"
+example: "Use the STAR method to explain your own contribution."
+notes: |
+  Situation 交代背景，Task 说明责任，Action 描述本人采取的行动，Result 说明实际结果与收获。区分团队成果和个人贡献，量化数据须有事实依据。没有精确数据时保留不确定性，不编造改善比例。
+
+  Source: Interviews/AprilSkill.md:1264. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 57. Verified reference: National Careers Service: The STAR method: https://nationalcareers.service.gov.uk/careers-advice/interview-advice/the-star-method
+learning_priority: 1
+audio: star-method-interview.mp3
+tags:
+  - general
+  - interview

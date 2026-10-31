@@ -1,0 +1,19 @@
+id: onion-model-koa
+language: en
+word: "onion model"
+part_of_speech: noun phrase
+meaning: "洋葱模型；控制流先进入下游，再返回上游继续处理的中间件模型。"
+example: "The onion model lets upstream middleware measure total duration."
+notes: |
+  Koa 中 await next() 把当前逻辑分成前后两段。两个中间件的顺序可为 A 前、B 前、B 后、A 后。这是一次请求中的控制流往返，不是同一请求执行两次。用 try/catch 包住 await next() 可处理下游传播的异常。
+
+  Source: Interviews/AprilSkill.md:926. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 42. Verified reference: Koa: Cascading: https://koajs.com/
+learning_priority: 2
+prerequisites:
+  - middleware-web
+  - async-await-javascript
+audio: onion-model-koa.mp3
+tags:
+  - tech
+  - backend
+  - nodejs

@@ -1,0 +1,17 @@
+id: preflight-request-web
+language: en
+word: "preflight request"
+part_of_speech: noun phrase
+meaning: "预检请求；浏览器在部分跨源请求前发送的权限检查请求。"
+example: "A custom request header can trigger a preflight request."
+notes: |
+  浏览器用 OPTIONS 询问允许的方法和请求头。非简单方法或不符合安全列出的请求头等条件会触发预检。是否携带凭据与是否需要预检是不同判断。服务端应正确处理预检和实际响应。
+
+  Source: Interviews/AprilSkill.md:169. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 25. Verified reference: MDN: CORS: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
+learning_priority: 2
+prerequisites:
+  - cross-origin-resource-sharing-web
+audio: preflight-request-web.mp3
+tags:
+  - tech
+  - networking

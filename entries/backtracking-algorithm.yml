@@ -1,0 +1,15 @@
+id: backtracking-algorithm
+language: en
+word: "backtracking"
+part_of_speech: noun
+meaning: "回溯；逐步尝试选择，撤销不合适的选择并继续搜索。"
+example: "Backtracking explores a choice and then restores the previous state."
+notes: |
+  把部分解看作搜索状态。依次执行选择、递归探索、撤销选择，并在满足条件时记录结果。约束可提前剪枝，但必须保证不会剪掉合法解。应定义终止条件并避免状态在不同分支间泄漏。
+
+  Source: Interviews/AprilSkill.md:1064. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 48. Verified reference: NIST DADS: backtracking: https://xlinux.nist.gov/dads/HTML/backtrack.html
+learning_priority: 3
+audio: backtracking-algorithm.mp3
+tags:
+  - tech
+  - algorithm

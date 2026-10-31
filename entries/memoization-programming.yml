@@ -1,0 +1,15 @@
+id: memoization-programming
+language: en
+word: "memoization"
+part_of_speech: noun
+meaning: "记忆化；缓存计算结果，在输入满足复用条件时避免重复计算。"
+example: "Memoization can avoid an expensive repeated calculation."
+notes: |
+  缓存键或依赖比较决定复用条件，缓存还消耗内存并需失效策略。React useMemo 用 Object.is 比较依赖，不是深比较。useMemo 属于性能优化，不能依赖缓存永久存在来保证业务正确性。
+
+  Source: Interviews/AprilSkill.md:653. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 39. Verified reference: React: useMemo: https://react.dev/reference/react/useMemo
+learning_priority: 2
+audio: memoization-programming.mp3
+tags:
+  - tech
+  - programming

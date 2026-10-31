@@ -27,6 +27,25 @@ do not split them mechanically or enforce a word-count limit.
 Prefer dictionary headwords where appropriate, retaining meaningful
 inflections and natural plural forms. Report any grouping decisions.
 
+For compounds and meaningful phrases, identify useful independent
+components before introducing the whole. Reuse matching entries and add
+missing components within the approved scope. Use prerequisites to put
+components first while retaining the whole term's distinct meaning.
+Choose component priorities by their own usefulness and complexity;
+prerequisites enforce ordering even when priority numbers are equal.
+Keep nonliteral technical meanings and fixed expressions intact.
+
+For names with limited context, check for recognizable components that
+have independent learning value. Verify their ordinary meanings and
+readings, reuse existing entries first, and add missing useful components
+within the requested scope. Put their stable IDs in the whole name's
+prerequisites so components are introduced first. Preserve the whole
+name's ID, spelling, and recording. Explain composition in Notes without
+claiming a verified naming origin, real-world identity, or business scope.
+Do not guess ambiguous kanji, expand unknown initials, or split names
+mechanically. Prerequisites order introductions; they do not unlock
+cards based on Anki mastery. Associations require separate approval.
+
 For each entry:
 - Use a globally unique stable ID and lowercase kebab-case filename.
 - Add a self-contained Chinese meaning or short explanation of a principle.

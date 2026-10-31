@@ -1,0 +1,18 @@
+id: cross-origin-resource-sharing-web
+language: en
+word: "cross-origin resource sharing"
+part_of_speech: noun phrase
+meaning: "跨源资源共享；服务器通过响应头授权浏览器进行跨源读取。"
+example: "Configure cross-origin resource sharing for the API."
+notes: |
+  简称 CORS。服务器声明允许的源、方法和请求头；浏览器执行检查。带凭据的请求需要相应配置，允许源不能使用通配符 *。CORS 不是身份验证，也不阻止非浏览器客户端访问服务器。
+
+  Source: Interviews/AprilSkill.md:144. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 24. Verified reference: MDN: CORS: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
+learning_priority: 2
+prerequisites:
+  - same-origin-policy-web
+audio: cross-origin-resource-sharing-web.mp3
+tags:
+  - tech
+  - frontend
+  - networking

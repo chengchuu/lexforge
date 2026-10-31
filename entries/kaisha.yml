@@ -1,0 +1,15 @@
+id: kaisha
+language: ja
+word: "会社"
+pronunciation: "かいしゃ"
+part_of_speech: noun
+meaning: "公司"
+example: "この会社で働いています。"
+notes: |
+  「会社員」表示职业类别；「社員」强调与某家公司的所属关系。这里学习日常词义，不展开法律上的公司或成员分类。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「会社」: https://kotobank.jp/word/会社-42462
+learning_priority: 1
+audio: kaisha.mp3
+tags:
+  - noun
+  - daily

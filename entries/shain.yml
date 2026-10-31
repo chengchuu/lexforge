@@ -9,5 +9,7 @@ example: "私はこの会社の社員です。"
 notes: "与表示职业类别的「会社員」区分；常用「～の社員」说明所属公司。"
 audio: shain.mp3
 learning_priority: 1
+prerequisites:
+  - kaisha
 tags:
   - noun

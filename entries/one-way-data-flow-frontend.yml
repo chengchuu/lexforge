@@ -1,0 +1,15 @@
+id: one-way-data-flow-frontend
+language: en
+word: "one-way data flow"
+part_of_speech: noun phrase
+meaning: "单向数据流；让状态沿明确方向传递并由指定入口更新。"
+example: "One-way data flow clarifies state ownership."
+notes: |
+  以父组件向子组件传递 props 为例，子组件通过事件通知上层，而不是直接重写输入。Vue 中对象或数组的嵌套引用仍可被修改，应明确所有权。单向数据流不意味着界面不能更新状态。
+
+  Source: Interviews/AprilSkill.md:970. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 37. Verified reference: Vue: Props: https://vuejs.org/guide/components/props.html
+learning_priority: 1
+audio: one-way-data-flow-frontend.mp3
+tags:
+  - tech
+  - frontend

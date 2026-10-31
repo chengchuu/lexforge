@@ -1,0 +1,16 @@
+id: denki
+language: ja
+word: "電気"
+pronunciation: "でんき"
+part_of_speech: noun
+meaning: "电；电能"
+example: "この機械は電気で動きます。"
+notes: |
+  日常可用于供电、用电等语境。「電気をつける」中的「電気」也可指电灯。
+  在「パワー電気」中可识别这一构成部分，但不能仅凭名称确认实际业务。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「電気」。https://kotobank.jp/word/電気-102136
+learning_priority: 1
+audio: denki.mp3
+tags:
+  - noun
+  - daily

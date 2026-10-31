@@ -1,0 +1,15 @@
+id: neko
+language: ja
+word: "猫"
+pronunciation: "ねこ"
+part_of_speech: noun
+meaning: "猫"
+example: "猫が窓のそばで寝ています。"
+notes: |
+  「子猫」表示年幼的猫；「猫ちゃん」是亲昵称呼，不限定年龄。
+  来源: 小学馆《デジタル大辞泉》，コトバンク「猫」: https://kotobank.jp/word/猫-594782
+learning_priority: 1
+audio: neko.mp3
+tags:
+  - noun
+  - daily

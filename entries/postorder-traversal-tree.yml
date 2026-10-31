@@ -1,0 +1,17 @@
+id: postorder-traversal-tree
+language: en
+word: "postorder traversal"
+part_of_speech: noun phrase
+meaning: "后序遍历；先处理子树，再访问根节点的树遍历顺序。"
+example: "Postorder traversal visits the root after its children."
+notes: |
+  二叉树通常按左子树、右子树、根节点处理。空节点直接返回。递归利用调用栈保存尚未处理的父节点，深度为 h 时额外栈空间为 O(h)。可用于先汇总子节点结果再处理父节点。
+
+  Source: Interviews/AprilSkill.md:1196. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 50. Verified reference: NIST DADS: postorder traversal: https://xlinux.nist.gov/dads/HTML/postorderTraversal.html
+learning_priority: 2
+prerequisites:
+  - traversal-tech
+audio: postorder-traversal-tree.mp3
+tags:
+  - tech
+  - algorithm

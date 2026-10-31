@@ -1,0 +1,15 @@
+id: debounce-javascript
+language: en
+word: "debounce"
+part_of_speech: noun
+meaning: "防抖；把短时间内的连续调用合并为较少的执行。"
+example: "Debounce the search callback while the user types."
+notes: |
+  常见尾部触发方式会在每次调用时重置定时器，等调用停止一段时间后执行。实现时保留 this 和参数，并明确首部、尾部及取消语义。与按固定频率限制执行的节流区分。
+
+  Source: Interviews/AprilSkill.md:1048. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 21. Verified reference: MDN: Debounce: https://developer.mozilla.org/en-US/docs/Glossary/Debounce
+learning_priority: 2
+audio: debounce-javascript.mp3
+tags:
+  - tech
+  - javascript

@@ -10,5 +10,6 @@ audio: gentei-guzzu.mp3
 learning_priority: 2
 prerequisites:
   - guzzu
+  - gentei
 tags:
   - noun

@@ -1,0 +1,18 @@
+id: cache-revalidation-web
+language: en
+word: "cache revalidation"
+part_of_speech: noun phrase
+meaning: "缓存再验证；向服务器确认已存储响应能否继续使用。"
+example: "The ETag supports cache revalidation."
+notes: |
+  携带 ETag 对应的 If-None-Match，或使用 Last-Modified 对应的 If-Modified-Since。资源未变时可收到 304 并复用缓存正文；变化时通常返回新响应。验证需要通信，与直接复用新鲜缓存不同。
+
+  Source: Interviews/AprilSkill.md:189. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 27. Verified reference: MDN: HTTP caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching
+learning_priority: 2
+prerequisites:
+  - http-caching-web
+  - cache-tech
+audio: cache-revalidation-web.mp3
+tags:
+  - tech
+  - networking

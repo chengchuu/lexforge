@@ -1,0 +1,15 @@
+id: event-tech
+language: en
+word: "event"
+part_of_speech: noun
+meaning: "事件；程序可观察并响应的发生或通知。"
+example: "Register a callback for the event."
+notes: |
+  在 DOM 中，事件对象可携带类型、目标等信息，监听器响应事件。事件不只来自鼠标或键盘，也可以由程序触发。事件循环、捕获、冒泡与委托是围绕事件的不同机制。
+  来源: MDN: Event: https://developer.mozilla.org/en-US/docs/Web/API/Event
+learning_priority: 1
+audio: event-tech.mp3
+tags:
+  - tech
+  - frontend
+  - noun

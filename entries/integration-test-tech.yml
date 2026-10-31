@@ -9,6 +9,8 @@ example: "The integration test checks rendering and state updates."
 notes: "Source: react/react-d-compiler.md."
 audio: integration-test-tech.mp3
 learning_priority: 2
+prerequisites:
+  - test-tech
 tags:
   - tech
   - testing

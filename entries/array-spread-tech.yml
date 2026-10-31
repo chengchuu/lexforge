@@ -9,6 +9,8 @@ example: "An array spread can throw when its operand is not iterable."
 notes: "Source: react/react-a-compiler.md."
 audio: array-spread-tech.mp3
 learning_priority: 3
+prerequisites:
+  - array-tech
 tags:
   - tech
   - compiler

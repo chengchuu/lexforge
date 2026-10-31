@@ -1,0 +1,17 @@
+id: event-bubbling-dom
+language: en
+word: "event bubbling"
+part_of_speech: noun phrase
+meaning: "事件冒泡；可冒泡事件从目标向祖先传播的阶段。"
+example: "Event bubbling lets the parent observe a child click."
+notes: |
+  默认注册的普通监听器在目标或冒泡阶段处理事件。不是所有事件都会冒泡。stopPropagation 阻止后续传播；preventDefault 用于取消可取消的默认行为，两者不同。
+
+  Source: Interviews/AprilSkill.md:344. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 19. Also: Interviews/March.md. Verified reference: MDN: Event bubbling: https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Event_bubbling
+learning_priority: 1
+prerequisites:
+  - event-tech
+audio: event-bubbling-dom.mp3
+tags:
+  - tech
+  - frontend

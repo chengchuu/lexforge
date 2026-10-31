@@ -1,0 +1,15 @@
+id: semantic-versioning-software
+language: en
+word: "semantic versioning"
+part_of_speech: noun phrase
+meaning: "语义化版本；用主版本、次版本和补丁表达公共 API 变化。"
+example: "Semantic versioning communicates compatibility changes."
+notes: |
+  针对稳定公共 API，不兼容变更递增主版本，兼容新增功能递增次版本，兼容修复递增补丁。0.y.z 表示初期开发，不能套用同样的稳定性承诺。预发布标识与 npm 的 ^、~ 范围解析属于不同概念。
+
+  Source: Interviews/AprilSkill.md:885. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 45. Verified reference: Semantic Versioning 2.0.0: https://semver.org/
+learning_priority: 1
+audio: semantic-versioning-software.mp3
+tags:
+  - tech
+  - programming

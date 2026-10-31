@@ -1,0 +1,18 @@
+id: two-way-binding-frontend
+language: en
+word: "two-way binding"
+part_of_speech: noun phrase
+meaning: "双向绑定；让状态值与界面输入保持相互同步的绑定方式。"
+example: "Use two-way binding for the form input."
+notes: |
+  Vue 3 的组件 v-model 可展开为值属性与更新事件。双向绑定提供便捷接口，不代表任意组件可以任意修改全局状态。区分表单同步语法和整个应用的数据流设计。
+
+  Source: Interviews/AprilSkill.md:970. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 38. Verified reference: Vue: Component v-model: https://vuejs.org/guide/components/v-model.html
+learning_priority: 2
+prerequisites:
+  - one-way-data-flow-frontend
+audio: two-way-binding-frontend.mp3
+tags:
+  - tech
+  - frontend
+  - vue

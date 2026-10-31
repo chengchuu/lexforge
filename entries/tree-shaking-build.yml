@@ -1,0 +1,16 @@
+id: tree-shaking-build
+language: en
+word: "tree shaking"
+part_of_speech: noun phrase
+meaning: "摇树优化；构建时识别并移除未使用代码的优化。"
+example: "Tree shaking can remove an unused export."
+notes: |
+  静态 ES 模块结构有助于分析导出是否被使用。副作用会影响哪些模块能够安全移除，sideEffects 标注必须准确。不能只看 import 或 require 的拼写就保证产物变小，应检查实际构建结果。
+
+  Source: Interviews/AprilSkill.md:862. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 44. Verified reference: webpack: Tree shaking: https://webpack.js.org/guides/tree-shaking/
+learning_priority: 3
+audio: tree-shaking-build.mp3
+tags:
+  - tech
+  - frontend
+  - build

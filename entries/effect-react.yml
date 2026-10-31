@@ -1,0 +1,16 @@
+id: effect-react
+language: en
+word: "effect"
+part_of_speech: noun
+meaning: "React Effect；在组件提交后将组件与外部系统同步的逻辑。"
+example: "The effect cleans up the subscription before reconnecting."
+notes: |
+  useEffect 可建立订阅、连接等同步关系。依赖变化时先清理旧同步再建立新同步，卸载时也要清理。开发环境 Strict Mode 会额外执行设置与清理检查。只为渲染推导数据时通常不需要 Effect，也不应把所有计算都放进 Effect。
+
+  Source: Interviews/AprilSkill.md:637. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 40. Verified reference: React: Synchronizing with Effects: https://react.dev/learn/synchronizing-with-effects
+learning_priority: 2
+audio: effect-react.mp3
+tags:
+  - tech
+  - frontend
+  - react

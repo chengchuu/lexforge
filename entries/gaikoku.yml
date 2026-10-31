@@ -1,0 +1,15 @@
+id: gaikoku
+language: ja
+word: "外国"
+pronunciation: "がいこく"
+part_of_speech: noun
+meaning: "外国；本国以外的国家"
+example: "外国で働きたいです。"
+notes: |
+  范围取决于说话者所处的国家立场。「外国人」可结合「外国」与表示人的「～人」理解，不要逐字拆成「外」和「国」来强建先修。
+  来源: 小学馆《精選版 日本国語大辞典》，コトバンク「外国」: https://kotobank.jp/word/外国-457262
+learning_priority: 1
+audio: gaikoku.mp3
+tags:
+  - noun
+  - daily

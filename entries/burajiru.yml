@@ -1,0 +1,16 @@
+id: burajiru
+language: ja
+word: "ブラジル"
+pronunciation: "ブラジル"
+part_of_speech: noun
+meaning: "巴西"
+example: "ブラジルから来ました。"
+notes: |
+  国家名称，全称为「ブラジル連邦共和国」。
+  也是学习记录中「ブラジルエアー」的可识别部分，不据此确认该名称的实际机构身份。
+  来源: 日本外务省「ブラジル連邦共和国」。https://www.mofa.go.jp/mofaj/area/brazil/index.html
+learning_priority: 1
+audio: burajiru.mp3
+tags:
+  - proper-noun
+  - travel

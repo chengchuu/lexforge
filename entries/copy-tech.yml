@@ -1,0 +1,16 @@
+id: copy-tech
+language: en
+word: "copy"
+part_of_speech: noun
+meaning: "复制；创建数据副本；也可指副本。"
+example: "Create a copy before changing the array."
+notes: |
+  先明确复制的对象与隔离要求。浅拷贝和深拷贝主要区别在于嵌套数据的引用处理。将对象引用赋给另一个变量本身不等于复制对象。
+  来源: MDN: Deep copy: https://developer.mozilla.org/en-US/docs/Glossary/Deep_copy
+learning_priority: 1
+audio: copy-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun
+  - verb
