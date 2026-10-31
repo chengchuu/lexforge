@@ -14,14 +14,14 @@ Repository name:
 lexforge
 ```
 
-LexForge is a Git-native personal multilingual vocabulary system.
+LexForge is a Git-native personal multilingual vocabulary and concept-learning system.
 
 It turns vocabulary encountered during everyday technical work into structured entries for export to Anki and review in AnkiDroid.
 
 Primary learning direction:
 
 ```text
-Word → Meaning + Context
+Word → Meaning + optional Context
 ```
 
 ---
@@ -172,6 +172,7 @@ Go 1.25 or later is required. Run commands from the repository root. Direct depe
 The commands are thin entry points into `internal/vocabulary/`:
 
 - `entries.go`: strict YAML parsing, entry validation, duplicate warnings, and loading in stable-ID order.
+- `related.go`: association reference validation and deterministic bidirectional direct-neighbor displays.
 - `learning.go`: prerequisite validation and deterministic introduction ordering.
 - `export.go`: Anki TSV encoding, derived fields, and atomic export replacement.
 - `audio.go`: local speech-tool execution, MP3 publication, and source metadata updates.
@@ -196,6 +197,10 @@ meaning
 context
 example
 notes
+etymology
+word_formation
+mnemonic
+related_entries
 audio
 learning_priority
 prerequisites
@@ -231,23 +236,39 @@ id
 language
 word
 meaning
-context
-example
 ```
 
 Optional fields are:
 
 ```text
+context
+example
 pronunciation
 part_of_speech
 notes
+etymology
+word_formation
+mnemonic
+related_entries
 audio
 learning_priority
 prerequisites
 tags
 ```
 
-Optional fields are strings except for `tags` and `prerequisites` (lists of strings) and `learning_priority` (an integer from 1 to 3, defaulting to 2). Omit unused optional fields; validation rejects empty values.
+Optional fields are strings except for `tags`, `prerequisites`, and `related_entries` (lists of strings) and `learning_priority` (an integer from 1 to 3, defaulting to 2). Omit unused optional fields. For `context`, `example`, `etymology`, `word_formation`, and `mnemonic`, omission, empty or whitespace-only strings, and YAML null mean absent; other optional fields must be nonempty when supplied.
+
+---
+
+## Concept learning and memory aids
+
+Word can name a word, expression, term, or concept. Meaning gives its core definition or concise reasoning; add no Question, Answer, or Explanation fields. Context and Example are optional. Notes supports detailed paragraphs or plain-text steps and appears fully at the bottom of the back. Do not enforce a Notes length limit or add collapse controls. Keep source text plain; the exporter escapes HTML and converts line breaks, without Markdown rendering. Keep Chinese walkthroughs in Notes rather than sending them to Example TTS.
+
+Use optional `etymology` for verified historical origins, `word_formation` for supported construction patterns, and `mnemonic` for memory aids. Distinguish history from mnemonic invention and preserve uncertainty. Record source titles and URLs in Notes without replacing provenance.
+
+`related_entries` contains human-approved existing stable IDs. Propose candidates with both IDs, current words and meanings, rationale, and confusion risks. Approval of a pair does not authorize mnemonic rewrites. Declare a pair once; the exporter displays current Word and Meaning on both backs, sorted by neighbor ID. Cross-language neighbors include their language tag. Cycles and reciprocal declarations are valid, but repeated IDs in one list, self-links, malformed IDs, and missing targets fail validation. Only direct neighbors display; associations do not affect prerequisites or StudyOrder. Remove both declarations if both endpoints declare a pair. Rebuild and reimport the complete export to refresh reverse displays. Do not automatically infer relationships.
+
+The initial 21 pairs are recorded in [the memory aids plan](guides/VOCABULARY_MEMORY_AIDS_PLAN.md#approved-relationship-batch). Its five concept cases are planning examples, not authorization to import new entries.
 
 ---
 
@@ -492,7 +513,7 @@ When asked to add a word:
 
 1. Search existing entries for the same word, language, and meaning.
 2. Reuse a matching entry. For a new meaning, choose a stable ID and create one YAML file.
-3. Add a concise meaning, practical context, and a natural example.
+3. Add a self-contained Chinese meaning or short principle. Include Context and an Example in the entry’s language only when useful. Use Notes for detailed explanation; preserve useful depth without truncation.
 4. Add relevant tags and pronunciation if reliable. Choose a learning priority and selective prerequisites using the rules above.
 5. If audio is requested, use the audio command to generate or reuse a recording and attach its metadata. Otherwise, leave existing audio unchanged and omit audio for new entries.
 6. Run validation and build the export when appropriate.
@@ -573,7 +594,7 @@ Validation checks for:
 - invalid language tags and unsupported fields
 - invalid learning priorities, prerequisite references, and dependency cycles
 
-Each visible file directly under `entries/` must be a regular lowercase kebab-case `.yml` file containing exactly one YAML mapping. Nested directories, symlinks, aliases, merge keys, duplicate keys, unknown fields, empty optional values, and incorrect field types are rejected. Dot-prefixed entries are ignored; an empty collection fails validation. Text may contain tabs and line breaks, but not other control characters.
+Each visible file directly under `entries/` must be a regular lowercase kebab-case `.yml` file containing exactly one YAML mapping. Nested directories, symlinks, aliases, merge keys, duplicate keys, unknown fields, empty optional values outside the five designated text fields, and incorrect field types are rejected. Dot-prefixed entries are ignored; an empty collection fails validation. Text may contain tabs and line breaks, but not other control characters.
 
 Audio validation checks the exact `<id>.mp3` filename and a nonempty regular file. It does not decode MP3s, assess pronunciation, or verify installed speech voices. Decoding is part of audio generation and reuse.
 
@@ -587,7 +608,7 @@ Errors should identify:
 Example:
 
 ```text
-entries/idiomatic.yml: missing required field "context"
+entries/idiomatic.yml: missing required field "meaning"
 ```
 
 Prefer deterministic validation output.
@@ -641,10 +662,14 @@ Notes
 Audio
 TTSLanguage
 StudyOrder
+Etymology
+WordFormation
+Mnemonic
+RelatedWords
 Tags
 ```
 
-Keep the stable ID in the first column. The export has twelve note fields followed by Anki tags in column 13. `TTSLanguage` and `StudyOrder` are derived during export, not stored in YAML. `StudyOrder` is the browser sort field; keep `ID` first for import matching.
+Keep the stable ID in the first column. The export has sixteen note fields followed by Anki tags in column 17. `TTSLanguage`, `StudyOrder`, and `RelatedWords` are derived during export, not stored in YAML. `StudyOrder` is the browser sort field; keep `ID` first for import matching.
 
 Headers specify tab separation, HTML display, the `LexForge` note type, column names, and the tags column. Text is HTML-escaped, line breaks become `<br>`, and literal media markers in text remain literal. Tags are sorted and deduplicated after adding the derived language tag.
 
@@ -953,6 +978,10 @@ meaning
 context
 example
 notes
+etymology
+word_formation
+mnemonic
+related_entries
 audio
 learning_priority
 prerequisites

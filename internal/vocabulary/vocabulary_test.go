@@ -49,7 +49,7 @@ func TestValidation(t *testing.T) {
 		{"null document", "null", "expected a YAML mapping"},
 		{"multiple documents", validEntry + "---\n" + validEntry, "exactly one YAML document"},
 		{"empty second document", validEntry + "---\n", "exactly one YAML document"},
-		{"missing field", strings.ReplaceAll(validEntry, "context: 符合某种语言惯用方式的。\n", ""), `missing required field "context"`},
+		{"missing field", strings.ReplaceAll(validEntry, "meaning: 地道的；惯用的\n", ""), `missing required field "meaning"`},
 		{"empty required", strings.ReplaceAll(validEntry, "word: idiomatic", `word: "  "`), `field "word": must not be empty`},
 		{"null required", strings.ReplaceAll(validEntry, "word: idiomatic", "word: null"), `field "word": expected a string`},
 		{"numeric text", strings.ReplaceAll(validEntry, "word: idiomatic", "word: 42"), `field "word": expected a string`},
@@ -181,18 +181,18 @@ func TestExportEscapingAndMetadata(t *testing.T) {
 	if err != nil {
 		t.Fatal(err)
 	}
-	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:13\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tStudyOrder\tTags\n"
+	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:17\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tStudyOrder\tEtymology\tWordFormation\tMnemonic\tRelatedWords\tTags\n"
 	if !bytes.HasPrefix(data, []byte(headers)) {
 		t.Fatalf("wrong headers: %s", data)
 	}
 	reader := csv.NewReader(bytes.NewReader(data[len(headers):]))
 	reader.Comma = '\t'
-	reader.FieldsPerRecord = 13
+	reader.FieldsPerRecord = 17
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "en_US", "1", "lang-en programming tech"}}
+	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "en_US", "1", "", "", "", "", "lang-en programming tech"}}
 	if !reflect.DeepEqual(rows, want) {
 		t.Fatalf("want %#v, got %#v", want, rows)
 	}
@@ -268,12 +268,12 @@ func TestTTSLanguageExport(t *testing.T) {
 			lines := bytes.SplitN(readExport(t, root), []byte("\n"), 6)
 			reader := csv.NewReader(bytes.NewReader(lines[5]))
 			reader.Comma = '\t'
-			reader.FieldsPerRecord = 13
+			reader.FieldsPerRecord = 17
 			row, err := reader.Read()
 			if err != nil {
 				t.Fatal(err)
 			}
-			if row[0] != "idiomatic-tech" || row[10] != tc.want || row[12] != "lang-"+strings.ToLower(tc.tag) {
+			if row[0] != "idiomatic-tech" || row[10] != tc.want || row[16] != "lang-"+strings.ToLower(tc.tag) {
 				t.Fatalf("row: %v", row)
 			}
 			actual, err := os.ReadFile(filepath.Join(root, "entries/word.yml"))

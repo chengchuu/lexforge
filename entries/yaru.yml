@@ -8,5 +8,7 @@ context: "表示做某事，语气较随意；正式场景常需换用更合适�
 example: "宿題をやります。"
 audio: yaru.mp3
 learning_priority: 2
+related_entries:
+  - yareru
 tags:
   - verb

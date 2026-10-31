@@ -9,6 +9,8 @@ example: "A guard in the shared plugin closure can affect later files."
 notes: "Source: react/react-37836.md."
 audio: closure-tech.mp3
 learning_priority: 2
+related_entries:
+  - disclosure-workflow
 tags:
   - tech
   - compiler

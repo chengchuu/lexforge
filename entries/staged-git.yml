@@ -9,6 +9,8 @@ example: "Review the staged diff before committing."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
 audio: staged-git.mp3
 learning_priority: 2
+related_entries:
+  - unstaged-git
 tags:
   - tech
   - git

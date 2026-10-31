@@ -9,5 +9,7 @@ example: "私は会社員です。"
 notes: "与「社員」区分：会社員侧重职业类别，社員侧重某家公司的成员身份。"
 audio: kaishain.mp3
 learning_priority: 1
+related_entries:
+  - shain
 tags:
   - noun

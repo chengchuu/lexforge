@@ -2,13 +2,13 @@
 
 ## Status and authorization
 
-Planned; not implemented. This document records the design discussed on 2026-10-30.
+Implemented on 2026-10-31 after explicit user approval. This document retains the design discussed on 2026-10-30; verification results are recorded at the end.
 
 The user approved all 21 relationships in the [initial batch](#approved-relationship-batch) on 2026-10-30: E01–E13 and J01–J08. This is content approval for those pairs and authorization to record them here, not approval to implement the feature or edit vocabulary yet.
 
 The user also approved recording the concept-learning design and all five [planning cases](#approved-planning-cases) below. This extends the planned use of existing fields; it does not authorize implementation, entry creation, or additional relationships.
 
-Creating this plan does not authorize schema, vocabulary, exporter, template, or audio changes. Implementation requires explicit approval. Approval to implement the feature does not automatically approve candidate vocabulary relationships or associated mnemonic text; those require content review as described below.
+The user explicitly approved implementation on 2026-10-31. That authorization covers the feature and the previously approved 21 pairs. Additional relationships and mnemonic edits still require content review as described below; the five planning cases are not an authorized entry-import batch.
 
 ## Goal
 
@@ -18,7 +18,7 @@ Use the existing fields for descriptive learning; add no Question, Answer, or Ex
 
 The relationship mechanism applies to the entire multilingual collection. `closure-tech` and `disclosure-workflow` are one pair in the approved initial batch, not a special case in the implementation.
 
-## Current implementation
+## Implementation baseline before this change
 
 - [Entry parsing](../internal/vocabulary/entries.go) requires nonempty `id`, `language`, `word`, `meaning`, `context`, and `example` strings. Unknown fields and empty optional values are rejected.
 - [TSV export](../internal/vocabulary/export.go) produces twelve note fields and tags in column 13. `TTSLanguage` and `StudyOrder` are derived fields.
@@ -278,10 +278,27 @@ Also verify:
 - Associations alone do not alter introduction ranks or prerequisite validation. HTML-like text and literal audio markers remain inert in all new display fields.
 - For the approved initial batch, verify exactly 21 unique pairs and both display directions across the 42 intended entries, without introducing additional associations. Preserve existing prerequisite links, meanings, and recordings.
 - Two builds produce identical bytes, all rows have seventeen columns, and tags occupy column 17.
-- An isolated Anki collection can migrate from the current twelve-field layout, import twice without duplicates, update and clear optional values, and preserve note/card identities, scheduling, and review history.
+- An isolated Anki collection can migrate from the previous twelve-field layout, import twice without duplicates, update and clear optional values, and preserve note/card identities, scheduling, and review history.
 - Missing-field combinations leave no empty sections on card backs, including when both Context and Example are absent. Missing Example also removes its speech control. Long multilingual Notes retain their content and line breaks without truncation and remain readable in light and dark modes on narrow screens. Existing word audio and present-example TTS still work; Meaning and Notes are not sent to TTS.
 - Use synthetic fixtures reflecting the five planning cases to verify field optionality, detailed Notes, and unchanged plain-text escaping without adding real entries. Keep the existing concept examples and the approved relationship batch as separate content scopes.
 - Audio metadata insertion preserves all new source values and unrelated bytes. Existing entries and media remain unchanged outside specifically approved content edits.
 - Documentation links and numbered field mappings agree. Report automated, isolated-backend, and live Anki Desktop/AnkiDroid checks separately; do not claim unperformed playback or visual checks passed.
 
-No implementation or runtime verification has been performed by creating this plan.
+Implementation and verification are recorded below; the original plan creation itself did not perform runtime checks.
+
+
+## Implementation verification — 2026-10-31
+
+Implemented optional memory-aid fields, optional Context and Example, strict association validation, deterministic direct bidirectional displays, and the sixteen-field Anki layout with tags in column 17. Updated the README templates, field table, maintenance instructions, and migration guide. Applied the approved 21 relationships once each across 42 existing entries. Added no concept entries or mnemonic claims and generated no recordings.
+
+Verification results:
+
+- `go test ./...`, `go vet ./...`, vocabulary validation, and `git diff --check` passed. Validation loaded 530 entries; the five existing warnings for distinct senses remain.
+- Two builds produced identical bytes: 530 seventeen-column rows with exactly 42 nonempty RelatedWords fields for the 21 approved pairs.
+- A build of the previous Git revision in an isolated temporary directory confirmed that the first twelve columns, tags, row order, and StudyOrder values remain unchanged.
+- Removing only the inserted relationship lines reproduced every original entry's bytes. All existing media hashes remain unchanged.
+- Regression tests cover blank optional text, invalid types and control characters, relationship errors, reciprocal declarations and cycles, direct-neighbor displays, ordering, escaping, updates/removals, and audio metadata preservation.
+- Static checks exercised 256 combinations of optional back-template fields, including absent Context and Example and their TTS controls. These checks do not establish native Anki rendering or playback.
+- Local documentation links and anchors were checked. Existing command blocks and the approved relationship table were preserved.
+
+An isolated Anki backend import/migration test could not run: installing its temporary Python dependencies failed through the configured proxy and then timed out on a direct download. Empty-value clearing, note/card identity and review-history preservation through actual import, and live Anki Desktop/AnkiDroid appearance and playback remain unverified. Follow the migration guide in a separate profile before updating the personal collection. No personal Anki data was accessed.

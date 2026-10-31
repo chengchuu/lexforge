@@ -371,6 +371,8 @@ func checkAudioInsertion(before, after []byte, filename string) ([]byte, error) 
 		original.Pronunciation != updated.Pronunciation || original.PartOfSpeech != updated.PartOfSpeech ||
 		original.Meaning != updated.Meaning || original.Context != updated.Context ||
 		original.Example != updated.Example || original.Notes != updated.Notes ||
+		original.Etymology != updated.Etymology || original.WordFormation != updated.WordFormation || original.Mnemonic != updated.Mnemonic ||
+		original.LearningPriority != updated.LearningPriority || !slices.Equal(original.Prerequisites, updated.Prerequisites) || !slices.Equal(original.RelatedEntries, updated.RelatedEntries) ||
 		original.Audio != updated.Audio || !slices.Equal(original.Tags, updated.Tags) {
 		return nil, errors.New("audio insertion would change other YAML values; source was not modified")
 	}

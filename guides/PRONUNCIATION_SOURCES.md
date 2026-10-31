@@ -22,7 +22,7 @@ No American IPA was established for **accessor**, **iterable**, or **symlink**. 
 
 ## Apply the updated content in Anki
 
-Use the existing multilingual LexForge note type and the current field mapping from the [README](../README.md#set-up-anki-once): twelve note fields, including derived `TTSLanguage` and `StudyOrder`, followed by tags in column 13. Reimport the rebuilt `dist/vocabulary.tsv`, choose to update existing notes using the first `ID` field and note-type match scope, then sync Anki Desktop and AnkiDroid. Keep the existing note type and notes to preserve scheduling. The front template already includes conditional pronunciation and audio fields; no template change or new media copy is needed for this pronunciation update once the current README setup is in place.
+Use the existing multilingual LexForge note type and the current field mapping from the [README](../README.md#set-up-anki-once): sixteen note fields, including derived `TTSLanguage`, `StudyOrder`, and `RelatedWords`, followed by tags in column 17. Reimport the rebuilt `dist/vocabulary.tsv`, choose to update existing notes using the first `ID` field and note-type match scope, then sync Anki Desktop and AnkiDroid. Keep the existing note type and notes to preserve scheduling. The front template already includes conditional pronunciation and audio fields; no template change or new media copy is needed for this pronunciation update once the current README setup is in place.
 
 ## Verification
 

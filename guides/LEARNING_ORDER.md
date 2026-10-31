@@ -37,7 +37,7 @@ This classification can evolve as study priorities change. Edit only the relevan
 
 ## Anki application
 
-The export now has twelve note fields plus tags in column 13. Add `StudyOrder` after `TTSLanguage` and select it as the browser sort field; keep `ID` first for import matching. Import the complete export, then use the [README procedure](../README.md#apply-the-order-in-anki) to sort and reposition new cards.
+The export now has sixteen note fields plus tags in column 17. Add `StudyOrder` after `TTSLanguage` and select it as the browser sort field; keep `ID` first for import matching. Import the complete export, then use the [README procedure](../README.md#apply-the-order-in-anki) to sort and reposition new cards.
 
 Anki retains learning state and review scheduling. Prerequisites do not imply mastery, unlock cards, or override suspended cards, deck selection, or daily limits. Previously introduced cards continue their existing schedules.
 

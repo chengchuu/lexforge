@@ -5,7 +5,7 @@ Open Codex in the repository root and use the following prompt. Replace the plac
 ```text
 Add the following vocabulary to LexForge.
 
-Words or expressions:
+Words, expressions, or concepts:
 - <word or expression>
 
 Language: <English, Japanese, Korean, or another language>
@@ -29,8 +29,16 @@ inflections and natural plural forms. Report any grouping decisions.
 
 For each entry:
 - Use a globally unique stable ID and lowercase kebab-case filename.
-- Add a concise Chinese meaning, practical context, and a natural
-  example in the vocabulary's language.
+- Add a self-contained Chinese meaning or short explanation of a principle.
+  Include context and a natural example in the entry's language only when useful.
+  Use Notes for detailed steps, reasoning, limitations, and sources; do not
+  truncate useful notes. Put Chinese walkthroughs there, outside Example TTS.
+- Add verified etymology or word formation only when useful. Distinguish
+  historical facts from mnemonics and preserve source titles and URLs in Notes.
+- Propose related_entries candidates with both stable IDs, words, meanings,
+  rationale, and confusion risks. Write only human-approved pairs; the exporter
+  displays them both ways. Get approval for accompanying mnemonic edits.
+  Associations do not imply prerequisites.
 - Reuse relevant existing vocabulary in the same language when it fits
   naturally in the example. Otherwise, use a more suitable example freely.
   Accuracy, naturalness, and practical context take priority over reuse;

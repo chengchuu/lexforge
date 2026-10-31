@@ -9,6 +9,8 @@ example: "Preserve the existing error messages when updating the parser."
 notes: "Source: react/react-37721.md. Pattern: preserve X while Y. Preserve the public API while fixing the parser. Pattern: without changing X. Fix the parser without changing the public API."
 audio: preserve-tech.mp3
 learning_priority: 1
+related_entries:
+  - retain-tech
 tags:
   - tech
   - programming

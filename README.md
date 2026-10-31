@@ -70,15 +70,21 @@ The exporter adds a lowercase `lang-<canonical-tag>` Anki tag and removes duplic
 
 For Japanese, `word: 確認` and `pronunciation: かくにん` show 確認 and its kana reading on both sides. Use a Japanese example, such as 設定を確認してください。 Meanings remain concise Chinese. Romanized Japanese readings, furigana markup, and pitch-accent fields are not required.
 
-Required string fields are `id`, `language`, `word`, `meaning`, `context`, and `example`.
+Required string fields are `id`, `language`, `word`, and `meaning`. Word can name a word, expression, term, or concept. Meaning gives a self-contained Chinese definition or short explanation of its principle; no question-and-answer fields are needed.
 
-Optional string fields are `pronunciation`, `part_of_speech`, `notes`, and `audio`. The optional `tags` field is a list of strings. `learning_priority` is an optional integer from 1 to 3 (default: 2); `prerequisites` is an optional list of stable entry IDs. Omit unused optional fields; empty strings, nulls, and empty lists fail validation.
+Optional string fields are `context`, `example`, `etymology`, `word_formation`, `mnemonic`, `pronunciation`, `part_of_speech`, `notes`, and `audio`. For the first five fields, omission, empty or whitespace-only strings, and YAML null mean absent. Other optional fields must be nonempty when supplied. The optional `tags`, `prerequisites`, and `related_entries` fields are nonempty lists of strings. `learning_priority` is an optional integer from 1 to 3 (default: 2).
+
+Use `etymology` for verified historical origins, `word_formation` for supported construction patterns, and `mnemonic` for memory aids clearly distinguished from fact. Preserve uncertainty and put source titles and URLs in Notes. Notes can hold detailed explanations, steps, comparisons, and sources; it appears in full at the bottom of the back, without a length limit or collapse control. Keep the core explanation in Meaning. Context and Example can be omitted when they add no useful information.
+
+Use `related_entries` for human-approved associations with existing stable IDs. Declaring a pair once displays both entries' current Word and Meaning on each other's backs. Only direct neighbors appear, sorted by stable ID; cross-language neighbors include their language tag. Reciprocal declarations deduplicate, and cycles are allowed. Missing targets, self-links, duplicate list members, and malformed IDs fail validation. Associations do not change prerequisites or learning order. If both endpoints declare a pair, remove both declarations to remove it, then rebuild and reimport the complete collection. Codex can propose candidates, but only approved pairs enter source data; explanatory mnemonic edits need content approval too.
+
+For example, `related_entries: [disclosure-workflow]` on `closure-tech` supplies both display directions. These particular senses are not opposites. Related entries display as text, without cross-card navigation.
 
 - Use lowercase letters, digits, and single separating hyphens for IDs, filename stems, and tags.
 - Keep one YAML mapping in each file directly under `entries/`. Nested directories, symlinks, aliases, merge keys, unknown fields, and duplicate keys are rejected. Dot-prefixed files are ignored.
 - Quote text that YAML would interpret as a number or boolean, and text containing `: ` or other YAML syntax.
 - Tabs and line breaks are supported in text; other control characters are rejected.
-- Use concise Chinese meanings and practical context; examples use the entry’s language. Keep text as plain text, not HTML or Markdown formatting.
+- Use concise Chinese meanings and optional practical context; examples, when present, use the entry’s language. Put Chinese walkthroughs or symbolic traces in Notes rather than sending them to Example TTS. Keep text as plain text, not HTML or Markdown formatting.
 - Use verified IPA for English and kana readings for Japanese; omit uncertain pronunciation. The sample IPA comes from the project specification; other samples omit it.
 - Use `audio: <id>.mp3` only after adding the corresponding file to `media/`.
 
@@ -116,7 +122,7 @@ The exporter derives `StudyOrder`: a unique, zero-padded rank shared across all 
 Import order alone does not rearrange existing new cards. Anki's [Sort Field](https://docs.ankiweb.net/editing.html#customizing-fields) and [Reposition](https://docs.ankiweb.net/browsing.html#cards) controls apply the generated ranks:
 
 1. In **Tools → Manage Note Types → LexForge → Fields**, add `StudyOrder` after `TTSLanguage` if missing. Select `StudyOrder` and enable **Sort by this field in the browser**. Keep `ID` as the first field for import matching; choosing the sort field does not move it.
-2. Build and [import the complete TSV](#import-and-update), updating existing notes. Verify `StudyOrder` maps to column 12 and tags to column 13.
+2. Build and [import the complete TSV](#import-and-update), updating existing notes. Verify `StudyOrder` maps to column 12 and tags to column 17.
 3. In the deck's options, use **Sequential** insertion order, **Ascending position** for **New card gather order**, and **Order gathered** for **New card sort order**. Set insertion order before repositioning: changing it can reorder existing new cards. These are Anki's [display-order settings](https://docs.ankiweb.net/deck-options.html#display-order).
 4. Empty any filtered decks containing these cards. In **Browse**, use **Cards** mode and search `note:LexForge is:new`. Show **Sort Field** and **Due** columns; sort **Sort Field** ascending. Confirm the ranks increase from top to bottom.
 5. Select all results and choose **Cards → Reposition**. Set the start position to **1**, step to **1**, and turn off **Randomize order** and **Shift position of existing cards**. Check that the Due positions now increase in the same order.
@@ -128,25 +134,30 @@ Keep the `is:new` filter. Do not reset learned cards or use **Set Due Date** for
 
 ## Set up Anki once
 
-Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains thirteen columns: twelve note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
+Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains seventeen columns: sixteen note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
 1. In **Tools → Manage Note Types**, clone the **Basic** note type and name it `LexForge`.
 2. In **Fields**, rename `Front` to `ID` and `Back` to `Language`. Add the remaining fields in this exact order:
 
-   ```text
-   ID
-   Language
-   Word
-   Pronunciation
-   PartOfSpeech
-   Meaning
-   Context
-   Example
-   Notes
-   Audio
-   TTSLanguage
-   StudyOrder
-   ```
+   | No. | Field         |
+   |:----|:--------------|
+   | 1   | ID            |
+   | 2   | Language      |
+   | 3   | Word          |
+   | 4   | Pronunciation |
+   | 5   | PartOfSpeech  |
+   | 6   | Meaning       |
+   | 7   | Context       |
+   | 8   | Example       |
+   | 9   | Notes         |
+   | 10  | Audio         |
+   | 11  | TTSLanguage   |
+   | 12  | StudyOrder    |
+   | 13  | Etymology     |
+   | 14  | WordFormation |
+   | 15  | Mnemonic      |
+   | 16  | RelatedWords  |
+
 
 3. Keep `ID` first. Select `StudyOrder` as the browser sort field. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID.
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
@@ -195,10 +206,14 @@ Back template:
 </div>
 {{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
 <div class="meaning">{{Meaning}}</div>
-<div class="context">{{Context}}</div>
-<div class="example">{{Example}}
-{{#Example}}{{#TTSLanguage}}<span class="example-speech">[anki:tts lang={{TTSLanguage}}]{{Example}}[/anki:tts]</span>{{/TTSLanguage}}{{/Example}}
-</div>
+{{#Context}}<div class="context">{{Context}}</div>{{/Context}}
+{{#Example}}<div class="example">{{Example}}
+{{#TTSLanguage}}<span class="example-speech">[anki:tts lang={{TTSLanguage}}]{{Example}}[/anki:tts]</span>{{/TTSLanguage}}
+</div>{{/Example}}
+{{#Etymology}}<div class="memory-aid"><strong>词源</strong><br>{{Etymology}}</div>{{/Etymology}}
+{{#WordFormation}}<div class="memory-aid"><strong>构词</strong><br>{{WordFormation}}</div>{{/WordFormation}}
+{{#Mnemonic}}<div class="memory-aid"><strong>助记</strong><br>{{Mnemonic}}</div>{{/Mnemonic}}
+{{#RelatedWords}}<div class="memory-aid"><strong>相关词条</strong><br>{{RelatedWords}}</div>{{/RelatedWords}}
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
 <script>
 (function () {
@@ -396,6 +411,7 @@ Styling:
 
 .context,
 .example,
+.memory-aid,
 .notes {
   box-sizing: border-box;
   max-width: 42rem;
@@ -425,7 +441,7 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, context, the example, and notes. Japanese pronunciation uses kana.
+The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context and example, memory aids, related entries, and notes. Absent sections leave no labels, spacing, or replay controls. Meaning and Notes are not read by example TTS. Japanese pronunciation uses kana.
 
 Both sides render pronunciation and word audio explicitly, once per side. They share a row: long readings wrap while the native replay icon stays beside the reading. Missing pronunciation or audio fields do not leave an empty row.
 
@@ -465,7 +481,7 @@ These are AnkiDroid controls outside the card content. Change their size in the 
 
 1. Build `dist/vocabulary.tsv`.
 2. In Anki Desktop, import the TSV and select the `LexForge` note type and your deck.
-3. Verify the preview: tab separator, HTML enabled, columns 1–12 mapped to the matching fields, and column 13 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
+3. Verify the preview: tab separator, HTML enabled, columns 1–16 mapped to the matching fields, and column 17 mapped to Anki tags. The export headers supply these defaults, but the note type must already exist.
 4. Choose to **update** existing notes. Use **note type** as the match scope, rather than note type and deck. Keep these settings for later imports.
 5. Import, inspect a card, and sync with AnkiWeb. Then sync AnkiDroid to review on mobile.
 

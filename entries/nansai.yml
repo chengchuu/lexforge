@@ -8,6 +8,8 @@ context: "直接询问年龄；礼貌说法可用「おいくつ」。"
 example: "弟さんは何歳ですか。"
 audio: nansai.mp3
 learning_priority: 1
+related_entries:
+  - oikutsu
 tags:
   - phrase
   - counter

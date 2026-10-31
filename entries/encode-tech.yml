@@ -9,6 +9,8 @@ example: "Encode lone surrogates using the marker format."
 notes: "Source: react/react-c-rust-compiler.md. Related form: encoding. Source wording: encoding lone surrogates."
 audio: encode-tech.mp3
 learning_priority: 1
+related_entries:
+  - decode-tech
 tags:
   - tech
   - unicode

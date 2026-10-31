@@ -10,6 +10,8 @@ audio: ano-hito.mp3
 learning_priority: 1
 prerequisites:
   - hito
+related_entries:
+  - ano-kata
 tags:
   - phrase
   - daily

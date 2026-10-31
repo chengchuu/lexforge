@@ -9,6 +9,8 @@ example: "The compiler infers the class name from its surrounding expression."
 notes: "Source: typescript/typescript-a-62854.md. Related form: inferred."
 audio: infer-tech.mp3
 learning_priority: 2
+related_entries:
+  - imply-general
 tags:
   - tech
   - programming

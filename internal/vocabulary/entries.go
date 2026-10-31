@@ -27,6 +27,10 @@ type Entry struct {
 	Context          string
 	Example          string
 	Notes            string
+	Etymology        string
+	WordFormation    string
+	Mnemonic         string
+	RelatedEntries   []string
 	Audio            string
 	Tags             []string
 	LearningPriority int
@@ -101,6 +105,9 @@ func Load(root string) ([]Entry, []string, error) {
 	if err := validatePrerequisites(entries); err != nil {
 		return nil, warnings, err
 	}
+	if err := validateRelatedEntries(entries); err != nil {
+		return nil, warnings, err
+	}
 	return entries, warnings, nil
 }
 
@@ -128,7 +135,7 @@ func parse(data []byte) (Entry, error) {
 		"id": &entry.ID, "language": &entry.Language, "word": &entry.Word, "pronunciation": &entry.Pronunciation,
 		"part_of_speech": &entry.PartOfSpeech, "meaning": &entry.Meaning,
 		"context": &entry.Context, "example": &entry.Example, "notes": &entry.Notes,
-		"audio": &entry.Audio,
+		"audio": &entry.Audio, "etymology": &entry.Etymology, "word_formation": &entry.WordFormation, "mnemonic": &entry.Mnemonic,
 	}
 	seen := make(map[string]bool)
 	nodes := document.Content[0].Content
@@ -151,15 +158,19 @@ func parse(data []byte) (Entry, error) {
 			}
 			continue
 		}
-		if name == "prerequisites" {
+		if name == "prerequisites" || name == "related_entries" {
+			destination := &entry.Prerequisites
+			if name == "related_entries" {
+				destination = &entry.RelatedEntries
+			}
 			if value.Kind != yaml.SequenceNode || value.Tag != "!!seq" || len(value.Content) == 0 {
-				return entry, errors.New(`field "prerequisites": expected a nonempty list of IDs; omit when unused`)
+				return entry, fmt.Errorf("field %q: expected a nonempty list of IDs; omit when unused", name)
 			}
 			for _, id := range value.Content {
 				if id.Kind != yaml.ScalarNode || id.Tag != "!!str" || !kebabCase.MatchString(id.Value) {
-					return entry, errors.New(`field "prerequisites": each ID must be a lowercase kebab-case string`)
+					return entry, fmt.Errorf("field %q: each ID must be a lowercase kebab-case string", name)
 				}
-				entry.Prerequisites = append(entry.Prerequisites, id.Value)
+				*destination = append(*destination, id.Value)
 			}
 			continue
 		}
@@ -179,20 +190,27 @@ func parse(data []byte) (Entry, error) {
 		if !ok {
 			return entry, fmt.Errorf("line %d: unknown field %q; check the schema in README.md", key.Line, name)
 		}
+		optionalText := name == "context" || name == "example" || name == "etymology" || name == "word_formation" || name == "mnemonic"
+		if optionalText && value.Kind == yaml.ScalarNode && value.Tag == "!!null" {
+			continue
+		}
 		if value.Kind != yaml.ScalarNode || value.Tag != "!!str" {
 			return entry, fmt.Errorf("field %q: expected a string (quote numeric or boolean text); aliases are not supported", name)
-		}
-		if strings.TrimSpace(value.Value) == "" {
-			return entry, fmt.Errorf("field %q: must not be empty; omit unused optional fields", name)
 		}
 		for _, character := range value.Value {
 			if unicode.IsControl(character) && character != '\t' && character != '\n' && character != '\r' {
 				return entry, fmt.Errorf("field %q: unsupported control character %U; remove it", name, character)
 			}
 		}
+		if strings.TrimSpace(value.Value) == "" {
+			if optionalText {
+				continue
+			}
+			return entry, fmt.Errorf("field %q: must not be empty; omit unused optional fields", name)
+		}
 		*destination = value.Value
 	}
-	for _, name := range []string{"id", "language", "word", "meaning", "context", "example"} {
+	for _, name := range []string{"id", "language", "word", "meaning"} {
 		if !seen[name] {
 			return entry, fmt.Errorf("missing required field %q", name)
 		}
