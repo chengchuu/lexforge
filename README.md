@@ -7,7 +7,6 @@ LexForge turns vocabulary encountered during everyday work into Anki cards with 
   - [Add vocabulary with Codex](#add-vocabulary-with-codex)
   - [Entry schema](#entry-schema)
 - [Learning order](#learning-order)
-  - [Apply the order in Anki](#apply-the-order-in-anki)
 - [Set up Anki once](#set-up-anki-once)
   - [Example speech](#example-speech)
   - [Larger AnkiDroid answer buttons](#larger-ankidroid-answer-buttons)
@@ -64,73 +63,11 @@ Use the [Add vocabulary with Codex guide](guides/ADD_VOCABULARY_WITH_CODEX.md) f
 
 ### Entry schema
 
-`language` is a BCP 47 tag, parsed with `golang.org/x/text/language` v0.38.0. Use `en`, `ja`, `ko`, `fr`, or a more specific tag such as `en-US` or `zh-Hant`. Underscores are rejected. Parser errors, including unknown subtags, fail validation. Case and deprecated aliases are canonicalized internally and in exports, without rewriting source spelling. Valid private-use tags and extensions are accepted according to the parser; they do not guarantee an available speech voice.
-
-The exporter adds a lowercase `lang-<canonical-tag>` Anki tag and removes duplicates from the combined tag list. IDs remain globally unique across languages. Use descriptive Latin kebab-case filenames for Japanese and Korean entries too.
-
-For Japanese, `word: 確認` and `pronunciation: かくにん` show 確認 and its kana reading on both sides. Use a Japanese example, such as 設定を確認してください。 Meanings remain concise Chinese. Romanized Japanese readings, furigana markup, and pitch-accent fields are not required.
-
-Required string fields are `id`, `language`, `word`, and `meaning`. Word can name a word, expression, term, or concept. Meaning gives a self-contained Chinese definition or short explanation of its principle; no question-and-answer fields are needed.
-
-Optional string fields are `context`, `example`, `etymology`, `word_formation`, `mnemonic`, `pronunciation`, `part_of_speech`, `notes`, and `audio`. For the first five fields, omission, empty or whitespace-only strings, and YAML null mean absent. Other optional fields must be nonempty when supplied. The optional `tags`, `prerequisites`, and `related_entries` fields are nonempty lists of strings. `learning_priority` is an optional integer from 1 to 3 (default: 2).
-
-Use `etymology` for verified historical origins, `word_formation` for supported construction patterns, and `mnemonic` for memory aids clearly distinguished from fact. Preserve uncertainty and put source titles and URLs in Notes. Notes can hold detailed explanations, steps, comparisons, and sources; it appears in full at the bottom of the back, without a length limit or collapse control. Keep the core explanation in Meaning. Context and Example can be omitted when they add no useful information.
-
-Use `related_entries` for human-approved associations with existing stable IDs. Declaring a pair once displays both entries' current Word and Meaning on each other's backs. Only direct neighbors appear, sorted by stable ID; cross-language neighbors include their language tag. Reciprocal declarations deduplicate, and cycles are allowed. Missing targets, self-links, duplicate list members, and malformed IDs fail validation. Associations do not change prerequisites or learning order. If both endpoints declare a pair, remove both declarations to remove it, then rebuild and reimport the complete collection. Codex can propose candidates, but only approved pairs enter source data; explanatory mnemonic edits need content approval too.
-
-For example, `related_entries: [disclosure-workflow]` on `closure-tech` supplies both display directions. These particular senses are not opposites. Related entries display as text, without cross-card navigation.
-
-- Use lowercase letters, digits, and single separating hyphens for IDs, filename stems, and tags.
-- Keep one YAML mapping in each file directly under `entries/`. Nested directories, symlinks, aliases, merge keys, unknown fields, and duplicate keys are rejected. Dot-prefixed files are ignored.
-- Quote text that YAML would interpret as a number or boolean, and text containing `: ` or other YAML syntax.
-- Tabs and line breaks are supported in text; other control characters are rejected.
-- Use concise Chinese meanings and optional practical context; examples, when present, use the entry’s language. Put Chinese walkthroughs or symbolic traces in Notes rather than sending them to Example TTS. Keep text as plain text, not HTML or Markdown formatting.
-- Use verified IPA for English and kana readings for Japanese; omit uncertain pronunciation. The sample IPA comes from the project specification; other samples omit it.
-- Use `audio: <id>.mp3` only after adding the corresponding file to `media/`.
-
-Validation rejects missing or blank required fields, incorrect types, invalid names or tags, duplicate IDs or tags, and missing or empty referenced audio files. Errors go to stderr and return a nonzero exit status.
-
-Learning metadata validation also rejects invalid priorities, malformed or repeated prerequisite IDs, missing entries, self-references, and dependency cycles. Cycle errors include the involved IDs.
-
-Repeated words within the same canonical language tag produce warnings for human review, including when their capitalization or whitespace differs. Distinct meanings remain valid. This check does not infer semantic equivalence or detect synonyms. Warnings do not block a build.
+Use the [Entry schema guide](guides/ENTRY_SCHEMA.md) for field definitions and validation rules. It covers required and optional fields, language tags, memory aids, related entries, and source formatting.
 
 ## Learning order
 
-LexForge proposes an introduction order using editorial priorities and selected prerequisites. These describe the content, not your current mastery, and are not CEFR or JLPT levels.
-
-- `1`: foundations and early practical use, including common words, greetings, and useful everyday patterns.
-- `2`: standard or applied vocabulary; the default when the field is omitted.
-- `3`: specialized concepts, less common forms, and complex quotations.
-
-Use prerequisites where learning another existing item first helps explain the target. For example, `mashed-potatoes-food` depends on `potato-food` and `mashed-food`:
-
-```yaml
-learning_priority: 2
-prerequisites:
-  - potato-food
-  - mashed-food
-```
-
-A short technical term can be advanced; a longer greeting can be foundational. Do not split fixed expressions or link every word in an example. Select dependencies by meaning and grammatical relationship, not shared spelling. Keep example-vocabulary reuse optional.
-
-The build repeatedly selects an entry whose prerequisites have already been placed, preferring the lowest priority number and then stable ID for ties. Prerequisites take precedence over priority. Unrelated entries of equal priority still use ID order; the result is a deterministic starting curriculum, not a precisely measured difficulty scale or a guarantee that related cards are adjacent.
-
-The exporter derives `StudyOrder`: a unique, zero-padded rank shared across all languages. It is not stored in YAML or shown on the cards. Ranks may change when entries or metadata change; IDs remain permanent. Import the complete rebuilt export to refresh ranks consistently. See the [initial classification record](guides/LEARNING_ORDER.md).
-
-### Apply the order in Anki
-
-Import order alone does not rearrange existing new cards. Anki's [Sort Field](https://docs.ankiweb.net/editing.html#customizing-fields) and [Reposition](https://docs.ankiweb.net/browsing.html#cards) controls apply the generated ranks:
-
-1. In **Tools → Manage Note Types → LexForge → Fields**, add `StudyOrder` after `TTSLanguage` if missing. Select `StudyOrder` and enable **Sort by this field in the browser**. Keep `ID` as the first field for import matching; choosing the sort field does not move it.
-2. Build and [import the complete TSV](#import-and-update), updating existing notes. Verify `StudyOrder` maps to column 12 and tags to column 17.
-3. In the deck's options, use **Sequential** insertion order, **Ascending position** for **New card gather order**, and **Order gathered** for **New card sort order**. Set insertion order before repositioning: changing it can reorder existing new cards. These are Anki's [display-order settings](https://docs.ankiweb.net/deck-options.html#display-order).
-4. Empty any filtered decks containing these cards. In **Browse**, use **Cards** mode and search `note:LexForge is:new`. Show **Sort Field** and **Due** columns; sort **Sort Field** ascending. Confirm the ranks increase from top to bottom.
-5. Select all results and choose **Cards → Reposition**. Set the start position to **1**, step to **1**, and turn off **Randomize order** and **Shift position of existing cards**. Check that the Due positions now increase in the same order.
-6. Sync Anki Desktop, then AnkiDroid. After later imports or priority changes, repeat the sort and reposition steps for the remaining new cards.
-
-Use a dedicated LexForge deck so unrelated new cards do not share the same positions. Reposition the whole LexForge new-card selection, including suspended new cards, to avoid position collisions from partial selections. To study languages separately, move each language to a dedicated deck, then apply the same workflow to each entire deck using, for example, `note:LexForge deck:LexForge::Japanese is:new`. Review order is governed by the deck you choose to study; parent-deck daily limits can affect which cards are introduced.
-
-Keep the `is:new` filter. Do not reset learned cards or use **Set Due Date** for this task. Repositioning new cards leaves learning/review cards and their history intact. A prerequisite can still be suspended, excluded from your chosen deck, or not yet mastered: these links order introductions and do not unlock or block cards based on learning state. Changing source metadata does not update Anki until you import and reposition.
+Use the [Learning order guide](guides/LEARNING_ORDER.md) to define introduction priorities and prerequisites and apply the generated order in Anki. It covers StudyOrder, new-card repositioning, and review-history preservation.
 
 ## Set up Anki once
 

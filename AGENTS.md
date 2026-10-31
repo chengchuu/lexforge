@@ -282,7 +282,7 @@ Builds place prerequisites first, then choose the lowest priority number among e
 
 Ranks are unique and zero-padded to the width of the collection size for text sorting in Anki. Dependencies do not guarantee adjacency or mastery. The validator permits cross-language prerequisites; prefer same-language links unless there is a clear learning reason.
 
-These fields describe content, not personal mastery. Anki owns learning state, review scheduling, and history. Use the [README workflow](README.md#apply-the-order-in-anki) to apply ranks to new cards; do not modify a live Anki collection without explicit authorization.
+These fields describe content, not personal mastery. Anki owns learning state, review scheduling, and history. Use the [learning-order workflow](guides/LEARNING_ORDER.md#apply-the-order-in-anki) to apply ranks to new cards; do not modify a live Anki collection without explicit authorization.
 
 ---
 
@@ -1009,8 +1009,9 @@ Do not let documentation drift from implementation.
 Keep task guides under `guides/` with uppercase snake-case filenames. Current navigation:
 
 - [Add vocabulary with Codex](guides/ADD_VOCABULARY_WITH_CODEX.md): reusable prompt and maintenance workflow.
+- [Entry schema](guides/ENTRY_SCHEMA.md): field definitions, content conventions, and validation rules.
 - [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md): updating an existing note type without recreating notes.
-- [Learning order](guides/LEARNING_ORDER.md): ordering model, initial classification, and verification record.
+- [Learning order](guides/LEARNING_ORDER.md): ordering model, Anki repositioning workflow, initial classification, and verification record.
 - Import records, pronunciation sources, and implementation plans in `guides/`: historical decisions and evidence; check their status and current code before treating them as implemented behavior.
 
 Keep the field order, templates, and current commands canonical in the README and link to them from guides. Update affected links and anchors when moving sections. Preserve historical verification counts as historical facts rather than silently rewriting them to current totals.

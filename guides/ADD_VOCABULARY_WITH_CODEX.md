@@ -73,4 +73,4 @@ results, and any pronunciation or audio limitations.
 Do not commit, push, or modify the user's Anki collection.
 ```
 
-See the [entry schema](../README.md#entry-schema), [learning-order rules](../README.md#learning-order), and [audio workflow](../README.md#audio) for the current requirements and commands. After reviewing the changes, [import the generated TSV into Anki](../README.md#import-and-update).
+See the [entry schema](ENTRY_SCHEMA.md), [learning-order rules](LEARNING_ORDER.md), and [audio workflow](../README.md#audio) for the current requirements and commands. After reviewing the changes, [import the generated TSV into Anki](../README.md#import-and-update).
