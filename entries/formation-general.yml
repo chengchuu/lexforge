@@ -1,0 +1,17 @@
+id: formation-general
+language: en
+word: "formation"
+pronunciation: "/fɔːrˈmeɪ.ʃən/"
+part_of_speech: noun
+meaning: "形成；构成"
+context: "指事物形成的过程，或形成后的结构；本条侧重形成与构成义。"
+example: "The guide explains the formation of new words."
+notes: |
+  word formation 指构词，例如通过派生或复合构成词语。Formation 本身不等同于词源，也不是 transformation 的同义词；本条不展开队形等其他含义。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Cambridge Dictionary: formation (US): https://dictionary.cambridge.org/us/dictionary/english/formation
+learning_priority: 2
+audio: formation-general.mp3
+tags:
+  - general
+  - noun

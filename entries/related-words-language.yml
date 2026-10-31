@@ -1,0 +1,18 @@
+id: related-words-language
+language: en
+word: "related words"
+part_of_speech: noun phrase
+meaning: "相关词语；在意义、形式或用法上有联系的词。"
+context: "可用于联想记忆或辨析，但有关联不代表同义、反义或同源。"
+example: "Compare the related words before choosing an example."
+notes: |
+  保留用户提供的复数表达。LexForge 的 RelatedWords 展示已批准关系中的词语和释义；本条只是学习这个表达，不自动建立关联。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Cambridge Dictionary: related: https://dictionary.cambridge.org/dictionary/english/related?q=related_1; Merriam-Webster: word: https://www.merriam-webster.com/dictionary/word
+learning_priority: 2
+prerequisites:
+  - word-general
+audio: related-words-language.mp3
+tags:
+  - general
+  - phrase

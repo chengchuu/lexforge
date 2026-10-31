@@ -1,0 +1,16 @@
+id: context-language
+language: en
+word: "context"
+part_of_speech: noun
+meaning: "语境；上下文；帮助理解含义的背景。"
+context: "指词语所在的前后文或使用情境，本条侧重理解和使用语言时的语境。"
+example: "The context makes the meaning clear."
+notes: |
+  Common usage: in context; out of context。与已有 diagnostic context 的诊断专用语境区分，本条学习更通用的语言含义。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: context: https://www.merriam-webster.com/dictionary/context
+learning_priority: 1
+audio: context-language.mp3
+tags:
+  - general
+  - noun

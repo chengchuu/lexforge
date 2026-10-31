@@ -154,6 +154,7 @@ Back template:
 {{#Mnemonic}}<div class="memory-aid"><strong>助记</strong><br>{{Mnemonic}}</div>{{/Mnemonic}}
 {{#RelatedWords}}<div class="memory-aid"><strong>相关词条</strong><br>{{RelatedWords}}</div>{{/RelatedWords}}
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
+{{#Tags}}<div class="tags">{{Tags}}</div>{{/Tags}}
 <script>
 (function () {
   var card = document.querySelector(".lexforge-card");
@@ -327,7 +328,8 @@ Styling:
 }
 
 .part-of-speech,
-.notes {
+.notes,
+.tags {
   font-size: 19px;
   font-size: clamp(19px, 4.5vw, 20px);
 }
@@ -335,7 +337,8 @@ Styling:
 /* Small metadata uses the body color in light mode for contrast. */
 .nightMode .pronunciation,
 .nightMode .part-of-speech,
-.nightMode .notes {
+.nightMode .notes,
+.nightMode .tags {
   color: var(--color-muted);
 }
 
@@ -351,7 +354,8 @@ Styling:
 .context,
 .example,
 .memory-aid,
-.notes {
+.notes,
+.tags {
   box-sizing: border-box;
   max-width: 42rem;
   margin-top: 16px;
@@ -380,7 +384,9 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context and example, memory aids, related entries, and notes. Absent sections leave no labels, spacing, or replay controls. Meaning and Notes are not read by example TTS. Japanese pronunciation uses kana.
+The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context and example, memory aids, related entries, notes, and all note tags at the bottom. Absent sections leave no labels, spacing, or replay controls. Meaning and Notes are not read by example TTS. Japanese pronunciation uses kana.
+
+Tags use Anki's native `{{Tags}}` special field, including derived language tags such as `lang-en`; do not add a custom field. To display them on existing cards, replace **Back Template** and **Styling** in your installed note type, then sync. This presentation change requires no TSV reimport or audio regeneration.
 
 Both sides render pronunciation and word audio explicitly, once per side. They share a row: long readings wrap while the native replay icon stays beside the reading. Missing pronunciation or audio fields do not leave an empty row.
 

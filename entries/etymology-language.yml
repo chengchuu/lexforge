@@ -1,0 +1,16 @@
+id: etymology-language
+language: en
+word: "etymology"
+part_of_speech: noun
+meaning: "词源；词语的历史来源与演变。"
+context: "用于解释词语从哪里来、如何传入某种语言，以及形式和含义如何变化。"
+example: "Check the etymology before using a historical explanation."
+notes: |
+  词源说明应有历史依据，不能把方便记忆的拆分直接当成真实来源。与现代构词方式、个人助记分别记录。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: etymology: https://www.merriam-webster.com/dictionary/etymology
+learning_priority: 2
+audio: etymology-language.mp3
+tags:
+  - general
+  - noun

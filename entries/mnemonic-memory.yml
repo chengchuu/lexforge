@@ -1,0 +1,16 @@
+id: mnemonic-memory
+language: en
+word: "mnemonic"
+part_of_speech: noun
+meaning: "助记法；帮助记忆的提示或方法。"
+context: "可用联想、缩写或其他提示帮助记忆，但提示本身不一定是事实解释。"
+example: "A mnemonic can help me retain the spelling."
+notes: |
+  这里学习名词用法；也可作形容词，如 mnemonic device。词首 m 不发音。助记应与已核实的词源、构词说明区分，避免把联想当成历史事实。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: mnemonic: https://www.merriam-webster.com/dictionary/mnemonic
+learning_priority: 2
+audio: mnemonic-memory.mp3
+tags:
+  - general
+  - noun

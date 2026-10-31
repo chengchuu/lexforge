@@ -1,0 +1,17 @@
+id: note-general
+language: en
+word: "note"
+pronunciation: "/noʊt/"
+part_of_speech: noun
+meaning: "笔记；注释；补充说明"
+context: "指简短记录或用于解释、提醒的文字，本条学习名词用法。"
+example: "Add a note about the difference between the terms."
+notes: |
+  用户提供的 Notes 是复数形式和界面字段标签；词头使用单数 note。LexForge 的 Notes 可容纳更详细的说明。本条不学习音符、纸币等其他含义。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: note: https://www.merriam-webster.com/dictionary/note; Collins English Dictionary: note (American pronunciation): https://www.collinsdictionary.com/us/dictionary/english/note
+learning_priority: 1
+audio: note-general.mp3
+tags:
+  - general
+  - noun

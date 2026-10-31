@@ -1,0 +1,19 @@
+id: part-of-speech-language
+language: en
+word: "part of speech"
+part_of_speech: noun phrase
+meaning: "词性；按语法功能划分的词语类别。"
+context: "例如 noun、verb 和 adjective，复数为 parts of speech。"
+example: "The part of speech helps explain how the word is used."
+notes: |
+  保留为完整语法术语，不机械拆成 part、of、speech 三张卡。同一词可因具体用法具有不同词性，判断应结合例句。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: part of speech: https://www.merriam-webster.com/dictionary/part%20of%20speech
+learning_priority: 2
+prerequisites:
+  - word-general
+audio: part-of-speech-language.mp3
+tags:
+  - general
+  - grammar
+  - phrase

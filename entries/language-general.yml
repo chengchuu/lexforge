@@ -1,0 +1,16 @@
+id: language-general
+language: en
+word: "language"
+part_of_speech: noun
+meaning: "语言"
+context: "用于交流的语言系统，如英语、日语；本条侧重人类语言，不混入编程语言义。"
+example: "Choose a voice that matches the language."
+notes: |
+  在朗读设置中，language 指要朗读的语言。词条语言、释义使用的语言和设备已安装的语音是不同概念。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: language: https://www.merriam-webster.com/dictionary/language
+learning_priority: 1
+audio: language-general.mp3
+tags:
+  - general
+  - noun

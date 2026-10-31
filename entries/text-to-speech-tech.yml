@@ -1,0 +1,16 @@
+id: text-to-speech-tech
+language: en
+word: "text-to-speech"
+part_of_speech: noun phrase
+meaning: "文本转语音；把书面文字合成为可听语音的技术。"
+context: "常缩写为 TTS，用于朗读文字；不是把录音识别为文字。"
+example: "Text-to-speech reads the example aloud."
+notes: |
+  作为 TTS language 的可复用基础子项。语音合成的语言、语音和可用能力取决于具体系统。不要把生成单词录音与 Anki 播放示例的原生 TTS 混为一谈。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: MDN: SpeechSynthesis: https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis; LexForge README.md, Audio.
+learning_priority: 2
+audio: text-to-speech-tech.mp3
+tags:
+  - tech
+  - phrase

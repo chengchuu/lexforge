@@ -1,0 +1,19 @@
+id: tts-language-tech
+language: en
+word: "TTS language"
+part_of_speech: noun phrase
+meaning: "语音合成语言；文本转语音时使用的语言设置。"
+context: "TTS 是 text-to-speech 的缩写，language 表示朗读所使用的语言。"
+example: "Set the TTS language to match the example."
+notes: |
+  保留缩写 TTS，不拆成三个独立字母词条。LexForge 的 TTSLanguage 是导出的示例朗读语言信息，例如 en_US；有语言设置不代表设备已经安装可用语音。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: MDN: SpeechSynthesis: https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis; LexForge README.md, Audio and Anki setup.
+learning_priority: 2
+prerequisites:
+  - text-to-speech-tech
+  - language-general
+audio: tts-language-tech.mp3
+tags:
+  - tech
+  - phrase

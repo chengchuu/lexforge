@@ -1,0 +1,16 @@
+id: audio-general
+language: en
+word: "audio"
+part_of_speech: noun
+meaning: "音频；录制或传输的声音。"
+context: "在学习工具中可指读音录音或其他声音内容；本条使用名词义。"
+example: "Play the audio to check the pronunciation."
+notes: |
+  audio 也可作形容词，如 audio file。录音是声音资料，pronunciation 是发音或读音，两者并不等同。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: audio: https://www.merriam-webster.com/dictionary/audio
+learning_priority: 1
+audio: audio-general.mp3
+tags:
+  - general
+  - noun

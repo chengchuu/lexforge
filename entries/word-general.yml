@@ -1,0 +1,16 @@
+id: word-general
+language: en
+word: "word"
+part_of_speech: noun
+meaning: "词；单词"
+context: "语言中承载意义的词语单位；复数形式为 words。"
+example: "Use this word in a natural example."
+notes: |
+  LexForge 的 Word 是字段标签，可填写单词、表达、术语或概念名称，并不要求内容只有一个英语单词。Word 与 Formation 在本批分别学习，组合 word formation 指构词。
+  Source: user-supplied LexForge field-label vocabulary.
+  Reference: Merriam-Webster: word: https://www.merriam-webster.com/dictionary/word
+learning_priority: 1
+audio: word-general.mp3
+tags:
+  - general
+  - noun
