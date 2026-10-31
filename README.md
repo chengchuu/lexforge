@@ -136,6 +136,11 @@ Back template:
 <script>
 (function () {
   var card = document.querySelector(".lexforge-card");
+  var tags = card.querySelector(".tags");
+  if (tags && !tags.hasAttribute("data-tags-formatted")) {
+    tags.textContent = tags.textContent.trim().split(/\s+/).join(", ");
+    tags.setAttribute("data-tags-formatted", "true");
+  }
   var example = card.querySelector(".example-speech .replay-button, .example-speech .replaybutton");
   if (example) {
     example.setAttribute("aria-label", "Read example");
@@ -364,7 +369,7 @@ The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/st
 
 The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context and example, memory aids, related entries, notes, and all note tags at the bottom. Absent sections leave no labels, spacing, or replay controls. Meaning and Notes are not read by example TTS. Japanese pronunciation uses kana.
 
-Tags use Anki's native `{{Tags}}` special field, including derived language tags such as `lang-en`; do not add a custom field. To display them on existing cards, replace **Back Template** and **Styling** in your installed note type, then sync. This presentation change requires no TSV reimport or audio regeneration.
+Tags use Anki's native `{{Tags}}` special field, including derived language tags such as `lang-en`; do not add a custom field. The back script separates displayed tags with a comma and a space, leaving actual tags unchanged. To apply the separator update, replace **Back Template** in your installed note type and sync. If your cards do not yet display tags, also copy **Styling**. No TSV reimport or audio regeneration is needed.
 
 Both sides render pronunciation and word audio explicitly, once per side. They share a row: long readings wrap while the native replay icon stays beside the reading. Missing pronunciation or audio fields do not leave an empty row.
 
