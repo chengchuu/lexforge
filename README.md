@@ -17,45 +17,22 @@ LexForge turns vocabulary and concepts encountered during work and learning into
 
 ## Quick start
 
-Install Go 1.25 or later. Run these commands from the repository root:
+Run these commands from the repository root:
 
 ```bash
 go run scripts/validate/main.go
 go run scripts/build/main.go
 ```
 
-The first run downloads any uncached Go dependencies, including the YAML and language-tag parsers. Once the toolchain and dependencies are available locally, these commands can run offline.
+The first run downloads uncached Go dependencies. With the toolchain and dependencies installed, both commands work offline.
 
-The build validates all entries and writes `dist/vocabulary.tsv` in [learning order](#learning-order). Identical sources produce identical output. Failed validation leaves an existing export untouched.
+The build validates all entries and writes a deterministic `dist/vocabulary.tsv` in [learning order](#learning-order). Failed validation preserves the existing export.
 
-`dist/` is ignored by Git. Rebuild it when you want to import a batch into Anki; never edit it manually.
+`dist/` is Git-ignored. Rebuild before importing a batch into Anki; never edit the TSV manually.
 
 ## Add vocabulary during work
 
-1. Search `entries/` for the word and check whether its meaning is already covered.
-2. Create one lowercase kebab-case `.yml` file for a new meaning, or update the existing entry without changing its ID.
-3. Validate, review the diff, and commit the source file.
-4. Build and import a batch when convenient.
-
-Choose one useful learning target per entry. Prefer dictionary headwords where appropriate, while keeping meaningful fixed expressions, grammatical forms, and natural plural forms. Put ordinary sentences and freely assembled descriptions in `example` or `notes`; create a phrase entry when the phrase itself is the learning target. For example, reuse `beef`, `rice`, and `sauce` for a meal description, but keep a useful expression such as `mashed potatoes` or the pattern `Would you like A or B?`. Do not generate every combination of existing words or split phrases solely by length.
-
-For example, `entries/idiomatic.yml` can contain:
-
-```yaml
-id: idiomatic-tech
-language: en
-word: idiomatic
-pronunciation: /ˌɪdiəˈmætɪk/
-part_of_speech: adjective
-meaning: 地道的；惯用的
-context: 符合某种语言、框架或技术生态惯用方式的。
-example: Prefer idiomatic Go code.
-tags:
-  - tech
-  - programming
-```
-
-Use separate IDs and descriptive filenames for distinct meanings, such as `commit-git` and `commit-general`. Changing an ID can create another Anki note. Renaming a source file while preserving its ID does not change its identity.
+Use the [Add vocabulary during work guide](guides/ADD_VOCABULARY_DURING_WORK.md) for the capture workflow, learning-target selection, a YAML example, and validation and export steps.
 
 ### Add vocabulary with Codex
 
