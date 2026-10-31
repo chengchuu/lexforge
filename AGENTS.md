@@ -16,7 +16,7 @@ lexforge
 
 LexForge is a Git-native personal multilingual vocabulary and concept-learning system.
 
-It turns vocabulary encountered during everyday technical work into structured entries for export to Anki and review in AnkiDroid.
+It turns vocabulary and concepts encountered during everyday work and learning into structured entries for export to Anki and review in AnkiDroid.
 
 Primary learning direction:
 
@@ -177,7 +177,7 @@ The commands are thin entry points into `internal/vocabulary/`:
 - `export.go`: Anki TSV encoding, derived fields, and atomic export replacement.
 - `audio.go`: local speech-tool execution, MP3 publication, and source metadata updates.
 - `speech.go`: language-matching voice selection and Japanese speech-input handling.
-- `*_test.go`: validation, ordering, export, multilingual speech, and audio failure-path tests.
+- `*_test.go`: validation, learning order, associations, export, multilingual speech, and audio source-preservation and failure-path tests.
 
 `dist/` is generated and ignored by Git. Card templates and CSS are maintained in the README; there are no dedicated template source files or template-generation commands. Add directories only when needed.
 
@@ -185,7 +185,7 @@ The commands are thin entry points into `internal/vocabulary/`:
 
 ## Vocabulary Schema
 
-The vocabulary schema contains these fields:
+Use the [entry schema guide](guides/ENTRY_SCHEMA.md) for field definitions, content conventions, and validation rules. The implemented source fields are:
 
 ```text
 id
@@ -262,7 +262,7 @@ Optional fields are strings except for `tags`, `prerequisites`, and `related_ent
 
 ## Concept learning and memory aids
 
-Word can name a word, expression, term, or concept. Meaning gives its core definition or concise reasoning; add no Question, Answer, or Explanation fields. Context and Example are optional. Notes supports detailed paragraphs or plain-text steps and appears fully at the bottom of the back. Do not enforce a Notes length limit or add collapse controls. Keep source text plain; the exporter escapes HTML and converts line breaks, without Markdown rendering. Keep Chinese walkthroughs in Notes rather than sending them to Example TTS.
+Word can name a word, expression, term, or concept. Meaning gives its core definition or concise reasoning; add no Question, Answer, or Explanation fields. Context and Example are optional. Notes supports detailed paragraphs or plain-text steps and appears fully at the bottom of the back. Do not enforce a Notes length limit or add collapse controls. Keep source text plain; the exporter escapes HTML and converts line breaks, without Markdown rendering. Keep Chinese walkthroughs in Notes rather than sending them to Example TTS. The back template conditionally renders Context, Example, each memory-aid field, RelatedWords, and Notes. Keep labels and spacing inside their conditions; an absent Example must also hide its TTS control.
 
 Use optional `etymology` for verified historical origins, `word_formation` for supported construction patterns, and `mnemonic` for memory aids. Distinguish history from mnemonic invention and preserve uncertainty. Record source titles and URLs in Notes without replacing provenance.
 
@@ -403,7 +403,7 @@ Do not prioritize an unrelated dictionary meaning when the entry is clearly tech
 
 ## Meaning Language
 
-Use concise Chinese in `meaning` and explain practical usage in `context`. Write `example` in the entry’s language.
+Use concise Chinese in `meaning`. When useful, explain practical usage in Chinese in `context` and write `example` in the entry’s language. Context and Example are optional; do not invent content solely to fill them.
 
 Example:
 
@@ -513,7 +513,7 @@ When asked to add a word:
 
 1. Search existing entries for the same word, language, and meaning.
 2. Reuse a matching entry. For a new meaning, choose a stable ID and create one YAML file.
-3. Add a self-contained Chinese meaning or short principle. Include Context and an Example in the entry’s language only when useful. Use Notes for detailed explanation; preserve useful depth without truncation.
+3. Add a self-contained Chinese meaning or short principle. Include Chinese Context and an Example in the entry’s language only when useful. Use Notes for detailed explanation; preserve useful depth without truncation.
 4. Add relevant tags and pronunciation if reliable. Choose a learning priority and selective prerequisites using the rules above.
 5. If audio is requested, use the audio command to generate or reuse a recording and attach its metadata. Otherwise, leave existing audio unchanged and omit audio for new entries.
 6. Run validation and build the export when appropriate.
@@ -593,6 +593,7 @@ Validation checks for:
 - missing referenced audio files
 - invalid language tags and unsupported fields
 - invalid learning priorities, prerequisite references, and dependency cycles
+- malformed, duplicate, missing, or self-referencing related-entry IDs; association cycles remain valid
 
 Each visible file directly under `entries/` must be a regular lowercase kebab-case `.yml` file containing exactly one YAML mapping. Nested directories, symlinks, aliases, merge keys, duplicate keys, unknown fields, empty optional values outside the five designated text fields, and incorrect field types are rejected. Dot-prefixed entries are ignored; an empty collection fails validation. Text may contain tabs and line breaks, but not other control characters.
 
@@ -744,9 +745,9 @@ go run scripts/audio/main.go --id fuuin-kaijo-reriizu --text-source pronunciatio
 - `--voice` and nonzero `--rate` overrides also require `--id`. A rate of zero uses the language default. Voice selection must match the entry's language; see the [audio workflow](README.md#audio) for defaults and regional overrides.
 - Kana speech mode accepts kana and supported sentence punctuation, omitting only the documented `～` and `〜` placeholders from spoken input. It preserves the original YAML fields and rejects kanji or romaji in the reading used for speech.
 - Referenced recordings are skipped unless `--overwrite` is explicitly requested. An existing unreferenced `<id>.mp3` is decoded before attaching its metadata. Newly generated MP3s must also decode to audio samples before publication.
-- The command preserves unrelated source bytes, checks for concurrent edits, and attempts to roll back the recording if attaching its metadata fails, reporting rollback errors. A batch can retain completed entries when a later entry fails; it is not a collection-wide transaction.
+- The command preserves unrelated source bytes and parsed values, including learning metadata and memory-aid fields, checks for concurrent edits, and attempts to roll back the recording if attaching its metadata fails, reporting rollback errors. A batch can retain completed entries when a later entry fails; it is not a collection-wide transaction.
 
-Build the export after successful audio changes. Example speech is separate: README templates use Anki's native TTS with `TTSLanguage`; no example MP3s are generated. Keep the documented autoplay settings and verify playback on actual devices when changing templates.
+Build the export after successful audio changes. Example speech is separate: README templates use Anki's native TTS only when both Example and TTSLanguage are present; no example MP3s are generated. Meaning and Notes are not sent to TTS. Keep the documented autoplay settings and verify playback on actual devices when changing templates.
 
 ---
 
@@ -1014,7 +1015,7 @@ Keep task guides under `guides/` with uppercase snake-case filenames. Current na
 - [Learning order](guides/LEARNING_ORDER.md): ordering model, Anki repositioning workflow, initial classification, and verification record.
 - Import records, pronunciation sources, and implementation plans in `guides/`: historical decisions and evidence; check their status and current code before treating them as implemented behavior.
 
-Keep the field order, templates, and current commands canonical in the README and link to them from guides. Update affected links and anchors when moving sections. Preserve historical verification counts as historical facts rather than silently rewriting them to current totals.
+Keep the Anki field order, templates, and current commands canonical in the README. Keep source-schema details in the entry schema guide and introduction-order rules and repositioning steps in the learning order guide; the README links to both. Update affected links and anchors when moving sections. Preserve historical verification counts as historical facts rather than silently rewriting them to current totals.
 
 ---
 
@@ -1151,13 +1152,16 @@ Prioritize tests for:
 - TSV escaping
 - Anki audio formatting
 - prerequisite references, cycles, priority ordering, and rank padding
+- optional text omission, empty strings, whitespace, and nulls without relaxing unrelated field rules
+- association validation, reciprocal deduplication, cycles, direct-only bidirectional displays, and deterministic neighbor ordering
+- related-word updates, removal, cross-language labels, and HTML/media-marker escaping
 - language canonicalization, TTS locale mapping, and voice selection
 - kana speech-input punctuation and placeholder handling
 - audio reuse, source preservation, concurrent edits, and failure cleanup
 
 Do not create excessive test infrastructure for trivial code.
 
-Audio pipeline tests simulate speech and encoding tools; they do not establish pronunciation quality or live Anki playback. Report those verification limits explicitly. For documentation-only changes, check local links, anchors, and preserved code blocks rather than adding implementation tests.
+Audio pipeline tests simulate speech and encoding tools; they do not establish pronunciation quality or live Anki playback. Report those verification limits explicitly. For documentation-only changes, check local links, anchors, and preserved code blocks rather than adding implementation tests. When moving content into guides, update inbound links and preserve historical verification records as dated evidence. Static template checks do not establish native Anki rendering, playback, or migration behavior; report those separately.
 
 ---
 

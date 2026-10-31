@@ -61,6 +61,8 @@ Use separate IDs and descriptive filenames for distinct meanings, such as `commi
 
 Use the [Add vocabulary with Codex guide](guides/ADD_VOCABULARY_WITH_CODEX.md) for the reusable prompt. It covers entry reuse, natural examples, learning priorities, optional audio, and validation.
 
+For existing entries, use the [Generate missing audio with Codex guide](guides/GENERATE_MISSING_AUDIO_WITH_CODEX.md) to scan the collection, reuse available recordings, and generate missing pronunciation audio.
+
 ### Entry schema
 
 Use the [Entry schema guide](guides/ENTRY_SCHEMA.md) for field definitions and validation rules. It covers required and optional fields, language tags, memory aids, related entries, and source formatting.
