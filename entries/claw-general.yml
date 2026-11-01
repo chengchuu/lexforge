@@ -1,0 +1,16 @@
+id: claw-general
+language: en
+word: "claw"
+pronunciation: /klɑː/
+part_of_speech: noun
+meaning: "爪；动物的尖爪或龙虾等动物的螯。"
+example: "The lobster raised one claw."
+notes: |
+  本条学习普通名词用法，claws 为常见复数。作为 OpenClaw 的可识别组成词学习，不推定品牌命名史。
+  词义参考: Merriam-Webster《claw》。https://www.merriam-webster.com/dictionary/claw
+  发音参考: Cambridge Dictionary《How to pronounce CLAW in English》，采用所列美式读音。https://dictionary.cambridge.org/us/pronunciation/english/claw
+learning_priority: 2
+audio: claw-general.mp3
+tags:
+  - general
+  - noun

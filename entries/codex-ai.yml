@@ -1,0 +1,22 @@
+id: codex-ai
+language: en
+word: "Codex"
+part_of_speech: proper noun
+meaning: "OpenAI 的 AI 编程智能体。"
+context: "用于理解代码、处理开发任务，并通过运行框架调用工具推进工作。"
+example: "Ask Codex to review the diff before committing the changes."
+notes: |
+  此条按 AI 编程产品学习，不绑定某个模型版本或客户端。Codex 的运行框架与底层模型应区分理解。
+  普通名词 codex 指古代手抄本或装订成册的古籍。这里仅补充同形词义，不据此断言产品的命名来源。
+  学习语境: AI Coding Agent and Harness。
+  来源: OpenAI Developers《Codex as a platform: build on the open agent harness》。https://developers.openai.com/blog/codex-as-a-platform
+  词义参考: Merriam-Webster《codex》。https://www.merriam-webster.com/dictionary/codex
+learning_priority: 2
+prerequisites:
+  - agent-ai
+audio: codex-ai.mp3
+tags:
+  - tech
+  - ai
+  - programming
+  - proper-noun

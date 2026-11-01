@@ -1,0 +1,21 @@
+id: cursor-ai
+language: en
+word: "Cursor"
+part_of_speech: proper noun
+meaning: "用于软件开发的 AI 编辑器与编程智能体产品名称。"
+context: "帮助理解代码库、规划实现、修复问题和审查改动。"
+example: "Open the repository in Cursor and review the proposed changes."
+notes: |
+  大写 Cursor 在这里是产品名称。普通名词 cursor 表示屏幕上标记位置的光标，不能把产品名直接翻译成光标；补充普通词义也不等于确认品牌命名来源。
+  学习语境: AI Coding Agent and Harness。
+  来源: Cursor《Cursor Documentation》。https://cursor.com/docs
+  词义参考: Merriam-Webster《cursor》。https://www.merriam-webster.com/dictionary/cursor
+learning_priority: 2
+prerequisites:
+  - agent-ai
+audio: cursor-ai.mp3
+tags:
+  - tech
+  - ai
+  - programming
+  - proper-noun

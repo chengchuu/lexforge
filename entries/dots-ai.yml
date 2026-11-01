@@ -1,0 +1,22 @@
+id: dots-ai
+language: en
+word: "dots"
+part_of_speech: proper noun
+meaning: "OpenAI 的持续运行型个人智能体产品名称，可围绕用户目标推进任务。"
+context: "这里学习经用户确认的产品名，不把所有个人智能体都称为 dots。"
+example: "Use dots to track a project and review the progress."
+notes: |
+  用户确认本条指 OpenAI 的 dots，保留官方标题中的小写写法，不改成普通名词单数 dot。
+  作为普通英语形式，dots 是 dot 的复数，表示多个点；先学习 dot。这里记录同形词的构成，不断言品牌命名史，也不把个人智能体限定为编程工具。
+  学习语境: AI Coding Agent and Harness。
+  来源: OpenAI《Introducing dots》。https://openai.com/index/introducing-dots/
+  词义参考: Merriam-Webster《dot》。https://www.merriam-webster.com/dictionary/dot
+learning_priority: 2
+prerequisites:
+  - agent-ai
+  - dot-general
+audio: dots-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

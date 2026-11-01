@@ -1,0 +1,18 @@
+id: token-llm
+language: en
+word: "token"
+part_of_speech: noun
+meaning: "词元；语言模型将文本编码后使用的基本处理单位。"
+context: "用于描述模型的输入、输出、上下文长度和用量；不一定对应一个完整单词或一个字符。"
+example: "Keep the token count within the model's context limit."
+notes: |
+  不同模型的分词方式可能不同，同一段文本的词元数量也可能不同，不应把某个字符换算比例当作固定规则。
+  此处不是身份验证凭据，也不是现有 ownership-token-workflow 中用于确认资源所有权的标记。
+  学习语境: AI Coding Agent and Harness。
+  来源: DeepSeek API Docs《Token & Token Usage》。https://api-docs.deepseek.com/quick_start/token_usage/
+learning_priority: 2
+audio: token-llm.mp3
+tags:
+  - tech
+  - ai
+  - noun

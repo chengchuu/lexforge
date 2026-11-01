@@ -1,0 +1,19 @@
+id: gemini-ai
+language: en
+word: "Gemini"
+part_of_speech: proper noun
+meaning: "Google 的多模态 AI 模型系列名称。"
+context: "可用于编程和多模态推理；模型名称与具体助手、API 或命令行工具需要区分。"
+example: "Use Gemini to summarize the context before reviewing the code."
+notes: |
+  保留 Gemini 这一整体专名，不绑定模型版本。Gemini 模型与 Gemini CLI 等应用不是同一层面的概念。
+  普通专名 Gemini 也指双子座，作为辨认名称的补充，不据此推定产品的命名过程。
+  学习语境: AI Coding Agent and Harness。
+  来源: Google AI for Developers《Gemini API》。https://ai.google.dev/gemini-api/docs
+  词义参考: Merriam-Webster《Gemini》。https://www.merriam-webster.com/dictionary/Gemini
+learning_priority: 2
+audio: gemini-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

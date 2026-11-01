@@ -1,0 +1,15 @@
+id: seek-general
+language: en
+word: "seek"
+pronunciation: /siːk/
+part_of_speech: verb
+meaning: "寻找；寻求。"
+example: "Seek clarification before changing the scope."
+notes: |
+  常见搭配有 seek advice 和 seek help。过去式和过去分词都是 sought。作为 DeepSeek 的可识别组成词学习，不推定品牌命名史。
+  来源及发音参考: Merriam-Webster《seek》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/seek
+learning_priority: 2
+audio: seek-general.mp3
+tags:
+  - general
+  - verb

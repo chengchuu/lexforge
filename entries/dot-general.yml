@@ -1,0 +1,15 @@
+id: dot-general
+language: en
+word: "dot"
+pronunciation: /dɑːt/
+part_of_speech: noun
+meaning: "点；小圆点。"
+example: "A red dot marks the position on the map."
+notes: |
+  普通词采用单数词头 dot，复数为 dots。产品名 dots 保留原形并单独学习；普通复数构成不等于已核实的品牌命名来源。
+  来源及发音参考: Merriam-Webster《dot》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/dot
+learning_priority: 1
+audio: dot-general.mp3
+tags:
+  - general
+  - noun

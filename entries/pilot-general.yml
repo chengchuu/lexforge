@@ -1,0 +1,15 @@
+id: pilot-general
+language: en
+word: "pilot"
+pronunciation: /ˈpaɪlət/
+part_of_speech: noun
+meaning: "飞行员；驾驶飞机的人。"
+example: "The pilot checked the controls before takeoff."
+notes: |
+  作为 Copilot 的组成词先学习。本条保留普通名词的飞行员义；copilot 是辅助主驾驶的副驾驶，不等于主驾驶。
+  来源及发音参考: Merriam-Webster《pilot》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/pilot
+learning_priority: 1
+audio: pilot-general.mp3
+tags:
+  - general
+  - noun

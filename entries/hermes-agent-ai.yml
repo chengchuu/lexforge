@@ -1,0 +1,21 @@
+id: hermes-agent-ai
+language: en
+word: "Hermes"
+part_of_speech: proper noun
+meaning: "此处指 Nous Research 的 Hermes Agent，开源 AI 智能体项目。"
+context: "围绕任务调用工具，并支持会话、记忆和技能等智能体能力。"
+example: "Configure Hermes before asking the agent to run a task."
+notes: |
+  用户确认本条指 Hermes Agent，不与同名模型或其他产品混为一谈。保留 Hermes 的整体拼写，不机械拆分。
+  Hermes 也指希腊神话中的赫尔墨斯，是众神的信使；这只是同名专名知识，不作为本项目已核实的命名来源。
+  学习语境: AI Coding Agent and Harness。
+  来源: Nous Research《Hermes Agent》。https://github.com/NousResearch/hermes-agent
+  词义参考: Merriam-Webster《Hermes》。https://www.merriam-webster.com/dictionary/Hermes
+learning_priority: 2
+prerequisites:
+  - agent-ai
+audio: hermes-agent-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

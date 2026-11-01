@@ -1,0 +1,22 @@
+id: copilot-ai
+language: en
+word: "Copilot"
+part_of_speech: proper noun
+meaning: "此处指 GitHub Copilot，用于辅助软件开发的 AI 助手。"
+context: "可用于代码建议、理解代码、审查改动，以及处理委派的开发任务。"
+example: "Use Copilot to explain the function before changing it."
+notes: |
+  本条限定为所给编程语境中的 GitHub Copilot，不把其他同名产品混为一个条目。
+  普通名词 copilot 表示副驾驶，可识别出 co- 与 pilot；co- 在这里有共同、辅助的构词作用。先学习 pilot，但不单独为前缀创建词条，也不据字面构成断言品牌命名史。
+  学习语境: AI Coding Agent and Harness。
+  来源: GitHub Docs《About GitHub Copilot》。https://docs.github.com/en/copilot/get-started/about-github-copilot
+  词义参考: Merriam-Webster《copilot》和《co-》。https://www.merriam-webster.com/dictionary/copilot https://www.merriam-webster.com/dictionary/co-
+learning_priority: 2
+prerequisites:
+  - pilot-general
+audio: copilot-ai.mp3
+tags:
+  - tech
+  - ai
+  - programming
+  - proper-noun

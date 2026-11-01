@@ -1,0 +1,18 @@
+id: grok-ai
+language: en
+word: "Grok"
+part_of_speech: proper noun
+meaning: "Grok 系列 AI 模型及助手的名称。"
+context: "可用于代码、文本等任务；在所给 AI 语境中按产品专名理解。"
+example: "Ask Grok to explain the failure before proposing a fix."
+notes: |
+  大写 Grok 在这里是 AI 专名；小写动词 grok 表示深刻、直觉地理解。普通词义只作补充，不等于对模型实际理解能力的保证，也不是本条已核实的品牌命名史。
+  学习语境: AI Coding Agent and Harness。
+  来源: Grok API Documentation。https://docs.x.ai/overview
+  词义参考: Merriam-Webster《grok》。https://www.merriam-webster.com/dictionary/grok
+learning_priority: 2
+audio: grok-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

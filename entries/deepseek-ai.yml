@@ -1,0 +1,22 @@
+id: deepseek-ai
+language: en
+word: "DeepSeek"
+part_of_speech: proper noun
+meaning: "深度求索；提供 AI 模型及相关服务的品牌。"
+context: "在编程智能体语境中，需要区分 DeepSeek 模型、API 与 DeepSeek Harness 等运行工具。"
+example: "Configure the harness to use a DeepSeek model."
+notes: |
+  名称中可识别 deep 与 seek，分别学习深的、深入的，以及寻找、寻求。DeepSeek 保留品牌拼写，不当作普通英语的固定短语，也不把字面拆解当作已核实的命名史。
+  先学习两个普通子项，再学习整体名称。已有 deep-copy-javascript 指深拷贝，不代替普通形容词 deep 的学习。
+  学习语境: AI Coding Agent and Harness。
+  来源: DeepSeek《深度求索》官网和《Your First API Call》。https://www.deepseek.com/ https://api-docs.deepseek.com/
+  构成词参考: Merriam-Webster《deep》和《seek》。https://www.merriam-webster.com/dictionary/deep https://www.merriam-webster.com/dictionary/seek
+learning_priority: 2
+prerequisites:
+  - deep-general
+  - seek-general
+audio: deepseek-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

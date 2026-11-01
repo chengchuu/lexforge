@@ -1,0 +1,15 @@
+id: open-general
+language: en
+word: "open"
+pronunciation: /ˈoʊpən/
+part_of_speech: adjective
+meaning: "开着的；开放的。"
+example: "The door is open."
+notes: |
+  本条学习形容词用法，不把 open source 等技术组合的完整含义都归入一个普通词义。作为 OpenClaw 的可识别组成词学习，不从字面推断项目的许可或安全属性。
+  来源及发音参考: Merriam-Webster《open》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/open
+learning_priority: 1
+audio: open-general.mp3
+tags:
+  - general
+  - adjective

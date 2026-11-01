@@ -1,0 +1,23 @@
+id: openclaw-ai
+language: en
+word: "OpenClaw"
+part_of_speech: proper noun
+meaning: "可自行部署的开源 AI 助手项目。"
+context: "连接模型、工具和消息渠道，在用户配置的环境中处理任务。"
+example: "Review the tool permissions before running OpenClaw."
+notes: |
+  名称中可识别 open 与 claw，分别学习开放的、开着的，以及爪、螯。先学习两个普通子项，整体仍保留 OpenClaw 的专名含义，不把字面构成当作已核实的命名史。
+  本项目的开源属性依据官方仓库确认，而不是仅从名称里的 open 推断。自行部署也不代表模型推理必然完全离线；实际数据流取决于配置的模型和服务。
+  学习语境: AI Coding Agent and Harness。
+  来源: OpenClaw 官方仓库《OpenClaw — Your assistant, on your devices, in your chats》。https://github.com/openclaw/openclaw
+  构成词参考: Merriam-Webster《open》和《claw》。https://www.merriam-webster.com/dictionary/open https://www.merriam-webster.com/dictionary/claw
+learning_priority: 2
+prerequisites:
+  - agent-ai
+  - open-general
+  - claw-general
+audio: openclaw-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

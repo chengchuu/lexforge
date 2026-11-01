@@ -1,0 +1,16 @@
+id: deep-general
+language: en
+word: "deep"
+pronunciation: /diːp/
+part_of_speech: adjective
+meaning: "深的；深入的。"
+context: "可描述较大的深度，也可描述理解或研究的深入程度。"
+example: "A deep understanding of the context helps explain the failure."
+notes: |
+  作为 DeepSeek 的可识别组成词学习普通形容词用法，不推定品牌命名史。deep copy 是单独的技术概念，已由 deep-copy-javascript 覆盖。
+  来源及发音参考: Merriam-Webster《deep》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/deep
+learning_priority: 1
+audio: deep-general.mp3
+tags:
+  - general
+  - adjective

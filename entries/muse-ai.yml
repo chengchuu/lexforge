@@ -1,0 +1,21 @@
+id: muse-ai
+language: en
+word: "Muse"
+part_of_speech: proper noun
+meaning: "此处指 Meta 的个人 AI 智能体，可围绕用户目标执行多步骤任务。"
+context: "用于持续推进个人任务，不把这个产品名当作所有编程智能体的通称。"
+example: "Ask Muse to organize the tasks and report the progress."
+notes: |
+  用户确认本条指 Meta 的 Muse 个人智能体，不将个人智能体、底层模型 Muse Spark 或其他同名项目混为一谈。
+  普通名词 muse 可指灵感来源；大写 Muse 也可指希腊神话中的缪斯。这里补充同形词义，不据此推定产品的命名来源。
+  学习语境: AI Coding Agent and Harness。
+  来源: Meta《Introducing Muse: The World’s First Personal AI Agent Built for Everyone》。https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/
+  词义参考: Merriam-Webster《muse》。https://www.merriam-webster.com/dictionary/muse
+learning_priority: 2
+prerequisites:
+  - agent-ai
+audio: muse-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

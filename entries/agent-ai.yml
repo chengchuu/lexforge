@@ -1,0 +1,20 @@
+id: agent-ai
+language: en
+word: "agent"
+pronunciation: /ˈeɪdʒənt/
+part_of_speech: noun
+meaning: "智能体；围绕目标选择步骤、调用工具，并根据执行结果继续行动的系统。"
+context: "在 AI 编程中，通常由模型决定下一步行动，并借助工具读取代码、修改文件和运行检查。"
+example: "The agent inspects the repository before editing files."
+notes: |
+  普通词 agent 有代理人、代办者之义；这里学习 AI 系统中的技术用法。智能体可以受到权限、审批和执行环境的约束，不等于完全无人监督。
+  学习语境: AI Coding Agent and Harness。
+  来源: Anthropic《Building effective agents》。https://www.anthropic.com/research/building-effective-agents
+  发音参考: Merriam-Webster《agent》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/agent
+learning_priority: 2
+audio: agent-ai.mp3
+tags:
+  - tech
+  - ai
+  - programming
+  - noun

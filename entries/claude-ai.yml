@@ -1,0 +1,17 @@
+id: claude-ai
+language: en
+word: "Claude"
+part_of_speech: proper noun
+meaning: "Anthropic 的 AI 模型与助手品牌。"
+context: "用于语言、推理、分析和编程任务；需要区分模型名称与围绕模型构建的工具。"
+example: "Ask Claude to explain the tradeoff between the two implementations."
+notes: |
+  所给词形为 Claude，保留整体专名，不机械拆词。编程语境中常见 Claude Code，但 Claude 与 Claude Code 不应当作同一个概念，模型与运行工具也应区分。
+  学习语境: AI Coding Agent and Harness。
+  来源: Claude Platform Docs《Intro to Claude》。https://platform.claude.com/docs/en/intro
+learning_priority: 2
+audio: claude-ai.mp3
+tags:
+  - tech
+  - ai
+  - proper-noun

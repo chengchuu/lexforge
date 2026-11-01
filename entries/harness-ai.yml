@@ -1,0 +1,23 @@
+id: harness-ai
+language: en
+word: "harness"
+pronunciation: /ˈhɑːrnəs/
+part_of_speech: noun
+meaning: "智能体运行框架；连接模型、上下文和工具，并协调执行循环与会话状态的软件层。"
+context: "agent harness 负责让模型提出的动作实际执行，包括工具调用、结果回传和权限处理。"
+example: "The harness returns tool results to the model and maintains session state."
+notes: |
+  模型负责推理和提出工具请求，harness 组织请求的执行并维护状态。harness 不等于模型本身，也不等于运行工具的沙箱。
+  现有 harness-tech 学习测试驱动程序；这里保留独立的 AI 运行框架义项，不覆盖测试含义或原有录音。
+  学习语境: AI Coding Agent and Harness。
+  来源: Visual Studio Code《Understand agent harnesses》。https://code.visualstudio.com/docs/agents/concepts/agent-harnesses
+  发音参考: Merriam-Webster《harness》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/harness
+learning_priority: 3
+prerequisites:
+  - agent-ai
+audio: harness-ai.mp3
+tags:
+  - tech
+  - ai
+  - programming
+  - noun
