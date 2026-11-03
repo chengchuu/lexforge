@@ -13,7 +13,7 @@ Target languages: <English, Japanese, or other languages; default: English>
 Plan file: guides/<TOPIC>_VOCABULARY_IMPORT_PLAN.md
 Generate pronunciation audio after implementation approval: <yes or no; default: no>
 
-Read AGENTS.md, README.md, guides/ENTRY_SCHEMA.md, guides/LEARNING_ORDER.md, and guides/ADD_VOCABULARY_WITH_CODEX.md. Inspect the current implementation and existing entries before proposing changes. Use guides/PR_VOCABULARY_IMPORT.md as a reference for source accounting and grouping, not as a fixed vocabulary list or count target.
+Read AGENTS.md, README.md, guides/ENTRY_SCHEMA.md, guides/LEARNING_ORDER.md, and guides/ADD_VOCABULARY_WITH_CODEX.md. Inspect the current implementation and existing entries before proposing changes.
 
 Inspect Git status and preserve unrelated work. This task authorizes creating or updating the plan only. Do not modify entries, media, implementation, templates, dependencies, or generated exports. Do not stage, commit, push, or modify Anki.
 

@@ -466,8 +466,6 @@ The validator checks the filename and that the file is a nonempty regular file; 
 
 The five original sample pronunciations were generated locally with macOS's Samantha voice (US English) at 150 words per minute and encoded as 96 kbps mono MP3s using LAME through `lameenc` 1.9.0. The `vocabulary` recording and subsequent recordings use LAME CLI. Existing recordings do not need to be regenerated.
 
-The [PR vocabulary import record](guides/PR_VOCABULARY_IMPORT.md) maps the reviewed source vocabulary to entries, grouped forms, and exclusions.
-
 ## Verify changes
 
 ```bash
