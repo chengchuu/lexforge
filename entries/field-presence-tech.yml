@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "字段是否存在"
 context: "检查对象是否具有某个字段，而非仅检查该字段的值是否为真。"
 example: "Field presence checks handle a null dispatcher correctly."
-notes: "Source: react/react-d-compiler.md."
+notes: |-
+  Source: react/react-d-compiler.md.
+
+  来源: MDN: Object.hasOwn()。https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn
+mnemonic: "先问\"字段在不在\"，再问\"值是什么\"。即使值为 false、0、空字符串、null 或 undefined，字段仍可能存在；还要区分自身属性与继承属性。"
 audio: field-presence-tech.mp3
 learning_priority: 2
 tags:

@@ -6,6 +6,10 @@ part_of_speech: noun
 meaning: "研究人员"
 context: "从事研究工作的人，可用于介绍职业或工作身份。"
 example: "兄は大学の研究者です。"
+notes: |-
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 研究 (コトバンク)。https://kotobank.jp/word/研究
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 者 (コトバンク)。https://kotobank.jp/word/者
+word_formation: "研究 + 者 (しゃ)。者 表示从事某种活动的人；研究者 指从事研究的人。"
 audio: kenkyuusha.mp3
 learning_priority: 1
 prerequisites:

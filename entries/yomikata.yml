@@ -6,6 +6,10 @@ part_of_speech: noun
 meaning: "读法"
 context: "指文字、词语或姓名的读法。"
 example: "この名前の読み方を教えてください。"
+notes: |-
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 読み方 (コトバンク)。https://kotobank.jp/word/読み方
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 方 (コトバンク)。https://kotobank.jp/word/方
+word_formation: "読む → 読み + 方 (かた)。読み 是 読む 的连用形；方 在这里表示方式，整体指读法或阅读方式。"
 audio: yomikata.mp3
 learning_priority: 1
 tags:

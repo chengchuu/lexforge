@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: "可据以采取行动的"
 context: "信息足够具体且有证据支持，可以用于决定下一步。"
 example: "Report actionable candidates with reproduction evidence."
-notes: "Source: reports/react-candidates.md."
+notes: |-
+  Source: reports/react-candidates.md.
+
+  来源: Merriam-Webster Dictionary: actionable。https://www.merriam-webster.com/dictionary/actionable
+word_formation: "action + -able。-able 在这里表示可被采取行动处理的；actionable 强调信息能转化为具体行动，不只是值得关注。"
 audio: actionable-tech.mp3
 learning_priority: 1
 tags:

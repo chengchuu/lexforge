@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: "广度优先的"
 context: "先访问同一层的节点，再访问更深层节点。"
 example: "Preserve breadth-first selection when pruning candidates."
-notes: "Source: typescript/typescript-64936.md."
+notes: |-
+  Source: typescript/typescript-64936.md.
+
+  来源: NIST DADS: breadth-first search。https://xlinux.nist.gov/dads/HTML/breadthfirst.html
+word_formation: "breadth + first。breadth 表示广度，first 表示优先；breadth-first 强调先扩展同一层的节点，再进入更深一层。"
 audio: breadth-first-tech.mp3
 learning_priority: 3
 tags:

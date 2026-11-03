@@ -6,7 +6,12 @@ part_of_speech: adjective
 meaning: "未跟踪的"
 context: "文件尚未被 Git 纳入版本跟踪。"
 example: "Read untracked files directly during review."
-notes: "Source: AGENTS.md."
+notes: |-
+  Source: AGENTS.md.
+
+  来源: Merriam-Webster Dictionary: un-。https://www.merriam-webster.com/dictionary/un-
+  来源: Pro Git: Recording Changes to the Repository。https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+word_formation: "un- + tracked。un- 在这里否定已跟踪状态；untracked 指 Git 尚未跟踪的文件，不能与已有文件的未暂存更改混为一谈。"
 audio: untracked-git.mp3
 learning_priority: 2
 tags:

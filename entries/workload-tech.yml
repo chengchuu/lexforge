@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "工作负载"
 context: "程序或测试所处理的任务内容和规模。"
 example: "The benchmark workload does not represent every project."
-notes: "Source: AGENTS.md."
+notes: |-
+  Source: AGENTS.md.
+
+  来源: Merriam-Webster Dictionary: workload。https://www.merriam-webster.com/dictionary/workload
+word_formation: "work + load。load 表示承载的量；workload 指需要执行的工作量或系统承受的任务负载。"
 audio: workload-tech.mp3
 learning_priority: 2
 tags:

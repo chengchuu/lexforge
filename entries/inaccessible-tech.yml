@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: "不可访问的"
 context: "某个类型或成员不能在当前使用位置被引用。"
 example: "Report the inaccessible type argument without crashing."
-notes: "Source: typescript/typescript-64952.md."
+notes: |-
+  Source: typescript/typescript-64952.md.
+
+  来源: Merriam-Webster Dictionary: inaccessible。https://www.merriam-webster.com/dictionary/inaccessible
+word_formation: "in- + accessible。in- 在这里表示否定；inaccessible 指无法访问，原因可能来自权限、位置或可达性。"
 audio: inaccessible-tech.mp3
 learning_priority: 2
 tags:

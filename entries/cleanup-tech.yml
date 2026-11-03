@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "清理"
 context: "释放资源、移除注册或恢复运行状态的收尾操作。"
 example: "Cleanup removes the render counter from the registry."
-notes: "Source: reports/react-candidates.md."
+notes: |-
+  Source: reports/react-candidates.md.
+
+  来源: Merriam-Webster Dictionary: cleanup。https://www.merriam-webster.com/dictionary/cleanup
+word_formation: "clean + up → cleanup。动词短语 clean up 表示清理；名词 cleanup 指清理工作，例如释放资源或移除临时状态。"
 audio: cleanup-tech.mp3
 learning_priority: 1
 tags:

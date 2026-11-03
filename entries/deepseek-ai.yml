@@ -11,6 +11,7 @@ notes: |
   学习语境: AI Coding Agent and Harness。
   来源: DeepSeek《深度求索》官网和《Your First API Call》。https://www.deepseek.com/ https://api-docs.deepseek.com/
   构成词参考: Merriam-Webster《deep》和《seek》。https://www.merriam-webster.com/dictionary/deep https://www.merriam-webster.com/dictionary/seek
+word_formation: "DeepSeek 的拼写中可识别 deep (深的、深入的) 与 seek (寻找、寻求)。这里只提供普通词义线索，不将\"深入寻找\"当作已核实的品牌命名来历。"
 learning_priority: 2
 prerequisites:
   - deep-general

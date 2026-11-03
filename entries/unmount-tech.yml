@@ -6,7 +6,12 @@ part_of_speech: verb
 meaning: "卸载"
 context: "从渲染环境移除组件或根节点并执行相关清理。"
 example: "Unmount the inner root before the outer root."
-notes: "Source: react/react-37721.md."
+notes: |-
+  Source: react/react-37721.md.
+
+  来源: Merriam-Webster Dictionary: un-。https://www.merriam-webster.com/dictionary/un-
+word_formation: "un- + mount。un- 在这里表示撤销原动作；组件 unmount 是从渲染环境中移除，不是卸载软件包。"
+mnemonic: "mount 把组件接入渲染环境，unmount 移除并清理；这里不是软件包的安装与卸载。"
 audio: unmount-tech.mp3
 learning_priority: 2
 prerequisites:

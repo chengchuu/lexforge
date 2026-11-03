@@ -6,7 +6,12 @@ part_of_speech: noun
 meaning: "新世界"
 context: "表示新的世界或全新的领域，具体含义取决于上下文。"
 example: "旅で新世界に触れたような気がしました。"
-notes: "学习来源: 《DEATH NOTE》。"
+notes: |-
+  学习来源: 《DEATH NOTE》。
+
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 新 (コトバンク)。https://kotobank.jp/word/新
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 世界 (コトバンク)。https://kotobank.jp/word/世界
+word_formation: "新 (しん) + 世界 (せかい)。整体读 しんせかい，意为新的世界；具体指什么世界由语境决定。"
 audio: shinsekai.mp3
 learning_priority: 2
 tags:

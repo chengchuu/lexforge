@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "预筛选器"
 context: "在完整处理前先判断哪些输入需要继续处理的步骤。"
 example: "The prefilter must not skip eligible functions."
-notes: "Source: react/react-37871.md."
+notes: |-
+  Source: react/react-37871.md.
+
+  来源: Merriam-Webster Dictionary: prefilter。https://www.merriam-webster.com/dictionary/prefilter
+word_formation: "pre- + filter。pre- 表示预先；当前名词 prefilter 是在后续处理之前先做过滤的预筛选器。"
 audio: prefilter-tech.mp3
 learning_priority: 2
 tags:

@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: "多字节的"
 context: "使用多个字节表示字符或数据单位。"
 example: "The round-trip tests include multibyte text."
-notes: "Source: reports/react-b-plan.md."
+notes: |-
+  Source: reports/react-b-plan.md.
+
+  来源: Merriam-Webster Dictionary: multi-。https://www.merriam-webster.com/dictionary/multi-
+word_formation: "multi- + byte。multi- 表示多个；multibyte 指由多个字节表示或处理，字节数不等于字符数。"
 audio: multibyte-tech.mp3
 learning_priority: 3
 tags:

@@ -6,7 +6,11 @@ part_of_speech: phrase
 meaning: "只是想做而已"
 context: "用愿望形式与「だけ」说明只是自己想做，语气随意。"
 example: "自分でやりたいだけだよ。"
-notes: "やる → やりたい（愿望形式）。所给来源语句：俺がやれることをやりたいだけだよ。 学习来源: 《ウルトラマンティガ》。"
+notes: |-
+  やる → やりたい（愿望形式）。所给来源语句：俺がやれることをやりたいだけだよ。 学习来源: 《ウルトラマンティガ》。
+
+  来源: 東京外国語大学言語モジュール: Vたいです／Vたくありません。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson17/step1/card/067.html
+word_formation: "やる → やり + たい + だけ + だ + よ。やりたい 表示想做，だけ 限定为\"只是\"；整体强调只是想做而已，よ 补充告知或强调语气。"
 audio: yaritai-dake-da-yo.mp3
 learning_priority: 3
 prerequisites:

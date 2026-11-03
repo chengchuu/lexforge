@@ -6,7 +6,7 @@ part_of_speech: proper noun
 meaning: "你呼唤的名字～梦的延续；《続 夏目友人帳》原声曲名。"
 context: "官方收录于《続 夏目友人帳音楽集 いとうるわしきもの》，作为曲名学习构成与修饰关系。"
 example: "「きみが呼ぶなまえ～夢のつづき」を聴いています。"
-notes: |
+notes: |-
   保留用户提供且与官方曲目表一致的平假名、汉字和「～」，不是角色台词或歌词引用。
   构成: きみ（君）＋ が ＋ 呼ぶ ＋ なまえ（名前）；夢 ＋ の ＋ つづき（続き）。
   「きみが呼ぶ」是修饰「なまえ」的分句，意为你呼唤的名字，而不是在呼唤你。这里不擅自补出名字的主人或对应剧情。
@@ -16,6 +16,10 @@ notes: |
   音频是本地生成的曲名读音，不是原曲音乐、演唱或角色录音。
   Source: user-supplied title, encountered in 夏目友人帳.
   Reference: Aniplex《夏目友人帳》官方 CD 页，「続 夏目友人帳音楽集 いとうるわしきもの」曲目 1: https://www.aniplex.co.jp/natsume/cd/02.html
+
+  来源: 東京外国語大学言語モジュール: V＋N。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson20/step2/card/079.html
+  来源: 東京外国語大学言語モジュール: NのN。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson03/step1/card/008.html
+word_formation: "きみが呼ぶ + なまえ；夢 + の + つづき。前半是\"你呼唤的名字\"，后半是\"梦的延续\"；きみが呼ぶ 修饰 なまえ，标题中的 ～ 分隔两部分，不表示\"从……到……\"。"
 learning_priority: 3
 prerequisites:
   - kimi

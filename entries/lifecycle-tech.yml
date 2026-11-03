@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "生命周期"
 context: "组件或对象从建立、更新到清理的过程。"
 example: "Effect replay reveals a lifecycle problem."
-notes: "Source: reports/react-candidates.md."
+notes: |-
+  Source: reports/react-candidates.md.
+
+  来源: Merriam-Webster Dictionary: life cycle。https://www.merriam-webster.com/dictionary/life%20cycle
+word_formation: "life + cycle。life cycle 把对象从开始到结束的阶段组织成一个周期；软件中可指组件或资源的生命周期，不保证对象一定重复经历所有阶段。"
 audio: lifecycle-tech.mp3
 learning_priority: 2
 tags:

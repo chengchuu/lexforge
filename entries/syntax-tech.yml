@@ -4,9 +4,12 @@ word: "syntax"
 part_of_speech: noun
 meaning: "语法；规定语言符号如何组成合法结构的规则。"
 example: "The parser reports a syntax error."
-notes: |
+notes: |-
   语法规定结构，语义解释结构的含义。语法正确不代表计算结果符合预期。抽象语法树用节点表示语法结构，不是把源码中的每个字符原样存为树节点。
   来源: MDN: Syntax: https://developer.mozilla.org/en-US/docs/Glossary/Syntax
+
+  来源: Merriam-Webster Dictionary: syntax。https://www.merriam-webster.com/dictionary/syntax
+etymology: "经由中古法语或晚期拉丁语 syntaxis，最终关联希腊语 syntassein (安排在一起)，其中 syn- 表示共同，tassein 表示安排。可据此联想词语或代码成分的组合规则，不把 syntax 中的 tax 当作现代英语的税。"
 learning_priority: 1
 audio: syntax-tech.mp3
 tags:

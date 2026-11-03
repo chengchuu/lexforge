@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "转义符数量的奇偶关系"
 context: "根据连续反斜杠的奇偶数量判断后续字符是否被转义。"
 example: "Checking one preceding character does not account for escape parity."
-notes: "Source: reports/react-candidates.md."
+notes: |-
+  Source: reports/react-candidates.md.
+
+  来源: Merriam-Webster Dictionary: parity。https://www.merriam-webster.com/dictionary/parity
+etymology: "parity 源自拉丁语 paritas，其基础 par 表示相等。现代英语也用 parity 表示奇偶性；当前 escape parity 指反斜杠数量的奇偶，而不是两段代码的功能对等，不能仅凭历史原义推导技术含义。"
 audio: escape-parity-tech.mp3
 learning_priority: 3
 prerequisites:

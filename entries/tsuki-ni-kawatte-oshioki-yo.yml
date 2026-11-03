@@ -6,7 +6,11 @@ part_of_speech: phrase
 meaning: "我要代表月亮惩罚你！"
 context: "所给《美少女戦士セーラームーン》短句，「かわって」表示代表或代替。"
 example: "月にかわっておしおきよ！"
-notes: "「月にかわって」表示代表月亮；不是变成月亮。台词保留「おしおき」写法，对应一般词条「お仕置き」。 来源作品: 《美少女戦士セーラームーン》。"
+notes: |-
+  「月にかわって」表示代表月亮；不是变成月亮。台词保留「おしおき」写法，对应一般词条「お仕置き」。 来源作品: 《美少女戦士セーラームーン》。
+
+  来源: 国立国語研究所: 基本動詞ハンドブック「変わる・替わる・換わる・代わる」。https://www2.ninjal.ac.jp/verbhandbook/headwords/変わる・替わる・換わる・代わる.html
+word_formation: "月 + にかわって + おしおき + よ。にかわって 表示代表或代替，おしおき 是惩罚，よ 加上告知或强调语气；不是\"变成月亮\"。"
 audio: tsuki-ni-kawatte-oshioki-yo.mp3
 learning_priority: 3
 prerequisites:

@@ -7,6 +7,7 @@ meaning: "解码"
 context: "按照对应规则从编码表示还原数据。"
 example: "Decode escape tokens and markers in one pass."
 notes: "Source: reports/react-b-plan.md. Related form: decoder."
+mnemonic: "encode 按规则改变数据的表示，decode 按对应规则解释或还原；按转换方向联想。"
 audio: decode-tech.mp3
 learning_priority: 1
 tags:

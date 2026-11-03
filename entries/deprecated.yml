@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: 已弃用的；不建议继续使用的
 context: 仍可能可用，但已不建议使用，通常有替代方案，并可能在后续版本中移除。
 example: Replace the deprecated API before upgrading the library.
-notes: Deprecated does not necessarily mean removed or broken.
+notes: |-
+  Deprecated does not necessarily mean removed or broken.
+
+  来源: MDN: Deprecated and obsolete features。https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Deprecated_and_obsolete_features
+mnemonic: "deprecated 是\"不再推荐使用\"；可能仍然可用，不等于已经删除、不能运行或一定存在缺陷。"
 audio: deprecated-tech.mp3
 learning_priority: 1
 tags:

@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "工具链"
 context: "完成编译、构建等流程所需的一组工具。"
 example: "Use the same toolchain when comparing the two builds."
-notes: "Source: go101/go101-321.md."
+notes: |-
+  Source: go101/go101-321.md.
+
+  来源: The rustup book: Toolchains。https://rust-lang.github.io/rustup/concepts/toolchains.html
+word_formation: "tool + chain。chain 表示相互衔接的一组环节；toolchain 是配合使用的一组开发工具，不必是单一程序。"
 audio: toolchain-tech.mp3
 learning_priority: 2
 tags:

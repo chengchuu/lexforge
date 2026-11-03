@@ -6,7 +6,12 @@ part_of_speech: phrase
 meaning: "能做到的事"
 context: "将可能形式「やれる」修饰「こと」，表示能够做到的事。"
 example: "今やれることから始めます。"
-notes: "やる → やれる（可能形）。所给来源语句：俺がやれることをやりたいだけだよ。 学习来源: 《ウルトラマンティガ》。"
+notes: |-
+  やる → やれる（可能形）。所给来源语句：俺がやれることをやりたいだけだよ。 学习来源: 《ウルトラマンティガ》。
+
+  来源: 東京外国語大学言語モジュール: 可能形。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson18/step3/card/074.html
+  来源: 東京外国語大学言語モジュール: Vこと・Vの。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson20/step3/card/080.html
+word_formation: "やれる + こと。やれる 是 やる 的可能形；こと 将前面的内容名词化，整体指能做的事。"
 audio: yareru-koto.mp3
 learning_priority: 2
 prerequisites:

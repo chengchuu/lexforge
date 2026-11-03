@@ -6,7 +6,11 @@ part_of_speech: phrase
 meaning: "因为我是人类"
 context: "所给《ウルトラマンティガ》短语，用「だから」说明理由并保留随意自称。"
 example: "俺は人間だから。"
-notes: "来源语句：義務とかじゃないよ。俺は人間だから。俺がやれることをやりたいだけだよ。 来源作品: 《ウルトラマンティガ》。"
+notes: |-
+  来源语句：義務とかじゃないよ。俺は人間だから。俺がやれることをやりたいだけだよ。 来源作品: 《ウルトラマンティガ》。
+
+  来源: 東京外国語大学言語モジュール: 理由。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson21/step1/card/081.html
+word_formation: "俺 + は + 人間 + だから。は 提出话题，だから 连接\"是人类\"这一理由；这里的理由在前，不把 だから 一律译成句首的\"所以\"。"
 audio: ore-wa-ningen-dakara.mp3
 learning_priority: 3
 prerequisites:

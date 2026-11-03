@@ -5,7 +5,12 @@ part_of_speech: noun
 meaning: "属性访问器"
 context: "控制属性读取或写入的成员。"
 example: "The transform must preserve static accessors."
-notes: "Source: typescript/typescript-a-62854.md."
+notes: |-
+  Source: typescript/typescript-a-62854.md.
+
+  来源: Merriam-Webster Dictionary: -or。https://www.merriam-webster.com/dictionary/-or
+  来源: MDN: get。https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/get
+word_formation: "access + -or。-or 可构成执行某种操作的人或事物的名称；这里的 accessor 是提供属性访问的机制，结合 getter、setter 理解。"
 audio: accessor-tech.mp3
 learning_priority: 2
 tags:

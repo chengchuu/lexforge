@@ -6,6 +6,10 @@ part_of_speech: noun
 meaning: "日语"
 context: "指日语，可用于说明学习内容或沟通语言。"
 example: "日本語を勉強しています。"
+notes: "来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 日本語 (コトバンク)。https://kotobank.jp/word/日本語"
+word_formation: "日本 + 語 (ご)。語 在这里表示语言；日本語 读 にほんご，指日语。"
+related_entries:
+  - nihonjin
 audio: nihongo.mp3
 learning_priority: 1
 tags:

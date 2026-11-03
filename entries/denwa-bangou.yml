@@ -6,6 +6,8 @@ part_of_speech: noun
 meaning: "电话号码"
 context: "用于拨打或识别电话的号码。"
 example: "電話番号を教えてください。"
+notes: "来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 電話 (コトバンク)。https://kotobank.jp/word/電話"
+word_formation: "電話 + 番号。整体是电话所用的号码；按两个完整词理解，不需要把每个汉字另拆成词。"
 audio: denwa-bangou.mp3
 learning_priority: 2
 prerequisites:

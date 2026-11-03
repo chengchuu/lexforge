@@ -11,6 +11,7 @@ notes: |
   学习语境: AI Coding Agent and Harness。
   来源: OpenClaw 官方仓库《OpenClaw — Your assistant, on your devices, in your chats》。https://github.com/openclaw/openclaw
   构成词参考: Merriam-Webster《open》和《claw》。https://www.merriam-webster.com/dictionary/open https://www.merriam-webster.com/dictionary/claw
+word_formation: "OpenClaw 的拼写中可识别 open (开放的、打开) 与 claw (爪)。这里只分析可识别的英语成分，不据此推断项目能力、标志含义或命名史。"
 learning_priority: 2
 prerequisites:
   - agent-ai

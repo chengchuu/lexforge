@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "交接"
 context: "将当前结果、状态和未完成事项交给下一步处理者。"
 example: "Reserve time for validation and handoff."
-notes: "Source: schedulers/daily-1am-issue-investigation.md."
+notes: |-
+  Source: schedulers/daily-1am-issue-investigation.md.
+
+  来源: Merriam-Webster Dictionary: handoff。https://www.merriam-webster.com/dictionary/handoff
+word_formation: "hand + off → handoff。动词短语 hand off 表示移交；名词 handoff 指任务、责任或控制权的交接。"
 audio: handoff-workflow.mp3
 learning_priority: 2
 tags:

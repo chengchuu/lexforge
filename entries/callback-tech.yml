@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "回调函数"
 context: "传给其他代码、在指定时机由其调用的函数。"
 example: "The callback restores the previous state after the operation."
-notes: "Source: go101/go101-321.md."
+notes: |-
+  Source: go101/go101-321.md.
+
+  来源: MDN: Callback function。https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+word_formation: "call + back → callback。可以按\"交给另一段代码回过头来调用\"理解；回调既可能同步调用，也可能异步调用。"
 audio: callback-tech.mp3
 learning_priority: 2
 tags:

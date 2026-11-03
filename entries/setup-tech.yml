@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "初始化设置"
 context: "为后续运行建立状态、资源或注册关系。"
 example: "Defer setup until the container is ready."
-notes: "Source: react/react-37721.md."
+notes: |-
+  Source: react/react-37721.md.
+
+  来源: Merriam-Webster Dictionary: setup。https://www.merriam-webster.com/dictionary/setup
+word_formation: "set + up → setup。动词短语 set up 表示设置或准备；当前名词 setup 指配置、准备工作或安排。"
 audio: setup-tech.mp3
 learning_priority: 1
 tags:

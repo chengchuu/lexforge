@@ -6,11 +6,11 @@ part_of_speech: noun
 meaning: 发音；读音
 context: 指单词或语言的读法，也可指一个人的发音方式。
 example: Listen to the recording to check the pronunciation of this word.
-notes: >-
-  Related verb: pronounce. The noun is spelled "pronunciation", not "pronounciation".
-  Common usage includes "clear pronunciation" and "improve your pronunciation".
-  American IPA verified against Oxford Advanced American Dictionary:
-  https://www.oxfordlearnersdictionaries.com/definition/american_english/pronunciation
+notes: |-
+  Related verb: pronounce. The noun is spelled "pronunciation", not "pronounciation". Common usage includes "clear pronunciation" and "improve your pronunciation". American IPA verified against Oxford Advanced American Dictionary: https://www.oxfordlearnersdictionaries.com/definition/american_english/pronunciation
+
+  来源: Merriam-Webster Dictionary: pronunciation。https://www.merriam-webster.com/dictionary/pronunciation
+mnemonic: "动词 pronounce 中有 ou，名词 pronunciation 对应部分只有 u；标准拼写不是 pronounciation。"
 audio: pronunciation-general.mp3
 learning_priority: 1
 tags:

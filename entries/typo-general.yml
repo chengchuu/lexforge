@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "笔误；打字错误"
 context: "输入或书写时产生的拼写或字符错误。"
 example: "Fix the typo in the example's variable name."
-notes: "Source: go101/go101-321.md."
+notes: |-
+  Source: go101/go101-321.md.
+
+  来源: Merriam-Webster Dictionary: typo。https://www.merriam-webster.com/dictionary/typo
+word_formation: "typo 是 typographical error 的缩略形式，指输入或排印造成的错误；不是所有代码缺陷都叫 typo。"
 audio: typo-general.mp3
 learning_priority: 1
 tags:

@@ -7,6 +7,7 @@ meaning: "绝对不会死"
 context: "所给《NARUTO》短语，以角色化口语表达绝对不会死的决心。"
 example: "ぜってェ死なねー。"
 notes: "角色化形式：ぜってェ → 絶対；死なねー → 死なない。普通表达可写作「絶対に死なない」。 来源作品: 《NARUTO -ナルト-》。"
+word_formation: "ぜってェ + 死なねー。当前台词中分别对应 絶対 与 死なない；死なない 来自 死ぬ 的否定形。保留角色化拼写，不照搬到正式表达。"
 audio: zettee-shinanee.mp3
 learning_priority: 3
 prerequisites:

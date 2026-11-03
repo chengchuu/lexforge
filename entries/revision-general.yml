@@ -7,6 +7,7 @@ meaning: "修订"
 context: "根据检查或反馈对内容作出的修改。"
 example: "I will handle review feedback and revisions."
 notes: "Source: typescript/typescript-64952.md. Distinct from a source-code revision."
+mnemonic: "Git 中的 revision 可以是代码或提交版本，普通工作语境中的 revision 可以是修订；区分版本对象与修订。"
 audio: revision-general.mp3
 learning_priority: 1
 tags:

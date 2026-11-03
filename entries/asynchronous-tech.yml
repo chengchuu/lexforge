@@ -6,7 +6,13 @@ part_of_speech: adjective
 meaning: "异步的"
 context: "操作的完成不要求按发起时的同步顺序发生。"
 example: "Ignore stale asynchronous compilation results."
-notes: "Source: reports/react-candidates.md."
+notes: |-
+  Source: reports/react-candidates.md.
+
+  来源: Merriam-Webster Dictionary: a-。https://www.merriam-webster.com/dictionary/a-
+  来源: Merriam-Webster Dictionary: asynchronous。https://www.merriam-webster.com/dictionary/asynchronous
+  来源: MDN: Callback function。https://developer.mozilla.org/en-US/docs/Glossary/Callback_function
+word_formation: "a- + synchronous。a- 在这里表示否定；asynchronous 表示异步，不要求调用方按同步方式等待完成，不等于自动并行或完全没有顺序约束。"
 audio: asynchronous-tech.mp3
 learning_priority: 2
 tags:

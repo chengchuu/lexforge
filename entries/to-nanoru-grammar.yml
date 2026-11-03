@@ -6,6 +6,8 @@ part_of_speech: phrase
 meaning: "自称是……"
 context: "用「と」引出对方报出的姓名或身份。"
 example: "電話の相手は森本と名乗りました。"
+notes: "来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 名乗る (コトバンク)。https://kotobank.jp/word/名乗る"
+word_formation: "名称或身份 + と + 名乗る。と 引出报出的名称或身份，名乗る 表示报上或自称；不单凭这个结构判断所称身份是否属实。"
 audio: to-nanoru-grammar.mp3
 learning_priority: 2
 prerequisites:

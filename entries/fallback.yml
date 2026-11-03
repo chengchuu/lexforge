@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: 备用方案；回退方案
 context: 首选方案不可用或失败时使用的替代方案。
 example: Use cached data as a fallback when the API is unavailable.
-notes: Use "fallback" as a noun and "fall back" as a verb.
+notes: |-
+  Use "fallback" as a noun and "fall back" as a verb.
+
+  来源: Merriam-Webster Dictionary: fallback。https://www.merriam-webster.com/dictionary/fallback
+word_formation: "fall + back → fallback。动词短语 fall back 表示退回或转而依靠；名词 fallback 是常规方案不可用时的后备方案。"
 audio: fallback-tech.mp3
 learning_priority: 1
 tags:

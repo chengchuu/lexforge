@@ -6,6 +6,10 @@ part_of_speech: noun
 meaning: "动漫周边"
 context: "与动画作品或角色相关的周边商品。"
 example: "アニメグッズを集めています。"
+notes: |-
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: アニメ (コトバンク)。https://kotobank.jp/word/あにめ-3206684
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: グッズ (コトバンク)。https://kotobank.jp/word/ぐつず-3210057
+word_formation: "アニメ + グッズ。前项限定商品所属的领域，整体指动漫相关商品或周边，不是另一种动画形式。"
 audio: anime-guzzu.mp3
 learning_priority: 2
 prerequisites:

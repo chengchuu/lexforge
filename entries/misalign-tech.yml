@@ -6,7 +6,11 @@ part_of_speech: verb
 meaning: "使错位；未正确对齐"
 context: "计算或显示的位置偏离应当对应的位置。"
 example: "The formatter misaligns underlines after non-ASCII characters."
-notes: "Source: react/react-37898.md."
+notes: |-
+  Source: react/react-37898.md.
+
+  来源: Merriam-Webster Dictionary: misalign。https://www.merriam-webster.com/dictionary/misalign
+word_formation: "mis- + align。mis- 在这里表示错误或不当；misalign 是没有正确对齐，既可用于位置，也可用于目标或假设。"
 audio: misalign-tech.mp3
 learning_priority: 2
 tags:

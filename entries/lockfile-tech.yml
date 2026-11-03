@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "依赖锁定文件"
 context: "记录解析后的依赖版本等信息，以便重复安装。"
 example: "Update the stale lockfile entries."
-notes: "Source: react/react-37859.md."
+notes: |-
+  Source: react/react-37859.md.
+
+  来源: npm Docs: package-lock.json。https://docs.npmjs.com/cli/v11/configuring-npm/package-lock-json/
+word_formation: "lock + file。lock 提供\"锁定\"的线索；依赖管理中的 lockfile 记录解析后的依赖信息，不能只按互斥锁文件理解。"
 audio: lockfile-tech.mp3
 learning_priority: 2
 tags:

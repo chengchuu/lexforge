@@ -6,6 +6,10 @@ part_of_speech: noun
 meaning: "外国人"
 context: "从所处国家的立场称来自其他国家的人。"
 example: "私は外国人です。"
+notes: |-
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 外国人 (コトバンク)。https://kotobank.jp/word/外国人
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 人 (コトバンク)。https://kotobank.jp/word/人-536577
+word_formation: "外国 + 人 (じん)。外国 表示别的国家，整体指外国人；日常理解需以说话语境中的国家为参照。"
 audio: gaikokujin.mp3
 learning_priority: 1
 prerequisites:

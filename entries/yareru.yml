@@ -6,7 +6,11 @@ part_of_speech: verb
 meaning: "能做；能够做到"
 context: "「やる」的可能形式，表示有能力或条件做到。"
 example: "一人でもやれます。"
-notes: "やる的可能形式；保留独立条目以区分行为与能力。 学习来源: 《ウルトラマンティガ》。"
+notes: |-
+  やる的可能形式；保留独立条目以区分行为与能力。 学习来源: 《ウルトラマンティガ》。
+
+  来源: 東京外国語大学言語モジュール: 可能形。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson18/step3/card/074.html
+word_formation: "やる → やれる。五段动词的词尾 る 在可能形中变为 れる；这里是能够做，不是另一个独立词根。"
 audio: yareru.mp3
 learning_priority: 2
 prerequisites:

@@ -6,6 +6,8 @@ part_of_speech: phrase
 meaning: "请问您的名字是？"
 context: "礼貌地询问对方姓名，省略了问句的后半部分。"
 example: "失礼ですが、お名前は。"
+notes: "来源: 国際交流基金《いろどり》入門 第3課: よろしくお願いします。https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L03.pdf"
+mnemonic: "お名前は 是省略的礼貌问句，可补想成\"您的名字是……？\"；は 提出话题，疑问来自完整语境与语调，不是 は 本身等于问号。"
 audio: onamae-wa.mp3
 learning_priority: 1
 prerequisites:

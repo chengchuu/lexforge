@@ -7,6 +7,7 @@ meaning: "工作成果文件"
 context: "一次任务产生或关联的报告、草稿等文件，不限于构建产物。"
 example: "Keep related artifacts associated with the same run identifier."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Distinct from artifact-tech, which covers outputs produced by builds or CI."
+mnemonic: "构建产物是工作成果的一种；两个 artifact 的范围不同，不要把所有工作文件都理解为编译输出。"
 audio: artifact-workflow.mp3
 learning_priority: 2
 tags:

@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "大学名称；さくら大学"
 context: "学习记录中的大学名称，保留「さくら大学」写法。"
 example: "資料には「さくら大学」と書いてあります。"
-notes: "名称来自学习记录，不推定对应的实际学校或补写汉字。"
+notes: "用户补充确认 (2026-11-03): 名称中的「さくら」指樱花。保留「さくら大学」写法，不自行改成「桜大学」或对应某家实际学校。"
 audio: sakura-daigaku.mp3
 learning_priority: 2
 prerequisites:

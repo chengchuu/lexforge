@@ -6,7 +6,12 @@ part_of_speech: suffix
 meaning: "接在人名后的礼貌称呼"
 context: "接在人名后表示礼貌称呼，一般不加在自己的姓名后。"
 example: "田中さん、こんにちは。"
-notes: "截图中的「さん」按称呼后缀处理，不是数字三。"
+notes: |-
+  截图中的「さん」按称呼后缀处理，不是数字三。
+
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: さん (コトバンク)。https://kotobank.jp/word/さん-70293
+  来源: 国際交流基金《いろどり》入門 第3課: よろしくお願いします。https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L03.pdf
+mnemonic: "姓名后的 さん 是敬称；普通自我介绍时不给自己的姓名加 さん。它与数字 三 的 さん 发音相同，但作用不同。"
 audio: san-name-suffix.mp3
 learning_priority: 1
 tags:

@@ -6,6 +6,8 @@ part_of_speech: phrase
 meaning: "抱歉啦；对不起"
 context: "向熟人轻声道歉的随意说法，不适合正式致歉。"
 example: "待たせてごめんね。"
+related_entries:
+  - gomennasai
 audio: gomen-ne.mp3
 learning_priority: 1
 tags:

@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "阻碍事项"
 context: "阻止当前任务继续完成的问题或缺失条件。"
 example: "Report the blocker without changing project state."
-notes: "Source: schedulers/daily-1am-issue-investigation.md."
+notes: |-
+  Source: schedulers/daily-1am-issue-investigation.md.
+
+  来源: Merriam-Webster Dictionary: blocker。https://www.merriam-webster.com/dictionary/blocker
+word_formation: "block + -er。block 表示阻碍，-er 在这里指造成阻碍的事物；工作中的 blocker 是阻止任务继续推进的问题。"
 audio: blocker-workflow.mp3
 learning_priority: 1
 tags:

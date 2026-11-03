@@ -6,7 +6,12 @@ part_of_speech: noun
 meaning: "正确性"
 context: "实现是否满足要求并保持预期行为。"
 example: "Review the patch for correctness before submission."
-notes: "Source: reports/typescript-wedoct28.md."
+notes: |-
+  Source: reports/typescript-wedoct28.md.
+
+  来源: Merriam-Webster Dictionary: correctness。https://www.merriam-webster.com/dictionary/correctness
+  来源: University of Glasgow, STELLA: Unit 4.3 Affixes。https://stella.glasgow.ac.uk/grammar/unit-4-3-affixes.html
+word_formation: "correct + -ness。-ness 把形容词转为表示性质或状态的名词；correctness 关注结果或行为是否正确。"
 audio: correctness-tech.mp3
 learning_priority: 1
 tags:

@@ -6,6 +6,12 @@ part_of_speech: noun
 meaning: "小猫"
 context: "指年幼的猫，不必带有亲昵称呼的意味。"
 example: "子猫が遊んでいます。"
+notes: |-
+  来源: 小学館《デジタル大辞泉》: 子 (コトバンク)。https://kotobank.jp/word/子
+  来源: 小学館《デジタル大辞泉》: 猫 (コトバンク)。https://kotobank.jp/word/猫
+word_formation: "子 (こ) + 猫 (ねこ)。子 在这里表示年幼，合起来读 こねこ，指幼猫。"
+related_entries:
+  - neko-chan
 audio: koneko.mp3
 learning_priority: 2
 prerequisites:

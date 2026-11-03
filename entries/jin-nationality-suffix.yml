@@ -6,7 +6,11 @@ part_of_speech: suffix
 meaning: "……人；国籍后缀"
 context: "接在国家名称后表示国籍或该国的人。"
 example: "私は中国人です。"
-notes: "此处读「じん」，不把其他「人」的读法混用于这个后缀。"
+notes: |-
+  此处读「じん」，不把其他「人」的读法混用于这个后缀。
+
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 人 (コトバンク)。https://kotobank.jp/word/人-536577
+mnemonic: "国籍表达中的 ～人 读 じん，如 日本人、中国人；人 单独作普通名词时常读 ひと。按具体词记读法，不把一个读音套到所有组合。"
 audio: jin-nationality-suffix.mp3
 learning_priority: 1
 tags:

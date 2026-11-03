@@ -4,9 +4,14 @@ word: "cache"
 part_of_speech: noun
 meaning: "缓存；暂存数据或计算结果以供后续复用的机制。"
 example: "Invalidate the cache when the source changes."
-notes: |
+notes: |-
   缓存可减少重复计算或读取，但需要考虑有效期、失效与容量。HTTP 缓存是具体应用；缓存再验证用于判断已有内容是否仍可复用。不是所有缓存都遵循 HTTP 规则。
   来源: MDN: Cache: https://developer.mozilla.org/en-US/docs/Glossary/Cache
+
+  来源: Merriam-Webster Dictionary: cache。https://www.merriam-webster.com/dictionary/cache
+etymology: "来自北美法语 cache，意为藏物处；相关法语动词 cacher 表示隐藏。这个历史上的存放意象可以辅助记忆，但计算机缓存是否有效仍取决于缓存策略，不是只要存起来就能一直复用。"
+related_entries:
+  - memoization-programming
 learning_priority: 1
 audio: cache-tech.mp3
 tags:

@@ -6,7 +6,13 @@ part_of_speech: phrase
 meaning: "能够成为……"
 context: "「〜になる」的可能形式，表示能够成为某种身份或状态。"
 example: "練習すれば、もっと上手になれます。"
-notes: "なる → なれる（可能形）。与「〜になる」保留为不同学习单位。 学习来源: 《ウルトラマンティガ》。"
+notes: |-
+  なる → なれる（可能形）。与「〜になる」保留为不同学习单位。 学习来源: 《ウルトラマンティガ》。
+
+  来源: 東京外国語大学言語モジュール: 可能形。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson18/step3/card/074.html
+word_formation: "名词或な形容词词干 + に + なれる。なれる 是 なる 的可能形；与单纯的 になる (成为) 区别在于\"能够成为\"。"
+related_entries:
+  - ni-naru-grammar
 audio: ni-nareru-grammar.mp3
 learning_priority: 2
 prerequisites:

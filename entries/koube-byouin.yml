@@ -1,12 +1,12 @@
 id: koube-byouin
 language: ja
-word: "こうべ病院"
+word: "神戸病院"
 pronunciation: "こうべびょういん"
 part_of_speech: noun
-meaning: "医院名称；こうべ病院"
-context: "学习记录中的医院名称，保留「こうべ病院」写法。"
-example: "書類には「こうべ病院」と書いてあります。"
-notes: "不把名称中的「こうべ」擅自改为汉字，也不据此确认实际机构身份。"
+meaning: "医院名称；神戸病院"
+context: "用户确认的医院名称写法为「神戸病院」，具体机构身份未提供。"
+example: "書類には「神戸病院」と書いてあります。"
+notes: "用户补充确认 (2026-11-03): 名称中的「こうべ」应写成「神戸」，本条采用「神戸病院」。不据此确认具体医院、所在地或来电身份。"
 audio: koube-byouin.mp3
 learning_priority: 2
 prerequisites:

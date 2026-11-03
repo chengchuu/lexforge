@@ -127,10 +127,10 @@ Back template:
 {{#Example}}<div class="example">{{Example}}
 {{#TTSLanguage}}<span class="example-speech">[anki:tts lang={{TTSLanguage}}]{{Example}}[/anki:tts]</span>{{/TTSLanguage}}
 </div>{{/Example}}
-{{#Etymology}}<div class="memory-aid"><strong>词源</strong><br>{{Etymology}}</div>{{/Etymology}}
-{{#WordFormation}}<div class="memory-aid"><strong>构词</strong><br>{{WordFormation}}</div>{{/WordFormation}}
-{{#Mnemonic}}<div class="memory-aid"><strong>助记</strong><br>{{Mnemonic}}</div>{{/Mnemonic}}
-{{#RelatedWords}}<div class="memory-aid"><strong>相关词条</strong><br>{{RelatedWords}}</div>{{/RelatedWords}}
+{{#Etymology}}<div class="memory-aid"><strong>Etymology</strong><br>{{Etymology}}</div>{{/Etymology}}
+{{#WordFormation}}<div class="memory-aid"><strong>Word Formation</strong><br>{{WordFormation}}</div>{{/WordFormation}}
+{{#Mnemonic}}<div class="memory-aid"><strong>Mnemonic</strong><br>{{Mnemonic}}</div>{{/Mnemonic}}
+{{#RelatedWords}}<div class="memory-aid"><strong>Related Words</strong><br>{{RelatedWords}}</div>{{/RelatedWords}}
 {{#Notes}}<div class="notes">{{Notes}}</div>{{/Notes}}
 <script>
 (function () {

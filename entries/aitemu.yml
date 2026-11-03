@@ -6,6 +6,10 @@ part_of_speech: noun
 meaning: "物品；项目；道具"
 context: "可指物品、条目或游戏道具，需结合具体场景理解。"
 example: "ゲームで新しいアイテムを手に入れました。"
+notes: |-
+  用户确认 (2026-11-03): 「アイテム is item (English Word)」，确认日语「アイテム」与英语 item 的直接借词对应。
+  参考来源 (仅核对检索摘要，试读 PDF 正文未复核): 三省堂《コンサイスカタカナ語辞典》第5版: 试读。https://dictionary.sanseido-publ.co.jp/wordpress/wp-content/themes/dictionaryandbeyond/pdf/ssd11064.pdf
+etymology: "アイテム 是借自英语 item 的外来语。日语中可指物品、项目或游戏道具，具体义项取决于语境；不因是外来语就认为它与英语 item 的所有用法完全对应。"
 audio: aitemu.mp3
 learning_priority: 2
 tags:

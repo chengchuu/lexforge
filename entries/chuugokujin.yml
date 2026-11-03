@@ -6,6 +6,8 @@ part_of_speech: noun
 meaning: "中国人"
 context: "表示中国人，由国家名称「中国」加后缀「人」构成。"
 example: "私は中国人です。"
+notes: "来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 人 (コトバンク)。https://kotobank.jp/word/人-536577"
+word_formation: "中国 + 人 (じん)。国名后加 人 可表示该国的人；此处读 ちゅうごくじん，不把 じん 推广为所有 人 字的读法。"
 audio: chuugokujin.mp3
 learning_priority: 1
 prerequisites:

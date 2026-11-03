@@ -7,6 +7,7 @@ meaning: "注册"
 context: "将对象或处理器加入系统维护的集合，使其参与后续操作。"
 example: "Register the counter during effect setup."
 notes: "Source: reports/react-candidates.md. Related form: registration."
+mnemonic: "register 将对象或处理器加入系统集合，unregister 将其移除；按加入与清理两个方向联想。"
 audio: register-tech.mp3
 learning_priority: 2
 related_entries:

@@ -6,6 +6,7 @@ part_of_speech: verb
 meaning: "说；讲话"
 context: "表示讲话、交谈或使用某种语言。"
 example: "友達と話します。"
+mnemonic: "話す表示说话这一行为；話せません表示不能或不会说，区别于单纯表示不说的話しません。"
 audio: hanasu.mp3
 learning_priority: 1
 related_entries:

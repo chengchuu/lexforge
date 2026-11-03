@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "候选项"
 context: "仍需评估是否值得进一步处理的问题或方案。"
 example: "Exclude candidates already covered by an open pull request."
-notes: "Source: reports/typescript-wedoct28.md."
+notes: |-
+  Source: reports/typescript-wedoct28.md.
+
+  来源: Merriam-Webster Dictionary: candidate。https://www.merriam-webster.com/dictionary/candidate
+etymology: "来自拉丁语 candidatus，原指穿白衣者，也用于指竞逐公职的人；它与 candidus (明亮的、白色的) 有关，背景是古罗马候选人穿白色托加袍的习俗。现代技术语境沿用\"候选者\"的意义，不含颜色要求。"
 audio: candidate-tech.mp3
 learning_priority: 1
 tags:

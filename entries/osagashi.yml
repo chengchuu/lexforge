@@ -6,7 +6,13 @@ part_of_speech: noun
 meaning: "寻找；「探す」的礼貌表达形式"
 context: "「探す」用于敬语结构时的形式，常见于「お探しですか」。"
 example: "何をお探しですか。"
-notes: "探す → お探し。常用于「お探しですか」「お探しの方」等结构，不把它当作可独立替换所有「探す」的动词。"
+notes: |-
+  探す → お探し。常用于「お探しですか」「お探しの方」等结构，不把它当作可独立替换所有「探す」的动词。
+
+  来源: 東京外国語大学言語モジュール: 敬語。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson24/step4/card/092.html
+word_formation: "お + 探し。探し 是 探す 的连用形，お 加在其前，用于 お探しですか 等礼貌结构；需要结合完整句式理解。"
+related_entries:
+  - sagasu
 audio: osagashi.mp3
 learning_priority: 2
 prerequisites:

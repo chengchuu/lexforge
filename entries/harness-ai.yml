@@ -12,6 +12,8 @@ notes: |
   学习语境: AI Coding Agent and Harness。
   来源: Visual Studio Code《Understand agent harnesses》。https://code.visualstudio.com/docs/agents/concepts/agent-harnesses
   发音参考: Merriam-Webster《harness》，美式注音转写为 IPA。https://www.merriam-webster.com/dictionary/harness
+related_entries:
+  - harness-tech
 learning_priority: 3
 prerequisites:
   - agent-ai

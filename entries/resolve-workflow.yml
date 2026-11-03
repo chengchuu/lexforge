@@ -7,6 +7,7 @@ meaning: "解决；处理完毕"
 context: "消除问题或不确定性，使工作可以继续。"
 example: "Resolve the remaining validation failures before submission."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
+mnemonic: "resolve 引用时是确定所指对象，resolve 问题时是解决问题；先看处理的对象。"
 audio: resolve-workflow.mp3
 learning_priority: 1
 tags:

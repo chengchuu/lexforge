@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "转义后的反斜杠"
 context: "在转义语法中用来表示普通反斜杠的字符序列。"
 example: "Consume the escaped backslash before examining the next escape."
-notes: "Source: react/react-c-rust-compiler.md."
+notes: |-
+  Source: react/react-c-rust-compiler.md.
+
+  来源: MDN: Lexical grammar。https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar
+mnemonic: "先分清源码与运行时值。普通 JavaScript 字符串字面量中，两个连续反斜杠构成转义序列，运行时表示一个反斜杠；多套一层字符串编码就多一层规则。"
 audio: escaped-backslash-tech.mp3
 learning_priority: 3
 prerequisites:

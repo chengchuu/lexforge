@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: "不会抛出异常的"
 context: "执行时不产生需要异常处理器捕获的异常。"
 example: "The optimizer incorrectly treats every array expression as nonthrowing."
-notes: "Source: react/react-a-compiler.md."
+notes: |-
+  Source: react/react-a-compiler.md.
+
+  来源: Merriam-Webster Dictionary: non-。https://www.merriam-webster.com/dictionary/non-
+word_formation: "non- + throwing。non- 表示不具有后面的性质；nonthrowing 在当前技术语境中指不抛出异常，不代表没有副作用。"
 audio: nonthrowing-tech.mp3
 learning_priority: 3
 tags:

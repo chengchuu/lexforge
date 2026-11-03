@@ -7,6 +7,7 @@ meaning: "代码版本；提交版本"
 context: "用于确定某一时刻代码状态的版本或提交。"
 example: "Reproduce the error on the revision before the fix."
 notes: "Source: react/react-37859.md. Distinct from an editorial revision."
+mnemonic: "Git 中的 revision 可以是代码或提交版本，普通工作语境中的 revision 可以是修订；区分版本对象与修订。"
 audio: revision-git.mp3
 learning_priority: 2
 related_entries:

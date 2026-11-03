@@ -7,6 +7,7 @@ meaning: "已暂存的"
 context: "更改已加入 Git 索引，准备进入下一次提交。"
 example: "Review the staged diff before committing."
 notes: "Source: schedulers/daily-1am-issue-investigation.md."
+mnemonic: "staged 表示更改已进入 Git 索引，unstaged 表示更改未进入索引；未暂存不等于未跟踪。"
 audio: staged-git.mp3
 learning_priority: 2
 related_entries:

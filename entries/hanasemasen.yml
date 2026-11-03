@@ -6,7 +6,13 @@ part_of_speech: verb
 meaning: "不会说；不能说"
 context: "「話す」的可能形式的礼貌否定，表示不能或不会说。"
 example: "まだ日本語はうまく話せません。"
-notes: "話す → 話せる（可能形）→ 話せません（礼貌否定）。"
+notes: |-
+  話す → 話せる（可能形）→ 話せません（礼貌否定）。
+
+  来源: 東京外国語大学言語モジュール: 可能形。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson18/step3/card/074.html
+  来源: 東京外国語大学言語モジュール: Vます／Vません。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson07/step1/card/023.html
+word_formation: "話す → 話せる → 話せません。先变成可能形，再用礼貌否定；表达不会说或不能说，区别于单纯的 話しません (不说)。"
+mnemonic: "話す表示说话这一行为；話せません表示不能或不会说，区别于单纯表示不说的話しません。"
 audio: hanasemasen.mp3
 learning_priority: 2
 prerequisites:

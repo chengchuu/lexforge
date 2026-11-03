@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: 上游的
 context: 在 fork 工作流中，指派生仓库所基于的原始项目或仓库。
 example: Submit the fix to the upstream repository.
-notes: A Git remote named "upstream" is a convention, not a required name.
+notes: |-
+  A Git remote named "upstream" is a convention, not a required name.
+
+  来源: Merriam-Webster Dictionary: upstream。https://www.merriam-webster.com/dictionary/upstream
+word_formation: "up + stream。借河流上游的方向理解来源端；Git 协作中的 upstream 可指更上游的项目或分支，不是必须使用的远程名称。"
 audio: upstream-git.mp3
 learning_priority: 2
 tags:

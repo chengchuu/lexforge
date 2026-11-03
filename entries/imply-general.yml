@@ -7,6 +7,7 @@ meaning: "暗示"
 context: "虽未直接声明，却使读者理解为某个结论。"
 example: "Do not imply that skipped checks passed."
 notes: "Source: AGENTS.md."
+mnemonic: "imply 是表达者暗示，infer 是接收者根据线索推断；注意信息方向。"
 audio: imply-general.mp3
 learning_priority: 1
 tags:

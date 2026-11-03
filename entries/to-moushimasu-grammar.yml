@@ -6,6 +6,8 @@ part_of_speech: phrase
 meaning: "我叫……；我是……"
 context: "在姓名后接「と申します」，用于正式或礼貌的自我介绍。"
 example: "森本と申します。よろしくお願いいたします。"
+notes: "来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 申す (コトバンク)。https://kotobank.jp/word/申す"
+word_formation: "姓名 + と + 申します。と 引出所说的名字，申します 是 申す 的礼貌形式；整体用于郑重地自我介绍。"
 audio: to-moushimasu-grammar.mp3
 learning_priority: 2
 prerequisites:

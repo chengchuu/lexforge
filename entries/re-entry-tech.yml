@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "再次进入"
 context: "尚需避免重复处理时，执行流程再次进入同一段逻辑。"
 example: "The guard prevents re-entry after the node is replaced."
-notes: "Source: react/react-37836.md."
+notes: |-
+  Source: react/react-37836.md.
+
+  来源: Merriam-Webster Dictionary: reentry。https://www.merriam-webster.com/dictionary/reentry
+word_formation: "re- + entry。re- 表示再次；re-entry 指再次进入，具体是否允许或安全要看程序状态与调用约定。"
 audio: re-entry-tech.mp3
 learning_priority: 3
 tags:

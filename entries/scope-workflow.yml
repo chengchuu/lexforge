@@ -7,6 +7,7 @@ meaning: "工作范围"
 context: "一次变更、调查或验证包含和排除的内容边界。"
 example: "State the scope of the investigation before listing findings."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Distinct from lexical scope. Expressions: out of scope; outside this fix. The upstream failure remains outside this fix."
+mnemonic: "代码中的 scope 是名称或绑定的可见范围，工作中的 scope 是任务边界；先判断讨论的是代码还是工作范围。"
 audio: scope-workflow.mp3
 learning_priority: 1
 tags:

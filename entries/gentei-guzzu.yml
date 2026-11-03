@@ -6,6 +6,10 @@ part_of_speech: noun
 meaning: "限定周边"
 context: "在销售时间、地点或数量等方面有限制的周边商品。"
 example: "会場で限定グッズを買いました。"
+notes: |-
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 限定 (コトバンク)。https://kotobank.jp/word/限定
+  来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: グッズ (コトバンク)。https://kotobank.jp/word/ぐつず-3210057
+word_formation: "限定 + グッズ。限定 修饰商品的供应范围或条件；具体是数量、时间还是活动限定，要看实际说明。"
 audio: gentei-guzzu.mp3
 learning_priority: 2
 prerequisites:

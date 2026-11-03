@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: 词汇；词汇量
 context: 某种语言或领域使用的词汇，也可指一个人掌握的词汇。
 example: Reading technical documentation helps me expand my vocabulary.
-notes: Usually uncountable in this sense. Common usage includes "technical vocabulary" and "expand your vocabulary".
+notes: |-
+  Usually uncountable in this sense. Common usage includes "technical vocabulary" and "expand your vocabulary".
+
+  来源: Merriam-Webster Dictionary: vocabulary。https://www.merriam-webster.com/dictionary/vocabulary
+etymology: "来自中古法语 vocabulaire，可能经由中世纪拉丁语 vocabularium，最终关联拉丁语 vocabulum (词、名称)。借入路径中的\"可能\"需保留；现代 vocabulary 通常指词汇或词汇量，不是一个单词。"
 audio: vocabulary-general.mp3
 learning_priority: 1
 tags:

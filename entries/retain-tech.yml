@@ -7,6 +7,7 @@ meaning: "保留；继续维持"
 context: "经过处理或修改之后，仍然保有某项内容或能力。"
 example: "The adapter retains responsibility for parsing directives."
 notes: "Source: react/react-9-rust-compiler.md."
+mnemonic: "两者都可表示保留；preserve 常强调保持已有状态，retain 常强调继续保有。结合对象和搭配理解，不设互斥规则。"
 audio: retain-tech.mp3
 learning_priority: 1
 tags:

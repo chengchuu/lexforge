@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "转义序列"
 context: "用特殊写法表示无法直接书写或具有特殊含义的字符。"
 example: "Scan JSON escapes in order."
-notes: "Source: react/react-c-rust-compiler.md. Also a verb: Escape every literal reserved prefix."
+notes: |-
+  Source: react/react-c-rust-compiler.md. Also a verb: Escape every literal reserved prefix.
+
+  来源: Merriam-Webster Dictionary: escape。https://www.merriam-webster.com/dictionary/escape
+etymology: "经由盎格鲁法语 escaper、eschaper 进入中古英语，可追溯到通俗拉丁语的重建形式 *excappare，由 ex- (向外) 与晚期拉丁语 cappa (头巾、斗篷) 构成。\"从斗篷中脱身\"有助于理解逃离的历史意象；现代编程中的转义规则仍须按具体语法学习。"
 audio: escape-tech.mp3
 learning_priority: 2
 tags:

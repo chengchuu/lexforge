@@ -11,6 +11,7 @@ notes: |
   学习语境: AI Coding Agent and Harness。
   来源: OpenAI《Introducing dots》。https://openai.com/index/introducing-dots/
   词义参考: Merriam-Webster《dot》。https://www.merriam-webster.com/dictionary/dot
+word_formation: "dots 是普通名词 dot (点) 的复数形式。这里只帮助记住产品名称的拼写，不推断这些\"点\"代表什么或官方为何这样命名。"
 learning_priority: 2
 prerequisites:
   - agent-ai

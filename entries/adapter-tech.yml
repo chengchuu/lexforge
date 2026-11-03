@@ -6,7 +6,11 @@ part_of_speech: noun
 meaning: "适配器"
 context: "将一种接口或数据表示转换为另一种可用形式的组件。"
 example: "The Babel adapter passes validation results to Rust."
-notes: "Source: react/react-9-rust-compiler.md."
+notes: |-
+  Source: react/react-9-rust-compiler.md.
+
+  来源: Merriam-Webster Dictionary: adapter。https://www.merriam-webster.com/dictionary/adapter
+word_formation: "adapt + -er。adapt 表示使适应，-er 在这里指承担这种作用的事物；adapter 将一种接口适配到另一种接口。"
 audio: adapter-tech.mp3
 learning_priority: 2
 tags:

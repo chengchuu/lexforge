@@ -6,6 +6,8 @@ part_of_speech: phrase
 meaning: "樱花树"
 context: "用「の」连接树种与树，表示樱花树。"
 example: "川のそばに桜の木があります。"
+notes: "来源: 東京外国語大学言語モジュール: NのN。https://www.coelang.tufs.ac.jp/mt/ja/gmod/courses/c01/lesson03/step1/card/008.html"
+word_formation: "桜 + の + 木。の 连接两个名词，后项 木 是中心词；整体是樱花树，不是单指樱花花朵。"
 audio: sakura-no-ki.mp3
 learning_priority: 2
 prerequisites:

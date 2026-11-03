@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: "极有价值的"
 context: "对学习或工作具有很大帮助，语气强于 valuable。"
 example: "The book has been an invaluable resource."
-notes: "Source: go101/go101-267.md."
+notes: |-
+  Source: go101/go101-267.md.
+
+  来源: Merriam-Webster Dictionary: invaluable。https://www.merriam-webster.com/dictionary/invaluable
+mnemonic: "invaluable 记成\"价值大到难以估量\"，所以是极有价值；不要看见 in- 就记成 worthless (无价值的)。"
 audio: invaluable-general.mp3
 learning_priority: 2
 tags:

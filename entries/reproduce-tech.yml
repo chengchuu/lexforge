@@ -7,6 +7,7 @@ meaning: "复现"
 context: "按照明确步骤再次观察到报告中的行为。"
 example: "Reproduce the crash on the unmodified base revision."
 notes: "Source: schedulers/daily-1am-issue-investigation.md. Related form: reproduction. A reproduction can also mean a small project that demonstrates a bug."
+mnemonic: "reproduce 表示复现的动作，reproducible 表示能够复现的性质；区分动词与形容词。"
 audio: reproduce-tech.mp3
 learning_priority: 2
 related_entries:

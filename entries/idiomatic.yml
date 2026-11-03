@@ -6,7 +6,11 @@ part_of_speech: adjective
 meaning: 地道的；惯用的
 context: 符合某种语言、框架或技术生态惯用方式的。
 example: Prefer idiomatic Go code.
-notes: Common usage includes "idiomatic Go" and "idiomatic JavaScript".
+notes: |-
+  Common usage includes "idiomatic Go" and "idiomatic JavaScript".
+
+  来源: Oxford Advanced Learner's Dictionary: idiomatic。https://www.oxfordlearnersdictionaries.com/definition/english/idiomatic
+etymology: "最终来自希腊语 idiomatikos (特有的、有其特点的)，关联 idioma (特有的表达方式) 与 idios (自己的、特有的)。这能帮助理解\"符合某种语言或生态惯用方式\"，不表示只能由某个个人使用。"
 audio: idiomatic-tech.mp3
 learning_priority: 2
 tags:
