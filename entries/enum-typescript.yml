@@ -1,0 +1,19 @@
+id: enum-typescript
+language: en
+word: "enum"
+part_of_speech: "noun"
+meaning: "枚举；为一组具名常量定义成员的结构。"
+example: "The enum gives each status a name."
+notes: |-
+  按 TypeScript 枚举解释；enum 是 enumeration 的缩略用法。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-frioct30.md:13. Source form: enum.
+
+  Reference: TypeScript Handbook: Enums: https://www.typescriptlang.org/docs/handbook/enums.html
+learning_priority: 2
+audio: enum-typescript.mp3
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

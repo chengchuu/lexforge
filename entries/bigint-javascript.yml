@@ -1,0 +1,21 @@
+id: bigint-javascript
+language: en
+word: "BigInt"
+part_of_speech: "noun"
+meaning: "大整数；用于表示任意精度整数的 JavaScript 原始类型。"
+example: "Use BigInt when an integer exceeds the safe range of Number."
+notes: |-
+  任意精度仍受可用内存等资源约束；不要暗示可以直接混用 Number 与 BigInt 的算术运算。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates.md:39. Source form: BigInts.
+
+  Reference: MDN: BigInt: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt
+learning_priority: 2
+prerequisites:
+  - primitive-javascript
+audio: bigint-javascript.mp3
+tags:
+  - tech
+  - programming
+  - javascript
+  - noun

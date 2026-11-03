@@ -1,0 +1,21 @@
+id: shorthand-javascript
+language: en
+word: "shorthand"
+part_of_speech: "noun"
+meaning: "简写；用更短的语法表达相应的常规写法。"
+example: "Use property shorthand when the variable name matches the key."
+notes: |-
+  此处重点为对象属性简写；与字符串键、计算键区分。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates-pending.md:36. Source form: Shorthand.
+
+  Reference: MDN: Object initializer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
+learning_priority: 2
+prerequisites:
+  - property-tech
+audio: shorthand-javascript.mp3
+tags:
+  - tech
+  - programming
+  - javascript
+  - noun

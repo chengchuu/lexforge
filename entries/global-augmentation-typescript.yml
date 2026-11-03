@@ -1,0 +1,21 @@
+id: global-augmentation-typescript
+language: en
+word: "global augmentation"
+part_of_speech: "noun phrase"
+meaning: "全局扩充；在声明中补充已有全局类型或接口的信息。"
+example: "The module contains a global augmentation."
+notes: |-
+  扩充类型声明不会自动创建相应运行时行为。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-wedoct28.md:15. Source form: global augmentations.
+
+  Reference: TypeScript Handbook: Declaration Merging: https://www.typescriptlang.org/docs/handbook/declaration-merging.html
+learning_priority: 3
+prerequisites:
+  - type-tech
+audio: global-augmentation-typescript.mp3
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

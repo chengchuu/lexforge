@@ -1,0 +1,16 @@
+id: review-workflow
+language: en
+word: "review"
+part_of_speech: "noun; verb"
+meaning: "审查；检查工作内容并给出判断或反馈。"
+example: "Review the patch before merging it."
+notes: |-
+  此处采用技术审查语境。review feedback 指审查意见。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/AGENTS.md:25. Source form: review.
+learning_priority: 1
+audio: review-workflow.mp3
+tags:
+  - tech
+  - noun
+  - verb

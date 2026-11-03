@@ -1,0 +1,18 @@
+id: primitive-javascript
+language: en
+word: "primitive"
+part_of_speech: "noun; adjective"
+meaning: "原始值；不属于对象、值本身不可变的 JavaScript 数据。"
+example: "A primitive value is not an object."
+notes: |-
+  指原始值或原始类型；变量重新赋值与原始值自身可变不是一回事。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates-pending.md:40. Source form: primitive.
+learning_priority: 2
+audio: primitive-javascript.mp3
+tags:
+  - tech
+  - programming
+  - javascript
+  - noun
+  - adjective

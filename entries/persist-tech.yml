@@ -1,0 +1,16 @@
+id: persist-tech
+language: en
+word: "persist"
+part_of_speech: "verb"
+meaning: "持久保存；使数据在当前操作或进程结束后仍可恢复使用。"
+example: "Persist the build metadata for the next run."
+notes: |-
+  persistence 是名词形式。持久保存不表示缓存永远不会失效。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:14. Source form: persistence.
+learning_priority: 2
+audio: persist-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

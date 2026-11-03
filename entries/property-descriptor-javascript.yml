@@ -1,0 +1,21 @@
+id: property-descriptor-javascript
+language: en
+word: "property descriptor"
+part_of_speech: "noun phrase"
+meaning: "属性描述符；描述属性的值、访问器及相关特性的信息对象。"
+example: "Inspect the property descriptor before changing the object."
+notes: |-
+  区分数据描述符和访问器描述符，不把 value 与 get/set 混成同一种属性配置。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates-pending.md:40. Source form: descriptors.
+
+  Reference: MDN: Object.getOwnPropertyDescriptor(): https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor
+learning_priority: 2
+prerequisites:
+  - property-tech
+audio: property-descriptor-javascript.mp3
+tags:
+  - tech
+  - programming
+  - javascript
+  - phrase

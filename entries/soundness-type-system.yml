@@ -1,0 +1,24 @@
+id: soundness-type-system
+language: en
+word: "soundness"
+part_of_speech: "noun"
+meaning: "健全性；类型检查所接受的程序不会违反该系统承诺的类型安全性质。"
+example: "A faster type check must not sacrifice soundness."
+notes: |-
+  这是类型系统术语，不是声音质量。TypeScript 为实用性允许部分不可靠行为；不声称整个语言完全可靠。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:3. Source form: soundness.
+
+  Reference: TypeScript Handbook: Type Compatibility / A Note on Soundness: https://www.typescriptlang.org/docs/handbook/type-compatibility.html#a-note-on-soundness
+mnemonic: "性能快不代表类型检查可靠；重点问是否把不安全用法放行。"
+related_entries:
+  - correctness-tech
+learning_priority: 3
+prerequisites:
+  - type-tech
+audio: soundness-type-system.mp3
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

@@ -1,0 +1,18 @@
+id: partial-clone-git
+language: en
+word: "partial clone"
+part_of_speech: "noun phrase"
+meaning: "部分克隆；最初只获取部分 Git 对象，并按需要补取其余对象的克隆方式。"
+example: "A partial clone may fetch missing objects during inspection."
+notes: |-
+  本地历史读取可能触发对象下载；原报告的网络限制不代表本机当前限制。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-frioct30.md:17. Source form: partial clone.
+learning_priority: 3
+prerequisites:
+  - repository-git
+audio: partial-clone-git.mp3
+tags:
+  - tech
+  - git
+  - phrase

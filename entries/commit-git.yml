@@ -1,0 +1,17 @@
+id: commit-git
+language: en
+word: "commit"
+part_of_speech: "noun; verb"
+meaning: "提交；记录一次项目快照，也可指这次记录。"
+example: "Review the diff before you commit the patch."
+notes: |-
+  与提交 PR、发布版本区分；本词条同时覆盖 Git 名词和动词用法。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/schedulers/daily-1am-issue-investigation.md:34. Source form: commit.
+learning_priority: 1
+audio: commit-git.mp3
+tags:
+  - tech
+  - git
+  - noun
+  - verb

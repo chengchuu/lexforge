@@ -1,0 +1,15 @@
+id: query-tech
+language: en
+word: "query"
+part_of_speech: "noun"
+meaning: "查询；向系统请求信息或检索结果。"
+example: "The query returned three matching issues."
+notes: |-
+  此处包括 GitHub 查询和 API 请求，不限定为 SQL。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-tueoct27.md:59. Source form: query.
+learning_priority: 1
+audio: query-tech.mp3
+tags:
+  - tech
+  - noun

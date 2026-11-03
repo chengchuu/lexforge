@@ -1,0 +1,16 @@
+id: repository-git
+language: en
+word: "repository"
+part_of_speech: "noun"
+meaning: "仓库；保存项目文件及其版本历史的集合。"
+example: "Keep generated files out of the repository."
+notes: |-
+  这里指版本控制仓库，不是软件包下载源。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/AGENTS.md:23. Source form: repository.
+learning_priority: 1
+audio: repository-git.mp3
+tags:
+  - tech
+  - git
+  - noun

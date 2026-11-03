@@ -1,0 +1,16 @@
+id: type-tech
+language: en
+word: "type"
+part_of_speech: "noun"
+meaning: "类型；描述值的类别及允许操作或约束的信息。"
+example: "The type determines which operations are allowed."
+notes: |-
+  mapped type 表示映射类型，return type 表示返回类型；这里的 type 均采用编程含义。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/typescript-64965.md:1. Source form: type.
+learning_priority: 1
+audio: type-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

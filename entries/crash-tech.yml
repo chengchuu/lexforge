@@ -1,0 +1,17 @@
+id: crash-tech
+language: en
+word: "crash"
+part_of_speech: "noun; verb"
+meaning: "崩溃；程序因故障意外停止或无法继续正常执行。"
+example: "Invalid input should not crash the compiler."
+notes: |-
+  错误诊断不等于崩溃；源码报告中的具体崩溃属于历史记录。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/typescript-64952.md:1. Source form: crash.
+learning_priority: 1
+audio: crash-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun
+  - verb

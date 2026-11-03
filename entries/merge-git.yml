@@ -1,0 +1,18 @@
+id: merge-git
+language: en
+word: "merge"
+part_of_speech: "verb"
+meaning: "合并；把不同开发历史的改动整合到一起。"
+example: "Merge the branch after review."
+notes: |-
+  合并不等于提交审查；原文 merged 为过去式或状态用法。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates.md:27. Source form: merge.
+learning_priority: 1
+prerequisites:
+  - branch-git
+audio: merge-git.mp3
+tags:
+  - tech
+  - git
+  - verb

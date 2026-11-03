@@ -1,0 +1,22 @@
+id: mapped-type-typescript
+language: en
+word: "mapped type"
+part_of_speech: "noun phrase"
+meaning: "映射类型；遍历一组属性键，为各键构造属性类型的 TypeScript 类型写法。"
+example: "A mapped type can remove optional modifiers."
+notes: |-
+  [K in keyof T] 表示遍历 T 的键，-? 用于移除可选标记；不与运行时数组 map 混淆。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:13. Source form: mapped type.
+
+  Reference: TypeScript Handbook: Mapped Types: https://www.typescriptlang.org/docs/handbook/2/mapped-types.html
+learning_priority: 3
+prerequisites:
+  - type-tech
+  - property-tech
+audio: mapped-type-typescript.mp3
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

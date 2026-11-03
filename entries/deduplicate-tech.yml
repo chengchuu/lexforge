@@ -1,0 +1,16 @@
+id: deduplicate-tech
+language: en
+word: "deduplicate"
+part_of_speech: "verb"
+meaning: "去重；识别重复项并按规则保留一份。"
+example: "Deduplicate repeated diagnostics."
+notes: |-
+  deduplication 是名词形式。去重规则决定哪些项算作重复；不能合并所有看似相同的诊断。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/react-f-compiler.md:18. Source form: deduplication.
+learning_priority: 2
+audio: deduplicate-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

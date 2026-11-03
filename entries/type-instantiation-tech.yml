@@ -1,0 +1,20 @@
+id: type-instantiation-tech
+language: en
+word: "type instantiation"
+part_of_speech: "noun phrase"
+meaning: "类型实例化；为泛型类型提供具体类型实参并得到相应类型的过程。"
+example: "Repeated type instantiation can increase checking cost."
+notes: |-
+  来源形式只有 instantiation counts，结合映射类型语境规范化；不是创建运行时对象实例。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:13. Source form: instantiation counts.
+learning_priority: 3
+prerequisites:
+  - type-tech
+  - type-argument-tech
+audio: type-instantiation-tech.mp3
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

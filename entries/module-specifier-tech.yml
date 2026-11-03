@@ -1,0 +1,17 @@
+id: module-specifier-tech
+language: en
+word: "module specifier"
+part_of_speech: "noun phrase"
+meaning: "模块说明符；导入或导出语句中用来指明模块的字符串。"
+example: "Changing import preferences can change the module specifier."
+notes: |-
+  模块说明符不保证是文件路径，也可能是包名。原文采用 module-specifier 的连字符形式。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:15. Source form: module-specifier.
+learning_priority: 2
+audio: module-specifier-tech.mp3
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

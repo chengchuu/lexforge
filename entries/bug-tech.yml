@@ -1,0 +1,16 @@
+id: bug-tech
+language: en
+word: "bug"
+part_of_speech: "noun"
+meaning: "程序缺陷；使软件偏离预期行为的问题。"
+example: "Add a regression test for the bug."
+notes: |-
+  这里采用软件含义。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/react-37871-rust-compiler.md:12. Source form: bug.
+learning_priority: 1
+audio: bug-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

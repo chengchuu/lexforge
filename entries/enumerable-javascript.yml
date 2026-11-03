@@ -1,0 +1,21 @@
+id: enumerable-javascript
+language: en
+word: "enumerable"
+part_of_speech: "adjective"
+meaning: "可枚举的；属性可被相应枚举操作列举的特性。"
+example: "Object.keys returns only enumerable own string properties."
+notes: |-
+  可枚举、属于自身、字符串键是不同维度。不可枚举不等于不可访问。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates-pending.md:34. Source form: enumerable.
+
+  Reference: MDN: Enumerability and ownership of properties: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Enumerability_and_ownership_of_properties
+learning_priority: 2
+prerequisites:
+  - property-tech
+audio: enumerable-javascript.mp3
+tags:
+  - tech
+  - programming
+  - javascript
+  - adjective

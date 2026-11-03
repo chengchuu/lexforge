@@ -1,0 +1,19 @@
+id: namespace-typescript
+language: en
+word: "namespace"
+part_of_speech: "noun"
+meaning: "命名空间；组织一组命名成员、通过限定名称访问的作用域结构。"
+example: "The namespace contains an exported class."
+notes: |-
+  这里采用 TypeScript namespace 的用法；不暗示所有模块都是 namespace 声明。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-frioct30.md:13. Source form: namespace.
+
+  Reference: TypeScript Handbook: Declaration Merging: https://www.typescriptlang.org/docs/handbook/declaration-merging.html
+learning_priority: 2
+audio: namespace-typescript.mp3
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

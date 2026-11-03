@@ -1,0 +1,18 @@
+id: quadratic-tech
+language: en
+word: "quadratic"
+part_of_speech: "adjective"
+meaning: "二次增长的；输入规模增加时，工作量按平方量级增长。"
+example: "A quadratic comparison can become expensive on large inputs."
+notes: |-
+  用于算法或比较成本；不因原报告标题而断言当前 TypeScript 的实际复杂度。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:13. Source form: Quadratic.
+related_entries:
+  - linear-tech
+learning_priority: 2
+audio: quadratic-tech.mp3
+tags:
+  - tech
+  - programming
+  - adjective

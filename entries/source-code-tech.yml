@@ -1,0 +1,16 @@
+id: source-code-tech
+language: en
+word: "source code"
+part_of_speech: "noun phrase"
+meaning: "源代码；以编程语言编写的程序文本。"
+example: "Preserve unrelated source code."
+notes: |-
+  source file 指源文件，source changes 指对源代码的改动。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-frioct30.md:69. Source form: source code.
+learning_priority: 1
+audio: source-code-tech.mp3
+tags:
+  - tech
+  - programming
+  - phrase

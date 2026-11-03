@@ -1,0 +1,16 @@
+id: patch-tech
+language: en
+word: "patch"
+part_of_speech: "noun"
+meaning: "补丁；用于修正或调整程序的一组改动。"
+example: "The patch preserves the existing behavior."
+notes: |-
+  不限定为某一种补丁文件格式。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/schedulers/daily-1am-issue-investigation.md:24. Source form: patch.
+learning_priority: 1
+audio: patch-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

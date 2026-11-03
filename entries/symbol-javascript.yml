@@ -1,0 +1,21 @@
+id: symbol-javascript
+language: en
+word: "Symbol"
+part_of_speech: "noun"
+meaning: "Symbol；用于表示独一且不可变标识值的 JavaScript 原始类型。"
+example: "A Symbol can be used as a property key."
+notes: |-
+  Symbol('x') 创建的不同符号不因描述相同而相等；不要等同于普通标识符文本。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates.md:39. Source form: Symbols.
+
+  Reference: MDN: Symbol: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol
+learning_priority: 2
+prerequisites:
+  - primitive-javascript
+audio: symbol-javascript.mp3
+tags:
+  - tech
+  - programming
+  - javascript
+  - noun

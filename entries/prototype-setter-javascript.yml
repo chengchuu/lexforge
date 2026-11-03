@@ -1,0 +1,22 @@
+id: prototype-setter-javascript
+language: en
+word: "prototype setter"
+part_of_speech: "noun phrase"
+meaning: "原型设置语法；此处指对象字面量中用 __proto__: value 设置原型的特殊写法。"
+example: "The prototype setter sets the new object's prototype."
+notes: |-
+  限定为对象字面量创建时的特殊语法；只有对象或 null 才用作指定原型，其他值不改变原型。['__proto__']: value 是普通计算属性，不具有相同的原型设置语义；不是泛指 setter 方法。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates-pending.md:19. Source form: prototype setters.
+
+  Reference: MDN: Object initializer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
+learning_priority: 3
+prerequisites:
+  - property-tech
+  - prototype-chain-javascript
+audio: prototype-setter-javascript.mp3
+tags:
+  - tech
+  - programming
+  - javascript
+  - phrase

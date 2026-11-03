@@ -1,0 +1,16 @@
+id: structural-check-tech
+language: en
+word: "structural check"
+part_of_speech: "noun phrase"
+meaning: "结构检查；此处指按约定比较值及其嵌套结构、报告差异的检查。"
+example: "The structural check should report unequal strings."
+notes: |-
+  限定为源文比较器的语境；不是 TypeScript 结构类型兼容规则，也不承诺所有结构检查都采用同一种相等算法。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/react-f-compiler.md:5. Source form: structural checks.
+learning_priority: 3
+audio: structural-check-tech.mp3
+tags:
+  - tech
+  - programming
+  - phrase

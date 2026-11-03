@@ -1,0 +1,19 @@
+id: cache-invalidation-tech
+language: en
+word: "cache invalidation"
+part_of_speech: "noun phrase"
+meaning: "缓存失效处理；在依赖变化后使旧缓存结果不再被当作有效结果使用。"
+example: "Cache invalidation prevents stale completion results."
+notes: |-
+  这里指通用的缓存失效处理，不等同于 HTTP 缓存再验证。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:15. Source form: cache invalidation.
+learning_priority: 2
+prerequisites:
+  - cache-tech
+  - invalidate-tech
+audio: cache-invalidation-tech.mp3
+tags:
+  - tech
+  - programming
+  - phrase

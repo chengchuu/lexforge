@@ -1,0 +1,16 @@
+id: workaround-tech
+language: en
+word: "workaround"
+part_of_speech: "noun"
+meaning: "变通办法；暂时避开问题而不直接修复根因的做法。"
+example: "The workaround avoids the crash but does not fix the cause."
+notes: |-
+  不要把 workaround 与正式修复视为同义词。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:13. Source form: workaround.
+learning_priority: 2
+audio: workaround-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun

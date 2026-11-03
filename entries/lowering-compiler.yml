@@ -1,0 +1,18 @@
+id: lowering-compiler
+language: en
+word: "lowering"
+part_of_speech: "noun"
+meaning: "降级转换；把较高层程序表示转换为更低层表示的编译过程。"
+example: "Lowering must preserve computed-key semantics."
+notes: |-
+  这里不是版本降级；不假定所有 lowering 都直接生成机器码。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates-pending.md:21. Source form: lowering.
+learning_priority: 3
+prerequisites:
+  - compiler-tech
+audio: lowering-compiler.mp3
+tags:
+  - tech
+  - programming
+  - noun

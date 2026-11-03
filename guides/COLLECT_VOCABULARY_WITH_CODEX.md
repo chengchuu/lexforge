@@ -41,7 +41,7 @@ Draft content:
 - Include Chinese Context and an example in the entry's language only when useful. Reuse existing vocabulary naturally, without forcing overlap.
 - Use Notes for detailed reasoning, limitations, source wording, and provenance. Preserve useful depth and avoid duplicate clauses.
 - Record source paths and useful line references. Preserve source wording separately from normalized headwords where that distinction matters.
-- Include English IPA only when reliably supported; use kana for Japanese. Leave uncertain pronunciation absent.
+- Include English IPA only when reliably supported; use kana for Japanese. Leave uncertain pronunciations absent.
 - Add etymology, word formation, or mnemonics only when they provide value. Include concrete proposed text, distinguish historical facts from invented memory aids, and record reliable source titles and URLs.
 - Preserve uncertainty in names, readings, identities, and naming origins. Distinguish user-provided clarification from independent verification.
 - Choose learning_priority by usefulness and complexity: 1 for foundations, 2 for standard or applied material, 3 for specialized material; omit when uncertain.

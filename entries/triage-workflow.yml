@@ -1,0 +1,16 @@
+id: triage-workflow
+language: en
+word: "triage"
+part_of_speech: "noun; verb"
+meaning: "分流评估；先按影响、紧急程度和可处理性筛选待办问题。"
+example: "Triage the reports before choosing a fix."
+notes: |-
+  bounded triage exercise 表示范围受限的分流评估。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-frioct30.md:11. Source form: triage.
+learning_priority: 2
+audio: triage-workflow.mp3
+tags:
+  - tech
+  - noun
+  - verb

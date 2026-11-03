@@ -1,0 +1,17 @@
+id: build-tech
+language: en
+word: "build"
+part_of_speech: "noun; verb"
+meaning: "构建；执行编译、打包等步骤生成项目产物。"
+example: "Run the build after changing the source code."
+notes: |-
+  编译可能是构建的一步；不要把 build 一律译成编译。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/react/react-37859-fixtures-closed.md:1. Source form: builds.
+learning_priority: 1
+audio: build-tech.mp3
+tags:
+  - tech
+  - devops
+  - noun
+  - verb

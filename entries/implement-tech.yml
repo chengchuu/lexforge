@@ -1,0 +1,16 @@
+id: implement-tech
+language: en
+word: "implement"
+part_of_speech: "verb"
+meaning: "实现；把设计、规则或接口落实为可执行行为。"
+example: "Implement only the confirmed fix."
+notes: |-
+  implementation 是 implement 的名词形式，表示实现过程或实现结果。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/AGENTS.md:12. Source form: implementation.
+learning_priority: 1
+audio: implement-tech.mp3
+tags:
+  - tech
+  - programming
+  - verb

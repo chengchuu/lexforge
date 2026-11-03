@@ -1,0 +1,15 @@
+id: draft-workflow
+language: en
+word: "draft"
+part_of_speech: "noun"
+meaning: "草稿；尚待修改或审阅的初稿。"
+example: "Keep the draft concise."
+notes: |-
+  此处指 PR 说明草稿。submission-ready draft 表示已准备好提交审阅的草稿。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/AGENTS.md:1. Source form: draft.
+learning_priority: 1
+audio: draft-workflow.mp3
+tags:
+  - general
+  - noun

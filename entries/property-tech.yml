@@ -1,0 +1,18 @@
+id: property-tech
+language: en
+word: "property"
+part_of_speech: "noun"
+meaning: "属性；以键标识的对象成员。"
+example: "The object has a readonly property."
+notes: |-
+  这里取编程含义，不取财产义项；属性与访问器机制不同。
+
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/typescript-a-62854.md:14. Source form: property.
+related_entries:
+  - accessor-tech
+learning_priority: 1
+audio: property-tech.mp3
+tags:
+  - tech
+  - programming
+  - noun
