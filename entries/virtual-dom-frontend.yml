@@ -7,7 +7,7 @@ example: "The renderer compares the virtual DOM before applying updates."
 notes: |
   渲染生成虚拟节点，更新时通过比较和补丁同步真实 DOM。框架可结合编译信息减少无效比较。维护虚拟结构本身也有成本，因此不能宣称总比直接操作 DOM 更快。
 
-  Source: Interviews/AprilSkill.md:633. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 35. Verified reference: Vue: Rendering mechanism: https://vuejs.org/guide/extras/rendering-mechanism.html
+  Source: Interviews/AprilSkill.md:633. Verified reference: Vue: Rendering mechanism: https://vuejs.org/guide/extras/rendering-mechanism.html
 mnemonic: "virtual DOM 是内存中的界面描述，更新后再同步真实 DOM；创建和比较这层描述也有成本，不能仅凭\"virtual\"断言它总比直接操作 DOM 更快。"
 learning_priority: 2
 audio: virtual-dom-frontend.mp3

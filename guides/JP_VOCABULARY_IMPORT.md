@@ -2,9 +2,9 @@
 
 ## Status
 
-Both imports and their audio generation are complete; status reviewed on 2026-11-03. The initial batch contains 181 entries after the approved merge; the [Minna no Nihongo batch](#2026-10-29-minna-no-nihongo-study-notes) adds 44 and reuses five. After that batch, the collection contained 571 entries (346 English and 225 Japanese), all with audio references; the later [English cleanup](EN_VOCABULARY_IMPORT.md#vocabulary-focused-cleanup) reduced the English total. The user has confirmed completing manual listening review and live Anki import, display, and playback checks; see the [user acceptance record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#用户验收-2026-11-03). Each section retains its batch-specific counts and verification results.
+Both imports and their audio generation are complete; status reviewed on 2026-11-03. The initial batch contains 181 entries after the approved merge; the [Minna no Nihongo batch](#2026-10-29-minna-no-nihongo-study-notes) adds 44 and reuses five. After that batch, the collection contained 571 entries (346 English and 225 Japanese), all with audio references; the later [English cleanup](EN_VOCABULARY_IMPORT.md#vocabulary-focused-cleanup) reduced the English total. The user has confirmed completing manual listening review and live Anki import, display, and playback checks. Each section retains its batch-specific counts and verification results.
 
-The later work-provenance pass and [memory-aid enrichment](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#实施记录-2026-11-03) are also implemented. User-confirmed name updates supersede the original conservative spellings where explicitly approved; the source mappings below retain the forms used at import time.
+User-confirmed name updates supersede the original conservative spellings where explicitly approved; the source mappings below retain the forms used at import time.
 
 Source: the user-provided approved Japanese vocabulary and quote list. No original source corpus was re-analyzed and no additional vocabulary or quotes were selected. Readings are retained from that approved list, not presented as an independent dictionary or audiovisual verification.
 
@@ -358,7 +358,7 @@ Each distinct written item appears once below. Repeated table occurrences reuse 
 
 ## 2026-10-29: Minna no Nihongo study notes
 
-Source: the user's study notes from 《大家的日语》 (みんなの日本語), represented by `Screenshot_20261029_012025_AnkiDroid.png` and the approved [import plan](MINNA_NO_NIHONGO_IMPORT_PLAN.md). This batch follows the plan's transcription and corrections; it does not claim independent verification against a textbook edition or lesson. Screenshot spacing and optional brackets are retained in the mapping below; display line wrapping is omitted.
+Source: the user's study notes from 《大家的日语》 (みんなの日本語), represented by `Screenshot_20261029_012025_AnkiDroid.png` and the user-approved transcription and corrections. This batch does not claim independent verification against a textbook edition or lesson. Screenshot spacing and optional brackets are retained in the mapping below; display line wrapping is omitted.
 
 ### Coverage and decisions
 

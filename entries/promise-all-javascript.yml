@@ -7,7 +7,7 @@ example: "Promise.all preserves the input order of the results."
 notes: |
   结果顺序取决于输入顺序，与完成顺序无关。空输入得到已兑现的空数组 Promise，then 回调仍异步运行。聚合拒绝不会自动取消其他任务。实现时应按索引保存结果并统计完成数量，不能用最后一个索引是否完成来判断全部完成。
 
-  Source: Interviews/AprilSkill.md:988. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 17. Verified reference: MDN: Promise.all: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+  Source: Interviews/AprilSkill.md:988. Verified reference: MDN: Promise.all: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
 mnemonic: "Promise.all 的结果按输入顺序排列，不按完成先后排列；其中一项拒绝会使聚合拒绝，但不会自动取消其他已经启动的任务。"
 learning_priority: 2
 prerequisites:

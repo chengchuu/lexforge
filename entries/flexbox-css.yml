@@ -7,7 +7,7 @@ example: "Flexbox aligns the controls along the main axis."
 notes: |
   flex-direction 定义主轴，交叉轴与主轴垂直，不总是水平或垂直中的固定一个。grow、shrink 与 basis 共同影响尺寸。允许换行不意味着各行共享二维网格轨道。
 
-  Source: Interviews/AprilSkill.md:258. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 31. Verified reference: MDN: Basic concepts of flexbox: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts
+  Source: Interviews/AprilSkill.md:258. Verified reference: MDN: Basic concepts of flexbox: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Flexible_box_layout/Basic_concepts
 related_entries:
   - grid-layout-css
 learning_priority: 1

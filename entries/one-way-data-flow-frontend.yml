@@ -7,7 +7,7 @@ example: "One-way data flow clarifies state ownership."
 notes: |
   以父组件向子组件传递 props 为例，子组件通过事件通知上层，而不是直接重写输入。Vue 中对象或数组的嵌套引用仍可被修改，应明确所有权。单向数据流不意味着界面不能更新状态。
 
-  Source: Interviews/AprilSkill.md:970. Import record: guides/INTERVIEW_VOCABULARY_IMPORT_PLAN.md, item 37. Verified reference: Vue: Props: https://vuejs.org/guide/components/props.html
+  Source: Interviews/AprilSkill.md:970. Verified reference: Vue: Props: https://vuejs.org/guide/components/props.html
 related_entries:
   - two-way-binding-frontend
 learning_priority: 1

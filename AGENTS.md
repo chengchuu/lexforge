@@ -268,8 +268,6 @@ Use optional `etymology` for verified historical origins, `word_formation` for s
 
 `related_entries` contains human-approved existing stable IDs. Propose candidates with both IDs, current words and meanings, rationale, and confusion risks. Approval of a pair does not authorize mnemonic rewrites. Declare a pair once; the exporter displays current Word and Meaning on both backs, sorted by neighbor ID. Cross-language neighbors include their language tag. Cycles and reciprocal declarations are valid, but repeated IDs in one list, self-links, malformed IDs, and missing targets fail validation. Only direct neighbors display; associations do not affect prerequisites or StudyOrder. Remove both declarations if both endpoints declare a pair. Rebuild and reimport the complete export to refresh reverse displays. Do not automatically infer relationships.
 
-The initial 21 pairs are recorded in [the memory aids plan](guides/VOCABULARY_MEMORY_AIDS_PLAN.md#approved-relationship-batch). Its five concept cases are planning examples, not authorization to import new entries.
-
 ---
 
 ## Learning Order
