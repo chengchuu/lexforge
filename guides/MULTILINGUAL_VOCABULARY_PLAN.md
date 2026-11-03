@@ -2,9 +2,9 @@
 
 ## Status
 
-Implemented; status reviewed on 2026-10-29. The repository supports BCP 47 language validation, language-scoped duplicate warnings, multilingual exports and templates, and language-matching local macOS audio with explicit kana-reading and rate options.
+Implemented; status reviewed on 2026-11-03. The repository supports BCP 47 language validation, language-scoped duplicate warnings, multilingual exports and templates, and language-matching local macOS audio with explicit kana-reading and rate options.
 
-The sections below retain the original design and acceptance criteria. Later example-speech support added derived `TTSLanguage` after `Audio`, and learning-order support added `StudyOrder` after it. The current export has sixteen note fields plus tags in column 17. Use the [README](../README.md#set-up-anki-once) for current setup and commands. Live Anki import, synchronization, device playback, and pronunciation accuracy are not established by this status update.
+The sections below retain the original design and acceptance criteria. Later example-speech support added derived `TTSLanguage` after `Audio`, and learning-order support added `StudyOrder` after it. The current export has sixteen note fields plus tags in column 17. Use the [README](../README.md#set-up-anki-once) for current setup and commands. The user confirmed completing manual listening review and live Anki import, display, and playback checks on 2026-11-03; see the [user acceptance record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#用户验收-2026-11-03). That feedback does not establish AnkiWeb synchronization or separate results for every supported language and client.
 
 ## Goal
 

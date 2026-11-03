@@ -4,6 +4,8 @@
 
 Implemented on 2026-10-31 after explicit user approval. This document retains the design discussed on 2026-10-30; verification results are recorded at the end.
 
+Status reviewed on 2026-11-03. The schema, export, templates, and all 21 initial relationships remain implemented. The later [enrichment plan](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#实施记录-2026-11-03) is also implemented, bringing the collection to 55 relationships. The initial-batch counts below remain historical. The user confirmed completing manual listening review and live Anki import, display, and playback checks; see the [user acceptance record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#用户验收-2026-11-03). This does not establish the specific migration checks listed in the historical verification record.
+
 The user approved all 21 relationships in the [initial batch](#approved-relationship-batch) on 2026-10-30: E01–E13 and J01–J08. This is content approval for those pairs and authorization to record them here, not approval to implement the feature or edit vocabulary yet.
 
 The user also approved recording the concept-learning design and all five [planning cases](#approved-planning-cases) below. This extends the planned use of existing fields; it does not authorize implementation, entry creation, or additional relationships.

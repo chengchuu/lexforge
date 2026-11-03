@@ -38,6 +38,8 @@ Use the [Add vocabulary during work guide](guides/ADD_VOCABULARY_DURING_WORK.md)
 
 Use the [Add vocabulary with Codex guide](guides/ADD_VOCABULARY_WITH_CODEX.md) for the reusable prompt. It covers entry reuse, natural examples, learning priorities, optional audio, and validation.
 
+To collect a batch from files or directories, use the [Collect vocabulary with Codex guide](guides/COLLECT_VOCABULARY_WITH_CODEX.md). It creates an import plan for review before changing entries.
+
 For existing entries, use the [Generate missing audio with Codex guide](guides/GENERATE_MISSING_AUDIO_WITH_CODEX.md) to scan the collection, reuse available recordings, and generate missing pronunciation audio.
 
 ### Entry schema

@@ -2,9 +2,11 @@
 
 ## Status
 
-Research pass complete with three unresolved entries; status reviewed on 2026-10-29. `accessor-tech`, `iterable-tech`, and `symlink-tech` still have no IPA. Counts below cover the original 284-entry collection, not later vocabulary batches. This record documents transcription evidence, not independent verification of generated audio pronunciation.
+Research pass complete with three unresolved entries; status reviewed on 2026-11-03. `accessor-tech`, `iterable-tech`, and `symlink-tech` still have no IPA, but all three have nonempty referenced recording files. Counts below cover the original 284-entry collection, not later vocabulary batches. This record documents transcription evidence, not independent verification of generated audio pronunciation.
 
 This pass accounts for the 282 entries that previously lacked pronunciation: **176 direct transcriptions**, **103 composed or derived transcriptions**, and **3 unresolved entries**. Together with the two preserved pronunciations, 281 of 284 entries have IPA. All 284 retain their existing audio references.
+
+The user confirmed completing manual listening review and live Anki import, display, and playback checks on 2026-11-03; see the [user acceptance record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#用户验收-2026-11-03). This does not supply the missing IPA or establish a recording-by-recording comparison against the documented transcriptions.
 
 ## Method and notation
 

@@ -4,7 +4,9 @@
 
 Implemented in the [README card styling](../README.md#set-up-anki-once); extended on 2026-10-30 after user approval. Word and example audio controls share centered 24px icons inside 44px touch targets. Both suppress ordinary tap-focus outlines on renderers supporting `:focus-visible`, while retaining keyboard focus and an outline fallback for older renderers.
 
-Live appearance and playback on Mac Anki and AnkiDroid remain unverified. Updating the documented styling does not update installed templates; applying it to the user's Anki collection remains a separate step.
+Status reviewed on 2026-11-03 against the current README markup and CSS. The renderer checks below are historical; this review did not repeat them or test live clients.
+
+The user confirmed completing live Anki import, display, and playback checks on 2026-11-03; see the [user acceptance record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#用户验收-2026-11-03). Client versions and separate platform results were not supplied. Updating the documented styling alone still does not update installed templates.
 
 For the 2026-10-30 extension, isolated checks with representative replay markup passed 256 layout combinations in bundled Qt 5.14.1 and 12 pointer, simulated-touch, and keyboard-focus checks in Chrome 150. The Qt renderer parsed the focus fallback without `:focus-visible` support. Front/back markup and playback scripts remain byte-identical. `go test ./...`, validation of 530 entries, and `git diff --check` passed.
 

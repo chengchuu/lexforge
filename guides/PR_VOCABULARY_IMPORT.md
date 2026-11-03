@@ -2,7 +2,7 @@
 
 ## Status
 
-Import and audio generation complete; status reviewed on 2026-10-29. The counts and verification below describe the original import. Subsequent IPA work is recorded in [pronunciation sources](PRONUNCIATION_SOURCES.md); later imports increased the collection beyond this batch's totals. Specialized pronunciations still need listening review. This record does not establish a live Anki import or synchronization.
+Import and audio generation complete; status reviewed on 2026-11-03. All 277 imported entry files remain present. The counts and verification below describe the original import. Subsequent IPA work is recorded in [pronunciation sources](PRONUNCIATION_SOURCES.md); later imports increased the collection beyond this batch's totals. The user confirmed completing manual listening review and live Anki import, display, and playback checks on 2026-11-03; see the [user acceptance record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#用户验收-2026-11-03). AnkiWeb synchronization was not included in that confirmation.
 
 This collection comes from a read-only review of 27 Markdown documents under `docs/PR`: 21 PR descriptions, four reports or plans, one scheduler document, and the contributor guide. The two image assets were not text sources. Historical statements were used as language examples, not as current project or PR status.
 

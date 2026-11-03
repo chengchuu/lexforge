@@ -2,7 +2,9 @@
 
 ## Status
 
-Vocabulary-focused cleanup implemented on 2026-10-29 after user approval. The original 62 cards are consolidated into 21 learning items: 18 base items (with `potatoes` normalized to `potato`), one additional `pepper` entry, `mashed potatoes`, and the reusable question pattern. The collection now contains 530 entries (305 English and 225 Japanese).
+Vocabulary-focused cleanup implemented on 2026-10-29 after user approval. The original 62 cards are consolidated into 21 learning items: 18 base items (with `potatoes` normalized to `potato`), one additional `pepper` entry, `mashed potatoes`, and the reusable question pattern. The collection contained 530 entries (305 English and 225 Japanese) immediately after that cleanup.
+
+Status reviewed on 2026-11-03. All 21 retained learning items remain present with nonempty referenced recording files. The batch counts below remain historical; current collection totals are recorded in the [enrichment implementation record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#实施记录-2026-11-03). The repository review did not decode or audition recordings or test live Anki behavior. The user subsequently confirmed completing manual listening review and live Anki import, display, and playback checks; see the [user acceptance record](VOCABULARY_MEMORY_AIDS_ENRICHMENT_PLAN.md#用户验收-2026-11-03).
 
 All 62 original items remain accounted for below. The original import results and checks are historical; the cleanup and its verification are recorded separately.
 
