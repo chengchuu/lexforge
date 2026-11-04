@@ -7,6 +7,9 @@ example: "The recipe calls for rice and mushrooms."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: recipe.
+
+  Memory-aid source: Online Etymology Dictionary — recipe. https://www.etymonline.com/word/recipe
+etymology: "来自拉丁语 recipe (取用吧)，是 recipere 的命令式，早先用于药方开头；英语后来也用它指准备食物的配方。"
 learning_priority: 2
 audio: recipe-cooking.mp3
 tags:

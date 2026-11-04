@@ -8,6 +8,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Shock Emitter.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_ElectricBoxGenerator_Capsule_A_01_Name; version: 1.2.1.
+word_formation: "shock 在此取电击义，emitter 表示发射装置；游戏简体中文名为雷龙头，不取惊讶义。"
 learning_priority: 2
 prerequisites:
   - "emitter-engineering"

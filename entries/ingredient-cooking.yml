@@ -7,6 +7,8 @@ example: "Choose an ingredient from the pouch."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: ingredient.
+related_entries:
+  - "recipe-cooking"
 learning_priority: 2
 audio: ingredient-cooking.mp3
 tags:

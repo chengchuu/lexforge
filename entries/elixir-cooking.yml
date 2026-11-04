@@ -7,6 +7,9 @@ example: "Prepare an elixir from the ingredients."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: elixir.
+
+  Memory-aid source: Online Etymology Dictionary — elixir. https://www.etymonline.com/word/elixir
+etymology: "经中世纪拉丁语来自阿拉伯语 al-iksir，原与炼金术中的点金石有关；更早可能来自希腊语 xerion (使伤口干燥的粉末)。"
 learning_priority: 2
 audio: elixir-cooking.mp3
 tags:

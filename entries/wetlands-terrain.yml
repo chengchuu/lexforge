@@ -7,6 +7,9 @@ example: "The road crosses the wetlands."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: wetlands.
+
+  Memory-aid source: Online Etymology Dictionary — wetland. https://www.etymonline.com/word/wetland
+word_formation: "wet (湿的) + land (土地) + 复数 -s，表示湿地区域。"
 learning_priority: 1
 audio: wetlands-terrain.mp3
 tags:

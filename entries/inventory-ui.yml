@@ -6,6 +6,9 @@ meaning: "物品清单；库存；游戏中的物品栏。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:188. Source form: Inventory.
+mnemonic: "图像助记 (非词源): inventory 先想物品清单，pouch 先想装东西的袋子；游戏界面可能借袋子的名称表示物品栏。"
+related_entries:
+  - "pouch-ui"
 learning_priority: 1
 audio: inventory-ui.mp3
 tags:

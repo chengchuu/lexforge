@@ -7,6 +7,9 @@ example: "The skilled archer aimed carefully."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: skilled.
+
+  Memory-aid source: Merriam-Webster.com Dictionary — -ed. https://www.merriam-webster.com/dictionary/-ed
+word_formation: "skill (技能) + -ed (具有……的)，表示有技能的、熟练的。"
 learning_priority: 2
 audio: skilled-general.mp3
 tags:

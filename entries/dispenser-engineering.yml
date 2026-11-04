@@ -6,6 +6,10 @@ meaning: "分配器；按需放出物品的装置。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Device Dispenser.
+
+  Memory-aid source: Merriam-Webster.com Dictionary — dispenser. https://www.merriam-webster.com/dictionary/dispenser
+  Memory-aid source: Merriam-Webster.com Dictionary — -er. https://www.merriam-webster.com/dictionary/-er
+word_formation: "dispense (分配、发放) + -er (执行者或装置)，去掉词尾 e 后构成 dispenser。"
 learning_priority: 1
 prerequisites:
   - "device-engineering"

@@ -7,6 +7,8 @@ example: "The emitter sends out a beam of light."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:168. Source form: emitter.
+related_entries:
+  - "emit-tech"
 word_formation: "emit（发出）+ -er（执行者或装置）；这里指发射装置。"
 learning_priority: 2
 audio: emitter-engineering.mp3

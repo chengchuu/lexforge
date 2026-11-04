@@ -7,6 +7,10 @@ example: "Climbing uses stamina."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Stamina.
+
+  Memory-aid source: Online Etymology Dictionary — stamina. https://www.etymonline.com/word/stamina
+etymology: "来自拉丁语 stamina，是 stamen (线、经线) 的复数；英语后来发展出支撑持续活动的耐力这一含义。更具体的比喻演变存在解释空间，不把线的图像当作唯一确定路径。"
+mnemonic: "用法助记: 想象角色跑步时逐渐消耗的体力，把 stamina 记在人身上；装备承受使用的耐久度则是 durability。"
 learning_priority: 1
 related_entries:
   - "durability-equipment"

@@ -8,6 +8,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Construct Head.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_GolemHead_Capsule_A_01_Name; version: 1.2.1.
+word_formation: "Construct 在此是魔像这一名词，head 表示头部；不是动词 construct (建造)。"
 learning_priority: 2
 prerequisites:
   - "construct-being-zelda"

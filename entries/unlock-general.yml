@@ -7,6 +7,9 @@ example: "Unlock the gate with the key."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: unlock.
+
+  Memory-aid source: Merriam-Webster.com Dictionary — un-. https://www.merriam-webster.com/dictionary/un-
+word_formation: "un- (解除或逆转) + lock (锁住)，表示解锁或解除限制。"
 learning_priority: 1
 audio: unlock-general.mp3
 tags:

@@ -8,6 +8,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Skyview Tower.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: P_Cannon; version: 1.2.1.
+word_formation: "名称中可识别 sky (天空)、view (视野) 和 tower (塔)；游戏简体中文名为鸟望台。此处不推断命名史。"
 learning_priority: 1
 prerequisites:
   - "sky-terrain"

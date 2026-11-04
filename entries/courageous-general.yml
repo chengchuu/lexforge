@@ -7,6 +7,14 @@ example: "The courageous traveler entered the cavern."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: courageous.
+
+  Memory-aid source: Online Etymology Dictionary — courageous. https://www.etymonline.com/word/courageous
+  Memory-aid source: Merriam-Webster.com Dictionary — -ous. https://www.merriam-webster.com/dictionary/-ous
+etymology: "来自古法语 corageus，与 corage (内心、精神、勇气) 有关，更早与拉丁语 cor (心) 相连；心与内在力量的历史联系有助于理解勇敢。"
+word_formation: "courage (勇气) + -ous (具有……特质的)，表示勇敢的。"
+related_entries:
+  - "brave-general"
+  - "reckless-general"
 learning_priority: 2
 audio: courageous-general.mp3
 tags:
