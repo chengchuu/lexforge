@@ -1,0 +1,18 @@
+id: "grill-cooking"
+language: "en"
+word: "grill"
+part_of_speech: "verb"
+meaning: "炙烤；在烤架上烹饪。"
+example: "Grill the fish over the fire."
+notes: |-
+  grilled 是烹饪语境中的过去分词或形容词形式；这里以动词原形学习。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: grilled.
+learning_priority: 2
+audio: grill-cooking.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "cooking"
+  - "verb"

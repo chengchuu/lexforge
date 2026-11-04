@@ -1,0 +1,16 @@
+id: "throw-general"
+language: "en"
+word: "throw"
+part_of_speech: "verb"
+meaning: "投掷"
+example: "Throw the stone across the river."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: throw.
+learning_priority: 1
+audio: throw-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

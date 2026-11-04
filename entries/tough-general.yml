@@ -1,0 +1,18 @@
+id: "tough-general"
+language: "en"
+word: "tough"
+part_of_speech: "adjective"
+meaning: "坚韧的；结实的；难以对付的。"
+context: "本作料理前缀 Tough 对应坚硬，表示提高防御力。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:154. Source form: Tough.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: DefenseUp_Name; version: 1.2.1.
+learning_priority: 2
+audio: tough-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

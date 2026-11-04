@@ -1,0 +1,15 @@
+id: "spirit-story"
+language: "en"
+word: "spirit"
+part_of_speech: "noun"
+meaning: "精神；灵魂。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Spirit Temple.
+learning_priority: 1
+audio: spirit-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

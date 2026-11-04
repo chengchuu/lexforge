@@ -1,0 +1,15 @@
+id: "sky-terrain"
+language: "en"
+word: "sky"
+part_of_speech: "noun"
+meaning: "天空"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: sky.
+learning_priority: 1
+audio: sky-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

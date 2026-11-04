@@ -1,0 +1,15 @@
+id: "calamity-story"
+language: "en"
+word: "calamity"
+part_of_speech: "noun"
+meaning: "灾厄、大灾难"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: calamity.
+learning_priority: 2
+audio: calamity-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

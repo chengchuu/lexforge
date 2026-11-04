@@ -1,0 +1,15 @@
+id: "civilization-general"
+language: "en"
+word: "civilization"
+part_of_speech: "noun"
+meaning: "文明"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:72. Source form: civilization.
+learning_priority: 2
+audio: civilization-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

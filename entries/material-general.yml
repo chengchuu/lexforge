@@ -1,0 +1,15 @@
+id: "material-general"
+language: "en"
+word: "material"
+part_of_speech: "noun"
+meaning: "材料；用于制作物品的原料。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:188. Source form: Materials.
+learning_priority: 1
+audio: material-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

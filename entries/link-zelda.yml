@@ -1,0 +1,17 @@
+id: "link-zelda"
+language: "en"
+word: "Link"
+part_of_speech: "noun"
+meaning: "林克；《王国之泪》的主角。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:64. Source form: Link.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: PlayerName; version: 1.2.1.
+learning_priority: 2
+audio: link-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "character"
+  - "noun"

@@ -1,0 +1,22 @@
+id: "crystal-refinery-zelda"
+language: "en"
+word: "Crystal Refinery"
+part_of_speech: "noun"
+meaning: "电池制造机；《王国之泪》中的地点或设施。"
+notes: |-
+  refinery 的普通词义是精炼设施。本作 Crystal Refinery 对应简体中文名电池制造机，不应按字面误当作矿石开采点。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Crystal Refinery.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LocationMsg/Location/0000.json; key: BatteryExchangeShop_00; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "crystal-general"
+  - "refinery-architecture"
+audio: crystal-refinery-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "location"
+  - "noun"

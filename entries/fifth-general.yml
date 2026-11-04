@@ -1,0 +1,16 @@
+id: "fifth-general"
+language: "en"
+word: "fifth"
+part_of_speech: "ordinal number"
+meaning: "第五。"
+notes: |-
+  来源组合或标题: Find the Fifth Sage。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:212. Source form: Find the Fifth Sage.
+learning_priority: 1
+audio: fifth-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"

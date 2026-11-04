@@ -1,0 +1,15 @@
+id: "ridge-terrain"
+language: "en"
+word: "ridge"
+part_of_speech: "noun"
+meaning: "山脊"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: ridge.
+learning_priority: 1
+audio: ridge-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

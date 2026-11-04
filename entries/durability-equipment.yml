@@ -1,0 +1,21 @@
+id: "durability-equipment"
+language: "en"
+word: "durability"
+part_of_speech: "noun"
+meaning: "耐用性；耐久度。"
+example: "Durability decreases as the weapon is used."
+notes: |-
+  与 durable（耐用的）对应。游戏中常用于武器、盾等装备的耐久表现，不等同于角色的精力 stamina。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Durability.
+word_formation: "durable 是形容词，durability 是对应的抽象名词；-ble 结尾的形容词常有 -bility 形式的名词。"
+learning_priority: 1
+prerequisites:
+  - "durable-general"
+audio: durability-equipment.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "equipment"
+  - "noun"

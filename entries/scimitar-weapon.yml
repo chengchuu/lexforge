@@ -1,0 +1,16 @@
+id: "scimitar-weapon"
+language: "en"
+word: "scimitar"
+part_of_speech: "noun"
+meaning: "弯刀"
+example: "The blade of the scimitar is curved."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: scimitar.
+learning_priority: 1
+audio: scimitar-weapon.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "weapon"
+  - "noun"

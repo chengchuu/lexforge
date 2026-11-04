@@ -1,0 +1,18 @@
+id: "cooking-pot-cooking"
+language: "en"
+word: "cooking pot"
+part_of_speech: "phrase"
+meaning: "烹饪锅"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: cooking pot.
+learning_priority: 2
+prerequisites:
+  - "cook-cooking"
+  - "pot-general"
+audio: cooking-pot-cooking.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "cooking"
+  - "phrase"

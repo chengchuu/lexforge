@@ -1,0 +1,15 @@
+id: "wheel-engineering"
+language: "en"
+word: "wheel"
+part_of_speech: "noun"
+meaning: "轮子。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Big Wheel.
+learning_priority: 1
+audio: wheel-engineering.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "engineering"
+  - "noun"

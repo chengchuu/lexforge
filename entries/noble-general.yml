@@ -1,0 +1,16 @@
+id: "noble-general"
+language: "en"
+word: "noble"
+part_of_speech: "adjective"
+meaning: "高贵的"
+example: "The story describes a noble act of sacrifice."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: noble.
+learning_priority: 2
+audio: noble-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

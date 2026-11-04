@@ -1,0 +1,18 @@
+id: "steer-general"
+language: "en"
+word: "steer"
+part_of_speech: "verb"
+meaning: "控制方向；掌舵；驾驶时使车辆转向。"
+example: "Steer the cart toward the bridge."
+notes: |-
+  steering 是对应的动名词或修饰形式，Steering Stick 中表示操纵方向。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:168. Source form: steering.
+learning_priority: 1
+audio: steer-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

@@ -1,0 +1,18 @@
+id: "draw-general"
+language: "en"
+word: "draw"
+part_of_speech: "verb"
+meaning: "拉开（弓）；拔出（武器）。"
+example: "Draw your bow and aim at the target."
+notes: |-
+  这里学习武器操作义，不是绘画这一常见义项。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: draw.
+learning_priority: 1
+audio: draw-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

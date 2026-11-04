@@ -1,0 +1,15 @@
+id: "village-architecture"
+language: "en"
+word: "village"
+part_of_speech: "noun"
+meaning: "村庄"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: village.
+learning_priority: 1
+audio: village-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

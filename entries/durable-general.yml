@@ -1,0 +1,18 @@
+id: "durable-general"
+language: "en"
+word: "durable"
+part_of_speech: "adjective"
+meaning: "耐用的；能经受使用而不易损坏的。"
+example: "A durable shield can withstand repeated use."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: durable.
+learning_priority: 2
+related_entries:
+  - "durability-equipment"
+audio: durable-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

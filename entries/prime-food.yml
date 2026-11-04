@@ -1,0 +1,16 @@
+id: "prime-food"
+language: "en"
+word: "prime"
+part_of_speech: "adjective"
+meaning: "上等的；优质的。"
+example: "The meal uses prime cuts of meat."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Raw Prime Meat.
+learning_priority: 1
+audio: prime-food.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "adjective"

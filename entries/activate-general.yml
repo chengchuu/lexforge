@@ -1,0 +1,16 @@
+id: "activate-general"
+language: "en"
+word: "activate"
+part_of_speech: "verb"
+meaning: "激活、启动"
+example: "Activate the device to start the mechanism."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:168. Source form: activate.
+learning_priority: 1
+audio: activate-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

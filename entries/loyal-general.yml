@@ -1,0 +1,16 @@
+id: "loyal-general"
+language: "en"
+word: "loyal"
+part_of_speech: "adjective"
+meaning: "忠诚的"
+example: "A loyal ally stayed beside the prince."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: loyal.
+learning_priority: 2
+audio: loyal-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

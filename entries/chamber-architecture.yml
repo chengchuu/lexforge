@@ -1,0 +1,15 @@
+id: "chamber-architecture"
+language: "en"
+word: "chamber"
+part_of_speech: "noun"
+meaning: "房间、密室"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: chamber.
+learning_priority: 2
+audio: chamber-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

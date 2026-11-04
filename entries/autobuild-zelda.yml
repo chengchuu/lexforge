@@ -1,0 +1,20 @@
+id: "autobuild-zelda"
+language: "en"
+word: "Autobuild"
+part_of_speech: "noun"
+meaning: "蓝图；复现已记录组合设计的能力。"
+notes: |-
+  auto- 表示自动，build 表示建造；这里不推断虚构技术的历史来源。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Autobuild.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0020.json; key: Obj_AutoBuilder_Name; version: 1.2.1.
+learning_priority: 1
+prerequisites:
+  - "build-construction"
+audio: autobuild-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

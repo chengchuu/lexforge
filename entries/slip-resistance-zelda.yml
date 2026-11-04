@@ -1,0 +1,20 @@
+id: "slip-resistance-zelda"
+language: "en"
+word: "Slip Resistance"
+part_of_speech: "noun"
+meaning: "滑落减轻；减少攀爬湿滑表面时滑落的效果。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:134. Source form: Froggy Sleeve.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Buff/0000.json; key: NotSlippy; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "slip-general"
+  - "resistance-general"
+audio: slip-resistance-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "noun"

@@ -1,0 +1,15 @@
+id: "general-store-architecture"
+language: "en"
+word: "general store"
+part_of_speech: "phrase"
+meaning: "杂货店"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: general store.
+learning_priority: 2
+audio: general-store-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "phrase"

@@ -1,0 +1,18 @@
+id: "ruins-architecture"
+language: "en"
+word: "ruins"
+part_of_speech: "noun"
+meaning: "废墟、遗迹"
+example: "Explore the ruins near the village."
+notes: |-
+  来源组合或标题: Secret of the Ring Ruins。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: ruins.
+learning_priority: 2
+audio: ruins-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

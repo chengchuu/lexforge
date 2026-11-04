@@ -1,0 +1,15 @@
+id: "tower-architecture"
+language: "en"
+word: "tower"
+part_of_speech: "noun"
+meaning: "高塔"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: tower.
+learning_priority: 1
+audio: tower-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

@@ -1,0 +1,15 @@
+id: "shirt-clothing"
+language: "en"
+word: "shirt"
+part_of_speech: "noun"
+meaning: "衬衫；上衣。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:134. Source form: Glide Shirt.
+learning_priority: 1
+audio: shirt-clothing.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "clothing"
+  - "noun"

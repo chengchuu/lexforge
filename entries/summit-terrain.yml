@@ -1,0 +1,16 @@
+id: "summit-terrain"
+language: "en"
+word: "summit"
+part_of_speech: "noun"
+meaning: "山顶"
+example: "Reach the summit before nightfall."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: summit.
+learning_priority: 1
+audio: summit-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

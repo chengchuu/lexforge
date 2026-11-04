@@ -1,0 +1,21 @@
+id: "zonai-device-zelda"
+language: "en"
+word: "Zonai Device"
+part_of_speech: "noun"
+meaning: "左纳乌装置；使用左纳乌技术的功能装置。"
+notes: |-
+  来源组合或标题: Zonai Devices。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Zonai Device.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0001.json; key: Gadget; version: 1.2.1.
+learning_priority: 1
+prerequisites:
+  - "zonai-zelda"
+  - "device-engineering"
+audio: zonai-device-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

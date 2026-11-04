@@ -1,0 +1,17 @@
+id: "shock-resistance-combat"
+language: "en"
+word: "shock resistance"
+part_of_speech: "phrase"
+meaning: "抗电；抵抗电击影响的能力。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:154. Source form: Shock Resistance.
+learning_priority: 1
+prerequisites:
+  - "resistance-general"
+audio: shock-resistance-combat.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "phrase"

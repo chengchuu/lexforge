@@ -1,0 +1,18 @@
+id: "mighty-general"
+language: "en"
+word: "mighty"
+part_of_speech: "adjective"
+meaning: "强大的"
+context: "本作料理前缀 Mighty 对应力量，表示提高攻击力；普通形容词表示强大的。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: mighty.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: AttackUp_Name; version: 1.2.1.
+learning_priority: 2
+audio: mighty-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

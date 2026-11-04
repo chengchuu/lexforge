@@ -1,0 +1,15 @@
+id: "waterfall-terrain"
+language: "en"
+word: "waterfall"
+part_of_speech: "noun"
+meaning: "瀑布"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: waterfall.
+learning_priority: 1
+audio: waterfall-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

@@ -1,0 +1,22 @@
+id: "light-dragon-zelda"
+language: "en"
+word: "Light Dragon"
+part_of_speech: "noun"
+meaning: "白龙；本作在空中飞行的一条龙。"
+notes: |-
+  本作剧情中与塞尔达的龙化有关；包含剧情剧透。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge-background.md:102. Source form: Light Dragon.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PictureBook/0001.json; key: Enemy_Dragon_Light_001_Name; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "light-engineering"
+  - "dragon-story"
+audio: light-dragon-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

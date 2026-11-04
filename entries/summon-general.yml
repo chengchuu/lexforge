@@ -1,0 +1,16 @@
+id: "summon-general"
+language: "en"
+word: "summon"
+part_of_speech: "verb"
+meaning: "召唤"
+example: "Summon an ally for the battle."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: summon.
+learning_priority: 1
+audio: summon-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

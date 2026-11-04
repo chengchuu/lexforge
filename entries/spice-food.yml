@@ -1,0 +1,15 @@
+id: "spice-food"
+language: "en"
+word: "spice"
+part_of_speech: "noun"
+meaning: "香辛料；调味香料。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Goron Spice.
+learning_priority: 1
+audio: spice-food.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "noun"

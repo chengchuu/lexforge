@@ -1,0 +1,21 @@
+id: "find-general"
+language: "en"
+word: "find"
+part_of_speech: "verb"
+meaning: "找到；发现。"
+notes: |-
+  强调找到或发现的结果；寻找这一过程常用 look for。
+
+  来源组合或标题: Find Princess Zelda。
+
+  来源组合或标题: Find the Fifth Sage。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:200. Source form: Find Princess Zelda.
+learning_priority: 1
+audio: find-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

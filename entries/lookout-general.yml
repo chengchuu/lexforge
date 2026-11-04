@@ -1,0 +1,15 @@
+id: "lookout-general"
+language: "en"
+word: "lookout"
+part_of_speech: "noun"
+meaning: "瞭望；警戒人员；瞭望处。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Lookout Landing.
+learning_priority: 1
+audio: lookout-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

@@ -1,0 +1,16 @@
+id: "dodge-general"
+language: "en"
+word: "dodge"
+part_of_speech: "verb"
+meaning: "闪避"
+example: "Dodge the attack and move to safety."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: dodge.
+learning_priority: 1
+audio: dodge-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

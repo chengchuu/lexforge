@@ -1,0 +1,18 @@
+id: "geoglyph-game"
+language: "en"
+word: "geoglyph"
+part_of_speech: "noun"
+meaning: "地上绘；通过地表图案或线条形成的大型图像。"
+notes: |-
+  普通名词指地表上的大型图形；本作中的 Geoglyphs 与龙之泪的记忆有关。
+
+  来源组合或标题: Impa and the Geoglyphs。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: geoglyph.
+learning_priority: 2
+audio: geoglyph-game.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

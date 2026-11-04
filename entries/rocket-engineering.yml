@@ -1,0 +1,19 @@
+id: "rocket-engineering"
+language: "en"
+word: "rocket"
+part_of_speech: "noun"
+meaning: "火箭。"
+notes: |-
+  本作有同名左纳乌装置 Rocket，对应简体中文名火箭。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Rocket.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_Rocket_Capsule_A_01_Name; version: 1.2.1.
+learning_priority: 1
+audio: rocket-engineering.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "engineering"
+  - "noun"

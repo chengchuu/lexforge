@@ -1,0 +1,15 @@
+id: "eagle-general"
+language: "en"
+word: "eagle"
+part_of_speech: "noun"
+meaning: "鹰。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:124. Source form: Great Eagle Bow.
+learning_priority: 1
+audio: eagle-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

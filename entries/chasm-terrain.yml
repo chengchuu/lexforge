@@ -1,0 +1,17 @@
+id: "chasm-terrain"
+language: "en"
+word: "chasm"
+part_of_speech: "noun"
+meaning: "深渊；深而宽的裂隙。"
+context: "本作的 Chasm 常指通往地底的大型深穴。"
+example: "A deep chasm separates the cliffs."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Chasm.
+learning_priority: 1
+audio: chasm-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

@@ -1,0 +1,19 @@
+id: "kingdom-general"
+language: "en"
+word: "kingdom"
+part_of_speech: "noun"
+meaning: "王国；由国王或女王统治的国家。"
+notes: |-
+  来源组合或标题: Tears of the Kingdom。
+
+  来源组合或标题: To the Kingdom of Hyrule。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge-background.md:13. Source form: Tears of the Kingdom.
+learning_priority: 1
+audio: kingdom-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

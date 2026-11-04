@@ -1,0 +1,16 @@
+id: "foothill-terrain"
+language: "en"
+word: "foothill"
+part_of_speech: "noun"
+meaning: "山麓"
+example: "A village lies in the foothills."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: foothill.
+learning_priority: 1
+audio: foothill-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

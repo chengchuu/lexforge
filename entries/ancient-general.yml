@@ -1,0 +1,17 @@
+id: "ancient-general"
+language: "en"
+word: "ancient"
+part_of_speech: "adjective"
+meaning: "古代的"
+notes: |-
+  来源组合或标题: Guidance from Ages Past。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: ancient.
+learning_priority: 2
+audio: ancient-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

@@ -1,0 +1,15 @@
+id: "traveler-general"
+language: "en"
+word: "traveler"
+part_of_speech: "noun"
+meaning: "旅行者；旅人。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:124. Source form: Traveler's Sword.
+learning_priority: 1
+audio: traveler-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

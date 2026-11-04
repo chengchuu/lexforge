@@ -1,0 +1,15 @@
+id: "homing-engineering"
+language: "en"
+word: "homing"
+part_of_speech: "adjective"
+meaning: "自动导引的；能自动追踪目标的。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Homing Cart.
+learning_priority: 2
+audio: homing-engineering.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "engineering"
+  - "adjective"

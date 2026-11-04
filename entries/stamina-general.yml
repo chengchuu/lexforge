@@ -1,0 +1,18 @@
+id: "stamina-general"
+language: "en"
+word: "stamina"
+part_of_speech: "noun"
+meaning: "耐力；持续活动的体力；游戏中对应精力。"
+example: "Climbing uses stamina."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Stamina.
+learning_priority: 1
+related_entries:
+  - "durability-equipment"
+audio: stamina-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

@@ -1,0 +1,17 @@
+id: "seized-construct-zelda"
+language: "en"
+word: "Seized Construct"
+part_of_speech: "noun"
+meaning: "被夺之魔像；《王国之泪》中的怪物或首领名称。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:176. Source form: Seized Construct.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PictureBook/0001.json; key: Enemy_DungeonBoss_Zonau_Name; version: 1.2.1.
+learning_priority: 3
+audio: seized-construct-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "monster"
+  - "noun"

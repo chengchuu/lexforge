@@ -1,0 +1,17 @@
+id: "ultrahand-zelda"
+language: "en"
+word: "Ultrahand"
+part_of_speech: "noun"
+meaning: "究极手；可抓取、移动和粘接许多物体的能力。"
+example: "Use Ultrahand to attach the fan to the cart."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Ultrahand.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0022.json; key: Obj_UltraHand_Name; version: 1.2.1.
+learning_priority: 1
+audio: ultrahand-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

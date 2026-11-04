@@ -1,0 +1,15 @@
+id: "fire-general"
+language: "en"
+word: "fire"
+part_of_speech: "noun"
+meaning: "火。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Fire Temple.
+learning_priority: 1
+audio: fire-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

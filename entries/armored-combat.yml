@@ -1,0 +1,15 @@
+id: "armored-combat"
+language: "en"
+word: "armored"
+part_of_speech: "adjective"
+meaning: "装甲覆盖的"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:180. Source form: armored.
+learning_priority: 2
+audio: armored-combat.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "adjective"

@@ -1,0 +1,18 @@
+id: "warp-general"
+language: "en"
+word: "warp"
+part_of_speech: "verb"
+meaning: "传送；游戏中快速移动到另一地点。"
+example: "Warp to a nearby travel point."
+notes: |-
+  这里是游戏语境的动词用法，不表示物体弯曲变形。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: warp.
+learning_priority: 1
+audio: warp-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

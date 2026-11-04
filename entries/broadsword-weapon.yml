@@ -1,0 +1,18 @@
+id: "broadsword-weapon"
+language: "en"
+word: "broadsword"
+part_of_speech: "noun"
+meaning: "阔剑"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: broadsword.
+word_formation: "broad（宽阔的）+ sword（剑）。"
+learning_priority: 1
+prerequisites:
+  - "sword-weapon"
+audio: broadsword-weapon.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "weapon"
+  - "noun"

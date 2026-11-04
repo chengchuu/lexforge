@@ -1,0 +1,18 @@
+id: "endure-general"
+language: "en"
+word: "endure"
+part_of_speech: "verb"
+meaning: "持久；忍受；持续存在。"
+context: "Enduring 是本作料理前缀，可提供超出通常精力槽的额外精力。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:154. Source form: Enduring.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: ExStaminaMaxUp_Name; version: 1.2.1.
+learning_priority: 2
+audio: endure-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

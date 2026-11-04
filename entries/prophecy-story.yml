@@ -1,0 +1,16 @@
+id: "prophecy-story"
+language: "en"
+word: "prophecy"
+part_of_speech: "noun"
+meaning: "预言"
+example: "The ancient prophecy speaks of a returning hero."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: prophecy.
+learning_priority: 2
+audio: prophecy-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

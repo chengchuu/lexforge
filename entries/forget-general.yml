@@ -1,0 +1,16 @@
+id: "forget-general"
+language: "en"
+word: "forget"
+part_of_speech: "verb"
+meaning: "忘记；未能想起。"
+example: "I forgot the route to the temple."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Forgotten Temple.
+learning_priority: 1
+audio: forget-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

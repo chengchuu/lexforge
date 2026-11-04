@@ -1,0 +1,16 @@
+id: "shrine-architecture"
+language: "en"
+word: "shrine"
+part_of_speech: "noun"
+meaning: "神龛；圣祠；供奉或祭祀的场所。"
+context: "《王国之泪》的 Shrine 指提供挑战的神庙；游戏名称与普通英语词义有联系。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Shrine.
+learning_priority: 1
+audio: shrine-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

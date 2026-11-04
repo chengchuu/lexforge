@@ -1,0 +1,22 @@
+id: "demon-dragon-zelda"
+language: "en"
+word: "Demon Dragon"
+part_of_speech: "noun"
+meaning: "黑龙；加侬多夫龙化后的形态。"
+notes: |-
+  属于最终阶段剧情内容。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:176. Source form: Demon Dragon.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PictureBook/0001.json; key: Enemy_Dragon_Darkness_Name; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "demon-story"
+  - "dragon-story"
+audio: demon-dragon-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

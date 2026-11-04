@@ -1,0 +1,20 @@
+id: "skyview-tower-zelda"
+language: "en"
+word: "Skyview Tower"
+part_of_speech: "noun"
+meaning: "鸟望台；用于调查区域地图的塔状设施。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Skyview Tower.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: P_Cannon; version: 1.2.1.
+learning_priority: 1
+prerequisites:
+  - "sky-terrain"
+  - "view-general"
+  - "tower-architecture"
+audio: skyview-tower-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

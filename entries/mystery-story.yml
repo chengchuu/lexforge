@@ -1,0 +1,17 @@
+id: "mystery-story"
+language: "en"
+word: "mystery"
+part_of_speech: "noun"
+meaning: "谜团、神秘之事"
+notes: |-
+  来源组合或标题: A Mystery in the Depths。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: mystery.
+learning_priority: 2
+audio: mystery-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

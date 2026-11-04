@@ -1,0 +1,15 @@
+id: "swamp-terrain"
+language: "en"
+word: "swamp"
+part_of_speech: "noun"
+meaning: "沼泽"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: swamp.
+learning_priority: 1
+audio: swamp-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

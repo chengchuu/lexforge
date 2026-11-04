@@ -1,0 +1,16 @@
+id: "susceptible-combat"
+language: "en"
+word: "susceptible"
+part_of_speech: "adjective"
+meaning: "易受某种影响的"
+example: "The creature is susceptible to fire."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:180. Source form: susceptible.
+learning_priority: 2
+audio: susceptible-combat.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "adjective"

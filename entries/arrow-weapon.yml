@@ -1,0 +1,17 @@
+id: "arrow-weapon"
+language: "en"
+word: "arrow"
+part_of_speech: "noun"
+meaning: "箭"
+notes: |-
+  来源组合或标题: Bows and Arrows。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: arrow.
+learning_priority: 1
+audio: arrow-weapon.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "weapon"
+  - "noun"

@@ -1,0 +1,18 @@
+id: "paraglider-zelda"
+language: "en"
+word: "Paraglider"
+part_of_speech: "noun"
+meaning: "滑翔帆；本作用于空中滑翔的装备。"
+notes: |-
+  普通英语 paraglider 也可指滑翔伞或进行滑翔伞运动的人；这里指游戏装备。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Paraglider.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0022.json; key: Parasail_Name; version: 1.2.1.
+learning_priority: 1
+audio: paraglider-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

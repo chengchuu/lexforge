@@ -1,0 +1,15 @@
+id: "upheaval-story"
+language: "en"
+word: "upheaval"
+part_of_speech: "noun"
+meaning: "剧变；动荡；重大变动。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: upheaval.
+learning_priority: 1
+audio: upheaval-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

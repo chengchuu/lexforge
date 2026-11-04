@@ -1,0 +1,17 @@
+id: "teba-zelda"
+language: "en"
+word: "Teba"
+part_of_speech: "noun"
+meaning: "特巴；利特族战士，丘栗的父亲。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:64. Source form: Teba.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/CharaDirectory/0000.json; key: Npc_ValleyVillage010_Name; version: 1.2.1.
+learning_priority: 2
+audio: teba-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "character"
+  - "noun"

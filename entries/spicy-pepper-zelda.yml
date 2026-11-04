@@ -1,0 +1,20 @@
+id: "spicy-pepper-zelda"
+language: "en"
+word: "Spicy Pepper"
+part_of_speech: "noun"
+meaning: "暖暖草果；《王国之泪》中的材料名称。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Spicy Pepper.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0018.json; key: Item_Fruit_I_Name; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "spicy-general"
+  - "pepper-vegetable"
+audio: spicy-pepper-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "noun"

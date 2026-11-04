@@ -1,0 +1,18 @@
+id: "paella-cooking"
+language: "en"
+word: "paella"
+part_of_speech: "noun"
+meaning: "西班牙海鲜饭或烩饭；以米饭配合肉类、海鲜或蔬菜烹制的料理。"
+example: "The meal includes seafood paella."
+notes: |-
+  来源组合或标题: Seafood Paella。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:150. Source form: Seafood Paella.
+learning_priority: 2
+audio: paella-cooking.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "cooking"
+  - "noun"

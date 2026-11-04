@@ -1,0 +1,17 @@
+id: "fruit-food"
+language: "en"
+word: "fruit"
+part_of_speech: "noun"
+meaning: "水果。"
+notes: |-
+  来源组合或标题: Simmered Fruit。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:150. Source form: Simmered Fruit.
+learning_priority: 1
+audio: fruit-food.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "noun"

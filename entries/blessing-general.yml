@@ -1,0 +1,15 @@
+id: "blessing-general"
+language: "en"
+word: "blessing"
+part_of_speech: "noun"
+meaning: "祝福；被视为有益或带来幸福的事物。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Light of Blessing.
+learning_priority: 1
+audio: blessing-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

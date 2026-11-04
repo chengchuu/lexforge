@@ -1,0 +1,16 @@
+id: "cunning-general"
+language: "en"
+word: "cunning"
+part_of_speech: "adjective"
+meaning: "狡猾的"
+example: "The cunning enemy set a trap."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: cunning.
+learning_priority: 2
+audio: cunning-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

@@ -1,0 +1,20 @@
+id: "hylian-tunic-zelda"
+language: "en"
+word: "Hylian Tunic"
+part_of_speech: "noun"
+meaning: "海利亚服；《王国之泪》中的防具名称。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge-background.md:330. Source form: Hylian Tunic.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0001.json; key: Armor_015_Upper_Name; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "hylian-zelda"
+  - "tunic-clothing"
+audio: hylian-tunic-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "armor"
+  - "noun"

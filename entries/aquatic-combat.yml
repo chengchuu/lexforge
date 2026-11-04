@@ -1,0 +1,16 @@
+id: "aquatic-combat"
+language: "en"
+word: "aquatic"
+part_of_speech: "adjective"
+meaning: "水生的"
+example: "Aquatic creatures live in water."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:180. Source form: aquatic.
+learning_priority: 2
+audio: aquatic-combat.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "adjective"

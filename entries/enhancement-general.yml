@@ -1,0 +1,15 @@
+id: "enhancement-general"
+language: "en"
+word: "enhancement"
+part_of_speech: "noun"
+meaning: "强化、增强"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: enhancement.
+learning_priority: 2
+audio: enhancement-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

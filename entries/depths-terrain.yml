@@ -1,0 +1,17 @@
+id: "depths-terrain"
+language: "en"
+word: "depths"
+part_of_speech: "noun"
+meaning: "深处；深层区域；常用复数形式。"
+notes: |-
+  depth 可表示深度；depths 常指某处的深处。The Depths 则是本作地底区域的名称。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: depths.
+learning_priority: 1
+audio: depths-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

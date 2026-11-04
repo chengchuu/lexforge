@@ -1,0 +1,20 @@
+id: "ascend-general"
+language: "en"
+word: "ascend"
+part_of_speech: "verb"
+meaning: "上升；向高处移动。"
+context: "普通动词表示向上移动。本作能力名 Ascend 对应通天术，可穿过满足条件的头顶表面向上移动。"
+example: "Ascend through the ceiling to reach the platform."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Ascend.
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0022.json; key: Obj_Tooreroof_Name; version: 1.2.1.
+learning_priority: 1
+related_entries:
+  - "descend-general"
+audio: ascend-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

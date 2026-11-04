@@ -1,0 +1,16 @@
+id: "rusty-general"
+language: "en"
+word: "rusty"
+part_of_speech: "adjective"
+meaning: "生锈的"
+example: "The old sword is rusty."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: rusty.
+learning_priority: 2
+audio: rusty-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

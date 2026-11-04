@@ -1,0 +1,16 @@
+id: "drop-general"
+language: "en"
+word: "drop"
+part_of_speech: "verb"
+meaning: "丢弃"
+example: "Drop the object beside the cart."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: drop.
+learning_priority: 1
+audio: drop-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

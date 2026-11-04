@@ -1,0 +1,16 @@
+id: "skilled-general"
+language: "en"
+word: "skilled"
+part_of_speech: "adjective"
+meaning: "熟练的、有技巧的"
+example: "The skilled archer aimed carefully."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: skilled.
+learning_priority: 2
+audio: skilled-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

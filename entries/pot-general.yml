@@ -1,0 +1,15 @@
+id: "pot-general"
+language: "en"
+word: "pot"
+part_of_speech: "noun"
+meaning: "锅；罐。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: cooking pot.
+learning_priority: 1
+audio: pot-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

@@ -1,0 +1,17 @@
+id: "ring-general"
+language: "en"
+word: "ring"
+part_of_speech: "noun"
+meaning: "环；圈；戒指。"
+notes: |-
+  来源组合或标题: Secret of the Ring Ruins。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:213. Source form: Secret of the Ring Ruins.
+learning_priority: 1
+audio: ring-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

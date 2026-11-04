@@ -1,0 +1,17 @@
+id: "tomato-food"
+language: "en"
+word: "tomato"
+part_of_speech: "noun"
+meaning: "番茄。"
+notes: |-
+  来源组合或标题: Hylian Tomato。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Hylian Tomato.
+learning_priority: 1
+audio: tomato-food.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "noun"

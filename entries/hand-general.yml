@@ -1,0 +1,15 @@
+id: "hand-general"
+language: "en"
+word: "hand"
+part_of_speech: "noun"
+meaning: "手。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Ultrahand.
+learning_priority: 1
+audio: hand-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

@@ -1,0 +1,15 @@
+id: "banana-food"
+language: "en"
+word: "banana"
+part_of_speech: "noun"
+meaning: "香蕉。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Mighty Bananas.
+learning_priority: 1
+audio: banana-food.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "noun"

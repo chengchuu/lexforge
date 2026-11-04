@@ -1,0 +1,15 @@
+id: "club-weapon"
+language: "en"
+word: "club"
+part_of_speech: "noun"
+meaning: "棍棒"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: club.
+learning_priority: 1
+audio: club-weapon.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "weapon"
+  - "noun"

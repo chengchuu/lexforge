@@ -1,0 +1,17 @@
+id: "gourmet-food"
+language: "en"
+word: "gourmet"
+part_of_speech: "adjective"
+meaning: "美食的；讲究精美饮食的。"
+notes: |-
+  普通英语也可用作名词，指美食家；这里取修饰精美食物的用法。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Raw Gourmet Meat.
+learning_priority: 1
+audio: gourmet-food.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "adjective"

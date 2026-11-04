@@ -1,0 +1,15 @@
+id: "bomb-weapon"
+language: "en"
+word: "bomb"
+part_of_speech: "noun"
+meaning: "炸弹。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Time Bomb.
+learning_priority: 1
+audio: bomb-weapon.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "weapon"
+  - "noun"

@@ -1,0 +1,17 @@
+id: "goron-zelda"
+language: "en"
+word: "Goron"
+part_of_speech: "noun"
+meaning: "鼓隆族；《王国之泪》中的族群或组织。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:68. Source form: Goron.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/CharaDirectory_00/0000.json; key: Race_Goron; version: 1.2.1.
+learning_priority: 2
+audio: goron-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "race"
+  - "noun"

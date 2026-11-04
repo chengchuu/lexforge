@@ -1,0 +1,18 @@
+id: "chilly-general"
+language: "en"
+word: "chilly"
+part_of_speech: "adjective"
+meaning: "寒冷的；凉飕飕的。"
+context: "普通英语表示寒冷的；本作 Chilly 料理前缀对应冰冷，提供耐热效果。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:154. Source form: Chilly.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: ResistHot_Name; version: 1.2.1.
+learning_priority: 2
+audio: chilly-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

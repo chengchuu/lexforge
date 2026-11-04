@@ -1,0 +1,19 @@
+id: "temple-of-time-zelda"
+language: "en"
+word: "Temple of Time"
+part_of_speech: "noun"
+meaning: "时之神殿；《王国之泪》中的地点或设施。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Temple of Time.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LocationMsg/Location/0000.json; key: AncientTimeShrine; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "temple-architecture"
+audio: temple-of-time-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "location"
+  - "noun"

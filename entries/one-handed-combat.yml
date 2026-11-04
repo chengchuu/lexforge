@@ -1,0 +1,16 @@
+id: "one-handed-combat"
+language: "en"
+word: "one-handed"
+part_of_speech: "adjective"
+meaning: "单手的"
+example: "A one-handed weapon leaves the other hand free."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: one-handed.
+learning_priority: 1
+audio: one-handed-combat.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "adjective"

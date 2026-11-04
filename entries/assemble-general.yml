@@ -1,0 +1,16 @@
+id: "assemble-general"
+language: "en"
+word: "assemble"
+part_of_speech: "verb"
+meaning: "组装"
+example: "Assemble the parts into a vehicle."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:168. Source form: assemble.
+learning_priority: 1
+audio: assemble-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

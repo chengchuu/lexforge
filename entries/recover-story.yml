@@ -1,0 +1,20 @@
+id: "recover-story"
+language: "en"
+word: "recover"
+part_of_speech: "verb"
+meaning: "找回、恢复"
+example: "Recover the sword from the ruins."
+notes: |-
+  来源组合或标题: Recovering the Hero's Sword。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: recover.
+learning_priority: 2
+related_entries:
+  - "restore-tech"
+audio: recover-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "verb"

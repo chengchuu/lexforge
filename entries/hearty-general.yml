@@ -1,0 +1,18 @@
+id: "hearty-general"
+language: "en"
+word: "hearty"
+part_of_speech: "adjective"
+meaning: "丰盛的；有益健康的；充满活力的。"
+context: "Hearty 是本作料理效果前缀，对应生命；效果为回复生命并暂时增加心心上限。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:154. Source form: Hearty.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: LifeMaxUp_Name; version: 1.2.1.
+learning_priority: 2
+audio: hearty-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

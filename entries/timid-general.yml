@@ -1,0 +1,16 @@
+id: "timid-general"
+language: "en"
+word: "timid"
+part_of_speech: "adjective"
+meaning: "胆小的"
+example: "The timid creature hid behind the tree."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: timid.
+learning_priority: 2
+audio: timid-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

@@ -1,0 +1,15 @@
+id: "citadel-architecture"
+language: "en"
+word: "citadel"
+part_of_speech: "noun"
+meaning: "城塞、堡垒"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: citadel.
+learning_priority: 3
+audio: citadel-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

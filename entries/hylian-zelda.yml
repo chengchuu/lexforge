@@ -1,0 +1,24 @@
+id: "hylian-zelda"
+language: "en"
+word: "Hylian"
+part_of_speech: "noun"
+meaning: "海利亚人；《王国之泪》中的族群或组织。"
+notes: |-
+  来源组合或标题: Hylian Tomato。
+
+  来源组合或标题: Hylian Shroom。
+
+  来源组合或标题: Hylian Rice。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:68. Source form: Hylian.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/CharaDirectory_00/0000.json; key: Race_Hyrule; version: 1.2.1.
+  Hylian 也可作形容词，表示海利亚的；具体物品的中文名以游戏本地化为准，例如 Hylian Rice 对应海拉鲁米。
+learning_priority: 2
+audio: hylian-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "race"
+  - "noun"

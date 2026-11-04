@@ -1,0 +1,18 @@
+id: "gloom-zelda"
+language: "en"
+word: "Gloom"
+part_of_speech: "noun"
+meaning: "瘴气；本作中会造成特殊生命损伤的危险现象。"
+notes: |-
+  普通英语 gloom 指阴暗或忧郁。这里是游戏专名，不把普通词义直接当作机制说明。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Gloom.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: Miasma; version: 1.2.1.
+learning_priority: 1
+audio: gloom-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

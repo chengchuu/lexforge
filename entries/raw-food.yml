@@ -1,0 +1,18 @@
+id: "raw-food"
+language: "en"
+word: "raw"
+part_of_speech: "adjective"
+meaning: "生的；未烹饪的。"
+example: "Do not confuse raw meat with cooked meat."
+notes: |-
+  来源组合或标题: Raw Meat。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Raw Meat.
+learning_priority: 1
+audio: raw-food.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "food"
+  - "adjective"

@@ -1,0 +1,20 @@
+id: "phenomenon-story"
+language: "en"
+word: "phenomenon"
+part_of_speech: "noun"
+meaning: "现象"
+example: "The researchers investigated an unusual phenomenon."
+notes: |-
+  来源组合或标题: Regional Phenomena。
+
+  来源组合或标题: phenomena。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: phenomenon.
+learning_priority: 2
+audio: phenomenon-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

@@ -1,0 +1,15 @@
+id: "torch-weapon"
+language: "en"
+word: "torch"
+part_of_speech: "noun"
+meaning: "火把"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: torch.
+learning_priority: 1
+audio: torch-weapon.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "weapon"
+  - "noun"

@@ -1,0 +1,16 @@
+id: "recipe-cooking"
+language: "en"
+word: "recipe"
+part_of_speech: "noun"
+meaning: "食谱"
+example: "The recipe calls for rice and mushrooms."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: recipe.
+learning_priority: 2
+audio: recipe-cooking.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "cooking"
+  - "noun"

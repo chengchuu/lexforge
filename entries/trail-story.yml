@@ -1,0 +1,18 @@
+id: "trail-story"
+language: "en"
+word: "trail"
+part_of_speech: "noun"
+meaning: "踪迹、线索"
+example: "Follow the trail through the forest."
+notes: |-
+  来源组合或标题: Trail of the Master Sword。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: trail.
+learning_priority: 2
+audio: trail-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

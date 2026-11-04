@@ -1,0 +1,15 @@
+id: "brave-general"
+language: "en"
+word: "brave"
+part_of_speech: "adjective"
+meaning: "勇敢的"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: brave.
+learning_priority: 2
+audio: brave-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

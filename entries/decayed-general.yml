@@ -1,0 +1,18 @@
+id: "decayed-general"
+language: "en"
+word: "decayed"
+part_of_speech: "adjective"
+meaning: "腐朽的；腐败或衰损的。"
+context: "本作武器语境中表示受到腐朽影响的状态；不是简单的旧或生锈。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: decayed.
+learning_priority: 2
+related_entries:
+  - "pristine-general"
+audio: decayed-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

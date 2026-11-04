@@ -1,0 +1,18 @@
+id: "crisis-story"
+language: "en"
+word: "crisis"
+part_of_speech: "noun"
+meaning: "危机"
+example: "The kingdom faces a serious crisis."
+notes: |-
+  来源组合或标题: Crisis at Hyrule Castle。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: crisis.
+learning_priority: 2
+audio: crisis-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "noun"

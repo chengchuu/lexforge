@@ -1,0 +1,16 @@
+id: "ceiling-architecture"
+language: "en"
+word: "ceiling"
+part_of_speech: "noun"
+meaning: "天花板"
+example: "Look for a low ceiling above the platform."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: ceiling.
+learning_priority: 1
+audio: ceiling-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

@@ -1,0 +1,19 @@
+id: "impa-zelda"
+language: "en"
+word: "Impa"
+part_of_speech: "noun"
+meaning: "英帕；希卡族长者。"
+notes: |-
+  来源组合或标题: Impa and the Geoglyphs。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:64. Source form: Impa.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/CharaDirectory/0000.json; key: Npc_Wanderer_Name; version: 1.2.1.
+learning_priority: 2
+audio: impa-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "character"
+  - "noun"

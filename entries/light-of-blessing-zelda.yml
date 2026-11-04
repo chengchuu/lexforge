@@ -1,0 +1,19 @@
+id: "light-of-blessing-zelda"
+language: "en"
+word: "Light of Blessing"
+part_of_speech: "noun"
+meaning: "祝福之光；通过神庙挑战后获得的重要物品。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Light of Blessing.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_DungeonClearSeal_Name; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "light-engineering"
+  - "blessing-general"
+audio: light-of-blessing-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

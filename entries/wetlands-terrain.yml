@@ -1,0 +1,16 @@
+id: "wetlands-terrain"
+language: "en"
+word: "wetlands"
+part_of_speech: "noun"
+meaning: "湿地"
+example: "The road crosses the wetlands."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: wetlands.
+learning_priority: 1
+audio: wetlands-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

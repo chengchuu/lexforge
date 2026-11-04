@@ -1,0 +1,18 @@
+id: "imprison-story"
+language: "en"
+word: "imprison"
+part_of_speech: "verb"
+meaning: "囚禁；监禁。"
+example: "The king ordered the traitor imprisoned."
+notes: |-
+  游戏叙事中也可用于将某人封住、禁锢的情节；不是所有封印都能直接译作 imprison。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: imprison.
+learning_priority: 2
+audio: imprison-story.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "story"
+  - "verb"

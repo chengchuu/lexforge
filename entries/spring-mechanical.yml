@@ -1,0 +1,22 @@
+id: "spring-mechanical"
+language: "en"
+word: "spring"
+part_of_speech: "noun"
+meaning: "弹簧；受力形变后能恢复原状的弹性元件。"
+example: "The spring stores energy when compressed."
+notes: |-
+  同名左纳乌装置 Spring 是弹簧装置；与泉水 spring 区分。
+
+  本作有同名左纳乌装置 Spring，对应简体中文名弹簧。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: spring.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_SpringPiston_Capsule_A_01_Name; version: 1.2.1.
+learning_priority: 1
+audio: spring-mechanical.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "engineering"
+  - "noun"

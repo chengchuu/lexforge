@@ -1,0 +1,15 @@
+id: "enormous-combat"
+language: "en"
+word: "enormous"
+part_of_speech: "adjective"
+meaning: "巨大的"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:180. Source form: enormous.
+learning_priority: 2
+audio: enormous-combat.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "adjective"

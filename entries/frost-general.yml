@@ -1,0 +1,15 @@
+id: "frost-general"
+language: "en"
+word: "frost"
+part_of_speech: "noun"
+meaning: "霜；冰霜。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Frost Emitter.
+learning_priority: 1
+audio: frost-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

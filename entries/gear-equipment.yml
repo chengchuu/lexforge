@@ -1,0 +1,16 @@
+id: "gear-equipment"
+language: "en"
+word: "gear"
+part_of_speech: "noun"
+meaning: "装备；为某种活动准备的器材。"
+example: "Check your climbing gear before setting out."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:134. Source form: Climbing Gear.
+learning_priority: 1
+audio: gear-equipment.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "equipment"
+  - "noun"

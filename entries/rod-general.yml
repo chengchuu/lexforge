@@ -1,0 +1,15 @@
+id: "rod-general"
+language: "en"
+word: "rod"
+part_of_speech: "noun"
+meaning: "杆；棒。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: magic rod.
+learning_priority: 1
+audio: rod-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

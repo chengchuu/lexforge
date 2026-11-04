@@ -1,0 +1,16 @@
+id: "miner-general"
+language: "en"
+word: "miner"
+part_of_speech: "noun"
+meaning: "矿工；采矿的人。"
+example: "The miner entered the cavern."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:64. Source form: Mineru.
+learning_priority: 1
+audio: miner-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

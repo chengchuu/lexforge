@@ -1,0 +1,21 @@
+id: "fuse-general"
+language: "en"
+word: "fuse"
+part_of_speech: "verb"
+meaning: "融合；结合；使物体连接成为一体。"
+example: "Fuse a rock to the weapon."
+notes: |-
+  游戏能力 Fuse 的简体中文名为余料建造，用于将物体与武器、盾或箭结合。普通英语 fuse 可指融合；这里不取保险丝这一名词义。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Fuse.
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_OneTouchBond_Name; version: 1.2.1.
+learning_priority: 1
+related_entries:
+  - "unfuse-general"
+audio: fuse-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

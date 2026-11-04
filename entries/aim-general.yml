@@ -1,0 +1,16 @@
+id: "aim-general"
+language: "en"
+word: "aim"
+part_of_speech: "verb"
+meaning: "瞄准"
+example: "Aim at the target before releasing the arrow."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: aim.
+learning_priority: 1
+audio: aim-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

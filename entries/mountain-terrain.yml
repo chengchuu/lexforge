@@ -1,0 +1,15 @@
+id: "mountain-terrain"
+language: "en"
+word: "mountain"
+part_of_speech: "noun"
+meaning: "山；山岳。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Death Mountain.
+learning_priority: 1
+audio: mountain-terrain.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "terrain"
+  - "noun"

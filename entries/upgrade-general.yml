@@ -1,0 +1,16 @@
+id: "upgrade-general"
+language: "en"
+word: "upgrade"
+part_of_speech: "verb"
+meaning: "升级、强化"
+example: "Upgrade the armor before the next battle."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: upgrade.
+learning_priority: 1
+audio: upgrade-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

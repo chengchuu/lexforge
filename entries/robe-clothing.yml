@@ -1,0 +1,15 @@
+id: "robe-clothing"
+language: "en"
+word: "robe"
+part_of_speech: "noun"
+meaning: "长袍"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:132. Source form: robe.
+learning_priority: 2
+audio: robe-clothing.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "clothing"
+  - "noun"

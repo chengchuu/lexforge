@@ -1,0 +1,16 @@
+id: "altar-architecture"
+language: "en"
+word: "altar"
+part_of_speech: "noun"
+meaning: "祭坛"
+example: "Place the offering on the altar."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: altar.
+learning_priority: 2
+audio: altar-architecture.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "architecture"
+  - "noun"

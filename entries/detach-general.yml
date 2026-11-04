@@ -1,0 +1,16 @@
+id: "detach-general"
+language: "en"
+word: "detach"
+part_of_speech: "verb"
+meaning: "分离、拆卸"
+example: "Detach the device before moving the cart."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:168. Source form: detach.
+learning_priority: 1
+audio: detach-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

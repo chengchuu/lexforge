@@ -1,0 +1,15 @@
+id: "arowana-general"
+language: "en"
+word: "arowana"
+part_of_speech: "noun"
+meaning: "龙鱼。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Ancient Arowana.
+learning_priority: 2
+audio: arowana-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

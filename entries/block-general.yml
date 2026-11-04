@@ -1,0 +1,16 @@
+id: "block-general"
+language: "en"
+word: "block"
+part_of_speech: "verb"
+meaning: "格挡；挡住攻击或去路。"
+example: "Use the shield to block the attack."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: block.
+learning_priority: 1
+audio: block-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "verb"

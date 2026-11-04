@@ -1,0 +1,16 @@
+id: "resilient-combat"
+language: "en"
+word: "resilient"
+part_of_speech: "adjective"
+meaning: "有韧性的；遭受打击后能恢复或继续应对的。"
+example: "The resilient creature survives in harsh terrain."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:180. Source form: resilient.
+learning_priority: 2
+audio: resilient-combat.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "combat"
+  - "adjective"

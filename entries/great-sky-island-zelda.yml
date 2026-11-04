@@ -1,0 +1,19 @@
+id: "great-sky-island-zelda"
+language: "en"
+word: "Great Sky Island"
+part_of_speech: "noun"
+meaning: "初始空岛；《王国之泪》中的地点或设施。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Great Sky Island.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LocationMsg/Location/0000.json; key: BeginningIsland; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "sky-island-zelda"
+audio: great-sky-island-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "location"
+  - "noun"

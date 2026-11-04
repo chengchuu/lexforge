@@ -1,0 +1,16 @@
+id: "rupee-game"
+language: "en"
+word: "rupee"
+part_of_speech: "noun"
+meaning: "卢比；本作的货币单位。"
+notes: |-
+  普通英语 rupee 也用于现实中的若干货币；这里学习游戏内货币语境。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Rupee.
+learning_priority: 1
+audio: rupee-game.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "noun"

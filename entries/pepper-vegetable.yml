@@ -1,0 +1,17 @@
+id: "pepper-vegetable"
+language: "en"
+word: "pepper"
+part_of_speech: "noun"
+meaning: "辣椒；甜椒；这里不指胡椒粉。"
+notes: |-
+  与既有 pepper-food（胡椒、胡椒粉）区分。Spicy Pepper 是本作的材料名称，简体中文为暖暖草果；不直接断言其等同于某种现实辣椒品种。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Spicy Pepper.
+learning_priority: 1
+audio: pepper-vegetable.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "vegetable"
+  - "noun"

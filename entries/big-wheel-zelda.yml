@@ -1,0 +1,19 @@
+id: "big-wheel-zelda"
+language: "en"
+word: "Big Wheel"
+part_of_speech: "noun"
+meaning: "大轮胎；《王国之泪》中的左纳乌装置。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Big Wheel.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_FastWheel_Capsule_B_01_Name; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - "wheel-engineering"
+audio: big-wheel-zelda.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "zonai"
+  - "noun"

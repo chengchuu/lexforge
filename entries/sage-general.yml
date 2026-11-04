@@ -1,0 +1,19 @@
+id: "sage-general"
+language: "en"
+word: "sage"
+part_of_speech: "noun"
+meaning: "贤者；富有智慧的人。"
+notes: |-
+  本作中 Sage 也用作贤者的称号；不取香草鼠尾草这一另义。
+
+  来源组合或标题: Find the Fifth Sage。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:72. Source form: sage.
+learning_priority: 2
+audio: sage-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

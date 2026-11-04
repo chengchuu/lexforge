@@ -1,0 +1,18 @@
+id: "sear-cooking"
+language: "en"
+word: "sear"
+part_of_speech: "verb"
+meaning: "以高温迅速煎烤食物表面。"
+example: "Sear the meat before serving it."
+notes: |-
+  seared 是烹饪语境中的过去分词或形容词形式；这里以动词原形学习。
+
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: seared.
+learning_priority: 2
+audio: sear-cooking.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "cooking"
+  - "verb"

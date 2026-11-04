@@ -1,0 +1,15 @@
+id: "head-general"
+language: "en"
+word: "head"
+part_of_speech: "noun"
+meaning: "头；头部。"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:132. Source form: headband.
+learning_priority: 1
+audio: head-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "noun"

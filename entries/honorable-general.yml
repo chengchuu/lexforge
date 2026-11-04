@@ -1,0 +1,16 @@
+id: "honorable-general"
+language: "en"
+word: "honorable"
+part_of_speech: "adjective"
+meaning: "值得尊敬的"
+example: "The honorable knight kept his promise."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: honorable.
+learning_priority: 2
+audio: honorable-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

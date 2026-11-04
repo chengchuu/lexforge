@@ -1,0 +1,16 @@
+id: "reckless-general"
+language: "en"
+word: "reckless"
+part_of_speech: "adjective"
+meaning: "鲁莽的"
+example: "A reckless attack can leave you vulnerable."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:227. Source form: reckless.
+learning_priority: 2
+audio: reckless-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

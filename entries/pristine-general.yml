@@ -1,0 +1,17 @@
+id: "pristine-general"
+language: "en"
+word: "pristine"
+part_of_speech: "adjective"
+meaning: "完好如初的；未受损或未被改变的。"
+context: "本作武器语境中可用来区分未腐朽的武器与 decayed（腐朽的）武器。"
+example: "I found a pristine sword."
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: pristine.
+learning_priority: 2
+audio: pristine-general.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "general"
+  - "adjective"

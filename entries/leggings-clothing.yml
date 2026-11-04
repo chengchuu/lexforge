@@ -1,0 +1,15 @@
+id: "leggings-clothing"
+language: "en"
+word: "leggings"
+part_of_speech: "noun"
+meaning: "紧身裤、护腿"
+notes: |-
+  学习主题: The Legend of Zelda: Tears of the Kingdom。
+  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:132. Source form: leggings.
+learning_priority: 2
+audio: leggings-clothing.mp3
+tags:
+  - "game"
+  - "zelda-totk"
+  - "clothing"
+  - "noun"
