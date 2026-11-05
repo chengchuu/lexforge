@@ -42,6 +42,8 @@ To collect a batch from files or directories, use the [Collect vocabulary with C
 
 For existing entries, use the [Generate missing audio with Codex guide](guides/GENERATE_MISSING_AUDIO_WITH_CODEX.md) to scan the collection, reuse available recordings, and generate missing pronunciation audio.
 
+Use the [Enrich memory aids with Codex guide](guides/ENRICH_MEMORY_AIDS_WITH_CODEX.md) to review existing entries for etymology, word formation, mnemonics, and related words. It produces exact drafts and relationship proposals for approval before changing entries.
+
 ### Entry schema
 
 Use the [Entry schema guide](guides/ENTRY_SCHEMA.md) for field definitions and validation rules. It covers required and optional fields, language tags, memory aids, related entries, and source formatting.
