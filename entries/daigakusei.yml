@@ -1,0 +1,14 @@
+id: daigakusei
+language: ja
+word: "大学生"
+pronunciation: "だいがくせい"
+part_of_speech: noun
+meaning: "大学生；在大学就读的学生"
+example: "私は大学生です。"
+notes: "Source: Langoal — 大学生. https://langoal.com/ja/vocabulary/word/daigakusei.html"
+learning_priority: 1
+prerequisites:
+  - daigaku
+  - gakusei
+tags:
+  - noun

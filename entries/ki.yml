@@ -6,6 +6,8 @@ part_of_speech: noun
 meaning: "树；木"
 context: "表示树，也可表示木材，需结合语境理解。"
 example: "庭に木があります。"
+related_entries:
+  - jumoku
 audio: ki.mp3
 learning_priority: 1
 tags:

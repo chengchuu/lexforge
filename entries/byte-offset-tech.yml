@@ -6,7 +6,10 @@ part_of_speech: noun
 meaning: "字节偏移"
 context: "从起点开始按字节计数的位置。"
 example: "A UTF-16 column is not a UTF-8 byte offset."
-notes: "Source: react/react-37898.md."
+notes: "Source: react/react-37898.md.\nMemory-aid source: MDN Web Docs — String: UTF-16 characters, Unicode code points, and grapheme clusters. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#utf-16_characters_unicode_code_points_and_grapheme_clusters\nMemory-aid source: MDN Web Docs — TextEncoder. https://developer.mozilla.org/en-US/docs/Web/API/TextEncoder"
+mnemonic: "计数助记: 对字符串 A😀B，从 0 开始计数时，B 的 UTF-16 码元位置是 3，UTF-8 字节偏移是 5。先问按什么单位计数，再比较位置；不要把码元数直接当作字节数。"
+related_entries:
+  - code-unit-tech
 audio: byte-offset-tech.mp3
 learning_priority: 3
 tags:

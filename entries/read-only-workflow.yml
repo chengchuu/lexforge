@@ -6,7 +6,8 @@ part_of_speech: adjective
 meaning: "只读的"
 context: "允许查看信息，但不修改被检查的内容或状态。"
 example: "Keep the investigation read-only."
-notes: "Source: reports/react-candidates.md."
+notes: "Source: reports/react-candidates.md.\nMemory-aid source: Merriam-Webster.com Dictionary — read-only. https://www.merriam-webster.com/dictionary/read-only"
+word_formation: "read + only: 只允许读取。作为修饰语通常用连字符写成 read-only，限制的是修改操作，不是要求只能读一次。"
 audio: read-only-workflow.mp3
 learning_priority: 1
 tags:

@@ -6,7 +6,8 @@ part_of_speech: verb
 meaning: "覆盖"
 context: "用新值或新内容替换原有内容。"
 example: "Do not overwrite a report from an earlier run."
-notes: "Source: schedulers/daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md.\nMemory-aid source: Merriam-Webster.com Dictionary — overwrite. https://www.merriam-webster.com/dictionary/overwrite"
+word_formation: "over + write: 在原有内容上写入新内容；计算机语境中就是用新信息覆盖旧信息。"
 audio: overwrite-tech.mp3
 learning_priority: 1
 tags:

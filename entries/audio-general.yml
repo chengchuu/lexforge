@@ -5,10 +5,12 @@ part_of_speech: noun
 meaning: "音频；录制或传输的声音。"
 context: "在学习工具中可指读音录音或其他声音内容；本条使用名词义。"
 example: "Play the audio to check the pronunciation."
-notes: |
+notes: |-
   audio 也可作形容词，如 audio file。录音是声音资料，pronunciation 是发音或读音，两者并不等同。
   Source: user-supplied LexForge field-label vocabulary.
   Reference: Merriam-Webster: audio: https://www.merriam-webster.com/dictionary/audio
+  Memory-aid source: Online Etymology Dictionary — audio. https://www.etymonline.com/word/audio
+etymology: "现代英语名词 audio 从构词成分 audio- 独立出来，最终关联拉丁语 audire (听)，保留了声音、听觉这一核心。"
 related_entries:
   - pronunciation-general
 learning_priority: 1

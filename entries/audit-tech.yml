@@ -6,7 +6,10 @@ part_of_speech: noun
 meaning: "审查"
 context: "对明确范围内的内容进行系统检查。"
 example: "The investigation is not a complete backlog audit."
-notes: "Source: reports/typescript-tueoct27.md."
+notes: "Source: reports/typescript-tueoct27.md.\nMemory-aid source: Online Etymology Dictionary — audit. https://www.etymonline.com/word/audit"
+etymology: "来自拉丁语 auditus (听、听取)，关联 audire (听)。早期账目审查采用口头听取的程序，后来 audit 泛指系统审查；现代代码审查不要求真的听录音。"
+related_entries:
+  - audio-general
 audio: audit-tech.mp3
 learning_priority: 2
 tags:

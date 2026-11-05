@@ -6,7 +6,8 @@ part_of_speech: noun
 meaning: "标识符"
 context: "变量、函数等代码实体使用的名称。"
 example: "Validate the identifier before passing it to the native compiler."
-notes: "Source: react/react-9-rust-compiler.md."
+notes: "Source: react/react-9-rust-compiler.md.\nMemory-aid source: Online Etymology Dictionary — identifier. https://www.etymonline.com/word/identifier"
+word_formation: "identify → identifier: 结尾 y 变为 i，再接 -er。这里指用来识别代码实体的名称，不是执行识别的人。"
 audio: identifier-tech.mp3
 learning_priority: 1
 tags:

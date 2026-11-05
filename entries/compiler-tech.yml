@@ -8,6 +8,8 @@ notes: |-
   编译器可以输出机器码、字节码或另一种源码；不限定为机器码生成器。
 
   Source: /Users/mazey/Web/web/server/docs/PR/react/react-38094-compiler.md:1. Source form: compiler.
+  Memory-aid source: Online Etymology Dictionary — compiler. https://www.etymonline.com/word/compiler
+word_formation: "现代词形可按 compile 去掉词尾 e 再接 -er 来记忆，得到 compiler。-er 在这里指执行编译的软件，不限于人。"
 learning_priority: 1
 prerequisites:
   - compile-tech

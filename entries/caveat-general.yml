@@ -6,7 +6,8 @@ part_of_speech: noun
 meaning: "限定说明；注意事项"
 context: "影响结论成立条件或适用范围的说明。"
 example: "Retain material caveats in the pull request description."
-notes: "Source: schedulers/daily-1am-issue-investigation.md."
+notes: "Source: schedulers/daily-1am-issue-investigation.md.\nMemory-aid source: Online Etymology Dictionary — caveat. https://www.etymonline.com/word/caveat"
+etymology: "来自拉丁语 caveat，原意近于\"务必留意\"，是 cavere (留心、防备) 的一种动词形式。现代英语把它用作提醒限制条件或风险的名词。"
 audio: caveat-general.mp3
 learning_priority: 2
 tags:

@@ -10,6 +10,8 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/PR/react/react-38094-compiler.md:43. Source form: holes.
 
   Reference: MDN: Indexed collections: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections
+related_entries:
+  - own-property-javascript
 learning_priority: 2
 prerequisites:
   - array-tech

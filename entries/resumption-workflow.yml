@@ -6,7 +6,10 @@ part_of_speech: noun
 meaning: "恢复继续"
 context: "任务中断之后再次继续执行。"
 example: "On resumption, the investigation moved directly to reporting."
-notes: "Source: reports/typescript-tueoct27.md."
+notes: "Source: reports/typescript-tueoct27.md.\nMemory-aid source: Online Etymology Dictionary — resumption. https://www.etymonline.com/word/resumption"
+word_formation: "resume (继续) → resumption: 对应的名词使用 resumpt- 词干，表示中断后的继续，不是直接在 resume 后追加 -tion。"
+related_entries:
+  - recovery-tech
 audio: resumption-workflow.mp3
 learning_priority: 2
 tags:

@@ -6,7 +6,8 @@ part_of_speech: phrase
 meaning: "我不是日本人"
 context: "礼貌否定日本人身份，主语可由上下文补足。"
 example: "私は日本人ではありません。"
-notes: "组合练习句：私は外国人です。日本人ではありません。读音：わたしはがいこくじんです。にほんじんではありません。中文：我是外国人，不是日本人。完整回应保留在备注中。"
+notes: "组合练习句：私は外国人です。日本人ではありません。读音：わたしはがいこくじんです。にほんじんではありません。中文：我是外国人，不是日本人。完整回应保留在备注中。\nMemory-aid source: Tokyo University of Foreign Studies Language Modules — Nです／Nではありません. https://www.coelang.tufs.ac.jp/mt/ja/gmod/contents/card/001.html"
+word_formation: "日本人 + ではありません。ではありません 是否定名词谓语的礼貌形式；句中没有明说主语，是否指我由上下文决定。"
 audio: nihonjin-dewa-arimasen.mp3
 learning_priority: 2
 prerequisites:

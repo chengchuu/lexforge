@@ -9,7 +9,11 @@ example: "私は外国人です。"
 notes: |-
   来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 外国人 (コトバンク)。https://kotobank.jp/word/外国人
   来源: 小学館《デジタル大辞泉》或《精選版 日本国語大辞典》: 人 (コトバンク)。https://kotobank.jp/word/人-536577
+  Memory-aid source: Langoal — 大学生. https://langoal.com/ja/vocabulary/word/daigakusei.html
 word_formation: "外国 + 人 (じん)。外国 表示别的国家，整体指外国人；日常理解需以说话语境中的国家为参照。"
+mnemonic: "辨音助记: 外国人读 がいこくじん，大学生读 だいがくせい。先抓结尾: じん 对应这里的 人，せい 对应这里的学生身份；再核对前半段 がいこく (外国) 与 だいがく (大学)。两者分别记成 外国 + 人、大学 + 生，不把相近的声音混成一串。外国人也可以是大学生，两者不是反义词。"
+related_entries:
+  - daigakusei
 audio: gaikokujin.mp3
 learning_priority: 1
 prerequisites:

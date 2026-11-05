@@ -6,6 +6,8 @@ part_of_speech: pronoun
 meaning: "我"
 context: "常见的第一人称，适用于礼貌或一般自我说明。"
 example: "私は学生です。"
+related_entries:
+  - boku
 audio: watashi.mp3
 learning_priority: 1
 tags:

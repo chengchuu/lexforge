@@ -6,7 +6,8 @@ part_of_speech: adjective
 meaning: "匿名的"
 context: "代码实体没有显式声明的名称。"
 example: "The transform also handles anonymous classes."
-notes: "Source: typescript/typescript-a-62854.md."
+notes: "Source: typescript/typescript-a-62854.md.\nMemory-aid source: Online Etymology Dictionary — anonymous. https://www.etymonline.com/word/anonymous"
+etymology: "经晚期拉丁语 anonymus 追溯到希腊语 anonymos (无名的): an- 表示没有，onyma 是 onoma (名字) 的一种方言形式。代码中的匿名沿用没有显式名称这一核心。"
 audio: anonymous-tech.mp3
 learning_priority: 2
 tags:

@@ -6,7 +6,8 @@ part_of_speech: noun
 meaning: "核实；验证"
 context: "针对具体行为或结论检查其是否成立。"
 example: "Direct-worker verification covers both compilation paths."
-notes: "Source: react/react-9-rust-compiler.md."
+notes: "Source: react/react-9-rust-compiler.md.\nMemory-aid source: Online Etymology Dictionary — verification. https://www.etymonline.com/word/verification"
+word_formation: "verify → verification: 同一词族的动词和名词，注意名词拼作 verification，不能直接把 -tion 加在 verify 后。这里强调核实某个说法或行为是否成立。"
 audio: verification-tech.mp3
 learning_priority: 1
 tags:

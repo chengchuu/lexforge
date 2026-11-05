@@ -6,7 +6,8 @@ part_of_speech: noun
 meaning: "重载"
 context: "同名函数或方法提供的不同调用签名。"
 example: "Preserve overload handling when resolving parameter documentation."
-notes: "Source: reports/typescript-wedoct28.md."
+notes: "Source: reports/typescript-wedoct28.md.\nMemory-aid source: TypeScript Handbook — More on Functions: Function Overloads. https://www.typescriptlang.org/docs/handbook/2/functions.html#function-overloads\nMemory-aid source: Merriam-Webster.com Dictionary — overload. https://www.merriam-webster.com/dictionary/overload"
+mnemonic: "辨义助记: 看到 function overload，先想同一个名字有几种调用签名，不要先想机器负载过高。重载与超载要靠语境区分。"
 audio: overload-tech.mp3
 learning_priority: 2
 tags:

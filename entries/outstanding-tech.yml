@@ -6,7 +6,10 @@ part_of_speech: adjective
 meaning: "尚未完成的"
 context: "工作或问题仍然等待处理。"
 example: "Native integration validation remains outstanding."
-notes: "Source: reports/react-candidates.md."
+notes: "Source: reports/react-candidates.md.\nMemory-aid source: Merriam-Webster.com Dictionary — outstanding. https://www.merriam-webster.com/dictionary/outstanding"
+mnemonic: "辨义助记: outstanding work 先看还有哪些工作挂着未完成；不要自动读成出色的工作。这里记的是尚待解决，不是优秀。"
+related_entries:
+  - pending-tech
 audio: outstanding-tech.mp3
 learning_priority: 2
 tags:

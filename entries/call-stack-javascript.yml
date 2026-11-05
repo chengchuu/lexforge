@@ -8,6 +8,8 @@ notes: |
   调用函数时压入调用帧，返回时弹出。递归过深可能耗尽栈空间。调用栈描述执行顺序，不等于所有变量的物理存储位置。
 
   Source: Interviews/AprilSkill.md:3. Also: Interviews/March.md. Verified reference: MDN: JavaScript execution model: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model
+related_entries:
+  - stack-trace-tech
 learning_priority: 1
 prerequisites:
   - stack-data-structure

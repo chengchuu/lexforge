@@ -6,8 +6,11 @@ part_of_speech: pronoun
 meaning: "你"
 context: "指谈话中的对方；知道姓名或称呼时，通常直接用姓名或称呼更自然。"
 example: "これはあなたの傘ですか。"
+notes: "Memory-aid source: Kanae Nakamine, Tofugu — Is あなた Polite or Rude?. https://www.tofugu.com/japanese/anata/"
+mnemonic: "用法助记: 不要把英语 you 每次都直接替换成 あなた。面对具体的人，先考虑是否省略称呼或使用姓名、身份称呼；あなた 的礼貌程度取决于关系和语境，不是固定的礼貌开关。"
 related_entries:
   - kimi
+  - omae
 audio: anata.mp3
 learning_priority: 1
 tags:

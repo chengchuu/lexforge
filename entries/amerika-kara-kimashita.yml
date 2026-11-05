@@ -6,7 +6,8 @@ part_of_speech: phrase
 meaning: "我来自美国"
 context: "自我介绍时说明自己来自美国，是来源模式的完整表达。"
 example: "はじめまして。アメリカから来ました。"
-notes: "与可替换地名的模式「～から来ました」分别保留。"
+notes: "与可替换地名的模式「～から来ました」分别保留。\nMemory-aid source: The Japan Foundation — Irodori Starter, Lesson 3: よろしくお願いします. https://www.irodori.jpf.go.jp/assets/data/starter/pdf/X_L03.pdf"
+word_formation: "アメリカ + から + 来ました。から 标记来源地；来ました 是 来る 的礼貌过去式。整句在自我介绍中表达来自美国，不等于声明美国国籍。"
 audio: amerika-kara-kimashita.mp3
 learning_priority: 2
 prerequisites:

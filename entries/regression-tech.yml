@@ -6,7 +6,8 @@ part_of_speech: noun
 meaning: "回归问题；行为退化"
 context: "修改之后出现的错误或原有正确行为的丢失。"
 example: "The new fixture catches the regression."
-notes: "Source: react/react-37871.md."
+notes: "Source: react/react-37871.md.\nMemory-aid source: Online Etymology Dictionary — regression. https://www.etymonline.com/word/regression"
+etymology: "来自拉丁语 regressio (返回)，关联 regredi (退回)。软件中的 regression 用返回或倒退的核心帮助理解: 改动后原本正确的行为发生退化。"
 audio: regression-tech.mp3
 learning_priority: 2
 tags:

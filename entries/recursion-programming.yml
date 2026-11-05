@@ -8,6 +8,8 @@ notes: |-
   recursive 是相关形容词，recursive comparisons 表示递归比较。原报告中的挂起情况不代表所有递归都有错误。
 
   Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-frioct30.md:15. Source form: recursion.
+related_entries:
+  - backtracking-algorithm
 learning_priority: 2
 audio: recursion-programming.mp3
 tags:

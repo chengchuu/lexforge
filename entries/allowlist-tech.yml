@@ -6,7 +6,8 @@ part_of_speech: noun
 meaning: "允许列表"
 context: "明确列出允许通过检查或采用某项处理的内容。"
 example: "The diagnostic is missing from the JavaScript allowlist."
-notes: "Source: reports/typescript-tueoct27.md."
+notes: "Source: reports/typescript-tueoct27.md.\nMemory-aid source: MDN Web Docs — Permissions Policy. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Permissions_Policy"
+word_formation: "allow + list: 把允许采用或通过的项目列成名单。这里表示明确准许的集合，不是默认允许所有项目。"
 audio: allowlist-tech.mp3
 learning_priority: 2
 tags:

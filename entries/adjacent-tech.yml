@@ -6,7 +6,8 @@ part_of_speech: adjective
 meaning: "相邻的"
 context: "在文本或结构中彼此紧挨着。"
 example: "The test covers adjacent surrogate values."
-notes: "Source: react/react-c-rust-compiler.md."
+notes: "Source: react/react-c-rust-compiler.md.\nMemory-aid source: Online Etymology Dictionary — adjacent. https://www.etymonline.com/word/adjacent"
+etymology: "来自拉丁语 adiacens，关联动词 adiacere (位于旁边、靠近)，由 ad (向、在旁) 与 iacere (躺、处于) 构成。历史核心是位置靠近。"
 audio: adjacent-tech.mp3
 learning_priority: 1
 tags:
