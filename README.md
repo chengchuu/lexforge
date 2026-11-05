@@ -4,7 +4,7 @@ LexForge turns vocabulary and concepts encountered during work and learning into
 
 - [Quick start](#quick-start)
 - [Add vocabulary during work](#add-vocabulary-during-work)
-  - [Add vocabulary with Codex](#add-vocabulary-with-codex)
+  - [Maintenance prompts](#maintenance-prompts)
   - [Entry schema](#entry-schema)
 - [Learning order](#learning-order)
 - [Set up Anki once](#set-up-anki-once)
@@ -34,15 +34,9 @@ The build validates all entries and writes a deterministic `dist/vocabulary.tsv`
 
 Use the [Add vocabulary during work guide](guides/ADD_VOCABULARY_DURING_WORK.md) for the capture workflow, learning-target selection, a YAML example, and validation and export steps.
 
-### Add vocabulary with Codex
+### Maintenance prompts
 
-Use the [Add vocabulary with Codex guide](guides/ADD_VOCABULARY_WITH_CODEX.md) for the reusable prompt. It covers entry reuse, natural examples, learning priorities, optional audio, and validation.
-
-To collect a batch from files or directories, use the [Collect vocabulary with Codex guide](guides/COLLECT_VOCABULARY_WITH_CODEX.md). It creates an import plan for review before changing entries.
-
-For existing entries, use the [Generate missing audio with Codex guide](guides/GENERATE_MISSING_AUDIO_WITH_CODEX.md) to scan the collection, reuse available recordings, and generate missing pronunciation audio.
-
-Use the [Enrich memory aids with Codex guide](guides/ENRICH_MEMORY_AIDS_WITH_CODEX.md) to review existing entries for etymology, word formation, mnemonics, and related words. It produces exact drafts and relationship proposals for approval before changing entries.
+Use the [Maintenance prompts guide](guides/MAINTENANCE_PROMPTS.md) to add vocabulary, collect learning targets from sources, generate missing audio, and plan memory-aid enrichment.
 
 ### Entry schema
 

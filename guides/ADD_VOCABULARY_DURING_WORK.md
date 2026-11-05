@@ -9,7 +9,7 @@ Capture useful words, expressions, or concepts as you encounter them. Run comman
 3. [Validate](#validate-and-export), review the diff, and commit the source file.
 4. Build and import a batch when convenient.
 
-For AI-assisted entry creation, use the reusable prompt in [Add vocabulary with Codex](ADD_VOCABULARY_WITH_CODEX.md).
+For AI-assisted entry creation, use the reusable prompt in [Add vocabulary](MAINTENANCE_PROMPTS.md#add-vocabulary).
 
 ## Choose a learning target
 
