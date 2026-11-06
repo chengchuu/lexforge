@@ -10,5 +10,6 @@ learning_priority: 1
 prerequisites:
   - daigaku
   - gakusei
+audio: daigakusei.mp3
 tags:
   - noun
