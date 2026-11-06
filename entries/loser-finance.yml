@@ -1,0 +1,14 @@
+id: loser-finance
+language: en
+word: "loser"
+part_of_speech: "noun"
+meaning: "下跌标的；在指定期间内价格下降的证券或资产。"
+example: "The list shows the market’s biggest losers."
+notes: |-
+  行情榜单中的 loser 指下跌标的，不是对人的贬称，也不直接给出投资者实际亏损。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2；原标签: Top Losers。
+learning_priority: 2
+audio: loser-finance.mp3
+tags:
+  - finance
+  - noun

@@ -1,0 +1,15 @@
+id: deposit-finance
+language: en
+word: "deposit"
+part_of_speech: "verb"
+meaning: "存入资金；将钱转入账户。"
+example: "The customer deposits funds into the account."
+notes: |-
+  此条以动词学习；界面也可能把 Deposit 用作入金功能名称。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7；原标签: Deposit。
+  Reference: Moomoo Financial Inc. — Customer Agreement, May 28, 2024. https://foss-us-sec.moomoo.com/customer_file_service/prod/disclosure_1717572128614_16222017.pdf
+learning_priority: 1
+audio: deposit-finance.mp3
+tags:
+  - finance
+  - verb

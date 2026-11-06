@@ -1,0 +1,14 @@
+id: quarter-finance
+language: en
+word: "quarter"
+part_of_speech: "noun"
+meaning: "季度；一年中的四分之一，在财报中表示一个报告季度。"
+example: "The company reports results each quarter."
+notes: |-
+  Q 是 quarter 的标签缩写。Q2 FY2027 表示该财年的第二季度，不自动等于自然年第二季度。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Q2；2026/Q4；2027/Q1；2027/Q2；2027/Q3；2027/Q4。
+learning_priority: 1
+audio: quarter-finance.mp3
+tags:
+  - finance
+  - noun

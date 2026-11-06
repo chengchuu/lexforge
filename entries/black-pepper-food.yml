@@ -1,11 +1,12 @@
 id: black-pepper-food
 language: en
 word: "black pepper"
+pronunciation: "/blæk ˈpɛpər/"
 part_of_speech: noun
 meaning: "黑胡椒"
 context: "常用调味料，也用于说明酱汁的主要风味。"
 example: "The beef comes with black pepper sauce and rice."
-notes: "Black pepper（黑胡椒）是一种 pepper（胡椒），与作为蔬菜的 pepper（甜椒或辣椒）不同。"
+notes: "Black pepper（黑胡椒）是一种 pepper（胡椒），与作为蔬菜的 pepper（甜椒或辣椒）不同。\nPronunciation source: Collins Dictionary — black pepper; In other languages / American English. https://www.collinsdictionary.com/dictionary/english/black-pepper (accessed 2026-11-06)."
 audio: black-pepper-food.mp3
 learning_priority: 2
 prerequisites:

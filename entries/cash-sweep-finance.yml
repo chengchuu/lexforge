@@ -1,0 +1,19 @@
+id: cash-sweep-finance
+language: en
+word: "cash sweep"
+part_of_speech: "noun"
+meaning: "现金归集；将符合条件的闲置现金转入指定现金管理或生息安排。"
+example: "The account offers a cash sweep program."
+notes: |-
+  Moomoo 历史客户协议将该计划归为闲置现金管理安排；当前参与银行、归集时间、利率和保障范围未在本次核实，不写入词条。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Cash Sweep。
+  Reference: Moomoo Financial Inc. — Customer Agreement, May 28, 2024. https://foss-us-sec.moomoo.com/customer_file_service/prod/disclosure_1717572128614_16222017.pdf
+learning_priority: 3
+prerequisites:
+  - cash-finance
+  - interest-finance
+audio: cash-sweep-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

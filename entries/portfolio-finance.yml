@@ -1,0 +1,17 @@
+id: portfolio-finance
+language: en
+word: "portfolio"
+part_of_speech: "noun"
+meaning: "投资组合；同一投资者或账户持有的一组投资资产。"
+example: "The portfolio contains several positions."
+notes: |-
+  此处不是设计作品集；% Portfolio 表示持仓在组合中的占比标签，具体分母与估值口径需看平台说明。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: % Portfolio。
+  Reference: Investment Company Institute — ETF Basics and Structure: FAQs. https://www.ici.org/faqs/faqs_etfs
+learning_priority: 2
+prerequisites:
+  - asset-finance
+audio: portfolio-finance.mp3
+tags:
+  - finance
+  - noun

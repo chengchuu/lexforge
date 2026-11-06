@@ -1,0 +1,17 @@
+id: income-finance
+language: en
+word: "income"
+pronunciation: "/ˈɪnˌkʌm/"
+part_of_speech: "noun"
+meaning: "收入；所得，是否扣除费用要结合限定语判断。"
+example: "The report separates income from expenses."
+notes: |-
+  作为 net income 的有用基础词学习，不把 income 在所有财务语境中都机械等同 revenue。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Net Income。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+  Pronunciation source: Collins Dictionary — income; income in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/income (accessed 2026-11-06).
+learning_priority: 1
+audio: income-finance.mp3
+tags:
+  - finance
+  - noun

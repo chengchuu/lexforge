@@ -1,0 +1,20 @@
+id: fear-general
+language: en
+word: "fear"
+pronunciation: "/fɪr/"
+part_of_speech: "noun"
+meaning: "恐惧；害怕或担忧的情绪。"
+example: "Fear can affect an investor’s decisions."
+notes: |-
+  此处学习普通情绪名词，截图中 Fear 是指标的情绪标签，不推断某个人的心理状态。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2；原标签: Fear；Fear & Greed Index。
+  Reference: Moomoo Open API — Crypto fear-and-greed history and overview. https://open.moomoo.com/api/quote/crypto-market/crypto-fear-greed-history
+  Pronunciation source: Collins Dictionary — fear; fear in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/fear (accessed 2026-11-06).
+related_entries:
+  - fearless-general
+learning_priority: 1
+audio: fear-general.mp3
+tags:
+  - general
+  - finance
+  - noun

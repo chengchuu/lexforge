@@ -1,0 +1,14 @@
+id: year-over-year-finance
+language: en
+word: "year-over-year"
+part_of_speech: "adjective"
+meaning: "同比的；与上一年相同期间相比的。"
+example: "Revenue grew on a year-over-year basis."
+notes: |-
+  YoY = year-over-year，不是与上一季度相比。保留缩写作为 Notes 中的界面形式。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: YoY。
+learning_priority: 2
+audio: year-over-year-finance.mp3
+tags:
+  - finance
+  - adjective

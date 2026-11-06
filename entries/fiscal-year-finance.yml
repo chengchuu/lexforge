@@ -1,0 +1,15 @@
+id: fiscal-year-finance
+language: en
+word: "fiscal year"
+part_of_speech: "noun"
+meaning: "财年；公司或机构用于财务报告的年度。"
+example: "The fiscal year does not have to match the calendar year."
+notes: |-
+  FY = fiscal year。不要把财年编号直接当成自然年日期范围；本条不补 NVIDIA 财年的起止日期。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: FY2027。
+learning_priority: 2
+audio: fiscal-year-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

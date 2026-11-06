@@ -1,0 +1,20 @@
+id: option-chain-finance
+language: en
+word: "option chain"
+part_of_speech: "noun"
+meaning: "期权链；按到期日、行权价等条件组织的期权合约报价列表。"
+example: "The option chain lists calls and puts."
+notes: |-
+  截图位于 Options > Chain；完整术语不是原型链，也不是区块链。到期日来自表上方的日期标签，不推导具体合约编码规则。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5；原标签: Chain。
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+  Reference: Moomoo API — Get Real-time Quote. https://openapi.moomoo.com/moomoo-api-doc/en/quote/get-stock-quote.html
+learning_priority: 3
+prerequisites:
+  - option-finance
+  - strike-price-finance
+audio: option-chain-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

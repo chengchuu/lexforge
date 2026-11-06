@@ -1,0 +1,15 @@
+id: order-finance
+language: en
+word: "order"
+part_of_speech: "noun"
+meaning: "委托单；提交给交易系统的买卖指令。"
+example: "An order may remain unfilled."
+notes: |-
+  委托不等于成交；Order History 作为用例保留。不能复用编程中的顺序 order。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Orders；Order History。
+  Reference: Investor.gov — Types of Orders. https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders
+learning_priority: 1
+audio: order-finance.mp3
+tags:
+  - finance
+  - noun

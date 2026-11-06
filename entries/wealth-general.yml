@@ -1,0 +1,15 @@
+id: wealth-general
+language: en
+word: "wealth"
+part_of_speech: "noun"
+meaning: "财富；拥有的金钱、资产和其他有价值资源。"
+example: "Wealth can include more than cash."
+notes: |-
+  此处是栏目名称所用普通含义，不推断入口内有哪些具体理财产品。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S4；原标签: Wealth。
+learning_priority: 2
+audio: wealth-general.mp3
+tags:
+  - general
+  - ui
+  - noun

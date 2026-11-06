@@ -1,0 +1,18 @@
+id: annual-percentage-yield-finance
+language: en
+word: "annual percentage yield"
+part_of_speech: "noun"
+meaning: "年化收益率；考虑利息及复利频率后表示的年度收益比例。"
+example: "Compare the annual percentage yields."
+notes: |-
+  APY 是全称缩写，不等于某天收到的利息，也不是对未来收益的保证。不保留截图宣传数字为有效利率。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: APY。
+  Reference: CFPB — Annual Percentage Yield Calculation. https://www.consumerfinance.gov/rules-policy/regulations/1030/a/
+learning_priority: 3
+prerequisites:
+  - interest-finance
+audio: annual-percentage-yield-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

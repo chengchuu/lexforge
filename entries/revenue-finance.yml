@@ -1,0 +1,19 @@
+id: revenue-finance
+language: en
+word: "revenue"
+pronunciation: "/ˈrɛvəˌnu/"
+part_of_speech: "noun"
+meaning: "营业收入；公司销售商品或提供服务取得的收入。"
+example: "Revenue increased from the previous year."
+notes: |-
+  还没有扣除相关成本与费用，不等于净利润。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Revenue。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+  Pronunciation source: Collins Dictionary — revenue; revenue in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/revenue (accessed 2026-11-06).
+related_entries:
+  - net-income-finance
+learning_priority: 1
+audio: revenue-finance.mp3
+tags:
+  - finance
+  - noun

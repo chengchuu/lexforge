@@ -1,0 +1,18 @@
+id: strike-price-finance
+language: en
+word: "strike price"
+part_of_speech: "noun"
+meaning: "行权价；期权合约约定买卖标的时使用的价格。"
+example: "The strike price differs from the option’s market price."
+notes: |-
+  Strike 是列标题的简写；不是期权自身的交易价格。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5；原标签: Strike。
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+learning_priority: 3
+prerequisites:
+  - option-finance
+audio: strike-price-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

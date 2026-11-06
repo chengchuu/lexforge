@@ -1,6 +1,7 @@
 id: example-general
 language: en
 word: "example"
+pronunciation: "/ɪɡˈzæmpəl/"
 part_of_speech: noun
 meaning: "例子；用来说明规则、含义或用法的实例。"
 context: "在词汇学习中可指展示自然用法的例句；也适用于其他说明性实例。"
@@ -9,6 +10,7 @@ notes: |
   Common usage: for example; give an example。与 fixture 区分：example 强调举例说明，fixture 在测试语境中通常指准备好的测试数据或环境。
   Source: user-supplied LexForge field-label vocabulary.
   Reference: Merriam-Webster: example: https://www.merriam-webster.com/dictionary/example
+  Pronunciation source: Collins Dictionary — example; example in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/example (accessed 2026-11-06).
 learning_priority: 1
 audio: example-general.mp3
 tags:

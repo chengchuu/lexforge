@@ -1,10 +1,12 @@
 id: sweet-and-sour-food
 language: en
 word: "sweet and sour"
+pronunciation: "/ˈswit ənˈsaʊr/"
 part_of_speech: adjective
 meaning: "糖醋的；酸甜的"
 context: "描述兼有甜味和酸味的风味，常用于糖醋类菜肴。"
 example: "The sweet and sour pork comes with rice."
+notes: "Pronunciation source: Collins Dictionary — sweet and sour; sweet-and-sour in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/sweet-and-sour (accessed 2026-11-06)."
 audio: sweet-and-sour-food.mp3
 learning_priority: 2
 tags:

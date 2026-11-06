@@ -1,0 +1,15 @@
+id: volume-trading
+language: en
+word: "volume"
+part_of_speech: "noun"
+meaning: "成交量；某一时段内完成交易的规模，可按数量或计价金额表示。"
+example: "Trading volume increased during the session."
+notes: |-
+  单位随标的而变。加密市场总览的 Volume 显示美元量纲，表示按金额折算的交易规模，不能把所有 Volume 栏都译成股数。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2、S5；原标签: Volume。
+  Reference: Moomoo API — Get Real-time Quote. https://openapi.moomoo.com/moomoo-api-doc/en/quote/get-stock-quote.html
+learning_priority: 2
+audio: volume-trading.mp3
+tags:
+  - finance
+  - noun

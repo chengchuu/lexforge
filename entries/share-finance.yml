@@ -1,0 +1,15 @@
+id: share-finance
+language: en
+word: "share"
+part_of_speech: "noun"
+meaning: "股份；公司资本或某项权益中的一份。"
+example: "A shareholder can own more than one share."
+notes: |-
+  为 Shareholders 和 EPS 全称理解提出的基础子项；截图未显示独立 Share 标签。不是分享这一动词义。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Shareholders；EPS。 本条为计划批准的补充基础子项，不是独立界面标签。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+learning_priority: 1
+audio: share-finance.mp3
+tags:
+  - finance
+  - noun

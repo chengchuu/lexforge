@@ -1,0 +1,19 @@
+id: bid-price-finance
+language: en
+word: "bid price"
+part_of_speech: "noun"
+meaning: "买方报价；行情中买方愿意支付的买入报价。"
+example: "The bid price is lower than the ask price in this example."
+notes: |-
+  报价表常显示最高买价。与卖方报价 ask 区分，不把 bid 自动当作最近成交价。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5；原标签: Bid。
+  Reference: Investor.gov — Bid Price/Ask Price. https://www.investor.gov/introduction-investing/investing-basics/glossary/ask-price
+mnemonic: "辨义助记: bid 先想买方出价，ask 先想卖方要价；两者是报价的两侧，不等于最近成交价。"
+related_entries:
+  - ask-price-finance
+learning_priority: 2
+audio: bid-price-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

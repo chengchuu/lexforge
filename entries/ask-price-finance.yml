@@ -1,0 +1,16 @@
+id: ask-price-finance
+language: en
+word: "ask price"
+part_of_speech: "noun"
+meaning: "卖方报价；行情中卖方愿意接受的卖出报价。"
+example: "The ask price is shown beside the bid price."
+notes: |-
+  报价表常显示最低卖价；不是普通提问的 ask。报价可能变化，不保证任何订单按显示价成交。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5；原标签: Ask。
+  Reference: Investor.gov — Bid Price/Ask Price. https://www.investor.gov/introduction-investing/investing-basics/glossary/ask-price
+learning_priority: 2
+audio: ask-price-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

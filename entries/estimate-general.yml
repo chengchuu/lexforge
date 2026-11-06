@@ -1,0 +1,17 @@
+id: estimate-general
+language: en
+word: "estimate"
+pronunciation: "/ˈɛstəmɪt/"
+part_of_speech: "noun"
+meaning: "估计值；在结果确定前依据可用信息作出的预测或近似数。"
+example: "The actual result differs from the estimate."
+notes: |-
+  本条以名词学习。财报中常指分析师预期；截图没有展示汇总方法，不认定必然是某种一致预期算法。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Estimate (YoY)；Vs Estimate (% Chg)；Financial Estimates；Estimate。
+  Pronunciation source: Collins Dictionary — estimate; estimate in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/estimate (accessed 2026-11-06).
+learning_priority: 1
+audio: estimate-general.mp3
+tags:
+  - general
+  - finance
+  - noun

@@ -1,0 +1,15 @@
+id: transfer-finance
+language: en
+word: "transfer"
+part_of_speech: "verb"
+meaning: "划转；将资金从一个账户或位置转到另一个。"
+example: "Transfer cash between the accounts."
+notes: |-
+  Cash Transfer 作为界面搭配保留，不为每个现金划转组合另外建卡。此处不是文件传输。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S7；原标签: Cash Transfer。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+learning_priority: 1
+audio: transfer-finance.mp3
+tags:
+  - finance
+  - verb

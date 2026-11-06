@@ -1,0 +1,18 @@
+id: funds-on-hold-finance
+language: en
+word: "funds on hold"
+part_of_speech: "noun"
+meaning: "冻结或被占用的资金；暂时不能自由使用的资金。"
+example: "Some funds are on hold."
+notes: |-
+  on hold 在这里表示被暂时保留或限制；不是持仓 holdings。具体原因可能来自订单或其他账户限制，不从截图猜测。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Funds on Hold。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+learning_priority: 2
+prerequisites:
+  - cash-finance
+audio: funds-on-hold-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

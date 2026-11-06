@@ -1,0 +1,17 @@
+id: actual-general
+language: en
+word: "actual"
+pronunciation: "/ˈæktʃuəl/"
+part_of_speech: "adjective"
+meaning: "实际的；实际发生或观察到的。"
+example: "Compare the actual revenue with the estimate."
+notes: |-
+  图例 Actual 可省略被修饰的 result/value。已有 actual-behavior-workflow 是实际行为这一短语，不代替这个形容词目标。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Actual (YoY)；Actual。
+  Pronunciation source: Collins Dictionary — actual; actual in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/actual (accessed 2026-11-06).
+learning_priority: 1
+audio: actual-general.mp3
+tags:
+  - general
+  - finance
+  - adjective

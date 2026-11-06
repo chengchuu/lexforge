@@ -1,0 +1,18 @@
+id: withdrawable-finance
+language: en
+word: "withdrawable"
+part_of_speech: "adjective"
+meaning: "可提取的；在当前规则下允许从账户取出的。"
+example: "Only part of the cash is withdrawable."
+notes: |-
+  可提现额度不必等于现金余额、净资产或购买力；不补写到账时间或结算期限。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Withdrawable。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+word_formation: "withdraw + -able: 可以提取的。这里修饰资金，表示允许取出的金额，而不是账户所有现金。"
+learning_priority: 2
+prerequisites:
+  - withdraw-finance
+audio: withdrawable-finance.mp3
+tags:
+  - finance
+  - adjective

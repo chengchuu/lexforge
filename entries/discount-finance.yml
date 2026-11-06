@@ -1,0 +1,15 @@
+id: discount-finance
+language: en
+word: "discount"
+part_of_speech: "noun"
+meaning: "折价；价格低于某个比较基准的情况。"
+example: "The instrument trades at a discount."
+notes: |-
+  参考基准随产品而异。截图未展示此项计算说明，不解释其数值来自哪个报价差，也不等同于期权权利金。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5；原标签: At Discount。
+  Reference: Investment Company Institute — ETF Basics and Structure: FAQs. https://www.ici.org/faqs/faqs_etfs
+learning_priority: 2
+audio: discount-finance.mp3
+tags:
+  - finance
+  - noun

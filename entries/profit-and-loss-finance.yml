@@ -1,0 +1,19 @@
+id: profit-and-loss-finance
+language: en
+word: "profit and loss"
+part_of_speech: "noun"
+meaning: "盈亏；投资或经营中的盈利与亏损结果。"
+example: "The app shows today’s profit and loss."
+notes: |-
+  P/L 是常见缩写，也可见 P&L。保留 Today’s P/L 与 Total Position P/L 作为标签用例，不为每个组合单独建卡；具体期间、费用和已实现/未实现口径不能仅凭截图确定。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7、S8；原标签: P/L Analysis；Today’s P/L；Total Position P/L。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+learning_priority: 2
+prerequisites:
+  - profit-finance
+  - loss-finance
+audio: profit-and-loss-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

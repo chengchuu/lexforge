@@ -1,0 +1,15 @@
+id: asset-finance
+language: en
+word: "asset"
+part_of_speech: "noun"
+meaning: "资产；具有经济价值、由个人或机构持有的资源。"
+example: "The account holds cash and other assets."
+notes: |-
+  Assets 通常用复数。截图 Total Assets 是平台汇总标签，不根据一个标签补写总资产或净资产计算公式。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7、S8；原标签: Assets；Total Assets。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+learning_priority: 1
+audio: asset-finance.mp3
+tags:
+  - finance
+  - noun

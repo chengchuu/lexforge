@@ -1,0 +1,19 @@
+id: net-income-finance
+language: en
+word: "net income"
+part_of_speech: "noun"
+meaning: "净利润；扣除相关成本、费用和税项后的利润。"
+example: "Net income can change even when revenue is stable."
+notes: |-
+  不是营业收入，也不等于账户现金的增加。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Net Income。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+learning_priority: 2
+prerequisites:
+  - net-finance
+  - income-finance
+audio: net-income-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

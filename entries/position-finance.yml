@@ -1,0 +1,16 @@
+id: position-finance
+language: en
+word: "position"
+part_of_speech: "noun"
+meaning: "持仓；账户对某项金融工具持有的数量或形成的风险敞口。"
+example: "The account has a position in the ETF."
+notes: |-
+  此处不是元素位置或代码位置。不要由持仓一词推断一定是多头。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S8；原标签: Positions；Total Position P/L。
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+learning_priority: 1
+audio: position-finance.mp3
+tags:
+  - finance
+  - noun

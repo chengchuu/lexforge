@@ -1,0 +1,17 @@
+id: withdraw-finance
+language: en
+word: "withdraw"
+pronunciation: "/wɪðˈdrɔ/"
+part_of_speech: "verb"
+meaning: "提取；将账户资金取出或转出。"
+example: "Withdraw funds from the account."
+notes: |-
+  从 Withdrawable 提出的有独立学习价值的动词子项；截图并未出现独立 Withdraw 按钮。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Withdrawable。 本条为计划批准的补充基础子项，不是独立界面标签。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+  Pronunciation source: Collins Dictionary — withdraw; withdraw in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/withdraw (accessed 2026-11-06).
+learning_priority: 1
+audio: withdraw-finance.mp3
+tags:
+  - finance
+  - verb

@@ -1,0 +1,19 @@
+id: cash-account-finance
+language: en
+word: "cash account"
+part_of_speech: "noun"
+meaning: "现金账户；证券买入需要由账户资金全额支付的账户。"
+example: "The investor uses a cash account."
+notes: |-
+  一般现金账户不能向券商借钱支付证券买入；结算与资金可用规则另看账户说明。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S7；原标签: Cash Account。
+  Reference: Investor.gov — Understanding Margin Accounts. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29
+learning_priority: 2
+prerequisites:
+  - account-finance
+  - cash-finance
+audio: cash-account-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

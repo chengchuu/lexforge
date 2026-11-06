@@ -1,0 +1,17 @@
+id: option-finance
+language: en
+word: "option"
+part_of_speech: "noun"
+meaning: "期权；给予买方按合约条件买入或卖出标的权利的合约。"
+example: "The option has a specified strike price."
+notes: |-
+  此处不是程序选项或偏好设置。Single Option 留作组合用例，不另建一张卡。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1、S5；原标签: Options；Single Option。
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+related_entries:
+  - futures-finance
+learning_priority: 2
+audio: option-finance.mp3
+tags:
+  - finance
+  - noun

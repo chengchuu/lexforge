@@ -1,0 +1,17 @@
+id: currency-finance
+language: en
+word: "currency"
+pronunciation: "/ˈkɜrənsi/"
+part_of_speech: "noun"
+meaning: "货币；用来标价和结算的货币单位或体系。"
+example: "Choose the display currency."
+notes: |-
+  USD 是美元代码，放在用例中，不新增 USD 专名词条。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1、S6；原标签: Currency；Currency/Cash。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+  Pronunciation source: Collins Dictionary — currency; currency in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/currency (accessed 2026-11-06).
+learning_priority: 1
+audio: currency-finance.mp3
+tags:
+  - finance
+  - noun

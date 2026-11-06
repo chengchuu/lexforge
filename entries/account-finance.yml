@@ -1,0 +1,16 @@
+id: account-finance
+language: en
+word: "account"
+pronunciation: "/əˈkaʊnt/"
+part_of_speech: "noun"
+meaning: "账户；用于记录和管理资金、资产及交易的账户。"
+example: "Open the account details."
+notes: |-
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S7、S8；原标签: Accounts；All Accounts；Account Management。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+  Pronunciation source: Collins Dictionary — account; account in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/account (accessed 2026-11-06).
+learning_priority: 1
+audio: account-finance.mp3
+tags:
+  - finance
+  - noun

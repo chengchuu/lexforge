@@ -1,0 +1,22 @@
+id: net-assets-finance
+language: en
+word: "net assets"
+part_of_speech: "noun"
+meaning: "净资产；资产扣除负债后的净值。"
+example: "Check the account’s net assets."
+notes: |-
+  不等于现金余额、持仓市值或可提现金额。平台币种换算与具体估值口径需看字段说明。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7；原标签: Net Assets。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+related_entries:
+  - market-value-finance
+learning_priority: 2
+prerequisites:
+  - net-finance
+  - asset-finance
+audio: net-assets-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

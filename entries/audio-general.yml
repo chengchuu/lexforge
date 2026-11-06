@@ -1,6 +1,7 @@
 id: audio-general
 language: en
 word: "audio"
+pronunciation: "/ˈɔdiˌoʊ/"
 part_of_speech: noun
 meaning: "音频；录制或传输的声音。"
 context: "在学习工具中可指读音录音或其他声音内容；本条使用名词义。"
@@ -10,6 +11,7 @@ notes: |-
   Source: user-supplied LexForge field-label vocabulary.
   Reference: Merriam-Webster: audio: https://www.merriam-webster.com/dictionary/audio
   Memory-aid source: Online Etymology Dictionary — audio. https://www.etymonline.com/word/audio
+  Pronunciation source: Collins Dictionary — audio; audio in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/audio (accessed 2026-11-06).
 etymology: "现代英语名词 audio 从构词成分 audio- 独立出来，最终关联拉丁语 audire (听)，保留了声音、听觉这一核心。"
 related_entries:
   - pronunciation-general

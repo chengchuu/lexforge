@@ -1,0 +1,15 @@
+id: return-finance
+language: en
+word: "return"
+part_of_speech: "noun"
+meaning: "投资回报；投入资金产生的收益结果，可用金额或比例表示。"
+example: "The chart shows the portfolio’s one-year return."
+notes: |-
+  1Y 是 one year 的界面缩写。这里不是函数返回值，也不由历史回报推断以后表现。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S3；原标签: 1Y Return。
+  Reference: Investor.gov — Understanding Margin Accounts. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29
+learning_priority: 2
+audio: return-finance.mp3
+tags:
+  - finance
+  - noun

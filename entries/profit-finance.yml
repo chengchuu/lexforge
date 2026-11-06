@@ -1,0 +1,19 @@
+id: profit-finance
+language: en
+word: "profit"
+pronunciation: "/ˈprɑfɪt/"
+part_of_speech: "noun"
+meaning: "利润；收入或交易所得超过相关成本的部分。"
+example: "The trade produced a profit."
+notes: |-
+  为理解 P/L = profit and loss 而补充的基础子项，截图未把 profit 全拼出来。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7、S8；原标签: P/L Analysis；Today’s P/L；Total Position P/L。 本条为计划批准的补充基础子项，不是独立界面标签。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+  Pronunciation source: Collins Dictionary — profit; profit in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/profit (accessed 2026-11-06).
+related_entries:
+  - loss-finance
+learning_priority: 1
+audio: profit-finance.mp3
+tags:
+  - finance
+  - noun

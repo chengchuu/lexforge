@@ -1,0 +1,17 @@
+id: cash-finance
+language: en
+word: "cash"
+pronunciation: "/kæʃ/"
+part_of_speech: "noun"
+meaning: "现金；账户中以货币金额记录的资金。"
+example: "The cash balance changed after the trade."
+notes: |-
+  账户现金不等于纸币，也不必等于可提现金额或证券市值。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Total Cash；Currency/Cash。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+  Pronunciation source: Collins Dictionary — cash; cash in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/cash (accessed 2026-11-06).
+learning_priority: 1
+audio: cash-finance.mp3
+tags:
+  - finance
+  - noun

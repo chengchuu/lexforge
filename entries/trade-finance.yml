@@ -1,0 +1,15 @@
+id: trade-finance
+language: en
+word: "trade"
+part_of_speech: "noun"
+meaning: "交易；买卖证券或其他金融工具的行为。"
+example: "Review the details of the trade."
+notes: |-
+  此条以名词学习；界面 Trade 也作为交易功能入口。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S3、S5；原标签: Trade。
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+learning_priority: 1
+audio: trade-finance.mp3
+tags:
+  - finance
+  - noun

@@ -1,0 +1,17 @@
+id: discover-general
+language: en
+word: "discover"
+pronunciation: "/dɪˈskʌvər/"
+part_of_speech: "verb"
+meaning: "发现；找到或了解到原先未知的内容。"
+example: "Discover new features in the app."
+notes: |-
+  在本界面作为内容发现入口，不据标签推断具体推荐算法。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S3、S4；原标签: Discover。
+  Pronunciation source: Collins Dictionary — discover; discover in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/discover (accessed 2026-11-06).
+learning_priority: 1
+audio: discover-general.mp3
+tags:
+  - general
+  - ui
+  - verb

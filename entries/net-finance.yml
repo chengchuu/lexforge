@@ -1,0 +1,15 @@
+id: net-finance
+language: en
+word: "net"
+part_of_speech: "adjective"
+meaning: "净额的；扣除相关项目后剩余的。"
+example: "The report shows the net amount."
+notes: |-
+  扣除哪些项目由术语决定；net assets 与 net income 不是同一个指标，也不是网络的 net。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1、S6、S7；原标签: Net Assets；Net Income。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+learning_priority: 1
+audio: net-finance.mp3
+tags:
+  - finance
+  - adjective

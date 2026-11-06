@@ -1,0 +1,20 @@
+id: fear-and-greed-index-finance
+language: en
+word: "fear and greed index"
+part_of_speech: "noun"
+meaning: "恐惧与贪婪指数；用于概括市场偏恐惧或偏贪婪情绪的指标。"
+example: "The fear and greed index summarizes market sentiment."
+notes: |-
+  只收录指标名称与一般用途。提供方算法、权重、分数阈值和统计范围未核实，不写进字段，也不把某个读数当成未来涨跌的保证。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2；原标签: Fear & Greed Index。
+  Reference: Moomoo Open API — Crypto fear-and-greed history and overview. https://open.moomoo.com/api/quote/crypto-market/crypto-fear-greed-history
+learning_priority: 2
+prerequisites:
+  - fear-general
+  - greed-general
+  - index-finance
+audio: fear-and-greed-index-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

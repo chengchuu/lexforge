@@ -1,0 +1,16 @@
+id: pre-market-finance
+language: en
+word: "pre-market"
+part_of_speech: "adjective"
+meaning: "盘前的；发生在常规交易时段开始之前的。"
+example: "Pre-market prices can change."
+notes: |-
+  Mkt 缩写 market。交易时段因市场、标的及服务而异，本条不填写具体开盘时间。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1、S5；原标签: Pre-Mkt。
+  Reference: Moomoo API — Get Real-time Quote. https://openapi.moomoo.com/moomoo-api-doc/en/quote/get-stock-quote.html
+word_formation: "pre- (在……之前) + market: 在本条中指常规市场交易时段开始之前。"
+learning_priority: 2
+audio: pre-market-finance.mp3
+tags:
+  - finance
+  - adjective

@@ -1,0 +1,15 @@
+id: symbol-market
+language: en
+word: "symbol"
+part_of_speech: "noun"
+meaning: "证券或交易标的代码；用于标识某个交易对象的字符标记。"
+example: "The table sorts positions by symbol."
+notes: |-
+  这里不是 JavaScript Symbol 原始类型。具体符号格式由市场或平台规定，不为 NVDA、BTC 等每个代码建卡。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Symbol。
+  Reference: Moomoo API — Get Real-time Quote. https://openapi.moomoo.com/moomoo-api-doc/en/quote/get-stock-quote.html
+learning_priority: 1
+audio: symbol-market.mp3
+tags:
+  - finance
+  - noun

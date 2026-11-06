@@ -1,0 +1,22 @@
+id: margin-account-finance
+language: en
+word: "margin account"
+part_of_speech: "noun"
+meaning: "保证金账户；允许按规则以账户资产作担保向券商借款交易的账户。"
+example: "A margin account can involve borrowing."
+notes: |-
+  账户具备融资能力不代表每一笔交易都已经借款，不从截图推断当前负债。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7、S8；原标签: Margin Account；US Margin Account。
+  Reference: Investor.gov — Understanding Margin Accounts. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29
+  Reference: Moomoo Financial Inc. — Customer Agreement, May 28, 2024. https://foss-us-sec.moomoo.com/customer_file_service/prod/disclosure_1717572128614_16222017.pdf
+related_entries:
+  - cash-account-finance
+learning_priority: 2
+prerequisites:
+  - account-finance
+  - margin-finance
+audio: margin-account-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

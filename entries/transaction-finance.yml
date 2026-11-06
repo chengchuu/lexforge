@@ -1,0 +1,15 @@
+id: transaction-finance
+language: en
+word: "transaction"
+part_of_speech: "noun"
+meaning: "交易；涉及资金或资产往来的业务行为或记录。"
+example: "The transaction appears in the account history."
+notes: |-
+  不把委托单 order 一律当作已经完成的交易；此条也不是数据库事务。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Transaction。
+  Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+learning_priority: 2
+audio: transaction-finance.mp3
+tags:
+  - finance
+  - noun

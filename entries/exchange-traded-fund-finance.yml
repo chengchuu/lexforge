@@ -1,0 +1,18 @@
+id: exchange-traded-fund-finance
+language: en
+word: "exchange-traded fund"
+part_of_speech: "noun"
+meaning: "交易所交易基金；份额可以在交易所按市场价格买卖的基金。"
+example: "ETF shares trade on an exchange."
+notes: |-
+  ETF 是 exchange-traded fund 的缩写；并非所有 ETF 都是被动指数基金。基金份额与单一公司股票的权益不同。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: ETFs。
+  Reference: Investment Company Institute — ETF Basics and Structure: FAQs. https://www.ici.org/faqs/faqs_etfs
+learning_priority: 2
+prerequisites:
+  - share-finance
+audio: exchange-traded-fund-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

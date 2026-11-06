@@ -1,0 +1,20 @@
+id: call-option-finance
+language: en
+word: "call option"
+part_of_speech: "noun"
+meaning: "看涨期权；在股票期权语境中给予买方按合约价格买入标的股票的权利。"
+example: "A call option gives its buyer a right to buy."
+notes: |-
+  Call 是期权类型缩写，不是打电话或函数调用。不能把 call 等同于一定看涨的完整持仓策略，卖出 call 的敞口不同。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5、S8；原标签: Call；CALL。
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+related_entries:
+  - put-option-finance
+learning_priority: 3
+prerequisites:
+  - option-finance
+audio: call-option-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

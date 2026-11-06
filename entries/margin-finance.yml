@@ -1,0 +1,15 @@
+id: margin-finance
+language: en
+word: "margin"
+part_of_speech: "noun"
+meaning: "保证金；交易或融资中用于提供担保的资金或资产权益。"
+example: "The broker sets the margin requirement."
+notes: |-
+  此处为担保与融资语境，不是财报中的利润率 margin。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7；原标签: Margin Account。
+  Reference: Investor.gov — Understanding Margin Accounts. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29
+learning_priority: 2
+audio: margin-finance.mp3
+tags:
+  - finance
+  - noun

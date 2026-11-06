@@ -1,0 +1,18 @@
+id: ebit-finance
+language: en
+word: "EBIT"
+part_of_speech: "noun"
+meaning: "息税前利润；未扣除利息和税项的利润指标。"
+example: "EBIT and net income measure different things."
+notes: |-
+  全称 earnings before interest and taxes。不能直接等同所有口径的 operating income，也不是每股指标；不新增 tax 词条只为补依赖。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: EBIT。
+  Reference: SEC — Non-GAAP Financial Measures, Section 103. https://www.sec.gov/rules-regulations/staff-guidance/corporation-finance-interpretations/non-gaap-financial-measures
+learning_priority: 3
+prerequisites:
+  - earnings-finance
+  - interest-finance
+audio: ebit-finance.mp3
+tags:
+  - finance
+  - noun

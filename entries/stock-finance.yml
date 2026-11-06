@@ -1,0 +1,18 @@
+id: stock-finance
+language: en
+word: "stock"
+part_of_speech: "noun"
+meaning: "股票；代表公司所有权份额的证券。"
+example: "The portfolio includes stocks and ETFs."
+notes: |-
+  Crypto Stocks 是主题分类，不是每一只股票都等同于加密货币。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2；原标签: Crypto Stocks。
+  Reference: Investment Company Institute — ETF Basics and Structure: FAQs. https://www.ici.org/faqs/faqs_etfs
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+related_entries:
+  - exchange-traded-fund-finance
+learning_priority: 1
+audio: stock-finance.mp3
+tags:
+  - finance
+  - noun

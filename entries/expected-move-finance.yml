@@ -1,0 +1,18 @@
+id: expected-move-finance
+language: en
+word: "expected move"
+part_of_speech: "noun"
+meaning: "预期波幅；对某一时期内价格可能变动幅度的估计。"
+example: "The expected move is an estimate, not a guarantee."
+notes: |-
+  截图显示相对幅度，但没有时间窗口、计算方法或置信口径。这里只收录语言与概念，不补写基于期权价格的公式或保证区间。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Latest expected move。
+learning_priority: 3
+prerequisites:
+  - estimate-general
+  - volatility-finance
+audio: expected-move-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

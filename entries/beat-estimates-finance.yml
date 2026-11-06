@@ -1,0 +1,17 @@
+id: beat-estimates-finance
+language: en
+word: "beat estimates"
+part_of_speech: "verb phrase"
+meaning: "超过预期；实际业绩高于先前预测。"
+example: "The company’s revenue beat estimates."
+notes: |-
+  Est. 在该财报标记中对应 estimates。比较的是指定指标，不表示所有财报指标都超过预期，也不保证股价上涨。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Beat Est.。
+learning_priority: 2
+prerequisites:
+  - estimate-general
+audio: beat-estimates-finance.mp3
+tags:
+  - finance
+  - verb
+  - phrase

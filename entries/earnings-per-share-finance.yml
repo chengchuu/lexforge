@@ -1,0 +1,19 @@
+id: earnings-per-share-finance
+language: en
+word: "earnings per share"
+part_of_speech: "noun"
+meaning: "每股收益；将相应利润按每股口径表示的财务指标。"
+example: "The report includes earnings per share."
+notes: |-
+  EPS = earnings per share。基本与稀释每股收益的分母和调整可能不同；截图未说明口径，不写简单公式冒充精确会计规则。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: EPS。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+learning_priority: 3
+prerequisites:
+  - earnings-finance
+  - share-finance
+audio: earnings-per-share-finance.mp3
+tags:
+  - finance
+  - noun
+  - phrase

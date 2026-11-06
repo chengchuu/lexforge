@@ -1,0 +1,16 @@
+id: interest-finance
+language: en
+word: "interest"
+part_of_speech: "noun"
+meaning: "利息；因存放或借用资金产生的收益或费用。"
+example: "The account earns interest on eligible cash."
+notes: |-
+  此处不是兴趣。Total、Today’s、Pending 是界面限定语，不另外制造三张利息组合卡；Pending Interest 的具体计提与入账口径仍待平台说明。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Total Interest；Today’s Interest；Pending Interest。
+  Reference: CFPB — Annual Percentage Yield Calculation. https://www.consumerfinance.gov/rules-policy/regulations/1030/a/
+  Reference: Moomoo Financial Inc. — Customer Agreement, May 28, 2024. https://foss-us-sec.moomoo.com/customer_file_service/prod/disclosure_1717572128614_16222017.pdf
+learning_priority: 1
+audio: interest-finance.mp3
+tags:
+  - finance
+  - noun

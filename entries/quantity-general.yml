@@ -1,0 +1,17 @@
+id: quantity-general
+language: en
+word: "quantity"
+pronunciation: "/ˈkwɑntəti/"
+part_of_speech: "noun"
+meaning: "数量；按指定单位计数或度量的多少。"
+example: "Check the quantity and the market value."
+notes: |-
+  QTY 是 quantity 的界面缩写。持仓数量的单位可能是股、份额或合约，不能统一认定为股票股数。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: MV/QTY。
+  Pronunciation source: Collins Dictionary — quantity; quantity in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/quantity (accessed 2026-11-06).
+learning_priority: 1
+audio: quantity-general.mp3
+tags:
+  - general
+  - finance
+  - noun

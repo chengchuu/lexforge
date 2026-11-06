@@ -1,0 +1,16 @@
+id: heat-map-data
+language: en
+word: "heat map"
+part_of_speech: "noun"
+meaning: "热力图；用颜色或色块表达数值差异的数据图。"
+example: "The heat map highlights price changes."
+notes: |-
+  不把红绿颜色与涨跌方向写成跨平台固定规则。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2；原标签: Heat Map。
+learning_priority: 2
+audio: heat-map-data.mp3
+tags:
+  - general
+  - finance
+  - noun
+  - phrase

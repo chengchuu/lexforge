@@ -1,0 +1,15 @@
+id: volatility-finance
+language: en
+word: "volatility"
+part_of_speech: "noun"
+meaning: "波动性；价格或收益在一段时间内变化的程度。"
+example: "Volatility can increase around an earnings release."
+notes: |-
+  波动程度不等于涨跌方向；截图未说明该处采用历史波动率还是隐含波动率，不将二者混写。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Earnings Move & Volatility。
+  Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+learning_priority: 3
+audio: volatility-finance.mp3
+tags:
+  - finance
+  - noun

@@ -1,0 +1,15 @@
+id: watchlist-finance
+language: en
+word: "watchlist"
+part_of_speech: "noun"
+meaning: "自选列表；用于持续关注一组证券或其他标的的清单。"
+example: "Add the ETF to the watchlist."
+notes: |-
+  关注列表不等于已持有这些资产。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2、S3、S4、S6、S7、S8；原标签: Watchlists。
+word_formation: "watch + list: 把需要持续关注的项目列成清单。自选列表不表示已经买入。"
+learning_priority: 1
+audio: watchlist-finance.mp3
+tags:
+  - finance
+  - noun

@@ -1,0 +1,17 @@
+id: dividend-finance
+language: en
+word: "dividend"
+part_of_speech: "noun"
+meaning: "股息；公司向股东分配的收益。"
+example: "The company announced a dividend."
+notes: |-
+  是否分配、金额和时间需看具体决定；不能把所有盈利自动当作会分给股东的股息。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Dividends。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+learning_priority: 2
+prerequisites:
+  - shareholder-finance
+audio: dividend-finance.mp3
+tags:
+  - finance
+  - noun

@@ -1,0 +1,17 @@
+id: community-general
+language: en
+word: "community"
+pronunciation: "/kəˈmjunəti/"
+part_of_speech: "noun"
+meaning: "社区；具有共同兴趣、活动或联系的人群及其交流空间。"
+example: "The community discusses market news."
+notes: |-
+  是用户交流社区，不是公司这一含义。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S4；原标签: Community。
+  Pronunciation source: Collins Dictionary — community; community in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/community (accessed 2026-11-06).
+learning_priority: 1
+audio: community-general.mp3
+tags:
+  - general
+  - ui
+  - noun

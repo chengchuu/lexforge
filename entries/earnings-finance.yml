@@ -1,0 +1,15 @@
+id: earnings-finance
+language: en
+word: "earnings"
+part_of_speech: "noun"
+meaning: "盈利；公司在一定期间取得的利润。"
+example: "The company will report quarterly earnings."
+notes: |-
+  财报页面的 Earnings 也可作为业绩发布栏目名称；不把 earnings 与 revenue 视为同义词。
+  Source: 用户提供的 Moomoo 界面截图，2026-11-06，S1；原标签: Q2 FY2027 Earnings；Earnings Hub；Earnings Move & Volatility。
+  Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+learning_priority: 2
+audio: earnings-finance.mp3
+tags:
+  - finance
+  - noun
