@@ -11,6 +11,8 @@ related_entries:
   - itadakimasu
 audio: gochisousama.mp3
 learning_priority: 1
+prerequisites:
+  - gochisou
 tags:
   - phrase
   - food

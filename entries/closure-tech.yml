@@ -15,6 +15,8 @@ notes: |
 mnemonic: "closure 在这里是闭包，disclosure 是披露说明；拼写相近，但当前两个义项不是反义词。"
 audio: closure-tech.mp3
 learning_priority: 2
+prerequisites:
+  - scope-lexical
 related_entries:
   - disclosure-workflow
 tags:

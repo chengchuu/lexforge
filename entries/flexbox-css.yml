@@ -11,6 +11,8 @@ notes: |
 related_entries:
   - grid-layout-css
 learning_priority: 1
+prerequisites:
+  - layout-browser-rendering
 audio: flexbox-css.mp3
 tags:
   - tech

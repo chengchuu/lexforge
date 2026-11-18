@@ -11,6 +11,8 @@ notes: |-
 
   Reference: TypeScript Handbook: Declaration Merging: https://www.typescriptlang.org/docs/handbook/declaration-merging.html
 learning_priority: 2
+prerequisites:
+  - scope-lexical
 audio: namespace-typescript.mp3
 tags:
   - tech

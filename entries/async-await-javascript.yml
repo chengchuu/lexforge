@@ -13,6 +13,7 @@ related_entries:
 learning_priority: 2
 prerequisites:
   - promise-javascript
+  - asynchronous-tech
 audio: async-await-javascript.mp3
 tags:
   - tech
