@@ -1,11 +1,13 @@
 id: "desert-terrain"
 language: "en"
 word: "desert"
+pronunciation: "/ˈdɛzərt/"
 part_of_speech: "noun"
 meaning: "沙漠"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: desert.
+  Pronunciation source: Collins Dictionary — desert; desert in American English 2; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/desert (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: desert-terrain.mp3
 tags:

@@ -1,12 +1,14 @@
 id: "equip-general"
 language: "en"
 word: "equip"
+pronunciation: "/iˈkwɪp/"
 part_of_speech: "verb"
 meaning: "装备"
 example: "Equip the shield before approaching the enemy."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: equip.
+  Pronunciation source: Collins Dictionary — equip; equip in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/equip (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: equip-general.mp3
 tags:

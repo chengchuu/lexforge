@@ -1,6 +1,7 @@
 id: cache-tech
 language: en
 word: "cache"
+pronunciation: "/kæʃ/"
 part_of_speech: noun
 meaning: "缓存；暂存数据或计算结果以供后续复用的机制。"
 example: "Invalidate the cache when the source changes."
@@ -9,6 +10,7 @@ notes: |-
   来源: MDN: Cache: https://developer.mozilla.org/en-US/docs/Glossary/Cache
 
   来源: Merriam-Webster Dictionary: cache。https://www.merriam-webster.com/dictionary/cache
+  Pronunciation source: Collins Dictionary — cache; cache in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/cache (accent: US; accessed 2026-11-18).
 etymology: "来自北美法语 cache，意为藏物处；相关法语动词 cacher 表示隐藏。这个历史上的存放意象可以辅助记忆，但计算机缓存是否有效仍取决于缓存策略，不是只要存起来就能一直复用。"
 related_entries:
   - memoization-programming

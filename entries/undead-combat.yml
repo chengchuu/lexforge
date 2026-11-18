@@ -1,6 +1,7 @@
 id: "undead-combat"
 language: "en"
 word: "undead"
+pronunciation: "/ʌnˈdɛd/"
 part_of_speech: "adjective"
 meaning: "不死的"
 notes: |-
@@ -9,6 +10,7 @@ notes: |-
 
   Memory-aid source: Online Etymology Dictionary — undead. https://www.etymonline.com/word/undead
   Memory-aid source: Merriam-Webster.com Dictionary — un-. https://www.merriam-webster.com/dictionary/un-
+  Pronunciation source: Collins Dictionary — undead; undead in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/undead (accent: US; accessed 2026-11-18).
 word_formation: "un- (非、不) + dead (死的)。奇幻语境指亡灵般的非正常生存状态，不简单等于普通的活着。"
 learning_priority: 2
 audio: undead-combat.mp3

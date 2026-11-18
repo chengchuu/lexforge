@@ -1,6 +1,7 @@
 id: "recharge-general"
 language: "en"
 word: "recharge"
+pronunciation: "/riˈtʃɑrdʒ/"
 part_of_speech: "verb"
 meaning: "充能"
 example: "Wait for the battery to recharge."
@@ -10,6 +11,7 @@ notes: |-
 
   Memory-aid source: Online Etymology Dictionary — recharge. https://www.etymonline.com/word/recharge
   Memory-aid source: Merriam-Webster.com Dictionary — re-. https://www.merriam-webster.com/dictionary/re-
+  Pronunciation source: Collins Dictionary — recharge; recharge in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/recharge (accent: US; accessed 2026-11-18).
 word_formation: "re- (再次) + charge (充电、装载能量)，表示重新充能。"
 learning_priority: 1
 audio: recharge-general.mp3

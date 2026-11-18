@@ -1,6 +1,7 @@
 id: method-tech
 language: en
 word: "method"
+pronunciation: "/ˈmɛθəd/"
 part_of_speech: "noun"
 meaning: "方法；与对象、类或类型关联、用于执行行为的函数成员。"
 example: "The method reads an own property."
@@ -8,6 +9,7 @@ notes: |-
   这里采用编程含义。
 
   Source: /Users/mazey/Web/web/server/docs/PR/typescript/typescript-a-62854.md:14. Source form: methods.
+  Pronunciation source: Collins Dictionary — method; method in American English. https://www.collinsdictionary.com/dictionary/english/method (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: method-tech.mp3
 tags:

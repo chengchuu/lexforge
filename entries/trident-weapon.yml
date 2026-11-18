@@ -1,6 +1,7 @@
 id: "trident-weapon"
 language: "en"
 word: "trident"
+pronunciation: "/ˈtraɪdənt/"
 part_of_speech: "noun"
 meaning: "三叉戟"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: trident.
 
   Memory-aid source: Online Etymology Dictionary — trident. https://www.etymonline.com/word/trident
+  Pronunciation source: Collins Dictionary — trident; trident in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/trident (accent: US; accessed 2026-11-18).
 etymology: "来自拉丁语 tridens，含 tri- (三) 和 dens (牙齿)；三个齿状尖端形成三叉戟这一形象。"
 learning_priority: 1
 audio: trident-weapon.mp3

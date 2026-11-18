@@ -1,11 +1,13 @@
 id: "quest-game"
 language: "en"
 word: "quest"
+pronunciation: "/kwɛst/"
 part_of_speech: "noun"
 meaning: "任务；追寻或探索。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:188. Source form: Main Quests.
+  Pronunciation source: Collins Dictionary — quest; quest in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/quest (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: quest-game.mp3
 tags:

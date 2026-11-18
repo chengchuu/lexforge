@@ -1,11 +1,13 @@
 id: "rod-general"
 language: "en"
 word: "rod"
+pronunciation: "/rɑd/"
 part_of_speech: "noun"
 meaning: "杆；棒。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: magic rod.
+  Pronunciation source: Collins Dictionary — rod; rod in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/rod (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: rod-general.mp3
 tags:

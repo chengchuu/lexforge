@@ -1,6 +1,7 @@
 id: "spring-mechanical"
 language: "en"
 word: "spring"
+pronunciation: "/sprɪŋ/"
 part_of_speech: "noun"
 meaning: "弹簧；受力形变后能恢复原状的弹性元件。"
 example: "The spring stores energy when compressed."
@@ -13,6 +14,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: spring.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_SpringPiston_Capsule_A_01_Name; version: 1.2.1.
+  Pronunciation source: Collins Dictionary — spring; spring in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/spring (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: spring-mechanical.mp3
 tags:

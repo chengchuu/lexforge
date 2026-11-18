@@ -1,10 +1,12 @@
 id: sauce-food
 language: en
 word: "sauce"
+pronunciation: "/sɔs/"
 part_of_speech: noun
 meaning: "酱汁"
 context: "用于搭配或调味的液体、半流质酱料。"
 example: "Is there sauce on the chicken?"
+notes: "Pronunciation source: Collins Dictionary — sauce; sauce in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/sauce (accent: US; accessed 2026-11-18)."
 audio: sauce-food.mp3
 learning_priority: 1
 tags:

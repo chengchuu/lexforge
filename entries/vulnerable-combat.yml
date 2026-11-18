@@ -1,6 +1,7 @@
 id: "vulnerable-combat"
 language: "en"
 word: "vulnerable"
+pronunciation: "/ˈvʌlnərəbəl/"
 part_of_speech: "adjective"
 meaning: "易受攻击的"
 example: "The enemy is vulnerable while recovering."
@@ -9,6 +10,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:180. Source form: vulnerable.
 
   Memory-aid source: Online Etymology Dictionary — vulnerable. https://www.etymonline.com/word/vulnerable
+  Pronunciation source: Collins Dictionary — vulnerable; vulnerable in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/vulnerable (accent: US; accessed 2026-11-18).
 etymology: "来自晚期拉丁语 vulnerabilis，与 vulnerare (使受伤) 及 vulnus (伤口) 有关；由可受伤理解易受攻击或伤害。"
 mnemonic: "图像助记 (非词源): 想象护甲间露出的空隙，把 vulnerable 和容易受到伤害联系起来；这不是对任何具体怪物弱点的声明。"
 related_entries:

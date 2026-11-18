@@ -1,12 +1,14 @@
 id: "royal-general"
 language: "en"
 word: "royal"
+pronunciation: "/ˈrɔɪəl/"
 part_of_speech: "adjective"
 meaning: "王室的"
 example: "The royal family lives in the castle."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: royal.
+  Pronunciation source: Collins Dictionary — royal; royal in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/royal (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: royal-general.mp3
 tags:

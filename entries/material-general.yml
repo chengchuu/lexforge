@@ -1,11 +1,13 @@
 id: "material-general"
 language: "en"
 word: "material"
+pronunciation: "/məˈtɪriəl/"
 part_of_speech: "noun"
 meaning: "材料；用于制作物品的原料。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:188. Source form: Materials.
+  Pronunciation source: Collins Dictionary — material; material in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/material (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: material-general.mp3
 tags:

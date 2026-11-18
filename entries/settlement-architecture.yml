@@ -1,6 +1,7 @@
 id: "settlement-architecture"
 language: "en"
 word: "settlement"
+pronunciation: "/ˈsɛtəlmənt/"
 part_of_speech: "noun"
 meaning: "定居点、聚落"
 example: "The settlement stands beside a river."
@@ -10,6 +11,7 @@ notes: |-
 
   Memory-aid source: Online Etymology Dictionary — settlement. https://www.etymonline.com/word/settlement
   Memory-aid source: Merriam-Webster.com Dictionary — -ment. https://www.merriam-webster.com/dictionary/-ment
+  Pronunciation source: Collins Dictionary — settlement; settlement in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/settlement (accent: US; accessed 2026-11-18).
 word_formation: "settle (定居) + -ment；此处指人们定居形成的聚落，不取结算或和解义。"
 learning_priority: 2
 audio: settlement-architecture.mp3

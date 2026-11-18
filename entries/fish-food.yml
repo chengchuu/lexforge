@@ -1,10 +1,12 @@
 id: fish-food
 language: en
 word: "fish"
+pronunciation: "/fɪʃ/"
 part_of_speech: noun
 meaning: "鱼；鱼肉"
 context: "在餐食选择中通常指供食用的鱼肉或鱼类菜肴。"
 example: "The fish is served with rice."
+notes: "Pronunciation source: Collins Dictionary — fish; fish in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/fish (accent: US; accessed 2026-11-18)."
 audio: fish-food.mp3
 learning_priority: 1
 tags:

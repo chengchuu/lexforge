@@ -1,6 +1,7 @@
 id: "door-architecture"
 language: "en"
 word: "door"
+pronunciation: "/dɔr/"
 part_of_speech: "noun"
 meaning: "门。"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:201. Source form: The Closed Door.
+  Pronunciation source: Collins Dictionary — door; door in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/door (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: door-architecture.mp3
 tags:

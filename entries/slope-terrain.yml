@@ -1,11 +1,13 @@
 id: "slope-terrain"
 language: "en"
 word: "slope"
+pronunciation: "/sloʊp/"
 part_of_speech: "noun"
 meaning: "斜坡"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: slope.
+  Pronunciation source: Collins Dictionary — slope; slope in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/slope (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: slope-terrain.mp3
 tags:

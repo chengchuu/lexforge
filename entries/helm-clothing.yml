@@ -1,11 +1,13 @@
 id: "helm-clothing"
 language: "en"
 word: "helm"
+pronunciation: "/hɛlm/"
 part_of_speech: "noun"
 meaning: "头盔"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:132. Source form: helm.
+  Pronunciation source: Collins Dictionary — helm; helm in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/helm (accent: US; accessed 2026-11-18).
 related_entries:
   - "helmet-clothing"
 learning_priority: 2

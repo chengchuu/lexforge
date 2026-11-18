@@ -1,6 +1,7 @@
 id: "simmer-cooking"
 language: "en"
 word: "simmer"
+pronunciation: "/ˈsɪmər/"
 part_of_speech: "verb"
 meaning: "小火慢煮；使液体保持轻微沸腾。"
 example: "Simmer the fruit over low heat."
@@ -13,6 +14,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: simmered.
 
   Memory-aid source: Merriam-Webster.com Dictionary — simmer. https://www.merriam-webster.com/dictionary/simmer
+  Pronunciation source: Collins Dictionary — simmer; simmer in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/simmer (accent: US; accessed 2026-11-18).
 mnemonic: "图像助记 (非词源): 想象锅中只有细小气泡、轻微翻动，以此记住 simmer 的小火慢煮。"
 related_entries:
   - "stew-cooking"

@@ -1,6 +1,7 @@
 id: syntax-tech
 language: en
 word: "syntax"
+pronunciation: "/ˈsɪnˌtæks/"
 part_of_speech: noun
 meaning: "语法；规定语言符号如何组成合法结构的规则。"
 example: "The parser reports a syntax error."
@@ -9,6 +10,7 @@ notes: |-
   来源: MDN: Syntax: https://developer.mozilla.org/en-US/docs/Glossary/Syntax
 
   来源: Merriam-Webster Dictionary: syntax。https://www.merriam-webster.com/dictionary/syntax
+  Pronunciation source: Collins Dictionary — syntax; syntax in American English. https://www.collinsdictionary.com/dictionary/english/syntax (accent: US; accessed 2026-11-18).
 etymology: "经由中古法语或晚期拉丁语 syntaxis，最终关联希腊语 syntassein (安排在一起)，其中 syn- 表示共同，tassein 表示安排。可据此联想词语或代码成分的组合规则，不把 syntax 中的 tax 当作现代英语的税。"
 learning_priority: 1
 audio: syntax-tech.mp3

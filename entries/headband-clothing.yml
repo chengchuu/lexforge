@@ -1,6 +1,7 @@
 id: "headband-clothing"
 language: "en"
 word: "headband"
+pronunciation: "/ˈhɛdˌbænd/"
 part_of_speech: "noun"
 meaning: "头带"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:132. Source form: headband.
 
   Memory-aid source: Merriam-Webster.com Dictionary — headband. https://www.merriam-webster.com/dictionary/headband
+  Pronunciation source: Collins Dictionary — headband; headband in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/headband (accent: US; accessed 2026-11-18).
 word_formation: "head (头) + band (带)，表示戴在头上的带状物。"
 related_entries:
   - "headdress-clothing"

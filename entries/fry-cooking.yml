@@ -1,6 +1,7 @@
 id: "fry-cooking"
 language: "en"
 word: "fry"
+pronunciation: "/fraɪ/"
 part_of_speech: "verb"
 meaning: "油煎；油炸；以热油烹饪。"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:150. Source form: Fried Wild Greens.
+  Pronunciation source: Collins Dictionary — fry; fry in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/fry (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: fry-cooking.mp3
 tags:

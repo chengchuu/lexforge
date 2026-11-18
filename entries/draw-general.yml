@@ -1,6 +1,7 @@
 id: "draw-general"
 language: "en"
 word: "draw"
+pronunciation: "/drɔ/"
 part_of_speech: "verb"
 meaning: "拉开（弓）；拔出（武器）。"
 example: "Draw your bow and aim at the target."
@@ -9,6 +10,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: draw.
+  Pronunciation source: Collins Dictionary — draw; draw in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/draw (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: draw-general.mp3
 tags:

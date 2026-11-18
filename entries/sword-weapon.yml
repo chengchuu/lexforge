@@ -1,6 +1,7 @@
 id: "sword-weapon"
 language: "en"
 word: "sword"
+pronunciation: "/sɔrd/"
 part_of_speech: "noun"
 meaning: "剑"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:120. Source form: sword.
+  Pronunciation source: Collins Dictionary — sword; sword in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/sword (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: sword-weapon.mp3
 tags:

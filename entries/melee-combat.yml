@@ -1,6 +1,7 @@
 id: "melee-combat"
 language: "en"
 word: "melee"
+pronunciation: "/ˈmeɪˌleɪ/"
 part_of_speech: "noun"
 meaning: "近战"
 example: "Keep the enemy within melee range."
@@ -9,6 +10,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: melee.
 
   Memory-aid source: Online Etymology Dictionary — melee. https://www.etymonline.com/word/melee
+  Pronunciation source: Collins Dictionary — melee; melee in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/melee (accent: US; accessed 2026-11-18).
 etymology: "借自法语 mêlée，与表示混合的动词 mêler 有关；原本描写多人混在一起的混战，有助于理解近身交战这一用法。"
 learning_priority: 1
 audio: melee-combat.mp3

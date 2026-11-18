@@ -1,11 +1,13 @@
 id: "queen-general"
 language: "en"
 word: "queen"
+pronunciation: "/kwin/"
 part_of_speech: "noun"
 meaning: "王后、女王"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:72. Source form: queen.
+  Pronunciation source: Collins Dictionary — queen; queen in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/queen (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: queen-general.mp3
 tags:

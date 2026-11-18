@@ -1,11 +1,13 @@
 id: "civilization-general"
 language: "en"
 word: "civilization"
+pronunciation: "/ˌsɪvələˈzeɪʃən/"
 part_of_speech: "noun"
 meaning: "文明"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:72. Source form: civilization.
+  Pronunciation source: Collins Dictionary — civilization; civilization in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/civilization (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: civilization-general.mp3
 tags:

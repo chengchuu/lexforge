@@ -1,6 +1,7 @@
 id: backtracking-algorithm
 language: en
 word: "backtracking"
+pronunciation: "/ˈbæk.tɹækɪŋ/"
 part_of_speech: noun
 meaning: "回溯；逐步尝试选择，撤销不合适的选择并继续搜索。"
 example: "Backtracking explores a choice and then restores the previous state."
@@ -10,6 +11,7 @@ notes: |-
   Source: Interviews/AprilSkill.md:1064. Verified reference: NIST DADS: backtracking: https://xlinux.nist.gov/dads/HTML/backtrack.html
 
   来源: Merriam-Webster Dictionary: backtrack。https://www.merriam-webster.com/dictionary/backtrack
+  Pronunciation source: Wiktionary — backtracking; English — Pronunciation — General American. https://en.wiktionary.org/w/index.php?title=backtracking&oldid=92737336 (accent: US; accessed 2026-11-18).
 word_formation: "back + track + -ing。backtrack 是沿先前路径返回；算法中的 backtracking 会撤销当前选择，退回分支点再尝试其他选择。"
 learning_priority: 3
 audio: backtracking-algorithm.mp3

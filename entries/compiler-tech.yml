@@ -1,6 +1,7 @@
 id: compiler-tech
 language: en
 word: "compiler"
+pronunciation: "/kəmˈpaɪlər/"
 part_of_speech: "noun"
 meaning: "编译器；执行程序编译的软件。"
 example: "The compiler should preserve the catch handler."
@@ -9,6 +10,7 @@ notes: |-
 
   Source: /Users/mazey/Web/web/server/docs/PR/react/react-38094-compiler.md:1. Source form: compiler.
   Memory-aid source: Online Etymology Dictionary — compiler. https://www.etymonline.com/word/compiler
+  Pronunciation source: Collins Dictionary — compiler; compiler in American English. https://www.collinsdictionary.com/dictionary/english/compiler (accent: US; accessed 2026-11-18).
 word_formation: "现代词形可按 compile 去掉词尾 e 再接 -er 来记忆，得到 compiler。-er 在这里指执行编译的软件，不限于人。"
 learning_priority: 1
 prerequisites:

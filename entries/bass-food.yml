@@ -1,6 +1,7 @@
 id: "bass-food"
 language: "en"
 word: "bass"
+pronunciation: "/bæs/"
 part_of_speech: "noun"
 meaning: "鲈鱼。"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Hyrule Bass.
 
   Memory-aid source: Merriam-Webster.com Dictionary — bass. https://www.merriam-webster.com/dictionary/bass
+  Pronunciation source: Collins Dictionary — bass; bass in American English 2; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/bass (accent: US; accessed 2026-11-18).
 mnemonic: "辨义助记: 跟着 Hyrule Bass 想鱼，把这里的 bass 记成鲈鱼；音乐中的低音是另一义项，同样拼写也不保证同音。"
 learning_priority: 1
 audio: bass-food.mp3

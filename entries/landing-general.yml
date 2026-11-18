@@ -1,11 +1,13 @@
 id: "landing-general"
 language: "en"
 word: "landing"
+pronunciation: "/ˈlændɪŋ/"
 part_of_speech: "noun"
 meaning: "着陆；登陆；登岸处。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:102. Source form: Lookout Landing.
+  Pronunciation source: Collins Dictionary — landing; landing in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/landing (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: landing-general.mp3
 tags:

@@ -1,6 +1,7 @@
 id: "two-handed-combat"
 language: "en"
 word: "two-handed"
+pronunciation: "/ˌtuˈhændɪd/"
 part_of_speech: "adjective"
 meaning: "双手的"
 example: "The warrior carries a two-handed sword."
@@ -9,6 +10,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:128. Source form: two-handed.
 
   Memory-aid source: Merriam-Webster.com Dictionary — -ed. https://www.merriam-webster.com/dictionary/-ed
+  Pronunciation source: Collins Dictionary — two-handed; two-handed in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/two-handed (accent: US; accessed 2026-11-18).
 word_formation: "two (二) + hand (手) + -ed (具有……的)，表示双手操作的。"
 learning_priority: 1
 audio: two-handed-combat.mp3

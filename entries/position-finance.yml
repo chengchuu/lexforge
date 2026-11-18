@@ -1,6 +1,7 @@
 id: position-finance
 language: en
 word: "position"
+pronunciation: "/pəˈzɪʃən/"
 part_of_speech: "noun"
 meaning: "持仓；账户对某项金融工具持有的数量或形成的风险敞口。"
 example: "The account has a position in the ETF."
@@ -9,6 +10,7 @@ notes: |-
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S8；原标签: Positions；Total Position P/L。
   Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
   Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+  Pronunciation source: Collins Dictionary — position; position in American English. https://www.collinsdictionary.com/dictionary/english/position (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: position-finance.mp3
 tags:

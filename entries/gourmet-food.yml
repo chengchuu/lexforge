@@ -1,6 +1,7 @@
 id: "gourmet-food"
 language: "en"
 word: "gourmet"
+pronunciation: "/ɡʊrˈmeɪ/"
 part_of_speech: "adjective"
 meaning: "美食的；讲究精美饮食的。"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Raw Gourmet Meat.
+  Pronunciation source: Collins Dictionary — gourmet; gourmet in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/gourmet (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: gourmet-food.mp3
 tags:

@@ -1,11 +1,13 @@
 id: "river-terrain"
 language: "en"
 word: "river"
+pronunciation: "/ˈrɪvər/"
 part_of_speech: "noun"
 meaning: "河流"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: river.
+  Pronunciation source: Collins Dictionary — river; river in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/river (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: river-terrain.mp3
 tags:

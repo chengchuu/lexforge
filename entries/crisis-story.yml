@@ -1,6 +1,7 @@
 id: "crisis-story"
 language: "en"
 word: "crisis"
+pronunciation: "/ˈkraɪsɪs/"
 part_of_speech: "noun"
 meaning: "危机"
 example: "The kingdom faces a serious crisis."
@@ -9,6 +10,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: crisis.
+  Pronunciation source: Collins Dictionary — crisis; crisis in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/crisis (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: crisis-story.mp3
 tags:

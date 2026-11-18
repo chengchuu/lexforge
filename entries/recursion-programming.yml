@@ -1,6 +1,7 @@
 id: recursion-programming
 language: en
 word: "recursion"
+pronunciation: "/rɪˈkɜrʒən/"
 part_of_speech: "noun"
 meaning: "递归；在求解或定义过程中再次处理同类子问题的方式。"
 example: "Use a base case to stop the recursion."
@@ -8,6 +9,7 @@ notes: |-
   recursive 是相关形容词，recursive comparisons 表示递归比较。原报告中的挂起情况不代表所有递归都有错误。
 
   Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-frioct30.md:15. Source form: recursion.
+  Pronunciation source: Collins Dictionary — recursion; recursion in American English. https://www.collinsdictionary.com/dictionary/english/recursion (accent: US; accessed 2026-11-18).
 related_entries:
   - backtracking-algorithm
 learning_priority: 2

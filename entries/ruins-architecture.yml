@@ -1,6 +1,7 @@
 id: "ruins-architecture"
 language: "en"
 word: "ruins"
+pronunciation: "UK /ˈruːɪnz/"
 part_of_speech: "noun"
 meaning: "废墟、遗迹"
 example: "Explore the ruins near the village."
@@ -9,6 +10,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:106. Source form: ruins.
+  Pronunciation source: Collins Dictionary — ruins; ruins in British English. https://www.collinsdictionary.com/dictionary/english/ruins (accent: UK; accessed 2026-11-18).
 learning_priority: 2
 audio: ruins-architecture.mp3
 tags:

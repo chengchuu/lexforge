@@ -1,6 +1,7 @@
 id: "elixir-cooking"
 language: "en"
 word: "elixir"
+pronunciation: "/ɪˈlɪksər/"
 part_of_speech: "noun"
 meaning: "药剂"
 example: "Prepare an elixir from the ingredients."
@@ -9,6 +10,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: elixir.
 
   Memory-aid source: Online Etymology Dictionary — elixir. https://www.etymonline.com/word/elixir
+  Pronunciation source: Collins Dictionary — elixir; elixir in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/elixir (accent: US; accessed 2026-11-18).
 etymology: "经中世纪拉丁语来自阿拉伯语 al-iksir，原与炼金术中的点金石有关；更早可能来自希腊语 xerion (使伤口干燥的粉末)。"
 learning_priority: 2
 audio: elixir-cooking.mp3

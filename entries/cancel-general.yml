@@ -1,12 +1,14 @@
 id: "cancel-general"
 language: "en"
 word: "cancel"
+pronunciation: "/ˈkænsəl/"
 part_of_speech: "verb"
 meaning: "取消"
 example: "Cancel the action and try again."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: cancel.
+  Pronunciation source: Collins Dictionary — cancel; cancel in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/cancel (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: cancel-general.mp3
 tags:

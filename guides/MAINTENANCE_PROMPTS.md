@@ -92,8 +92,19 @@ For each entry:
   target. Do not infer dependencies from every word in its example or
   create extra entries solely to satisfy a dependency. Omit when unused.
 - Follow existing tag conventions and omit unused optional fields.
-- Include pronunciation only when reliable. For Japanese, use kana
-  rather than romaji.
+- For common English words and everyday phrases, look up reliable IPA.
+  Prefer American English; if a reasonable lookup cannot establish it,
+  accept verified British English and record the reason. A failed page
+  request does not prove that American pronunciation does not exist.
+  Unprefixed English IPA defaults to American English: write /…/ without
+  a US prefix. Keep other accent prefixes, such as UK /…/. Match meaning,
+  part of speech, and word form. Record the dictionary title, URL, accent, and
+  access date in Notes without duplicate provenance. Source phrases as
+  wholes; do not splice accents, transcription systems, or word readings.
+  Preserve existing IPA unless separately authorized. British IPA may
+  accompany existing American audio; do not regenerate that recording
+  merely to match the displayed IPA. Report unresolved pronunciation
+  gaps. For Japanese, use kana rather than romaji.
 - Preserve unrelated content and existing audio.
 
 Use only fields and language capabilities supported by the current
@@ -159,7 +170,7 @@ Draft content:
 - Include Chinese Context and an example in the entry's language only when useful. Reuse existing vocabulary naturally, without forcing overlap.
 - Use Notes for detailed reasoning, limitations, source wording, and provenance. Preserve useful depth and avoid duplicate clauses.
 - Record source paths and useful line references. Preserve source wording separately from normalized headwords where that distinction matters.
-- Include English IPA only when reliably supported; use kana for Japanese. Leave uncertain pronunciations absent.
+- Look up reliable IPA for common English words and everyday phrases. Prefer American English; if a reasonable lookup cannot establish it, accept verified British English and record the reason without claiming that American pronunciation does not exist. Unprefixed English IPA defaults to American English: write /…/ without a US prefix and keep other accent prefixes, such as UK /…/. Match meaning, part of speech, and word form, and include the exact proposed Notes source line with dictionary title, URL, accent, and access date. Source phrases as wholes without splicing accents, transcription systems, or component readings. Preserve existing IPA unless an update is separately proposed. British IPA may accompany existing American audio; IPA enrichment alone does not authorize replacing recordings. Use kana for Japanese and report specific unresolved gaps.
 - Add etymology, word formation, or mnemonics only when they provide value. Include concrete proposed text, distinguish historical facts from invented memory aids, and record reliable source titles and URLs.
 - Preserve uncertainty in names, readings, identities, and naming origins. Distinguish user-provided clarification from independent verification.
 - Choose learning_priority by usefulness and complexity: 1 for foundations, 2 for standard or applied material, 3 for specialized material; omit when uncertain.

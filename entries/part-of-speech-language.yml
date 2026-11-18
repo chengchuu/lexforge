@@ -1,6 +1,7 @@
 id: part-of-speech-language
 language: en
 word: "part of speech"
+pronunciation: "UK /ˌpɑːt əv ˈspiːtʃ/"
 part_of_speech: noun phrase
 meaning: "词性；按语法功能划分的词语类别。"
 context: "例如 noun、verb 和 adjective，复数为 parts of speech。"
@@ -9,6 +10,7 @@ notes: |
   保留为完整语法术语，不机械拆成 part、of、speech 三张卡。同一词可因具体用法具有不同词性，判断应结合例句。
   Source: user-supplied LexForge field-label vocabulary.
   Reference: Merriam-Webster: part of speech: https://www.merriam-webster.com/dictionary/part%20of%20speech
+  Pronunciation source: Oxford Advanced Learner’s Dictionary — part of speech; part of speech — British English pronunciation. https://www.oxfordlearnersdictionaries.com/definition/english/part-of-speech (accent: UK; accessed 2026-11-18).
 learning_priority: 2
 prerequisites:
   - word-general

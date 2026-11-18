@@ -1,12 +1,14 @@
 id: "emitter-engineering"
 language: "en"
 word: "emitter"
+pronunciation: "/iˈmɪtər/"
 part_of_speech: "noun"
 meaning: "发射器、发出装置"
 example: "The emitter sends out a beam of light."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:168. Source form: emitter.
+  Pronunciation source: Collins Dictionary — emitter; emitter in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/emitter (accent: US; accessed 2026-11-18).
 related_entries:
   - "emit-tech"
 word_formation: "emit（发出）+ -er（执行者或装置）；这里指发射装置。"

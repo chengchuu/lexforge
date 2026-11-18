@@ -1,6 +1,7 @@
 id: language-general
 language: en
 word: "language"
+pronunciation: "/ˈlæŋɡwɪdʒ/"
 part_of_speech: noun
 meaning: "语言"
 context: "用于交流的语言系统，如英语、日语；本条侧重人类语言，不混入编程语言义。"
@@ -9,6 +10,7 @@ notes: |
   在朗读设置中，language 指要朗读的语言。词条语言、释义使用的语言和设备已安装的语音是不同概念。
   Source: user-supplied LexForge field-label vocabulary.
   Reference: Merriam-Webster: language: https://www.merriam-webster.com/dictionary/language
+  Pronunciation source: Collins Dictionary — language; language in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/language (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: language-general.mp3
 tags:

@@ -1,6 +1,7 @@
 id: "meat-food"
 language: "en"
 word: "meat"
+pronunciation: "/mit/"
 part_of_speech: "noun"
 meaning: "肉；供食用的肉类。"
 notes: |-
@@ -10,6 +11,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Raw Meat.
+  Pronunciation source: Collins Dictionary — meat; meat in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/meat (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: meat-food.mp3
 tags:

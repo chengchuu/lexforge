@@ -1,12 +1,14 @@
 id: "porridge-cooking"
 language: "en"
 word: "porridge"
+pronunciation: "/ˈpɔrɪdʒ/"
 part_of_speech: "noun"
 meaning: "粥"
 example: "The porridge is thick and warm."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:146. Source form: porridge.
+  Pronunciation source: Collins Dictionary — porridge; porridge in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/porridge (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: porridge-cooking.mp3
 tags:

@@ -1,6 +1,7 @@
 id: put-option-finance
 language: en
 word: "put option"
+pronunciation: "UK /pʊt ˈɒpʃən/"
 part_of_speech: "noun"
 meaning: "看跌期权；在股票期权语境中给予买方按合约价格卖出标的股票的权利。"
 example: "A put option gives its buyer a right to sell."
@@ -8,6 +9,7 @@ notes: |-
   Put 在这里不是普通放置动作。买入与卖出 put 的风险方向不同，不能只凭名称推断账户整体看法。
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5、S8；原标签: Put；PUT。
   Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+  Pronunciation source: Collins Dictionary — put option; put option in British English. https://www.collinsdictionary.com/dictionary/english/put-option (accent: UK; accessed 2026-11-18).
 learning_priority: 3
 prerequisites:
   - option-finance

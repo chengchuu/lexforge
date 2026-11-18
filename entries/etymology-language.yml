@@ -1,6 +1,7 @@
 id: etymology-language
 language: en
 word: "etymology"
+pronunciation: "/ˌɛtəˈmɑlədʒi/"
 part_of_speech: noun
 meaning: "词源；词语的历史来源与演变。"
 context: "用于解释词语从哪里来、如何传入某种语言，以及形式和含义如何变化。"
@@ -9,6 +10,7 @@ notes: |
   词源说明应有历史依据，不能把方便记忆的拆分直接当成真实来源。与现代构词方式、个人助记分别记录。
   Source: user-supplied LexForge field-label vocabulary.
   Reference: Merriam-Webster: etymology: https://www.merriam-webster.com/dictionary/etymology
+  Pronunciation source: Collins Dictionary — etymology; etymology in American English. https://www.collinsdictionary.com/dictionary/english/etymology (accent: US; accessed 2026-11-18).
 etymology: "经由法语和拉丁语进入英语，最终来自希腊语 etymon (词按其来源的本义) 与 -logia (论述、研究)。词源研究追踪词的历史；历史本义不等于现代语境中唯一正确的含义。"
 related_entries:
   - formation-general

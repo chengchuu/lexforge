@@ -1,10 +1,12 @@
 id: chicken-food
 language: en
 word: "chicken"
+pronunciation: "/ˈtʃɪkən/"
 part_of_speech: noun
 meaning: "鸡肉"
 context: "指作为食物的鸡肉，而不是活鸡。"
 example: "The chicken comes with rice."
+notes: "Pronunciation source: Collins Dictionary — chicken; chicken in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/chicken (accent: US; accessed 2026-11-18)."
 audio: chicken-food.mp3
 learning_priority: 1
 tags:

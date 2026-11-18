@@ -1,12 +1,14 @@
 id: "dodge-general"
 language: "en"
 word: "dodge"
+pronunciation: "/dɑdʒ/"
 part_of_speech: "verb"
 meaning: "闪避"
 example: "Dodge the attack and move to safety."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:192. Source form: dodge.
+  Pronunciation source: Collins Dictionary — dodge; dodge in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/dodge (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: dodge-general.mp3
 tags:

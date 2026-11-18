@@ -1,6 +1,7 @@
 id: variance-type-system
 language: en
 word: "variance"
+pronunciation: "/ˈvɛriəns/"
 part_of_speech: "noun"
 meaning: "型变；类型参数之间的子类型关系如何影响复合类型之间的关系。"
 example: "Variance affects whether generic types are assignable."
@@ -10,6 +11,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:13. Source form: variance.
 
   Reference: TypeScript 4.7: Optional Variance Annotations for Type Parameters: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#optional-variance-annotations-for-type-parameters
+  Pronunciation source: Collins Dictionary — variance; variance in American English. https://www.collinsdictionary.com/dictionary/english/variance (accent: US; accessed 2026-11-18).
 learning_priority: 3
 prerequisites:
   - type-tech

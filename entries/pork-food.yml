@@ -1,10 +1,12 @@
 id: pork-food
 language: en
 word: "pork"
+pronunciation: "/pɔrk/"
 part_of_speech: noun
 meaning: "猪肉"
 context: "指作为食物的猪肉，可搭配米饭或面条。"
 example: "Would you like pork with noodles?"
+notes: "Pronunciation source: Collins Dictionary — pork; pork in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/pork (accent: US; accessed 2026-11-18)."
 audio: pork-food.mp3
 learning_priority: 1
 tags:

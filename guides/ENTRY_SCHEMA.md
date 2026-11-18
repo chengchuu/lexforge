@@ -21,7 +21,7 @@ For example, `related_entries: [disclosure-workflow]` on `closure-tech` supplies
 - Quote text that YAML would interpret as a number or boolean, and text containing `: ` or other YAML syntax.
 - Tabs and line breaks are supported in text; other control characters are rejected.
 - Use concise Chinese meanings and optional practical context; examples, when present, use the entry’s language. Put Chinese walkthroughs or symbolic traces in Notes rather than sending them to Example TTS. Keep text as plain text, not HTML or Markdown formatting.
-- Use verified IPA for English and kana readings for Japanese; omit uncertain pronunciation. The sample IPA comes from the project specification; other samples omit it.
+- Use verified IPA for English and kana readings for Japanese. Look up pronunciation for common English words and everyday phrases; follow the [pronunciation conventions](#pronunciation). Existing samples retain their original values.
 - Use `audio: <id>.mp3` only after adding the corresponding file to `media/`.
 
 Validation rejects missing or blank required fields, incorrect types, invalid names or tags, duplicate IDs or tags, and missing or empty referenced audio files. Errors go to stderr and return a nonzero exit status.
@@ -29,3 +29,13 @@ Validation rejects missing or blank required fields, incorrect types, invalid na
 Learning metadata validation also rejects invalid priorities, malformed or repeated prerequisite IDs, missing entries, self-references, and dependency cycles. Cycle errors include the involved IDs.
 
 Repeated words within the same canonical language tag produce warnings for human review, including when their capitalization or whitespace differs. Distinct meanings remain valid. This check does not infer semantic equivalence or detect synonyms. Warnings do not block a build.
+
+## Pronunciation
+
+`pronunciation` remains an optional plain-text string. For common English words and everyday phrases, seek reliable IPA rather than omitting it merely because the field is optional. Prefer American English; after a reasonable lookup, use verified British English if a reliable American pronunciation cannot be established. Record the reason for a British selection. A failed page request means the page was inaccessible, not that the pronunciation does not exist.
+
+Unprefixed English IPA defaults to American English: write `/…/` without a `US ` prefix. Keep explicit prefixes for other accents, such as `UK /…/`. Match the current meaning, part of speech, and word form. Preserve the selected dictionary's transcription conventions and source a phrase as a whole; do not mix accents or splice individual word readings into an unsupported phrase transcription. Preserve existing pronunciation values unless a separate change is approved. Historical plans retain their originally approved wording; use this convention for new work.
+
+Append the dictionary title, specific URL, accent, and access date to Notes, preserving existing text and avoiding duplicate source lines. If neither American nor British pronunciation can be reliably established, leave the field absent and report the specific limitation. Proper names, abbreviations, and fictional terms may need separate evidence; spelling and synthetic speech do not verify IPA.
+
+English IPA labels describe the displayed transcription, not the recording's voice. A `UK /…/` value may accompany existing American audio. Keep the recording and its metadata unchanged unless replacement is separately authorized. These labels do not change `language`, `TTSLanguage`, or the audio generator's voice selection, and require no schema or template changes. Japanese continues to use kana without these English accent labels.

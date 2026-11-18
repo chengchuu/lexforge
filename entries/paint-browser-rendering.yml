@@ -1,6 +1,7 @@
 id: paint-browser-rendering
 language: en
 word: "paint"
+pronunciation: "/peɪnt/"
 part_of_speech: noun
 meaning: "绘制；把页面元素的视觉内容记录或绘制出来的过程。"
 example: "Changing a color can trigger paint without layout."
@@ -8,6 +9,7 @@ notes: |
   绘制涉及文字、颜色、边框和阴影等视觉内容。改变颜色可能需要重绘而不改变几何布局。合成负责组合图层，不能把布局、绘制和合成看作同一步，也不能保证所有样式变化都经过完整流程。
 
   Source: Interviews/AprilSkill.md:299. Verified reference: MDN: How browsers work: https://developer.mozilla.org/en-US/docs/Web/Performance/Guides/How_browsers_work
+  Pronunciation source: Collins Dictionary — paint; paint in American English. https://www.collinsdictionary.com/dictionary/english/paint (accent: US; accessed 2026-11-18).
 learning_priority: 2
 prerequisites:
   - layout-browser-rendering

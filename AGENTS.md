@@ -451,6 +451,12 @@ Avoid awkward textbook-style sentences.
 
 Use a consistent pronunciation format: verified IPA for English, kana readings for Japanese, and the appropriate conventions for other languages.
 
+For common English words and everyday phrases, look up and include reliable IPA as expected content maintenance; the field remains optional. Prefer American English. If a reasonable lookup cannot establish a reliable American pronunciation, accept a verified British pronunciation and record why it was selected. An inaccessible page does not establish that an American pronunciation does not exist.
+
+Unprefixed English IPA defaults to American English: write `/…/` without a `US ` prefix. Keep explicit prefixes for other accents, such as `UK /…/`. Match the entry's meaning, part of speech, and word form, and record the dictionary title, URL, accent, and access date in Notes without duplicating provenance. Use a sourced whole-phrase pronunciation for phrases; do not splice accents, dictionary transcription systems, or individual word pronunciations into an unsupported whole. Preserve existing pronunciation values and historical examples unless their update is separately authorized.
+
+A British IPA display may accompany an existing American recording. Keep its accent label explicit; adding IPA does not authorize regenerating audio, changing voice settings or language tags, or claiming the recording was auditioned. See the [pronunciation conventions](guides/ENTRY_SCHEMA.md#pronunciation).
+
 Example:
 
 ```text

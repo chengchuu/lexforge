@@ -1,6 +1,7 @@
 id: "ancient-general"
 language: "en"
 word: "ancient"
+pronunciation: "/ˈeɪntʃənt/"
 part_of_speech: "adjective"
 meaning: "古代的"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: ancient.
+  Pronunciation source: Collins Dictionary — ancient; ancient in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/ancient (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: ancient-general.mp3
 tags:

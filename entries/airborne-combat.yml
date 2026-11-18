@@ -1,6 +1,7 @@
 id: "airborne-combat"
 language: "en"
 word: "airborne"
+pronunciation: "/ˈɛrˌbɔrn/"
 part_of_speech: "adjective"
 meaning: "空中的"
 example: "The airborne enemy stayed above the cliff."
@@ -9,6 +10,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:180. Source form: airborne.
 
   Memory-aid source: Online Etymology Dictionary — airborne. https://www.etymonline.com/word/airborne
+  Pronunciation source: Collins Dictionary — airborne; airborne in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/airborne (accent: US; accessed 2026-11-18).
 word_formation: "air (空气、空中) + borne (bear 表示承载时的过去分词)，表示在空中的或经空中运送的；不是 born (出生)。"
 learning_priority: 2
 audio: airborne-combat.mp3

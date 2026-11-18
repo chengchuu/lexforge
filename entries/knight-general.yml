@@ -1,11 +1,13 @@
 id: "knight-general"
 language: "en"
 word: "knight"
+pronunciation: "/naɪt/"
 part_of_speech: "noun"
 meaning: "骑士。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:124. Source form: Knight's Broadsword.
+  Pronunciation source: Collins Dictionary — knight; knight in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/knight (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: knight-general.mp3
 tags:

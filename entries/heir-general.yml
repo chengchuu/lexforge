@@ -1,6 +1,7 @@
 id: "heir-general"
 language: "en"
 word: "heir"
+pronunciation: "/ɛr/"
 part_of_speech: "noun"
 meaning: "继承人"
 example: "The princess is the heir to the throne."
@@ -10,6 +11,7 @@ notes: |-
 
   Memory-aid source: Merriam-Webster.com Dictionary — descendant. https://www.merriam-webster.com/dictionary/descendant
   Memory-aid source: Merriam-Webster.com Dictionary — heir. https://www.merriam-webster.com/dictionary/heir
+  Pronunciation source: Collins Dictionary — heir; heir in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/heir (accent: US; accessed 2026-11-18).
 mnemonic: "用法助记: 追问谁继承财产、位置或称号，想到 heir；追问谁是谁的后辈，想到 descendant。后裔不自动等于继承人。"
 related_entries:
   - "descendant-general"

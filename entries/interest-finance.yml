@@ -1,6 +1,7 @@
 id: interest-finance
 language: en
 word: "interest"
+pronunciation: "/ˈɪntrɪst/"
 part_of_speech: "noun"
 meaning: "利息；因存放或借用资金产生的收益或费用。"
 example: "The account earns interest on eligible cash."
@@ -9,6 +10,7 @@ notes: |-
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Total Interest；Today’s Interest；Pending Interest。
   Reference: CFPB — Annual Percentage Yield Calculation. https://www.consumerfinance.gov/rules-policy/regulations/1030/a/
   Reference: Moomoo Financial Inc. — Customer Agreement, May 28, 2024. https://foss-us-sec.moomoo.com/customer_file_service/prod/disclosure_1717572128614_16222017.pdf
+  Pronunciation source: Collins Dictionary — interest; interest in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/interest (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: interest-finance.mp3
 tags:

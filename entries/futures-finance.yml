@@ -1,6 +1,7 @@
 id: futures-finance
 language: en
 word: "futures"
+pronunciation: "UK /ˈfjuːtʃəz/"
 part_of_speech: "noun"
 meaning: "期货；按标准化合约约定未来交易条件的交易所交易工具。"
 example: "The screen includes futures quotes."
@@ -8,6 +9,7 @@ notes: |-
   保留金融词常用复数 futures，不按普通 future 的将来义处理。不判断 NVDA Futures 的具体交易所、结算方式或合约规格。
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S5；原标签: Futures。
   Reference: CME Group — Definition of a Futures Contract. https://www.cmegroup.com/education/courses/introduction-to-futures/definition-of-a-futures-contract
+  Pronunciation source: Collins Dictionary — futures; futures in British English. https://www.collinsdictionary.com/dictionary/english/futures (accent: UK; accessed 2026-11-18).
 learning_priority: 3
 audio: futures-finance.mp3
 tags:

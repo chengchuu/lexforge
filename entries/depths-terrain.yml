@@ -1,6 +1,7 @@
 id: "depths-terrain"
 language: "en"
 word: "depths"
+pronunciation: "UK /dɛpθs/"
 part_of_speech: "noun"
 meaning: "深处；深层区域；常用复数形式。"
 notes: |-
@@ -8,6 +9,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: depths.
+  Pronunciation source: Collins Dictionary — depths; depths in British English. https://www.collinsdictionary.com/dictionary/english/depths (accent: UK; accessed 2026-11-18).
 learning_priority: 1
 audio: depths-terrain.mp3
 tags:

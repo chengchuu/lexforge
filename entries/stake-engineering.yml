@@ -1,6 +1,7 @@
 id: "stake-engineering"
 language: "en"
 word: "stake"
+pronunciation: "/steɪk/"
 part_of_speech: "noun"
 meaning: "桩、固定钉"
 notes: |-
@@ -10,6 +11,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:164. Source form: Stake.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_Pile_Capsule_A_01_Name; version: 1.2.1.
+  Pronunciation source: Collins Dictionary — stake; stake in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/stake (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: stake-engineering.mp3
 tags:

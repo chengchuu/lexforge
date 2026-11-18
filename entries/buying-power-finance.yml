@@ -1,6 +1,7 @@
 id: buying-power-finance
 language: en
 word: "buying power"
+pronunciation: "UK /ˈbaɪɪŋ ˈpaʊə/"
 part_of_speech: "noun"
 meaning: "购买力；按账户和交易规则可用于新增交易的额度。"
 example: "Buying power is not the same as withdrawable cash."
@@ -9,6 +10,7 @@ notes: |-
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Max Buying Power；Cash BP。
   Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
   Reference: Investor.gov — Understanding Margin Accounts. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29
+  Pronunciation source: Collins Dictionary — buying power; buying power in British English. https://www.collinsdictionary.com/dictionary/english/buying-power (accent: UK; accessed 2026-11-18).
 related_entries:
   - withdrawable-finance
 learning_priority: 2

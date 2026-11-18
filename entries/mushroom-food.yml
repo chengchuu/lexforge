@@ -1,10 +1,12 @@
 id: mushroom-food
 language: en
 word: "mushroom"
+pronunciation: "/ˈmʌʃˌrum/"
 part_of_speech: noun
 meaning: "蘑菇"
 context: "可食用的菌类，在菜名中也常放在其他名词前说明食材。"
 example: "The chicken comes with mushroom sauce."
+notes: "Pronunciation source: Collins Dictionary — mushroom; mushroom in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/mushroom (accent: US; accessed 2026-11-18)."
 audio: mushroom-food.mp3
 learning_priority: 1
 tags:

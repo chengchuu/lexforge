@@ -1,6 +1,7 @@
 id: "imprison-story"
 language: "en"
 word: "imprison"
+pronunciation: "/ɪmˈprɪzən/"
 part_of_speech: "verb"
 meaning: "囚禁；监禁。"
 example: "The king ordered the traitor imprisoned."
@@ -9,6 +10,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: imprison.
+  Pronunciation source: Collins Dictionary — imprison; imprison in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/imprison (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: imprison-story.mp3
 tags:

@@ -1,10 +1,12 @@
 id: beef-food
 language: en
 word: "beef"
+pronunciation: "/bif/"
 part_of_speech: noun
 meaning: "牛肉"
 context: "航空餐食和日常餐饮中常见的肉类选项。"
 example: "The beef is served with rice."
+notes: "Pronunciation source: Collins Dictionary — beef; beef in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/beef (accent: US; accessed 2026-11-18)."
 audio: beef-food.mp3
 learning_priority: 1
 tags:

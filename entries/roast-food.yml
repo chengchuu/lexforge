@@ -1,10 +1,12 @@
 id: roast-food
 language: en
 word: "roast"
+pronunciation: "/roʊst/"
 part_of_speech: adjective
 meaning: "烤制的；烘烤的"
 context: "放在食物名称前，说明食物采用烤制方式。"
 example: "The roast chicken comes with potatoes."
+notes: "Pronunciation source: Collins Dictionary — roast; roast in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/roast (accent: US; accessed 2026-11-18)."
 audio: roast-food.mp3
 learning_priority: 2
 tags:

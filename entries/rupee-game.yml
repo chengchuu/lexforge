@@ -1,6 +1,7 @@
 id: "rupee-game"
 language: "en"
 word: "rupee"
+pronunciation: "/ˈrupi/"
 part_of_speech: "noun"
 meaning: "卢比；本作的货币单位。"
 notes: |-
@@ -10,6 +11,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Rupee.
 
   Memory-aid source: Online Etymology Dictionary — rupee. https://www.etymonline.com/word/rupee
+  Pronunciation source: Collins Dictionary — rupee; rupee in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/rupee (accent: US; accessed 2026-11-18).
 etymology: "经印地语或乌尔都语词形追溯到梵语 rupyah (加工过的银)。这是现实货币名称的词源，不证明游戏卢比的材质或世界观起源。"
 learning_priority: 1
 audio: rupee-game.mp3

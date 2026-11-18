@@ -1,6 +1,7 @@
 id: "foothill-terrain"
 language: "en"
 word: "foothill"
+pronunciation: "/ˈfʊtˌhɪl/"
 part_of_speech: "noun"
 meaning: "山麓"
 example: "A village lies in the foothills."
@@ -9,6 +10,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:110. Source form: foothill.
 
   Memory-aid source: Merriam-Webster.com Dictionary — foothill. https://www.merriam-webster.com/dictionary/foothill
+  Pronunciation source: Collins Dictionary — foothill; foothill in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/foothill (accent: US; accessed 2026-11-18).
 word_formation: "foot (山脚、底部) + hill (丘陵)，表示高山或山脉脚下的丘陵。"
 learning_priority: 1
 audio: foothill-terrain.mp3

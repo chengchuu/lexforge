@@ -1,6 +1,7 @@
 id: stock-finance
 language: en
 word: "stock"
+pronunciation: "/stɑk/"
 part_of_speech: "noun"
 meaning: "股票；代表公司所有权份额的证券。"
 example: "The portfolio includes stocks and ETFs."
@@ -9,6 +10,7 @@ notes: |-
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S2；原标签: Crypto Stocks。
   Reference: Investment Company Institute — ETF Basics and Structure: FAQs. https://www.ici.org/faqs/faqs_etfs
   Reference: Investor.gov — An Introduction to Options. https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-63
+  Pronunciation source: Collins Dictionary — stock; stock in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/stock (accent: US; accessed 2026-11-18).
 related_entries:
   - exchange-traded-fund-finance
 learning_priority: 1

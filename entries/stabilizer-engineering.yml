@@ -1,6 +1,7 @@
 id: "stabilizer-engineering"
 language: "en"
 word: "stabilizer"
+pronunciation: "/ˈsteɪbəˌlaɪzər/"
 part_of_speech: "noun"
 meaning: "稳定器"
 notes: |-
@@ -13,6 +14,7 @@ notes: |-
 
   Memory-aid source: Online Etymology Dictionary — stabilizer. https://www.etymonline.com/word/stabilizer
   Memory-aid source: Merriam-Webster.com Dictionary — -er. https://www.merriam-webster.com/dictionary/-er
+  Pronunciation source: Collins Dictionary — stabilizer; stabilizer in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/stabilizer (accent: US; accessed 2026-11-18).
 word_formation: "stabilize (使稳定) 去掉词尾 e 后接 -er (执行者或装置)，构成 stabilizer；这里表示稳定装置。"
 learning_priority: 2
 audio: stabilizer-engineering.mp3

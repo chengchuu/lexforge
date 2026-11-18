@@ -1,6 +1,7 @@
 id: "hostile-combat"
 language: "en"
 word: "hostile"
+pronunciation: "/ˈhɑstəl/"
 part_of_speech: "adjective"
 meaning: "敌对的"
 example: "The creature becomes hostile when approached."
@@ -11,6 +12,7 @@ notes: |-
   Memory-aid source: Online Etymology Dictionary — hostile. https://www.etymonline.com/word/hostile
   Memory-aid source: Merriam-Webster.com Dictionary — hostile. https://www.merriam-webster.com/dictionary/hostile
   Memory-aid source: Merriam-Webster.com Dictionary — aggressive. https://www.merriam-webster.com/dictionary/aggressive
+  Pronunciation source: Collins Dictionary — hostile; hostile in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/hostile (accent: US; accessed 2026-11-18).
 etymology: "经法语或直接来自拉丁语 hostilis (敌人的、敌对的)，与古典拉丁语 hostis (敌人) 有关；不按现代英语 host + -ile 来推义。"
 mnemonic: "辨析助记: hostile 先想敌对态度，aggressive 先想主动进攻或强势行为；两种特征可以同时存在。"
 related_entries:

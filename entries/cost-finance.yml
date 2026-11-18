@@ -1,6 +1,7 @@
 id: cost-finance
 language: en
 word: "cost"
+pronunciation: "/kɔst/"
 part_of_speech: "noun"
 meaning: "成本；取得或持有某项资产所付出的代价。"
 example: "The market price is above the recorded cost."
@@ -8,6 +9,7 @@ notes: |-
   Price/Cost 中两者是不同数据。未核实该账户选择的是平均成本、摊薄成本还是其他口径，不擅自规范为 cost basis 或填写费用公式。
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: Price/Cost。
   Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
+  Pronunciation source: Collins Dictionary — cost; cost in American English. https://www.collinsdictionary.com/dictionary/english/cost (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: cost-finance.mp3
 tags:

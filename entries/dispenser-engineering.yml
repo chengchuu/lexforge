@@ -1,6 +1,7 @@
 id: "dispenser-engineering"
 language: "en"
 word: "dispenser"
+pronunciation: "/dɪˈspɛnsər/"
 part_of_speech: "noun"
 meaning: "分配器；按需放出物品的装置。"
 notes: |-
@@ -9,6 +10,7 @@ notes: |-
 
   Memory-aid source: Merriam-Webster.com Dictionary — dispenser. https://www.merriam-webster.com/dictionary/dispenser
   Memory-aid source: Merriam-Webster.com Dictionary — -er. https://www.merriam-webster.com/dictionary/-er
+  Pronunciation source: Collins Dictionary — dispenser; dispenser in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/dispenser (accent: US; accessed 2026-11-18).
 word_formation: "dispense (分配、发放) + -er (执行者或装置)，去掉词尾 e 后构成 dispenser。"
 learning_priority: 1
 prerequisites:

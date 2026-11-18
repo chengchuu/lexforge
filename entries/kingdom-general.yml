@@ -1,6 +1,7 @@
 id: "kingdom-general"
 language: "en"
 word: "kingdom"
+pronunciation: "/ˈkɪŋdəm/"
 part_of_speech: "noun"
 meaning: "王国；由国王或女王统治的国家。"
 notes: |-
@@ -12,6 +13,7 @@ notes: |-
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge-background.md:13. Source form: Tears of the Kingdom.
 
   Memory-aid source: Merriam-Webster.com Dictionary — -dom. https://www.merriam-webster.com/dictionary/-dom
+  Pronunciation source: Collins Dictionary — kingdom; kingdom in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/kingdom (accent: US; accessed 2026-11-18).
 word_formation: "king (国王) + -dom (统治领域)，表示王国；现实中也可由女王统治。"
 learning_priority: 1
 audio: kingdom-general.mp3

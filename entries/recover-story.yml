@@ -1,6 +1,7 @@
 id: "recover-story"
 language: "en"
 word: "recover"
+pronunciation: "/rɪˈkʌvər/"
 part_of_speech: "verb"
 meaning: "找回、恢复"
 example: "Recover the sword from the ruins."
@@ -9,6 +10,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: recover.
+  Pronunciation source: Collins Dictionary — recover; recover in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/recover (accent: US; accessed 2026-11-18).
 learning_priority: 2
 related_entries:
   - "restore-tech"

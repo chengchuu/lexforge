@@ -1,6 +1,7 @@
 id: "recall-general"
 language: "en"
 word: "recall"
+pronunciation: "/rɪˈkɔl/"
 part_of_speech: "verb"
 meaning: "回想；召回；叫回。"
 example: "I cannot recall the route."
@@ -10,6 +11,7 @@ notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Recall.
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_ReverseRecorder_Name; version: 1.2.1.
+  Pronunciation source: Collins Dictionary — recall; recall in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/recall (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: recall-general.mp3
 tags:

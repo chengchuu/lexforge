@@ -1,6 +1,7 @@
 id: "raw-food"
 language: "en"
 word: "raw"
+pronunciation: "/rɔ/"
 part_of_speech: "adjective"
 meaning: "生的；未烹饪的。"
 example: "Do not confuse raw meat with cooked meat."
@@ -9,6 +10,7 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:142. Source form: Raw Meat.
+  Pronunciation source: Collins Dictionary — raw; raw in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/raw (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: raw-food.mp3
 tags:
