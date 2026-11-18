@@ -8,7 +8,7 @@ example: "A quadratic comparison can become expensive on large inputs."
 notes: |-
   用于算法或比较成本；不因原报告标题而断言当前 TypeScript 的实际复杂度。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:13. Source form: Quadratic.
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md. Source form: Quadratic.
   Pronunciation source: Collins Dictionary — quadratic; quadratic in American English. https://www.collinsdictionary.com/dictionary/english/quadratic (accent: US; accessed 2026-11-18).
 related_entries:
   - linear-tech

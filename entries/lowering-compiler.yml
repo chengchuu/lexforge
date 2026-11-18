@@ -8,7 +8,7 @@ example: "Lowering must preserve computed-key semantics."
 notes: |-
   这里不是版本降级；不假定所有 lowering 都直接生成机器码。
 
-  Source: reports/react-candidates-pending.md:21. Source form: lowering.
+  Source: reports/react-candidates-pending.md. Source form: lowering.
   Pronunciation source: Wiktionary — lowering; English — Etymology 1 — Pronunciation — General American. https://en.wiktionary.org/w/index.php?title=lowering&oldid=88196875 (accent: US; accessed 2026-11-18).
 learning_priority: 3
 prerequisites:

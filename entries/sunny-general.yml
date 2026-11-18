@@ -7,7 +7,7 @@ meaning: "阳光明媚的；充满阳光的。"
 context: "普通英语表示阳光明媚的；本作 Sunny 料理前缀对应向阳，帮助恢复受瘴气损伤的心心。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: Prompt/20261104-lexforge.md:154. Source form: Sunny.
+  Source: Prompt/20261104-lexforge.md. Source form: Sunny.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0001.json; key: HeartRepair_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — sunny; sunny in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/sunny (accent: US; accessed 2026-11-18).

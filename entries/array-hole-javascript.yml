@@ -7,7 +7,7 @@ example: "An array hole is different from an element containing undefined."
 notes: |-
   原文 holes 出现在数组语境中，因此规范为 array hole。空槽不是值为 undefined 的元素。
 
-  Source: react/react-38094-compiler.md:43. Source form: holes.
+  Source: react/react-38094-compiler.md. Source form: holes.
 
   Reference: MDN: Indexed collections: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Indexed_collections
 related_entries:

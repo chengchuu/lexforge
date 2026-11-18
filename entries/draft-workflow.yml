@@ -8,7 +8,7 @@ example: "Keep the draft concise."
 notes: |-
   此处指 PR 说明草稿。submission-ready draft 表示已准备好提交审阅的草稿。
 
-  Source: PR/AGENTS.md:1. Source form: draft.
+  Source: PR/AGENTS.md. Source form: draft.
   Pronunciation source: Collins Dictionary — draft; draft in American English. https://www.collinsdictionary.com/dictionary/english/draft (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: draft-workflow.mp3

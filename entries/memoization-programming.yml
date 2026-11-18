@@ -8,7 +8,7 @@ example: "Memoization can avoid an expensive repeated calculation."
 notes: |
   缓存键或依赖比较决定复用条件，缓存还消耗内存并需失效策略。React useMemo 用 Object.is 比较依赖，不是深比较。useMemo 属于性能优化，不能依赖缓存永久存在来保证业务正确性。
 
-  Source: Interviews/AprilSkill.md:653. Verified reference: React: useMemo: https://react.dev/reference/react/useMemo
+  Source: Interviews/AprilSkill.md. Verified reference: React: useMemo: https://react.dev/reference/react/useMemo
   Pronunciation source: Wiktionary — memoization; English — Pronunciation — General American. https://en.wiktionary.org/w/index.php?title=memoization&oldid=92747904 (accent: US; accessed 2026-11-18).
 learning_priority: 2
 audio: memoization-programming.mp3

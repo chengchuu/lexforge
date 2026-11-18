@@ -8,7 +8,7 @@ example: "Variance affects whether generic types are assignable."
 notes: |-
   与统计学方差区分。常见方向包括协变、逆变和不变；三者的类型兼容要求不同。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md:13. Source form: variance.
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md. Source form: variance.
 
   Reference: TypeScript 4.7: Optional Variance Annotations for Type Parameters: https://www.typescriptlang.org/docs/handbook/release-notes/typescript-4-7.html#optional-variance-annotations-for-type-parameters
   Pronunciation source: Collins Dictionary — variance; variance in American English. https://www.collinsdictionary.com/dictionary/english/variance (accent: US; accessed 2026-11-18).

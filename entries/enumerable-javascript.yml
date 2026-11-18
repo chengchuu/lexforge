@@ -8,7 +8,7 @@ example: "Object.keys returns only enumerable own string properties."
 notes: |-
   可枚举、属于自身、字符串键是不同维度。不可枚举不等于不可访问。
 
-  Source: reports/react-candidates-pending.md:34. Source form: enumerable.
+  Source: reports/react-candidates-pending.md. Source form: enumerable.
 
   Reference: MDN: Enumerability and ownership of properties: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Enumerability_and_ownership_of_properties
   Pronunciation source: Collins Dictionary — enumerable; enumerable in American English. https://www.collinsdictionary.com/dictionary/english/enumerable (accent: US; accessed 2026-11-18).

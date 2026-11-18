@@ -8,7 +8,7 @@ example: "The parameter has a default value."
 notes: |-
   parameter 在定义中，argument 在调用或实例化中；value parameter 与 type parameter 的层级不同。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-wedoct28.md:29. Source form: parameters.
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-wedoct28.md. Source form: parameters.
   Pronunciation source: Collins Dictionary — parameter; parameter in American English. https://www.collinsdictionary.com/dictionary/english/parameter (accent: US; accessed 2026-11-18).
 mnemonic: "parameter 在定义里，argument 在使用时传入；type argument 是类型实参，不是类型参数。"
 related_entries:

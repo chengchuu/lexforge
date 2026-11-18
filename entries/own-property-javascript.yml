@@ -7,7 +7,7 @@ example: "Check whether the object has an own property named value."
 notes: |-
   自有属性也可以是不可枚举属性；不要把 own 与 enumerable 等同。
 
-  Source: reports/react-candidates-pending.md:34. Source form: own property.
+  Source: reports/react-candidates-pending.md. Source form: own property.
 
   Reference: MDN: Enumerability and ownership of properties: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Enumerability_and_ownership_of_properties
 mnemonic: "own 提醒自己先问: 属性在对象自身，还是沿原型链继承而来？"

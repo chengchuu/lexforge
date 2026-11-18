@@ -5,7 +5,7 @@ part_of_speech: "phrase"
 meaning: "抗电；抵抗电击影响的能力。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: Prompt/20261104-lexforge.md:154. Source form: Shock Resistance.
+  Source: Prompt/20261104-lexforge.md. Source form: Shock Resistance.
 learning_priority: 1
 prerequisites:
   - "resistance-general"

@@ -8,7 +8,7 @@ example: "Create a branch for the fix."
 notes: |-
   分支是版本历史中的引用，工作树是检出的文件目录；二者不同。
 
-  Source: PR/AGENTS.md:38. Source form: branch.
+  Source: PR/AGENTS.md. Source form: branch.
   Pronunciation source: Collins Dictionary — branch; branch in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/branch (accent: US; accessed 2026-11-18).
 learning_priority: 1
 prerequisites:

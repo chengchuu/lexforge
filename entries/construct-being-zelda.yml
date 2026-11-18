@@ -6,7 +6,7 @@ part_of_speech: "noun"
 meaning: "魔像；本作中由左纳乌技术造出的人工生命体或机械实体。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: Prompt/20261104-lexforge.md:168. Source form: construct.
+  Source: Prompt/20261104-lexforge.md. Source form: construct.
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: SoldierGolem; version: 1.2.1.
   Pronunciation source: Collins Dictionary — Construct; construct in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/construct (accent: US; accessed 2026-11-18; ordinary English noun pronunciation, not a verified game-voice transcription).
 learning_priority: 2

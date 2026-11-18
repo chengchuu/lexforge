@@ -6,7 +6,7 @@ part_of_speech: "noun"
 meaning: "火把"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: Prompt/20261104-lexforge.md:120. Source form: torch.
+  Source: Prompt/20261104-lexforge.md. Source form: torch.
   Pronunciation source: Collins Dictionary — torch; torch in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/torch (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: torch-weapon.mp3

@@ -8,7 +8,7 @@ example: "The query returned three matching issues."
 notes: |-
   此处包括 GitHub 查询和 API 请求，不限定为 SQL。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-tueoct27.md:59. Source form: query.
+  Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-tueoct27.md. Source form: query.
   Pronunciation source: Collins Dictionary — query; query in American English. https://www.collinsdictionary.com/dictionary/english/query (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: query-tech.mp3

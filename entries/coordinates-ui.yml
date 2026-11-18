@@ -6,7 +6,7 @@ meaning: "坐标"
 example: "Read the coordinates on the map."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: Prompt/20261104-lexforge.md:188. Source form: Coordinates.
+  Source: Prompt/20261104-lexforge.md. Source form: Coordinates.
 learning_priority: 1
 audio: coordinates-ui.mp3
 tags:
