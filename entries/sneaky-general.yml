@@ -7,7 +7,7 @@ meaning: "偷偷摸摸的；行动隐蔽的。"
 context: "本作料理前缀 Sneaky 对应潜行，表示提高行动隐蔽程度。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:154. Source form: Sneaky.
+  Source: Prompt/20261104-lexforge.md:154. Source form: Sneaky.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: QuietnessUp_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — sneaky; sneaky in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/sneaky (accent: US; accessed 2026-11-18).

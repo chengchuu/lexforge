@@ -7,7 +7,7 @@ notes: |-
   用户已确认采用游戏文本中的 draconification。候选清单原写 dragonification，固定版本文本未出现该拼法。
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:221. Source form: dragonification.
+  Source: Prompt/20261104-lexforge.md:221. Source form: dragonification.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/EventFlowMsg/Dm_ZE_0006/0000.json; key: Dm_ZE_0006_Text_022_c; version: 1.2.1.
 learning_priority: 3

@@ -8,7 +8,7 @@ example: "Run the build after changing the source code."
 notes: |-
   编译可能是构建的一步；不要把 build 一律译成编译。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/react/react-37859-fixtures-closed.md:1. Source form: builds.
+  Source: react/react-37859-fixtures-closed.md:1. Source form: builds.
   Pronunciation source: Collins Dictionary — build; build in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/build (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: build-tech.mp3

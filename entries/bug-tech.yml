@@ -8,7 +8,7 @@ example: "Add a regression test for the bug."
 notes: |-
   这里采用软件含义。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/react/react-37871-rust-compiler.md:12. Source form: bug.
+  Source: react/react-37871-rust-compiler.md:12. Source form: bug.
   Pronunciation source: Collins Dictionary — bug; bug in American English 1. https://www.collinsdictionary.com/dictionary/english/bug (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: bug-tech.mp3

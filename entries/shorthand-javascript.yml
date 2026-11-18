@@ -8,7 +8,7 @@ example: "Use property shorthand when the variable name matches the key."
 notes: |-
   此处重点为对象属性简写；与字符串键、计算键区分。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/react/reports/react-candidates-pending.md:36. Source form: Shorthand.
+  Source: reports/react-candidates-pending.md:36. Source form: Shorthand.
 
   Reference: MDN: Object initializer: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Object_initializer
   Pronunciation source: Collins Dictionary — shorthand; shorthand in American English. https://www.collinsdictionary.com/dictionary/english/shorthand (accent: US; accessed 2026-11-18).

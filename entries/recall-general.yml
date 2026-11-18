@@ -9,7 +9,7 @@ notes: |-
   游戏能力名 Recall 对应倒转乾坤，令物体沿其先前的运动轨迹逆向运动。这是能力名的特殊用法，不是一般动词 recall 的字面定义。
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
-  Source: /Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md:82. Source form: Recall.
+  Source: Prompt/20261104-lexforge.md:82. Source form: Recall.
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_ReverseRecorder_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — recall; recall in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/recall (accent: US; accessed 2026-11-18).
 learning_priority: 2

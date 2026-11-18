@@ -8,7 +8,7 @@ example: "Review the patch before merging it."
 notes: |-
   此处采用技术审查语境。review feedback 指审查意见。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/AGENTS.md:25. Source form: review.
+  Source: PR/AGENTS.md:25. Source form: review.
   Pronunciation source: Collins Dictionary — review; review in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/review (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: review-workflow.mp3

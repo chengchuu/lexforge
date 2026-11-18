@@ -8,7 +8,7 @@ example: "Keep generated files out of the repository."
 notes: |-
   这里指版本控制仓库，不是软件包下载源。
 
-  Source: /Users/mazey/Web/web/server/docs/PR/AGENTS.md:23. Source form: repository.
+  Source: PR/AGENTS.md:23. Source form: repository.
   Pronunciation source: Collins Dictionary — repository; repository in American English. https://www.collinsdictionary.com/dictionary/english/repository (accent: US; accessed 2026-11-18).
 learning_priority: 1
 audio: repository-git.mp3
