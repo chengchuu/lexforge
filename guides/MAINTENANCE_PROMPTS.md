@@ -2,9 +2,8 @@
 
 Start your coding agent in the repository root and copy the prompt for the task you intend to run. Replace its placeholders before submitting it. Collection and enrichment prompts produce plans and wait for explicit implementation approval.
 
-## Contents
+**Contents**
 
-- [Contents](#contents)
 - [Add vocabulary](#add-vocabulary)
 - [Collect vocabulary from sources](#collect-vocabulary-from-sources)
 - [Generate missing pronunciation audio](#generate-missing-pronunciation-audio)
