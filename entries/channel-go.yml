@@ -12,6 +12,7 @@ notes: |-
 learning_priority: 2
 prerequisites:
   - goroutine-go
+audio: channel-go.mp3
 tags:
   - tech
   - programming

@@ -10,6 +10,7 @@ learning_priority: 2
 prerequisites:
   - component-react
   - key-react
+audio: component-identity-react.mp3
 tags:
   - tech
   - frontend

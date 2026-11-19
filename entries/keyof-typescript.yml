@@ -10,6 +10,7 @@ learning_priority: 3
 prerequisites:
   - property-tech
   - union-tech
+audio: keyof-typescript.mp3
 tags:
   - tech
   - programming

@@ -14,6 +14,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - list-rendering-react
+audio: key-react.mp3
 tags:
   - tech
   - frontend

@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - type-inference-typescript
+audio: typeof-type-operator-typescript.mp3
 tags:
   - tech
   - programming

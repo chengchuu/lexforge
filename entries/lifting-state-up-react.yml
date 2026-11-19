@@ -10,6 +10,7 @@ learning_priority: 2
 prerequisites:
   - state-react
   - props-react
+audio: lifting-state-up-react.mp3
 tags:
   - tech
   - frontend

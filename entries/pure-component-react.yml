@@ -12,6 +12,7 @@ learning_priority: 2
 prerequisites:
   - render-react
   - props-react
+audio: pure-component-react.mp3
 tags:
   - tech
   - frontend

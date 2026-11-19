@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 2
 prerequisites:
   - narrowing-typescript
+audio: type-guard-typescript.mp3
 tags:
   - tech
   - programming

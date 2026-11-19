@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - selector-css
+audio: class-selector-css.mp3
 tags:
   - tech
   - frontend

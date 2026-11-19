@@ -12,6 +12,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - element-html
+audio: heading-html.mp3
 tags:
   - tech
   - frontend

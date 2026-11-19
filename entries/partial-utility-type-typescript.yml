@@ -10,6 +10,7 @@ learning_priority: 3
 prerequisites:
   - utility-type-typescript
   - optional-property-typescript
+audio: partial-utility-type-typescript.mp3
 tags:
   - tech
   - programming

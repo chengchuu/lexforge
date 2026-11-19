@@ -12,6 +12,7 @@ notes: |-
 learning_priority: 2
 prerequisites:
   - layout-browser-rendering
+audio: gap-css.mp3
 tags:
   - tech
   - frontend

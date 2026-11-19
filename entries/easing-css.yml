@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - transition-css
+audio: easing-css.mp3
 tags:
   - tech
   - frontend

@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - property-tech
+audio: indexed-access-type-typescript.mp3
 tags:
   - tech
   - programming

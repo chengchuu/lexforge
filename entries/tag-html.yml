@@ -15,6 +15,7 @@ learning_priority: 1
 prerequisites:
   - markup-html
   - element-html
+audio: tag-html.mp3
 tags:
   - tech
   - frontend

@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 2
 prerequisites:
   - media-query-css
+audio: reduced-motion-css.mp3
 tags:
   - tech
   - frontend

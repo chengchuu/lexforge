@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - function-tech
+audio: argument-tech.mp3
 tags:
   - tech
   - programming

@@ -10,6 +10,7 @@ learning_priority: 2
 prerequisites:
   - required-field-html
   - input-type-html
+audio: constraint-validation-html.mp3
 tags:
   - tech
   - frontend

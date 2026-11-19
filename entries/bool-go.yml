@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - type-tech
+audio: bool-go.mp3
 tags:
   - tech
   - programming

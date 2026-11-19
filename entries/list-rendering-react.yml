@@ -10,6 +10,7 @@ learning_priority: 1
 prerequisites:
   - jsx-react
   - render-react
+audio: list-rendering-react.mp3
 tags:
   - tech
   - frontend

@@ -12,6 +12,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - int-go
+audio: byte-go.mp3
 tags:
   - tech
   - programming

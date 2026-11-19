@@ -12,6 +12,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - react-library
+audio: component-react.mp3
 tags:
   - tech
   - frontend

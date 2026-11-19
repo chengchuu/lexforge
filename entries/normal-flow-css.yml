@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - layout-browser-rendering
+audio: normal-flow-css.mp3
 tags:
   - tech
   - frontend

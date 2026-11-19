@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - property-css
+audio: property-value-css.mp3
 tags:
   - tech
   - frontend

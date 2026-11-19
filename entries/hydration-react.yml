@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - server-rendering-react
+audio: hydration-react.mp3
 tags:
   - tech
   - frontend

@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - array-tech
+audio: tuple-typescript.mp3
 tags:
   - tech
   - programming

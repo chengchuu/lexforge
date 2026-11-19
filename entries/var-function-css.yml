@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 2
 prerequisites:
   - custom-property-css
+audio: var-function-css.mp3
 tags:
   - tech
   - frontend

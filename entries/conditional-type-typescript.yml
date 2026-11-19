@@ -10,6 +10,7 @@ learning_priority: 3
 prerequisites:
   - assignability-typescript
   - generic-typescript
+audio: conditional-type-typescript.mp3
 tags:
   - tech
   - programming

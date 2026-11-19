@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - generic-typescript
+audio: utility-type-typescript.mp3
 tags:
   - tech
   - programming

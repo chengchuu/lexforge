@@ -10,6 +10,7 @@ learning_priority: 2
 prerequisites:
   - component-react
   - render-react
+audio: error-boundary-react.mp3
 tags:
   - tech
   - frontend

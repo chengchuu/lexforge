@@ -10,6 +10,7 @@ learning_priority: 2
 prerequisites:
   - parameter-tech
   - array-tech
+audio: rest-parameter-typescript.mp3
 tags:
   - tech
   - programming

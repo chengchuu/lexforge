@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - responsive-design-css
+audio: container-query-css.mp3
 tags:
   - tech
   - frontend

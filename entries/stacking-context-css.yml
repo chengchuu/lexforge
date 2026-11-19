@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - layout-browser-rendering
+audio: stacking-context-css.mp3
 tags:
   - tech
   - frontend

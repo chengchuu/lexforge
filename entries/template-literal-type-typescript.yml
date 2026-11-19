@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - literal-type-typescript
+audio: template-literal-type-typescript.mp3
 tags:
   - tech
   - programming

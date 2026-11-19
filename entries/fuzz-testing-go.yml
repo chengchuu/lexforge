@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - test-tech
+audio: fuzz-testing-go.mp3
 tags:
   - tech
   - programming

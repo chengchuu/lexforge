@@ -10,6 +10,7 @@ learning_priority: 1
 prerequisites:
   - property-css
   - property-value-css
+audio: declaration-css.mp3
 tags:
   - tech
   - frontend

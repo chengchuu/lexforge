@@ -12,6 +12,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - grid-system-bootstrap
+audio: row-bootstrap.mp3
 tags:
   - tech
   - frontend

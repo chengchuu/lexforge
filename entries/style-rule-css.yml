@@ -10,6 +10,7 @@ learning_priority: 1
 prerequisites:
   - selector-css
   - declaration-css
+audio: style-rule-css.mp3
 tags:
   - tech
   - frontend

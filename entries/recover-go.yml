@@ -15,6 +15,7 @@ learning_priority: 3
 prerequisites:
   - panic-go
   - defer-go
+audio: recover-go.mp3
 tags:
   - tech
   - programming

@@ -10,6 +10,7 @@ learning_priority: 3
 prerequisites:
   - utility-type-typescript
   - keyof-typescript
+audio: pick-utility-type-typescript.mp3
 tags:
   - tech
   - programming

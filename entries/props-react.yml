@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - component-react
+audio: props-react.mp3
 tags:
   - tech
   - frontend

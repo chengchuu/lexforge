@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - stacking-context-css
+audio: z-index-css.mp3
 tags:
   - tech
   - frontend

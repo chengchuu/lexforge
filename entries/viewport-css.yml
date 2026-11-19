@@ -7,6 +7,7 @@ example: "The viewport gets narrower when the window is resized."
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 learning_priority: 1
+audio: viewport-css.mp3
 tags:
   - tech
   - frontend

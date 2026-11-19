@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - row-bootstrap
+audio: column-bootstrap.mp3
 tags:
   - tech
   - frontend

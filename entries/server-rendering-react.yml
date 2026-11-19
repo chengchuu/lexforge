@@ -9,6 +9,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - render-react
+audio: server-rendering-react.mp3
 tags:
   - tech
   - frontend

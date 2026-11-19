@@ -12,6 +12,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - type-tech
+audio: pointer-go.mp3
 tags:
   - tech
   - programming

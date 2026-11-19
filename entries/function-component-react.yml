@@ -10,6 +10,7 @@ learning_priority: 1
 prerequisites:
   - component-react
   - function-tech
+audio: function-component-react.mp3
 tags:
   - tech
   - frontend

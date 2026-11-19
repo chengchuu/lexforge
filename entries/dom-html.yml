@@ -14,6 +14,7 @@ learning_priority: 1
 prerequisites:
   - document-html
   - element-html
+audio: dom-html.mp3
 tags:
   - tech
   - frontend

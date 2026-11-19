@@ -10,6 +10,7 @@ learning_priority: 2
 prerequisites:
   - channel-go
   - capacity-go
+audio: buffered-channel-go.mp3
 tags:
   - tech
   - programming
