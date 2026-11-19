@@ -1,0 +1,19 @@
+id: effect-cleanup-react
+language: en
+word: "Effect cleanup"
+part_of_speech: noun phrase
+meaning: "Effect 清理，停止旧同步或释放其资源的过程"
+example: "Effect cleanup disconnects from the previous chat room."
+notes: |-
+  useEffect 的 setup 可以返回清理函数。React 会在重新运行该 Effect 前及卸载时调用相应的清理函数。
+
+  Source: React docs — Lifecycle of Reactive Effects. https://react.dev/learn/lifecycle-of-reactive-effects
+learning_priority: 2
+prerequisites:
+  - effect-react
+  - cleanup-tech
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

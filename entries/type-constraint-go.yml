@@ -1,0 +1,16 @@
+id: type-constraint-go
+language: en
+word: "type constraint"
+part_of_speech: noun phrase
+meaning: "类型约束，限定类型形参可以接受的类型实参"
+example: "The type constraint limits which arguments can instantiate the generic function."
+notes: |-
+  Source: Go specification — Type parameter declarations. https://go.dev/ref/spec#Type_parameter_declarations
+learning_priority: 2
+prerequisites:
+  - type-parameter-typescript
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

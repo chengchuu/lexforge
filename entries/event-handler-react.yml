@@ -1,0 +1,16 @@
+id: event-handler-react
+language: en
+word: "event handler"
+part_of_speech: noun phrase
+meaning: "事件处理函数，在相应事件发生时运行的函数"
+example: "The event handler runs when the user clicks the button."
+notes: |-
+  Source: React docs — Quick Start. https://react.dev/learn
+learning_priority: 1
+prerequisites:
+  - function-tech
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

@@ -1,0 +1,16 @@
+id: data-race-go
+language: en
+word: "data race"
+part_of_speech: noun phrase
+meaning: "数据竞争，针对同一内存位置发生未正确同步且至少有一次写入的并发访问"
+example: "The unsynchronized writes caused a data race."
+notes: |-
+  Source: The Go Memory Model. https://go.dev/ref/mem
+learning_priority: 2
+prerequisites:
+  - goroutine-go
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

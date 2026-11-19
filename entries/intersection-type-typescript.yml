@@ -1,0 +1,16 @@
+id: intersection-type-typescript
+language: en
+word: "intersection type"
+part_of_speech: noun phrase
+meaning: "交叉类型，要求值同时满足各组成类型"
+example: "The intersection type requires fields from both inputs."
+notes: |-
+  Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
+learning_priority: 2
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

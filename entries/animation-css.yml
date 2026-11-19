@@ -1,0 +1,19 @@
+id: animation-css
+language: en
+word: "animation"
+pronunciation: "/ˌæn.əˈmeɪ.ʃən/"
+part_of_speech: noun
+meaning: "动画，按关键帧和时间设置改变样式的效果"
+example: "The animation fades the indicator in."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+  Pronunciation source: Cambridge Dictionary — animation (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/animation
+learning_priority: 2
+prerequisites:
+  - property-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

@@ -1,0 +1,16 @@
+id: server-rendering-react
+language: en
+word: "server rendering"
+part_of_speech: noun phrase
+meaning: "服务端渲染，在服务器上将组件输出生成为 HTML"
+example: "Server rendering sends the initial HTML to the browser."
+notes: |-
+  Source: React docs — Server React DOM APIs. https://react.dev/reference/react-dom/server
+learning_priority: 3
+prerequisites:
+  - render-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

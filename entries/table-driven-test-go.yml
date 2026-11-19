@@ -1,0 +1,17 @@
+id: table-driven-test-go
+language: en
+word: "table-driven test"
+part_of_speech: noun phrase
+meaning: "表驱动测试，用一组数据描述并运行多个测试用例"
+example: "Add a row to the table-driven test for the empty input."
+notes: |-
+  Source: Go Wiki — TableDrivenTests. https://go.dev/wiki/TableDrivenTests
+learning_priority: 2
+prerequisites:
+  - test-tech
+tags:
+  - tech
+  - programming
+  - go
+  - phrase
+  - testing

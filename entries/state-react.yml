@@ -1,0 +1,19 @@
+id: state-react
+language: en
+word: "state"
+pronunciation: "/steɪt/"
+part_of_speech: noun
+meaning: "状态，React 为组件保留并用于计算界面的数据"
+example: "The selected tab is stored in state."
+notes: |-
+  Source: React docs — Managing State. https://react.dev/learn/managing-state
+
+  Pronunciation source: Cambridge Dictionary — state (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/pronunciation/english/state
+learning_priority: 1
+prerequisites:
+  - component-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

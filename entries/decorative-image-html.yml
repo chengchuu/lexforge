@@ -1,0 +1,18 @@
+id: decorative-image-html
+language: en
+word: "decorative image"
+part_of_speech: noun phrase
+meaning: "装饰性图像，只起装饰作用且不提供额外信息的图像"
+example: "Give the decorative image an empty alt attribute."
+notes: |-
+  对于纯装饰的 img，使用 alt=""，让辅助技术能够跳过图像。
+
+  Source: W3C WAI — Images Tutorial. https://www.w3.org/WAI/tutorials/images/
+learning_priority: 2
+prerequisites:
+  - alternative-text-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

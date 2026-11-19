@@ -1,0 +1,16 @@
+id: breadcrumb-bootstrap
+language: en
+word: "breadcrumb"
+part_of_speech: noun
+meaning: "面包屑导航，显示当前页面所在层级路径的导航组件"
+example: "The breadcrumb links back to the parent category."
+notes: |-
+  Source: Bootstrap 5.3 documentation — breadcrumb. https://getbootstrap.com/docs/5.3/components/breadcrumb/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

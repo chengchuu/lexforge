@@ -1,0 +1,16 @@
+id: tuple-typescript
+language: en
+word: "tuple"
+part_of_speech: noun
+meaning: "元组，按位置定义元素类型的数组类型"
+example: "This tuple stores a name followed by a count."
+notes: |-
+  Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
+learning_priority: 1
+prerequisites:
+  - array-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

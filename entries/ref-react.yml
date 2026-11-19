@@ -1,0 +1,18 @@
+id: ref-react
+language: en
+word: "ref"
+part_of_speech: noun
+meaning: "引用，可保存 DOM 节点或跨渲染保留可变值的机制"
+example: "Use a ref to focus the text input."
+notes: |-
+  useRef 返回的对象可通过 current 保存值。修改 current 本身不会触发重新渲染。
+
+  Source: React docs — Escape Hatches. https://react.dev/learn/escape-hatches
+learning_priority: 2
+prerequisites:
+  - hook-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

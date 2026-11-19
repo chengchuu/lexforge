@@ -1,0 +1,16 @@
+id: type-guard-typescript
+language: en
+word: "type guard"
+part_of_speech: noun phrase
+meaning: "类型守卫，用于帮助收窄类型的检查"
+example: "The typeof check acts as a type guard."
+notes: |-
+  Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+learning_priority: 2
+prerequisites:
+  - narrowing-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

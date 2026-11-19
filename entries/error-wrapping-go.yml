@@ -1,0 +1,16 @@
+id: error-wrapping-go
+language: en
+word: "error wrapping"
+part_of_speech: noun phrase
+meaning: "错误包装，添加上下文并保留原错误供后续检查"
+example: "Error wrapping preserves the original error for errors.Is."
+notes: |-
+  Source: Working with Errors in Go 1.13. https://go.dev/blog/go1.13-errors
+learning_priority: 2
+prerequisites:
+  - error-go
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

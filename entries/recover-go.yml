@@ -1,0 +1,21 @@
+id: recover-go
+language: en
+word: "recover"
+pronunciation: "/rɪˈkʌv.ɚ/"
+part_of_speech: predeclared identifier
+meaning: "在延迟调用的函数中直接使用时可接管同一 goroutine 的 panic"
+example: "Call recover directly in the deferred function."
+notes: |-
+  recover 必须由正在延迟执行的函数直接调用，并且仅处理同一 goroutine 中的 panic。
+
+  Source: Go specification — Handling panics. https://go.dev/ref/spec#Handling_panics
+
+  Pronunciation source: Cambridge Dictionary — recover (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/recover
+learning_priority: 3
+prerequisites:
+  - panic-go
+  - defer-go
+tags:
+  - tech
+  - programming
+  - go

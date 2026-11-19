@@ -1,0 +1,14 @@
+id: bootstrap-framework
+language: en
+word: "Bootstrap"
+part_of_speech: noun
+meaning: "Bootstrap，提供响应式布局、工具类和界面组件的前端框架"
+example: "Bootstrap provides styles for the page layout and controls."
+notes: |-
+  Source: Bootstrap 5.3 documentation — introduction. https://getbootstrap.com/docs/5.3/getting-started/introduction/
+learning_priority: 1
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

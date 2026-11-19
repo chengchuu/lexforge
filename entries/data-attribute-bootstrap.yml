@@ -1,0 +1,19 @@
+id: data-attribute-bootstrap
+language: en
+word: "data attribute"
+part_of_speech: noun phrase
+meaning: "数据属性，以 data- 开头并可供脚本读取的 HTML 属性"
+example: "Use a data attribute to configure the component."
+notes: |-
+  Source: WHATWG HTML — Custom data attributes. https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes
+
+  Source: Bootstrap 5.3 documentation — javascript. https://getbootstrap.com/docs/5.3/getting-started/javascript/
+learning_priority: 2
+prerequisites:
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase
+  - html

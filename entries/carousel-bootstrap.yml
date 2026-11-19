@@ -1,0 +1,19 @@
+id: carousel-bootstrap
+language: en
+word: "carousel"
+pronunciation: "/ˌker.əˈsel/"
+part_of_speech: noun
+meaning: "轮播，用于在一组幻灯片间切换的组件"
+example: "The carousel shows one featured image at a time."
+notes: |-
+  Source: Bootstrap 5.3 documentation — carousel. https://getbootstrap.com/docs/5.3/components/carousel/
+
+  Pronunciation source: Cambridge Dictionary — carousel (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/carousel
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

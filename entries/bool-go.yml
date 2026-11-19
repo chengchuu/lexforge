@@ -1,0 +1,17 @@
+id: bool-go
+language: en
+word: "bool"
+part_of_speech: predeclared identifier
+meaning: "布尔类型，取值为 true 或 false"
+example: "The ready flag has type bool."
+notes: |-
+  Go 使用 bool 作为预声明的类型名。需要表达没有返回值的函数时，省略返回结果列表。
+
+  Source: Go specification — Types. https://go.dev/ref/spec#Types
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - go

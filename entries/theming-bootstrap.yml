@@ -1,0 +1,16 @@
+id: theming-bootstrap
+language: en
+word: "theming"
+part_of_speech: noun
+meaning: "主题定制，通过颜色、字体等设置统一调整界面外观"
+example: "Use theming to match the application's brand colors."
+notes: |-
+  Source: Bootstrap 5.3 documentation — css variables. https://getbootstrap.com/docs/5.3/customize/css-variables/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

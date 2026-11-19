@@ -1,0 +1,16 @@
+id: fluid-container-bootstrap
+language: en
+word: "fluid container"
+part_of_speech: noun phrase
+meaning: "流式容器，在各断点都采用百分之百宽度的 Bootstrap 容器"
+example: "Use .container-fluid for a fluid container."
+notes: |-
+  Source: Bootstrap 5.3 documentation — containers. https://getbootstrap.com/docs/5.3/layout/containers/
+learning_priority: 2
+prerequisites:
+  - container-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

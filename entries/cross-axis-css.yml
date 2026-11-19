@@ -1,0 +1,16 @@
+id: cross-axis-css
+language: en
+word: "cross axis"
+part_of_speech: noun phrase
+meaning: "交叉轴，与弹性容器主轴垂直的轴"
+example: "Align the items along the cross axis."
+notes: |-
+  Source: W3C — CSS Flexible Box Layout Module Level 1. https://www.w3.org/TR/css-flexbox-1/
+learning_priority: 2
+prerequisites:
+  - main-axis-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

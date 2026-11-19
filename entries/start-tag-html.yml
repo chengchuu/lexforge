@@ -1,0 +1,16 @@
+id: start-tag-html
+language: en
+word: "start tag"
+part_of_speech: noun phrase
+meaning: "开始标签，标记元素开始并可包含属性"
+example: "The start tag contains an id attribute."
+notes: |-
+  Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
+learning_priority: 1
+prerequisites:
+  - tag-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

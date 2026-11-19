@@ -1,0 +1,18 @@
+id: popover-bootstrap
+language: en
+word: "popover"
+part_of_speech: noun
+meaning: "弹出提示，与触发元素关联且可包含标题和正文的浮层"
+example: "The popover shows extra details about the setting."
+notes: |-
+  与 tooltip 相比，popover 支持标题和更丰富的正文。
+
+  Source: Bootstrap 5.3 documentation — popovers. https://getbootstrap.com/docs/5.3/components/popovers/
+learning_priority: 2
+prerequisites:
+  - tooltip-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

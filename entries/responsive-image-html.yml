@@ -1,0 +1,18 @@
+id: responsive-image-html
+language: en
+word: "responsive image"
+part_of_speech: noun phrase
+meaning: "响应式图像，浏览器可根据显示条件选择合适资源的图像"
+example: "A responsive image can use a smaller file on a narrow screen."
+notes: |-
+  常用 srcset 提供候选图片。使用宽度描述符时，可用 sizes 描述图片预计占据的布局宽度。
+
+  Source: WHATWG HTML — Embedded content. https://html.spec.whatwg.org/multipage/embedded-content.html
+learning_priority: 2
+prerequisites:
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

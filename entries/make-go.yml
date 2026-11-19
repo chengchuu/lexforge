@@ -1,0 +1,21 @@
+id: make-go
+language: en
+word: "make"
+pronunciation: "/meɪk/"
+part_of_speech: predeclared identifier
+meaning: "用于创建切片、映射和通道的内置函数，返回初始化后的值"
+example: "Use make to create an empty map before inserting keys."
+notes: |-
+  make 返回切片、映射或通道本身。new 返回指针。
+
+  Source: Go specification — Built-in functions. https://go.dev/ref/spec#Built-in_functions
+
+  Pronunciation source: Cambridge Dictionary — make (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/make
+learning_priority: 2
+prerequisites:
+  - slice-go
+  - map-go
+tags:
+  - tech
+  - programming
+  - go

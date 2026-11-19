@@ -1,0 +1,17 @@
+id: style-rule-css
+language: en
+word: "style rule"
+part_of_speech: noun phrase
+meaning: "样式规则，由选择器和声明块组成"
+example: "This style rule applies to all buttons in the toolbar."
+notes: |-
+  Source: MDN — CSS styling basics. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
+learning_priority: 1
+prerequisites:
+  - selector-css
+  - declaration-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

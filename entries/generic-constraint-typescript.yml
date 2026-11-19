@@ -1,0 +1,16 @@
+id: generic-constraint-typescript
+language: en
+word: "generic constraint"
+part_of_speech: noun phrase
+meaning: "泛型约束，限制类型参数可接受的类型"
+example: "The generic constraint requires a length property."
+notes: |-
+  Source: TypeScript Handbook — Generics. https://www.typescriptlang.org/docs/handbook/2/generics.html
+learning_priority: 2
+prerequisites:
+  - type-parameter-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

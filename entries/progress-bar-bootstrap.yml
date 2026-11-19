@@ -1,0 +1,16 @@
+id: progress-bar-bootstrap
+language: en
+word: "progress bar"
+part_of_speech: noun phrase
+meaning: "进度条，用条形图表示任务完成进度的组件"
+example: "Update the progress bar as the upload advances."
+notes: |-
+  Source: Bootstrap 5.3 documentation — progress. https://getbootstrap.com/docs/5.3/components/progress/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

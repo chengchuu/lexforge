@@ -1,0 +1,17 @@
+id: error-boundary-react
+language: en
+word: "error boundary"
+part_of_speech: noun phrase
+meaning: "错误边界，捕获下层组件的部分错误并显示后备界面的组件"
+example: "An error boundary displays a recovery message if its child fails to render."
+notes: |-
+  Source: React docs — Component — Catching rendering errors with an error boundary. https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary
+learning_priority: 2
+prerequisites:
+  - component-react
+  - render-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

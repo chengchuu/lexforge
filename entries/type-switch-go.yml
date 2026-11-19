@@ -1,0 +1,16 @@
+id: type-switch-go
+language: en
+word: "type switch"
+part_of_speech: noun phrase
+meaning: "类型选择，根据接口值的动态类型选择分支"
+example: "The type switch handles strings and integers separately."
+notes: |-
+  Source: Go specification — Type switches. https://go.dev/ref/spec#Type_switches
+learning_priority: 2
+prerequisites:
+  - interface-go
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

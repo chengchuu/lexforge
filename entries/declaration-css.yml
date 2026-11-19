@@ -1,0 +1,17 @@
+id: declaration-css
+language: en
+word: "declaration"
+part_of_speech: noun
+meaning: "声明，给某个 CSS 属性指定一个值"
+example: "The declaration sets the text color to blue."
+notes: |-
+  Source: MDN — CSS styling basics. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
+learning_priority: 1
+prerequisites:
+  - property-css
+  - property-value-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

@@ -1,0 +1,16 @@
+id: global-attribute-html
+language: en
+word: "global attribute"
+part_of_speech: noun phrase
+meaning: "全局属性，可用于所有 HTML 元素的属性"
+example: "The lang global attribute declares the language of the content."
+notes: |-
+  Source: WHATWG HTML — Global attributes. https://html.spec.whatwg.org/multipage/dom.html#global-attributes
+learning_priority: 2
+prerequisites:
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

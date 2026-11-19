@@ -1,0 +1,18 @@
+id: panic-go
+language: en
+word: "panic"
+pronunciation: "/ˈpæn.ɪk/"
+part_of_speech: predeclared identifier
+meaning: "触发 panic，停止当前正常执行并开始展开调用栈"
+example: "A panic still runs deferred calls as the stack unwinds."
+notes: |-
+  Source: Go specification — Handling panics. https://go.dev/ref/spec#Handling_panics
+
+  Pronunciation source: Cambridge Dictionary — panic (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/panic
+learning_priority: 2
+prerequisites:
+  - function-tech
+tags:
+  - tech
+  - programming
+  - go

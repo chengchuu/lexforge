@@ -1,0 +1,19 @@
+id: badge-bootstrap
+language: en
+word: "badge"
+pronunciation: "/bædʒ/"
+part_of_speech: noun
+meaning: "徽标，用于显示简短标签或计数的小型组件"
+example: "The badge shows the number of unread messages."
+notes: |-
+  Source: Bootstrap 5.3 documentation — badge. https://getbootstrap.com/docs/5.3/components/badge/
+
+  Pronunciation source: Cambridge Dictionary — badge (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/badge
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

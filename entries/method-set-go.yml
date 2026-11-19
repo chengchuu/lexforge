@@ -1,0 +1,16 @@
+id: method-set-go
+language: en
+word: "method set"
+part_of_speech: noun phrase
+meaning: "方法集，由类型及相关规则决定的方法集合"
+example: "The method set of a pointer can include methods with pointer receivers."
+notes: |-
+  Source: Go specification — Method sets. https://go.dev/ref/spec#Method_sets
+learning_priority: 2
+prerequisites:
+  - receiver-go
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

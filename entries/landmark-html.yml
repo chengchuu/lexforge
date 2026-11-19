@@ -1,0 +1,21 @@
+id: landmark-html
+language: en
+word: "landmark"
+pronunciation: "/ˈlænd.mɑːrk/"
+part_of_speech: noun
+meaning: "地标区域，可供辅助技术识别和导航的页面区域"
+example: "The main landmark identifies the page's primary content."
+notes: |-
+  例如 main 通常标识主要内容区域，nav 通常标识导航区域。
+
+  Source: W3C WAI — Page Structure Tutorial. https://www.w3.org/WAI/tutorials/page-structure/
+
+  Pronunciation source: Cambridge Dictionary — landmark (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/landmark
+learning_priority: 2
+prerequisites:
+  - semantic-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

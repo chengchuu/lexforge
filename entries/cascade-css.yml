@@ -1,0 +1,19 @@
+id: cascade-css
+language: en
+word: "cascade"
+pronunciation: "/kæsˈkeɪd/"
+part_of_speech: noun
+meaning: "层叠，对适用声明排序并确定获胜声明的机制"
+example: "The cascade determines which color declaration wins."
+notes: |-
+  Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
+
+  Pronunciation source: Cambridge Dictionary — cascade (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/cascade
+learning_priority: 1
+prerequisites:
+  - declaration-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

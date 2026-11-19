@@ -1,0 +1,16 @@
+id: list-item-html
+language: en
+word: "list item"
+part_of_speech: noun phrase
+meaning: "列表项，列表中的单个条目"
+example: "Each result appears as a list item."
+notes: |-
+  Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+learning_priority: 1
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

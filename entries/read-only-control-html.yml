@@ -1,0 +1,19 @@
+id: read-only-control-html
+language: en
+word: "read-only control"
+part_of_speech: noun phrase
+meaning: "只读控件，用户不能修改其值，但仍可随表单提交"
+example: "The read-only control displays the account ID and submits it with the form."
+notes: |-
+  readonly 适用于 textarea 及某些 input 类型。只读控件一般可聚焦，符合其他提交条件时仍进入表单数据。
+
+  Source: WHATWG HTML — The input element. https://html.spec.whatwg.org/multipage/input.html
+learning_priority: 2
+prerequisites:
+  - form-control-bootstrap
+  - disabled-control-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

@@ -1,0 +1,16 @@
+id: fallback-ui-react
+language: en
+word: "fallback UI"
+part_of_speech: noun phrase
+meaning: "后备界面，内容暂不可用时显示的替代内容"
+example: "The fallback UI shows a loading indicator while the content is pending."
+notes: |-
+  Source: React docs — Suspense. https://react.dev/reference/react/Suspense
+learning_priority: 2
+prerequisites:
+  - conditional-rendering-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

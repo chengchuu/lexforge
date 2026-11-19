@@ -1,0 +1,15 @@
+id: struct-go
+language: en
+word: "struct"
+part_of_speech: keyword
+meaning: "结构体，将具名字段组合为一个类型"
+example: "A struct holds the host and port."
+notes: |-
+  Source: Go specification — Types. https://go.dev/ref/spec#Types
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - go

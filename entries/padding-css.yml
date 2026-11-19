@@ -1,0 +1,20 @@
+id: padding-css
+language: en
+word: "padding"
+pronunciation: "/ˈpæd.ɪŋ/"
+part_of_speech: noun
+meaning: "内边距，内容与边框之间的空间"
+example: "Add padding to give the text more room inside the button."
+notes: |-
+  Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
+
+  Pronunciation source: Cambridge Dictionary — padding (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/padding
+learning_priority: 1
+prerequisites:
+  - box-model-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun
+  - bootstrap

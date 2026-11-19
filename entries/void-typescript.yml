@@ -1,0 +1,20 @@
+id: void-typescript
+language: en
+word: "void"
+pronunciation: "/vɔɪd/"
+part_of_speech: keyword
+meaning: "表示没有可用返回值的类型"
+example: "The callback has a void return type."
+notes: |-
+  回调类型 () => void 表示调用方忽略返回值，因此可以赋值给它一个返回具体值的函数。函数定义本身若显式标注 : void，则不能返回 true 等具体结果。undefined 是一个具体值，never 表示没有可能的值。
+
+  Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
+
+  Pronunciation source: Cambridge Dictionary — void (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/void
+learning_priority: 1
+prerequisites:
+  - function-tech
+tags:
+  - tech
+  - programming
+  - typescript

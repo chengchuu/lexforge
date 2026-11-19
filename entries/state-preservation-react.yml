@@ -1,0 +1,17 @@
+id: state-preservation-react
+language: en
+word: "state preservation"
+part_of_speech: noun phrase
+meaning: "状态保留，React 在后续渲染中继续使用同一组件身份对应的状态"
+example: "State preservation keeps the input value when the component renders again."
+notes: |-
+  Source: React docs — Preserving and Resetting State. https://react.dev/learn/preserving-and-resetting-state
+learning_priority: 2
+prerequisites:
+  - component-identity-react
+  - state-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

@@ -1,0 +1,19 @@
+id: form-control-bootstrap
+language: en
+word: "form control"
+part_of_speech: noun phrase
+meaning: "表单控件，用于接收或展示用户输入的表单元素"
+example: "Apply the form-control class to the text input."
+notes: |-
+  Source: WHATWG HTML — Forms. https://html.spec.whatwg.org/multipage/forms.html
+
+  Source: Bootstrap 5.3 documentation — form control. https://getbootstrap.com/docs/5.3/forms/form-control/
+learning_priority: 2
+prerequisites:
+  - form-html
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase
+  - html

@@ -1,0 +1,16 @@
+id: deadlock-go
+language: en
+word: "deadlock"
+part_of_speech: noun
+meaning: "死锁，相关执行单元一直等待而无法继续"
+example: "Two workers taking locks in opposite orders can cause a deadlock."
+notes: |-
+  Source: The Go Memory Model. https://go.dev/ref/mem
+learning_priority: 3
+prerequisites:
+  - goroutine-go
+tags:
+  - tech
+  - programming
+  - go
+  - noun

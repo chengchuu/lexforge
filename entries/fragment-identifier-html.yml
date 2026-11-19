@@ -1,0 +1,16 @@
+id: fragment-identifier-html
+language: en
+word: "fragment identifier"
+part_of_speech: noun phrase
+meaning: "片段标识符，URL 中井号后的部分，用于标识资源内的某个位置或片段"
+example: "The fragment identifier points to the troubleshooting section."
+notes: |-
+  Source: WHATWG HTML — Links. https://html.spec.whatwg.org/multipage/links.html
+learning_priority: 2
+prerequisites:
+  - hyperlink-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

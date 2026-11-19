@@ -1,0 +1,17 @@
+id: comparable-go
+language: en
+word: "comparable"
+part_of_speech: predeclared identifier
+meaning: "预声明约束，表示类型实参必须满足 Go 的可比较性要求"
+example: "The comparable constraint lets the generic function compare its inputs with ==."
+notes: |-
+  比较接口值时还要考虑其动态值。满足 comparable 约束并不保证对所有可能的动态值进行比较都不会引发 panic。
+
+  Source: Go specification — Interface types. https://go.dev/ref/spec#Interface_types
+learning_priority: 3
+prerequisites:
+  - type-constraint-go
+tags:
+  - tech
+  - programming
+  - go

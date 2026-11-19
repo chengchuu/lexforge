@@ -14,8 +14,12 @@ mnemonic: "parameter 在定义里，argument 在使用时传入；type argument 
 related_entries:
   - type-argument-tech
 learning_priority: 1
+prerequisites:
+  - function-tech
 audio: parameter-tech.mp3
 tags:
   - tech
   - programming
   - noun
+  - typescript
+  - go

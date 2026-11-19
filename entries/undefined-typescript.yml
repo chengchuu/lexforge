@@ -1,0 +1,16 @@
+id: undefined-typescript
+language: en
+word: "undefined"
+pronunciation: "/ˌʌn.dɪˈfaɪnd/"
+part_of_speech: keyword
+meaning: "未定义值及其类型"
+example: "An omitted optional argument can be undefined."
+notes: |-
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+  Pronunciation source: Cambridge Dictionary — undefined (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/undefined
+learning_priority: 1
+tags:
+  - tech
+  - programming
+  - typescript

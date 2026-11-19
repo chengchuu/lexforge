@@ -1,0 +1,20 @@
+id: margin-css
+language: en
+word: "margin"
+pronunciation: "/ˈmɑːr.dʒɪn/"
+part_of_speech: noun
+meaning: "外边距，位于边框外侧的空间"
+example: "Add a margin below the heading."
+notes: |-
+  Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
+
+  Pronunciation source: Cambridge Dictionary — margin (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/margin
+learning_priority: 1
+prerequisites:
+  - box-model-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun
+  - bootstrap

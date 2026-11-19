@@ -1,0 +1,16 @@
+id: grid-area-css
+language: en
+word: "grid area"
+part_of_speech: noun phrase
+meaning: "网格区域，由网格线界定的矩形布局区域"
+example: "The heading spans the grid area above the sidebar."
+notes: |-
+  Source: W3C — CSS Grid Layout Module Level 2. https://www.w3.org/TR/css-grid-2/
+learning_priority: 2
+prerequisites:
+  - grid-container-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

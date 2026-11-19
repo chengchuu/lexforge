@@ -1,0 +1,19 @@
+id: grid-system-bootstrap
+language: en
+word: "grid system"
+part_of_speech: noun phrase
+meaning: "栅格系统，使用 Flexbox 的容器、行和列组织响应式布局"
+example: "Use the grid system to arrange the form beside the summary."
+notes: |-
+  这里指 Bootstrap 5.3 的默认 Flexbox 栅格。CSS Grid 是不同的布局系统。
+
+  Source: Bootstrap 5.3 documentation — grid. https://getbootstrap.com/docs/5.3/layout/grid/
+learning_priority: 1
+prerequisites:
+  - bootstrap-framework
+  - flexbox-css
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

@@ -1,0 +1,16 @@
+id: sass-mixin-bootstrap
+language: en
+word: "Sass mixin"
+part_of_speech: noun phrase
+meaning: "Sass 混入，可以接收参数并复用一组样式规则的结构"
+example: "Use a Sass mixin to generate breakpoint-specific styles."
+notes: |-
+  Source: Bootstrap 5.3 documentation — sass. https://getbootstrap.com/docs/5.3/customize/sass/
+learning_priority: 3
+prerequisites:
+  - sass-variable-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

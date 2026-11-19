@@ -14,6 +14,7 @@ learning_priority: 3
 prerequisites:
   - type-tech
   - property-tech
+  - keyof-typescript
 audio: mapped-type-typescript.mp3
 tags:
   - tech

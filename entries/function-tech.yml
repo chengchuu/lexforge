@@ -1,0 +1,19 @@
+id: function-tech
+language: en
+word: "function"
+pronunciation: "/ˈfʌŋk.ʃən/"
+part_of_speech: noun
+meaning: "函数，可调用并执行计算或操作的代码单元"
+example: "This function doubles its input."
+notes: |-
+  Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
+
+  Pronunciation source: Cambridge Dictionary — function (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/function
+learning_priority: 1
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun
+  - go
+  - react

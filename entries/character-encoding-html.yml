@@ -1,0 +1,16 @@
+id: character-encoding-html
+language: en
+word: "character encoding"
+part_of_speech: noun phrase
+meaning: "字符编码，规定字符如何表示为字节的规则"
+example: "Declare UTF-8 as the character encoding."
+notes: |-
+  Source: WHATWG HTML — The elements of HTML. https://html.spec.whatwg.org/multipage/semantics.html
+learning_priority: 2
+prerequisites:
+  - metadata-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

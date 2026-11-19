@@ -1,0 +1,17 @@
+id: list-rendering-react
+language: en
+word: "list rendering"
+part_of_speech: noun phrase
+meaning: "列表渲染，将一组数据映射为界面元素"
+example: "List rendering turns each search result into a row."
+notes: |-
+  Source: React docs — Quick Start. https://react.dev/learn
+learning_priority: 1
+prerequisites:
+  - jsx-react
+  - render-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

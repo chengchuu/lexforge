@@ -1,0 +1,16 @@
+id: rerender-react
+language: en
+word: "re-render"
+part_of_speech: noun
+meaning: "重新渲染，再次运行组件以计算下一次界面输出"
+example: "Updating the selected item can trigger a re-render."
+notes: |-
+  Source: React docs — Render and Commit. https://react.dev/learn/render-and-commit
+learning_priority: 1
+prerequisites:
+  - render-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

@@ -1,0 +1,16 @@
+id: offcanvas-bootstrap
+language: en
+word: "offcanvas"
+part_of_speech: noun
+meaning: "画布外面板，从视口边缘滑入的面板组件"
+example: "Open the filters in an offcanvas panel."
+notes: |-
+  Source: Bootstrap 5.3 documentation — offcanvas. https://getbootstrap.com/docs/5.3/components/offcanvas/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

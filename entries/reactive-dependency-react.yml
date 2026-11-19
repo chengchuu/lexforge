@@ -1,0 +1,16 @@
+id: reactive-dependency-react
+language: en
+word: "reactive dependency"
+part_of_speech: noun phrase
+meaning: "响应式依赖，Effect 读取且可能随渲染变化的值"
+example: "The room ID is a reactive dependency of the connection Effect."
+notes: |-
+  Source: React docs — Lifecycle of Reactive Effects. https://react.dev/learn/lifecycle-of-reactive-effects
+learning_priority: 2
+prerequisites:
+  - effect-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

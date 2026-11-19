@@ -1,0 +1,17 @@
+id: deadline-go
+language: en
+word: "deadline"
+pronunciation: "/ˈded.laɪn/"
+part_of_speech: noun
+meaning: "截止时间，指定操作最晚应结束的时刻"
+example: "Set a deadline for the request."
+notes: |-
+  Source: Go Concurrency Patterns: Context. https://go.dev/blog/context
+
+  Pronunciation source: Cambridge Dictionary — deadline (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/deadline
+learning_priority: 2
+tags:
+  - tech
+  - programming
+  - go
+  - noun

@@ -1,0 +1,20 @@
+id: form-html
+language: en
+word: "form"
+pronunciation: "/fɔːrm/"
+part_of_speech: noun
+meaning: "表单，用于组织相关控件并提交输入数据的元素"
+example: "The form collects the user's email address."
+notes: |-
+  Source: WHATWG HTML — Forms. https://html.spec.whatwg.org/multipage/forms.html
+
+  Pronunciation source: Cambridge Dictionary — form (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/form
+learning_priority: 1
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun
+  - bootstrap

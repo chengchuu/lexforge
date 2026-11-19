@@ -1,0 +1,16 @@
+id: visually-hidden-bootstrap
+language: en
+word: "visually hidden"
+part_of_speech: adjective phrase
+meaning: "视觉隐藏，使内容在视觉上不可见但仍可被辅助技术读取的方式"
+example: "Add .visually-hidden to the loading status text."
+notes: |-
+  Source: Bootstrap 5.3 documentation — visually hidden. https://getbootstrap.com/docs/5.3/helpers/visually-hidden/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

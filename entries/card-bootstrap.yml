@@ -1,0 +1,16 @@
+id: card-bootstrap
+language: en
+word: "card"
+part_of_speech: noun
+meaning: "卡片，用于组合标题、正文、图片或其他内容的柔性容器组件"
+example: "Show each product in a card."
+notes: |-
+  Source: Bootstrap 5.3 documentation — card. https://getbootstrap.com/docs/5.3/components/card/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

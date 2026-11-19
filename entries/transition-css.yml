@@ -1,0 +1,19 @@
+id: transition-css
+language: en
+word: "transition"
+pronunciation: "/trænˈzɪʃ.ən/"
+part_of_speech: noun
+meaning: "过渡，在属性值变化时按时间平滑切换的效果"
+example: "Add a transition to soften the color change."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+  Pronunciation source: Cambridge Dictionary — transition (US, accessed 2026-11-19). https://dictionary.cambridge.org/dictionary/english/transition
+learning_priority: 2
+prerequisites:
+  - property-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

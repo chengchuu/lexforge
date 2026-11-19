@@ -1,0 +1,19 @@
+id: fragment-react
+language: en
+word: "Fragment"
+pronunciation: "/ˈfræɡ.mənt/"
+part_of_speech: noun
+meaning: "片段，将多个节点分组而无需额外 DOM 元素的组件"
+example: "Wrap the two list items in a Fragment."
+notes: |-
+  Source: React docs — React Reference Overview. https://react.dev/reference/react
+
+  Pronunciation source: Cambridge Dictionary — fragment (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/fragment
+learning_priority: 1
+prerequisites:
+  - jsx-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

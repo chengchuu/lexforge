@@ -1,0 +1,20 @@
+id: race-detector-go
+language: en
+word: "race detector"
+part_of_speech: noun phrase
+meaning: "竞争检测器，检查运行时执行路径中的数据竞争"
+example: "Run the tests with the race detector enabled."
+notes: |-
+  检测器只报告实际运行时遇到的数据竞争。
+
+  Source: Data Race Detector. https://go.dev/doc/articles/race_detector
+learning_priority: 3
+prerequisites:
+  - data-race-go
+  - test-tech
+tags:
+  - tech
+  - programming
+  - go
+  - phrase
+  - testing

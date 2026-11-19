@@ -1,0 +1,17 @@
+id: responsive-utility-bootstrap
+language: en
+word: "responsive utility"
+part_of_speech: noun phrase
+meaning: "响应式工具类，从指定断点开始适用的工具类变体"
+example: "The responsive utility .d-md-flex applies flex display from the md breakpoint onward."
+notes: |-
+  Source: Bootstrap 5.3 documentation — api. https://getbootstrap.com/docs/5.3/utilities/api/
+learning_priority: 2
+prerequisites:
+  - utility-class-bootstrap
+  - breakpoint-css
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

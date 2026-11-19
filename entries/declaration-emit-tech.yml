@@ -11,8 +11,10 @@ audio: declaration-emit-tech.mp3
 learning_priority: 3
 prerequisites:
   - emit-tech
+  - declaration-file-typescript
 tags:
   - tech
   - compiler
   - noun
   - phrase
+  - typescript

@@ -11,6 +11,8 @@ notes: |
   Source: Interviews/AprilSkill.md. Verified reference: React: Synchronizing with Effects: https://react.dev/learn/synchronizing-with-effects
   Pronunciation source: Collins Dictionary — effect; effect in American English. https://www.collinsdictionary.com/dictionary/english/effect (accent: US; accessed 2026-11-18).
 learning_priority: 2
+prerequisites:
+  - commit-phase-react
 audio: effect-react.mp3
 tags:
   - tech

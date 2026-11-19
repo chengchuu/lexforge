@@ -1,0 +1,17 @@
+id: property-css
+language: en
+word: "CSS property"
+part_of_speech: noun phrase
+meaning: "CSS 属性，样式声明中可以设置的项目"
+example: "The CSS property color controls the color of text."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 1
+prerequisites:
+  - css-language
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase
+  - bootstrap

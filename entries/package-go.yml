@@ -1,0 +1,17 @@
+id: package-go
+language: en
+word: "package"
+pronunciation: "/ˈpæk.ɪdʒ/"
+part_of_speech: noun
+meaning: "包，在同一目录中共同构建的一组 Go 源文件，通常共享包名"
+example: "The package exposes a function for callers."
+notes: |-
+  Source: Create a Go module. https://go.dev/doc/tutorial/create-module
+
+  Pronunciation source: Cambridge Dictionary — package (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/package
+learning_priority: 1
+tags:
+  - tech
+  - programming
+  - go
+  - noun

@@ -1,0 +1,20 @@
+id: rune-go
+language: en
+word: "rune"
+pronunciation: "/ruːn/"
+part_of_speech: predeclared identifier
+meaning: "Go 中 int32 的别名，通常用来表示 Unicode 码点"
+example: "The loop examines each rune in the string."
+notes: |-
+  rune 通常表示码点。一个用户感知的字符可能包含多个码点。
+
+  Source: Go specification — Types. https://go.dev/ref/spec#Types
+
+  Pronunciation source: Cambridge Dictionary — rune (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/rune
+learning_priority: 1
+prerequisites:
+  - int-go
+tags:
+  - tech
+  - programming
+  - go

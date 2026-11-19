@@ -1,0 +1,18 @@
+id: stacking-context-css
+language: en
+word: "stacking context"
+part_of_speech: noun phrase
+meaning: "层叠上下文，独立计算内部绘制层次的盒子分组"
+example: "The tooltip sits inside its parent's stacking context."
+notes: |-
+  不同的层叠上下文各自排序。局部 z-index 无法直接跨上下文比较。
+
+  Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
+learning_priority: 3
+prerequisites:
+  - layout-browser-rendering
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

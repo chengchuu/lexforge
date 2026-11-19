@@ -1,0 +1,17 @@
+id: pick-utility-type-typescript
+language: en
+word: "Pick"
+part_of_speech: noun
+meaning: "从类型中保留指定属性的工具类型"
+example: "Use Pick to keep only the id and name fields."
+notes: |-
+  Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
+learning_priority: 3
+prerequisites:
+  - utility-type-typescript
+  - keyof-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

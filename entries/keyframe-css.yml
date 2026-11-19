@@ -1,0 +1,16 @@
+id: keyframe-css
+language: en
+word: "keyframe"
+part_of_speech: noun
+meaning: "关键帧，定义动画某一进度点样式的规则"
+example: "The final keyframe sets the opacity to one."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - animation-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

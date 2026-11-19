@@ -1,0 +1,16 @@
+id: color-mode-bootstrap
+language: en
+word: "color mode"
+part_of_speech: noun phrase
+meaning: "色彩模式，决定界面采用哪套颜色设置的模式"
+example: "Set data-bs-theme to dark to apply the dark color mode."
+notes: |-
+  Source: Bootstrap 5.3 documentation — color modes. https://getbootstrap.com/docs/5.3/customize/color-modes/
+learning_priority: 2
+prerequisites:
+  - theming-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

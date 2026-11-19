@@ -1,0 +1,18 @@
+id: spacing-utility-bootstrap
+language: en
+word: "spacing utility"
+part_of_speech: noun phrase
+meaning: "间距工具类，用于设置外边距、内边距或间隔"
+example: "Use the spacing utility .mt-3 to add top margin."
+notes: |-
+  Source: Bootstrap 5.3 documentation — spacing. https://getbootstrap.com/docs/5.3/utilities/spacing/
+learning_priority: 2
+prerequisites:
+  - utility-class-bootstrap
+  - padding-css
+  - margin-css
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

@@ -1,0 +1,16 @@
+id: indexed-access-type-typescript
+language: en
+word: "indexed access type"
+part_of_speech: noun phrase
+meaning: "索引访问类型，按键取得另一个类型中的属性类型"
+example: "Use an indexed access type to obtain the type of the id property."
+notes: |-
+  Source: TypeScript Handbook — Indexed Access Types. https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html
+learning_priority: 3
+prerequisites:
+  - property-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

@@ -1,0 +1,15 @@
+id: transform-css
+language: en
+word: "transform"
+part_of_speech: CSS syntax
+meaning: "变换，用于旋转、缩放、平移等视觉变化的属性"
+example: "Use a transform to move the icon visually."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - property-css
+tags:
+  - tech
+  - frontend
+  - css

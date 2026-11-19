@@ -1,0 +1,22 @@
+id: never-typescript
+language: en
+word: "never"
+pronunciation: "/ˈnev.ɚ/"
+part_of_speech: keyword
+meaning: "无值可属于的类型"
+example: "A function that always throws can have a never return type."
+notes: |-
+  例如，始终抛出异常的函数可以显式标注返回类型 never。处理完可辨识联合的所有情况后，可用 never 检查剩余分支是否确实不可达。
+
+  对比：any 允许跳过对值的相关检查，unknown 在多数操作前需要收窄类型，never 表示没有可能的值。
+
+  Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
+
+  Pronunciation source: Cambridge Dictionary — never (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/dictionary/english/never?topic=balance-and-imbalance
+learning_priority: 2
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript

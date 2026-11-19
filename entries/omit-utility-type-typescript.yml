@@ -1,0 +1,19 @@
+id: omit-utility-type-typescript
+language: en
+word: "Omit"
+part_of_speech: noun
+meaning: "从类型中移除指定属性的工具类型"
+example: "Use Omit to remove the internal field from the public type."
+notes: |-
+  Omit<T, K> 是大小写敏感的内置工具类型，与普通动词 omit 的学习义项不同。
+
+  Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
+learning_priority: 3
+prerequisites:
+  - utility-type-typescript
+  - keyof-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

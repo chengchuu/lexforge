@@ -1,0 +1,20 @@
+id: append-go
+language: en
+word: "append"
+pronunciation: "/əˈpend/"
+part_of_speech: predeclared identifier
+meaning: "向切片追加元素并返回结果切片的内置函数"
+example: "Assign the result of append back to the slice."
+notes: |-
+  底层数组容量不足时，append 可能分配新的底层数组。
+
+  Source: Go specification — Built-in functions. https://go.dev/ref/spec#Built-in_functions
+
+  Pronunciation source: Cambridge Dictionary — append (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/append
+learning_priority: 2
+prerequisites:
+  - slice-go
+tags:
+  - tech
+  - programming
+  - go

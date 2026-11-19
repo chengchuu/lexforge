@@ -1,0 +1,19 @@
+id: spinner-bootstrap
+language: en
+word: "spinner"
+pronunciation: "/ˈspɪn.ɚ/"
+part_of_speech: noun
+meaning: "加载指示器，用动画提示操作正在进行的组件"
+example: "Show a spinner while the request is pending."
+notes: |-
+  Source: Bootstrap 5.3 documentation — spinners. https://getbootstrap.com/docs/5.3/components/spinners/
+
+  Pronunciation source: Cambridge Dictionary — spinner (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/spinner
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

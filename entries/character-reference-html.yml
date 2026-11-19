@@ -1,0 +1,16 @@
+id: character-reference-html
+language: en
+word: "character reference"
+part_of_speech: noun phrase
+meaning: "字符引用，在 HTML 源码中用命名或数字形式表示字符的序列"
+example: "Use the character reference &amp; for a literal ampersand in this example."
+notes: |-
+  Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
+learning_priority: 2
+prerequisites:
+  - markup-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

@@ -1,0 +1,21 @@
+id: script-html
+language: en
+word: "script"
+pronunciation: "/skrɪpt/"
+part_of_speech: noun
+meaning: "脚本，用于执行页面逻辑的代码，可由 script 元素内联或引用"
+example: "Load the script that handles form interactions."
+notes: |-
+  script 元素还可承载特定类型的数据，例如 JSON。此处学习的是可执行代码的义项。
+
+  Source: WHATWG HTML — Scripting. https://html.spec.whatwg.org/multipage/scripting.html
+
+  Pronunciation source: Cambridge Dictionary — script (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/script
+learning_priority: 2
+prerequisites:
+  - document-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

@@ -1,0 +1,18 @@
+id: select-go
+language: en
+word: "select"
+pronunciation: "/səˈlekt/"
+part_of_speech: keyword
+meaning: "选择语句，从可执行的通道发送或接收操作中选择一项"
+example: "The select statement waits for a result or a cancellation signal."
+notes: |-
+  Source: Go specification — Select statements. https://go.dev/ref/spec#Select_statements
+
+  Pronunciation source: Cambridge Dictionary — select (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/select
+learning_priority: 2
+prerequisites:
+  - channel-go
+tags:
+  - tech
+  - programming
+  - go

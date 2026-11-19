@@ -1,0 +1,20 @@
+id: nil-go
+language: en
+word: "nil"
+pronunciation: "/nɪl/"
+part_of_speech: predeclared identifier
+meaning: "表示某些类型零值的预声明标识符，例如指针、切片和通道的零值"
+example: "The slice is nil before the first append."
+notes: |-
+  nil 适用于指针、函数、切片、映射、通道和接口等类型。包含具类型的 nil 值的接口不一定等于 nil。
+
+  Source: Go specification — Variables. https://go.dev/ref/spec#Variables
+
+  Pronunciation source: Cambridge Dictionary — nil (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/nil
+learning_priority: 1
+prerequisites:
+  - zero-value-go
+tags:
+  - tech
+  - programming
+  - go

@@ -1,0 +1,20 @@
+id: any-typescript
+language: en
+word: "any"
+pronunciation: "/ˈen.i/"
+part_of_speech: keyword
+meaning: "允许跳过相关静态类型检查的类型"
+example: "A value typed as any can be used without checking its properties first."
+notes: |-
+  对比：any 允许跳过对值的相关检查，unknown 在多数操作前需要收窄类型，never 表示没有可能的值。
+
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+  Pronunciation source: Cambridge Dictionary — any (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/pronunciation/english/any
+learning_priority: 2
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript

@@ -1,0 +1,21 @@
+id: transition-react
+language: en
+word: "transition"
+pronunciation: "/trænˈzɪʃ.ən/"
+part_of_speech: noun
+meaning: "过渡更新，React 标记为非阻塞且可被更紧急更新打断的状态更新"
+example: "Use a transition to render the results without blocking interactions."
+notes: |-
+  例如使用 useTransition 标记非紧急更新。这里的 transition 是调度概念，与 CSS 动画过渡不同。
+
+  Source: React docs — useTransition. https://react.dev/reference/react/useTransition
+
+  Pronunciation source: Cambridge Dictionary — transition (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/pronunciation/english/transition
+learning_priority: 3
+prerequisites:
+  - state-setter-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

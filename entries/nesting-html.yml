@@ -1,0 +1,16 @@
+id: nesting-html
+language: en
+word: "nesting"
+part_of_speech: noun
+meaning: "嵌套，把一个元素放在另一个元素内部形成层级结构"
+example: "Correct nesting keeps the emphasis inside the paragraph."
+notes: |-
+  Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
+learning_priority: 1
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

@@ -1,0 +1,17 @@
+id: returntype-utility-type-typescript
+language: en
+word: "ReturnType"
+part_of_speech: noun
+meaning: "取得函数类型的返回类型的工具类型"
+example: "Use ReturnType to derive the result type from the function."
+notes: |-
+  Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
+learning_priority: 3
+prerequisites:
+  - utility-type-typescript
+  - return-type-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

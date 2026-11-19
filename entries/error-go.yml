@@ -1,0 +1,18 @@
+id: error-go
+language: en
+word: "error"
+pronunciation: "/ˈer.ɚ/"
+part_of_speech: predeclared identifier
+meaning: "内置错误接口，要求实现 Error 方法来提供错误描述"
+example: "The caller checks whether the error is nil."
+notes: |-
+  Source: Error handling and Go. https://go.dev/blog/error-handling-and-go
+
+  Pronunciation source: Cambridge Dictionary — error (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/pronunciation/english/error
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - go

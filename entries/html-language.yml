@@ -1,0 +1,20 @@
+id: html-language
+language: en
+word: "HTML"
+pronunciation: "/ˌeɪtʃ.tiː.emˈel/"
+part_of_speech: noun
+meaning: "超文本标记语言，用于描述网页的结构和内容含义"
+example: "HTML gives the page its document structure."
+notes: |-
+  HTML 是 HyperText Markup Language 的缩写。
+
+  Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+
+  Pronunciation source: Cambridge Dictionary — HTML (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/html
+learning_priority: 1
+tags:
+  - tech
+  - frontend
+  - html
+  - noun
+  - bootstrap

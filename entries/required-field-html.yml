@@ -1,0 +1,17 @@
+id: required-field-html
+language: en
+word: "required field"
+part_of_speech: noun phrase
+meaning: "必填字段，需要满足必填要求才能通过表单验证的字段"
+example: "The required field must be filled in before the form can be submitted."
+notes: |-
+  Source: WHATWG HTML — Form control infrastructure. https://html.spec.whatwg.org/multipage/form-control-infrastructure.html
+learning_priority: 2
+prerequisites:
+  - form-control-bootstrap
+  - boolean-attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

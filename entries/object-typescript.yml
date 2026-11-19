@@ -1,0 +1,20 @@
+id: object-typescript
+language: en
+word: "object"
+pronunciation: "/ˈɑːb.dʒekt/"
+part_of_speech: keyword
+meaning: "非原始值的类型"
+example: "The object type accepts arrays and functions."
+notes: |-
+  小写 object 表示任意非原始值。{ name: string } 则描述具有特定属性的对象形状。
+
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+  Pronunciation source: Cambridge Dictionary — object (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/object
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript

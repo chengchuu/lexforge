@@ -1,0 +1,15 @@
+id: int-go
+language: en
+word: "int"
+part_of_speech: predeclared identifier
+meaning: "有符号整数类型，在 Go 中为 32 位或 64 位"
+example: "The function returns an int count."
+notes: |-
+  Source: Go specification — Types. https://go.dev/ref/spec#Types
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - go

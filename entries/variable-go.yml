@@ -1,0 +1,17 @@
+id: variable-go
+language: en
+word: "variable"
+pronunciation: "/ˈver.i.ə.bəl/"
+part_of_speech: noun
+meaning: "变量，具有类型且可以存储值的位置"
+example: "The variable holds the latest count."
+notes: |-
+  Source: Go specification — Variables. https://go.dev/ref/spec#Variables
+
+  Pronunciation source: Cambridge Dictionary — variable (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/variable
+learning_priority: 1
+tags:
+  - tech
+  - programming
+  - go
+  - noun

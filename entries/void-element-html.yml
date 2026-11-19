@@ -1,0 +1,19 @@
+id: void-element-html
+language: en
+word: "void element"
+part_of_speech: noun phrase
+meaning: "空元素，在 HTML 语法中不能包含内容且没有结束标签"
+example: "The img element is a void element."
+notes: |-
+  例如 img、input 和 br。写成 <img /> 不会形成独立的结束标签，斜杠对 HTML 空元素没有自闭合作用。
+
+  Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
+learning_priority: 2
+prerequisites:
+  - element-html
+  - end-tag-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

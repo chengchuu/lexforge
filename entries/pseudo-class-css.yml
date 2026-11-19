@@ -1,0 +1,18 @@
+id: pseudo-class-css
+language: en
+word: "pseudo-class"
+part_of_speech: noun
+meaning: "伪类，用来匹配元素的状态或结构条件"
+example: "Use the :focus-visible pseudo-class to style keyboard focus."
+notes: |-
+  Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
+learning_priority: 2
+prerequisites:
+  - selector-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun
+  - bootstrap
+  - html

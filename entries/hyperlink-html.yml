@@ -1,0 +1,21 @@
+id: hyperlink-html
+language: en
+word: "hyperlink"
+pronunciation: "/ˈhaɪ.pɚ.lɪŋk/"
+part_of_speech: noun
+meaning: "超链接，可跳转到指定资源或位置的引用"
+example: "The hyperlink points to the installation guide."
+notes: |-
+  常用写法是带 href 的 <a>。可跳转到另一文档，也可链接到当前文档的片段。
+
+  Source: WHATWG HTML — Links. https://html.spec.whatwg.org/multipage/links.html
+
+  Pronunciation source: Cambridge Dictionary — hyperlink (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/pronunciation/english/hyperlink
+learning_priority: 1
+prerequisites:
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

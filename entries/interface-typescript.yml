@@ -1,0 +1,21 @@
+id: interface-typescript
+language: en
+word: "interface"
+pronunciation: "/ˈɪn.t̬ɚ.feɪs/"
+part_of_speech: noun
+meaning: "接口，用来描述对象形状的声明"
+example: "The interface describes the fields required by the API."
+notes: |-
+  例如 interface User { name: string } 描述具有 name 字符串属性的对象形状。
+
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+  Pronunciation source: Cambridge Dictionary — interface (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/interface
+learning_priority: 2
+prerequisites:
+  - property-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

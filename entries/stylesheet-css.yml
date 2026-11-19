@@ -1,0 +1,18 @@
+id: stylesheet-css
+language: en
+word: "stylesheet"
+part_of_speech: noun
+meaning: "样式表，包含用于设置文档样式的规则"
+example: "Link the stylesheet from the document head."
+notes: |-
+  Source: MDN — CSS styling basics. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
+learning_priority: 1
+prerequisites:
+  - css-language
+tags:
+  - tech
+  - frontend
+  - css
+  - noun
+  - html
+  - bootstrap

@@ -1,0 +1,16 @@
+id: easing-css
+language: en
+word: "easing"
+part_of_speech: noun
+meaning: "缓动，控制动画或过渡的变化速度如何随时间改变"
+example: "Use easing to slow the motion near the end."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 3
+prerequisites:
+  - transition-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

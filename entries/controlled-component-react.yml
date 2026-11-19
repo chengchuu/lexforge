@@ -1,0 +1,17 @@
+id: controlled-component-react
+language: en
+word: "controlled component"
+part_of_speech: noun phrase
+meaning: "受控组件，相关状态或行为主要由外部属性控制的组件"
+example: "The parent passes the selected value to the controlled component."
+notes: |-
+  Source: React docs — Managing State. https://react.dev/learn/managing-state
+learning_priority: 2
+prerequisites:
+  - props-react
+  - state-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

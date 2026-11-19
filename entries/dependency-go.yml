@@ -1,0 +1,19 @@
+id: dependency-go
+language: en
+word: "dependency"
+pronunciation: "/dɪˈpen.dən.si/"
+part_of_speech: noun
+meaning: "依赖，项目需要使用的其他软件组件"
+example: "Update the dependency before running the tests."
+notes: |-
+  Source: Managing dependencies. https://go.dev/doc/modules/managing-dependencies
+
+  Pronunciation source: Cambridge Dictionary — dependency (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/dependency
+learning_priority: 2
+prerequisites:
+  - go-module
+tags:
+  - tech
+  - programming
+  - go
+  - noun

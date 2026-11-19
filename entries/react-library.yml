@@ -1,0 +1,16 @@
+id: react-library
+language: en
+word: "React"
+part_of_speech: noun
+meaning: "用于构建用户界面的 JavaScript 库"
+example: "The team uses React to build the dashboard."
+notes: |-
+  项目名称通常写作 React。React.js 也常用于指代同一个库。
+
+  Source: React docs — Quick Start. https://react.dev/learn
+learning_priority: 1
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

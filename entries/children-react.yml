@@ -1,0 +1,19 @@
+id: children-react
+language: en
+word: "children"
+pronunciation: "/ˈtʃɪl.drən/"
+part_of_speech: noun
+meaning: "子内容，React 通过 children 属性传入的嵌套内容"
+example: "The panel renders its children below the title."
+notes: |-
+  Source: React docs — Quick Start. https://react.dev/learn
+
+  Pronunciation source: Cambridge Dictionary — children (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/children
+learning_priority: 1
+prerequisites:
+  - props-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

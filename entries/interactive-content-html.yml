@@ -1,0 +1,16 @@
+id: interactive-content-html
+language: en
+word: "interactive content"
+part_of_speech: noun phrase
+meaning: "交互内容，HTML 中供用户操作的一类元素内容"
+example: "Check the content model before nesting interactive content inside a button."
+notes: |-
+  Source: WHATWG HTML — Content models. https://html.spec.whatwg.org/multipage/dom.html#content-models
+learning_priority: 3
+prerequisites:
+  - content-model-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

@@ -1,0 +1,16 @@
+id: ordered-list-html
+language: en
+word: "ordered list"
+part_of_speech: noun phrase
+meaning: "有序列表，条目的先后顺序有意义的列表"
+example: "Use an ordered list for the setup steps."
+notes: |-
+  Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+learning_priority: 1
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

@@ -1,0 +1,17 @@
+id: box-model-css
+language: en
+word: "box model"
+part_of_speech: noun phrase
+meaning: "盒模型，用内容、内边距、边框和外边距描述盒子的尺寸与间隔"
+example: "The box model explains where the component takes up space."
+notes: |-
+  Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
+learning_priority: 1
+prerequisites:
+  - layout-browser-rendering
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase
+  - bootstrap

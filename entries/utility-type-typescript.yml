@@ -1,0 +1,16 @@
+id: utility-type-typescript
+language: en
+word: "utility type"
+part_of_speech: noun phrase
+meaning: "工具类型，用于常见类型变换的内置泛型类型"
+example: "The utility type derives a smaller type from the original."
+notes: |-
+  Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
+learning_priority: 3
+prerequisites:
+  - generic-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

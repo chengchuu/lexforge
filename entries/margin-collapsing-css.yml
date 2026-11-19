@@ -1,0 +1,17 @@
+id: margin-collapsing-css
+language: en
+word: "margin collapsing"
+part_of_speech: noun phrase
+meaning: "外边距折叠，符合条件的相邻块轴外边距合并为一个外边距"
+example: "Margin collapsing explains the space between the two paragraphs."
+notes: |-
+  Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
+learning_priority: 2
+prerequisites:
+  - margin-css
+  - normal-flow-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

@@ -1,0 +1,16 @@
+id: custom-hook-react
+language: en
+word: "custom Hook"
+part_of_speech: noun phrase
+meaning: "自定义 Hook，以 use 开头、可组合其他 Hook 来复用有状态逻辑的函数"
+example: "Extract the connection logic into a custom Hook."
+notes: |-
+  Source: React docs — React Reference Overview. https://react.dev/reference/react
+learning_priority: 2
+prerequisites:
+  - hook-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

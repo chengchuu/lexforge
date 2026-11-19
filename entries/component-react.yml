@@ -1,0 +1,19 @@
+id: component-react
+language: en
+word: "component"
+pronunciation: "/kəmˈpoʊ.nənt/"
+part_of_speech: noun
+meaning: "组件，用于描述部分界面的可复用单元"
+example: "The component displays a user's profile."
+notes: |-
+  Source: React docs — Quick Start. https://react.dev/learn
+
+  Pronunciation source: Cambridge Dictionary — component (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/component
+learning_priority: 1
+prerequisites:
+  - react-library
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

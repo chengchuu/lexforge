@@ -1,0 +1,19 @@
+id: disabled-control-html
+language: en
+word: "disabled control"
+part_of_speech: noun phrase
+meaning: "禁用控件，不能与用户正常交互且其值不会随表单提交的控件"
+example: "The disabled control is omitted from the submitted form data."
+notes: |-
+  禁用控件通常不可聚焦，也不进入表单数据。readonly 只在支持它的控件上阻止编辑，和 disabled 的行为不同。
+
+  Source: WHATWG HTML — Form control infrastructure. https://html.spec.whatwg.org/multipage/form-control-infrastructure.html
+learning_priority: 2
+prerequisites:
+  - form-control-bootstrap
+  - boolean-attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

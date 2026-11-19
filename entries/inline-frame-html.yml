@@ -1,0 +1,19 @@
+id: inline-frame-html
+language: en
+word: "inline frame"
+part_of_speech: noun phrase
+meaning: "内嵌框架，通过 iframe 在当前页面中嵌入另一个文档的区域"
+example: "The inline frame embeds a map from another document."
+notes: |-
+  使用 <iframe> 嵌入另一个文档。为 iframe 提供能说明其内容的 title。
+
+  Source: WHATWG HTML — The iframe element. https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-iframe-element
+learning_priority: 2
+prerequisites:
+  - document-html
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

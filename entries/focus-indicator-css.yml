@@ -1,0 +1,18 @@
+id: focus-indicator-css
+language: en
+word: "focus indicator"
+part_of_speech: noun phrase
+meaning: "焦点指示，以可见样式提示哪个控件拥有输入焦点"
+example: "Keep a visible focus indicator on each interactive control."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - pseudo-class-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase
+  - bootstrap
+  - html

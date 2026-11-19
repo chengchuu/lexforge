@@ -1,0 +1,15 @@
+id: z-index-css
+language: en
+word: "z-index"
+part_of_speech: CSS syntax
+meaning: "用于设置盒子在层叠上下文中层级的属性"
+example: "A higher z-index cannot lift a child above a separate higher stacking context."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 3
+prerequisites:
+  - stacking-context-css
+tags:
+  - tech
+  - frontend
+  - css

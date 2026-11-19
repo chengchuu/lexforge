@@ -1,0 +1,19 @@
+id: metadata-html
+language: en
+word: "metadata"
+pronunciation: "/ˈmet̬.əˌdeɪ.t̬ə/"
+part_of_speech: noun
+meaning: "元数据，描述文档自身或其配置的信息"
+example: "The document metadata includes a description of the page."
+notes: |-
+  Source: WHATWG HTML — The elements of HTML. https://html.spec.whatwg.org/multipage/semantics.html
+
+  Pronunciation source: Cambridge Dictionary — metadata (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/metadata
+learning_priority: 2
+prerequisites:
+  - document-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

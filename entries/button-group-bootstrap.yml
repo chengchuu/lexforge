@@ -1,0 +1,16 @@
+id: button-group-bootstrap
+language: en
+word: "button group"
+part_of_speech: noun phrase
+meaning: "按钮组，将相关按钮组织在一起的组件"
+example: "Place the formatting controls in a button group."
+notes: |-
+  Source: Bootstrap 5.3 documentation — button group. https://getbootstrap.com/docs/5.3/components/button-group/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

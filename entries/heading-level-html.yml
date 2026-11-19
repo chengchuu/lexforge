@@ -1,0 +1,16 @@
+id: heading-level-html
+language: en
+word: "heading level"
+part_of_speech: noun phrase
+meaning: "标题级别，表示标题在内容层级中的位置"
+example: "Use the next heading level for a subsection."
+notes: |-
+  Source: W3C WAI — Page Structure Tutorial. https://www.w3.org/WAI/tutorials/page-structure/
+learning_priority: 2
+prerequisites:
+  - heading-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

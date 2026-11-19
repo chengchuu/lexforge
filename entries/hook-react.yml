@@ -1,0 +1,19 @@
+id: hook-react
+language: en
+word: "Hook"
+pronunciation: "/hʊk/"
+part_of_speech: noun
+meaning: "Hook，在 React 组件或自定义 Hook 中按规则使用的函数，可接入状态等能力"
+example: "Call the Hook at the top level of the component."
+notes: |-
+  Source: React docs — Rules of React. https://react.dev/reference/rules
+
+  Pronunciation source: Cambridge Dictionary — hook (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/pronunciation/english/hook
+learning_priority: 1
+prerequisites:
+  - function-component-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

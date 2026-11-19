@@ -1,0 +1,17 @@
+id: conditional-type-typescript
+language: en
+word: "conditional type"
+part_of_speech: noun phrase
+meaning: "条件类型，根据类型关系选择结果类型"
+example: "The conditional type chooses a result based on its input type."
+notes: |-
+  Source: TypeScript Handbook — Conditional Types. https://www.typescriptlang.org/docs/handbook/2/conditional-types.html
+learning_priority: 3
+prerequisites:
+  - assignability-typescript
+  - generic-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

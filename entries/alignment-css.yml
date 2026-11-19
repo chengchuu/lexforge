@@ -1,0 +1,20 @@
+id: alignment-css
+language: en
+word: "alignment"
+pronunciation: "/əˈlaɪn.mənt/"
+part_of_speech: noun
+meaning: "对齐，按参考位置或轴布置盒子的方式"
+example: "Check the alignment of the icons in the toolbar."
+notes: |-
+  Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
+
+  Pronunciation source: Cambridge Dictionary — alignment (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/alignment
+learning_priority: 2
+prerequisites:
+  - layout-browser-rendering
+tags:
+  - tech
+  - frontend
+  - css
+  - noun
+  - bootstrap

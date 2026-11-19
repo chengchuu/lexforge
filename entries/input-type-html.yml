@@ -1,0 +1,17 @@
+id: input-type-html
+language: en
+word: "input type"
+part_of_speech: noun phrase
+meaning: "输入类型，通过 type 属性决定 input 控件的行为"
+example: "Choose the email input type for the address field."
+notes: |-
+  Source: WHATWG HTML — The input element. https://html.spec.whatwg.org/multipage/input.html
+learning_priority: 2
+prerequisites:
+  - attribute-html
+  - form-control-bootstrap
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

@@ -1,0 +1,16 @@
+id: commit-phase-react
+language: en
+word: "commit phase"
+part_of_speech: noun phrase
+meaning: "提交阶段，React 将需要的 DOM 变更应用到页面"
+example: "React applies the DOM changes during the commit phase."
+notes: |-
+  Source: React docs — Render and Commit. https://react.dev/learn/render-and-commit
+learning_priority: 1
+prerequisites:
+  - render-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

@@ -1,0 +1,19 @@
+id: capacity-go
+language: en
+word: "capacity"
+pronunciation: "/kəˈpæs.ə.t̬i/"
+part_of_speech: noun
+meaning: "容量，对切片表示在不更换底层数组的情况下允许扩展到的最大长度"
+example: "The slice has a capacity of eight."
+notes: |-
+  Source: Go specification — Built-in functions. https://go.dev/ref/spec#Built-in_functions
+
+  Pronunciation source: Cambridge Dictionary — capacity (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/capacity
+learning_priority: 2
+prerequisites:
+  - length-go
+tags:
+  - tech
+  - programming
+  - go
+  - noun

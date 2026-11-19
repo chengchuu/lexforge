@@ -1,0 +1,21 @@
+id: selector-css
+language: en
+word: "selector"
+pronunciation: "/səˈlek.tɚ/"
+part_of_speech: noun
+meaning: "选择器，用于匹配一个或多个元素的模式"
+example: "The selector matches buttons inside the dialog."
+notes: |-
+  Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
+
+  Pronunciation source: Cambridge Dictionary — selector (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/selector
+learning_priority: 1
+prerequisites:
+  - css-language
+tags:
+  - tech
+  - frontend
+  - css
+  - noun
+  - bootstrap
+  - html

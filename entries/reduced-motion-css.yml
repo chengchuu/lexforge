@@ -1,0 +1,19 @@
+id: reduced-motion-css
+language: en
+word: "reduced motion"
+part_of_speech: noun phrase
+meaning: "减少动态效果，尊重用户降低非必要界面动画的偏好"
+example: "Use the reduced motion preference to limit large movements."
+notes: |-
+  使用 prefers-reduced-motion 媒体特征尊重系统偏好，减少非必要动画。
+
+  Source: MDN — prefers-reduced-motion. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion
+learning_priority: 2
+prerequisites:
+  - media-query-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase
+  - bootstrap

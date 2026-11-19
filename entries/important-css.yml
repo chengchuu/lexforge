@@ -1,0 +1,17 @@
+id: important-css
+language: en
+word: "!important"
+part_of_speech: CSS syntax
+meaning: "重要性标记，使声明参与层叠中的重要声明排序"
+example: "The !important annotation changes how the declaration is ranked."
+notes: |-
+  这是声明上的标记，不是选择器权重的一部分。
+
+  Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
+learning_priority: 2
+prerequisites:
+  - cascade-css
+tags:
+  - tech
+  - frontend
+  - css

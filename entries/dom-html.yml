@@ -1,0 +1,21 @@
+id: dom-html
+language: en
+word: "DOM"
+part_of_speech: noun
+meaning: "文档对象模型，以节点树和接口表示及操作文档的模型"
+example: "The browser builds the DOM as it parses the HTML."
+notes: |-
+  DOM 是解析后的树及其接口。源码中的标记与最终 DOM 树可能不同。
+
+  Source: WHATWG HTML — Parsing HTML documents. https://html.spec.whatwg.org/multipage/parsing.html
+
+  Source: WHATWG DOM Standard. https://dom.spec.whatwg.org/
+learning_priority: 1
+prerequisites:
+  - document-html
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

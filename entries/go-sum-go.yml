@@ -1,0 +1,18 @@
+id: go-sum-go
+language: en
+word: "go.sum"
+part_of_speech: noun
+meaning: "记录依赖模块内容和 go.mod 文件校验值的文件"
+example: "Commit the updated go.sum file with the dependency change."
+notes: |-
+  go.sum 是校验记录，不是锁定依赖版本的文件。
+
+  Source: Managing dependencies. https://go.dev/doc/modules/managing-dependencies
+learning_priority: 2
+prerequisites:
+  - go-mod-go
+tags:
+  - tech
+  - programming
+  - go
+  - noun

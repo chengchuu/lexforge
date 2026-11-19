@@ -1,0 +1,19 @@
+id: caption-html
+language: en
+word: "caption"
+pronunciation: "/ˈkæp.ʃən/"
+part_of_speech: noun
+meaning: "表格标题，用于标识表格主题的文字元素"
+example: "The caption identifies the table as quarterly revenue."
+notes: |-
+  Source: WHATWG HTML — Tabular data. https://html.spec.whatwg.org/multipage/tables.html
+
+  Pronunciation source: Cambridge Dictionary — caption (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/caption
+learning_priority: 2
+prerequisites:
+  - data-table-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

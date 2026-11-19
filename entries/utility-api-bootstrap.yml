@@ -1,0 +1,16 @@
+id: utility-api-bootstrap
+language: en
+word: "utility API"
+part_of_speech: noun phrase
+meaning: "工具类生成 API，使用 Sass 配置生成和扩展 Bootstrap 工具类的机制"
+example: "Use the utility API to generate a project-specific class."
+notes: |-
+  Source: Bootstrap 5.3 documentation — api. https://getbootstrap.com/docs/5.3/utilities/api/
+learning_priority: 3
+prerequisites:
+  - utility-class-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

@@ -1,0 +1,16 @@
+id: invalid-state-bootstrap
+language: en
+word: "invalid state"
+part_of_speech: noun phrase
+meaning: "无效状态，表示输入未通过表单校验的状态"
+example: "Use .is-invalid to show the invalid state for an incorrect address."
+notes: |-
+  Source: Bootstrap 5.3 documentation — validation. https://getbootstrap.com/docs/5.3/forms/validation/
+learning_priority: 2
+prerequisites:
+  - validation-feedback-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

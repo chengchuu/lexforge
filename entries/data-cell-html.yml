@@ -1,0 +1,18 @@
+id: data-cell-html
+language: en
+word: "data cell"
+part_of_speech: noun phrase
+meaning: "数据单元格，表格中承载行列数据的单元格"
+example: "Each data cell contains a monthly total."
+notes: |-
+  使用 <td> 表示数据单元格。数据需要与相应的 <th> 建立明确关系。
+
+  Source: WHATWG HTML — Tabular data. https://html.spec.whatwg.org/multipage/tables.html
+learning_priority: 2
+prerequisites:
+  - table-row-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

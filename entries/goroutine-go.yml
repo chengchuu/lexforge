@@ -1,0 +1,16 @@
+id: goroutine-go
+language: en
+word: "goroutine"
+part_of_speech: noun
+meaning: "Go 运行时管理的并发执行单元"
+example: "Start a goroutine to handle the request."
+notes: |-
+  Source: Go specification — Go statements. https://go.dev/ref/spec#Go_statements
+learning_priority: 2
+prerequisites:
+  - function-tech
+tags:
+  - tech
+  - programming
+  - go
+  - noun

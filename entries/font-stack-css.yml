@@ -1,0 +1,16 @@
+id: font-stack-css
+language: en
+word: "font stack"
+part_of_speech: noun phrase
+meaning: "字体栈，按优先顺序排列的候选字体列表"
+example: "The font stack ends with a generic sans-serif family."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - property-value-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

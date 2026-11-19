@@ -1,0 +1,17 @@
+id: custom-property-css
+language: en
+word: "custom property"
+part_of_speech: noun phrase
+meaning: "自定义属性，以 -- 开头并可供 var() 引用的 CSS 属性"
+example: "Define a custom property for the brand color."
+notes: |-
+  Source: W3C — CSS Custom Properties for Cascading Variables. https://www.w3.org/TR/css-variables-1/
+learning_priority: 2
+prerequisites:
+  - property-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase
+  - bootstrap

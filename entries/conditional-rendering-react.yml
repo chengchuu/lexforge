@@ -1,0 +1,17 @@
+id: conditional-rendering-react
+language: en
+word: "conditional rendering"
+part_of_speech: noun phrase
+meaning: "条件渲染，根据条件选择显示的内容"
+example: "Conditional rendering shows the error only when the request fails."
+notes: |-
+  Source: React docs — Quick Start. https://react.dev/learn
+learning_priority: 1
+prerequisites:
+  - jsx-react
+  - render-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

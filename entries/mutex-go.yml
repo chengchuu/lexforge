@@ -1,0 +1,16 @@
+id: mutex-go
+language: en
+word: "mutex"
+part_of_speech: noun
+meaning: "互斥锁，用于协调对共享资源的访问"
+example: "Use a mutex to guard the shared map."
+notes: |-
+  Source: Go sync package. https://pkg.go.dev/sync
+learning_priority: 2
+prerequisites:
+  - goroutine-go
+tags:
+  - tech
+  - programming
+  - go
+  - noun

@@ -1,0 +1,16 @@
+id: id-selector-css
+language: en
+word: "ID selector"
+part_of_speech: noun phrase
+meaning: "ID 选择器，按元素的 ID 匹配"
+example: "The ID selector #menu matches the element with that ID."
+notes: |-
+  Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
+learning_priority: 1
+prerequisites:
+  - selector-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

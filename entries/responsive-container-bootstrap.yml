@@ -1,0 +1,17 @@
+id: responsive-container-bootstrap
+language: en
+word: "responsive container"
+part_of_speech: noun phrase
+meaning: "响应式容器，在指定断点前保持全宽，从该断点起使用对应的最大宽度"
+example: "Use .container-md for a responsive container that starts using max-width at the md breakpoint."
+notes: |-
+  Source: Bootstrap 5.3 documentation — containers. https://getbootstrap.com/docs/5.3/layout/containers/
+learning_priority: 2
+prerequisites:
+  - container-bootstrap
+  - breakpoint-css
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

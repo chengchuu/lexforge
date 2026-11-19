@@ -1,0 +1,19 @@
+id: paragraph-html
+language: en
+word: "paragraph"
+pronunciation: "/ˈper.ə.ɡræf/"
+part_of_speech: noun
+meaning: "段落，用于组织一段相关文字内容的结构单元"
+example: "Put the explanation in a paragraph below the heading."
+notes: |-
+  Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+
+  Pronunciation source: Cambridge Dictionary — paragraph (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/paragraph
+learning_priority: 1
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

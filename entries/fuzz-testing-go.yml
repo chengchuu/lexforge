@@ -1,0 +1,17 @@
+id: fuzz-testing-go
+language: en
+word: "fuzz testing"
+part_of_speech: noun phrase
+meaning: "模糊测试，自动变异输入以查找意外行为"
+example: "Fuzz testing uncovered a crash on malformed input."
+notes: |-
+  Source: Go Fuzzing. https://go.dev/doc/security/fuzz/
+learning_priority: 3
+prerequisites:
+  - test-tech
+tags:
+  - tech
+  - programming
+  - go
+  - phrase
+  - testing

@@ -1,0 +1,16 @@
+id: data-table-html
+language: en
+word: "data table"
+part_of_speech: noun phrase
+meaning: "数据表格，用行和列组织相关数据的结构"
+example: "Use a data table for the monthly figures."
+notes: |-
+  Source: W3C WAI — Tables Tutorial. https://www.w3.org/WAI/tutorials/tables/
+learning_priority: 2
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

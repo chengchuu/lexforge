@@ -1,0 +1,19 @@
+id: suspense-react
+language: en
+word: "Suspense"
+pronunciation: "/səˈspens/"
+part_of_speech: noun
+meaning: "可在子树尚未就绪时显示后备界面的 React 组件"
+example: "Suspense shows a loading indicator while the lazy component prepares."
+notes: |-
+  Source: React docs — Suspense. https://react.dev/reference/react/Suspense
+
+  Pronunciation source: Cambridge Dictionary — suspense (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/suspense
+learning_priority: 3
+prerequisites:
+  - fallback-ui-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

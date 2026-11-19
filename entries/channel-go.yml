@@ -1,0 +1,19 @@
+id: channel-go
+language: en
+word: "channel"
+pronunciation: "/ˈtʃæn.əl/"
+part_of_speech: noun
+meaning: "通道，用于在并发执行单元之间发送和接收指定类型的值"
+example: "The worker sends its result on a channel."
+notes: |-
+  Source: Go specification — Channel types. https://go.dev/ref/spec#Channel_types
+
+  Pronunciation source: Cambridge Dictionary — channel (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/channel
+learning_priority: 2
+prerequisites:
+  - goroutine-go
+tags:
+  - tech
+  - programming
+  - go
+  - noun

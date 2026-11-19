@@ -1,0 +1,17 @@
+id: module-typescript
+language: en
+word: "module"
+pronunciation: "/ˈmɑː.dʒuːl/"
+part_of_speech: noun
+meaning: "模块，具有独立作用域并可显式导入或导出的代码单元"
+example: "The module exports a parser and its configuration type."
+notes: |-
+  Source: TypeScript Handbook — Modules. https://www.typescriptlang.org/docs/handbook/2/modules.html
+
+  Pronunciation source: Cambridge Dictionary — module (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/module
+learning_priority: 2
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

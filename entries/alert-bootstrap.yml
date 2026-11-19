@@ -1,0 +1,16 @@
+id: alert-bootstrap
+language: en
+word: "alert"
+part_of_speech: noun
+meaning: "提示框，用于在页面中显示操作结果或其他上下文反馈的组件"
+example: "Show an alert when the form cannot be saved."
+notes: |-
+  Source: Bootstrap 5.3 documentation — alerts. https://getbootstrap.com/docs/5.3/components/alerts/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

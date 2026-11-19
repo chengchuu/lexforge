@@ -1,0 +1,18 @@
+id: validation-feedback-bootstrap
+language: en
+word: "validation feedback"
+part_of_speech: noun phrase
+meaning: "验证反馈，用于说明输入是否满足校验条件的提示信息"
+example: "Place validation feedback near the email field."
+notes: |-
+  应用验证样式时，同时确保反馈能被辅助技术获取。
+
+  Source: Bootstrap 5.3 documentation — validation. https://getbootstrap.com/docs/5.3/forms/validation/
+learning_priority: 2
+prerequisites:
+  - form-control-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

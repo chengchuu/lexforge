@@ -1,0 +1,15 @@
+id: var-function-css
+language: en
+word: "var()"
+part_of_speech: CSS syntax
+meaning: "在 CSS 声明中代入自定义属性值的函数"
+example: "Use var() to read the spacing custom property."
+notes: |-
+  Source: W3C — CSS Custom Properties for Cascading Variables. https://www.w3.org/TR/css-variables-1/
+learning_priority: 2
+prerequisites:
+  - custom-property-css
+tags:
+  - tech
+  - frontend
+  - css

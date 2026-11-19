@@ -1,0 +1,16 @@
+id: backing-array-go
+language: en
+word: "backing array"
+part_of_speech: noun phrase
+meaning: "切片所引用的底层数组"
+example: "Two slices can share the same backing array."
+notes: |-
+  Source: Go specification — Types. https://go.dev/ref/spec#Types
+learning_priority: 2
+prerequisites:
+  - slice-go
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

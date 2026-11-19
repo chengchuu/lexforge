@@ -1,0 +1,16 @@
+id: zero-value-go
+language: en
+word: "zero value"
+part_of_speech: noun phrase
+meaning: "零值，未显式初始化时由类型决定的默认值"
+example: "The zero value of bool is false."
+notes: |-
+  Source: Go specification — Variables. https://go.dev/ref/spec#Variables
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

@@ -1,0 +1,16 @@
+id: attribute-selector-css
+language: en
+word: "attribute selector"
+part_of_speech: noun phrase
+meaning: "属性选择器，按元素是否具有指定属性或属性值来匹配"
+example: "The attribute selector matches links with a download attribute."
+notes: |-
+  Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
+learning_priority: 2
+prerequisites:
+  - selector-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

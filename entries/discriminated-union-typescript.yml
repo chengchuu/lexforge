@@ -1,0 +1,17 @@
+id: discriminated-union-typescript
+language: en
+word: "discriminated union"
+part_of_speech: noun phrase
+meaning: "可辨识联合，用共同的字面量属性区分成员"
+example: "The discriminated union uses a kind field to distinguish its cases."
+notes: |-
+  Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+learning_priority: 2
+prerequisites:
+  - union-tech
+  - literal-type-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

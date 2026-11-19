@@ -1,0 +1,19 @@
+id: receiver-go
+language: en
+word: "receiver"
+pronunciation: "/rɪˈsiː.vɚ/"
+part_of_speech: noun
+meaning: "接收者，在方法声明中指定方法所关联类型的参数"
+example: "The method has a receiver of type Counter."
+notes: |-
+  Source: Go specification — Method sets. https://go.dev/ref/spec#Method_sets
+
+  Pronunciation source: Cambridge Dictionary — receiver (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/receiver
+learning_priority: 2
+prerequisites:
+  - method-tech
+tags:
+  - tech
+  - programming
+  - go
+  - noun

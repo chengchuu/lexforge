@@ -1,0 +1,19 @@
+id: accordion-bootstrap
+language: en
+word: "accordion"
+pronunciation: "/əˈkɔːr.di.ən/"
+part_of_speech: noun
+meaning: "手风琴，由一组可展开和收起的内容面板组成的组件"
+example: "Group the questions into an accordion."
+notes: |-
+  Source: Bootstrap 5.3 documentation — accordion. https://getbootstrap.com/docs/5.3/components/accordion/
+
+  Pronunciation source: Cambridge Dictionary — accordion (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/accordion
+learning_priority: 2
+prerequisites:
+  - collapse-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

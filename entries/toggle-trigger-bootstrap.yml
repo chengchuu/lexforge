@@ -1,0 +1,17 @@
+id: toggle-trigger-bootstrap
+language: en
+word: "toggle trigger"
+part_of_speech: noun phrase
+meaning: "切换触发元素，用于切换关联组件状态的元素"
+example: "The toggle trigger uses data-bs-toggle to open the modal."
+notes: |-
+  Source: Bootstrap 5.3 documentation — javascript. https://getbootstrap.com/docs/5.3/getting-started/javascript/
+learning_priority: 2
+prerequisites:
+  - data-attribute-bootstrap
+  - javascript-plugin-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

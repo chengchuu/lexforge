@@ -1,0 +1,16 @@
+id: type-predicate-typescript
+language: en
+word: "type predicate"
+part_of_speech: noun phrase
+meaning: "类型谓词，用返回类型形式声明函数判定的类型条件"
+example: "The type predicate tells the compiler what a successful check establishes."
+notes: |-
+  Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+learning_priority: 2
+prerequisites:
+  - type-guard-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

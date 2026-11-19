@@ -1,0 +1,16 @@
+id: type-annotation-typescript
+language: en
+word: "type annotation"
+part_of_speech: noun phrase
+meaning: "类型注解，写在代码中的显式类型标记"
+example: "The type annotation specifies the shape of the input."
+notes: |-
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

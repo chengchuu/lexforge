@@ -1,0 +1,19 @@
+id: overflow-css
+language: en
+word: "overflow"
+pronunciation: "/ˈoʊ.vɚ.floʊ/"
+part_of_speech: noun
+meaning: "溢出，内容超出盒子的可用区域时的状态"
+example: "Set overflow to auto if the panel should scroll when needed."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+  Pronunciation source: Cambridge Dictionary — overflow (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/overflow
+learning_priority: 2
+prerequisites:
+  - box-model-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

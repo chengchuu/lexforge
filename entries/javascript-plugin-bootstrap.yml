@@ -1,0 +1,16 @@
+id: javascript-plugin-bootstrap
+language: en
+word: "JavaScript plugin"
+part_of_speech: noun phrase
+meaning: "JavaScript 插件，为组件提供交互行为的脚本模块"
+example: "Initialize the JavaScript plugin for the tooltip."
+notes: |-
+  Source: Bootstrap 5.3 documentation — javascript. https://getbootstrap.com/docs/5.3/getting-started/javascript/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

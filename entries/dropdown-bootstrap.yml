@@ -1,0 +1,16 @@
+id: dropdown-bootstrap
+language: en
+word: "dropdown"
+part_of_speech: noun
+meaning: "下拉菜单，在触发时显示链接或操作列表的组件"
+example: "Open the dropdown to choose an action."
+notes: |-
+  Source: Bootstrap 5.3 documentation — dropdowns. https://getbootstrap.com/docs/5.3/components/dropdowns/
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

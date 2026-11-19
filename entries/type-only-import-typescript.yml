@@ -1,0 +1,16 @@
+id: type-only-import-typescript
+language: en
+word: "type-only import"
+part_of_speech: noun phrase
+meaning: "仅类型导入，导入供类型检查使用的绑定"
+example: "Use a type-only import for the options interface."
+notes: |-
+  Source: TypeScript Handbook — Modules. https://www.typescriptlang.org/docs/handbook/2/modules.html
+learning_priority: 2
+prerequisites:
+  - module-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

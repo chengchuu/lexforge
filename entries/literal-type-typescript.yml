@@ -1,0 +1,16 @@
+id: literal-type-typescript
+language: en
+word: "literal type"
+part_of_speech: noun phrase
+meaning: "字面量类型，表示某个特定字面值"
+example: "The literal type \"ready\" allows just that string value."
+notes: |-
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+learning_priority: 2
+prerequisites:
+  - literal-programming
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

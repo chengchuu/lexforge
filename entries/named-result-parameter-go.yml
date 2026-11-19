@@ -1,0 +1,16 @@
+id: named-result-parameter-go
+language: en
+word: "named result parameter"
+part_of_speech: noun phrase
+meaning: "命名结果参数，在函数签名中声明名称的返回参数"
+example: "A named result parameter can be assigned before an empty return statement."
+notes: |-
+  Source: Go specification — Function types. https://go.dev/ref/spec#Function_types
+learning_priority: 2
+prerequisites:
+  - return-type-tech
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

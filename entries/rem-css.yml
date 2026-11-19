@@ -1,0 +1,15 @@
+id: rem-css
+language: en
+word: "rem"
+part_of_speech: CSS syntax
+meaning: "以根元素字体大小为基准的 CSS 长度单位"
+example: "Set the spacing in rem to follow the root font size."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - relative-unit-css
+tags:
+  - tech
+  - frontend
+  - css

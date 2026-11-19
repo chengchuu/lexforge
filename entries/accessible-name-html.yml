@@ -1,0 +1,18 @@
+id: accessible-name-html
+language: en
+word: "accessible name"
+part_of_speech: noun phrase
+meaning: "无障碍名称，辅助技术用来标识元素并向用户传达其用途的名称"
+example: "Give the icon button an accessible name that describes its action."
+notes: |-
+  名称可以来自可见标签、文本内容或适用的 ARIA 命名机制。占位符不能代替对输入用途的清楚标注。
+
+  Source: W3C — Accessible Name and Description Computation. https://www.w3.org/TR/accname-1.2/
+learning_priority: 2
+prerequisites:
+  - label-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

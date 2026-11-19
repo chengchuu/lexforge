@@ -1,0 +1,16 @@
+id: sticky-positioning-css
+language: en
+word: "sticky positioning"
+part_of_speech: noun phrase
+meaning: "粘性定位，盒子保留在常规流中，滚动时按指定阈值和范围调整位置"
+example: "Sticky positioning keeps the heading visible as its section scrolls."
+notes: |-
+  Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
+learning_priority: 2
+prerequisites:
+  - normal-flow-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

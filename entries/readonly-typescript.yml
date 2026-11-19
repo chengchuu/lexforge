@@ -1,0 +1,17 @@
+id: readonly-typescript
+language: en
+word: "readonly"
+part_of_speech: keyword
+meaning: "只读修饰符，限制通过该类型写入属性"
+example: "The readonly modifier prevents reassignment through this reference."
+notes: |-
+  限制通过该类型写入属性。此修饰符不会在运行时冻结对象，也不会使嵌套属性自动只读。
+
+  Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
+learning_priority: 2
+prerequisites:
+  - property-tech
+tags:
+  - tech
+  - programming
+  - typescript

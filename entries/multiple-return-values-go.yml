@@ -1,0 +1,16 @@
+id: multiple-return-values-go
+language: en
+word: "multiple return values"
+part_of_speech: noun phrase
+meaning: "多返回值，一次函数调用返回的多个结果"
+example: "The function uses multiple return values to report a result and an error."
+notes: |-
+  Source: Go specification — Function types. https://go.dev/ref/spec#Function_types
+learning_priority: 2
+prerequisites:
+  - return-type-tech
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

@@ -1,0 +1,16 @@
+id: narrowing-typescript
+language: en
+word: "narrowing"
+part_of_speech: noun
+meaning: "类型收窄，根据检查和控制流缩小可能的类型"
+example: "Narrowing lets us treat the value as a string after the check."
+notes: |-
+  Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+learning_priority: 2
+prerequisites:
+  - union-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

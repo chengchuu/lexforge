@@ -1,0 +1,19 @@
+id: border-css
+language: en
+word: "border"
+pronunciation: "/ˈbɔːr.dɚ/"
+part_of_speech: noun
+meaning: "边框，位于内边距与外边距之间的盒子边界"
+example: "The border separates the card from its background."
+notes: |-
+  Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
+
+  Pronunciation source: Cambridge Dictionary — border (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/border
+learning_priority: 1
+prerequisites:
+  - box-model-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

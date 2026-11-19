@@ -1,0 +1,16 @@
+id: null-typescript
+language: en
+word: "null"
+pronunciation: "/nʌl/"
+part_of_speech: keyword
+meaning: "表示有意缺省的空值及其类型"
+example: "The lookup returns null when the record is missing."
+notes: |-
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+  Pronunciation source: Cambridge Dictionary — null (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/null
+learning_priority: 1
+tags:
+  - tech
+  - programming
+  - typescript

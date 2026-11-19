@@ -1,0 +1,15 @@
+id: fr-css
+language: en
+word: "fr"
+part_of_speech: CSS syntax
+meaning: "网格弹性单位，按比例分配可用空间给网格轨道"
+example: "A 2fr track is allocated twice the flexible share of a 1fr track."
+notes: |-
+  Source: W3C — CSS Grid Layout Module Level 2. https://www.w3.org/TR/css-grid-2/
+learning_priority: 3
+prerequisites:
+  - grid-track-css
+tags:
+  - tech
+  - frontend
+  - css

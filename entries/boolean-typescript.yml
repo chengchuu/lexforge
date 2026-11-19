@@ -1,0 +1,20 @@
+id: boolean-typescript
+language: en
+word: "boolean"
+pronunciation: "/ˈbuːliən/"
+part_of_speech: keyword
+meaning: "布尔类型，值为 true 或 false"
+example: "The enabled flag has type boolean."
+notes: |-
+  使用小写 boolean 表示原始布尔类型。Boolean 是 JavaScript 中的构造函数名称，也可指对应的包装对象类型。
+
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+  Pronunciation source: Oxford Advanced Learner’s Dictionary — boolean (US, accessed 2026-11-19). https://www.oxfordlearnersdictionaries.com/definition/english/boolean
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript

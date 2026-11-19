@@ -1,0 +1,17 @@
+id: grid-container-css
+language: en
+word: "grid container"
+part_of_speech: noun phrase
+meaning: "网格容器，使用网格布局安排项目的容器"
+example: "The grid container defines three columns."
+notes: |-
+  Source: W3C — CSS Grid Layout Module Level 2. https://www.w3.org/TR/css-grid-2/
+learning_priority: 2
+prerequisites:
+  - grid-layout-css
+  - display-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

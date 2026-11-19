@@ -1,0 +1,21 @@
+id: render-react
+language: en
+word: "render"
+pronunciation: "/ˈren.dɚ/"
+part_of_speech: verb
+meaning: "渲染，调用组件以计算要显示的界面内容"
+example: "React renders the component to calculate its next output."
+notes: |-
+  渲染阶段计算界面，提交阶段才应用需要的 DOM 变更。
+
+  Source: React docs — Render and Commit. https://react.dev/learn/render-and-commit
+
+  Pronunciation source: Cambridge Dictionary — render (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/render
+learning_priority: 1
+prerequisites:
+  - component-react
+tags:
+  - tech
+  - frontend
+  - react
+  - verb

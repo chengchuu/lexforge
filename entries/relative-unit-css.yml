@@ -1,0 +1,16 @@
+id: relative-unit-css
+language: en
+word: "relative unit"
+part_of_speech: noun phrase
+meaning: "相对单位，根据字体大小、视口等参考量计算的单位"
+example: "Use a relative unit so the spacing scales with text size."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - property-value-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

@@ -1,0 +1,16 @@
+id: column-offset-bootstrap
+language: en
+word: "column offset"
+part_of_speech: noun phrase
+meaning: "列偏移，在栅格布局中按指定列数移动某一列的位置"
+example: "Use .offset-md-2 to apply a two-column offset at the md breakpoint."
+notes: |-
+  Source: Bootstrap 5.3 documentation — columns. https://getbootstrap.com/docs/5.3/layout/columns/
+learning_priority: 2
+prerequisites:
+  - column-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - phrase

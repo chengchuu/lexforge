@@ -1,0 +1,16 @@
+id: happens-before-go
+language: en
+word: "happens-before"
+part_of_speech: noun phrase
+meaning: "先行发生关系，用于描述按内存模型可观测的操作顺序"
+example: "A happens-before relationship orders the write before the read."
+notes: |-
+  Source: The Go Memory Model. https://go.dev/ref/mem
+learning_priority: 3
+prerequisites:
+  - goroutine-go
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

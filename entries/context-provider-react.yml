@@ -1,0 +1,16 @@
+id: context-provider-react
+language: en
+word: "context provider"
+part_of_speech: noun phrase
+meaning: "上下文提供者，为其内部组件提供上下文值的元素"
+example: "Place the context provider above the components that read the theme."
+notes: |-
+  Source: React docs — Managing State. https://react.dev/learn/managing-state
+learning_priority: 2
+prerequisites:
+  - context-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

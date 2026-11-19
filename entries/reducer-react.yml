@@ -1,0 +1,21 @@
+id: reducer-react
+language: en
+word: "reducer"
+pronunciation: "/rɪˈduː.sɚ/"
+part_of_speech: noun
+meaning: "归约函数，根据当前状态和动作计算下一状态"
+example: "The reducer returns the next state for the submitted action."
+notes: |-
+  useReducer 使用 reducer 计算下一状态。reducer 应保持纯性。
+
+  Source: React docs — Managing State. https://react.dev/learn/managing-state
+
+  Pronunciation source: Cambridge Dictionary — reducer (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/reducer
+learning_priority: 2
+prerequisites:
+  - state-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

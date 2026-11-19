@@ -1,0 +1,16 @@
+id: containing-block-css
+language: en
+word: "containing block"
+part_of_speech: noun phrase
+meaning: "包含块，用于计算某些盒子的尺寸和位置的参考区域"
+example: "The wrapper establishes the containing block for the badge."
+notes: |-
+  Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
+learning_priority: 2
+prerequisites:
+  - layout-browser-rendering
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

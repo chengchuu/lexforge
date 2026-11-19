@@ -1,0 +1,16 @@
+id: form-submission-html
+language: en
+word: "form submission"
+part_of_speech: noun phrase
+meaning: "表单提交，浏览器收集表单数据并按指定方式处理的过程"
+example: "Form submission sends the selected values to the server."
+notes: |-
+  Source: WHATWG HTML — Form control infrastructure. https://html.spec.whatwg.org/multipage/form-control-infrastructure.html
+learning_priority: 2
+prerequisites:
+  - form-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

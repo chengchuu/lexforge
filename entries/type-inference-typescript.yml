@@ -1,0 +1,16 @@
+id: type-inference-typescript
+language: en
+word: "type inference"
+part_of_speech: noun phrase
+meaning: "类型推断，根据代码和上下文自动确定类型"
+example: "Type inference determines the type from the initializer."
+notes: |-
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

@@ -1,0 +1,19 @@
+id: portal-react
+language: en
+word: "portal"
+pronunciation: "/ˈpɔːr.t̬əl/"
+part_of_speech: noun
+meaning: "门户，将子节点渲染到不同 DOM 位置并保留其 React 树关系的方式"
+example: "Render the dialog into a portal outside the clipping container."
+notes: |-
+  Source: React docs — createPortal. https://react.dev/reference/react-dom/createPortal
+
+  Pronunciation source: Cambridge Dictionary — portal (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/portal
+learning_priority: 2
+prerequisites:
+  - component-react
+tags:
+  - tech
+  - frontend
+  - react
+  - noun

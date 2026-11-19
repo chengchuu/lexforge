@@ -1,0 +1,20 @@
+id: document-html
+language: en
+word: "document"
+pronunciation: "/ˈdɑː.kjə.mənt/"
+part_of_speech: noun
+meaning: "文档，浏览器中由文档节点及其内容组成的整体"
+example: "The document contains a heading and two paragraphs."
+notes: |-
+  Source: WHATWG DOM Standard. https://dom.spec.whatwg.org/
+
+  Pronunciation source: Cambridge Dictionary — document (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/document
+learning_priority: 1
+prerequisites:
+  - html-language
+tags:
+  - tech
+  - frontend
+  - html
+  - noun
+  - bootstrap

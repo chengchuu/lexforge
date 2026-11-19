@@ -1,0 +1,21 @@
+id: css-language
+language: en
+word: "CSS"
+pronunciation: "/ˌsiː.esˈes/"
+part_of_speech: noun
+meaning: "层叠样式表，用于描述文档呈现样式的语言"
+example: "CSS controls how the page looks."
+notes: |-
+  CSS 是 Cascading Style Sheets 的缩写。
+
+  Source: MDN — CSS styling basics. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
+
+  Pronunciation source: Cambridge Dictionary — CSS (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/css
+learning_priority: 1
+tags:
+  - tech
+  - frontend
+  - css
+  - noun
+  - bootstrap
+  - html

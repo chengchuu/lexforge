@@ -1,0 +1,17 @@
+id: partial-utility-type-typescript
+language: en
+word: "Partial"
+part_of_speech: noun
+meaning: "将类型的所有属性变为可选的工具类型"
+example: "Use Partial when a patch may omit any field."
+notes: |-
+  Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
+learning_priority: 3
+prerequisites:
+  - utility-type-typescript
+  - optional-property-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun

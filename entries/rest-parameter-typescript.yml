@@ -1,0 +1,17 @@
+id: rest-parameter-typescript
+language: en
+word: "rest parameter"
+part_of_speech: noun phrase
+meaning: "剩余参数，将剩余实参收集为数组的形参"
+example: "The rest parameter collects the remaining arguments into an array."
+notes: |-
+  Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
+learning_priority: 2
+prerequisites:
+  - parameter-tech
+  - array-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

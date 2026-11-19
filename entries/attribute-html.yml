@@ -1,0 +1,20 @@
+id: attribute-html
+language: en
+word: "attribute"
+pronunciation: "/ˈæt.rɪ.bjuːt/"
+part_of_speech: noun
+meaning: "属性，在元素上提供额外信息或配置的名称及其值"
+example: "The href attribute specifies the link destination."
+notes: |-
+  Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
+
+  Pronunciation source: Cambridge Dictionary — attribute (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/attribute
+learning_priority: 1
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun
+  - bootstrap

@@ -1,0 +1,21 @@
+id: backdrop-bootstrap
+language: en
+word: "backdrop"
+pronunciation: "/ˈbæk.drɑːp/"
+part_of_speech: noun
+meaning: "背景遮罩，覆盖在页面与对话框之间的背景层"
+example: "The backdrop dims the page behind the modal."
+notes: |-
+  Bootstrap 的 modal 和 offcanvas 可配置是否使用遮罩。
+
+  Source: Bootstrap 5.3 documentation — modal. https://getbootstrap.com/docs/5.3/components/modal/
+
+  Pronunciation source: Cambridge Dictionary — backdrop (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/backdrop
+learning_priority: 2
+prerequisites:
+  - modal-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

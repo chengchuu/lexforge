@@ -1,0 +1,17 @@
+id: exhaustiveness-checking-typescript
+language: en
+word: "exhaustiveness checking"
+part_of_speech: noun phrase
+meaning: "穷尽性检查，确认代码覆盖了所有可能的情况"
+example: "Exhaustiveness checking catches a case missing from the switch."
+notes: |-
+  Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+learning_priority: 2
+prerequisites:
+  - discriminated-union-typescript
+  - never-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

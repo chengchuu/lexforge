@@ -1,0 +1,16 @@
+id: alternative-text-html
+language: en
+word: "alternative text"
+part_of_speech: noun phrase
+meaning: "替代文本，以文字传达图像在当前上下文中的含义或作用"
+example: "Write alternative text that explains what the diagram conveys."
+notes: |-
+  Source: W3C WAI — Images Tutorial. https://www.w3.org/WAI/tutorials/images/
+learning_priority: 2
+prerequisites:
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

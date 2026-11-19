@@ -1,0 +1,16 @@
+id: inline-box-css
+language: en
+word: "inline box"
+part_of_speech: noun phrase
+meaning: "行内盒，参与行内布局并可随内容分布在行内的盒子"
+example: "The span produces an inline box within the text."
+notes: |-
+  Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
+learning_priority: 2
+prerequisites:
+  - normal-flow-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

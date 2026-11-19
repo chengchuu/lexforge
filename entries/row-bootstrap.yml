@@ -1,0 +1,19 @@
+id: row-bootstrap
+language: en
+word: "row"
+pronunciation: "/roʊ/"
+part_of_speech: noun
+meaning: "行，栅格中包裹列以组织水平布局的元素"
+example: "Place the two columns in the same row."
+notes: |-
+  Source: Bootstrap 5.3 documentation — grid. https://getbootstrap.com/docs/5.3/layout/grid/
+
+  Pronunciation source: Cambridge Dictionary — row (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/row
+learning_priority: 1
+prerequisites:
+  - grid-system-bootstrap
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

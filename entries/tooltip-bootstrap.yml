@@ -1,0 +1,21 @@
+id: tooltip-bootstrap
+language: en
+word: "tooltip"
+pronunciation: "/ˈtuːl.tɪp/"
+part_of_speech: noun
+meaning: "工具提示，与触发元素关联的简短补充说明"
+example: "A tooltip explains the icon button's action."
+notes: |-
+  tooltip 提供补充说明。控件本身仍需要可访问的名称。
+
+  Source: Bootstrap 5.3 documentation — tooltips. https://getbootstrap.com/docs/5.3/components/tooltips/
+
+  Pronunciation source: Cambridge Dictionary — tooltip (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/tooltip
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

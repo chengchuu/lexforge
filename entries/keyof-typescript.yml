@@ -1,0 +1,16 @@
+id: keyof-typescript
+language: en
+word: "keyof"
+part_of_speech: keyword
+meaning: "生成类型的属性键类型的运算符"
+example: "Use keyof to restrict the key to known properties."
+notes: |-
+  Source: TypeScript Handbook — Keyof Type Operator. https://www.typescriptlang.org/docs/handbook/2/keyof-types.html
+learning_priority: 3
+prerequisites:
+  - property-tech
+  - union-tech
+tags:
+  - tech
+  - programming
+  - typescript

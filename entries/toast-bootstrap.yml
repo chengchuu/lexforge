@@ -1,0 +1,19 @@
+id: toast-bootstrap
+language: en
+word: "toast"
+pronunciation: "/toʊst/"
+part_of_speech: noun
+meaning: "轻提示，用于呈现简短消息的轻量通知组件"
+example: "Show a toast after copying the link."
+notes: |-
+  Source: Bootstrap 5.3 documentation — toasts. https://getbootstrap.com/docs/5.3/components/toasts/
+
+  Pronunciation source: Cambridge Dictionary — toast (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/toast
+learning_priority: 2
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

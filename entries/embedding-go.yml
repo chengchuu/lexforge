@@ -1,0 +1,16 @@
+id: embedding-go
+language: en
+word: "embedding"
+part_of_speech: noun
+meaning: "嵌入，在结构体中声明嵌入字段或在接口中包含其他接口"
+example: "Embedding can promote methods from an embedded field."
+notes: |-
+  Source: Go specification — Types. https://go.dev/ref/spec#Types
+learning_priority: 2
+prerequisites:
+  - struct-go
+tags:
+  - tech
+  - programming
+  - go
+  - noun

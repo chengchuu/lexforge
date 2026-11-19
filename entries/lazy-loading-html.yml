@@ -1,0 +1,16 @@
+id: lazy-loading-html
+language: en
+word: "lazy loading"
+part_of_speech: noun phrase
+meaning: "延迟加载，将图像或内嵌框架等资源推迟到接近需要时再加载"
+example: "Use lazy loading for images well below the first screen."
+notes: |-
+  Source: WHATWG HTML — Embedded content. https://html.spec.whatwg.org/multipage/embedded-content.html
+learning_priority: 2
+prerequisites:
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

@@ -1,0 +1,18 @@
+id: header-cell-html
+language: en
+word: "header cell"
+part_of_speech: noun phrase
+meaning: "表头单元格，用于标识一组相关数据单元格的标题单元格"
+example: "Use a header cell to label the Revenue column."
+notes: |-
+  使用 <th> 表示表头。可用 scope 明确它是行表头还是列表头。
+
+  Source: W3C WAI — Tables Tutorial. https://www.w3.org/WAI/tutorials/tables/
+learning_priority: 2
+prerequisites:
+  - table-row-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

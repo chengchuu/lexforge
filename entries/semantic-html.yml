@@ -1,0 +1,18 @@
+id: semantic-html
+language: en
+word: "semantic HTML"
+part_of_speech: noun phrase
+meaning: "语义化 HTML，按内容的含义和用途选择元素"
+example: "Semantic HTML makes the page's structure easier to understand."
+notes: |-
+  例如 <main> 表示主要内容，<nav> 表示导航区域。应根据内容用途选择元素。
+
+  Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+learning_priority: 2
+prerequisites:
+  - element-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

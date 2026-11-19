@@ -1,0 +1,17 @@
+id: argument-tech
+language: en
+word: "argument"
+part_of_speech: noun
+meaning: "实参，调用时传给函数的值"
+example: "We pass 42 as the second argument."
+notes: |-
+  Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
+learning_priority: 1
+prerequisites:
+  - function-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - noun
+  - go

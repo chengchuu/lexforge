@@ -1,0 +1,22 @@
+id: gutter-bootstrap
+language: en
+word: "gutter"
+pronunciation: "/ˈɡʌt̬.ɚ/"
+part_of_speech: noun
+meaning: "栅格间距，Bootstrap 栅格用列的水平内边距等方式产生的列间和行间空隙"
+example: "Increase the horizontal gutter between the columns with .gx-4."
+notes: |-
+  横向 gutter 通过列内边距和行的负外边距配合实现。纵向 gutter 使用相应的纵向间距规则。
+
+  Source: Bootstrap 5.3 documentation — gutters. https://getbootstrap.com/docs/5.3/layout/gutters/
+
+  Pronunciation source: Cambridge Dictionary — gutter (US, accessed 2026-11-19). https://dictionary.cambridge.org/us/pronunciation/english/gutter
+learning_priority: 2
+prerequisites:
+  - column-bootstrap
+  - padding-css
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

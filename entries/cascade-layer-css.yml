@@ -1,0 +1,18 @@
+id: cascade-layer-css
+language: en
+word: "cascade layer"
+part_of_speech: noun phrase
+meaning: "层叠层，在同一来源内部为声明组织优先顺序的分组"
+example: "Put third-party styles in a separate cascade layer."
+notes: |-
+  对于同一来源中的普通声明，后声明的层优先。重要声明的层顺序反转，未分层声明的处理也不同。
+
+  Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
+learning_priority: 3
+prerequisites:
+  - cascade-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

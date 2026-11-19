@@ -1,0 +1,20 @@
+id: autocomplete-html
+language: en
+word: "autocomplete"
+pronunciation: "/ˈɑː.t̬oʊ.kəmˌpliːt/"
+part_of_speech: noun
+meaning: "自动填充提示，帮助浏览器判断是否以及如何填充表单控件"
+example: "Use autocomplete to identify the field for the user's email address."
+notes: |-
+  Source: WHATWG HTML — Form control infrastructure. https://html.spec.whatwg.org/multipage/form-control-infrastructure.html
+
+  Pronunciation source: Cambridge Dictionary — autocomplete (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/autocomplete
+learning_priority: 2
+prerequisites:
+  - form-control-bootstrap
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - noun

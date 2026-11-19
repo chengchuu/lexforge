@@ -1,0 +1,21 @@
+id: string-typescript
+language: en
+word: "string"
+pronunciation: "/strɪŋ/"
+part_of_speech: keyword
+meaning: "字符串类型"
+example: "The name parameter has type string."
+notes: |-
+  使用小写 string 表示原始字符串类型。String 可指 JavaScript 的构造函数或包装对象类型。
+
+  Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
+
+  Pronunciation source: Cambridge Dictionary — string (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/string
+learning_priority: 1
+prerequisites:
+  - type-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - go

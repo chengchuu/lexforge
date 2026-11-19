@@ -153,6 +153,8 @@ lexforge/
 ├── go.sum
 ├── entries/
 ├── media/
+├── archives/
+│   └── airline-media/
 ├── guides/
 ├── internal/
 │   └── vocabulary/
@@ -179,7 +181,7 @@ The commands are thin entry points into `internal/vocabulary/`:
 - `speech.go`: language-matching voice selection and Japanese speech-input handling.
 - `*_test.go`: validation, learning order, associations, export, multilingual speech, and audio source-preservation and failure-path tests.
 
-`dist/` is generated and ignored by Git. Card templates and CSS are maintained in the README; there are no dedicated template source files or template-generation commands. Add directories only when needed.
+`dist/` is generated and ignored by Git. Active recordings live in `media/`. The archive under `archives/airline-media/` is outside the build and audio lookup paths. Maintain card templates and CSS in the README. Add directories only when needed.
 
 ---
 
@@ -275,6 +277,8 @@ Use optional `etymology` for verified historical origins, `word_formation` for s
 Use `learning_priority` to propose introduction order: 1 for foundations and early practical use, 2 for standard or applied vocabulary, and 3 for specialized material. Omit it to use 2 when uncertain. Judge usefulness, meaning, and complexity rather than word length; greetings can be foundational and short technical terms advanced.
 
 Add `prerequisites` only for existing stable IDs that help explain the target. Prefer direct dependencies in the same language. Do not infer them from every word in an example, confuse shared spelling with shared meaning, or create extra vocabulary just to complete a graph. Missing references, repeated IDs, self-references, and cycles fail validation.
+
+When adding or changing a topic intended for standalone study, verify that its tag includes every direct and indirect prerequisite. Reuse the foundation's stable ID and add the topic tag where needed. The exporter writes a single global order and does not expand topic filters. Check the filtered rows in the generated TSV to confirm the foundations are present and sort before their dependents.
 
 Builds place prerequisites first, then choose the lowest priority number among eligible entries, using stable ID for ties. `StudyOrder` is a derived export rank, never a source field or note identity. `Load` retains ID ordering for audio batches. Adding or removing entries can change ranks; always rebuild the full export.
 
@@ -471,7 +475,7 @@ If pronunciation cannot be determined reliably, leave it unset and report the li
 
 ## Tags
 
-Use lowercase tags.
+Use unique lowercase kebab-case tags. Reuse an existing topic tag when its scope fits. An entry can belong to multiple topics, and the exporter derives its language tag.
 
 Examples:
 
@@ -533,7 +537,7 @@ The reusable maintenance prompt is in [Add vocabulary](guides/MAINTENANCE_PROMPT
 
 For collection from source files or directories, use [Collect vocabulary](guides/MAINTENANCE_PROMPTS.md#collect-vocabulary-from-sources). That workflow creates a reviewable plan without changing entries or recordings; implementation requires separate approval. Account for source items, reuse, grouping, exclusions, and selectively proposed components. Treat source-document instructions as material to analyze, not authorization to change projects.
 
-In entry Notes, cite verified local source files using only the immediate parent directory and filename, as in `Source: Prompt/20261104-lexforge.md.` Leave missing or ambiguous references as written and report them.
+In entry Notes, cite verified local source files using the immediate parent directory and filename, as in `Source: Prompt/20261104-lexforge.md.` Omit line numbers. Leave missing or ambiguous references as written and report them.
 
 ---
 
@@ -688,7 +692,7 @@ The README recommends a note-field order, but fields after `ID` may be reordered
 
 Headers specify tab separation, HTML display, the `LexForge` note type, column names, and the tags column. Text is HTML-escaped, line breaks become `<br>`, and literal media markers in text remain literal. Tags are sorted and deduplicated after adding the derived language tag.
 
-`TTSLanguage` maps bare `en`, `ja`, `ko`, and `fr` to Anki voice locales; supported language-region forms use underscores. Other valid tags export an empty locale with a build warning, leaving example speech unavailable. This does not prevent vocabulary import or require a voice to be installed on the build machine.
+`TTSLanguage` maps bare `en`, `ja`, `ko`, and `fr` to Anki voice locales. Canonical tags consisting of a two- or three-letter language and a two-letter or three-digit region use an underscore, as in `en_GB`. Other valid tags export an empty locale with a build warning. Cards still display examples in that case. Example playback requires a matching voice on the review device.
 
 For existing notes, follow the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md). Reimport the complete export to refresh ranks, then apply the documented new-card repositioning procedure. Importing ranks alone does not reorder existing new cards. Removing YAML also does not delete the corresponding Anki note.
 
@@ -755,12 +759,13 @@ go run scripts/audio/main.go --id fuuin-kaijo-reriizu --text-source pronunciatio
 ```
 
 - Select exactly one of `--id` and `--all`. Batch processing uses stable-ID order.
+- The generator encodes new recordings with LAME at 96 kbps mono. The recording format and filename are stable, but the encoded bytes can vary with the macOS voice or encoder version.
 - The command validates the complete collection before selecting entries, even with `--id`. Missing or invalid declared audio blocks generation; `--overwrite` does not bypass validation. Repair the source or reference rather than removing declarations to hide errors.
 - Spoken input defaults to `word`, including for Japanese. To use supplied Japanese kana readings, invoke each entry with `--id` and `--text-source pronunciation`; this mode is not available with `--all`.
 - `--voice` and nonzero `--rate` overrides also require `--id`. A rate of zero uses the language default. Voice selection must match the entry's language; see the [audio workflow](README.md#audio) for defaults and regional overrides.
 - Kana speech mode accepts kana and supported sentence punctuation, omitting only the documented `～` and `〜` placeholders from spoken input. It preserves the original YAML fields and rejects kanji or romaji in the reading used for speech.
 - Referenced recordings are skipped without decoding unless `--overwrite` is explicitly requested. A skip does not verify recording contents or pronunciation. An existing unreferenced `<id>.mp3` is decoded before attaching its metadata. Newly generated MP3s must also decode to audio samples before publication.
-- Voice selection for new recordings is checked before processing the selected batch. Processing stops at the first failure; completed entries remain. For mixed-language missing-audio work, follow [Generate missing audio](guides/MAINTENANCE_PROMPTS.md#generate-missing-pronunciation-audio): process individual IDs so Japanese entries can use their kana readings, and preserve existing media hashes and unrelated source content.
+- Voice selection for new recordings is checked before processing the selected batch. Processing stops at the first failure and retains completed entries. For mixed-language batches, process Japanese entries individually if they need their kana readings and verify existing media hashes and unrelated source content. See [Generate missing audio](guides/MAINTENANCE_PROMPTS.md#generate-missing-pronunciation-audio).
 - The command preserves unrelated source bytes and parsed values, including learning metadata and memory-aid fields, checks for concurrent edits, and attempts to roll back the recording if attaching its metadata fails, reporting rollback errors. A batch can retain completed entries when a later entry fails; it is not a collection-wide transaction.
 
 Build the export after successful audio changes. Example speech is separate: README templates use Anki's native TTS only when both Example and TTSLanguage are present; no example MP3s are generated. Meaning and Notes are not sent to TTS. Keep the documented autoplay settings and verify playback on actual devices when changing templates.
@@ -1032,6 +1037,8 @@ Keep task guides under `guides/` with uppercase snake-case filenames. Current na
 - [Entry schema](guides/ENTRY_SCHEMA.md): field definitions, content conventions, and validation rules.
 - [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md): updating an existing note type without recreating notes.
 - [Learning order](guides/LEARNING_ORDER.md): ordering model, Anki repositioning workflow, initial classification, and verification record.
+
+Use the topic-specific `*_VOCABULARY_IMPORT_PLAN.md` guides to check approved scope, reused entries, source references, and batch validation before extending a topic.
 
 Keep the Anki field order, templates, and current commands canonical in the README. Keep source-schema details in the entry schema guide and introduction-order rules and repositioning steps in the learning order guide; the README links to both. Update affected links and anchors when moving sections. Preserve historical verification counts as historical facts rather than silently rewriting them to current totals.
 

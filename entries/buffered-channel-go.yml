@@ -1,0 +1,17 @@
+id: buffered-channel-go
+language: en
+word: "buffered channel"
+part_of_speech: noun phrase
+meaning: "缓冲通道，有容量可暂存待接收的值"
+example: "The buffered channel can accept a value while it has room."
+notes: |-
+  Source: Go specification — Channel types. https://go.dev/ref/spec#Channel_types
+learning_priority: 2
+prerequisites:
+  - channel-go
+  - capacity-go
+tags:
+  - tech
+  - programming
+  - go
+  - phrase

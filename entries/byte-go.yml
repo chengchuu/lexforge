@@ -1,0 +1,18 @@
+id: byte-go
+language: en
+word: "byte"
+pronunciation: "/baɪt/"
+part_of_speech: predeclared identifier
+meaning: "字节，Go 中 uint8 的别名"
+example: "The reader fills a byte slice."
+notes: |-
+  Source: Go specification — Types. https://go.dev/ref/spec#Types
+
+  Pronunciation source: Cambridge Dictionary — byte (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/byte
+learning_priority: 1
+prerequisites:
+  - int-go
+tags:
+  - tech
+  - programming
+  - go

@@ -1,0 +1,16 @@
+id: text-wrapping-css
+language: en
+word: "text wrapping"
+part_of_speech: noun phrase
+meaning: "文本换行，文本按可用宽度和换行规则分布到多行"
+example: "Test text wrapping on a narrow screen."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - inline-box-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

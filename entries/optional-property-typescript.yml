@@ -1,0 +1,16 @@
+id: optional-property-typescript
+language: en
+word: "optional property"
+part_of_speech: noun phrase
+meaning: "可选属性，对象中可以缺省的属性"
+example: "An optional property can be absent from the response."
+notes: |-
+  Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
+learning_priority: 2
+prerequisites:
+  - property-tech
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase

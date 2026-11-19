@@ -1,0 +1,16 @@
+id: uncontrolled-component-react
+language: en
+word: "uncontrolled component"
+part_of_speech: noun phrase
+meaning: "非受控组件，相关状态主要由组件自身或 DOM 管理的组件"
+example: "An uncontrolled component can manage its own input value."
+notes: |-
+  Source: React docs — Managing State. https://react.dev/learn/managing-state
+learning_priority: 2
+prerequisites:
+  - controlled-component-react
+tags:
+  - tech
+  - frontend
+  - react
+  - phrase

@@ -1,0 +1,17 @@
+id: type-parameter-typescript
+language: en
+word: "type parameter"
+part_of_speech: noun phrase
+meaning: "类型形参，在泛型定义中代表待确定的类型"
+example: "The type parameter connects the element type to the result."
+notes: |-
+  Source: TypeScript Handbook — Generics. https://www.typescriptlang.org/docs/handbook/2/generics.html
+learning_priority: 2
+prerequisites:
+  - generic-typescript
+tags:
+  - tech
+  - programming
+  - typescript
+  - phrase
+  - go

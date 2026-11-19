@@ -1,0 +1,19 @@
+id: container-bootstrap
+language: en
+word: "container"
+pronunciation: "/kənˈteɪ.nɚ/"
+part_of_speech: noun
+meaning: "容器，用于包裹页面内容并控制其宽度与水平内边距"
+example: "Wrap the page content in a container."
+notes: |-
+  Source: Bootstrap 5.3 documentation — containers. https://getbootstrap.com/docs/5.3/layout/containers/
+
+  Pronunciation source: Cambridge Dictionary — container (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/container
+learning_priority: 1
+prerequisites:
+  - bootstrap-framework
+tags:
+  - tech
+  - frontend
+  - bootstrap
+  - noun

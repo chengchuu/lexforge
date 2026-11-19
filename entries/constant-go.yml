@@ -1,0 +1,17 @@
+id: constant-go
+language: en
+word: "constant"
+pronunciation: "/ˈkɑːn.stənt/"
+part_of_speech: noun
+meaning: "常量，在编译时确定的值"
+example: "The package declares a constant for the default limit."
+notes: |-
+  Source: Go specification. https://go.dev/ref/spec
+
+  Pronunciation source: Cambridge Dictionary — constant (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/constant
+learning_priority: 1
+tags:
+  - tech
+  - programming
+  - go
+  - noun

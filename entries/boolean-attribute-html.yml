@@ -1,0 +1,18 @@
+id: boolean-attribute-html
+language: en
+word: "boolean attribute"
+part_of_speech: noun phrase
+meaning: "布尔属性，出现表示真，缺省表示假"
+example: "The disabled boolean attribute disables the button when present."
+notes: |-
+  disabled="false" 不是合规的布尔属性写法。浏览器仍会把存在的 disabled 当作真，因此控件仍被禁用。要表达假，应省略该属性。
+
+  Source: WHATWG HTML — Boolean attributes. https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes
+learning_priority: 2
+prerequisites:
+  - attribute-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

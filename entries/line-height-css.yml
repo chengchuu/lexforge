@@ -1,0 +1,16 @@
+id: line-height-css
+language: en
+word: "line height"
+part_of_speech: noun phrase
+meaning: "行高，影响行盒高度和文本行间距的设置"
+example: "Increase the line height to make the paragraph easier to read."
+notes: |-
+  Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+learning_priority: 2
+prerequisites:
+  - inline-box-css
+tags:
+  - tech
+  - frontend
+  - css
+  - phrase

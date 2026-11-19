@@ -1,0 +1,16 @@
+id: combinator-css
+language: en
+word: "combinator"
+part_of_speech: noun
+meaning: "组合符，在选择器中表达元素之间的关系"
+example: "The child combinator > matches direct children."
+notes: |-
+  Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
+learning_priority: 2
+prerequisites:
+  - selector-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

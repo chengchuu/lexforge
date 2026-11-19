@@ -1,0 +1,16 @@
+id: pseudo-element-css
+language: en
+word: "pseudo-element"
+part_of_speech: noun
+meaning: "伪元素，表示元素的一部分或与元素关联的抽象对象"
+example: "The ::first-line pseudo-element styles the first formatted line."
+notes: |-
+  Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
+learning_priority: 2
+prerequisites:
+  - selector-css
+tags:
+  - tech
+  - frontend
+  - css
+  - noun

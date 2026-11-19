@@ -1,0 +1,16 @@
+id: source-set-html
+language: en
+word: "source set"
+part_of_speech: noun phrase
+meaning: "候选图片集合，浏览器可根据条件从中选择图片资源"
+example: "The source set offers several widths through srcset."
+notes: |-
+  Source: WHATWG HTML — Embedded content. https://html.spec.whatwg.org/multipage/embedded-content.html
+learning_priority: 2
+prerequisites:
+  - responsive-image-html
+tags:
+  - tech
+  - frontend
+  - html
+  - phrase

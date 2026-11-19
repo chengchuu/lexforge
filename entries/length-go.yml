@@ -1,0 +1,19 @@
+id: length-go
+language: en
+word: "length"
+pronunciation: "/leŋθ/"
+part_of_speech: noun
+meaning: "长度，表示切片等值当前包含的元素数"
+example: "The slice has a length of three."
+notes: |-
+  Source: Go specification — Built-in functions. https://go.dev/ref/spec#Built-in_functions
+
+  Pronunciation source: Cambridge Dictionary — length (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/length
+learning_priority: 1
+prerequisites:
+  - slice-go
+tags:
+  - tech
+  - programming
+  - go
+  - noun
