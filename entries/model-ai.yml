@@ -1,0 +1,19 @@
+id: "model-ai"
+language: "en"
+word: "model"
+pronunciation: "/ˈmɑdəl/"
+part_of_speech: "noun"
+meaning: "模型；根据输入生成回答或工具请求的 AI 系统。"
+example: "Choose a model that fits the task."
+notes: |-
+  这里学习语言模型的技术含义。模型不等于管理工具执行和会话状态的 harness，也不等于提供模型访问接口的 provider。
+  Reference: Visual Studio Code — Understand agent harnesses. https://code.visualstudio.com/docs/agents/concepts/agent-harnesses (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — model; model in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/model (accent: US; accessed 2026-11-19).
+related_entries:
+  - harness-ai
+learning_priority: 2
+audio: model-ai.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

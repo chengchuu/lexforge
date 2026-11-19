@@ -1,0 +1,20 @@
+id: "prompt-ai"
+language: "en"
+word: "prompt"
+pronunciation: "/prɑmpt/"
+part_of_speech: "noun"
+meaning: "提示词；向模型提供的任务要求和相关输入。"
+context: "表达目标、约束和验收标准。"
+example: "Write a clear prompt before starting the task."
+notes: |-
+  Codex CLI 接受任务提示作为输入。提示词可描述任务目标、修改边界和检查要求。这是撰写建议，不是 CLI 强制的固定格式。这里不是表示及时的形容词，也不专指 Shell 命令提示符。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — prompt; prompt in American English. https://www.collinsdictionary.com/dictionary/english/prompt (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: prompt-ai.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun
+  - agent-harness

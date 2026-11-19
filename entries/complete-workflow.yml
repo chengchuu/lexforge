@@ -1,0 +1,20 @@
+id: "complete-workflow"
+language: "en"
+word: "complete"
+pronunciation: "/kəmˈplit/"
+part_of_speech: "verb; adjective"
+meaning: "完成；已结束所要求的工作，或使工作达到完成状态。"
+context: "理解完成状态与验收证据。"
+example: "Complete the review before making more changes."
+notes: |-
+  completed 是 complete 的过去式或过去分词。目标完成状态与 Goal achieved 相对应，但这不表示界面一定显示单独的 Complete。完成某一步与完成整个目标应分别判断，并检查适用的验证结果。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — goal_status_indicator_line. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/bottom_pane/footer.rs
+  Pronunciation source: Collins Dictionary — complete; complete in American English. https://www.collinsdictionary.com/dictionary/english/complete (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: complete-workflow.mp3
+tags:
+  - general
+  - codex-cli
+  - verb
+  - adjective

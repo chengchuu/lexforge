@@ -1,0 +1,19 @@
+id: "achieve-general"
+language: "en"
+word: "achieve"
+pronunciation: "/əˈtʃiv/"
+part_of_speech: "verb"
+meaning: "达成；通过努力取得预期的目标或结果。"
+context: "理解 Goal achieved 中的动作含义。"
+example: "We achieved the goal after the tests passed."
+notes: |-
+  常见搭配为 achieve a goal。Goal achieved 是表示目标已达成的简短状态提示，achieved 是过去分词。保留完整提示作为用法，不另建整句卡片。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — goal_status_indicator_line. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/bottom_pane/footer.rs
+  Pronunciation source: Collins Dictionary — achieve; achieve in American English. https://www.collinsdictionary.com/dictionary/english/achieve (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: achieve-general.mp3
+tags:
+  - general
+  - codex-cli
+  - verb

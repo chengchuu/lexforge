@@ -1,0 +1,22 @@
+id: "fork-session-tech"
+language: "en"
+word: "fork"
+pronunciation: "/fɔrk/"
+part_of_speech: "verb"
+meaning: "分出新会话；从已有对话建立可继续推进的独立分支。"
+context: "尝试另一种方案，同时保留原对话。"
+example: "Fork the session to explore another approach."
+notes: |-
+  /fork 从当前对话分出新会话。终端中的 codex fork 用于选择已有会话再分支。会话分支与 Git 仓库派生、进程 fork 的含义不同。分出会话不等于隔离工作文件；是否使用新 worktree 应核对界面选择。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — fork; fork in American English. https://www.collinsdictionary.com/dictionary/english/fork (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - session-tech
+audio: fork-session-tech.mp3
+tags:
+  - tech
+  - codex-cli
+  - verb

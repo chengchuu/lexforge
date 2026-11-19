@@ -1,0 +1,19 @@
+id: "hook-tech"
+language: "en"
+word: "hook"
+pronunciation: "/hʊk/"
+part_of_speech: "noun"
+meaning: "钩子；在预定生命周期事件发生时触发配置动作的扩展点。"
+example: "Run the formatter from a hook after an edit."
+notes: |-
+  不同工具支持的事件和处理动作不同，不一定只执行 shell 命令。此义与 React Hook 不同，不能套用 React 的调用规则；一个 hook 是否能阻止操作要看宿主约定。
+  Reference: Claude Code — Hooks reference. https://code.claude.com/docs/en/hooks (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — hook; hook in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/hook (accent: US; accessed 2026-11-19).
+related_entries:
+  - hook-react
+learning_priority: 2
+audio: hook-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

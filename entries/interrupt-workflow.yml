@@ -1,0 +1,19 @@
+id: "interrupt-workflow"
+language: "en"
+word: "interrupt"
+pronunciation: "/ˌɪntəˈrʌpt/"
+part_of_speech: "verb"
+meaning: "中断；使正在进行的活动暂时或提前停止。"
+context: "在需要检查或调整方向时停止当前推进。"
+example: "The user interrupted the task to review the proposed changes."
+notes: |-
+  interrupt 表达中断活动，不是本批核实到的内建斜杠命令名。具体中断方式以当前界面的快捷键提示为准。中断一轮任务不等于删除会话，也不保证撤销已完成的文件修改。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — interrupt; interrupt in American English. https://www.collinsdictionary.com/dictionary/english/interrupt (accent: US; accessed 2026-11-19).
+learning_priority: 2
+audio: interrupt-workflow.mp3
+tags:
+  - tech
+  - codex-cli
+  - verb

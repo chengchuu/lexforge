@@ -1,0 +1,18 @@
+id: "system-prompt-ai"
+language: "en"
+word: "system prompt"
+part_of_speech: "noun phrase"
+meaning: "系统提示；用于设定模型角色、行为要求和任务边界的系统层输入。"
+example: "The system prompt defines the assistant’s role."
+notes: |-
+  具体消息层级和可配置方式依工具及模型接口而异。系统提示不是操作系统权限或沙箱，不能只靠提示文本保证操作一定被阻止。
+  Reference: Gemini CLI — System Prompt Override. https://geminicli.com/docs/cli/system-prompt/ (accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - prompt-ai
+  - instruction-tech
+audio: system-prompt-ai.mp3
+tags:
+  - tech
+  - agent-harness
+  - phrase

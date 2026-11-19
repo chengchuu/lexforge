@@ -1,0 +1,17 @@
+id: "configuration-tech"
+language: "en"
+word: "configuration"
+pronunciation: "/kənˌfɪɡjəˈreɪʃən/"
+part_of_speech: "noun"
+meaning: "配置；决定系统行为的设置及其组合。"
+example: "Review the configuration before starting the session."
+notes: |-
+  配置可能控制模型选择、插件和权限等。配置文件、命令行参数等如何合并和覆盖依工具而异，不把单个产品的优先级当作通用规则。
+  Reference: OpenCode — Plugins. https://opencode.ai/docs/plugins/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — configuration; configuration in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/configuration (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: configuration-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

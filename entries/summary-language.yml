@@ -1,0 +1,21 @@
+id: "summary-language"
+language: "en"
+word: "summary"
+pronunciation: "/ˈsʌməri/"
+part_of_speech: "noun"
+meaning: "摘要；保留主要内容的简短概述。"
+context: "阅读回顾结果或压缩后的要点。"
+example: "Include the remaining tasks in the summary."
+notes: |-
+  summary 是摘要结果的名称。/recap 会生成用于回顾的摘要，/compact 用摘要压缩上下文。摘要不等于完整会话记录，也不能保证保留每一个细节。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — summary; summary in American English; noun. https://www.collinsdictionary.com/dictionary/english/summary (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: summary-language.mp3
+tags:
+  - general
+  - codex-cli
+  - noun
+  - agent-harness

@@ -1,0 +1,21 @@
+id: "checkpoint-tech"
+language: "en"
+word: "checkpoint"
+pronunciation: "/ˈtʃɛkˌpɔɪnt/"
+part_of_speech: "noun"
+meaning: "检查点；用于检查进度或支持恢复的阶段性状态记录。"
+example: "Create a checkpoint before applying the changes."
+notes: |-
+  保存和恢复哪些内容依工具而异。检查点不一定是项目 Git 提交，也不保证撤销网络请求、外部服务操作或所有文件变更；使用前应核对范围。
+  Reference: Gemini CLI — Checkpointing. https://geminicli.com/docs/cli/checkpointing/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — checkpoint; checkpoint in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/checkpoint (accent: US; accessed 2026-11-19).
+related_entries:
+  - snapshot-tech
+learning_priority: 2
+prerequisites:
+  - snapshot-tech
+audio: checkpoint-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

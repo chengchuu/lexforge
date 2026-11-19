@@ -1,0 +1,19 @@
+id: "memory-ai"
+language: "en"
+word: "memory"
+pronunciation: "/ˈmɛməri/"
+part_of_speech: "noun"
+meaning: "记忆；智能体保存并可在后续交互中重新使用的信息。"
+example: "Review the saved memory before reusing it."
+notes: |-
+  这里是智能体的信息保留机制，不是故事中的个人回忆。它不保证逐字保存全部对话，也不保证内容永远正确；保存、加载和更新方式依工具而异。
+  Reference: Claude Code — How Claude remembers your project. https://code.claude.com/docs/en/memory (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — memory; memory in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/memory (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - session-tech
+audio: memory-ai.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

@@ -1,0 +1,17 @@
+id: "plugin-tech"
+language: "en"
+word: "plugin"
+pronunciation: "/ˈplʌɡˌɪn/"
+part_of_speech: "noun"
+meaning: "插件；由宿主按其扩展机制加载、用于增加功能的组件。"
+example: "Check the plugin’s compatibility before loading it."
+notes: |-
+  plugin 也写作 plug-in；本条以软件界面常见的 plugin 为词头。实际加载形式依宿主而异，不必是单个脚本文件。已有 JavaScript plugin 条目侧重 Bootstrap，本条学习通用插件概念。
+  Reference: OpenCode — Plugins. https://opencode.ai/docs/plugins/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — plug-in; plug-in in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/plug-in (accent: US; accessed 2026-11-19).
+learning_priority: 2
+audio: plugin-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

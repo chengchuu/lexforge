@@ -1,0 +1,19 @@
+id: "extension-tech"
+language: "en"
+word: "extension"
+pronunciation: "/ɛkˈstɛnʃən/"
+part_of_speech: "noun"
+meaning: "扩展；为宿主增加功能或资源的附加组件或资源包。"
+example: "Disable the extension if it is no longer needed."
+notes: |-
+  这里学习软件扩展义，不是文件扩展名。不同产品可能把提示、工具连接或技能等打包为扩展；extension 与 plugin 的边界依宿主约定，不能推定固定包含关系。
+  Reference: Gemini CLI — Extensions. https://geminicli.com/docs/extensions/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — extension; extension in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/extension (accent: US; accessed 2026-11-19).
+related_entries:
+  - plugin-tech
+learning_priority: 2
+audio: extension-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

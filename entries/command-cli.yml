@@ -1,0 +1,20 @@
+id: "command-cli"
+language: "en"
+word: "command"
+pronunciation: "/kəˈmænd/"
+part_of_speech: "noun"
+meaning: "命令；要求程序执行某项操作的指令。"
+context: "区分终端子命令与交互界面的斜杠命令。"
+example: "Check the command before running it."
+notes: |-
+  codex resume 是终端命令，/resume 是 Codex 交互界面的斜杠命令。普通英语提示不是自动可执行的命令。codex --help 和 codex resume --help 可查看本机帮助。其他子命令可按同样方式查询。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — command; command in American English. https://www.collinsdictionary.com/dictionary/english/command (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: command-cli.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun

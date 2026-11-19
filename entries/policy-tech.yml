@@ -1,0 +1,19 @@
+id: "policy-tech"
+language: "en"
+word: "policy"
+pronunciation: "/ˈpɑləsi/"
+part_of_speech: "noun"
+meaning: "策略；决定操作是否允许、拒绝或需要确认的执行规则。"
+example: "The policy requires approval for this operation."
+notes: |-
+  此处不是保险单。策略规则、某次审批结果和自然语言指令是不同概念；具体规则是否生效、在哪一层执行，应查实际工具实现。
+  Reference: Gemini CLI — Policy engine. https://geminicli.com/docs/reference/policy-engine/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — policy; policy in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/policy (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - permission-tech
+audio: policy-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

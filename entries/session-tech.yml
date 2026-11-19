@@ -1,0 +1,21 @@
+id: "session-tech"
+language: "en"
+word: "session"
+pronunciation: "/ˈsɛʃən/"
+part_of_speech: "noun"
+meaning: "会话；可继续交互并保存相关对话历史的一次交流过程。"
+context: "区分当前会话、历史会话和单次回复。"
+example: "Resume the previous session."
+notes: |-
+  session 指会话，不等于一次模型回复、一个终端进程或当前目录。codex resume 用于继续已有会话，codex fork 用于分出会话。工作目录与会话历史需要分别理解。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — session; session in American English. https://www.collinsdictionary.com/dictionary/english/session (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: session-tech.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun
+  - agent-harness

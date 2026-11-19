@@ -1,0 +1,21 @@
+id: "reasoning-ai"
+language: "en"
+word: "reasoning"
+pronunciation: "/ˈrizənɪŋ/"
+part_of_speech: "noun"
+meaning: "推理；依据已知信息进行分析并形成结论的过程。"
+context: "理解模型设置中的 reasoning effort。"
+example: "This task may require more reasoning."
+notes: |-
+  /model 的本机版本描述包含模型和 reasoning effort 的选择。reasoning effort 表达推理投入设置，不等于已完成的工作量，也不保证结论正确。可见回复不代表完整内部推理记录。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  Pronunciation source: Collins Dictionary — reasoning; reasoning in American English. https://www.collinsdictionary.com/dictionary/english/reasoning (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - agent-ai
+audio: reasoning-ai.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun

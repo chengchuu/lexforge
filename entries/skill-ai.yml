@@ -1,0 +1,21 @@
+id: "skill-ai"
+language: "en"
+word: "skill"
+pronunciation: "/skɪl/"
+part_of_speech: "noun"
+meaning: "技能；为特定任务打包的可复用说明、知识和可选资源。"
+example: "Load the skill when its workflow fits the task."
+notes: |-
+  在 Agent Skills 格式中，核心是 SKILL.md；还可包含脚本和参考材料。技能指导如何完成任务，不等于工具本身，也不保证加载后每个脚本都会执行。
+  Reference: Agent Skills — Agent Skills Overview. https://agentskills.io/home (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — skill; skill in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/skill (accent: US; accessed 2026-11-19).
+related_entries:
+  - instruction-tech
+learning_priority: 2
+prerequisites:
+  - instruction-tech
+audio: skill-ai.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

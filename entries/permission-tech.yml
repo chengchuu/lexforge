@@ -1,0 +1,23 @@
+id: "permission-tech"
+language: "en"
+word: "permission"
+pronunciation: "/pərˈmɪʃən/"
+part_of_speech: "noun"
+meaning: "权限；允许执行某种操作或访问某项资源的许可。"
+context: "理解允许的文件访问与操作范围。"
+example: "The agent does not have permission to edit this directory."
+notes: |-
+  /permissions 用于查看或选择允许 Codex 执行的操作范围。界面常用复数 permissions，词条采用单数 permission。权限范围与是否需要审批是两个维度，不应把无需询问等同于任意文件访问权。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — permission; permission in American English. https://www.collinsdictionary.com/dictionary/english/permission (accent: US; accessed 2026-11-19).
+related_entries:
+  - approval-workflow
+learning_priority: 2
+audio: permission-tech.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun
+  - agent-harness

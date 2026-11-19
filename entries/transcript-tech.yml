@@ -1,0 +1,22 @@
+id: "transcript-tech"
+language: "en"
+word: "transcript"
+pronunciation: "/ˈtrænˌskrɪpt/"
+part_of_speech: "noun"
+meaning: "文字记录；按交流过程保留的会话内容。"
+context: "回看或导出对话记录。"
+example: "Read the transcript to check the earlier instructions."
+notes: |-
+  /export 导出会话记录为 Markdown。transcript 与只保留要点的 summary 不同。可见对话记录不等于完整内部推理或所有系统日志；本计划不执行导出，也不复制真实会话内容。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — transcript; transcript in American English. https://www.collinsdictionary.com/dictionary/english/transcript (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - session-tech
+audio: transcript-tech.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun

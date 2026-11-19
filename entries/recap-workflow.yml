@@ -1,0 +1,23 @@
+id: "recap-workflow"
+language: "en"
+word: "recap"
+pronunciation: "/ˈriˌkæp/"
+part_of_speech: "noun; verb"
+meaning: "回顾；对前文要点的简要概述，或概述这些要点。"
+context: "在 Codex CLI 中回顾对话要点。"
+example: "Recap the decisions before starting the next task."
+notes: |-
+  /recap 生成当前对话摘要，适合重新进入一段对话时使用。与 /compact 的用途不同，/recap 不用于压缩当前上下文。这里采用概述义，不采用翻新轮胎义。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — recap; recap in American English 2. https://www.collinsdictionary.com/dictionary/english/recap (accent: US; accessed 2026-11-19).
+related_entries:
+  - summary-language
+learning_priority: 1
+audio: recap-workflow.mp3
+tags:
+  - general
+  - codex-cli
+  - noun
+  - verb

@@ -1,0 +1,24 @@
+id: "compact-context-tech"
+language: "en"
+word: "compact"
+pronunciation: "/kəmˈpækt/"
+part_of_speech: "verb"
+meaning: "压缩；将较长上下文整理为更精简的表示。"
+context: "长对话接近上下文容量时，压缩已积累的上下文。"
+example: "Compact the context before continuing the task."
+notes: |-
+  /compact 对对话上下文作摘要压缩，以释放上下文空间。/recap 用于回顾，/compact 会影响供后续处理使用的上下文。压缩摘要不等于逐字保留全部记录。当前词性为动词，不取表示协议或粉盒的名词读音。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — compact; compact in American English 1; verb. https://www.collinsdictionary.com/dictionary/english/compact (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - context-language
+  - summary-language
+audio: compact-context-tech.mp3
+tags:
+  - tech
+  - codex-cli
+  - verb
+  - agent-harness

@@ -1,0 +1,19 @@
+id: "subagent-ai"
+language: "en"
+word: "subagent"
+pronunciation: "/sʌbˈeɪdʒənt/"
+part_of_speech: "noun"
+meaning: "子智能体；受委派处理部分任务并返回结果的智能体。"
+example: "Ask the subagent to review one module."
+notes: |-
+  各工具的上下文继承、工具权限和通信机制不同。子智能体不必同时运行，也不自动拥有主智能体的全部权限；本条例句是学习示例，不授权实际委派。
+  Reference: Claude Code — Create custom subagents. https://code.claude.com/docs/en/sub-agents (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — subagent; subagent in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/subagent (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - agent-ai
+audio: subagent-ai.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

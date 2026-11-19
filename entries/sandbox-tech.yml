@@ -1,0 +1,22 @@
+id: "sandbox-tech"
+language: "en"
+word: "sandbox"
+pronunciation: "/ˈsændˌbɑks/"
+part_of_speech: "noun"
+meaning: "沙箱；限制程序可访问资源和可执行操作的受约束环境。"
+context: "理解文件系统与执行环境的限制。"
+example: "The sandbox limits where the command can write."
+notes: |-
+  Codex CLI 的 --sandbox 选项选择执行隔离策略。本机帮助列出 read-only、workspace-write 和 danger-full-access。这里学习策略名称和边界含义，不建议为了方便自动扩大权限。沙箱策略与审批策略需要分开核对。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — sandbox; sandbox in American English. https://www.collinsdictionary.com/dictionary/english/sandbox (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - permission-tech
+audio: sandbox-tech.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun
+  - agent-harness

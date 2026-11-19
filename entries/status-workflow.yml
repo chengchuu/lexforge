@@ -1,0 +1,21 @@
+id: "status-workflow"
+language: "en"
+word: "status"
+pronunciation: "/ˈstætəs/"
+part_of_speech: "noun"
+meaning: "状态；某项任务、会话或资源当前所处的情况。"
+context: "读取会话信息和目标状态。"
+example: "Check the current status before resuming the goal."
+notes: |-
+  /status 显示当前会话配置和 token 用量。Goal paused、Goal stalled 和 Goal achieved 则是目标状态提示。已有 exit-status-tech 表示进程退出状态，本项为更通用的状态含义。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI Codex — goal_status_indicator_line. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/bottom_pane/footer.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — status; status in American English. https://www.collinsdictionary.com/dictionary/english/status (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: status-workflow.mp3
+tags:
+  - tech
+  - codex-cli
+  - noun

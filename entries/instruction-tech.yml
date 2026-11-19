@@ -1,0 +1,17 @@
+id: "instruction-tech"
+language: "en"
+word: "instruction"
+pronunciation: "/ɪnˈstrʌkʃən/"
+part_of_speech: "noun"
+meaning: "指令；告诉系统或执行者应做什么、如何行动的要求。"
+example: "Follow the instruction to preserve existing files."
+notes: |-
+  这里侧重自然语言任务要求，而不是处理器机器指令。常见复数 instructions 表示一组要求；本条用单数词头。文本指令与实际执行权限不同。
+  Reference: Claude Code — How Claude remembers your project. https://code.claude.com/docs/en/memory (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — instruction; instruction in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/instruction (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: instruction-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

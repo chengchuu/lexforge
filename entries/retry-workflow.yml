@@ -1,0 +1,20 @@
+id: "retry-workflow"
+language: "en"
+word: "retry"
+pronunciation: "/ˌriˈtraɪ/"
+part_of_speech: "verb"
+meaning: "重试；在先前尝试失败后再次进行尝试。"
+context: "先处理失败原因，再考虑重新执行。"
+example: "Retry after fixing the missing dependency."
+notes: |-
+  retry 是操作说明中的普通动词。本机内建命令清单未列出 /retry，不应凭词义编造命令。重试不保证自动回滚，也不意味着重复执行一定没有副作用。当前采用计算机场景的再次尝试义，不取法庭重审义作为释义依据。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Oxford Advanced American Dictionary — retry; retry, sense 2 (NAmE). https://www.oxfordlearnersdictionaries.com/definition/american_english/retry (accent: US; accessed 2026-11-19).
+learning_priority: 2
+audio: retry-workflow.mp3
+tags:
+  - tech
+  - codex-cli
+  - verb
+  - agent-harness

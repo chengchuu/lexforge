@@ -1,0 +1,17 @@
+id: "streaming-tech"
+language: "en"
+word: "streaming"
+pronunciation: "/ˈstrimɪŋ/"
+part_of_speech: "noun"
+meaning: "流式输出或传输；把数据逐段交付，而非等待全部生成后一次返回。"
+example: "Streaming lets the client process events as they arrive."
+notes: |-
+  输出可能包含消息片段、工具事件和最终结果。已显示部分内容不表示任务已完成；实际事件格式和结束标志依接口而异。
+  Reference: Gemini CLI — Headless mode reference. https://geminicli.com/docs/cli/headless/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — streaming; streaming in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/streaming (accent: US; accessed 2026-11-19).
+learning_priority: 2
+audio: streaming-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

@@ -1,0 +1,18 @@
+id: "tool-result-ai"
+language: "en"
+word: "tool result"
+part_of_speech: "noun phrase"
+meaning: "工具结果；工具执行后返回给调用方的内容或错误信息。"
+example: "The tool result contains an error message."
+notes: |-
+  区分请求执行的 tool call 与执行后返回的 tool result。结果可以包含文本或其他结构化内容；收到结果不等于操作成功。
+  Reference: Model Context Protocol — Tools (2025-06-18). https://modelcontextprotocol.io/specification/2025-06-18/server/tools (accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - tool-call-ai
+  - result-general
+audio: tool-result-ai.mp3
+tags:
+  - tech
+  - agent-harness
+  - phrase

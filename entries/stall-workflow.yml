@@ -1,0 +1,19 @@
+id: "stall-workflow"
+language: "en"
+word: "stall"
+pronunciation: "/stɔl/"
+part_of_speech: "verb"
+meaning: "停滞；因障碍而无法继续推进。"
+context: "理解 Goal stalled 与主动暂停的区别。"
+example: "The goal stalled because a required file was missing."
+notes: |-
+  Goal stalled 表示目标推进受阻，与用户主动暂停的 Goal paused 不同。先确认并解决阻碍，再考虑 /goal resume。源码中的状态名为 Blocked，显示文字为 Goal stalled；不把内部枚举名当作界面原文。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — goal_status_indicator_line. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/bottom_pane/footer.rs
+  Pronunciation source: Collins Dictionary — stall; stall in American English 1; sense 9. https://www.collinsdictionary.com/dictionary/english/stall (accent: US; accessed 2026-11-19).
+learning_priority: 2
+audio: stall-workflow.mp3
+tags:
+  - tech
+  - codex-cli
+  - verb

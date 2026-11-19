@@ -1,0 +1,19 @@
+id: "work-general"
+language: "en"
+word: "work"
+pronunciation: "/wɜrk/"
+part_of_speech: "verb"
+meaning: "工作；投入时间和精力处理任务。"
+context: "理解界面中的处理耗时。"
+example: "Codex worked on the task for two minutes."
+notes: |-
+  Worked for 2m 表示这轮处理已用两分钟。worked 是 work 的过去式，不单独建卡。该提示不证明修改正确或测试通过。It worked 中的 work 可表示奏效，属于另一用法。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — FinalMessageSeparator. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/history_cell/separators.rs
+  Pronunciation source: Collins Dictionary — work; work in American English. https://www.collinsdictionary.com/dictionary/english/work (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: work-general.mp3
+tags:
+  - general
+  - codex-cli
+  - verb

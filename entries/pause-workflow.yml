@@ -1,0 +1,22 @@
+id: "pause-workflow"
+language: "en"
+word: "pause"
+pronunciation: "/pɔz/"
+part_of_speech: "verb"
+meaning: "暂停；暂时停止推进，保留稍后继续的可能。"
+context: "暂时停止目标的持续推进。"
+example: "Pause the goal while you review the changes."
+notes: |-
+  /goal pause 暂停目标，/goal resume 请求恢复推进。Goal paused 是对应的界面提示。暂停目标不应当作所有后台进程已终止的凭据；需要时单独检查运行状态。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — goal_status_indicator_line. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/bottom_pane/footer.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — pause; pause in American English. https://www.collinsdictionary.com/dictionary/english/pause (accent: US; accessed 2026-11-19).
+related_entries:
+  - stall-workflow
+learning_priority: 1
+audio: pause-workflow.mp3
+tags:
+  - general
+  - codex-cli
+  - verb

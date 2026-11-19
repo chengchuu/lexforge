@@ -1,0 +1,17 @@
+id: "headless-tech"
+language: "en"
+word: "headless"
+pronunciation: "/ˈhɛdlɪs/"
+part_of_speech: "adjective"
+meaning: "无交互界面的；不依赖交互式终端或图形界面运行的。"
+example: "Run the agent in headless mode for automation."
+notes: |-
+  这里学习软件运行模式义，常用于脚本或流水线。headless 不等于没有输出，也不代表自动批准操作或取消权限限制。
+  Reference: Gemini CLI — Headless mode reference. https://geminicli.com/docs/cli/headless/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — headless; headless in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/headless (accent: US; accessed 2026-11-19).
+learning_priority: 2
+audio: headless-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - adjective

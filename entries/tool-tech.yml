@@ -1,0 +1,17 @@
+id: "tool-tech"
+language: "en"
+word: "tool"
+pronunciation: "/tul/"
+part_of_speech: "noun"
+meaning: "工具；可由程序或智能体调用以执行特定操作的能力。"
+example: "The agent uses a tool to inspect the files."
+notes: |-
+  这里学习软件工具义，范围可包含检索、文件操作和命令执行。工具是否可用以及能访问什么，由实际运行环境和权限决定。
+  Reference: Claude Code — How Claude Code works. https://code.claude.com/docs/en/how-claude-code-works (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — tool; tool in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/tool (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: tool-tech.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

@@ -1,0 +1,20 @@
+id: "resume-workflow"
+language: "en"
+word: "resume"
+pronunciation: "/rɪˈzum/"
+part_of_speech: "verb"
+meaning: "恢复继续；在中断或暂停后继续进行。"
+context: "继续已有会话，或恢复目标推进。"
+example: "Resume the session after reviewing the recap."
+notes: |-
+  在终端运行 codex resume 可选择已有会话，codex resume --last 可继续最近会话。交互界面中的 /resume 用于选择已有会话；/goal resume 则恢复当前目标推进。这里不是表示简历的 résumé。已有 resumption-workflow 是名词，本项学习常用动词与操作含义。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — resume; resume in American English. https://www.collinsdictionary.com/dictionary/english/resume (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: resume-workflow.mp3
+tags:
+  - general
+  - codex-cli
+  - verb

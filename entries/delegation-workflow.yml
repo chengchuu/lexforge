@@ -1,0 +1,21 @@
+id: "delegation-workflow"
+language: "en"
+word: "delegation"
+pronunciation: "/ˌdɛləˈɡeɪʃən/"
+part_of_speech: "noun"
+meaning: "委派；把部分工作交给其他执行者完成。"
+example: "Use delegation for a focused review task."
+notes: |-
+  任务委派应说明范围、预期结果和约束。它不同于 DOM 的 event delegation；也不必意味着交接整个任务或启动并行执行。
+  Reference: Claude Code — Create custom subagents. https://code.claude.com/docs/en/sub-agents (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — delegation; delegation in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/delegation (accent: US; accessed 2026-11-19).
+related_entries:
+  - handoff-workflow
+learning_priority: 2
+prerequisites:
+  - agent-ai
+audio: delegation-workflow.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

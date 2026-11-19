@@ -1,0 +1,21 @@
+id: "goal-general"
+language: "en"
+word: "goal"
+pronunciation: "/ɡoʊl/"
+part_of_speech: "noun"
+meaning: "目标；希望通过行动达成的结果。"
+context: "理解持续任务的目标和状态。"
+example: "The goal is to fix the bug without changing the API."
+notes: |-
+  /goal 用于查看当前目标，/goal 后接目标文本可设置目标。Goal achieved 表示目标被标记为完成；仍需查看具体结果与验证证据。当前词库已有 objective，英语词形不同，保留各自学习价值。
+  学习语境: Codex CLI 0.169.0。
+  操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
+  操作参考: OpenAI Codex — goal_status_indicator_line. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/bottom_pane/footer.rs
+  操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
+  Pronunciation source: Collins Dictionary — goal; goal in American English. https://www.collinsdictionary.com/dictionary/english/goal (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: goal-general.mp3
+tags:
+  - general
+  - codex-cli
+  - noun

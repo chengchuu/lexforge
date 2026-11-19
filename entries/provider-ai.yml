@@ -1,0 +1,19 @@
+id: "provider-ai"
+language: "en"
+word: "provider"
+pronunciation: "/prəˈvaɪdər/"
+part_of_speech: "noun"
+meaning: "提供方；为工具提供模型访问接口的服务或后端。"
+example: "Select a provider, then choose an available model."
+notes: |-
+  这里按模型接入语境理解；provider 不一定指模型开发公司，也可能接入本地运行后端。切换 provider 与切换模型、运行框架是不同选择。
+  Reference: OpenCode — Providers. https://opencode.ai/docs/providers/ (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — provider; provider in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/provider (accent: US; accessed 2026-11-19).
+learning_priority: 2
+prerequisites:
+  - model-ai
+audio: provider-ai.mp3
+tags:
+  - tech
+  - agent-harness
+  - noun

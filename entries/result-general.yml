@@ -1,0 +1,17 @@
+id: "result-general"
+language: "en"
+word: "result"
+pronunciation: "/rɪˈzʌlt/"
+part_of_speech: "noun"
+meaning: "结果；某个操作、过程或事件产生的输出或后果。"
+example: "Check the result before continuing."
+notes: |-
+  result 不保证表示成功；错误信息也可能是一次操作返回的结果。这里保留通用义，不限定某种协议的字段名。
+  Reference: Model Context Protocol — Tools (2025-06-18). https://modelcontextprotocol.io/specification/2025-06-18/server/tools (accessed 2026-11-19).
+  Pronunciation source: Collins Dictionary — result; result in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/result (accent: US; accessed 2026-11-19).
+learning_priority: 1
+audio: result-general.mp3
+tags:
+  - general
+  - agent-harness
+  - noun
