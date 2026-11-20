@@ -1,0 +1,22 @@
+id: internal-redirect-nginx
+language: en
+word: "internal redirect"
+part_of_speech: noun
+meaning: "内部重定向；服务器内部改用另一个 URI 继续处理当前请求。"
+example: "An internal redirect serves the fallback within the same response."
+code_example: |-
+  location /fallback/ {
+      try_files $uri /fallback.html;
+  }
+notes: |-
+  访问 /fallback/missing.txt 时重新选择 /fallback.html 的精确位置，并返回 HTTP 200 和该位置设置的响应头。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — try_files. https://nginx.org/en/docs/http/ngx_http_core_module.html#try_files
+learning_priority: 3
+prerequisites:
+  - try-files-nginx
+tags:
+  - nginx
+  - devops
+  - noun

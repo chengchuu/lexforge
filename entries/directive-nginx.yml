@@ -1,0 +1,25 @@
+id: directive-nginx
+language: en
+word: "directive"
+pronunciation: /dɪˈrek.tɪv/
+part_of_speech: noun
+meaning: "配置指令；告诉 NGINX 如何配置或处理请求的语句。"
+example: "The return directive sends a status code and response body."
+code_example: |-
+  location = /health {
+      access_log logs/health-access.log;
+      return 200 "healthy\n";
+  }
+notes: |-
+  示例中的 access_log 和 return 是以分号结尾的简单指令。location 是块指令。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — Beginner’s Guide. https://nginx.org/en/docs/beginners_guide.html
+  Pronunciation source: Cambridge Dictionary — directive. https://dictionary.cambridge.org/dictionary/english/directive (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - configuration-tech
+tags:
+  - nginx
+  - devops
+  - noun

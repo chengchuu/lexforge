@@ -1,0 +1,22 @@
+id: prefix-priority-nginx
+language: en
+word: "^~"
+part_of_speech: modifier
+meaning: "优先前缀修饰符；当带此标记的前缀在同层匹配中最长时，跳过正则检查。"
+example: "This modifier keeps the guarded prefix in control of the request."
+code_example: |-
+  location ^~ /match/guarded/ {
+      return 200 "priority prefix\n";
+  }
+notes: |-
+  /match/guarded/item.json 在本实验中由受保护前缀处理。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — location. https://nginx.org/en/docs/http/ngx_http_core_module.html#location
+learning_priority: 3
+prerequisites:
+  - regex-match-nginx
+tags:
+  - nginx
+  - devops
+  - modifier

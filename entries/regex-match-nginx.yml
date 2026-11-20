@@ -1,0 +1,22 @@
+id: regex-match-nginx
+language: en
+word: "regex match"
+part_of_speech: noun
+meaning: "正则匹配；用正则表达式判断请求 URI 路径是否满足条件。"
+example: "The regex match handles JSON paths under the matching prefix."
+code_example: |-
+  location ~ ^/match/.+[.]json$ {
+      return 200 "regex\n";
+  }
+notes: |-
+  ~ 区分大小写，~* 不区分大小写。在这些同层块中，/match/deep/item.json 命中正则块。多个正则匹配时采用配置中第一个匹配项。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — location. https://nginx.org/en/docs/http/ngx_http_core_module.html#location
+learning_priority: 2
+prerequisites:
+  - longest-prefix-nginx
+tags:
+  - nginx
+  - devops
+  - noun

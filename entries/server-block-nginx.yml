@@ -1,0 +1,29 @@
+id: server-block-nginx
+language: en
+word: "server"
+pronunciation: /ˈsɝː.vɚ/
+part_of_speech: directive
+meaning: "服务器块；在 http 中声明一个虚拟服务器及其请求处理规则。"
+example: "Put the location block inside the server block."
+code_example: |-
+  server {
+      listen 127.0.0.1:18081;
+
+      location / {
+          return 200 "backend-a $request_uri\n";
+      }
+  }
+notes: |-
+  这里展示后端 A 的整个 server 块。用 http://127.0.0.1:18081/ 测试。upstream 内同名的 server 则是声明后端成员的指令。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — Beginner’s Guide. https://nginx.org/en/docs/beginners_guide.html
+  Pronunciation source: Cambridge Dictionary — server. https://dictionary.cambridge.org/dictionary/english/server (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - web-server-tech
+  - directive-nginx
+tags:
+  - nginx
+  - devops
+  - directive

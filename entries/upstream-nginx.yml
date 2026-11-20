@@ -1,0 +1,25 @@
+id: upstream-nginx
+language: en
+word: "upstream"
+pronunciation: /ˌʌpˈstriːm/
+part_of_speech: directive
+meaning: "上游服务器组；定义可按名称引用的一组后端。"
+example: "The upstream block defines two backends for the proxy."
+code_example: |-
+  upstream lab_backends {
+      server 127.0.0.1:18081;
+      server 127.0.0.1:18082;
+  }
+notes: |-
+  把 upstream 放在 http 内。实验中的 /balanced/ 通过 proxy_pass 引用此组。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — HTTP upstream module. https://nginx.org/en/docs/http/ngx_http_upstream_module.html#upstream
+  Pronunciation source: Cambridge Dictionary — upstream. https://dictionary.cambridge.org/dictionary/english/upstream (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - proxy-pass-nginx
+tags:
+  - nginx
+  - devops
+  - directive

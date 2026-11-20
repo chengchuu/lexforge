@@ -1,0 +1,22 @@
+id: proxy-pass-nginx
+language: en
+word: "proxy_pass"
+part_of_speech: directive
+meaning: "反向代理转发指令；指定后端地址，并可指定替换匹配前缀的 URI。"
+example: "The trailing slash supplies a replacement URI in this proxy_pass directive."
+code_example: |-
+  location /api/ {
+      proxy_pass http://127.0.0.1:18081/;
+  }
+notes: |-
+  此处替换 /api/ 前缀，请求 /api/item?x=1 在后端成为 /item?x=1。对比 /keep/ 的无 URI 写法。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — proxy_pass. https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_pass
+learning_priority: 2
+prerequisites:
+  - reverse-proxy-nginx
+tags:
+  - nginx
+  - devops
+  - directive

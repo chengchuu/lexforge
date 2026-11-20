@@ -1,0 +1,25 @@
+id: web-server-tech
+language: en
+word: "web server"
+pronunciation: /ˈweb ˌsɝː.vɚ/
+part_of_speech: noun
+meaning: "Web 服务器；接收 HTTP 请求并返回响应的软件或系统。"
+example: "The web server returns a response when the health check succeeds."
+code_example: |-
+  location = /health {
+      access_log logs/health-access.log;
+      return 200 "healthy\n";
+  }
+notes: |-
+  请求 /health 会收到 HTTP 200 和 healthy。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — Beginner’s Guide. https://nginx.org/en/docs/beginners_guide.html
+  Pronunciation source: Cambridge Dictionary — web server. https://dictionary.cambridge.org/dictionary/english/web-server (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - nginx-platform
+tags:
+  - nginx
+  - devops
+  - noun

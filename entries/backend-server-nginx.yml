@@ -1,0 +1,26 @@
+id: backend-server-nginx
+language: en
+word: "backend server"
+part_of_speech: noun
+meaning: "后端服务器；接收反向代理转发的请求并生成响应。"
+example: "The backend server echoes the request path for this test."
+code_example: |-
+  server {
+      listen 127.0.0.1:18081;
+
+      location / {
+          return 200 "backend-a $request_uri\n";
+      }
+  }
+notes: |-
+  后端 A 在 18081 端口运行，响应体回显它收到的请求 URI。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — HTTP proxy module. https://nginx.org/en/docs/http/ngx_http_proxy_module.html
+learning_priority: 2
+prerequisites:
+  - server-block-nginx
+tags:
+  - nginx
+  - devops
+  - noun

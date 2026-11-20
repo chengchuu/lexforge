@@ -1,0 +1,22 @@
+id: exact-match-nginx
+language: en
+word: "exact match"
+part_of_speech: noun
+meaning: "精确匹配；归一化 URI 路径须与 location 中的值完全相同。"
+example: "The exact match takes precedence over the regex location."
+code_example: |-
+  location = /match/exact.json {
+      return 200 "exact\n";
+  }
+notes: |-
+  使用 =。/match/exact.json 直接命中精确块，查询参数不参与 location 匹配。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — location. https://nginx.org/en/docs/http/ngx_http_core_module.html#location
+learning_priority: 2
+prerequisites:
+  - location-nginx
+tags:
+  - nginx
+  - devops
+  - noun

@@ -1,0 +1,22 @@
+id: longest-prefix-nginx
+language: en
+word: "longest prefix"
+part_of_speech: noun
+meaning: "最长匹配前缀；多个前缀同时匹配时，路径字符串最长的那个。"
+example: "The longest prefix for this path is the more specific route."
+code_example: |-
+  location /match/deep/ {
+      return 200 "longest prefix\n";
+  }
+notes: |-
+  /match/deep/item 命中 /match/deep/；普通最长前缀仍可被匹配的正则块覆盖。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — location. https://nginx.org/en/docs/http/ngx_http_core_module.html#location
+learning_priority: 2
+prerequisites:
+  - prefix-match-nginx
+tags:
+  - nginx
+  - devops
+  - noun

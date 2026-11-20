@@ -1,0 +1,23 @@
+id: error-log-nginx
+language: en
+word: "error log"
+part_of_speech: noun
+meaning: "错误日志；按日志级别记录处理请求或运行服务时发生的事件。"
+example: "The error log shows the file path NGINX tried to open."
+code_example: |-
+  location /root/ {
+      error_log logs/static-errors.log;
+      root html;
+  }
+notes: |-
+  先请求 /root/missing.txt，再读取 logs/static-errors.log。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — error_log. https://nginx.org/en/docs/ngx_core_module.html#error_log
+learning_priority: 2
+prerequisites:
+  - root-nginx
+tags:
+  - nginx
+  - devops
+  - noun

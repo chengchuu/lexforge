@@ -1,0 +1,23 @@
+id: reload-nginx
+language: en
+word: "reload"
+pronunciation: /ˌriːˈloʊd/
+part_of_speech: verb
+meaning: "重新加载配置；让正在运行的 NGINX 应用新配置并逐步退出旧工作进程。"
+example: "Reload NGINX after the configuration test succeeds."
+code_example: |-
+  nginx -p "$LAB/" -c nginx.conf -e stderr -t &&
+  nginx -p "$LAB/" -c nginx.conf -e stderr -s reload
+notes: |-
+  对已经运行的同一个实验实例执行。测试通过后才发送 reload 信号。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — Command-line parameters. https://nginx.org/en/docs/switches.html
+  Pronunciation source: Cambridge Dictionary — reload. https://dictionary.cambridge.org/dictionary/english/reload (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - configuration-test-nginx
+tags:
+  - nginx
+  - devops
+  - verb

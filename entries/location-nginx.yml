@@ -1,0 +1,24 @@
+id: location-nginx
+language: en
+word: "location"
+pronunciation: /loʊˈkeɪ.ʃən/
+part_of_speech: directive
+meaning: "位置块；按请求 URI 选择适用的配置。"
+example: "This location handles requests with paths that start with the matching prefix."
+code_example: |-
+  location /match/ {
+      return 200 "prefix\n";
+  }
+notes: |-
+  /match/item 匹配此块。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — location. https://nginx.org/en/docs/http/ngx_http_core_module.html#location
+  Pronunciation source: Cambridge Dictionary — location. https://dictionary.cambridge.org/dictionary/english/location (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - server-block-nginx
+tags:
+  - nginx
+  - devops
+  - directive

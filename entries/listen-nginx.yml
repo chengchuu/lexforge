@@ -1,0 +1,28 @@
+id: listen-nginx
+language: en
+word: "listen"
+pronunciation: /ˈlɪs.ən/
+part_of_speech: directive
+meaning: "监听指令；指定虚拟服务器接收连接时绑定的地址和端口。"
+example: "The server listens on the loopback address."
+code_example: |-
+  server {
+      listen 127.0.0.1:18081;
+
+      location / {
+          return 200 "backend-a $request_uri\n";
+      }
+  }
+notes: |-
+  后端 A 监听 127.0.0.1:18081。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — listen. https://nginx.org/en/docs/http/ngx_http_core_module.html#listen
+  Pronunciation source: Cambridge Dictionary — listen. https://dictionary.cambridge.org/dictionary/english/listen (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - server-block-nginx
+tags:
+  - nginx
+  - devops
+  - directive

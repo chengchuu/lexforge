@@ -1,0 +1,23 @@
+id: reverse-proxy-nginx
+language: en
+word: "reverse proxy"
+part_of_speech: noun
+meaning: "反向代理；代表后端接收客户端请求，并将请求转发给后端、把响应返回给客户端。"
+example: "The reverse proxy sends application requests to the local backend."
+code_example: |-
+  location /keep/ {
+      proxy_pass http://127.0.0.1:18081;
+  }
+notes: |-
+  请求 /keep/item?x=1 经前端转发到后端 A，保留请求路径前缀。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — HTTP proxy module. https://nginx.org/en/docs/http/ngx_http_proxy_module.html
+learning_priority: 2
+prerequisites:
+  - backend-server-nginx
+  - location-nginx
+tags:
+  - nginx
+  - devops
+  - noun

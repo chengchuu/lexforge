@@ -1,0 +1,22 @@
+id: try-files-nginx
+language: en
+word: "try_files"
+part_of_speech: directive
+meaning: "按顺序检查文件或目录是否存在，全部未命中时执行最后一个参数指定的回退。"
+example: "The try_files directive returns a 404 when the requested file is missing."
+code_example: |-
+  location /files/ {
+      try_files $uri =404;
+  }
+notes: |-
+  请求 /files/present.txt 时返回文件。文件缺失时，=404 直接指定状态码。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — try_files. https://nginx.org/en/docs/http/ngx_http_core_module.html#try_files
+learning_priority: 2
+prerequisites:
+  - root-nginx
+tags:
+  - nginx
+  - devops
+  - directive

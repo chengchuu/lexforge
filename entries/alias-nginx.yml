@@ -1,0 +1,24 @@
+id: alias-nginx
+language: en
+word: "alias"
+pronunciation: /ˈeɪ.li.əs/
+part_of_speech: directive
+meaning: "别名指令；在此前缀位置中将匹配到的 URI 前缀替换为指定路径。"
+example: "Use an alias to serve these assets from a separate directory."
+code_example: |-
+  location /alias/ {
+      alias assets/;
+  }
+notes: |-
+  /alias/asset.txt 对应 assets/asset.txt。末尾斜杠与此处的前缀写法对应。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — alias. https://nginx.org/en/docs/http/ngx_http_core_module.html#alias
+  Pronunciation source: Cambridge Dictionary — alias. https://dictionary.cambridge.org/dictionary/english/alias (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - root-nginx
+tags:
+  - nginx
+  - devops
+  - directive

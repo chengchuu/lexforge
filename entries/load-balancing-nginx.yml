@@ -1,0 +1,22 @@
+id: load-balancing-nginx
+language: en
+word: "load balancing"
+part_of_speech: noun
+meaning: "负载均衡；根据选定的策略将请求分配给多个后端。"
+example: "Load balancing distributes requests across both servers."
+code_example: |-
+  location /balanced/ {
+      proxy_pass http://lab_backends/;
+  }
+notes: |-
+  在本实验中，两台后端权重相同，默认轮询。重复请求可观察两种响应。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — Using nginx as HTTP load balancer. https://nginx.org/en/docs/http/load_balancing.html
+learning_priority: 3
+prerequisites:
+  - upstream-nginx
+tags:
+  - nginx
+  - devops
+  - noun

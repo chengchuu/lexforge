@@ -1,0 +1,23 @@
+id: access-log-nginx
+language: en
+word: "access log"
+part_of_speech: noun
+meaning: "访问日志；记录已处理的请求及其响应状态等信息。"
+example: "The access log records requests to the health endpoint."
+code_example: |-
+  location = /health {
+      access_log logs/health-access.log;
+      return 200 "healthy\n";
+  }
+notes: |-
+  先请求 /health，再在实验目录的 logs/health-access.log 查看记录。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — access_log. https://nginx.org/en/docs/http/ngx_http_log_module.html#access_log
+learning_priority: 2
+prerequisites:
+  - location-nginx
+tags:
+  - nginx
+  - devops
+  - noun

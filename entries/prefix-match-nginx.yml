@@ -1,0 +1,22 @@
+id: prefix-match-nginx
+language: en
+word: "prefix match"
+part_of_speech: noun
+meaning: "前缀匹配；URI 路径以指定字符串开头时匹配。"
+example: "The prefix match covers every path that starts with this string."
+code_example: |-
+  location /match/ {
+      return 200 "prefix\n";
+  }
+notes: |-
+  无修饰符的 location /match/ 使用普通前缀匹配。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — location. https://nginx.org/en/docs/http/ngx_http_core_module.html#location
+learning_priority: 2
+prerequisites:
+  - location-nginx
+tags:
+  - nginx
+  - devops
+  - noun

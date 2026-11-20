@@ -1,0 +1,21 @@
+id: configuration-test-nginx
+language: en
+word: "configuration test"
+part_of_speech: noun
+meaning: "配置测试；检查配置语法并尝试打开配置引用的文件。"
+example: "Run a configuration test before reloading the server."
+code_example: |-
+  nginx -p "$LAB/" -c nginx.conf -e stderr -t
+notes: |-
+  先按实验指南创建 LAB 和 nginx.conf。此命令对应 nginx -t。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — Command-line parameters. https://nginx.org/en/docs/switches.html
+learning_priority: 2
+prerequisites:
+  - configuration-tech
+  - directive-nginx
+tags:
+  - nginx
+  - devops
+  - noun

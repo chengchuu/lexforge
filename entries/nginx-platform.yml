@@ -1,0 +1,23 @@
+id: nginx-platform
+language: en
+word: "NGINX"
+part_of_speech: proper noun
+meaning: "用于提供 HTTP 内容、转发请求和分配流量的服务器软件。"
+example: "NGINX serves the site and forwards API requests to a backend."
+code_example: |-
+  location = /health {
+      access_log logs/health-access.log;
+      return 200 "healthy\n";
+  }
+notes: |-
+  官方将名称读作 engine X。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — NGINX overview. https://nginx.org/en/
+learning_priority: 1
+prerequisites:
+  - configuration-tech
+tags:
+  - nginx
+  - devops
+  - proper-noun

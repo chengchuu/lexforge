@@ -1,0 +1,25 @@
+id: root-nginx
+language: en
+word: "root"
+pronunciation: /ruːt/
+part_of_speech: directive
+meaning: "文档根目录指令；把完整 URI 路径接到根目录后面得到文件路径。"
+example: "The root directive keeps the URI path when it resolves the file."
+code_example: |-
+  location /root/ {
+      error_log logs/static-errors.log;
+      root html;
+  }
+notes: |-
+  /root/asset.txt 对应实验目录中的 html/root/asset.txt。
+
+  Lab: guides/NGINX_LOCATION_LAB.md.
+  Source: NGINX documentation — root. https://nginx.org/en/docs/http/ngx_http_core_module.html#root
+  Pronunciation source: Cambridge Dictionary — root. https://dictionary.cambridge.org/dictionary/english/root (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - prefix-match-nginx
+tags:
+  - nginx
+  - devops
+  - directive
