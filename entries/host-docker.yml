@@ -1,0 +1,28 @@
+id: host-docker
+language: en
+word: "host"
+pronunciation: /hoʊst/
+part_of_speech: noun
+meaning: "宿主机；承载 Docker 守护进程和容器运行环境的主机。"
+example: "The host and the container have separate file paths."
+code_example: |-
+  (
+    work=$(mktemp -d) || exit
+    trap 'rm -rf -- "$work"' EXIT
+    printf '%s\n' 'Hello from the host' > "$work/host.txt"
+    docker run --rm \
+      --mount "type=bind,src=$work,dst=/host,readonly" \
+      alpine:3.22 cat /host/host.txt
+  )
+notes: |-
+  这里假定使用本机 Docker 环境。绑定挂载的源路径由 Docker 守护进程访问；远程守护进程无法直接读取本地客户端的文件。
+
+  Source: Docker Docs — Bind mounts. https://docs.docker.com/engine/storage/bind-mounts/
+  Pronunciation source: Cambridge Dictionary — host. https://dictionary.cambridge.org/dictionary/english/host (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - container-docker
+tags:
+  - docker
+  - devops
+  - noun

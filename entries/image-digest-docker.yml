@@ -1,0 +1,23 @@
+id: image-digest-docker
+language: en
+word: "image digest"
+part_of_speech: noun
+meaning: "镜像摘要；由镜像清单或多平台索引的内容计算出的哈希标识。"
+example: "Pull the image by digest to select the exact content."
+code_example: |-
+  (
+    docker pull alpine:3.22 || exit
+    ref=$(docker image inspect --format '{{index .RepoDigests 0}}' alpine:3.22) || exit
+    docker pull "$ref"
+  )
+notes: |-
+  先通过标签拉取镜像，再取出注册中心提供的摘要引用并用它拉取。标签可以移动，摘要由内容决定。
+
+  Source: Docker Docs — docker image pull. https://docs.docker.com/reference/cli/docker/image/pull/
+learning_priority: 3
+prerequisites:
+  - image-tag-docker
+tags:
+  - docker
+  - devops
+  - noun

@@ -1,0 +1,19 @@
+id: image-tag-docker
+language: en
+word: "image tag"
+part_of_speech: noun
+meaning: "镜像标签；仓库中用于引用某个版本或变体的可变名称。"
+example: "The tag identifies which Alpine release the build should use."
+code_example: |-
+  docker pull alpine:3.22 && docker image ls alpine:3.22
+notes: |-
+  引用 alpine:3.22 时，冒号后的 3.22 是标签。标签可指向更新后的内容。
+
+  Source: Docker Docs — Build, tag, and publish an image. https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/
+learning_priority: 2
+prerequisites:
+  - image-repository-docker
+tags:
+  - docker
+  - devops
+  - noun

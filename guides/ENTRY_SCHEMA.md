@@ -8,7 +8,7 @@ For Japanese, `word: 確認` and `pronunciation: かくにん` show 確認 and i
 
 Required string fields are `id`, `language`, `word`, and `meaning`. Word can name a word, expression, term, or concept. Meaning gives a self-contained Chinese definition or short explanation of its principle; no question-and-answer fields are needed.
 
-Optional string fields are `context`, `example`, `etymology`, `word_formation`, `mnemonic`, `pronunciation`, `part_of_speech`, `notes`, and `audio`. For the first five fields, omission, empty or whitespace-only strings, and YAML null mean absent. Other optional fields must be nonempty when supplied. The optional `tags`, `prerequisites`, and `related_entries` fields are nonempty lists of strings. `learning_priority` is an optional integer from 1 to 3 (default: 2).
+Optional string fields are `context`, `example`, `code_example`, `etymology`, `word_formation`, `mnemonic`, `pronunciation`, `part_of_speech`, `notes`, and `audio`. For the first six fields, omission, empty or whitespace-only strings, and YAML null mean absent. Other optional fields must be nonempty when supplied. The optional `tags`, `prerequisites`, and `related_entries` fields are nonempty lists of strings. `learning_priority` is an optional integer from 1 to 3 (default: 2).
 
 Use `etymology` for verified historical origins, `word_formation` for supported construction patterns, and `mnemonic` for memory aids clearly distinguished from fact. Preserve uncertainty and put source titles and URLs in Notes. Notes can hold detailed explanations, steps, comparisons, and sources; it appears in full at the bottom of the back, without a length limit or collapse control. Keep the core explanation in Meaning. Context and Example can be omitted when they add no useful information.
 
@@ -21,6 +21,7 @@ For example, `related_entries: [disclosure-workflow]` on `closure-tech` supplies
 - Quote text that YAML would interpret as a number or boolean, and text containing `: ` or other YAML syntax.
 - Tabs and line breaks are supported in text; other control characters are rejected.
 - Use concise Chinese meanings and optional practical context; examples, when present, use the entry’s language. Put Chinese walkthroughs or symbolic traces in Notes rather than sending them to Example TTS. Keep text as plain text, not HTML or Markdown formatting.
+- Put runnable snippets or configuration examples in `code_example`. Use a literal YAML block (`|-`) for multiline code and omit Markdown fences. The exporter escapes the snippet as text. The back template preserves its indentation and displays it outside Read Aloud. Use `example` for a prose sentence.
 - Use verified IPA for English and kana readings for Japanese. Look up pronunciation for common English words and everyday phrases; follow the [pronunciation conventions](#pronunciation). Existing samples retain their original values.
 - Use `audio: <id>.mp3` only after adding the corresponding file to `media/`.
 

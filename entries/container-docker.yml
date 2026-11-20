@@ -1,0 +1,21 @@
+id: container-docker
+language: en
+word: "container"
+pronunciation: /kənˈteɪ.nɚ/
+part_of_speech: noun
+meaning: "容器；从镜像创建的隔离进程运行环境。"
+example: "The container exits after its command finishes."
+code_example: |-
+  docker run --rm alpine:3.22 echo "Hello from a container"
+notes: |-
+  容器运行 Alpine 中的 echo，退出后由 --rm 自动删除。镜像可以继续用于创建其他容器。
+
+  Source: Docker Docs — Docker overview. https://docs.docker.com/get-started/docker-overview/
+  Pronunciation source: Cambridge Dictionary — container. https://dictionary.cambridge.org/dictionary/english/container (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - image-docker
+tags:
+  - docker
+  - devops
+  - noun

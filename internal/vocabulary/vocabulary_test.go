@@ -171,28 +171,32 @@ func TestAudio(t *testing.T) {
 }
 
 func TestExportEscapingAndMetadata(t *testing.T) {
+	code, err := parse([]byte(validEntry + "code_example: |2-\n    <tag> & \"quotes\"\n\n  \t[sound:example.mp3] [anki:tts]\n"))
+	if err != nil {
+		t.Fatal(err)
+	}
 	entries := []Entry{{
 		ID: "example-tech", Language: "en", Word: "example", Pronunciation: "/test/", PartOfSpeech: "noun",
 		Meaning: "示例", Context: "Use <div> & \"quotes\".\r\nNext\rLast",
 		Example: "one\ttwo", Notes: "Literal [sound:other.mp3]", Audio: "example-tech.mp3",
-		Tags: []string{"tech", "programming"},
+		CodeExample: code.CodeExample, Tags: []string{"tech", "programming"},
 	}}
 	data, err := render(entries)
 	if err != nil {
 		t.Fatal(err)
 	}
-	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:17\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tStudyOrder\tEtymology\tWordFormation\tMnemonic\tRelatedWords\tTags\n"
+	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:18\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tStudyOrder\tEtymology\tWordFormation\tMnemonic\tRelatedWords\tCodeExample\tTags\n"
 	if !bytes.HasPrefix(data, []byte(headers)) {
 		t.Fatalf("wrong headers: %s", data)
 	}
 	reader := csv.NewReader(bytes.NewReader(data[len(headers):]))
 	reader.Comma = '\t'
-	reader.FieldsPerRecord = 17
+	reader.FieldsPerRecord = 18
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "en_US", "1", "", "", "", "", "lang-en programming tech"}}
+	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "en_US", "1", "", "", "", "", "  &lt;tag&gt; &amp; &#34;quotes&#34;<br><br>\t&#91;sound:example.mp3] &#91;anki:tts]", "lang-en programming tech"}}
 	if !reflect.DeepEqual(rows, want) {
 		t.Fatalf("want %#v, got %#v", want, rows)
 	}
@@ -268,12 +272,12 @@ func TestTTSLanguageExport(t *testing.T) {
 			lines := bytes.SplitN(readExport(t, root), []byte("\n"), 6)
 			reader := csv.NewReader(bytes.NewReader(lines[5]))
 			reader.Comma = '\t'
-			reader.FieldsPerRecord = 17
+			reader.FieldsPerRecord = 18
 			row, err := reader.Read()
 			if err != nil {
 				t.Fatal(err)
 			}
-			if row[0] != "idiomatic-tech" || row[10] != tc.want || row[16] != "lang-"+strings.ToLower(tc.tag) {
+			if row[0] != "idiomatic-tech" || row[10] != tc.want || row[16] != "" || row[17] != "lang-"+strings.ToLower(tc.tag) {
 				t.Fatalf("row: %v", row)
 			}
 			actual, err := os.ReadFile(filepath.Join(root, "entries/word.yml"))

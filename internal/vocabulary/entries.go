@@ -26,6 +26,7 @@ type Entry struct {
 	Meaning          string
 	Context          string
 	Example          string
+	CodeExample      string
 	Notes            string
 	Etymology        string
 	WordFormation    string
@@ -134,7 +135,7 @@ func parse(data []byte) (Entry, error) {
 	fields := map[string]*string{
 		"id": &entry.ID, "language": &entry.Language, "word": &entry.Word, "pronunciation": &entry.Pronunciation,
 		"part_of_speech": &entry.PartOfSpeech, "meaning": &entry.Meaning,
-		"context": &entry.Context, "example": &entry.Example, "notes": &entry.Notes,
+		"context": &entry.Context, "example": &entry.Example, "code_example": &entry.CodeExample, "notes": &entry.Notes,
 		"audio": &entry.Audio, "etymology": &entry.Etymology, "word_formation": &entry.WordFormation, "mnemonic": &entry.Mnemonic,
 	}
 	seen := make(map[string]bool)
@@ -190,7 +191,7 @@ func parse(data []byte) (Entry, error) {
 		if !ok {
 			return entry, fmt.Errorf("line %d: unknown field %q; check the schema in README.md", key.Line, name)
 		}
-		optionalText := name == "context" || name == "example" || name == "etymology" || name == "word_formation" || name == "mnemonic"
+		optionalText := name == "context" || name == "example" || name == "code_example" || name == "etymology" || name == "word_formation" || name == "mnemonic"
 		if optionalText && value.Kind == yaml.ScalarNode && value.Tag == "!!null" {
 			continue
 		}

@@ -1,0 +1,20 @@
+id: port-publishing-docker
+language: en
+word: "port publishing"
+part_of_speech: noun
+meaning: "端口发布；将宿主机端口上的流量转发到容器端口。"
+example: "Port publishing makes the web server reachable from my browser."
+code_example: |-
+  docker run --rm --publish 127.0.0.1:8080:80 nginx:alpine
+notes: |-
+  此处把宿主机的 8080 转发到容器的 80。需要本机端口 8080 空闲；打开 http://127.0.0.1:8080 查看页面，按 Ctrl+C 停止。
+
+  Source: Docker Docs — Publishing and exposing ports. https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/
+learning_priority: 2
+prerequisites:
+  - host-docker
+  - port-networking
+tags:
+  - docker
+  - devops
+  - noun

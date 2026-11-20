@@ -1,0 +1,26 @@
+id: docker-compose-docker
+language: en
+word: "Docker Compose"
+part_of_speech: proper noun
+meaning: "Docker Compose；通过配置文件定义并运行多服务容器应用的工具。"
+example: "Docker Compose starts the services defined for the application."
+code_example: |-
+  services:
+    web:
+      image: nginx:alpine
+      ports:
+        - "127.0.0.1::80"
+    cache:
+      image: redis:alpine
+notes: |-
+  保存为 compose.yaml 并执行 docker compose up。此示例将网站发布到本机自动分配的端口，可用 docker compose port web 80 查询。按 Ctrl+C 停止，再运行 docker compose down。
+
+  Source: Docker Docs — Docker Compose Quickstart. https://docs.docker.com/compose/gettingstarted/
+learning_priority: 2
+prerequisites:
+  - container-docker
+  - port-publishing-docker
+tags:
+  - docker
+  - devops
+  - proper-noun

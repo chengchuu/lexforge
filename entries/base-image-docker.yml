@@ -1,0 +1,22 @@
+id: base-image-docker
+language: en
+word: "base image"
+part_of_speech: noun
+meaning: "基础镜像；构建另一镜像时由 FROM 指定的起始镜像。"
+example: "Alpine is the base image for this build."
+code_example: |-
+  docker build - <<'DOCKERFILE'
+  FROM alpine:3.22
+  CMD ["echo", "Built on Alpine"]
+  DOCKERFILE
+notes: |-
+  直接把下方命令交给 shell。Docker 从标准输入读取 Dockerfile，并以 Alpine 作为基础镜像。
+
+  Source: Docker Docs — Dockerfile overview. https://docs.docker.com/build/concepts/dockerfile/
+learning_priority: 2
+prerequisites:
+  - image-docker
+tags:
+  - docker
+  - devops
+  - noun

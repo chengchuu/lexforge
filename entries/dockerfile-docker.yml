@@ -1,0 +1,21 @@
+id: dockerfile-docker
+language: en
+word: "Dockerfile"
+part_of_speech: noun
+meaning: "Dockerfile；按顺序记录镜像构建指令的文本文件。"
+example: "The Dockerfile sets the command that runs when the container starts."
+code_example: |-
+  FROM alpine:3.22
+  WORKDIR /app
+  CMD ["echo", "Hello from Docker"]
+notes: |-
+  在空目录中保存为 Dockerfile，然后运行 docker build -t lexforge-docker-demo . 和 docker run --rm lexforge-docker-demo。
+
+  Source: Docker Docs — Dockerfile overview. https://docs.docker.com/build/concepts/dockerfile/
+learning_priority: 2
+prerequisites:
+  - base-image-docker
+tags:
+  - docker
+  - devops
+  - noun

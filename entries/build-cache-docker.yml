@@ -1,0 +1,29 @@
+id: build-cache-docker
+language: en
+word: "build cache"
+part_of_speech: noun
+meaning: "构建缓存；复用未失效的镜像构建结果以减少重复工作。"
+example: "The second build reused the cached result of the run step."
+code_example: |-
+  (
+    build_demo() {
+      docker build --progress=plain - <<'DOCKERFILE'
+  FROM alpine:3.22
+  RUN echo ready > /status.txt
+  DOCKERFILE
+    }
+    build_demo && build_demo
+  )
+notes: |-
+  使用支持 BuildKit 的 Docker。连续两次执行相同的构建，观察第二次输出是否将 RUN 标记为 CACHED。
+
+  Source: Docker Docs — Build cache. https://docs.docker.com/build/cache/
+learning_priority: 3
+prerequisites:
+  - cache-tech
+  - dockerfile-docker
+  - image-layer-docker
+tags:
+  - docker
+  - devops
+  - noun

@@ -1,0 +1,27 @@
+id: bind-mount-docker
+language: en
+word: "bind mount"
+part_of_speech: noun
+meaning: "绑定挂载；把宿主机中的具体文件或目录接入容器。"
+example: "A bind mount lets the container read files from the host."
+code_example: |-
+  (
+    work=$(mktemp -d) || exit
+    trap 'rm -rf -- "$work"' EXIT
+    printf '%s\n' 'read-only input' > "$work/input.txt"
+    docker run --rm \
+      --mount "type=bind,src=$work,dst=/input,readonly" \
+      alpine:3.22 cat /input/input.txt
+  )
+notes: |-
+  使用本机 Docker 环境。容器读取宿主机的临时目录，readonly 禁止容器通过此挂载写入该目录。
+
+  Source: Docker Docs — Bind mounts. https://docs.docker.com/engine/storage/bind-mounts/
+learning_priority: 2
+prerequisites:
+  - host-docker
+  - mount-point-docker
+tags:
+  - docker
+  - devops
+  - noun

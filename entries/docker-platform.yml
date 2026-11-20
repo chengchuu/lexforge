@@ -1,0 +1,17 @@
+id: docker-platform
+language: en
+word: "Docker"
+part_of_speech: proper noun
+meaning: "用于构建、分发和运行容器的工具与平台。"
+example: "We use Docker to run the same app on different machines."
+code_example: |-
+  docker run --rm hello-world
+notes: |-
+  运行此命令需要 Docker Engine；如本地缺少镜像，Docker 会先拉取它。
+
+  Source: Docker Docs — Docker overview. https://docs.docker.com/get-started/docker-overview/
+learning_priority: 1
+tags:
+  - docker
+  - devops
+  - proper-noun

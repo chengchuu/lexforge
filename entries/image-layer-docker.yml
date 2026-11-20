@@ -1,0 +1,20 @@
+id: image-layer-docker
+language: en
+word: "image layer"
+part_of_speech: noun
+meaning: "镜像层；构成镜像文件系统的一组只读文件变更。"
+example: "An image can reuse the same base layers as other images."
+code_example: |-
+  docker pull nginx:alpine
+  docker image inspect --format '{{json .RootFS.Layers}}' nginx:alpine
+notes: |-
+  RootFS.Layers 列出镜像文件系统各层的标识。容器运行时产生的写入位于独立的可写层。
+
+  Source: Docker Docs — Understanding image layers. https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/
+learning_priority: 2
+prerequisites:
+  - image-docker
+tags:
+  - docker
+  - devops
+  - noun

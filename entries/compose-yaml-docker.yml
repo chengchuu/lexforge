@@ -1,0 +1,22 @@
+id: compose-yaml-docker
+language: en
+word: "compose.yaml"
+part_of_speech: noun
+meaning: "Compose 配置文件的推荐名称，用于声明服务等应用资源。"
+example: "Save the service definitions in compose.yaml."
+code_example: |-
+  services:
+    hello:
+      image: alpine:3.22
+      command: ["echo", "Hello from Compose"]
+notes: |-
+  保存为 compose.yaml，然后运行 docker compose config --quiet 检查配置，或运行 docker compose run --rm hello 启动示例服务。
+
+  Source: Docker Docs — Compose file reference. https://docs.docker.com/reference/compose-file/
+learning_priority: 2
+prerequisites:
+  - service-compose
+tags:
+  - docker
+  - devops
+  - noun

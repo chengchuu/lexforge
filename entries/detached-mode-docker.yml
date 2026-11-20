@@ -1,0 +1,25 @@
+id: detached-mode-docker
+language: en
+word: "detached mode"
+part_of_speech: noun
+meaning: "分离模式；让容器在后台运行并立即返回终端。"
+example: "Run the container in detached mode so you can keep using the terminal."
+code_example: |-
+  (
+    cid=$(docker run --rm --detach alpine:3.22 sh -c 'echo ready; sleep 60') || exit
+    trap 'docker stop "$cid" >/dev/null' EXIT
+    docker ps --filter "id=$cid"
+    docker logs "$cid"
+    docker exec "$cid" uname -s
+  )
+notes: |-
+  --detach 返回容器 ID。随后查看日志并在容器内运行命令，最后停止容器。
+
+  Source: Docker Docs — docker container run. https://docs.docker.com/reference/cli/docker/container/run/
+learning_priority: 2
+prerequisites:
+  - container-docker
+tags:
+  - docker
+  - devops
+  - noun

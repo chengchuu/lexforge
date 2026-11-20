@@ -1,0 +1,21 @@
+id: image-repository-docker
+language: en
+word: "image repository"
+part_of_speech: noun
+meaning: "镜像仓库；注册中心内以同一个名称组织的一组镜像版本。"
+example: "The Alpine repository publishes several release tags."
+code_example: |-
+  docker pull docker.io/library/alpine:3.21 &&
+  docker pull docker.io/library/alpine:3.22 &&
+  docker image ls alpine
+notes: |-
+  这两个引用都属于 Docker Hub 的 library/alpine 仓库。镜像列表显示相同仓库名下的两个标签。
+
+  Source: Docker Docs — Build, tag, and publish an image. https://docs.docker.com/get-started/docker-concepts/building-images/build-tag-and-publish-an-image/
+learning_priority: 2
+prerequisites:
+  - registry-docker
+tags:
+  - docker
+  - devops
+  - noun

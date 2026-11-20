@@ -31,12 +31,12 @@ The exporter derives `StudyOrder`: a unique, zero-padded rank shared across all 
 
 ## Apply the order in Anki
 
-The current export has sixteen note fields plus tags in column 17. See the [README field mapping](../README.md#set-up-anki-once) for note-type setup.
+The current export has seventeen note fields plus tags in column 18. See the [README field mapping](../README.md#set-up-anki-once) for note-type setup.
 
 Import order alone does not rearrange existing new cards. Anki's [Sort Field](https://docs.ankiweb.net/editing.html#customizing-fields) and [Reposition](https://docs.ankiweb.net/browsing.html#cards) controls apply the generated ranks:
 
 1. In **Tools → Manage Note Types → LexForge → Fields**, add `StudyOrder` after `TTSLanguage` if missing. Select `StudyOrder` and enable **Sort by this field in the browser**. Keep `ID` as the first field for import matching; choosing the sort field does not move it.
-2. Build and [import the complete TSV](../README.md#import-and-update), updating existing notes. Verify `StudyOrder` maps to column 12 and tags to column 17.
+2. Build and [import the complete TSV](../README.md#import-and-update), updating existing notes. Verify `StudyOrder` maps to column 12 and tags to column 18.
 3. In the deck's options, use **Sequential** insertion order, **Ascending position** for **New card gather order**, and **Order gathered** for **New card sort order**. Set insertion order before repositioning: changing it can reorder existing new cards. These are Anki's [display-order settings](https://docs.ankiweb.net/deck-options.html#display-order).
 4. Empty any filtered decks containing these cards. In **Browse**, use **Cards** mode and search `note:LexForge is:new`. Show **Sort Field** and **Due** columns; sort **Sort Field** ascending. Confirm the ranks increase from top to bottom.
 5. Select all results and choose **Cards → Reposition**. Set the start position to **1**, step to **1**, and turn off **Randomize order** and **Shift position of existing cards**. Check that the Due positions now increase in the same order.

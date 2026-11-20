@@ -1,0 +1,22 @@
+id: image-docker
+language: en
+word: "image"
+pronunciation: /ˈɪm.ɪdʒ/
+part_of_speech: noun
+meaning: "镜像；用于创建容器的只读模板。"
+example: "The image contains the app and its runtime dependencies."
+code_example: |-
+  docker pull alpine:3.22
+  docker image inspect --format '{{.Os}}/{{.Architecture}}' alpine:3.22
+notes: |-
+  拉取 Alpine 镜像后，查看该镜像的操作系统和架构。
+
+  Source: Docker Docs — Docker overview. https://docs.docker.com/get-started/docker-overview/
+  Pronunciation source: Cambridge Dictionary — image. https://dictionary.cambridge.org/dictionary/english/image (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - docker-platform
+tags:
+  - docker
+  - devops
+  - noun

@@ -1,0 +1,26 @@
+id: persistent-data-docker
+language: en
+word: "persistent data"
+part_of_speech: noun
+meaning: "持久化数据；容器退出或被删除后仍保留的数据。"
+example: "The database stores persistent data in a volume."
+code_example: |-
+  (
+    volume=$(docker volume create) || exit
+    trap 'docker volume rm "$volume" >/dev/null' EXIT
+    docker run --rm --mount "type=volume,src=$volume,dst=/data" \
+      alpine:3.22 sh -c 'echo saved > /data/message.txt' &&
+    docker run --rm --mount "type=volume,src=$volume,dst=/data" \
+      alpine:3.22 cat /data/message.txt
+  )
+notes: |-
+  第一个容器写入卷后被删除。第二个容器挂载同一个卷，仍可读取数据。
+
+  Source: Docker Docs — Volumes. https://docs.docker.com/engine/storage/volumes/
+learning_priority: 2
+prerequisites:
+  - volume-docker
+tags:
+  - docker
+  - devops
+  - noun

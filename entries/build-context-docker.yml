@@ -1,0 +1,30 @@
+id: build-context-docker
+language: en
+word: "build context"
+part_of_speech: noun
+meaning: "构建上下文；镜像构建时可供构建器访问的文件集合。"
+example: "The build context contains the file copied by the Dockerfile."
+code_example: |-
+  (
+    work=$(mktemp -d) || exit
+    trap 'rm -rf -- "$work"' EXIT
+    printf '%s\n' 'Hello from the build context' > "$work/message.txt"
+    cat > "$work/Dockerfile" <<'DOCKERFILE'
+  FROM alpine:3.22
+  COPY message.txt /app/message.txt
+  CMD ["cat", "/app/message.txt"]
+  DOCKERFILE
+    docker build --tag lexforge-context-demo "$work" &&
+    docker run --rm lexforge-context-demo
+  )
+notes: |-
+  命令最后的路径指定构建上下文。COPY 从该临时目录读取 message.txt。
+
+  Source: Docker Docs — Build context. https://docs.docker.com/build/concepts/context/
+learning_priority: 2
+prerequisites:
+  - dockerfile-docker
+tags:
+  - docker
+  - devops
+  - noun

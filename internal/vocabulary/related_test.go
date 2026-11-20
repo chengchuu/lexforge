@@ -9,7 +9,7 @@ import (
 
 func TestOptionalMemoryText(t *testing.T) {
 	base := "id: concept\nlanguage: en\nword: concept\nmeaning: 原理\n"
-	for _, field := range []string{"context", "example", "etymology", "word_formation", "mnemonic"} {
+	for _, field := range []string{"context", "example", "code_example", "etymology", "word_formation", "mnemonic"} {
 		for _, value := range []string{"", "null", `""`, `"  \t\n"`, `"保留 <text> [sound:test.mp3]"`} {
 			if _, err := parse([]byte(base + field + ": " + value + "\n")); err != nil {
 				t.Fatalf("%s=%s: %v", field, value, err)
@@ -68,7 +68,7 @@ func TestRelatedDisplay(t *testing.T) {
 	reader := csv.NewReader(bytes.NewReader(data))
 	reader.Comma = '\t'
 	reader.Comment = '#'
-	reader.FieldsPerRecord = 17
+	reader.FieldsPerRecord = 18
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)
@@ -93,7 +93,7 @@ func TestRelatedDisplay(t *testing.T) {
 }
 
 func TestAudioInsertionPreservesMemoryFields(t *testing.T) {
-	before := []byte("id: concept\nlanguage: en\nword: concept\nmeaning: 原理\ncontext: null\nexample: ''\netymology: origin\nword_formation: formation\nmnemonic: memory\nrelated_entries: [other]\nlearning_priority: 1\nprerequisites: [base]\nnotes: |\n  Longer notes.\n  Another line.\n")
+	before := []byte("id: concept\nlanguage: en\nword: concept\nmeaning: 原理\ncontext: null\nexample: ''\ncode_example: |-\n  echo sample\netymology: origin\nword_formation: formation\nmnemonic: memory\nrelated_entries: [other]\nlearning_priority: 1\nprerequisites: [base]\nnotes: |\n  Longer notes.\n  Another line.\n")
 	after, err := insertAudio(before, "concept.mp3")
 	if err != nil {
 		t.Fatal(err)
@@ -104,7 +104,7 @@ func TestAudioInsertionPreservesMemoryFields(t *testing.T) {
 	if _, err := checkAudioInsertion(before, after, "concept.mp3"); err != nil {
 		t.Fatal(err)
 	}
-	for _, pair := range [][2]string{{"origin", "changed"}, {"formation", "changed"}, {"memory", "changed"}, {"[other]", "[changed]"}, {"priority: 1", "priority: 2"}, {"[base]", "[changed]"}} {
+	for _, pair := range [][2]string{{"echo sample", "echo changed"}, {"origin", "changed"}, {"formation", "changed"}, {"memory", "changed"}, {"[other]", "[changed]"}, {"priority: 1", "priority: 2"}, {"[base]", "[changed]"}} {
 		modified := bytes.Replace(after, []byte(pair[0]), []byte(pair[1]), 1)
 		if _, err := checkAudioInsertion(before, modified, "concept.mp3"); err == nil {
 			t.Fatalf("missed change to %s", pair[0])

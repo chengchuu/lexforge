@@ -48,7 +48,7 @@ Use the [Learning order guide](guides/LEARNING_ORDER.md) to define introduction 
 
 ## Set up Anki once
 
-Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains seventeen columns: sixteen note fields and Anki tags. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
+Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains seventeen note fields and Anki tags in column 18. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
 If you already have LexForge notes, use the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md) to update the existing note type while preserving review history.
 
@@ -73,6 +73,7 @@ If you already have LexForge notes, use the [Anki migration guide](guides/ANKI_M
    | 14  | WordFormation |
    | 15  | Mnemonic      |
    | 16  | RelatedWords  |
+   | 17  | CodeExample   |
 
 3. Keep `ID` first. Select `StudyOrder` as the browser sort field. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID.
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
@@ -125,6 +126,7 @@ Back template:
 {{#Example}}<div class="example">{{Example}}
 {{#TTSLanguage}}<span class="example-speech">[anki:tts lang={{TTSLanguage}}]{{Example}}[/anki:tts]</span>{{/TTSLanguage}}
 </div>{{/Example}}
+{{#CodeExample}}<pre class="code-example" role="region" aria-label="Code example" tabindex="0"><code>{{CodeExample}}</code></pre>{{/CodeExample}}
 {{#Etymology}}<div class="memory-aid"><strong>Etymology</strong><br>{{Etymology}}</div>{{/Etymology}}
 {{#WordFormation}}<div class="memory-aid"><strong>Word Formation</strong><br>{{WordFormation}}</div>{{/WordFormation}}
 {{#Mnemonic}}<div class="memory-aid"><strong>Mnemonic</strong><br>{{Mnemonic}}</div>{{/Mnemonic}}
@@ -326,6 +328,7 @@ Styling:
 
 .context,
 .example,
+.code-example,
 .memory-aid,
 .notes {
   box-sizing: border-box;
@@ -346,6 +349,19 @@ Styling:
   margin-left: 0.4em;
 }
 
+.code-example {
+  margin-bottom: 0;
+  padding: 12px 14px;
+  overflow-x: auto;
+  white-space: pre;
+  overflow-wrap: normal;
+  background: var(--color-code-bg);
+  color: var(--color-heading);
+  font-family: monospace;
+  font-size: 16px;
+  font-size: clamp(16px, 4vw, 19px);
+}
+
 @media (min-width: 700px) {
   .card,
   .card.nightMode {
@@ -356,7 +372,7 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context and example, memory aids, related entries, and notes. Absent sections leave no labels, spacing, or replay controls. Meaning and Notes are not read by example TTS. Japanese pronunciation uses kana.
+The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context, a prose example, a code example, memory aids, related entries, and notes. A populated `CodeExample` appears below the prose example and scrolls horizontally when a line is too long. Read Aloud uses only the prose example. Absent sections leave no labels, spacing, or replay controls. Japanese pronunciation uses kana.
 
 Tags remain available for Anki searches and filtering, including derived language tags such as `lang-en`, but are hidden on cards. To hide tags on existing cards, replace **Back Template** in your installed note type and sync. No TSV reimport or audio regeneration is needed.
 
@@ -398,7 +414,7 @@ These are AnkiDroid controls outside the card content. Change their size in the 
 
 1. Build `dist/vocabulary.tsv`.
 2. In Anki Desktop, import the TSV and select the `LexForge` note type and your deck.
-3. Verify the preview: tab separator, HTML enabled, columns 1–16 mapped to the matching fields by name, and column 17 mapped to Anki tags. Check the mapping even if you use the recommended field order. The export headers supply defaults, but the note type must already exist.
+3. Verify that the preview uses tabs and has HTML enabled. Map columns 1–17 to the matching fields by name, with `ID` first and `CodeExample` in column 17. Map column 18 to Anki tags. The export headers supply defaults. Check the mapping even if you use the recommended field order.
 4. Choose to **update** existing notes. Use **note type** as the match scope, rather than note type and deck. Keep these settings for later imports.
 5. Import, inspect a card, and sync with AnkiWeb. Then sync AnkiDroid to review on mobile.
 

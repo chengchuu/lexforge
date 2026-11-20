@@ -198,6 +198,7 @@ part_of_speech
 meaning
 context
 example
+code_example
 notes
 etymology
 word_formation
@@ -245,6 +246,7 @@ Optional fields are:
 ```text
 context
 example
+code_example
 pronunciation
 part_of_speech
 notes
@@ -258,7 +260,7 @@ prerequisites
 tags
 ```
 
-Optional fields are strings except for `tags`, `prerequisites`, and `related_entries` (lists of strings) and `learning_priority` (an integer from 1 to 3, defaulting to 2). Omit unused optional fields. For `context`, `example`, `etymology`, `word_formation`, and `mnemonic`, omission, empty or whitespace-only strings, and YAML null mean absent; other optional fields must be nonempty when supplied.
+Optional fields are strings except for `tags`, `prerequisites`, and `related_entries` (lists of strings) and `learning_priority` (an integer from 1 to 3, defaulting to 2). Omit unused optional fields. For `context`, `example`, `code_example`, `etymology`, `word_formation`, and `mnemonic`, omission, empty or whitespace-only strings, and YAML null mean absent. Other optional fields must be nonempty when supplied.
 
 ---
 
@@ -267,6 +269,8 @@ Optional fields are strings except for `tags`, `prerequisites`, and `related_ent
 Word can name a word, expression, term, or concept. Meaning gives its core definition or concise reasoning; add no Question, Answer, or Explanation fields. Context and Example are optional. Notes supports detailed paragraphs or plain-text steps and appears fully at the bottom of the back. Do not enforce a Notes length limit or add collapse controls. Keep source text plain; the exporter escapes HTML and converts line breaks, without Markdown rendering. Keep Chinese walkthroughs in Notes rather than sending them to Example TTS. The back template conditionally renders Context, Example, each memory-aid field, RelatedWords, and Notes. Keep labels and spacing inside their conditions; an absent Example must also hide its TTS control.
 
 Use optional `etymology` for verified historical origins, `word_formation` for supported construction patterns, and `mnemonic` for memory aids. Distinguish history from mnemonic invention and preserve uncertainty. Record source titles and URLs in Notes without replacing provenance.
+
+Use optional `code_example` for code, commands, or configuration. Store multiline snippets in a literal YAML block without Markdown fences. The exporter escapes the snippet as text, and the back renders a separate code block outside example speech. Keep the block conditional so entries without code leave no gap.
 
 `related_entries` contains human-approved existing stable IDs. Propose candidates with both IDs, current words and meanings, rationale, and confusion risks. Approval of a pair does not authorize mnemonic rewrites. Declare a pair once; the exporter displays current Word and Meaning on both backs, sorted by neighbor ID. Cross-language neighbors include their language tag. Cycles and reciprocal declarations are valid, but repeated IDs in one list, self-links, malformed IDs, and missing targets fail validation. Only direct neighbors display; associations do not affect prerequisites or StudyOrder. Remove both declarations if both endpoints declare a pair. Rebuild and reimport the complete export to refresh reverse displays. Do not automatically infer relationships.
 
@@ -611,7 +615,7 @@ Validation checks for:
 - invalid learning priorities, prerequisite references, and dependency cycles
 - malformed, duplicate, missing, or self-referencing related-entry IDs; association cycles remain valid
 
-Each visible file directly under `entries/` must be a regular lowercase kebab-case `.yml` file containing exactly one YAML mapping. Nested directories, symlinks, aliases, merge keys, duplicate keys, unknown fields, empty optional values outside the five designated text fields, and incorrect field types are rejected. Dot-prefixed entries are ignored; an empty collection fails validation. Text may contain tabs and line breaks, but not other control characters.
+Each visible file directly under `entries/` must be a regular lowercase kebab-case `.yml` file containing exactly one YAML mapping. Nested directories, symlinks, aliases, merge keys, duplicate keys, unknown fields, empty optional values outside the six designated text fields, and incorrect field types are rejected. Dot-prefixed entries are ignored; an empty collection fails validation. Text may contain tabs and line breaks, but not other control characters.
 
 Audio validation checks the exact `<id>.mp3` filename and a nonempty regular file. It does not decode MP3s, assess pronunciation, or verify installed speech voices. Decoding is part of audio generation and reuse.
 
@@ -683,10 +687,11 @@ Etymology
 WordFormation
 Mnemonic
 RelatedWords
+CodeExample
 Tags
 ```
 
-Keep the stable ID in the first column. The export has sixteen note fields followed by Anki tags in column 17. `TTSLanguage`, `StudyOrder`, and `RelatedWords` are derived during export, not stored in YAML. `StudyOrder` is the browser sort field; keep `ID` first for import matching.
+Keep the stable ID in the first column for import matching and use `StudyOrder` as the browser sort field. The export has seventeen note fields, ending with `CodeExample`, followed by Anki tags in column 18. The exporter derives `TTSLanguage`, `StudyOrder`, and `RelatedWords`.
 
 The README recommends a note-field order, but fields after `ID` may be reordered if import columns map to the correct fields by name. Template field names determine presentation independently. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID. Tags support searches and filtering and are currently hidden on card backs.
 
@@ -1001,6 +1006,7 @@ part_of_speech
 meaning
 context
 example
+code_example
 notes
 etymology
 word_formation

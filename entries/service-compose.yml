@@ -1,0 +1,27 @@
+id: service-compose
+language: en
+word: "service"
+pronunciation: /ˈsɝː.vɪs/
+part_of_speech: noun
+meaning: "服务；Compose 配置中描述应用组件及其容器运行方式的定义。"
+example: "The web service and the cache service use different images."
+code_example: |-
+  services:
+    web:
+      image: alpine:3.22
+      command: ["echo", "web service"]
+    worker:
+      image: alpine:3.22
+      command: ["echo", "worker service"]
+notes: |-
+  保存为 compose.yaml。运行 docker compose config --services 列出服务，或执行 docker compose run --rm web 单独运行 web 服务。
+
+  Source: Docker Docs — Compose services. https://docs.docker.com/reference/compose-file/services/
+  Pronunciation source: Cambridge Dictionary — service. https://dictionary.cambridge.org/dictionary/english/service (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - docker-compose-docker
+tags:
+  - docker
+  - devops
+  - noun

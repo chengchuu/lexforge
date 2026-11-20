@@ -1,0 +1,25 @@
+id: port-networking
+language: en
+word: "port"
+pronunciation: /pɔːrt/
+part_of_speech: noun
+meaning: "网络端口；用数字标识主机上的网络通信端点。"
+example: "The web server listens on port 80."
+code_example: |-
+  (
+    cid=$(docker run --rm -d -p 127.0.0.1::80 nginx:alpine) || exit
+    trap 'docker stop "$cid" >/dev/null' EXIT
+    docker port "$cid" 80/tcp
+  )
+notes: |-
+  容器内部使用端口 80。docker port 显示它对应的宿主机端口。示例自动分配仅在本机可访问的端口。
+
+  Source: Docker Docs — Publishing and exposing ports. https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/
+  Pronunciation source: Cambridge Dictionary — port. https://dictionary.cambridge.org/dictionary/english/port (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - container-docker
+tags:
+  - docker
+  - devops
+  - noun
