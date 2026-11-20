@@ -5,6 +5,10 @@ pronunciation: "/əˈreɪ/"
 part_of_speech: noun
 meaning: "数组；按索引组织元素的集合。"
 example: "The array contains the generated records."
+code_example: |-
+  const names = ["Ada", "Grace"];
+  names.push("Lin");
+  console.log(names[0], names.length); // Ada 3
 notes: |
   JavaScript Array 是可调整长度的对象，索引从 0 开始，并可包含不同类型的值。不能把其他语言中固定大小或连续布局的承诺直接套用到 JavaScript。数组展开是构造数组等场景中的具体语法。
   来源: MDN: Array: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array

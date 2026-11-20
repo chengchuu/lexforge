@@ -4,6 +4,11 @@ word: "Pick"
 part_of_speech: noun
 meaning: "从类型中保留指定属性的工具类型"
 example: "Use Pick to keep only the id and name fields."
+code_example: |-
+  type Product = { id: number; title: string; stock: number };
+  type Label = Pick<Product, "id" | "title">;
+  const label: Label = { id: 7, title: "Notebook" };
+  console.log(label.title);
 notes: |-
   Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
 learning_priority: 3

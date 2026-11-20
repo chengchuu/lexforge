@@ -5,6 +5,19 @@ pronunciation: "/slaɪs/"
 part_of_speech: noun
 meaning: "切片，引用底层数组中一段连续元素的描述符"
 example: "The function returns a slice of valid IDs."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      values := []int{10, 20, 30}
+      tail := values[1:]
+      tail[0] = 99
+      fmt.Println(tail, values) // [99 30] [10 99 30]
+  }
 notes: |-
   赋值会复制切片描述符。两个切片仍可能共享底层数组。
 

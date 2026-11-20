@@ -5,6 +5,13 @@ pronunciation: "/ˈinʌm/"
 part_of_speech: "noun"
 meaning: "枚举；为一组具名常量定义成员的结构。"
 example: "The enum gives each status a name."
+code_example: |-
+  enum Status {
+    Ready = "ready",
+    Pending = "pending",
+  }
+  const state: Status = Status.Ready;
+  console.log(state);
 notes: |-
   按 TypeScript 枚举解释；enum 是 enumeration 的缩略用法。
 

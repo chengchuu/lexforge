@@ -4,6 +4,11 @@ word: "property descriptor"
 part_of_speech: "noun phrase"
 meaning: "属性描述符；描述属性的值、访问器及相关特性的信息对象。"
 example: "Inspect the property descriptor before changing the object."
+code_example: |-
+  const item = {};
+  Object.defineProperty(item, "id", { value: 7, writable: false });
+  const descriptor = Object.getOwnPropertyDescriptor(item, "id");
+  console.log(descriptor.value, descriptor.writable, descriptor.enumerable); // 7 false false
 notes: |-
   区分数据描述符和访问器描述符，不把 value 与 get/set 混成同一种属性配置。
 

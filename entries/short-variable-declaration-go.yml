@@ -4,6 +4,18 @@ word: "short variable declaration"
 part_of_speech: noun phrase
 meaning: "在函数内使用 := 声明并初始化变量的语法"
 example: "The short variable declaration creates a local counter."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      count := 2
+      count, ready := 3, true   // Reuse count and declare ready in the same block.
+      fmt.Println(count, ready) // 3 true
+  }
 notes: |-
   Source: Go specification — Short variable declarations. https://go.dev/ref/spec#Short_variable_declarations
 learning_priority: 2

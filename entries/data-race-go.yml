@@ -4,6 +4,29 @@ word: "data race"
 part_of_speech: noun phrase
 meaning: "数据竞争，针对同一内存位置发生未正确同步且至少有一次写入的并发访问"
 example: "The unsynchronized writes caused a data race."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+      "sync"
+  )
+
+  func main() {
+      var count int
+      var wg sync.WaitGroup
+      wg.Add(2)
+      for range 2 {
+          go func() {
+              defer wg.Done()
+              count++ // Two read-modify-write operations with no ordering between them.
+          }()
+      }
+      wg.Wait()
+      fmt.Println(count)
+      // Run: go run -race main.go
+      // Expected: a DATA RACE report.
+  }
 notes: |-
   Source: The Go Memory Model. https://go.dev/ref/mem
 learning_priority: 2

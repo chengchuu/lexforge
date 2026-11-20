@@ -4,6 +4,23 @@ word: "happens-before"
 part_of_speech: noun phrase
 meaning: "先行发生关系，用于描述按内存模型可观测的操作顺序"
 example: "A happens-before relationship orders the write before the read."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      ready := make(chan struct{})
+      var message string
+      go func() {
+          message = "written"
+          close(ready)
+      }()
+      <-ready              // The close synchronizes before this receive.
+      fmt.Println(message) // written
+  }
 notes: |-
   Source: The Go Memory Model. https://go.dev/ref/mem
 learning_priority: 3

@@ -4,6 +4,19 @@ word: "type-only import"
 part_of_speech: noun phrase
 meaning: "仅类型导入，导入供类型检查使用的绑定"
 example: "Use a type-only import for the options interface."
+code_example: |-
+  // Save each section under its filename. Compile and run:
+  // tsc --strict --target ES2022 --module commonjs main.ts
+  // node main.js
+  // File: model.ts
+  export interface User {
+    name: string;
+  }
+
+  // File: main.ts
+  import type { User } from "./model";
+  const user: User = { name: "Ada" };
+  console.log(user.name); // The import is absent from main.js.
 notes: |-
   Source: TypeScript Handbook — Modules. https://www.typescriptlang.org/docs/handbook/2/modules.html
 learning_priority: 2

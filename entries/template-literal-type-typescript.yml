@@ -4,6 +4,11 @@ word: "template literal type"
 part_of_speech: noun phrase
 meaning: "模板字面量类型，按字符串模板构造字符串字面量类型"
 example: "A template literal type describes the allowed event names."
+code_example: |-
+  type Key = "name" | "email";
+  type ChangeEvent = `${Key}Changed`;
+  const event: ChangeEvent = "emailChanged";
+  console.log(event);
 notes: |-
   Source: TypeScript Handbook — Template Literal Types. https://www.typescriptlang.org/docs/handbook/2/template-literal-types.html
 learning_priority: 3

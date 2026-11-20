@@ -5,6 +5,22 @@ pronunciation: "/ˈded.laɪn/"
 part_of_speech: noun
 meaning: "截止时间，指定操作最晚应结束的时刻"
 example: "Set a deadline for the request."
+code_example: |-
+  package main
+
+  import (
+      "context"
+      "fmt"
+      "time"
+  )
+
+  func main() {
+      deadline := time.Now().Add(-time.Second)
+      ctx, cancel := context.WithDeadline(context.Background(), deadline)
+      defer cancel()
+      <-ctx.Done()
+      fmt.Println(ctx.Err()) // context deadline exceeded
+  }
 notes: |-
   Source: Go Concurrency Patterns: Context. https://go.dev/blog/context
 

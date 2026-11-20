@@ -5,6 +5,9 @@ pronunciation: "/ˈbuːliən/"
 part_of_speech: keyword
 meaning: "布尔类型，值为 true 或 false"
 example: "The enabled flag has type boolean."
+code_example: |-
+  const hasItems: boolean = ["a"].length > 0;
+  console.log(hasItems ? "ready" : "empty"); // ready
 notes: |-
   使用小写 boolean 表示原始布尔类型。Boolean 是 JavaScript 中的构造函数名称，也可指对应的包装对象类型。
 

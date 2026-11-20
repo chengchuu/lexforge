@@ -4,6 +4,19 @@ word: "multiple return values"
 part_of_speech: noun phrase
 meaning: "多返回值，一次函数调用返回的多个结果"
 example: "The function uses multiple return values to report a result and an error."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func quotient(n, d int) (int, int) { return n / d, n % d }
+
+  func main() {
+      q, remainder := quotient(17, 5)
+      fmt.Println(q, remainder) // 3 2
+  }
 notes: |-
   Source: Go specification — Function types. https://go.dev/ref/spec#Function_types
 learning_priority: 2

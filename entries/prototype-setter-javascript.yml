@@ -4,6 +4,13 @@ word: "prototype setter"
 part_of_speech: "noun phrase"
 meaning: "原型设置语法；此处指对象字面量中用 __proto__: value 设置原型的特殊写法。"
 example: "The prototype setter sets the new object's prototype."
+code_example: |-
+  const parent = { role: "reader" };
+  const linked = { __proto__: parent };
+  const own = { ["__proto__"]: parent };
+  console.log(Object.getPrototypeOf(linked) === parent); // true
+  console.log(Object.hasOwn(own, "__proto__")); // true
+  console.log(Object.getPrototypeOf(own) === parent); // false
 notes: |-
   限定为对象字面量创建时的特殊语法；只有对象或 null 才用作指定原型，其他值不改变原型。['__proto__']: value 是普通计算属性，不具有相同的原型设置语义；不是泛指 setter 方法。
 

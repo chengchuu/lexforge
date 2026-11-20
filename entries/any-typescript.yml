@@ -5,6 +5,10 @@ pronunciation: "/ˈen.i/"
 part_of_speech: keyword
 meaning: "允许跳过相关静态类型检查的类型"
 example: "A value typed as any can be used without checking its properties first."
+code_example: |-
+  const value: any = { id: 7 };
+  console.log(value.id); // 7
+  console.log(value.missing); // undefined; TypeScript permits the access.
 notes: |-
   对比：any 允许跳过对值的相关检查，unknown 在多数操作前需要收窄类型，never 表示没有可能的值。
 

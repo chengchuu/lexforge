@@ -6,6 +6,22 @@ part_of_speech: noun
 meaning: "性能基准测试"
 context: "使用明确的任务负载衡量性能表现。"
 example: "Describe the workload used by the benchmark."
+code_example: |-
+  package example
+
+  import (
+      "strings"
+      "testing"
+  )
+
+  // Use a fresh module: go mod init example.com/snippet
+  // Save as example_test.go.
+  // Run: go test -run '^$' -bench BenchmarkUppercase
+  func BenchmarkUppercase(b *testing.B) {
+      for b.Loop() {
+          strings.ToUpper("hello-go")
+      }
+  }
 notes: "Source: AGENTS.md."
 audio: benchmark-tech.mp3
 learning_priority: 2

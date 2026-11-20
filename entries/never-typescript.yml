@@ -5,6 +5,15 @@ pronunciation: "/ˈnev.ɚ/"
 part_of_speech: keyword
 meaning: "无值可属于的类型"
 example: "A function that always throws can have a never return type."
+code_example: |-
+  function fail(message: string): never {
+    throw new Error(message);
+  }
+  try {
+    fail("no result");
+  } catch (error) {
+    if (error instanceof Error) console.log(error.message);
+  }
 notes: |-
   例如，始终抛出异常的函数可以显式标注返回类型 never。处理完可辨识联合的所有情况后，可用 never 检查剩余分支是否确实不可达。
 

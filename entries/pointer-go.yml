@@ -5,6 +5,19 @@ pronunciation: "/ˈpɔɪn.t̬ɚ/"
 part_of_speech: noun
 meaning: "指针，保存变量地址的值"
 example: "Pass a pointer so the function can update the counter."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      n := 3
+      p := &n
+      *p = 9
+      fmt.Println(n) // 9
+  }
 notes: |-
   Source: Go specification — Types. https://go.dev/ref/spec#Types
 

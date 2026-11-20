@@ -4,6 +4,17 @@ word: "bool"
 part_of_speech: predeclared identifier
 meaning: "布尔类型，取值为 true 或 false"
 example: "The ready flag has type bool."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      var enabled bool = true
+      fmt.Println(enabled, !enabled) // true false
+  }
 notes: |-
   Go 使用 bool 作为预声明的类型名。需要表达没有返回值的函数时，省略返回结果列表。
 

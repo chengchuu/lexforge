@@ -5,6 +5,18 @@ pronunciation: "/ˈtʃæn.əl/"
 part_of_speech: noun
 meaning: "通道，用于在并发执行单元之间发送和接收指定类型的值"
 example: "The worker sends its result on a channel."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      ch := make(chan string)
+      go func() { ch <- "ready" }()
+      fmt.Println(<-ch) // ready
+  }
 notes: |-
   Source: Go specification — Channel types. https://go.dev/ref/spec#Channel_types
 

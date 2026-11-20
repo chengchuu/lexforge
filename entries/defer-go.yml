@@ -5,6 +5,19 @@ pronunciation: "/dɪˈfɝː/"
 part_of_speech: keyword
 meaning: "延迟调用，在外围函数返回前按后进先出顺序运行已安排的调用"
 example: "Use defer to close the file before the function returns."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      defer fmt.Println("first deferred")
+      defer fmt.Println("second deferred")
+      fmt.Println("body")
+      // Output: body, second deferred, first deferred (one per line).
+  }
 notes: |-
   安排 defer 调用时会求值函数值及实参，实际调用在外围函数退出前执行。
 

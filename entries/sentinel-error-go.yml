@@ -4,6 +4,27 @@ word: "sentinel error"
 part_of_speech: noun phrase
 meaning: "哨兵错误，用预定义错误值表示可识别的情况"
 example: "The caller checks for a sentinel error using errors.Is."
+code_example: |-
+  package main
+
+  import (
+      "errors"
+      "fmt"
+  )
+
+  var errEmpty = errors.New("empty input")
+
+  func parse(s string) error {
+      if s == "" {
+          return errEmpty
+      }
+      return nil
+  }
+
+  func main() {
+      err := fmt.Errorf("parse: %w", parse(""))
+      fmt.Println(errors.Is(err, errEmpty)) // true
+  }
 notes: |-
   Source: Working with Errors in Go 1.13. https://go.dev/blog/go1.13-errors
 learning_priority: 2

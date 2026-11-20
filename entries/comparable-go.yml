@@ -4,6 +4,19 @@ word: "comparable"
 part_of_speech: predeclared identifier
 meaning: "预声明约束，表示类型实参必须满足 Go 的可比较性要求"
 example: "The comparable constraint lets the generic function compare its inputs with ==."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func equal[T comparable](a, b T) bool { return a == b }
+
+  func main() {
+      fmt.Println(equal(4, 4), equal("go", "no")) // true false
+      // equal([]int{1}, []int{1}) would not compile.
+  }
 notes: |-
   比较接口值时还要考虑其动态值。满足 comparable 约束并不保证对所有可能的动态值进行比较都不会引发 panic。
 

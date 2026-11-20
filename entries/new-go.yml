@@ -4,6 +4,19 @@ word: "new"
 part_of_speech: predeclared identifier
 meaning: "分配存储并返回指针的内置函数"
 example: "The expression new(int) returns a pointer to a zero-initialized int."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      p := new(int)
+      fmt.Println(*p) // 0; p has type *int.
+      *p = 7
+      fmt.Println(*p) // 7
+  }
 notes: |-
   Source: Go specification — Built-in functions. https://go.dev/ref/spec#Built-in_functions
 learning_priority: 2

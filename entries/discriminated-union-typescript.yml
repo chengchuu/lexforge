@@ -4,6 +4,12 @@ word: "discriminated union"
 part_of_speech: noun phrase
 meaning: "可辨识联合，用共同的字面量属性区分成员"
 example: "The discriminated union uses a kind field to distinguish its cases."
+code_example: |-
+  type Result = { ok: true; data: string } | { ok: false; error: Error };
+  function describe(result: Result) {
+    return result.ok ? result.data : result.error.message;
+  }
+  console.log(describe({ ok: true, data: "ready" }));
 notes: |-
   Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 learning_priority: 2

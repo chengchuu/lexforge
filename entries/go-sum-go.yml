@@ -4,6 +4,10 @@ word: "go.sum"
 part_of_speech: noun
 meaning: "记录依赖模块内容和 go.mod 文件校验值的文件"
 example: "Commit the updated go.sum file with the dependency change."
+code_example: |-
+  # Run in the LexForge repository or another module with downloaded dependencies.
+  go mod verify
+  head -n 4 go.sum
 notes: |-
   go.sum 是校验记录，不是锁定依赖版本的文件。
 

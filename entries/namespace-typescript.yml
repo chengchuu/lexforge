@@ -4,6 +4,13 @@ word: "namespace"
 part_of_speech: "noun"
 meaning: "命名空间；组织一组命名成员、通过限定名称访问的作用域结构。"
 example: "The namespace contains an exported class."
+code_example: |-
+  namespace Geometry {
+    export function area(side: number) {
+      return side * side;
+    }
+  }
+  console.log(Geometry.area(4)); // 16
 notes: |-
   这里采用 TypeScript namespace 的用法；不暗示所有模块都是 namespace 声明。
 

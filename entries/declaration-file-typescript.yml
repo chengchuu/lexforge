@@ -4,6 +4,20 @@ word: "declaration file"
 part_of_speech: noun phrase
 meaning: "声明文件，为代码提供类型信息的 .d.ts 文件"
 example: "The library ships a declaration file alongside its JavaScript."
+code_example: |-
+  // Save each section under its filename. Run:
+  // tsc --strict --target ES2022 --module commonjs main.ts
+  // node main.js
+  // File: model.d.ts
+  export interface User {
+    id: number;
+    name: string;
+  }
+
+  // File: main.ts
+  import type { User } from "./model";
+  const user: User = { id: 1, name: "Ada" };
+  console.log(user.name);
 notes: |-
   Source: TypeScript Handbook — Modules. https://www.typescriptlang.org/docs/handbook/2/modules.html
 learning_priority: 2

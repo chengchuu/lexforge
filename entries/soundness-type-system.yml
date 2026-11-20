@@ -4,6 +4,12 @@ word: "soundness"
 part_of_speech: "noun"
 meaning: "健全性；类型检查所接受的程序不会违反该系统承诺的类型安全性质。"
 example: "A faster type check must not sacrifice soundness."
+code_example: |-
+  const numbers: number[] = [];
+  const wider: (number | string)[] = numbers;
+  wider.push("surprise"); // TypeScript allows this assignment and write.
+  const nominallyNumber: number = numbers[0];
+  console.log(typeof nominallyNumber); // string, despite the static type.
 notes: |-
   这是类型系统术语，不是声音质量。TypeScript 为实用性允许部分不可靠行为；不声称整个语言完全可靠。
 

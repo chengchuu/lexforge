@@ -4,6 +4,11 @@ word: "generic"
 part_of_speech: noun
 meaning: "泛型，使用类型参数描述可复用的函数或类型"
 example: "A generic function can preserve the type of its input."
+code_example: |-
+  function first<T>(items: readonly [T, ...T[]]): T {
+    return items[0];
+  }
+  console.log(first([1, 2]), first(["go", "js"])); // 1 go
 notes: |-
   泛型在类型位置保留输入信息，例如同一个泛型可分别用于 bigint 和 symbol。类型名 bigint 和 symbol 使用小写。
 

@@ -4,6 +4,27 @@ word: "method set"
 part_of_speech: noun phrase
 meaning: "方法集，由类型及相关规则决定的方法集合"
 example: "The method set of a pointer can include methods with pointer receivers."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type counter int
+
+  func (c *counter) Add() { (*c)++ }
+
+  type adder interface{ Add() }
+
+  var _ adder = (*counter)(nil) // *counter satisfies adder.
+  // var _ adder = counter(0) would fail.
+
+  func main() {
+      var n counter
+      n.Add()        // An addressable value can call the pointer method.
+      fmt.Println(n) // 1
+  }
 notes: |-
   Source: Go specification — Method sets. https://go.dev/ref/spec#Method_sets
 learning_priority: 2

@@ -4,6 +4,10 @@ word: "tuple"
 part_of_speech: noun
 meaning: "元组，按位置定义元素类型的数组类型"
 example: "This tuple stores a name followed by a count."
+code_example: |-
+  const record: [number, string] = [7, "Ada"];
+  const [id, name] = record;
+  console.log(id.toFixed(0), name.toUpperCase());
 notes: |-
   Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
 learning_priority: 1

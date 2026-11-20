@@ -4,6 +4,17 @@ word: "call stack"
 part_of_speech: noun phrase
 meaning: "调用栈；按后进先出顺序记录函数调用和返回位置。"
 example: "Deep recursion can overflow the call stack."
+code_example: |-
+  function inner() {
+    console.log("inner");
+  }
+  function outer() {
+    console.log("enter outer");
+    inner();
+    console.log("leave outer");
+  }
+  outer();
+  // Output: enter outer → inner → leave outer.
 notes: |
   调用函数时压入调用帧，返回时弹出。递归过深可能耗尽栈空间。调用栈描述执行顺序，不等于所有变量的物理存储位置。
 

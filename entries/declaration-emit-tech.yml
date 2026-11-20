@@ -6,6 +6,12 @@ part_of_speech: noun
 meaning: "声明生成"
 context: "编译过程中生成声明文件或声明输出的阶段。"
 example: "Declaration emit should report inaccessible types without crashing."
+code_example: |-
+  // Save as main.ts. Run: tsc --strict --declaration --emitDeclarationOnly main.ts
+  export function add(a: number, b: number): number {
+    return a + b;
+  }
+  // main.d.ts contains the exported signature, without the function body.
 notes: "Source: typescript/typescript-64952.md."
 audio: declaration-emit-tech.mp3
 learning_priority: 3

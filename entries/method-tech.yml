@@ -5,6 +5,21 @@ pronunciation: "/ˈmɛθəd/"
 part_of_speech: "noun"
 meaning: "方法；与对象、类或类型关联、用于执行行为的函数成员。"
 example: "The method reads an own property."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type rectangle struct{ width, height int }
+
+  func (r rectangle) Area() int { return r.width * r.height }
+
+  func main() {
+      r := rectangle{3, 4}
+      fmt.Println(r.Area()) // 12
+  }
 notes: |-
   这里采用编程含义。
 

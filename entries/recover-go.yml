@@ -5,6 +5,26 @@ pronunciation: "/rɪˈkʌv.ɚ/"
 part_of_speech: predeclared identifier
 meaning: "在延迟调用的函数中直接使用时可接管同一 goroutine 的 panic"
 example: "Call recover directly in the deferred function."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func guarded() {
+      defer func() {
+          if value := recover(); value != nil {
+              fmt.Println("recovered:", value)
+          }
+      }()
+      panic("example")
+  }
+
+  func main() {
+      guarded()
+      fmt.Println("caller continues")
+  }
 notes: |-
   recover 必须由正在延迟执行的函数直接调用，并且仅处理同一 goroutine 中的 panic。
 

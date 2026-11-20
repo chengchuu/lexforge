@@ -5,6 +5,11 @@ pronunciation: "/taɪp/"
 part_of_speech: "noun"
 meaning: "类型；描述值的类别及允许操作或约束的信息。"
 example: "The type determines which operations are allowed."
+code_example: |-
+  const count: number = 3;
+  const title: string = "Tasks";
+  console.log(title + ": " + count);
+  // count.toUpperCase() would fail because count has type number.
 notes: |-
   mapped type 表示映射类型，return type 表示返回类型；这里的 type 均采用编程含义。
 

@@ -5,6 +5,19 @@ pronunciation: "/nɪl/"
 part_of_speech: predeclared identifier
 meaning: "表示某些类型零值的预声明标识符，例如指针、切片和通道的零值"
 example: "The slice is nil before the first append."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      var p *int
+      var s []int
+      var ch chan int
+      fmt.Println(p == nil, s == nil, ch == nil) // true true true
+  }
 notes: |-
   nil 适用于指针、函数、切片、映射、通道和接口等类型。包含具类型的 nil 值的接口不一定等于 nil。
 

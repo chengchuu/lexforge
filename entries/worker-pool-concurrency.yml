@@ -4,6 +4,39 @@ word: "worker pool"
 part_of_speech: noun phrase
 meaning: "工作池；用有限工作单元处理排队任务并控制并发。"
 example: "A worker pool bounds the number of concurrent tasks."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+      "sync"
+  )
+
+  func main() {
+      jobs := make(chan int, 3)
+      results := make(chan int, 3)
+      var wg sync.WaitGroup
+      for range 2 {
+          wg.Add(1)
+          go func() {
+              defer wg.Done()
+              for job := range jobs {
+                  results <- job * job
+              }
+          }()
+      }
+      for _, n := range []int{2, 3, 4} {
+          jobs <- n
+      }
+      close(jobs)
+      wg.Wait()
+      close(results)
+      sum := 0
+      for n := range results {
+          sum += n
+      }
+      fmt.Println(sum) // 29; two workers handle three jobs.
+  }
 notes: |
   取出任务交给空闲工作单元，完成后补充下一个任务。要定义错误、取消、背压与结果顺序。异步任务的并发限制不等于创建线程；Node.js 的 Worker 线程池则可处理 CPU 密集工作。
 

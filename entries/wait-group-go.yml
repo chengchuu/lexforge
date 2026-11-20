@@ -4,6 +4,23 @@ word: "wait group"
 part_of_speech: noun phrase
 meaning: "等待组，等待一组任务完成的同步机制"
 example: "The wait group waits for all workers to finish."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+      "sync"
+  )
+
+  func main() {
+      var wg sync.WaitGroup
+      wg.Add(2)
+      for range 2 {
+          go func() { defer wg.Done() }()
+      }
+      wg.Wait()
+      fmt.Println("both workers finished")
+  }
 notes: |-
   Source: Go sync package. https://pkg.go.dev/sync
 learning_priority: 2

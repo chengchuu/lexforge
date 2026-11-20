@@ -4,6 +4,10 @@ word: "floating-point precision"
 part_of_speech: noun phrase
 meaning: "浮点精度；有限位数表示数值时产生的精度限制。"
 example: "Floating-point precision affects equality checks."
+code_example: |-
+  const sum = 0.1 + 0.2;
+  console.log(sum, sum === 0.3); // 0.30000000000000004 false
+  console.log(Math.abs(sum - 0.3) < Number.EPSILON); // true at this scale
 notes: |
   JavaScript Number 使用双精度二进制浮点数。0.1 等十进制小数无法精确表示，所以 0.1 + 0.2 不严格等于 0.3。容差应结合数值规模和业务精度，不能把 Number.EPSILON 当作通用阈值。
 

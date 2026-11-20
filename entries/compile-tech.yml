@@ -5,6 +5,12 @@ pronunciation: "/kəmˈpaɪl/"
 part_of_speech: "verb"
 meaning: "编译；把源代码转换为目标代码或另一种程序表示。"
 example: "Compile the example with both backends."
+code_example: |-
+  work=$(mktemp -d) || exit
+  trap 'rm -rf -- "$work"' EXIT
+  printf '%s\n' 'package demo' 'var Answer = 42' > "$work/demo.go"
+  go tool compile -o "$work/demo.o" "$work/demo.go"
+  test -s "$work/demo.o" && echo "compiled object"
 notes: |-
   与运行程序、构建整个项目区分。
 

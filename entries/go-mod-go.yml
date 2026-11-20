@@ -4,6 +4,12 @@ word: "go.mod"
 part_of_speech: noun
 meaning: "Go 模块定义文件，记录模块路径和依赖等信息"
 example: "The go.mod file lists the required module versions."
+code_example: |-
+  work=$(mktemp -d) || exit
+  trap 'rm -rf -- "$work"' EXIT
+  cd "$work" || exit
+  go mod init example.com/hello
+  cat go.mod
 notes: |-
   Source: go.mod file reference. https://go.dev/doc/modules/gomod-ref
 learning_priority: 2

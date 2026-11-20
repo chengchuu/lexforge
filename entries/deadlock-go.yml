@@ -4,6 +4,13 @@ word: "deadlock"
 part_of_speech: noun
 meaning: "死锁，相关执行单元一直等待而无法继续"
 example: "Two workers taking locks in opposite orders can cause a deadlock."
+code_example: |-
+  package main
+
+  func main() {
+      ch := make(chan int)
+      <-ch // No goroutine can send. The runtime reports a deadlock.
+  }
 notes: |-
   Source: The Go Memory Model. https://go.dev/ref/mem
 learning_priority: 3

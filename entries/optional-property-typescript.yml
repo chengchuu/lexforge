@@ -4,6 +4,12 @@ word: "optional property"
 part_of_speech: noun phrase
 meaning: "可选属性，对象中可以缺省的属性"
 example: "An optional property can be absent from the response."
+code_example: |-
+  type Options = { color?: string };
+  function color(options: Options) {
+    return options.color ?? "blue";
+  }
+  console.log(color({}), color({ color: "green" })); // blue green
 notes: |-
   Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
 learning_priority: 2

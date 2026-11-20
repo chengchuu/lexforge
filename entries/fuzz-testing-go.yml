@@ -4,6 +4,26 @@ word: "fuzz testing"
 part_of_speech: noun phrase
 meaning: "模糊测试，自动变异输入以查找意外行为"
 example: "Fuzz testing uncovered a crash on malformed input."
+code_example: |-
+  package example
+
+  import (
+      "strings"
+      "testing"
+  )
+
+  // Use a fresh module: go mod init example.com/snippet
+  // Save as example_test.go. Run: go test -fuzz=FuzzJoinSplit -fuzztime=1s
+  func FuzzJoinSplit(f *testing.F) {
+      f.Add("a", "b")
+      f.Fuzz(func(t *testing.T, left, right string) {
+          joined := left + ":" + right
+          a, b, ok := strings.Cut(joined, ":")
+          if !strings.Contains(left, ":") && (!ok || a != left || b != right) {
+              t.Fatalf("failed to recover %q and %q from %q", left, right, joined)
+          }
+      })
+  }
 notes: |-
   Source: Go Fuzzing. https://go.dev/doc/security/fuzz/
 learning_priority: 3

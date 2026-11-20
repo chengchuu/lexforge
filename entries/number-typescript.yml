@@ -5,6 +5,10 @@ pronunciation: "/ˈnʌm.bɚ/"
 part_of_speech: keyword
 meaning: "数值类型"
 example: "The count variable has type number."
+code_example: |-
+  const whole: number = 4;
+  const fraction: number = 1.5;
+  console.log(whole + fraction); // 5.5
 notes: |-
   使用小写 number 表示原始数值类型。Number 可指 JavaScript 的构造函数或包装对象类型。
 

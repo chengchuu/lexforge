@@ -4,6 +4,16 @@ word: "module specifier"
 part_of_speech: "noun phrase"
 meaning: "模块说明符；导入或导出语句中用来指明模块的字符串。"
 example: "Changing import preferences can change the module specifier."
+code_example: |-
+  // Save each section under its filename, then compile main.ts with
+  // tsc --strict --target ES2022 --module commonjs main.ts
+  // Run: node main.js
+  // File: greet.ts
+  export const greeting = "hello";
+
+  // File: main.ts
+  import { greeting } from "./greet"; // "./greet" is the module specifier.
+  console.log(greeting);
 notes: |-
   模块说明符不保证是文件路径，也可能是包名。原文采用 module-specifier 的连字符形式。
 

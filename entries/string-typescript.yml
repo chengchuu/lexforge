@@ -5,6 +5,9 @@ pronunciation: "/strɪŋ/"
 part_of_speech: keyword
 meaning: "字符串类型"
 example: "The name parameter has type string."
+code_example: |-
+  const name: string = "Ada";
+  console.log(name.toUpperCase()); // ADA
 notes: |-
   使用小写 string 表示原始字符串类型。String 可指 JavaScript 的构造函数或包装对象类型。
 

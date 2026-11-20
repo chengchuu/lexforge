@@ -5,6 +5,23 @@ pronunciation: "/səˈlekt/"
 part_of_speech: keyword
 meaning: "选择语句，从可执行的通道发送或接收操作中选择一项"
 example: "The select statement waits for a result or a cancellation signal."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      ch := make(chan string, 1)
+      ch <- "ready"
+      select {
+      case value := <-ch:
+          fmt.Println(value) // ready
+      default:
+          fmt.Println("no value yet")
+      }
+  }
 notes: |-
   Source: Go specification — Select statements. https://go.dev/ref/spec#Select_statements
 

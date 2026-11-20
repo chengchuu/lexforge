@@ -4,6 +4,22 @@ word: "pointer receiver"
 part_of_speech: noun phrase
 meaning: "指针接收者，类型为指针的方法接收者"
 example: "The method uses a pointer receiver to update the original value."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type counter struct{ n int }
+
+  func (c *counter) Increment() { c.n++ }
+
+  func main() {
+      c := counter{}
+      c.Increment()
+      fmt.Println(c.n) // 1
+  }
 notes: |-
   Source: Go specification — Method sets. https://go.dev/ref/spec#Method_sets
 learning_priority: 2

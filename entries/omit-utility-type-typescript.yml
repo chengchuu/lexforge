@@ -4,6 +4,11 @@ word: "Omit"
 part_of_speech: noun
 meaning: "从类型中移除指定属性的工具类型"
 example: "Use Omit to remove the internal field from the public type."
+code_example: |-
+  type Account = { name: string; token: string };
+  type PublicAccount = Omit<Account, "token">;
+  const publicAccount: PublicAccount = { name: "Ada" };
+  console.log(publicAccount.name);
 notes: |-
   Omit<T, K> 是大小写敏感的内置工具类型，与普通动词 omit 的学习义项不同。
 

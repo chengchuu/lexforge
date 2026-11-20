@@ -5,6 +5,10 @@ pronunciation: "/ˈprɪmɪtɪv/"
 part_of_speech: "noun; adjective"
 meaning: "原始值；不属于对象、值本身不可变的 JavaScript 数据。"
 example: "A primitive value is not an object."
+code_example: |-
+  const name = "Ada";
+  const upper = name.toUpperCase();
+  console.log(typeof name, name, upper); // string Ada ADA
 notes: |-
   指原始值或原始类型；变量重新赋值与原始值自身可变不是一回事。
 

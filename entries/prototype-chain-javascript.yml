@@ -4,6 +4,12 @@ word: "prototype chain"
 part_of_speech: noun phrase
 meaning: "原型链；沿对象的原型关系逐层查找属性。"
 example: "An inherited getter can be found through the prototype chain."
+code_example: |-
+  const ancestor = { greet: () => "hello" };
+  const parent = Object.create(ancestor);
+  const child = Object.create(parent);
+  console.log(child.greet()); // hello
+  console.log(Object.hasOwn(child, "greet")); // false
 notes: |
   先查找对象自身属性，再沿 [[Prototype]] 查找，直到找到属性或到达 null。自有同名属性可以遮蔽原型属性。对象的原型与构造函数的 prototype 属性不是同一个概念。
 

@@ -5,6 +5,13 @@ pronunciation: "/kəmˈpaɪlər/"
 part_of_speech: "noun"
 meaning: "编译器；执行程序编译的软件。"
 example: "The compiler should preserve the catch handler."
+code_example: |-
+  work=$(mktemp -d) || exit
+  trap 'rm -rf -- "$work"' EXIT
+  printf '%s\n' 'package demo' 'func Twice(n int) int { return n * 2 }' > "$work/demo.go"
+  go tool compile -V
+  go tool compile -o "$work/demo.o" "$work/demo.go"
+  test -s "$work/demo.o"
 notes: |-
   编译器可以输出机器码、字节码或另一种源码；不限定为机器码生成器。
 

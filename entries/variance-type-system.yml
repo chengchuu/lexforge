@@ -5,6 +5,16 @@ pronunciation: "/ˈvɛriəns/"
 part_of_speech: "noun"
 meaning: "型变；类型参数之间的子类型关系如何影响复合类型之间的关系。"
 example: "Variance affects whether generic types are assignable."
+code_example: |-
+  // Check with tsc --strict (includes strictFunctionTypes).
+  type Animal = { name: string };
+  type Dog = Animal & { bark(): void };
+  type Handler<T> = (value: T) => void;
+
+  const handleAnimal: Handler<Animal> = animal => console.log(animal.name);
+  const handleDog: Handler<Dog> = handleAnimal;
+  handleDog({ name: "Pip", bark() {} }); // Pip
+  // Handler<Dog> cannot safely replace Handler<Animal> in the reverse direction.
 notes: |-
   与统计学方差区分。常见方向包括协变、逆变和不变；三者的类型兼容要求不同。
 

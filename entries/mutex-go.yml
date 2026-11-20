@@ -4,6 +4,30 @@ word: "mutex"
 part_of_speech: noun
 meaning: "互斥锁，用于协调对共享资源的访问"
 example: "Use a mutex to guard the shared map."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+      "sync"
+  )
+
+  func main() {
+      var mu sync.Mutex
+      var wg sync.WaitGroup
+      count := 0
+      wg.Add(2)
+      for range 2 {
+          go func() {
+              defer wg.Done()
+              mu.Lock()
+              count++
+              mu.Unlock()
+          }()
+      }
+      wg.Wait()
+      fmt.Println(count) // 2
+  }
 notes: |-
   Source: Go sync package. https://pkg.go.dev/sync
 learning_priority: 2

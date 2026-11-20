@@ -5,6 +5,19 @@ pronunciation: "/ˈmɑː.dʒuːl/"
 part_of_speech: noun
 meaning: "模块，具有独立作用域并可显式导入或导出的代码单元"
 example: "The module exports a parser and its configuration type."
+code_example: |-
+  // Save each section under its filename, then run:
+  // tsc --strict --target ES2022 --module commonjs main.ts
+  // node main.js
+  // File: meter.ts
+  const scale = 100; // Kept inside the module.
+  export function toCentimeters(meters: number) {
+    return meters * scale;
+  }
+
+  // File: main.ts
+  import { toCentimeters } from "./meter";
+  console.log(toCentimeters(2)); // 200
 notes: |-
   Source: TypeScript Handbook — Modules. https://www.typescriptlang.org/docs/handbook/2/modules.html
 

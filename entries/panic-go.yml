@@ -5,6 +5,17 @@ pronunciation: "/ˈpæn.ɪk/"
 part_of_speech: predeclared identifier
 meaning: "触发 panic，停止当前正常执行并开始展开调用栈"
 example: "A panic still runs deferred calls as the stack unwinds."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      defer fmt.Println("deferred call ran")
+      panic("demonstration") // Run: go run main.go. Expected: a panic and nonzero exit.
+  }
 notes: |-
   Source: Go specification — Handling panics. https://go.dev/ref/spec#Handling_panics
 

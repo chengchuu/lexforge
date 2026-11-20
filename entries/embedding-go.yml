@@ -4,6 +4,23 @@ word: "embedding"
 part_of_speech: noun
 meaning: "嵌入，在结构体中声明嵌入字段或在接口中包含其他接口"
 example: "Embedding can promote methods from an embedded field."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type Point struct{ X, Y int }
+  type Marker struct {
+      Point // Embedded field.
+      Label string
+  }
+
+  func main() {
+      m := Marker{Point: Point{X: 4, Y: 2}, Label: "home"}
+      fmt.Println(m.X) // 4; X is promoted from Point.
+  }
 notes: |-
   Source: Go specification — Types. https://go.dev/ref/spec#Types
 learning_priority: 2

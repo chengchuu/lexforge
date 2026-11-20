@@ -6,6 +6,12 @@ part_of_speech: noun
 meaning: "类型实参"
 context: "使用泛型时传入的具体类型。"
 example: "The exported interface refers to an inaccessible type argument."
+code_example: |-
+  function box<T>(value: T) {
+    return { value };
+  }
+  const item = box<string>("go"); // string is the type argument.
+  console.log(item.value);
 notes: "Source: typescript/typescript-64952.md."
 audio: type-argument-tech.mp3
 learning_priority: 3

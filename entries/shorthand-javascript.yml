@@ -5,6 +5,11 @@ pronunciation: "/ˈʃɔrtˌhænd/"
 part_of_speech: "noun"
 meaning: "简写；用更短的语法表达相应的常规写法。"
 example: "Use property shorthand when the variable name matches the key."
+code_example: |-
+  const name = "Ada";
+  const age = 36;
+  const user = { name, age }; // Same as { name: name, age: age }.
+  console.log(user.name, user.age); // Ada 36
 notes: |-
   此处重点为对象属性简写；与字符串键、计算键区分。
 

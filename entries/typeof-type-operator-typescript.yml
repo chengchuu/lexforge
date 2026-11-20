@@ -4,6 +4,11 @@ word: "typeof type operator"
 part_of_speech: noun phrase
 meaning: "在类型位置获取值或属性的静态类型的运算符"
 example: "Use the typeof type operator to reuse the type of an existing value."
+code_example: |-
+  const defaults = { retries: 2, log: false };
+  type Settings = typeof defaults; // A type query, with no runtime effect.
+  const local: Settings = { retries: 4, log: true };
+  console.log(local.retries);
 notes: |-
   在类型位置使用 typeof 可取得变量或属性的静态类型。JavaScript 在值位置使用 typeof 时，会在运行时返回描述操作数类型的字符串。
 

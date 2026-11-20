@@ -4,6 +4,11 @@ word: "shallow copy"
 part_of_speech: noun phrase
 meaning: "浅拷贝；复制外层结构，嵌套对象仍共享引用。"
 example: "A shallow copy retains references to nested objects."
+code_example: |-
+  const original = { user: { name: "Ada" } };
+  const copy = { ...original };
+  copy.user.name = "Grace";
+  console.log(copy !== original, original.user.name); // true Grace
 notes: |
   对象展开或 Object.assign 可创建外层副本。修改副本的普通自有值不改变原对象，但修改共享的嵌套对象会影响两边。复制属性不等于保留全部原型或属性描述符。
 

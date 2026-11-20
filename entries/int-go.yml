@@ -4,6 +4,18 @@ word: "int"
 part_of_speech: predeclared identifier
 meaning: "有符号整数类型，在 Go 中为 32 位或 64 位"
 example: "The function returns an int count."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+      "strconv"
+  )
+
+  func main() {
+      var n int = -7
+      fmt.Println(n/2, strconv.IntSize) // -3 and 32 or 64.
+  }
 notes: |-
   Source: Go specification — Types. https://go.dev/ref/spec#Types
 learning_priority: 1

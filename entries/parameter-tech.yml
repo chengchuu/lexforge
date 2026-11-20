@@ -5,6 +5,11 @@ pronunciation: "/pəˈræmətər/"
 part_of_speech: "noun"
 meaning: "参数；函数或泛型定义中用于接收实参的占位名称。"
 example: "The parameter has a default value."
+code_example: |-
+  function greet(name: string, punctuation: string) {
+    return "Hi " + name + punctuation;
+  }
+  console.log(greet("Ada", "!")); // name and punctuation are parameters.
 notes: |-
   parameter 在定义中，argument 在调用或实例化中；value parameter 与 type parameter 的层级不同。
 

@@ -5,6 +5,18 @@ pronunciation: "/baɪt/"
 part_of_speech: predeclared identifier
 meaning: "字节，Go 中 uint8 的别名"
 example: "The reader fills a byte slice."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      var b byte = 'A'
+      var n uint8 = b // byte is an alias for uint8.
+      fmt.Println(n)  // 65
+  }
 notes: |-
   Source: Go specification — Types. https://go.dev/ref/spec#Types
 

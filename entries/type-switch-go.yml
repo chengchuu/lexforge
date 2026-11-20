@@ -4,6 +4,24 @@ word: "type switch"
 part_of_speech: noun phrase
 meaning: "类型选择，根据接口值的动态类型选择分支"
 example: "The type switch handles strings and integers separately."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      var value any = "go"
+      switch v := value.(type) {
+      case string:
+          fmt.Println("string", len(v)) // string 2
+      case int:
+          fmt.Println("int", v)
+      default:
+          fmt.Println("other")
+      }
+  }
 notes: |-
   Source: Go specification — Type switches. https://go.dev/ref/spec#Type_switches
 learning_priority: 2

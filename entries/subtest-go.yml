@@ -4,6 +4,20 @@ word: "subtest"
 part_of_speech: noun
 meaning: "子测试，在一个测试内用 Run 组织的具名测试"
 example: "Run a subtest for each input."
+code_example: |-
+  package example
+
+  import "testing"
+
+  // Use a fresh module: go mod init example.com/snippet
+  // Save as example_test.go. Run: go test -v -run '^TestGreeting/empty$'
+  func TestGreeting(t *testing.T) {
+      t.Run("empty", func(t *testing.T) {
+          if got := len(""); got != 0 {
+              t.Fatalf("got %d, want 0", got)
+          }
+      })
+  }
 notes: |-
   Source: Go testing package. https://pkg.go.dev/testing
 learning_priority: 2

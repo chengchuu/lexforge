@@ -5,6 +5,21 @@ pronunciation: "/meɪk/"
 part_of_speech: predeclared identifier
 meaning: "用于创建切片、映射和通道的内置函数，返回初始化后的值"
 example: "Use make to create an empty map before inserting keys."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      s := make([]int, 2, 4)
+      m := make(map[string]int)
+      ch := make(chan int, 1)
+      m["x"] = 7
+      ch <- 9
+      fmt.Println(s, m["x"], <-ch) // [0 0] 7 9
+  }
 notes: |-
   make 返回切片、映射或通道本身。new 返回指针。
 

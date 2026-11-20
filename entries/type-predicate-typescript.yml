@@ -4,6 +4,12 @@ word: "type predicate"
 part_of_speech: noun phrase
 meaning: "类型谓词，用返回类型形式声明函数判定的类型条件"
 example: "The type predicate tells the compiler what a successful check establishes."
+code_example: |-
+  function isText(value: unknown): value is string {
+    return typeof value === "string";
+  }
+  const values: unknown[] = [1, "go", false];
+  console.log(values.filter(isText).map(text => text.toUpperCase()));
 notes: |-
   Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 learning_priority: 2

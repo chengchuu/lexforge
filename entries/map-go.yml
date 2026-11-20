@@ -5,6 +5,19 @@ pronunciation: "/mæp/"
 part_of_speech: noun
 meaning: "映射，按唯一键存取值的无序集合"
 example: "The map stores a count for each name."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      counts := map[string]int{"go": 2}
+      n, found := counts["go"]
+      _, missing := counts["js"]
+      fmt.Println(n, found, missing) // 2 true false
+  }
 notes: |-
   Source: Go specification — Types. https://go.dev/ref/spec#Types
 

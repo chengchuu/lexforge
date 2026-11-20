@@ -4,6 +4,11 @@ word: "argument"
 part_of_speech: noun
 meaning: "实参，调用时传给函数的值"
 example: "We pass 42 as the second argument."
+code_example: |-
+  function label(name: string) {
+    return "[" + name + "]";
+  }
+  console.log(label("Ada")); // "Ada" is the argument.
 notes: |-
   Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
 learning_priority: 1

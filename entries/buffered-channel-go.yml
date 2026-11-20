@@ -4,6 +4,19 @@ word: "buffered channel"
 part_of_speech: noun phrase
 meaning: "缓冲通道，有容量可暂存待接收的值"
 example: "The buffered channel can accept a value while it has room."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      ch := make(chan int, 2)
+      ch <- 10
+      ch <- 20                // Both sends finish before any receive.
+      fmt.Println(<-ch, <-ch) // 10 20
+  }
 notes: |-
   Source: Go specification — Channel types. https://go.dev/ref/spec#Channel_types
 learning_priority: 2

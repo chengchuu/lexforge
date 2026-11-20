@@ -6,6 +6,11 @@ part_of_speech: noun
 meaning: "类型断言"
 context: "告诉 TypeScript 按指定类型检查表达式，而不自动添加运行时转换。"
 example: "The assignment target is wrapped in a type assertion."
+code_example: |-
+  const input: unknown = "hello";
+  const text = input as string;
+  console.log(text.toUpperCase()); // HELLO
+  // as string gives the checker a type without converting the value.
 notes: "Source: typescript/typescript-64965.md. Distinct from a runtime or test assertion."
 audio: type-assertion-tech.mp3
 learning_priority: 3

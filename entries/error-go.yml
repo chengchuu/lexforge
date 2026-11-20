@@ -5,6 +5,21 @@ pronunciation: "/ˈer.ɚ/"
 part_of_speech: predeclared identifier
 meaning: "内置错误接口，要求实现 Error 方法来提供错误描述"
 example: "The caller checks whether the error is nil."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type badInput struct{}
+
+  func (badInput) Error() string { return "invalid input" }
+
+  func main() {
+      var err error = badInput{}
+      fmt.Println(err.Error()) // invalid input
+  }
 notes: |-
   Source: Error handling and Go. https://go.dev/blog/error-handling-and-go
 

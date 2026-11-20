@@ -5,6 +5,11 @@ pronunciation: "/ɪˈnuːmərəbəl/"
 part_of_speech: "adjective"
 meaning: "可枚举的；属性可被相应枚举操作列举的特性。"
 example: "Object.keys returns only enumerable own string properties."
+code_example: |-
+  const user = { name: "Ada" };
+  Object.defineProperty(user, "id", { value: 7, enumerable: false });
+  console.log(Object.keys(user)); // [ 'name' ]
+  console.log(user.id); // 7
 notes: |-
   可枚举、属于自身、字符串键是不同维度。不可枚举不等于不可访问。
 

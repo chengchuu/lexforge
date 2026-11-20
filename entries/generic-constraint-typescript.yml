@@ -4,6 +4,12 @@ word: "generic constraint"
 part_of_speech: noun phrase
 meaning: "泛型约束，限制类型参数可接受的类型"
 example: "The generic constraint requires a length property."
+code_example: |-
+  function lengthOf<T extends { length: number }>(value: T) {
+    return value.length;
+  }
+  console.log(lengthOf("go"), lengthOf([10, 20, 30])); // 2 3
+  // lengthOf(42) would fail the constraint.
 notes: |-
   Source: TypeScript Handbook — Generics. https://www.typescriptlang.org/docs/handbook/2/generics.html
 learning_priority: 2

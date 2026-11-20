@@ -4,6 +4,14 @@ word: "structural typing"
 part_of_speech: noun phrase
 meaning: "结构类型系统，按类型结构判断兼容性"
 example: "Structural typing allows objects with compatible members to be used together."
+code_example: |-
+  interface Point {
+    x: number;
+    y: number;
+  }
+  const fromElsewhere = { x: 3, y: 4, label: "home" };
+  const point: Point = fromElsewhere; // Its members satisfy Point.
+  console.log(point.x, point.y);
 notes: |-
   Source: TypeScript Handbook — Type Compatibility. https://www.typescriptlang.org/docs/handbook/type-compatibility.html
 learning_priority: 2

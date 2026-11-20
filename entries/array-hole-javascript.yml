@@ -4,6 +4,10 @@ word: "array hole"
 part_of_speech: "noun phrase"
 meaning: "数组空槽；数组长度范围内某个索引没有对应自有元素的情况。"
 example: "An array hole is different from an element containing undefined."
+code_example: |-
+  const sparse = [, undefined];
+  console.log(sparse.length); // 2
+  console.log(Object.hasOwn(sparse, 0), Object.hasOwn(sparse, 1)); // false true
 notes: |-
   原文 holes 出现在数组语境中，因此规范为 array hole。空槽不是值为 undefined 的元素。
 

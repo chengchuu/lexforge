@@ -4,6 +4,11 @@ word: "microtask"
 part_of_speech: noun
 meaning: "微任务；在规定的检查点处理、通常先于下一个任务的工作。"
 example: "The Promise handler runs as a microtask."
+code_example: |-
+  queueMicrotask(() => console.log("first microtask"));
+  Promise.resolve().then(() => console.log("promise callback"));
+  console.log("sync");
+  // Output: sync → first microtask → promise callback.
 notes: |-
   Promise 的反应回调和 queueMicrotask 使用微任务。浏览器通常在当前任务结束、栈清空后的检查点清空微任务队列，包括执行中新加入的微任务。持续添加微任务可能推迟其他任务与渲染。
 

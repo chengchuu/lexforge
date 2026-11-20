@@ -4,6 +4,17 @@ word: "temporal dead zone"
 part_of_speech: noun phrase
 meaning: "暂时性死区；词法绑定从作用域开始到初始化前不可访问的阶段。"
 example: "Accessing the binding in its temporal dead zone throws a ReferenceError."
+code_example: |-
+  const label = "outer";
+  {
+    try {
+      console.log(label); // The inner binding exists but is uninitialized.
+    } catch (error) {
+      console.log(error.name); // ReferenceError
+    }
+    const label = "inner";
+    console.log(label); // inner
+  }
 notes: |
   let 和 const 在初始化前已经影响名称解析，但访问会抛出 ReferenceError。对死区内的绑定使用 typeof 也会抛错；这不同于 typeof 一个未声明的名称。应区分已声明但未初始化与根本没有声明。
 

@@ -5,6 +5,11 @@ pronunciation: "/ˈfʌŋk.ʃən/"
 part_of_speech: noun
 meaning: "函数，可调用并执行计算或操作的代码单元"
 example: "This function doubles its input."
+code_example: |-
+  function double(n: number) {
+    return n * 2;
+  }
+  console.log(double(6)); // 12
 notes: |-
   Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
 

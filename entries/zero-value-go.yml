@@ -4,6 +4,20 @@ word: "zero value"
 part_of_speech: noun phrase
 meaning: "零值，未显式初始化时由类型决定的默认值"
 example: "The zero value of bool is false."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      var n int
+      var b bool
+      var s string
+      var p *int
+      fmt.Printf("%d %t %q %t\n", n, b, s, p == nil) // 0 false "" true
+  }
 notes: |-
   Source: Go specification — Variables. https://go.dev/ref/spec#Variables
 learning_priority: 1

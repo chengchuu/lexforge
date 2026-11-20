@@ -4,6 +4,11 @@ word: "mapped type"
 part_of_speech: "noun phrase"
 meaning: "映射类型；遍历一组属性键，为各键构造属性类型的 TypeScript 类型写法。"
 example: "A mapped type can remove optional modifiers."
+code_example: |-
+  type Flags<T> = { [Key in keyof T]: boolean };
+  type Settings = { theme: string; retries: number };
+  const changed: Flags<Settings> = { theme: true, retries: false };
+  console.log(changed);
 notes: |-
   [K in keyof T] 表示遍历 T 的键，-? 用于移除可选标记；不与运行时数组 map 混淆。
 

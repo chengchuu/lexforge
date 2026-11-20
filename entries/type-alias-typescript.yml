@@ -4,6 +4,12 @@ word: "type alias"
 part_of_speech: noun phrase
 meaning: "类型别名，为类型指定名称的声明"
 example: "Use a type alias to name a union."
+code_example: |-
+  type UserId = string | number;
+  function formatId(id: UserId) {
+    return String(id);
+  }
+  console.log(formatId(42));
 notes: |-
   Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 learning_priority: 2

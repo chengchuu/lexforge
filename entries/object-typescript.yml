@@ -5,6 +5,12 @@ pronunciation: "/ˈɑːb.dʒekt/"
 part_of_speech: keyword
 meaning: "非原始值的类型"
 example: "The object type accepts arrays and functions."
+code_example: |-
+  function label(value: object) {
+    return Object.keys(value).join(", ");
+  }
+  console.log(label({ x: 1, y: 2 })); // x, y
+  // label(1) would fail because a number is a primitive.
 notes: |-
   小写 object 表示任意非原始值。{ name: string } 则描述具有特定属性的对象形状。
 

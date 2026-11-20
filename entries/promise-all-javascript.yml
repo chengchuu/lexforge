@@ -4,6 +4,16 @@ word: "Promise.all"
 part_of_speech: noun
 meaning: "Promise 聚合；全部成功时按输入顺序返回结果，任一拒绝则拒绝。"
 example: "Promise.all preserves the input order of the results."
+code_example: |-
+  // Save as main.mjs and run: node main.mjs
+  const slow = new Promise(resolve => setTimeout(() => resolve("first"), 20));
+  const fast = Promise.resolve("second");
+  console.log(await Promise.all([slow, fast])); // [ 'first', 'second' ]
+  try {
+    await Promise.all([Promise.resolve("ok"), Promise.reject(new Error("failed"))]);
+  } catch (error) {
+    console.log(error.message); // failed
+  }
 notes: |
   结果顺序取决于输入顺序，与完成顺序无关。空输入得到已兑现的空数组 Promise，then 回调仍异步运行。聚合拒绝不会自动取消其他任务。实现时应按索引保存结果并统计完成数量，不能用最后一个索引是否完成来判断全部完成。
 

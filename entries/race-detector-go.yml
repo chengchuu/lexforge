@@ -4,6 +4,32 @@ word: "race detector"
 part_of_speech: noun phrase
 meaning: "竞争检测器，检查运行时执行路径中的数据竞争"
 example: "Run the tests with the race detector enabled."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+      "sync"
+  )
+
+  func main() {
+      var count int
+      var mu sync.Mutex
+      var wg sync.WaitGroup
+      wg.Add(2)
+      for range 2 {
+          go func() {
+              defer wg.Done()
+              mu.Lock()
+              count++
+              mu.Unlock()
+          }()
+      }
+      wg.Wait()
+      fmt.Println(count) // 2
+      // Run: go run -race main.go
+      // This synchronized path should produce no race report.
+  }
 notes: |-
   检测器只报告实际运行时遇到的数据竞争。
 

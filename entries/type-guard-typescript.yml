@@ -4,6 +4,12 @@ word: "type guard"
 part_of_speech: noun phrase
 meaning: "类型守卫，用于帮助收窄类型的检查"
 example: "The typeof check acts as a type guard."
+code_example: |-
+  function size(value: string | string[]) {
+    if (Array.isArray(value)) return value.length;
+    return value.trim().length;
+  }
+  console.log(size(["a", "b"]), size(" go ")); // 2 2
 notes: |-
   Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
 learning_priority: 2

@@ -5,6 +5,12 @@ pronunciation: "/ʌnˈnoʊn/"
 part_of_speech: keyword
 meaning: "可接收任意值，使用前需确认具体类型的类型"
 example: "Treat the external input as unknown until you check its shape."
+code_example: |-
+  const value: unknown = "hello";
+  if (typeof value === "string") {
+    console.log(value.toUpperCase());
+  }
+  // Without the check, value.toUpperCase() would fail type checking.
 notes: |-
   对比：any 允许跳过对值的相关检查，unknown 在多数操作前需要收窄类型，never 表示没有可能的值。
 

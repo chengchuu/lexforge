@@ -4,6 +4,22 @@ word: "type constraint"
 part_of_speech: noun phrase
 meaning: "类型约束，限定类型形参可以接受的类型实参"
 example: "The type constraint limits which arguments can instantiate the generic function."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type integer interface{ ~int | ~int64 }
+
+  func double[T integer](n T) T { return n + n }
+
+  type count int
+
+  func main() {
+      fmt.Println(double(count(3)), double(int64(5))) // 6 10
+  }
 notes: |-
   Source: Go specification — Type parameter declarations. https://go.dev/ref/spec#Type_parameter_declarations
 learning_priority: 2

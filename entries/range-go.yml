@@ -5,6 +5,19 @@ pronunciation: "/reɪndʒ/"
 part_of_speech: keyword
 meaning: "用于按规则遍历值的 for 子句关键字"
 example: "Use range to read the index and value of each slice element."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      for i, word := range []string{"go", "run"} {
+          fmt.Println(i, word)
+      }
+      // Output: 0 go, then 1 run.
+  }
 notes: |-
   Source: Go specification — For statements with range clause. https://go.dev/ref/spec#For_range
 

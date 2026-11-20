@@ -4,6 +4,11 @@ word: "Promise"
 part_of_speech: noun
 meaning: "Promise；表示异步操作最终成功或失败结果的对象。"
 example: "Return a Promise from the asynchronous callback."
+code_example: |-
+  const pending = new Promise(resolve => setTimeout(() => resolve("ready"), 0));
+  pending.then(value => console.log(value));
+  console.log("registered handler");
+  // Output: registered handler → ready.
 notes: |
   状态从 pending 变为 fulfilled 或 rejected 后不再改变。then 返回新的 Promise，可通过返回值、Promise 或抛错继续链式处理。构造器的执行器同步运行，已兑现 Promise 的 then 回调仍异步调度。
 

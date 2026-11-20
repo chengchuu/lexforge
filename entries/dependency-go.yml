@@ -5,6 +5,20 @@ pronunciation: "/dɪˈpen.dən.si/"
 part_of_speech: noun
 meaning: "依赖，项目需要使用的其他软件组件"
 example: "Update the dependency before running the tests."
+code_example: |-
+  work=$(mktemp -d) || exit
+  trap 'rm -rf -- "$work"' EXIT
+  cd "$work" || exit
+  go mod init example.com/app
+  mkdir greetings
+  cd greetings || exit
+  go mod init example.com/greetings
+  printf '%s\n' 'package greetings' 'const Hello = "hello"' > greetings.go
+  cd "$work" || exit
+  go mod edit -require=example.com/greetings@v0.0.0
+  go mod edit -replace=example.com/greetings=./greetings
+  printf '%s\n' 'package main' 'import "example.com/greetings"' 'func main() { println(greetings.Hello) }' > main.go
+  go run .
 notes: |-
   Source: Managing dependencies. https://go.dev/doc/modules/managing-dependencies
 

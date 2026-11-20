@@ -5,6 +5,10 @@ pronunciation: "/ˈprɑpərti/"
 part_of_speech: "noun"
 meaning: "属性；以键标识的对象成员。"
 example: "The object has a readonly property."
+code_example: |-
+  const point = { x: 3 };
+  point["x"] = 4;
+  console.log(point.x); // 4; x is a property key.
 notes: |-
   这里取编程含义，不取财产义项；属性与访问器机制不同。
 

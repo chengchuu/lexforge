@@ -4,6 +4,10 @@ word: "type inference"
 part_of_speech: noun phrase
 meaning: "类型推断，根据代码和上下文自动确定类型"
 example: "Type inference determines the type from the initializer."
+code_example: |-
+  const values = [1, 2, 3]; // Inferred as number[].
+  const doubled = values.map(value => value * 2); // value is inferred as number.
+  console.log(doubled.join(","));
 notes: |-
   Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 learning_priority: 1

@@ -5,6 +5,18 @@ pronunciation: "/ruːn/"
 part_of_speech: predeclared identifier
 meaning: "Go 中 int32 的别名，通常用来表示 Unicode 码点"
 example: "The loop examines each rune in the string."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      var r rune = '猫'
+      var n int32 = r                                         // rune is an alias for int32.
+      fmt.Printf("%U %d bytes in UTF-8\n", n, len(string(r))) // U+732B 3 bytes in UTF-8
+  }
 notes: |-
   rune 通常表示码点。一个用户感知的字符可能包含多个码点。
 

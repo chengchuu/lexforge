@@ -5,6 +5,11 @@ pronunciation: "/ˌʌn.dɪˈfaɪnd/"
 part_of_speech: keyword
 meaning: "未定义值及其类型"
 example: "An omitted optional argument can be undefined."
+code_example: |-
+  let label: string | undefined;
+  console.log(label === undefined); // true
+  label = "ready";
+  console.log(label);
 notes: |-
   Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 

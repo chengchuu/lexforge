@@ -5,6 +5,11 @@ pronunciation: "/nʌl/"
 part_of_speech: keyword
 meaning: "表示有意缺省的空值及其类型"
 example: "The lookup returns null when the record is missing."
+code_example: |-
+  function show(name: string | null = "default") {
+    return name === null ? "missing" : name;
+  }
+  console.log(show(null), show()); // missing default
 notes: |-
   Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 

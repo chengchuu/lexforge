@@ -4,6 +4,15 @@ word: "Go module"
 part_of_speech: noun phrase
 meaning: "Go 模块，一组一起发布和管理版本的 Go 包"
 example: "The Go module contains the command and its supporting packages."
+code_example: |-
+  work=$(mktemp -d) || exit
+  trap 'rm -rf -- "$work"' EXIT
+  cd "$work" || exit
+  go mod init example.com/study
+  mkdir first second
+  printf 'package first\n' > first/first.go
+  printf 'package second\n' > second/second.go
+  go list ./...
 notes: |-
   Go 模块是分发和版本管理单位。package 是组织和编译 Go 源文件的单位。
 

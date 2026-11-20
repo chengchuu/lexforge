@@ -5,6 +5,18 @@ pronunciation: "/ˈkɑːn.stənt/"
 part_of_speech: noun
 meaning: "常量，在编译时确定的值"
 example: "The package declares a constant for the default limit."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func main() {
+      const secondsPerMinute = 60
+      const secondsPerHour = 60 * secondsPerMinute
+      fmt.Println(secondsPerHour) // 3600
+  }
 notes: |-
   Source: Go specification. https://go.dev/ref/spec
 

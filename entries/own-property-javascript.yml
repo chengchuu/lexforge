@@ -4,6 +4,12 @@ word: "own property"
 part_of_speech: "noun phrase"
 meaning: "自有属性；直接属于对象自身、而非从原型链继承的属性。"
 example: "Check whether the object has an own property named value."
+code_example: |-
+  const parent = { role: "reader" };
+  const child = Object.create(parent);
+  child.name = "Ada";
+  console.log("role" in child); // true
+  console.log(Object.hasOwn(child, "role"), Object.hasOwn(child, "name")); // false true
 notes: |-
   自有属性也可以是不可枚举属性；不要把 own 与 enumerable 等同。
 

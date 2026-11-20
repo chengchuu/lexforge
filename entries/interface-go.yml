@@ -4,6 +4,22 @@ word: "interface"
 part_of_speech: keyword
 meaning: "接口，通过类型集规定哪些类型符合要求，常用一组方法描述行为"
 example: "The interface requires a Read method."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type sizer interface{ Size() int }
+  type batch []string
+
+  func (b batch) Size() int { return len(b) }
+
+  func main() {
+      var value sizer = batch{"a", "b"}
+      fmt.Println(value.Size()) // 2
+  }
 notes: |-
   Source: Go specification — Interface types. https://go.dev/ref/spec#Interface_types
 learning_priority: 2

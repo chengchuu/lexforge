@@ -4,6 +4,11 @@ word: "utility type"
 part_of_speech: noun phrase
 meaning: "工具类型，用于常见类型变换的内置泛型类型"
 example: "The utility type derives a smaller type from the original."
+code_example: |-
+  type Config = { timeout: number; retries: number };
+  const update: Partial<Config> = { retries: 3 };
+  const published: Readonly<Config> = { timeout: 500, retries: 1, ...update };
+  console.log(published.retries); // 3
 notes: |-
   Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
 learning_priority: 3

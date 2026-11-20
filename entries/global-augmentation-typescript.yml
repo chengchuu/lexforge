@@ -4,6 +4,14 @@ word: "global augmentation"
 part_of_speech: "noun phrase"
 meaning: "全局扩充；在声明中补充已有全局类型或接口的信息。"
 example: "The module contains a global augmentation."
+code_example: |-
+  export {};
+  declare global {
+    var exampleBuildId: string;
+  }
+  globalThis.exampleBuildId = "local";
+  console.log(globalThis.exampleBuildId.toUpperCase());
+  // The declaration describes the type. The assignment creates the runtime value.
 notes: |-
   扩充类型声明不会自动创建相应运行时行为。
 

@@ -4,6 +4,22 @@ word: "implicit implementation"
 part_of_speech: noun phrase
 meaning: "隐式实现，类型满足接口要求即可实现该接口"
 example: "Implicit implementation allows a type to satisfy an interface without an explicit declaration."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  type greeter interface{ Greet() string }
+  type bot struct{}
+
+  func (bot) Greet() string { return "hello" }
+
+  func main() {
+      var g greeter = bot{}  // No implements declaration is needed.
+      fmt.Println(g.Greet()) // hello
+  }
 notes: |-
   Source: Go specification — Interface types. https://go.dev/ref/spec#Interface_types
 learning_priority: 2

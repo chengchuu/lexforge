@@ -5,6 +5,14 @@ pronunciation: "/ˈpæk.ɪdʒ/"
 part_of_speech: noun
 meaning: "包，在同一目录中共同构建的一组 Go 源文件，通常共享包名"
 example: "The package exposes a function for callers."
+code_example: |-
+  work=$(mktemp -d) || exit
+  trap 'rm -rf -- "$work"' EXIT
+  cd "$work" || exit
+  go mod init example.com/study
+  printf 'package greeting\nconst Hello = "hello"\n' > hello.go
+  printf 'package greeting\nconst Bye = "bye"\n' > bye.go
+  go list -f '{{.Name}} {{.GoFiles}}' . # greeting [bye.go hello.go]
 notes: |-
   Source: Create a Go module. https://go.dev/doc/tutorial/create-module
 

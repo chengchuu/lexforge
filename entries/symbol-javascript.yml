@@ -4,6 +4,12 @@ word: "Symbol"
 part_of_speech: "noun"
 meaning: "Symbol；用于表示独一且不可变标识值的 JavaScript 原始类型。"
 example: "A Symbol can be used as a property key."
+code_example: |-
+  const first = Symbol("id");
+  const second = Symbol("id");
+  const user = { [first]: 7 };
+  console.log(Object.is(first, second)); // false, even with the same description.
+  console.log(user[first]); // 7
 notes: |-
   Symbol('x') 创建的不同符号不因描述相同而相等；不要等同于普通标识符文本。
 

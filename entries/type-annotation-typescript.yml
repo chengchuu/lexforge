@@ -4,6 +4,12 @@ word: "type annotation"
 part_of_speech: noun phrase
 meaning: "类型注解，写在代码中的显式类型标记"
 example: "The type annotation specifies the shape of the input."
+code_example: |-
+  const retries: number = 3;
+  function delay(attempt: number): number {
+    return attempt * 100;
+  }
+  console.log(delay(retries)); // 300
 notes: |-
   Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 learning_priority: 1

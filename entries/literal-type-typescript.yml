@@ -4,6 +4,11 @@ word: "literal type"
 part_of_speech: noun phrase
 meaning: "字面量类型，表示某个特定字面值"
 example: "The literal type \"ready\" allows just that string value."
+code_example: |-
+  type Direction = "left" | "right";
+  const direction: Direction = "left";
+  console.log(direction);
+  // const other: Direction = "up"; // "up" is not an allowed literal.
 notes: |-
   Source: TypeScript Handbook — Everyday Types. https://www.typescriptlang.org/docs/handbook/2/everyday-types.html
 learning_priority: 2

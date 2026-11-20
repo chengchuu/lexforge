@@ -4,6 +4,12 @@ word: "keyof"
 part_of_speech: keyword
 meaning: "生成类型的属性键类型的运算符"
 example: "Use keyof to restrict the key to known properties."
+code_example: |-
+  function get<T, K extends keyof T>(object: T, key: K): T[K] {
+    return object[key];
+  }
+  console.log(get({ title: "Notes", pages: 4 }, "pages")); // 4
+  // Only "title" or "pages" is a valid key for this object type.
 notes: |-
   Source: TypeScript Handbook — Keyof Type Operator. https://www.typescriptlang.org/docs/handbook/2/keyof-types.html
 learning_priority: 3

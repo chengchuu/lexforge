@@ -4,6 +4,21 @@ word: "table-driven test"
 part_of_speech: noun phrase
 meaning: "表驱动测试，用一组数据描述并运行多个测试用例"
 example: "Add a row to the table-driven test for the empty input."
+code_example: |-
+  package example
+
+  import "testing"
+
+  // Use a fresh module: go mod init example.com/snippet
+  // Save as example_test.go. Run: go test -v
+  func TestDouble(t *testing.T) {
+      cases := []struct{ in, want int }{{0, 0}, {3, 6}, {-2, -4}}
+      for _, tc := range cases {
+          if got := tc.in * 2; got != tc.want {
+              t.Errorf("double(%d) = %d, want %d", tc.in, got, tc.want)
+          }
+      }
+  }
 notes: |-
   Source: Go Wiki — TableDrivenTests. https://go.dev/wiki/TableDrivenTests
 learning_priority: 2

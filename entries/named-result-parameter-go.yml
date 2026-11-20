@@ -4,6 +4,22 @@ word: "named result parameter"
 part_of_speech: noun phrase
 meaning: "命名结果参数，在函数签名中声明名称的返回参数"
 example: "A named result parameter can be assigned before an empty return statement."
+code_example: |-
+  package main
+
+  import (
+      "fmt"
+  )
+
+  func divide(n, d int) (quotient, remainder int) {
+      quotient, remainder = n/d, n%d
+      return
+  }
+
+  func main() {
+      q, r := divide(10, 3)
+      fmt.Println(q, r) // 3 1
+  }
 notes: |-
   Source: Go specification — Function types. https://go.dev/ref/spec#Function_types
 learning_priority: 2

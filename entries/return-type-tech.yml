@@ -4,6 +4,11 @@ word: "return type"
 part_of_speech: "noun phrase"
 meaning: "返回类型；函数结果在类型系统中的类型。"
 example: "The return type is inferred from the function body."
+code_example: |-
+  function sum(a: number, b: number): number {
+    return a + b;
+  }
+  console.log(sum(2, 3)); // 5; the return type is number.
 notes: |-
   return-type queries 指针对返回类型的查询。函数抛出异常与返回一个异常对象不同。
 

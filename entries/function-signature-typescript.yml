@@ -4,6 +4,10 @@ word: "function signature"
 part_of_speech: noun phrase
 meaning: "函数签名，描述可调用形式的参数和返回类型"
 example: "The function signature shows what callers can pass and what they receive."
+code_example: |-
+  type Formatter = (value: number) => string;
+  const format: Formatter = value => value.toFixed(2);
+  console.log(format(3)); // 3.00
 notes: |-
   Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
 learning_priority: 2

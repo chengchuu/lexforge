@@ -4,6 +4,14 @@ word: "module path"
 part_of_speech: noun phrase
 meaning: "模块路径，标识模块并构成其包导入路径的前缀"
 example: "The module path appears in the module directive."
+code_example: |-
+  work=$(mktemp -d) || exit
+  trap 'rm -rf -- "$work"' EXIT
+  cd "$work" || exit
+  go mod init example.com/study
+  mkdir greet
+  printf 'package greet\n' > greet/greet.go
+  go list ./greet # example.com/study/greet
 notes: |-
   Source: go.mod file reference. https://go.dev/doc/modules/gomod-ref
 learning_priority: 2

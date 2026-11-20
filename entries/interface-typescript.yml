@@ -5,6 +5,13 @@ pronunciation: "/ˈɪn.t̬ɚ.feɪs/"
 part_of_speech: noun
 meaning: "接口，用来描述对象形状的声明"
 example: "The interface describes the fields required by the API."
+code_example: |-
+  interface Point {
+    x: number;
+    y: number;
+  }
+  const p: Point = { x: 3, y: 4 };
+  console.log(Math.hypot(p.x, p.y)); // 5
 notes: |-
   例如 interface User { name: string } 描述具有 name 字符串属性的对象形状。
 

@@ -4,6 +4,11 @@ word: "intersection type"
 part_of_speech: noun phrase
 meaning: "交叉类型，要求值同时满足各组成类型"
 example: "The intersection type requires fields from both inputs."
+code_example: |-
+  type Named = { name: string };
+  type Identified = { id: number };
+  const user: Named & Identified = { id: 1, name: "Ada" };
+  console.log(user.id, user.name);
 notes: |-
   Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
 learning_priority: 2

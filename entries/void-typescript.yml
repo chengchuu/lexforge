@@ -5,6 +5,14 @@ pronunciation: "/vɔɪd/"
 part_of_speech: keyword
 meaning: "表示没有可用返回值的类型"
 example: "The callback has a void return type."
+code_example: |-
+  const callback: () => void = () => 42;
+  callback(); // The caller ignores the returned value.
+  function logStatus(): void {
+    console.log("ready");
+    // Returning 42 here would be a type error.
+  }
+  logStatus();
 notes: |-
   回调类型 () => void 表示调用方忽略返回值，因此可以赋值给它一个返回具体值的函数。函数定义本身若显式标注 : void，则不能返回 true 等具体结果。undefined 是一个具体值，never 表示没有可能的值。
 

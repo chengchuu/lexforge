@@ -6,6 +6,11 @@ part_of_speech: verb
 meaning: "生成；输出"
 context: "编译器输出代码、声明或诊断信息。"
 example: "Emit a diagnostic instead of crashing on invalid input."
+code_example: |-
+  // Save as main.ts. Run: tsc --strict --target ES2022 main.ts
+  const message: string = "emitted JavaScript";
+  console.log(message);
+  // Run: node main.js. The generated JS has no : string annotation.
 notes: "Source: typescript/typescript-64952.md. Related form: emission."
 audio: emit-tech.mp3
 learning_priority: 1

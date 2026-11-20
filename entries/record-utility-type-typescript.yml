@@ -4,6 +4,10 @@ word: "Record"
 part_of_speech: noun
 meaning: "以给定键类型和值类型构造对象类型的工具类型"
 example: "Use Record to map each status to a display label."
+code_example: |-
+  type Role = "reader" | "editor";
+  const canEdit: Record<Role, boolean> = { reader: false, editor: true };
+  console.log(canEdit.editor); // true
 notes: |-
   Source: TypeScript Handbook — Utility Types. https://www.typescriptlang.org/docs/handbook/utility-types.html
 learning_priority: 3

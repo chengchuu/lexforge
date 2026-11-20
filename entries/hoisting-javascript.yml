@@ -4,6 +4,13 @@ word: "hoisting"
 part_of_speech: noun
 meaning: "提升；声明在执行前影响所在作用域的行为。"
 example: "Hoisting does not move source code."
+code_example: |-
+  console.log(greet(), value); // hello undefined
+  function greet() {
+    return "hello";
+  }
+  var value = 7;
+  console.log(value); // 7
 notes: |
   提升是描述声明行为的术语，不表示引擎真的移动源码。函数声明通常可以在声明前调用；var 绑定先初始化为 undefined。let、const 和 class 也影响整个作用域，但初始化前受暂时性死区限制。
 
