@@ -1,0 +1,16 @@
+id: instinct-pet-food
+language: en
+word: "Instinct"
+part_of_speech: proper noun
+meaning: "天然百利；销售猫粮和狗粮的宠物食品品牌。"
+example: "The pet store stocks Instinct cat food."
+notes: |-
+  Instinct 是品牌名。普通名词 instinct 意为「本能；直觉」。
+
+  Source: Instinct Pet Food — International. https://www.instinctpetfood.com/pages/international
+learning_priority: 3
+prerequisites:
+  - instinct-general
+tags:
+  - food
+  - proper-noun

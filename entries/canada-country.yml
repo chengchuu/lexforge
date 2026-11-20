@@ -1,0 +1,12 @@
+id: canada-country
+language: en
+word: "Canada"
+pronunciation: /ˈkæn.ə.də/
+part_of_speech: proper noun
+meaning: "加拿大；北美洲国家"
+example: "She grew up in Canada."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — Canada. https://dictionary.cambridge.org/dictionary/english/canada (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - proper-noun

@@ -1,0 +1,18 @@
+id: royal-canin-pet-food
+language: en
+word: "Royal Canin"
+part_of_speech: proper noun
+meaning: "皇家（皇家宠物食品）；销售猫粮和狗粮的宠物食品品牌。"
+example: "The pet store has a shelf of Royal Canin cat food."
+notes: |-
+  名称中的 Royal 对应英语 royal（王室的）。法语 canin 对应英语 canine（犬的）。
+
+  Source: 玛氏中国 — 玛氏品牌：A-Z。 https://www.mars.com/zh-cn/our-brands/all-brands
+  Source: Cambridge French–English Dictionary — canin. https://dictionary.cambridge.org/dictionary/french-english/canin
+learning_priority: 3
+prerequisites:
+  - royal-general
+  - canine-adjective
+tags:
+  - food
+  - proper-noun

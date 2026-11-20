@@ -1,0 +1,13 @@
+id: diet-food
+language: en
+word: "diet"
+pronunciation: /ˈdaɪ.ət/
+part_of_speech: noun
+meaning: "日常饮食；饮食结构"
+example: "The vet asked about the cat's usual diet."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — diet. https://dictionary.cambridge.org/dictionary/english/diet (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - food
+  - noun

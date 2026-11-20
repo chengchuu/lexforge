@@ -1,0 +1,17 @@
+id: fancy-feast-pet-food
+language: en
+word: "Fancy Feast"
+part_of_speech: proper noun
+meaning: "珍致；普瑞纳旗下的猫粮品牌，销售猫咪湿粮。"
+example: "She bought a few cans of Fancy Feast."
+notes: |-
+  作为记忆提示，fancy 是「讲究的」，feast 是「盛宴」。
+
+  Source: 雀巢中国 — 雀巢深化可持续发展，助力“双循环”进程。 https://www.nestle.com.cn/media/pressreleases/20211105-nestle-deepens-sustainable-development-to-boost-dual-circulation
+learning_priority: 3
+prerequisites:
+  - fancy-adjective
+  - feast-food
+tags:
+  - food
+  - proper-noun

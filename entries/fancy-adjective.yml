@@ -1,0 +1,13 @@
+id: fancy-adjective
+language: en
+word: "fancy"
+pronunciation: /ˈfæn.si/
+part_of_speech: adjective
+meaning: "精致的；讲究的；高档的"
+example: "We went to a fancy restaurant for her birthday."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — fancy. https://dictionary.cambridge.org/dictionary/english/fancy (US, accessed 2026-11-20).
+learning_priority: 2
+tags:
+  - general
+  - adjective

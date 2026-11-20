@@ -1,0 +1,17 @@
+id: hills-science-diet-pet-food
+language: en
+word: "Hill’s Science Diet"
+part_of_speech: proper noun
+meaning: "希尔思旗下的 Science Diet 宠物食品系列，有猫粮和狗粮。"
+example: "She picked up a bag of Hill’s Science Diet cat food."
+notes: |-
+  Science 是「科学」，diet 在这里可理解为「日常饮食」。
+
+  Source: 希尔思台湾 — Science Diet 猫用食品。 https://www.hills.com.tw/science-diet/cat-food
+learning_priority: 3
+prerequisites:
+  - science-general
+  - diet-food
+tags:
+  - food
+  - proper-noun

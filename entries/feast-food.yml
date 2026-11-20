@@ -1,0 +1,13 @@
+id: feast-food
+language: en
+word: "feast"
+pronunciation: /fiːst/
+part_of_speech: noun
+meaning: "盛宴；丰盛的一餐"
+example: "We prepared a feast for the whole family."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — feast. https://dictionary.cambridge.org/dictionary/english/feast (US, accessed 2026-11-20).
+learning_priority: 2
+tags:
+  - food
+  - noun

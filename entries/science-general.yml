@@ -1,0 +1,13 @@
+id: science-general
+language: en
+word: "science"
+pronunciation: /ˈsaɪ.əns/
+part_of_speech: noun
+meaning: "科学"
+example: "She has always been interested in science."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — science. https://dictionary.cambridge.org/dictionary/english/science (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - general
+  - noun

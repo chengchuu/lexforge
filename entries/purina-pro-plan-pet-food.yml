@@ -1,0 +1,17 @@
+id: purina-pro-plan-pet-food
+language: en
+word: "Purina Pro Plan"
+part_of_speech: proper noun
+meaning: "冠能；普瑞纳旗下的宠物食品品牌，有猫粮和狗粮。"
+example: "The shop carries both wet and dry Purina Pro Plan cat food."
+notes: |-
+  名称中的 Pro 可联想到 professional（专业的），Plan 是「计划；方案」。Purina 是「普瑞纳」。
+
+  Source: 雀巢中国 — 雀巢宠物关爱。 https://www.nestle.com.cn/brands/20220706-petcare
+learning_priority: 3
+prerequisites:
+  - pro-professional
+  - plan-general
+tags:
+  - food
+  - proper-noun

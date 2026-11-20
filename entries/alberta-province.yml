@@ -1,0 +1,12 @@
+id: alberta-province
+language: en
+word: "Alberta"
+pronunciation: /ælˈbɝː.t̬ə/
+part_of_speech: proper noun
+meaning: "艾伯塔省；加拿大西部的一个省"
+example: "Calgary is in Alberta."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — Alberta. https://dictionary.cambridge.org/dictionary/english/alberta (US, accessed 2026-11-20).
+learning_priority: 2
+tags:
+  - proper-noun

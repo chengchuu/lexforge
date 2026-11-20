@@ -1,0 +1,13 @@
+id: canine-adjective
+language: en
+word: "canine"
+pronunciation: /ˈkeɪ.naɪn/
+part_of_speech: adjective
+meaning: "犬的；与犬有关的"
+example: "The clinic offers canine and feline vaccinations."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — canine. https://dictionary.cambridge.org/dictionary/english/canine (US, accessed 2026-11-20).
+learning_priority: 2
+tags:
+  - general
+  - adjective

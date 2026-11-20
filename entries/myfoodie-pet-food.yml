@@ -1,0 +1,16 @@
+id: myfoodie-pet-food
+language: en
+word: "Myfoodie"
+part_of_speech: proper noun
+meaning: "麦富迪；乖宝宠物旗下的宠物食品品牌，有猫粮和狗粮。"
+example: "I noticed Myfoodie cat food on the shelf."
+notes: |-
+  拼写中的 foodie 可用来帮助记忆，意为「美食爱好者」。
+
+  Source: 巨潮资讯网 — 乖宝宠物食品集团公司概况。 https://www.cninfo.com.cn/new/snapshot/companyDetailCn?code=301498
+learning_priority: 3
+prerequisites:
+  - foodie-general
+tags:
+  - food
+  - proper-noun

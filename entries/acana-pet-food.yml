@@ -1,0 +1,18 @@
+id: acana-pet-food
+language: en
+word: "ACANA"
+part_of_speech: proper noun
+meaning: "爱肯拿；销售猫粮和狗粮的宠物食品品牌。"
+example: "I saw a bag of ACANA cat food on the top shelf."
+notes: |-
+  Champion Petfoods 的品牌介绍将 ACANA 的命名与 Alberta, Canada（加拿大艾伯塔省）联系起来。
+
+  Source: 玛氏中国 — 玛氏品牌：A-Z。 https://www.mars.com/zh-cn/our-brands/all-brands
+  Source: Champion Petfoods — Distributor home page. https://distributororder.championpetfoods.com/
+learning_priority: 3
+prerequisites:
+  - canada-country
+  - alberta-province
+tags:
+  - food
+  - proper-noun

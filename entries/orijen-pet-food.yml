@@ -1,0 +1,17 @@
+id: orijen-pet-food
+language: en
+word: ORIJEN
+part_of_speech: proper noun
+meaning: 原始猎食渴望（简称「渴望」）；销售猫粮和狗粮的宠物食品品牌。
+example: I saw a bag of ORIJEN cat food at the pet store.
+notes: |-
+  Champion Petfoods 的品牌介绍将 ORIJEN 的命名与 origin（起源；来源）联系起来。
+
+  Source: Champion Petfoods — Distributor home page. https://distributororder.championpetfoods.com/
+  Source: 玛氏中国 — 冠军宠物食品携渴望、爱肯拿亮相亚宠展。 https://www.mars.com/zh-cn/news-and-stories/press-releases-statements/%E5%86%A0%E5%86%9B%E5%AE%A0%E7%89%A9%E9%A3%9F%E5%93%81%E6%90%BA%E6%B8%B4%E6%9C%9B%E3%80%81%E7%88%B1%E8%82%AF%E6%8B%BF%E4%BA%AE%E7%9B%B8%E4%BA%9A%E5%AE%A0%E5%B1%95%EF%BC%9A40%E4%BD%99%E5%B9%B4%E4%B8%93%E4%B8%9A%E7%A7%AF%E7%B4%AF%E7%AD%91%E5%B0%B1%E9%95%BF%E6%9C%9F%E4%BF%A1%E4%BB%BB
+learning_priority: 3
+prerequisites:
+  - origin-general
+tags:
+  - food
+  - proper-noun

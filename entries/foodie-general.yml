@@ -1,0 +1,13 @@
+id: foodie-general
+language: en
+word: "foodie"
+pronunciation: /ˈfuː.di/
+part_of_speech: noun
+meaning: "美食爱好者；热衷于品尝美食的人"
+example: "My sister is a foodie who's always trying new restaurants."
+notes: |-
+  Pronunciation source: Cambridge Dictionary — foodie. https://dictionary.cambridge.org/dictionary/english/foodie (US, accessed 2026-11-20).
+learning_priority: 2
+tags:
+  - food
+  - noun
