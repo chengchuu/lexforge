@@ -15,6 +15,7 @@ word_formation: "dispense (分配、发放) + -er (执行者或装置)，去掉�
 learning_priority: 1
 prerequisites:
   - "device-engineering"
+  - "dispense-general"
 audio: dispenser-engineering.mp3
 tags:
   - "game"

@@ -1,0 +1,12 @@
+id: lex-name-element
+language: en
+word: lex
+meaning: 在 LexForge 这个名称中，让人联想到单词和词汇的片段。
+notes: |-
+  可以联想到 lexicon（词汇；词典），其词源可追溯到表示「词」的希腊语 lexis。这里讲的是名称中的片段。法律用语中的 lex 源自拉丁语，意为「法律」，是另一个义项。
+
+  Source: The American Heritage Dictionary — lexicon. https://www.ahdictionary.com/word/search.html?id=L5150600
+  Source: Collins English Dictionary — lex. https://www.collinsdictionary.com/dictionary/english/lex
+learning_priority: 2
+tags:
+  - vocabulary

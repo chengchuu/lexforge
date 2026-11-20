@@ -1,0 +1,17 @@
+id: fall-general
+language: en
+word: fall
+pronunciation: /fɑːl/
+part_of_speech: verb
+meaning: 落下；跌落
+example: Move back so you don't fall off the ledge.
+notes: |-
+  Source: component proposed for the user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Cambridge Dictionary — fall. https://dictionary.cambridge.org/us/dictionary/english/fall (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - verb
+  - nintendo-switch
+  - game
+  - zelda-totk

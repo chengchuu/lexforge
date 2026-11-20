@@ -1,0 +1,16 @@
+id: cable-hardware
+language: en
+word: cable
+pronunciation: /ˈkeɪ.bəl/
+part_of_speech: noun
+meaning: 线缆；用于传输信号或电力的线
+example: Check both ends of the cable.
+notes: |-
+  Source: component proposed for the user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Cambridge Dictionary — cable. https://dictionary.cambridge.org/us/dictionary/english/cable (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - noun
+  - nintendo-switch
+  - hardware

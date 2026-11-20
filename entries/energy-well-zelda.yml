@@ -1,0 +1,19 @@
+id: energy-well-zelda
+language: en
+word: Energy Well
+part_of_speech: noun
+meaning: 附加电池；提高电池容量的道具
+example: An Energy Well lets you run the devices longer.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  来源释义：能量单元。游戏简体中文用「附加电池」。
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_EnergyUtuwa_A_01_Name; version: 1.2.1.
+learning_priority: 3
+prerequisites:
+  - energy-cell-zelda
+tags:
+  - noun
+  - game
+  - zelda-totk

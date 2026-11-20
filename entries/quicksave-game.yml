@@ -1,0 +1,17 @@
+id: quicksave-game
+language: en
+word: quicksave
+part_of_speech: noun
+meaning: 快速存档；通过快捷操作保存的进度
+example: Make a quicksave before taking the next turn.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  通用游戏术语，也作动词。不同游戏是否提供此功能以及如何操作各不相同。
+learning_priority: 2
+prerequisites:
+  - save-game
+tags:
+  - noun
+  - game
+  - zelda-totk

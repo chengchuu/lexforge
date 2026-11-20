@@ -1,0 +1,23 @@
+id: drop-fall-general
+language: en
+word: drop
+pronunciation: /drɑːp/
+part_of_speech: verb
+meaning: 掉落；使落下
+example: Don't drop the connector onto the floor.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  这里强调物体落下；在物品菜单中，drop 也可以表示丢弃物品。
+
+  I've dropped the HDMI cable. 我不小心把 HDMI 线掉到了地上。
+  I've lost the HDMI cable. 我找不到 HDMI 线了。
+
+  Pronunciation source: Cambridge Dictionary — drop. https://dictionary.cambridge.org/us/dictionary/english/drop (US, accessed 2026-11-20).
+learning_priority: 1
+prerequisites:
+  - fall-general
+tags:
+  - verb
+  - hardware
+  - nintendo-switch

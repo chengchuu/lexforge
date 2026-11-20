@@ -1,0 +1,18 @@
+id: hdmi-cable-hardware
+language: en
+word: HDMI cable
+part_of_speech: noun
+meaning: HDMI 高清音视频连接线
+example: Plug the HDMI cable into the dock first.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Nintendo Support — How to Connect Nintendo Switch to a TV. https://en-americas-support.nintendo.com/app/answers/detail/a_id/22372/p/989/c/188
+learning_priority: 2
+prerequisites:
+  - hdmi-hardware
+  - cable-hardware
+tags:
+  - noun
+  - hardware
+  - nintendo-switch

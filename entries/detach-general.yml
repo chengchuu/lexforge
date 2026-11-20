@@ -10,6 +10,8 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: detach.
   Pronunciation source: Collins Dictionary — detach; detach in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/detach (accent: US; accessed 2026-11-18).
 learning_priority: 1
+prerequisites:
+  - attach-general
 audio: detach-general.mp3
 tags:
   - "game"

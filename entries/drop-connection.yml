@@ -1,0 +1,21 @@
+id: drop-connection
+language: en
+word: drop
+pronunciation: /drɑːp/
+part_of_speech: verb
+meaning: （连接）中断；掉线
+context: 用于网络、通话或设备之间的连接突然断开。
+example: The connection keeps dropping.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda vocabulary follow-up.
+
+  The connection drops 表示连接中断。The monitor loses the HDMI signal 表示显示器失去 HDMI 信号。
+
+  Pronunciation source: Cambridge Dictionary — drop. https://dictionary.cambridge.org/pronunciation/english/drop (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - connect-general
+tags:
+  - verb
+  - networking
+  - nintendo-switch

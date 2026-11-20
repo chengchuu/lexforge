@@ -1,0 +1,14 @@
+id: fall-damage-game
+language: en
+word: fall damage
+part_of_speech: noun
+meaning: 坠落伤害
+example: Open the paraglider before you hit the ground to avoid fall damage.
+notes: 'Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.'
+learning_priority: 2
+prerequisites:
+  - fall-general
+tags:
+  - noun
+  - game
+  - zelda-totk

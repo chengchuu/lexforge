@@ -1,0 +1,19 @@
+id: charge-electricity
+language: en
+word: charge
+pronunciation: /tʃɑːrdʒ/
+part_of_speech: noun
+meaning: 电荷；储存的电量
+example: The battery still holds a charge.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  charge 也可作动词，表示给电池充电，如 Charge the battery before you leave.
+
+  Pronunciation source: Cambridge Dictionary — charge. https://dictionary.cambridge.org/us/dictionary/english/charge (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - noun
+  - game
+  - zelda-totk
+  - engineering

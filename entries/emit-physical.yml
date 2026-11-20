@@ -1,0 +1,16 @@
+id: emit-physical
+language: en
+word: emit
+pronunciation: /ɪˈmɪt/
+part_of_speech: verb
+meaning: 发出；释放光、热、声音等
+example: The device emits a beam of light.
+notes: |-
+  Source: component proposed for the user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Cambridge Dictionary — emit. https://dictionary.cambridge.org/us/dictionary/english/emit (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - verb
+  - game
+  - zelda-totk

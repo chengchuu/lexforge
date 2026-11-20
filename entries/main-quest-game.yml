@@ -1,0 +1,17 @@
+id: main-quest-game
+language: en
+word: main quest
+part_of_speech: noun
+meaning: 主线任务；推进主要剧情的任务
+example: I finished the side quest before returning to the main quest.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  一般游戏术语。Main Quests 是《王国之泪》中对应类别的复数界面名称。
+learning_priority: 2
+prerequisites:
+  - quest-game
+tags:
+  - noun
+  - game
+  - zelda-totk

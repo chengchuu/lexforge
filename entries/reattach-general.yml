@@ -1,0 +1,18 @@
+id: reattach-general
+language: en
+word: reattach
+pronunciation: UK /ˌriːəˈtætʃ/
+part_of_speech: verb
+meaning: 重新连接；重新装上
+example: Reattach the fan so it faces the other way.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Collins English Dictionary — reattach. https://www.collinsdictionary.com/us/dictionary/english/reattach (UK, accessed 2026-11-20; the available headword IPA is labeled British).
+learning_priority: 2
+prerequisites:
+  - attach-general
+tags:
+  - verb
+  - game
+  - zelda-totk

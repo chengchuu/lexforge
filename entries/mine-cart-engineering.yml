@@ -1,0 +1,14 @@
+id: mine-cart-engineering
+language: en
+word: mine cart
+part_of_speech: noun
+meaning: 矿车；沿轨道运送矿石或材料的小车
+example: The mine cart rolled down the track.
+notes: 'Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.'
+learning_priority: 2
+prerequisites:
+  - cart-engineering
+tags:
+  - noun
+  - game
+  - zelda-totk

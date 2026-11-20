@@ -1,0 +1,14 @@
+id: male-to-male-hardware
+language: en
+word: male-to-male
+part_of_speech: adjective
+meaning: 公对公的；两端都是插头的
+example: This male-to-male cable has an HDMI plug at each end.
+notes: 'Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.'
+learning_priority: 2
+prerequisites:
+  - connector-hardware
+tags:
+  - adjective
+  - hardware
+  - nintendo-switch

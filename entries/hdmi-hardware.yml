@@ -1,0 +1,19 @@
+id: hdmi-hardware
+language: en
+word: HDMI
+pronunciation: /ˌeɪtʃ.diː.emˈaɪ/
+part_of_speech: noun
+meaning: 高清多媒体接口；传输数字音视频的标准
+example: The monitor has two HDMI inputs.
+notes: |-
+  Source: component proposed for the user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  HDMI 是 High-Definition Multimedia Interface 的缩写。
+  HDMI Licensing Administrator — HDMI Specification Overview. https://www.hdmi.org/spec/hdmi2
+
+  Pronunciation source: Cambridge Dictionary — HDMI. https://dictionary.cambridge.org/us/dictionary/english/hdmi (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - noun
+  - nintendo-switch
+  - hardware

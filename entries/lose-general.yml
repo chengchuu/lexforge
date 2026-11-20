@@ -1,0 +1,23 @@
+id: lose-general
+language: en
+word: lose
+pronunciation: /luːz/
+part_of_speech: verb
+meaning: 丢失；找不到
+example: I usually lose small cables when I move my desk.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Source example: I've lost the HDMI cable that connects my Switch dock to my monitor.
+
+  lose the signal 表示失去信号，如 The monitor loses the HDMI signal.
+
+  I've lost the HDMI cable. 我找不到 HDMI 线了。
+  I've dropped the HDMI cable. 我不小心把 HDMI 线掉到了地上。
+
+  Pronunciation source: Cambridge Dictionary — lose. https://dictionary.cambridge.org/us/dictionary/english/lose (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - verb
+  - hardware
+  - nintendo-switch

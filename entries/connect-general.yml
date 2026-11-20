@@ -1,0 +1,18 @@
+id: connect-general
+language: en
+word: connect
+pronunciation: /kəˈnekt/
+part_of_speech: verb
+meaning: 连接；接通
+example: Connect the cable to the monitor.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Source example: I've lost the HDMI cable that connects my Switch dock to my monitor.
+
+  Pronunciation source: Cambridge Dictionary — connect. https://dictionary.cambridge.org/us/dictionary/english/connect (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - verb
+  - hardware
+  - nintendo-switch

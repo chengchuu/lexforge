@@ -1,0 +1,17 @@
+id: manual-save-game
+language: en
+word: manual save
+part_of_speech: noun
+meaning: 手动存档；由玩家主动保存的进度
+example: Make a manual save before you try a different route.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  通用游戏术语。
+learning_priority: 2
+prerequisites:
+  - save-game
+tags:
+  - noun
+  - game
+  - zelda-totk

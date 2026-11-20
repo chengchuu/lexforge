@@ -1,0 +1,21 @@
+id: regional-phenomena-zelda
+language: en
+word: Regional Phenomena
+part_of_speech: noun
+meaning: 调查四地区的异变；《王国之泪》的主剧情挑战
+example: I picked a region to explore first for Regional Phenomena.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  phenomena 是 phenomenon 的不规则复数。
+  Nintendo — The Legend of Zelda: Tears of the Kingdom – Beginning Your Journey. https://www.nintendo.com/jp/zelda/totk/guide/en/index.html
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ChallengeMsg/Info_SurveyOfFourVillages/0000.json; key: Name; version: 1.2.1.
+learning_priority: 3
+prerequisites:
+  - regional-general
+  - phenomenon-story
+tags:
+  - noun
+  - game
+  - zelda-totk

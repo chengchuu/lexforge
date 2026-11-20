@@ -1,0 +1,21 @@
+id: flurry-rush-zelda
+language: en
+word: Flurry Rush
+part_of_speech: noun
+meaning: 突击；完美回避后可发动的一连串快速攻击
+example: After a Perfect Dodge, follow up with a Flurry Rush.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  动作提示写作 Flurry rush；Nintendo 英文攻略写作 Flurry Rush。
+  Nintendo — More tips for your The Legend of Zelda: Tears of the Kingdom adventures! https://www.nintendo.com/en-gb/News/2023/July/More-tips-for-your-The-Legend-of-Zelda-Tears-of-the-Kingdom-adventures--2411783.html
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/DoCommand_00/0000.json; key: 0035; version: 1.2.1.
+learning_priority: 3
+prerequisites:
+  - perfect-dodge-zelda
+tags:
+  - noun
+  - combat
+  - game
+  - zelda-totk

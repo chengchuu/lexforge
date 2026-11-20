@@ -1,0 +1,18 @@
+id: crystallized-charge-zelda
+language: en
+word: Crystallized Charge
+part_of_speech: noun
+meaning: 左纳乌能源结晶；制作附加电池的材料
+example: Bring your Crystallized Charges to the Crystal Refinery.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0011.json; key: Energy_Material_01_Name; version: 1.2.1.
+learning_priority: 3
+prerequisites:
+  - crystallized-general
+  - charge-electricity
+tags:
+  - noun
+  - game
+  - zelda-totk

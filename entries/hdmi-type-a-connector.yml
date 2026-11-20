@@ -1,0 +1,18 @@
+id: hdmi-type-a-connector
+language: en
+word: HDMI Type A connector
+part_of_speech: noun
+meaning: HDMI A 型连接器
+example: The cable has a full-size HDMI Type A connector at each end.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Source form: Type-A connector. The HDMI terminology is Type A. HDMI Licensing Administrator — HDMI Passive Adapters. https://www.hdmi.org/spec/passive
+learning_priority: 3
+prerequisites:
+  - hdmi-hardware
+  - connector-hardware
+tags:
+  - noun
+  - hardware
+  - nintendo-switch

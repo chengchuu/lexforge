@@ -1,0 +1,18 @@
+id: sail-watercraft
+language: en
+word: sail
+pronunciation: /seɪl/
+part_of_speech: noun
+meaning: 帆；利用风力推动船只的布面
+example: Raise the sail when the wind picks up.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  sail 也可作动词，表示（乘船）航行，如 We sailed across the lake.
+
+  Pronunciation source: Cambridge Dictionary — sail. https://dictionary.cambridge.org/us/dictionary/english/sail (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - noun
+  - game
+  - zelda-totk

@@ -13,6 +13,8 @@ related_entries:
   - "emit-tech"
 word_formation: "emit（发出）+ -er（执行者或装置）；这里指发射装置。"
 learning_priority: 2
+prerequisites:
+  - emit-physical
 audio: emitter-engineering.mp3
 tags:
   - "game"

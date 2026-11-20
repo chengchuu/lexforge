@@ -1,0 +1,17 @@
+id: lexforge-project
+language: en
+word: LexForge
+part_of_speech: proper noun
+meaning: 用 Git 管理多语言词汇和概念，并导出到 Anki 的个人学习项目。
+example: I use LexForge to turn vocabulary from work into Anki cards.
+notes: |-
+  可以把 LexForge 联想成「词汇锻造坊」：lex 让人想到 lexicon（词汇；词典），forge 可以指锻造场所。这是帮助记忆的拆解。
+
+  Source: README.md.
+learning_priority: 2
+prerequisites:
+  - lex-name-element
+  - forge-architecture
+tags:
+  - proper-noun
+  - vocabulary

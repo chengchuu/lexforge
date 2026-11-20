@@ -1,0 +1,18 @@
+id: connector-hardware
+language: en
+word: connector
+pronunciation: /kəˈnek.tɚ/
+part_of_speech: noun
+meaning: 连接器；接头
+example: Check whether the connector is fully inserted.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Cambridge Dictionary — connector. https://dictionary.cambridge.org/us/dictionary/english/connector (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - connect-general
+tags:
+  - noun
+  - hardware
+  - nintendo-switch

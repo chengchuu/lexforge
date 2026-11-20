@@ -1,0 +1,16 @@
+id: save-game
+language: en
+word: save
+pronunciation: /seɪv/
+part_of_speech: verb
+meaning: 存档；保存游戏进度
+example: Save before leaving the camp.
+notes: |-
+  Source: component proposed for the user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Cambridge Dictionary — save. https://dictionary.cambridge.org/us/dictionary/english/save (US, accessed 2026-11-20).
+learning_priority: 1
+tags:
+  - verb
+  - game
+  - zelda-totk

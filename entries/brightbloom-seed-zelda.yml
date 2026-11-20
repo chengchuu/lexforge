@@ -1,0 +1,17 @@
+id: brightbloom-seed-zelda
+language: en
+word: Brightbloom Seed
+part_of_speech: noun
+meaning: 光亮花的种子；开花后可照亮周围的道具
+example: Use a Brightbloom Seed to light the dark passage.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0020.json; key: LightBall_Small_Name; version: 1.2.1.
+learning_priority: 2
+prerequisites:
+  - seed-general
+tags:
+  - noun
+  - game
+  - zelda-totk

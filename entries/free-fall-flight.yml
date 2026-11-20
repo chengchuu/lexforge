@@ -1,0 +1,18 @@
+id: free-fall-flight
+language: en
+word: free fall
+pronunciation: /ˈfri ˌfɔl/
+part_of_speech: noun
+meaning: 自由落体
+example: Open the paraglider to slow your descent after a period of free fall.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Cambridge Dictionary — free fall. https://dictionary.cambridge.org/us/dictionary/english/free-fall (US, accessed 2026-11-20).
+learning_priority: 2
+prerequisites:
+  - fall-general
+tags:
+  - noun
+  - game
+  - zelda-totk

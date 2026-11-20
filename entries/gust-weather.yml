@@ -1,0 +1,16 @@
+id: gust-weather
+language: en
+word: gust
+pronunciation: /ɡʌst/
+part_of_speech: noun
+meaning: 阵风
+example: A sudden gust pushed me off course.
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Cambridge Dictionary — gust. https://dictionary.cambridge.org/us/dictionary/english/gust (US, accessed 2026-11-20).
+learning_priority: 2
+tags:
+  - noun
+  - game
+  - zelda-totk
