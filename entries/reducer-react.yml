@@ -5,6 +5,17 @@ pronunciation: "/rɪˈduː.sɚ/"
 part_of_speech: noun
 meaning: "归约函数，根据当前状态和动作计算下一状态"
 example: "The reducer returns the next state for the submitted action."
+code_example: |-
+  import { useReducer } from 'react';
+
+  function reducer(count, action) {
+    return action.type === 'add' ? count + 1 : count;
+  }
+
+  export default function Demo() {
+    const [count, dispatch] = useReducer(reducer, 0);
+    return <><button onClick={() => dispatch({ type: 'add' })}>Add</button><output>{count}</output></>;
+  }
 notes: |-
   useReducer 使用 reducer 计算下一状态。reducer 应保持纯性。
 

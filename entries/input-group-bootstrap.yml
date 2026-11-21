@@ -4,6 +4,12 @@ word: "input group"
 part_of_speech: noun phrase
 meaning: "输入组，在输入控件前后组合文字、按钮或其他控件的布局"
 example: "Use an input group to add a currency symbol before the amount."
+code_example: |-
+  <label for="price">Price</label>
+  <div class="input-group">
+    <span class="input-group-text" id="currency">$</span>
+    <input class="form-control" id="price" aria-describedby="currency" inputmode="decimal">
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — input group. https://getbootstrap.com/docs/5.3/forms/input-group/
 learning_priority: 2

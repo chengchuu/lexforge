@@ -5,6 +5,20 @@ pronunciation: "/əˈkɔːr.di.ən/"
 part_of_speech: noun
 meaning: "手风琴，由一组可展开和收起的内容面板组成的组件"
 example: "Group the questions into an accordion."
+code_example: |-
+  <div class="accordion" id="faq">
+    <div class="accordion-item">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#answer" aria-expanded="false" aria-controls="answer">
+          Can I change my seat?
+        </button>
+      </h2>
+      <div class="accordion-collapse collapse" id="answer" data-bs-parent="#faq">
+        <div class="accordion-body">Yes, until check-in closes.</div>
+      </div>
+    </div>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — accordion. https://getbootstrap.com/docs/5.3/components/accordion/
 

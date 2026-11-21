@@ -4,6 +4,11 @@ word: "longhand property"
 part_of_speech: noun phrase
 meaning: "细分属性，可以单独设置且可能由简写属性统一设置的 CSS 属性"
 example: "Use the longhand property margin-top to change just the top margin."
+code_example: |-
+  <style>
+    .sample { margin-top: 8px; margin-bottom: 24px; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
 learning_priority: 2

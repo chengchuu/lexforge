@@ -4,6 +4,11 @@ word: "block-level box"
 part_of_speech: noun phrase
 meaning: "块级盒，参与块级布局的盒子"
 example: "A paragraph typically generates a block-level box."
+code_example: |-
+  <style>
+    .sample span { display: block; }
+  </style>
+  <div class="sample"><span>One</span><span>Two</span><span>Three</span></div>
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 learning_priority: 2

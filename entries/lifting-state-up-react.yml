@@ -4,6 +4,21 @@ word: "lifting state up"
 part_of_speech: noun phrase
 meaning: "状态提升，将共享状态移动到最近的共同父组件"
 example: "Lifting state up lets the two panels share a selection."
+code_example: |-
+  import { useState } from 'react';
+
+  function DestinationField({ value, onChange }) {
+    return <label>Destination <input value={value} onChange={e => onChange(e.target.value)} /></label>;
+  }
+
+  function Preview({ city }) {
+    return <output>Destination: {city}</output>;
+  }
+
+  export default function Demo() {
+    const [city, setCity] = useState('Osaka');
+    return <><DestinationField value={city} onChange={setCity} /><Preview city={city} /></>;
+  }
 notes: |-
   Source: React docs — Managing State. https://react.dev/learn/managing-state
 learning_priority: 2

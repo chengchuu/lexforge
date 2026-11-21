@@ -4,6 +4,13 @@ word: "data table"
 part_of_speech: noun phrase
 meaning: "数据表格，用行和列组织相关数据的结构"
 example: "Use a data table for the monthly figures."
+code_example: |-
+  <table>
+    <caption>Package deliveries</caption>
+    <tr><th scope="col">Day</th><th scope="col">Count</th></tr>
+    <tr><th scope="row">Monday</th><td>5</td></tr>
+    <tr><th scope="row">Tuesday</th><td>8</td></tr>
+  </table>
 notes: |-
   Source: W3C WAI — Tables Tutorial. https://www.w3.org/WAI/tutorials/tables/
 learning_priority: 2

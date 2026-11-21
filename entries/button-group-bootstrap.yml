@@ -4,6 +4,11 @@ word: "button group"
 part_of_speech: noun phrase
 meaning: "按钮组，将相关按钮组织在一起的组件"
 example: "Place the formatting controls in a button group."
+code_example: |-
+  <div class="btn-group" role="group" aria-label="Sort direction">
+    <button class="btn btn-outline-primary" type="button">Ascending</button>
+    <button class="btn btn-outline-primary" type="button">Descending</button>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — button group. https://getbootstrap.com/docs/5.3/components/button-group/
 learning_priority: 2

@@ -4,6 +4,13 @@ word: "pagination"
 part_of_speech: noun
 meaning: "分页，用于在多页内容之间导航的组件"
 example: "Add pagination below the results."
+code_example: |-
+  <nav aria-label="Search results pages">
+    <ul class="pagination">
+      <li class="page-item active"><span class="page-link" aria-current="page">1</span></li>
+      <li class="page-item"><a class="page-link" href="?page=2">2</a></li>
+    </ul>
+  </nav>
 notes: |-
   Source: Bootstrap 5.3 documentation — pagination. https://getbootstrap.com/docs/5.3/components/pagination/
 learning_priority: 2

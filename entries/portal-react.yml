@@ -5,6 +5,17 @@ pronunciation: "/ˈpɔːr.t̬əl/"
 part_of_speech: noun
 meaning: "门户，将子节点渲染到不同 DOM 位置并保留其 React 树关系的方式"
 example: "Render the dialog into a portal outside the clipping container."
+code_example: |-
+  import { useState } from 'react';
+  import { createPortal } from 'react-dom';
+
+  export default function Demo() {
+    const [status, setStatus] = useState('Ready');
+    return <section onClick={() => setStatus('Bubbled to parent')}>
+      <output>{status}</output>
+      {createPortal(<button id="portal">Portal button</button>, document.body)}
+    </section>;
+  }
 notes: |-
   Source: React docs — createPortal. https://react.dev/reference/react-dom/createPortal
 

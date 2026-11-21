@@ -4,6 +4,11 @@ word: "shorthand property"
 part_of_speech: noun phrase
 meaning: "简写属性，在一条声明中设置多个细分属性"
 example: "The border shorthand property can set width, style, and color together."
+code_example: |-
+  <style>
+    .sample { padding: 8px 16px; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
 learning_priority: 2

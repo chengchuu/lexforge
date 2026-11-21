@@ -5,6 +5,15 @@ pronunciation: "/toʊst/"
 part_of_speech: noun
 meaning: "轻提示，用于呈现简短消息的轻量通知组件"
 example: "Show a toast after copying the link."
+code_example: |-
+  <button type="button" class="btn btn-primary" id="save">Save</button>
+  <div class="toast" role="status" aria-live="polite" aria-atomic="true" id="notice">
+    <div class="toast-body">Ticket saved.</div>
+  </div>
+  <script>
+    const notice = new bootstrap.Toast('#notice', { autohide: false });
+    document.querySelector('#save').onclick = () => notice.show();
+  </script>
 notes: |-
   Source: Bootstrap 5.3 documentation — toasts. https://getbootstrap.com/docs/5.3/components/toasts/
 

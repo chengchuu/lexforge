@@ -4,6 +4,14 @@ word: "popover"
 part_of_speech: noun
 meaning: "弹出提示，与触发元素关联且可包含标题和正文的浮层"
 example: "The popover shows extra details about the setting."
+code_example: |-
+  <button type="button" class="btn btn-outline-primary" id="policy"
+          data-bs-title="Check-in" data-bs-content="Closes 45 minutes before departure.">
+    Check-in policy
+  </button>
+  <script>
+    new bootstrap.Popover('#policy');
+  </script>
 notes: |-
   与 tooltip 相比，popover 支持标题和更丰富的正文。
 

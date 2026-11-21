@@ -5,6 +5,11 @@ pronunciation: "/skrɪpt/"
 part_of_speech: noun
 meaning: "脚本，用于执行页面逻辑的代码，可由 script 元素内联或引用"
 example: "Load the script that handles form interactions."
+code_example: |-
+  <output id="status">Loading</output>
+  <script>
+    document.querySelector('#status').value = 'Ready';
+  </script>
 notes: |-
   script 元素还可承载特定类型的数据，例如 JSON。此处学习的是可执行代码的义项。
 

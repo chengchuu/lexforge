@@ -4,6 +4,11 @@ word: "viewport"
 part_of_speech: noun
 meaning: "视口，浏览器中供网页布局或显示的区域"
 example: "The viewport gets narrower when the window is resized."
+code_example: |-
+  <style>
+    .sample { min-height: 50vh; background: aliceblue; }
+  </style>
+  <div class="sample">Sample</div>
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 learning_priority: 1

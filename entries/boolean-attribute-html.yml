@@ -4,6 +4,8 @@ word: "boolean attribute"
 part_of_speech: noun phrase
 meaning: "布尔属性，出现表示真，缺省表示假"
 example: "The disabled boolean attribute disables the button when present."
+code_example: |-
+  <button type="button" disabled>Unavailable</button>
 notes: |-
   disabled="false" 不是合规的布尔属性写法。浏览器仍会把存在的 disabled 当作真，因此控件仍被禁用。要表达假，应省略该属性。
 

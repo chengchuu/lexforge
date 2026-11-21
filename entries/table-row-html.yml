@@ -4,6 +4,10 @@ word: "table row"
 part_of_speech: noun phrase
 meaning: "表格行，沿水平方向排列的一组单元格"
 example: "Each table row shows one month's figures."
+code_example: |-
+  <table>
+    <tr><td>Northbound</td><td>08:30</td></tr>
+  </table>
 notes: |-
   Source: WHATWG HTML — Tabular data. https://html.spec.whatwg.org/multipage/tables.html
 learning_priority: 2

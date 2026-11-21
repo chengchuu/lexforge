@@ -4,6 +4,18 @@ word: "context provider"
 part_of_speech: noun phrase
 meaning: "上下文提供者，为其内部组件提供上下文值的元素"
 example: "Place the context provider above the components that read the theme."
+code_example: |-
+  import { createContext, useContext } from 'react';
+
+  const Currency = createContext('USD');
+
+  function PriceLabel() {
+    return <p>Currency: {useContext(Currency)}</p>;
+  }
+
+  export default function Demo() {
+    return <Currency.Provider value="JPY"><PriceLabel /></Currency.Provider>;
+  }
 notes: |-
   Source: React docs — Managing State. https://react.dev/learn/managing-state
 learning_priority: 2

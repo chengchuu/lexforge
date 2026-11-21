@@ -4,6 +4,13 @@ word: "data attribute"
 part_of_speech: noun phrase
 meaning: "数据属性，以 data- 开头并可供脚本读取的 HTML 属性"
 example: "Use a data attribute to configure the component."
+code_example: |-
+  <p id="product" data-sku="A17">Desk lamp</p>
+  <output id="sku"></output>
+  <script>
+    document.querySelector('#sku').value =
+      document.querySelector('#product').dataset.sku;
+  </script>
 notes: |-
   Source: WHATWG HTML — Custom data attributes. https://html.spec.whatwg.org/multipage/dom.html#embedding-custom-non-visible-data-with-the-data-*-attributes
 

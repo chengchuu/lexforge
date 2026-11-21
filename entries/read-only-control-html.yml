@@ -4,6 +4,10 @@ word: "read-only control"
 part_of_speech: noun phrase
 meaning: "只读控件，用户不能修改其值，但仍可随表单提交"
 example: "The read-only control displays the account ID and submits it with the form."
+code_example: |-
+  <form>
+    <label>Order number <input name="order" value="A17" readonly></label>
+  </form>
 notes: |-
   readonly 适用于 textarea 及某些 input 类型。只读控件一般可聚焦，符合其他提交条件时仍进入表单数据。
 

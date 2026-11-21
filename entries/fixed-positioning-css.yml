@@ -4,6 +4,11 @@ word: "fixed positioning"
 part_of_speech: noun phrase
 meaning: "固定定位，使盒子脱离常规流并相对固定定位包含块定位，通常是视口"
 example: "Fixed positioning keeps the button visible while the page scrolls."
+code_example: |-
+  <style>
+    .sample { position: fixed; right: 12px; bottom: 12px; }
+  </style>
+  <button class="sample">Help</button>
 notes: |-
   某些祖先元素可以建立固定定位包含块，例如设置非 none 的 transform 时。
 

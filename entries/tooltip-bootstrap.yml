@@ -5,6 +5,12 @@ pronunciation: "/ˈtuːl.tɪp/"
 part_of_speech: noun
 meaning: "工具提示，与触发元素关联的简短补充说明"
 example: "A tooltip explains the icon button's action."
+code_example: |-
+  <button type="button" class="btn btn-outline-primary" id="ticket"
+          data-bs-title="Opens your saved ticket">View ticket</button>
+  <script>
+    new bootstrap.Tooltip('#ticket');
+  </script>
 notes: |-
   tooltip 提供补充说明。控件本身仍需要可访问的名称。
 

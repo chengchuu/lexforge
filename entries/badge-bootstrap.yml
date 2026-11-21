@@ -5,6 +5,8 @@ pronunciation: "/bædʒ/"
 part_of_speech: noun
 meaning: "徽标，用于显示简短标签或计数的小型组件"
 example: "The badge shows the number of unread messages."
+code_example: |-
+  <span class="badge text-bg-primary">New</span>
 notes: |-
   Source: Bootstrap 5.3 documentation — badge. https://getbootstrap.com/docs/5.3/components/badge/
 

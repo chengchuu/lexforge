@@ -6,6 +6,31 @@ part_of_speech: noun
 meaning: "清理"
 context: "释放资源、移除注册或恢复运行状态的收尾操作。"
 example: "Cleanup removes the render counter from the registry."
+code_example: |-
+  import { useEffect, useState } from 'react';
+
+  function Listener({ report }) {
+    useEffect(() => {
+      const ping = () => report('Listening');
+      window.addEventListener('demo-ping', ping);
+      return () => {
+        window.removeEventListener('demo-ping', ping);
+        report('Removed');
+      };
+    }, [report]);
+    return null;
+  }
+
+  export default function Demo() {
+    const [active, setActive] = useState(true);
+    const [status, setStatus] = useState('Ready');
+    return <>
+      <button id="toggle" onClick={() => window.dispatchEvent(new Event('demo-ping'))}>Ping</button>
+      <button id="remove" onClick={() => setActive(false)}>Remove listener</button>
+      <output>{status}</output>
+      {active && <Listener report={setStatus} />}
+    </>;
+  }
 notes: |-
   Source: reports/react-candidates.md.
 

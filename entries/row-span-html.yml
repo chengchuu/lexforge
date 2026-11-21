@@ -4,6 +4,11 @@ word: "row span"
 part_of_speech: noun phrase
 meaning: "跨行，单元格在表格网格中占据的行数"
 example: "Use a row span to associate the category with both rows."
+code_example: |-
+  <table>
+    <tr><th scope="rowgroup" rowspan="2">Monday</th><td>Morning</td></tr>
+    <tr><td>Afternoon</td></tr>
+  </table>
 notes: |-
   用 rowspan 指定跨行范围。表头单元格与数据单元格均可使用。
 

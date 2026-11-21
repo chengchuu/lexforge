@@ -5,6 +5,11 @@ pronunciation: "/ˈbɔːr.dɚ/"
 part_of_speech: noun
 meaning: "边框，位于内边距与外边距之间的盒子边界"
 example: "The border separates the card from its background."
+code_example: |-
+  <style>
+    .sample { border: 2px solid navy; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
 

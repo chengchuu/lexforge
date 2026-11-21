@@ -4,6 +4,11 @@ word: "constraint validation"
 part_of_speech: noun phrase
 meaning: "约束验证，浏览器检查表单控件是否满足已声明条件的机制"
 example: "Constraint validation catches an empty required field."
+code_example: |-
+  <form>
+    <label>Guests <input name="guests" type="number" min="1" value="0"></label>
+    <button>Reserve</button>
+  </form>
 notes: |-
   Source: WHATWG HTML — Form control infrastructure. https://html.spec.whatwg.org/multipage/form-control-infrastructure.html
 learning_priority: 2

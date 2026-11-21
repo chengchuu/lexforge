@@ -4,6 +4,11 @@ word: "semantic HTML"
 part_of_speech: noun phrase
 meaning: "语义化 HTML，按内容的含义和用途选择元素"
 example: "Semantic HTML makes the page's structure easier to understand."
+code_example: |-
+  <article>
+    <h2>Station opening</h2>
+    <p>The station opens on <time datetime="2026-11-21">November 21</time>.</p>
+  </article>
 notes: |-
   例如 <main> 表示主要内容，<nav> 表示导航区域。应根据内容用途选择元素。
 

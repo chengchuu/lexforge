@@ -4,6 +4,12 @@ word: "specificity"
 part_of_speech: noun
 meaning: "选择器权重，层叠中用于比较匹配规则的一个因素"
 example: "The class selector has greater specificity than the type selector."
+code_example: |-
+  <style>
+    .sample#notice { color: navy; }
+    p.sample { color: crimson; }
+  </style>
+  <p class="sample" id="notice">Delayed</p>
 notes: |-
   选择器权重只在适用的层叠条件相同时参与比较。先判断来源、重要性和层叠层等条件。
 

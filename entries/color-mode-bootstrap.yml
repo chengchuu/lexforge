@@ -4,6 +4,11 @@ word: "color mode"
 part_of_speech: noun phrase
 meaning: "色彩模式，决定界面采用哪套颜色设置的模式"
 example: "Set data-bs-theme to dark to apply the dark color mode."
+code_example: |-
+  <section data-bs-theme="dark" class="bg-body text-body p-3">
+    <h2>Night departures</h2>
+    <p>Local times apply.</p>
+  </section>
 notes: |-
   Source: Bootstrap 5.3 documentation — color modes. https://getbootstrap.com/docs/5.3/customize/color-modes/
 learning_priority: 2

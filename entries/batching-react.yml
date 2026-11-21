@@ -4,6 +4,29 @@ word: "batching"
 part_of_speech: noun
 meaning: "批处理，将多次状态更新合并处理以减少重复渲染"
 example: "Batching lets React process several state updates together."
+code_example: |-
+  import { Profiler, useState } from 'react';
+
+  let commits = 0;
+  function countCommit() {
+    document.querySelector('#commits').textContent = 'Commits: ' + ++commits;
+  }
+
+  function Counter() {
+    const [left, setLeft] = useState(0);
+    const [right, setRight] = useState(0);
+    return <button onClick={() => {
+      setLeft(n => n + 1);
+      setRight(n => n + 1);
+    }}>{left}/{right}</button>;
+  }
+
+  export default function Demo() {
+    return <>
+      <output id="commits"></output>
+      <Profiler id="counter" onRender={countCommit}><Counter /></Profiler>
+    </>;
+  }
 notes: |-
   Source: React docs — Queueing a Series of State Updates. https://react.dev/learn/queueing-a-series-of-state-updates
 learning_priority: 2

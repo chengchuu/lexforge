@@ -4,6 +4,13 @@ word: "React"
 part_of_speech: noun
 meaning: "用于构建用户界面的 JavaScript 库"
 example: "The team uses React to build the dashboard."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [saved, setSaved] = useState(false);
+    return <button onClick={() => setSaved(true)}>{saved ? 'Ticket saved' : 'Save ticket'}</button>;
+  }
 notes: |-
   项目名称通常写作 React。React.js 也常用于指代同一个库。
 

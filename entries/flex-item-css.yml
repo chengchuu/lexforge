@@ -4,6 +4,12 @@ word: "flex item"
 part_of_speech: noun phrase
 meaning: "弹性项目，参与弹性容器布局的项目"
 example: "The flex item grows to fill the available space."
+code_example: |-
+  <style>
+    .sample { display: flex; width: 200px; }
+    .sample > div { flex: 1; }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
 notes: |-
   Source: W3C — CSS Flexible Box Layout Module Level 1. https://www.w3.org/TR/css-flexbox-1/
 learning_priority: 2

@@ -5,6 +5,8 @@ pronunciation: "/ˈæt.rɪ.bjuːt/"
 part_of_speech: noun
 meaning: "属性，在元素上提供额外信息或配置的名称及其值"
 example: "The href attribute specifies the link destination."
+code_example: |-
+  <p lang="fr">Bonjour</p>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
 

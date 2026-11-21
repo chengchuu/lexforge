@@ -4,6 +4,11 @@ word: "ID selector"
 part_of_speech: noun phrase
 meaning: "ID 选择器，按元素的 ID 匹配"
 example: "The ID selector #menu matches the element with that ID."
+code_example: |-
+  <style>
+    #summary { color: navy; }
+  </style>
+  <p id="summary">Two seats remaining</p>
 notes: |-
   Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
 learning_priority: 1

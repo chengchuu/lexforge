@@ -5,6 +5,21 @@ pronunciation: "/ˌmɛmoʊaɪˈzeɪʃən/"
 part_of_speech: noun
 meaning: "记忆化；缓存计算结果，在输入满足复用条件时避免重复计算。"
 example: "Memoization can avoid an expensive repeated calculation."
+code_example: |-
+  import { useMemo, useState } from 'react';
+
+  const trains = ['Local 101', 'Local 103', 'Local 105', 'Express 201'];
+
+  export default function Demo() {
+    const [query, setQuery] = useState('Local');
+    const [refresh, setRefresh] = useState(0);
+    const matches = useMemo(() => trains.filter(train => train.includes(query)), [query]);
+    return <>
+      <label>Filter <input value={query} onChange={e => setQuery(e.target.value)} /></label>
+      <button onClick={() => setRefresh(refresh + 1)}>Refresh {refresh}</button>
+      <output>{matches.length} matching trains</output>
+    </>;
+  }
 notes: |
   缓存键或依赖比较决定复用条件，缓存还消耗内存并需失效策略。React useMemo 用 Object.is 比较依赖，不是深比较。useMemo 属于性能优化，不能依赖缓存永久存在来保证业务正确性。
 

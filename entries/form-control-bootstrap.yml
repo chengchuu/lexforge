@@ -4,6 +4,15 @@ word: "form control"
 part_of_speech: noun phrase
 meaning: "表单控件，用于接收或展示用户输入的表单元素"
 example: "Apply the form-control class to the text input."
+code_example: |-
+  <form>
+    <label>Meal
+      <select name="meal">
+        <option value="vegetarian">Vegetarian</option>
+        <option value="fish">Fish</option>
+      </select>
+    </label>
+  </form>
 notes: |-
   Source: WHATWG HTML — Forms. https://html.spec.whatwg.org/multipage/forms.html
 

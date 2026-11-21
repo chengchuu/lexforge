@@ -4,6 +4,12 @@ word: "container query"
 part_of_speech: noun phrase
 meaning: "容器查询，根据查询容器的尺寸或样式等特征有条件地应用样式"
 example: "A container query changes the card layout when its container gets wider."
+code_example: |-
+  <style>
+    .sample { container-type: inline-size; width: min(100%, 360px); }
+    @container (min-width: 300px) { .sample p { font-weight: bold; } }
+  </style>
+  <section class="sample"><p>Inside a resizable panel</p></section>
 notes: |-
   尺寸查询使用符合条件的容器。典型用途是根据组件可用空间改变其布局。
 

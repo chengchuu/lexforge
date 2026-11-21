@@ -4,6 +4,17 @@ word: "reactive dependency"
 part_of_speech: noun phrase
 meaning: "响应式依赖，Effect 读取且可能随渲染变化的值"
 example: "The room ID is a reactive dependency of the connection Effect."
+code_example: |-
+  import { useEffect, useState } from 'react';
+
+  export default function Demo() {
+    const [filter, setFilter] = useState('Local');
+    useEffect(() => {
+      document.title = 'Filter: ' + filter;
+    }, [filter]);
+
+    return <label>Filter trains <input value={filter} onChange={e => setFilter(e.target.value)} /></label>;
+  }
 notes: |-
   Source: React docs — Lifecycle of Reactive Effects. https://react.dev/learn/lifecycle-of-reactive-effects
 learning_priority: 2

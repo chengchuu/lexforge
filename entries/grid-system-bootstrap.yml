@@ -4,6 +4,13 @@ word: "grid system"
 part_of_speech: noun phrase
 meaning: "栅格系统，使用 Flexbox 的容器、行和列组织响应式布局"
 example: "Use the grid system to arrange the form beside the summary."
+code_example: |-
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-md-6 border">Departures</div>
+      <div class="col-12 col-md-6 border">Arrivals</div>
+    </div>
+  </div>
 notes: |-
   这里指 Bootstrap 5.3 的默认 Flexbox 栅格。CSS Grid 是不同的布局系统。
 

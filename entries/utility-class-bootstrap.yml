@@ -4,6 +4,8 @@ word: "utility class"
 part_of_speech: noun phrase
 meaning: "工具类，给元素应用单一或小组样式的可复用类"
 example: "Add a utility class to adjust the spacing."
+code_example: |-
+  <p class="text-center">Centered text</p>
 notes: |-
   Source: Bootstrap 5.3 documentation — api. https://getbootstrap.com/docs/5.3/utilities/api/
 learning_priority: 1

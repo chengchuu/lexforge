@@ -5,6 +5,13 @@ pronunciation: "/roʊ/"
 part_of_speech: noun
 meaning: "行，栅格中包裹列以组织水平布局的元素"
 example: "Place the two columns in the same row."
+code_example: |-
+  <div class="container">
+    <div class="row">
+      <div class="col border">Departure</div>
+      <div class="col border">Arrival</div>
+    </div>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — grid. https://getbootstrap.com/docs/5.3/layout/grid/
 

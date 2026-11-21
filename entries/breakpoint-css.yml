@@ -4,6 +4,12 @@ word: "breakpoint"
 part_of_speech: noun
 meaning: "断点，在特定条件下切换布局或样式的阈值"
 example: "Set the breakpoint where the content needs more space."
+code_example: |-
+  <style>
+    .sample { display: grid; gap: 8px; }
+    @media (min-width: 640px) { .sample { grid-template-columns: repeat(2, 1fr); } }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 learning_priority: 2

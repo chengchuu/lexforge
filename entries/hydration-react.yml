@@ -4,6 +4,20 @@ word: "hydration"
 part_of_speech: noun
 meaning: "水合，让客户端 React 接管已有服务端 HTML 并使界面可交互"
 example: "Hydration connects the React tree to the existing server-rendered HTML."
+code_example: |-
+  // Demo.jsx
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [saved, setSaved] = useState(false);
+    return <button onClick={() => setSaved(true)}>{saved ? 'Reservation saved' : 'Save reservation'}</button>;
+  }
+
+  // client.jsx
+  import { hydrateRoot } from 'react-dom/client';
+  import Demo from './Demo.jsx';
+
+  hydrateRoot(document.querySelector('#root'), <Demo />);
 notes: |-
   hydrateRoot 将客户端 React 树接入已有 HTML。首次客户端输出应与服务器 HTML 对应。
 

@@ -4,6 +4,14 @@ word: "dropdown"
 part_of_speech: noun
 meaning: "下拉菜单，在触发时显示链接或操作列表的组件"
 example: "Open the dropdown to choose an action."
+code_example: |-
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown" aria-expanded="false">Actions</button>
+    <ul class="dropdown-menu">
+      <li><button type="button" class="dropdown-item">Print ticket</button></li>
+    </ul>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — dropdowns. https://getbootstrap.com/docs/5.3/components/dropdowns/
 learning_priority: 2

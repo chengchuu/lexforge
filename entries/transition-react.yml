@@ -5,6 +5,25 @@ pronunciation: "/trænˈzɪʃ.ən/"
 part_of_speech: noun
 meaning: "过渡更新，React 标记为非阻塞且可被更紧急更新打断的状态更新"
 example: "Use a transition to render the results without blocking interactions."
+code_example: |-
+  import { useState, useTransition } from 'react';
+
+  const cities = ['Osaka', 'Kyoto', 'Kobe'];
+
+  export default function Demo() {
+    const [text, setText] = useState('');
+    const [query, setQuery] = useState('');
+    const [pending, startTransition] = useTransition();
+    function filter(value) {
+      setText(value);
+      startTransition(() => setQuery(value));
+    }
+    return <>
+      <label>Filter stations <input value={text} onChange={e => filter(e.target.value)} /></label>
+      {pending && <p role="status">Updating results…</p>}
+      <ul>{cities.filter(city => city.toLowerCase().includes(query.toLowerCase())).map(city => <li key={city}>{city}</li>)}</ul>
+    </>;
+  }
 notes: |-
   例如使用 useTransition 标记非紧急更新。这里的 transition 是调度概念，与 CSS 动画过渡不同。
 

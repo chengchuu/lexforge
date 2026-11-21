@@ -4,6 +4,17 @@ word: "dependency array"
 part_of_speech: noun phrase
 meaning: "依赖项数组，列出 Hook 要跟踪的依赖值"
 example: "Include the room ID in the dependency array."
+code_example: |-
+  import { useEffect, useState } from 'react';
+
+  export default function Demo() {
+    const [city, setCity] = useState('Osaka');
+    useEffect(() => {
+      document.title = 'Station: ' + city;
+    }, [city]);
+
+    return <button id="city" onClick={() => setCity('Kyoto')}>Switch from {city}</button>;
+  }
 notes: |-
   例如 useEffect 的第二个参数。省略数组与提供空数组有不同含义。
 

@@ -4,6 +4,21 @@ word: "custom Hook"
 part_of_speech: noun phrase
 meaning: "自定义 Hook，以 use 开头、可组合其他 Hook 来复用有状态逻辑的函数"
 example: "Extract the connection logic into a custom Hook."
+code_example: |-
+  import { useState } from 'react';
+
+  function useToggle(initial) {
+    const [on, setOn] = useState(initial);
+    return [on, () => setOn(value => !value)];
+  }
+
+  export default function Demo() {
+    const [open, toggle] = useToggle(false);
+    return <>
+      <button onClick={toggle}>{open ? 'Hide' : 'Show'} details</button>
+      {open && <p>Boarding at noon.</p>}
+    </>;
+  }
 notes: |-
   Source: React docs — React Reference Overview. https://react.dev/reference/react
 learning_priority: 2

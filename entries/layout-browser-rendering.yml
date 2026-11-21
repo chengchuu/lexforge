@@ -5,6 +5,17 @@ pronunciation: "/ˈleɪˌaʊt/"
 part_of_speech: noun
 meaning: "布局；根据样式与约束计算页面元素的位置和尺寸。"
 example: "Changing the width can trigger layout."
+code_example: |-
+  <style>
+    .sample { display: grid; grid-template-columns: 100px 150px; gap: 12px; }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
+  <output></output>
+  <script>
+    const [first, second] = document.querySelector('.sample').children;
+    const offset = second.getBoundingClientRect().left - first.getBoundingClientRect().left;
+    document.querySelector('output').value = offset + 'px from the first item';
+  </script>
 notes: |
   布局依赖视口、内容和样式。尺寸或位置变化可能触发布局；布局后通常需要更新绘制。交替修改样式并读取几何信息可能导致反复同步布局，应先测量实际瓶颈。
 

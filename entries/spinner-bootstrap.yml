@@ -5,6 +5,10 @@ pronunciation: "/ˈspɪn.ɚ/"
 part_of_speech: noun
 meaning: "加载指示器，用动画提示操作正在进行的组件"
 example: "Show a spinner while the request is pending."
+code_example: |-
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">Loading departures…</span>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — spinners. https://getbootstrap.com/docs/5.3/components/spinners/
 

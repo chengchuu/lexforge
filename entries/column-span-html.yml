@@ -4,6 +4,11 @@ word: "column span"
 part_of_speech: noun phrase
 meaning: "跨列，单元格在表格网格中占据的列数"
 example: "Set a column span of two for the group heading."
+code_example: |-
+  <table>
+    <tr><th colspan="2">Office hours</th></tr>
+    <tr><td>Monday</td><td>9 a.m.</td></tr>
+  </table>
 notes: |-
   用 colspan 指定跨列范围。表头单元格与数据单元格均可使用。
 

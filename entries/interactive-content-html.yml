@@ -4,6 +4,11 @@ word: "interactive content"
 part_of_speech: noun phrase
 meaning: "交互内容，HTML 中供用户操作的一类元素内容"
 example: "Check the content model before nesting interactive content inside a button."
+code_example: |-
+  <details>
+    <summary>Return policy</summary>
+    <p>Returns are accepted within 30 days.</p>
+  </details>
 notes: |-
   Source: WHATWG HTML — Content models. https://html.spec.whatwg.org/multipage/dom.html#content-models
 learning_priority: 3

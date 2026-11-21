@@ -4,6 +4,10 @@ word: "heading level"
 part_of_speech: noun phrase
 meaning: "标题级别，表示标题在内容层级中的位置"
 example: "Use the next heading level for a subsection."
+code_example: |-
+  <h1>Travel guide</h1>
+  <h2>Getting around</h2>
+  <h3>Airport trains</h3>
 notes: |-
   Source: W3C WAI — Page Structure Tutorial. https://www.w3.org/WAI/tutorials/page-structure/
 learning_priority: 2

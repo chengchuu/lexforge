@@ -5,6 +5,13 @@ pronunciation: "/ˌæn.əˈmeɪ.ʃən/"
 part_of_speech: noun
 meaning: "动画，按关键帧和时间设置改变样式的效果"
 example: "The animation fades the indicator in."
+code_example: |-
+  <style>
+    @keyframes fade-in { from { opacity: 0; } to { opacity: 1; } }
+    .sample { animation: fade-in 600ms ease-out; }
+    @media (prefers-reduced-motion: reduce) { .sample { animation: none; } }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 

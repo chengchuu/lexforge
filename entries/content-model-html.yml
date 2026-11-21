@@ -4,6 +4,9 @@ word: "content model"
 part_of_speech: noun phrase
 meaning: "内容模型，规定元素可以包含哪些内容的规则"
 example: "The content model determines which children the element permits."
+code_example: |-
+  <!-- A paragraph accepts phrasing content such as strong. -->
+  <p>Bring your <strong>ticket</strong>.</p>
 notes: |-
   Source: WHATWG HTML — Content models. https://html.spec.whatwg.org/multipage/dom.html#content-models
 learning_priority: 3

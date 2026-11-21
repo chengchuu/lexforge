@@ -5,6 +5,9 @@ pronunciation: "/ˈlænd.mɑːrk/"
 part_of_speech: noun
 meaning: "地标区域，可供辅助技术识别和导航的页面区域"
 example: "The main landmark identifies the page's primary content."
+code_example: |-
+  <nav aria-label="Primary"><a href="#details">Details</a></nav>
+  <main id="details"><h1>Reservation details</h1></main>
 notes: |-
   例如 main 通常标识主要内容区域，nav 通常标识导航区域。
 

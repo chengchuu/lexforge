@@ -5,6 +5,11 @@ pronunciation: "/dɪˈspleɪ/"
 part_of_speech: CSS syntax
 meaning: "控制元素生成盒子的方式及其参与布局方式的属性"
 example: "Set display to grid to create a grid container."
+code_example: |-
+  <style>
+    .sample span { display: inline-block; width: 80px; }
+  </style>
+  <div class="sample"><span>One</span><span>Two</span><span>Three</span></div>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 

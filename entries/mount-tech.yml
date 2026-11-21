@@ -6,6 +6,16 @@ part_of_speech: verb
 meaning: "挂载"
 context: "创建并将组件或根节点接入实际渲染环境。"
 example: "Mount the inner root after its container commits."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [show, setShow] = useState(false);
+    return <>
+      <button onClick={() => setShow(true)}>Mount ticket</button>
+      {show && <aside>Ticket mounted</aside>}
+    </>;
+  }
 notes: "Source: react/react-37721.md."
 mnemonic: "mount 把组件接入渲染环境，unmount 移除并清理；这里不是软件包的安装与卸载。"
 audio: mount-tech.mp3

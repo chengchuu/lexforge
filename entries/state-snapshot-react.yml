@@ -4,6 +4,18 @@ word: "state snapshot"
 part_of_speech: noun phrase
 meaning: "状态快照，某次渲染中可读取的状态值"
 example: "The event handler reads the state snapshot from its render."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [count, setCount] = useState(0);
+    const [before, setBefore] = useState(0);
+    function add() {
+      setCount(count + 1);
+      setBefore(count); // The handler still sees this render's snapshot.
+    }
+    return <><button onClick={add}>Add</button><output>Before: {before}; now: {count}</output></>;
+  }
 notes: |-
   Source: React docs — State as a Snapshot. https://react.dev/learn/state-as-a-snapshot
 learning_priority: 2

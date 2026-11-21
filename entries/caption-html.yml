@@ -5,6 +5,12 @@ pronunciation: "/ˈkæp.ʃən/"
 part_of_speech: noun
 meaning: "表格标题，用于标识表格主题的文字元素"
 example: "The caption identifies the table as quarterly revenue."
+code_example: |-
+  <table>
+    <caption>Monday timetable</caption>
+    <tr><th scope="col">Train</th><th scope="col">Time</th></tr>
+    <tr><td>Northbound</td><td>08:30</td></tr>
+  </table>
 notes: |-
   Source: WHATWG HTML — Tabular data. https://html.spec.whatwg.org/multipage/tables.html
 

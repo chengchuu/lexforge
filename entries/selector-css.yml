@@ -5,6 +5,11 @@ pronunciation: "/səˈlek.tɚ/"
 part_of_speech: noun
 meaning: "选择器，用于匹配一个或多个元素的模式"
 example: "The selector matches buttons inside the dialog."
+code_example: |-
+  <style>
+    .sample > strong { color: navy; }
+  </style>
+  <p class="sample"><strong>Arrival:</strong> 9 a.m.</p>
 notes: |-
   Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
 

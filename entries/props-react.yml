@@ -4,6 +4,14 @@ word: "props"
 part_of_speech: noun
 meaning: "组件属性，父组件传给子组件的输入"
 example: "Pass the label through props."
+code_example: |-
+  function Departure({ city, platform }) {
+    return <p>{city} · Platform {platform}</p>;
+  }
+
+  export default function Demo() {
+    return <Departure city="Kyoto" platform={4} />;
+  }
 notes: |-
   props 是 properties 的简称。组件应把收到的 props 当作只读输入。
 

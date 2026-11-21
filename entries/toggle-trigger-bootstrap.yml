@@ -4,6 +4,10 @@ word: "toggle trigger"
 part_of_speech: noun phrase
 meaning: "切换触发元素，用于切换关联组件状态的元素"
 example: "The toggle trigger uses data-bs-toggle to open the modal."
+code_example: |-
+  <button type="button" class="btn btn-primary" data-bs-toggle="collapse"
+          data-bs-target="#summary" aria-expanded="false" aria-controls="summary">Show or hide summary</button>
+  <p class="collapse" id="summary">One reservation.</p>
 notes: |-
   Source: Bootstrap 5.3 documentation — javascript. https://getbootstrap.com/docs/5.3/getting-started/javascript/
 learning_priority: 2

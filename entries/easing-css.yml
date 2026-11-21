@@ -4,6 +4,13 @@ word: "easing"
 part_of_speech: noun
 meaning: "缓动，控制动画或过渡的变化速度如何随时间改变"
 example: "Use easing to slow the motion near the end."
+code_example: |-
+  <style>
+    .sample { transition: transform 250ms ease-out; }
+    .sample:is(:hover, :focus-visible) { transform: translateX(8px); }
+    @media (prefers-reduced-motion: reduce) { .sample { transition: none; } }
+  </style>
+  <button class="sample">Preview</button>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 learning_priority: 3

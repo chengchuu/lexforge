@@ -4,6 +4,17 @@ word: "re-render"
 part_of_speech: noun
 meaning: "重新渲染，再次运行组件以计算下一次界面输出"
 example: "Updating the selected item can trigger a re-render."
+code_example: |-
+  import { useState } from 'react';
+
+  function Seats({ remaining }) {
+    return <p>{remaining} {remaining === 1 ? 'seat' : 'seats'} available</p>;
+  }
+
+  export default function Demo() {
+    const [remaining, setRemaining] = useState(2);
+    return <><button onClick={() => setRemaining(1)}>Reserve</button><Seats remaining={remaining} /></>;
+  }
 notes: |-
   Source: React docs — Render and Commit. https://react.dev/learn/render-and-commit
 learning_priority: 1

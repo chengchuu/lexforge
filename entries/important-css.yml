@@ -4,6 +4,12 @@ word: "!important"
 part_of_speech: CSS syntax
 meaning: "重要性标记，使声明参与层叠中的重要声明排序"
 example: "The !important annotation changes how the declaration is ranked."
+code_example: |-
+  <style>
+    .sample { color: navy !important; }
+    p.sample { color: crimson; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   这是声明上的标记，不是选择器权重的一部分。
 

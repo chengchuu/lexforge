@@ -4,6 +4,13 @@ word: "cascade layer"
 part_of_speech: noun phrase
 meaning: "层叠层，在同一来源内部为声明组织优先顺序的分组"
 example: "Put third-party styles in a separate cascade layer."
+code_example: |-
+  <style>
+    @layer base, overrides;
+    @layer overrides { .sample { color: navy; } }
+    @layer base { .sample { color: crimson; } }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   对于同一来源中的普通声明，后声明的层优先。重要声明的层顺序反转，未分层声明的处理也不同。
 

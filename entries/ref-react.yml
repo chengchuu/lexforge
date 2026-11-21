@@ -4,6 +4,16 @@ word: "ref"
 part_of_speech: noun
 meaning: "引用，可保存 DOM 节点或跨渲染保留可变值的机制"
 example: "Use a ref to focus the text input."
+code_example: |-
+  import { useRef } from 'react';
+
+  export default function Demo() {
+    const field = useRef(null);
+    return <>
+      <label>Booking code <input ref={field} /></label>
+      <button onClick={() => field.current.focus()}>Focus booking code</button>
+    </>;
+  }
 notes: |-
   useRef 返回的对象可通过 current 保存值。修改 current 本身不会触发重新渲染。
 

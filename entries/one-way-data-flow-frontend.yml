@@ -4,6 +4,17 @@ word: "one-way data flow"
 part_of_speech: noun phrase
 meaning: "单向数据流；让状态沿明确方向传递并由指定入口更新。"
 example: "One-way data flow clarifies state ownership."
+code_example: |-
+  import { useState } from 'react';
+
+  function TicketQuantity({ quantity, onAdd }) {
+    return <><output>{quantity} tickets</output><button onClick={onAdd}>Add ticket</button></>;
+  }
+
+  export default function Demo() {
+    const [quantity, setQuantity] = useState(1);
+    return <TicketQuantity quantity={quantity} onAdd={() => setQuantity(n => n + 1)} />;
+  }
 notes: |
   以父组件向子组件传递 props 为例，子组件通过事件通知上层，而不是直接重写输入。Vue 中对象或数组的嵌套引用仍可被修改，应明确所有权。单向数据流不意味着界面不能更新状态。
 

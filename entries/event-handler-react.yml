@@ -4,6 +4,16 @@ word: "event handler"
 part_of_speech: noun phrase
 meaning: "事件处理函数，在相应事件发生时运行的函数"
 example: "The event handler runs when the user clicks the button."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [status, setStatus] = useState('Pending');
+    function handleConfirm() {
+      setStatus('Confirmed');
+    }
+    return <><button onClick={handleConfirm}>Confirm</button><output>{status}</output></>;
+  }
 notes: |-
   Source: React docs — Quick Start. https://react.dev/learn
 learning_priority: 1

@@ -4,6 +4,11 @@ word: "data cell"
 part_of_speech: noun phrase
 meaning: "数据单元格，表格中承载行列数据的单元格"
 example: "Each data cell contains a monthly total."
+code_example: |-
+  <table>
+    <tr><th scope="col">Status</th></tr>
+    <tr><td>Ready</td></tr>
+  </table>
 notes: |-
   使用 <td> 表示数据单元格。数据需要与相应的 <th> 建立明确关系。
 

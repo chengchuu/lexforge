@@ -5,6 +5,9 @@ pronunciation: "/ˈɑː.t̬oʊ.kəmˌpliːt/"
 part_of_speech: noun
 meaning: "自动填充提示，帮助浏览器判断是否以及如何填充表单控件"
 example: "Use autocomplete to identify the field for the user's email address."
+code_example: |-
+  <label for="email">Email</label>
+  <input id="email" name="email" type="email" autocomplete="email">
 notes: |-
   Source: WHATWG HTML — Form control infrastructure. https://html.spec.whatwg.org/multipage/form-control-infrastructure.html
 

@@ -4,6 +4,13 @@ word: "sticky positioning"
 part_of_speech: noun phrase
 meaning: "粘性定位，盒子保留在常规流中，滚动时按指定阈值和范围调整位置"
 example: "Sticky positioning keeps the heading visible as its section scrolls."
+code_example: |-
+  <style>
+    .sample { height: 100px; overflow: auto; }
+    h2 { position: sticky; top: 0; margin: 0; background: white; }
+    p { min-height: 250px; }
+  </style>
+  <section class="sample" tabindex="0" aria-label="Timetable"><h2>Timetable</h2><p>Scroll to see the heading stay in place.</p></section>
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 learning_priority: 2

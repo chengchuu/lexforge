@@ -4,6 +4,12 @@ word: "nesting"
 part_of_speech: noun
 meaning: "嵌套，把一个元素放在另一个元素内部形成层级结构"
 example: "Correct nesting keeps the emphasis inside the paragraph."
+code_example: |-
+  <ul>
+    <li>Drinks
+      <ul><li>Tea</li></ul>
+    </li>
+  </ul>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
 learning_priority: 1

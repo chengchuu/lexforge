@@ -5,6 +5,11 @@ pronunciation: "/ˈhed.ɪŋ/"
 part_of_speech: noun
 meaning: "标题，标识章节或内容区域主题的文字及其元素"
 example: "Give each major section a clear heading."
+code_example: |-
+  <section>
+    <h2>Baggage</h2>
+    <p>You can bring one carry-on bag.</p>
+  </section>
 notes: |-
   Source: W3C WAI — Page Structure Tutorial. https://www.w3.org/WAI/tutorials/page-structure/
 

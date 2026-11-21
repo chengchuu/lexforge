@@ -4,6 +4,11 @@ word: "responsive image"
 part_of_speech: noun phrase
 meaning: "响应式图像，浏览器可根据显示条件选择合适资源的图像"
 example: "A responsive image can use a smaller file on a narrow screen."
+code_example: |-
+  <picture>
+    <source media="(min-width: 600px)" srcset="/blue.svg">
+    <img src="/green.svg" width="48" height="48" alt="Trail map marker">
+  </picture>
 notes: |-
   常用 srcset 提供候选图片。使用宽度描述符时，可用 sizes 描述图片预计占据的布局宽度。
 

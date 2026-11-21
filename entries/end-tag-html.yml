@@ -4,6 +4,8 @@ word: "end tag"
 part_of_speech: noun phrase
 meaning: "结束标签，标记元素结束"
 example: "The end tag closes the paragraph in the markup."
+code_example: |-
+  <p>Arrive <em>early</em> to check in.</p>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
 learning_priority: 1

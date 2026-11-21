@@ -5,6 +5,14 @@ pronunciation: "/ˈtʃɪl.drən/"
 part_of_speech: noun
 meaning: "子内容，React 通过 children 属性传入的嵌套内容"
 example: "The panel renders its children below the title."
+code_example: |-
+  function Notice({ children }) {
+    return <aside>{children}</aside>;
+  }
+
+  export default function Demo() {
+    return <Notice><strong>Bring your ticket.</strong></Notice>;
+  }
 notes: |-
   Source: React docs — Quick Start. https://react.dev/learn
 

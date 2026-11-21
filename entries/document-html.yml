@@ -5,6 +5,11 @@ pronunciation: "/ˈdɑː.kjə.mənt/"
 part_of_speech: noun
 meaning: "文档，浏览器中由文档节点及其内容组成的整体"
 example: "The document contains a heading and two paragraphs."
+code_example: |-
+  <output></output>
+  <script>
+    document.querySelector('output').value = document.documentElement.tagName;
+  </script>
 notes: |-
   Source: WHATWG DOM Standard. https://dom.spec.whatwg.org/
 

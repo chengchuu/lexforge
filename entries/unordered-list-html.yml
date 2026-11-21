@@ -4,6 +4,11 @@ word: "unordered list"
 part_of_speech: noun phrase
 meaning: "无序列表，条目的先后顺序不影响内容含义的列表"
 example: "Use an unordered list for the supported file formats."
+code_example: |-
+  <ul>
+    <li>Tea</li>
+    <li>Coffee</li>
+  </ul>
 notes: |-
   Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
 learning_priority: 1

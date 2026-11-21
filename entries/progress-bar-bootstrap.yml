@@ -4,6 +4,11 @@ word: "progress bar"
 part_of_speech: noun phrase
 meaning: "进度条，用条形图表示任务完成进度的组件"
 example: "Update the progress bar as the upload advances."
+code_example: |-
+  <div class="progress" role="progressbar" aria-label="Upload progress"
+       aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar" style="width: 60%">60%</div>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — progress. https://getbootstrap.com/docs/5.3/components/progress/
 learning_priority: 2

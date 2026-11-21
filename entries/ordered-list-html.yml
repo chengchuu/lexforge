@@ -4,6 +4,11 @@ word: "ordered list"
 part_of_speech: noun phrase
 meaning: "有序列表，条目的先后顺序有意义的列表"
 example: "Use an ordered list for the setup steps."
+code_example: |-
+  <ol>
+    <li>Plug in the display.</li>
+    <li>Turn on the computer.</li>
+  </ol>
 notes: |-
   Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
 learning_priority: 1

@@ -5,6 +5,17 @@ pronunciation: "/ˌrɛkənˌsɪliˈeɪʃən/"
 part_of_speech: noun
 meaning: "React 协调；比较界面描述并确定更新与状态保留。"
 example: "A stable key helps reconciliation preserve component identity."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [title, setTitle] = useState('Initial');
+    return <>
+      <h2>{title}</h2>
+      <label>Ticket <input defaultValue="" /></label>
+      <button onClick={() => setTitle('Updated')}>Update heading</button>
+    </>;
+  }
 notes: |
   组件类型、树中位置和 key 共同影响身份。相同位置的同类型组件通常保留状态；改变 key 可触发重建。key 只需在相关兄弟节点间唯一，不是全局身份，也不自动保证最优更新。
 

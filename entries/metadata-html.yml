@@ -5,6 +5,16 @@ pronunciation: "/ˈmet̬.əˌdeɪ.t̬ə/"
 part_of_speech: noun
 meaning: "元数据，描述文档自身或其配置的信息"
 example: "The document metadata includes a description of the page."
+code_example: |-
+  <!doctype html>
+  <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Opening hours and directions">
+    <title>Museum visitor guide</title>
+  </head>
+  <body><h1>Plan your visit</h1></body>
+  </html>
 notes: |-
   Source: WHATWG HTML — The elements of HTML. https://html.spec.whatwg.org/multipage/semantics.html
 

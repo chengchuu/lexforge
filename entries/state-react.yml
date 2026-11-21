@@ -5,6 +5,13 @@ pronunciation: "/steɪt/"
 part_of_speech: noun
 meaning: "状态，React 为组件保留并用于计算界面的数据"
 example: "The selected tab is stored in state."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [enabled, setEnabled] = useState(false);
+    return <><button onClick={() => setEnabled(!enabled)}>Toggle</button><output>{enabled ? 'On' : 'Off'}</output></>;
+  }
 notes: |-
   Source: React docs — Managing State. https://react.dev/learn/managing-state
 

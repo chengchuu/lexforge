@@ -5,6 +5,14 @@ pronunciation: "/ˌeɪtʃ.tiː.emˈel/"
 part_of_speech: noun
 meaning: "超文本标记语言，用于描述网页的结构和内容含义"
 example: "HTML gives the page its document structure."
+code_example: |-
+  <!doctype html>
+  <html lang="en">
+  <head><meta charset="utf-8"><title>Trail map</title></head>
+  <body>
+    <main><h1>Trail map</h1><p>Follow the blue signs.</p></main>
+  </body>
+  </html>
 notes: |-
   HTML 是 HyperText Markup Language 的缩写。
 

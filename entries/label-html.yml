@@ -5,6 +5,9 @@ pronunciation: "/ˈleɪ.bəl/"
 part_of_speech: noun
 meaning: "标签，与表单控件关联并说明其用途的可见文字或元素"
 example: "Associate the label with the email input."
+code_example: |-
+  <label for="city">Departure city</label>
+  <input id="city" name="city">
 notes: |-
   可用 label 的 for 属性关联具有对应 id 的控件，也可把适用的控件放在 label 内。
 

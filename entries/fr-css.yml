@@ -4,6 +4,11 @@ word: "fr"
 part_of_speech: CSS syntax
 meaning: "网格弹性单位，按比例分配可用空间给网格轨道"
 example: "A 2fr track is allocated twice the flexible share of a 1fr track."
+code_example: |-
+  <style>
+    .sample { display: grid; width: 240px; grid-template-columns: 1fr 2fr; }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
 notes: |-
   Source: W3C — CSS Grid Layout Module Level 2. https://www.w3.org/TR/css-grid-2/
 learning_priority: 3

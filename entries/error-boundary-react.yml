@@ -4,6 +4,29 @@ word: "error boundary"
 part_of_speech: noun phrase
 meaning: "错误边界，捕获下层组件的部分错误并显示后备界面的组件"
 example: "An error boundary displays a recovery message if its child fails to render."
+code_example: |-
+  import { Component } from 'react';
+
+  class Boundary extends Component {
+    state = { failed: false };
+
+    static getDerivedStateFromError() {
+      return { failed: true };
+    }
+
+    render() {
+      if (this.state.failed) return <p role="alert">Could not show the ticket.</p>;
+      return this.props.children;
+    }
+  }
+
+  function Ticket() {
+    throw new Error('Ticket temporarily unavailable');
+  }
+
+  export default function Demo() {
+    return <Boundary><Ticket /></Boundary>;
+  }
 notes: |-
   Source: React docs — Component — Catching rendering errors with an error boundary. https://react.dev/reference/react/Component#catching-rendering-errors-with-an-error-boundary
 learning_priority: 2

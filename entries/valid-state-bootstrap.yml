@@ -4,6 +4,11 @@ word: "valid state"
 part_of_speech: noun phrase
 meaning: "有效状态，表示输入通过表单校验的状态"
 example: "Use .is-valid to show the valid state after verification."
+code_example: |-
+  <label for="email" class="form-label">Email</label>
+  <input id="email" type="email" class="form-control is-valid"
+         aria-describedby="email-feedback" value="name@example.com">
+  <div id="email-feedback" class="valid-feedback">Email looks good.</div>
 notes: |-
   Source: Bootstrap 5.3 documentation — validation. https://getbootstrap.com/docs/5.3/forms/validation/
 learning_priority: 2

@@ -4,6 +4,11 @@ word: "fallback value"
 part_of_speech: noun phrase
 meaning: "回退值，在 var() 引用的自定义属性缺失或计算为保证无效值时使用的替代值"
 example: "The fallback value applies when the custom property is missing."
+code_example: |-
+  <style>
+    .sample { color: var(--accent, navy); }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: W3C — CSS Custom Properties for Cascading Variables. https://www.w3.org/TR/css-variables-1/
 learning_priority: 2

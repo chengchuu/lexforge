@@ -4,6 +4,8 @@ word: "decorative image"
 part_of_speech: noun phrase
 meaning: "装饰性图像，只起装饰作用且不提供额外信息的图像"
 example: "Give the decorative image an empty alt attribute."
+code_example: |-
+  <p><img src="/blue.svg" width="16" height="16" alt=""> Forecast</p>
 notes: |-
   对于纯装饰的 img，使用 alt=""，让辅助技术能够跳过图像。
 

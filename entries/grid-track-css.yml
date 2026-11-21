@@ -4,6 +4,11 @@ word: "grid track"
 part_of_speech: noun phrase
 meaning: "网格轨道，两条相邻网格线之间的一行或一列"
 example: "Set the width of each grid track."
+code_example: |-
+  <style>
+    .sample { display: grid; grid-template-columns: 80px 120px; grid-template-rows: 48px; }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
 notes: |-
   Source: W3C — CSS Grid Layout Module Level 2. https://www.w3.org/TR/css-grid-2/
 learning_priority: 2

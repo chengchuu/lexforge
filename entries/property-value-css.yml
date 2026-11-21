@@ -4,6 +4,11 @@ word: "property value"
 part_of_speech: noun phrase
 meaning: "属性值，为 CSS 属性指定的设置"
 example: "In padding: 1rem, the property value is 1rem."
+code_example: |-
+  <style>
+    .sample { text-align: center; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS styling basics. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
 learning_priority: 1

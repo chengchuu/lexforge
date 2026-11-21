@@ -4,6 +4,13 @@ word: "card"
 part_of_speech: noun
 meaning: "卡片，用于组合标题、正文、图片或其他内容的柔性容器组件"
 example: "Show each product in a card."
+code_example: |-
+  <article class="card" style="max-width: 20rem">
+    <div class="card-body">
+      <h2 class="card-title h5">Departure</h2>
+      <p class="card-text">Track 4 at 9 a.m.</p>
+    </div>
+  </article>
 notes: |-
   Source: Bootstrap 5.3 documentation — card. https://getbootstrap.com/docs/5.3/components/card/
 learning_priority: 2

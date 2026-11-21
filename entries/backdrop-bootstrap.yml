@@ -5,6 +5,18 @@ pronunciation: "/ˈbæk.drɑːp/"
 part_of_speech: noun
 meaning: "背景遮罩，覆盖在页面与对话框之间的背景层"
 example: "The backdrop dims the page behind the modal."
+code_example: |-
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+          data-bs-target="#details">Open static modal</button>
+  <div class="modal fade" id="details" tabindex="-1" aria-labelledby="title" data-bs-backdrop="static">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h2 class="modal-title fs-5" id="title">Details</h2></div>
+      <div class="modal-body">Your reservation is ready.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div></div>
+  </div>
 notes: |-
   Bootstrap 的 modal 和 offcanvas 可配置是否使用遮罩。
 

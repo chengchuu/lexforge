@@ -4,6 +4,14 @@ word: "function component"
 part_of_speech: noun phrase
 meaning: "函数组件，以函数定义并返回可供 React 渲染内容的组件"
 example: "A function component can return a list of items."
+code_example: |-
+  function Welcome({ name }) {
+    return <h2>Welcome, {name}</h2>;
+  }
+
+  export default function Demo() {
+    return <Welcome name="Mia" />;
+  }
 notes: |-
   Source: React docs — Quick Start. https://react.dev/learn
 learning_priority: 1

@@ -4,6 +4,16 @@ word: "commit phase"
 part_of_speech: noun phrase
 meaning: "提交阶段，React 将需要的 DOM 变更应用到页面"
 example: "React applies the DOM changes during the commit phase."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [heading, setHeading] = useState(null);
+    return <>
+      <h2 ref={setHeading}>Departures</h2>
+      <output>{heading?.isConnected ? 'Heading is in the DOM' : 'Waiting'}</output>
+    </>;
+  }
 notes: |-
   Source: React docs — Render and Commit. https://react.dev/learn/render-and-commit
 learning_priority: 1

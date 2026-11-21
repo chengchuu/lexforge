@@ -5,6 +5,9 @@ pronunciation: "/ˈper.ə.ɡræf/"
 part_of_speech: noun
 meaning: "段落，用于组织一段相关文字内容的结构单元"
 example: "Put the explanation in a paragraph below the heading."
+code_example: |-
+  <p>The north entrance is open.</p>
+  <p>Use the south entrance after 6 p.m.</p>
 notes: |-
   Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
 

@@ -4,6 +4,8 @@ word: "inline frame"
 part_of_speech: noun phrase
 meaning: "内嵌框架，通过 iframe 在当前页面中嵌入另一个文档的区域"
 example: "The inline frame embeds a map from another document."
+code_example: |-
+  <iframe title="Article preview" srcdoc="<h1>Preview</h1><p>Read the first paragraph.</p>"></iframe>
 notes: |-
   使用 <iframe> 嵌入另一个文档。为 iframe 提供能说明其内容的 title。
 

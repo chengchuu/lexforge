@@ -4,6 +4,12 @@ word: "block formatting context"
 part_of_speech: noun phrase
 meaning: "块级格式化上下文；具有独立块布局规则的区域。"
 example: "Use flow-root to create a block formatting context."
+code_example: |-
+  <style>
+    .sample { display: flow-root; border: 1px solid; }
+    .sample span { float: left; height: 50px; }
+  </style>
+  <div class="sample"><span>Floated label</span></div>
 notes: |-
   简称 BFC。display: flow-root 可显式建立 BFC，并包含内部浮动。BFC 内外的外边距不会互相折叠，但不能概括为内部所有外边距都不折叠。overflow 的某些值也可建立 BFC，却可能带来裁剪或滚动。
 

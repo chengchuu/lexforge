@@ -4,6 +4,17 @@ word: "derived state"
 part_of_speech: noun phrase
 meaning: "派生状态，可由现有属性或状态计算得到的数据"
 example: "Calculate derived state from the current selection during render."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [quantity, setQuantity] = useState(1);
+    const total = quantity * 5;
+    return <>
+      <button onClick={() => setQuantity(quantity + 1)}>Add a ticket</button>
+      <output>Total: ${total}</output>
+    </>;
+  }
 notes: |-
   Source: React docs — Managing State. https://react.dev/learn/managing-state
 learning_priority: 2

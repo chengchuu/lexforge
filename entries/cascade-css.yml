@@ -5,6 +5,12 @@ pronunciation: "/kæsˈkeɪd/"
 part_of_speech: noun
 meaning: "层叠，对适用声明排序并确定获胜声明的机制"
 example: "The cascade determines which color declaration wins."
+code_example: |-
+  <style>
+    p.sample { color: navy; }
+    .sample { color: crimson; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
 

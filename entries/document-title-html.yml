@@ -4,6 +4,12 @@ word: "document title"
 part_of_speech: noun phrase
 meaning: "文档标题，标识整个文档的名称，浏览器通常在标签页显示"
 example: "Set a descriptive document title for the checkout page."
+code_example: |-
+  <!doctype html>
+  <html lang="en">
+  <head><meta charset="utf-8"><title>Order history</title></head>
+  <body><h1>Your orders</h1></body>
+  </html>
 notes: |-
   Source: WHATWG HTML — The elements of HTML. https://html.spec.whatwg.org/multipage/semantics.html
 learning_priority: 2

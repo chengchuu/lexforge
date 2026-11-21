@@ -4,6 +4,10 @@ word: "collapse"
 part_of_speech: noun
 meaning: "折叠，用于展开和收起来切换内容可见性的组件行为"
 example: "Use collapse to toggle the details panel."
+code_example: |-
+  <button type="button" class="btn btn-primary" data-bs-toggle="collapse"
+          data-bs-target="#details" aria-expanded="false" aria-controls="details">Toggle details</button>
+  <div id="details" class="collapse"><p>Doors open at 9 a.m.</p></div>
 notes: |-
   Source: Bootstrap 5.3 documentation — collapse. https://getbootstrap.com/docs/5.3/components/collapse/
 learning_priority: 2

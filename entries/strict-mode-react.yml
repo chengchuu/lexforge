@@ -4,6 +4,19 @@ word: "Strict Mode"
 part_of_speech: noun phrase
 meaning: "严格模式，在开发环境中启用额外检查的 React 功能"
 example: "Strict Mode helps expose missing Effect cleanup."
+code_example: |-
+  import { StrictMode } from 'react';
+
+  function Heading() {
+    // Diagnostic log, intentionally repeated in a development build.
+    console.count('Heading render');
+    return <output>Stable heading</output>;
+  }
+
+  export default function Demo() {
+    // Development Strict Mode checks rendering purity.
+    return <StrictMode><Heading /></StrictMode>;
+  }
 notes: |-
   Source: React docs — StrictMode. https://react.dev/reference/react/StrictMode
 learning_priority: 2

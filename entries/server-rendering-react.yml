@@ -4,6 +4,14 @@ word: "server rendering"
 part_of_speech: noun phrase
 meaning: "服务端渲染，在服务器上将组件输出生成为 HTML"
 example: "Server rendering sends the initial HTML to the browser."
+code_example: |-
+  import { renderToString } from 'react-dom/server';
+
+  function Ticket() {
+    return <article><h1>Ticket A17</h1><p>Seat 12A</p></article>;
+  }
+
+  console.log(renderToString(<Ticket />));
 notes: |-
   Source: React docs — Server React DOM APIs. https://react.dev/reference/react-dom/server
 learning_priority: 3

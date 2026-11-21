@@ -5,6 +5,8 @@ pronunciation: "/tæɡ/"
 part_of_speech: noun
 meaning: "标签，HTML 源码中标记元素边界的语法"
 example: "The tag uses the element's name."
+code_example: |-
+  <p>Orders close <em>today</em>.</p>
 notes: |-
   例如 <p> 是开始标签，</p> 是结束标签。DOM 中表示这一段落的是 p 元素。
 

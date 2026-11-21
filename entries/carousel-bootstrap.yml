@@ -5,6 +5,15 @@ pronunciation: "/ˌker.əˈsel/"
 part_of_speech: noun
 meaning: "轮播，用于在一组幻灯片间切换的组件"
 example: "The carousel shows one featured image at a time."
+code_example: |-
+  <div id="departures" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active"><p class="p-4">Departures</p></div>
+      <div class="carousel-item"><p class="p-4">Arrivals</p></div>
+    </div>
+    <button type="button" class="btn btn-secondary" data-bs-target="#departures"
+            data-bs-slide="next">Next slide</button>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — carousel. https://getbootstrap.com/docs/5.3/components/carousel/
 

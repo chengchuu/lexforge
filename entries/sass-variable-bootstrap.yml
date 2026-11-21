@@ -4,6 +4,13 @@ word: "Sass variable"
 part_of_speech: noun phrase
 meaning: "Sass 变量，用于在样式编译时保存和复用设置值"
 example: "Override the Sass variable before compiling Bootstrap."
+code_example: |-
+  <!-- HTML -->
+  <button type="button" class="btn btn-primary">Continue</button>
+
+  <!-- SCSS (paste into lab.scss) -->
+  $primary: #603a99;
+  @import "bootstrap/scss/bootstrap";
 notes: |-
   Sass 变量在构建时解析。CSS 自定义属性可由浏览器在运行时解析。
 

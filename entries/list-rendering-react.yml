@@ -4,6 +4,12 @@ word: "list rendering"
 part_of_speech: noun phrase
 meaning: "列表渲染，将一组数据映射为界面元素"
 example: "List rendering turns each search result into a row."
+code_example: |-
+  const departures = ['Osaka', 'Kyoto', 'Kobe'];
+
+  export default function Demo() {
+    return <ul>{departures.map(city => <li key={city}>{city}</li>)}</ul>;
+  }
 notes: |-
   Source: React docs — Quick Start. https://react.dev/learn
 learning_priority: 1

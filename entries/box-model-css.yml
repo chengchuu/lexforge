@@ -4,6 +4,11 @@ word: "box model"
 part_of_speech: noun phrase
 meaning: "盒模型，用内容、内边距、边框和外边距描述盒子的尺寸与间隔"
 example: "The box model explains where the component takes up space."
+code_example: |-
+  <style>
+    .sample { width: 120px; padding: 12px; border: 2px solid; margin: 16px; }
+  </style>
+  <div class="sample">Sample</div>
 notes: |-
   Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
 learning_priority: 1

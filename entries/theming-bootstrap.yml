@@ -4,6 +4,14 @@ word: "theming"
 part_of_speech: noun
 meaning: "主题定制，通过颜色、字体等设置统一调整界面外观"
 example: "Use theming to match the application's brand colors."
+code_example: |-
+  <style>
+    .station-card {
+      --bs-card-bg: #eef7ff;
+      --bs-card-border-color: #35668b;
+    }
+  </style>
+  <div class="card station-card"><div class="card-body">Station guide</div></div>
 notes: |-
   Source: Bootstrap 5.3 documentation — css variables. https://getbootstrap.com/docs/5.3/customize/css-variables/
 learning_priority: 2

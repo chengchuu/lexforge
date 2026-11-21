@@ -5,6 +5,17 @@ pronunciation: "/səˈspens/"
 part_of_speech: noun
 meaning: "可在子树尚未就绪时显示后备界面的 React 组件"
 example: "Suspense shows a loading indicator while the lazy component prepares."
+code_example: |-
+  import { lazy, Suspense } from 'react';
+
+  const Ticket = lazy(() => new Promise(resolve => {
+    // Simulate loading a component module.
+    setTimeout(() => resolve({ default: () => <article>Ticket ready</article> }), 1000);
+  }));
+
+  export default function Demo() {
+    return <Suspense fallback={<p>Loading ticket…</p>}><Ticket /></Suspense>;
+  }
 notes: |-
   Source: React docs — Suspense. https://react.dev/reference/react/Suspense
 

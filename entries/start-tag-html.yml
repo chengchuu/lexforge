@@ -4,6 +4,9 @@ word: "start tag"
 part_of_speech: noun phrase
 meaning: "开始标签，标记元素开始并可包含属性"
 example: "The start tag contains an id attribute."
+code_example: |-
+  <!-- The start tag opens the paragraph and specifies its class. -->
+  <p class="notice">Service resumes at noon.</p>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
 learning_priority: 1

@@ -5,6 +5,11 @@ pronunciation: "/ɪnˈher.ɪ.təns/"
 part_of_speech: noun
 meaning: "继承，元素从父元素取得某些属性的计算值"
 example: "Inheritance lets the nested text use its parent's color."
+code_example: |-
+  <style>
+    .sample { color: navy; }
+  </style>
+  <p class="sample">Status: <strong>Ready</strong></p>
 notes: |-
   Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
 

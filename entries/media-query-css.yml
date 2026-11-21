@@ -4,6 +4,12 @@ word: "media query"
 part_of_speech: noun phrase
 meaning: "媒体查询，根据视口或用户偏好等媒体特征应用样式"
 example: "A media query applies the wider layout at larger viewport widths."
+code_example: |-
+  <style>
+    .sample { color: black; }
+    @media (min-width: 640px) { .sample { color: navy; } }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 learning_priority: 2

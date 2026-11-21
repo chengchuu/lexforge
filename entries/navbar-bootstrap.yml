@@ -4,6 +4,13 @@ word: "navbar"
 part_of_speech: noun
 meaning: "导航栏，用于组织站点标识、导航链接和响应式菜单的组件"
 example: "Place the main navigation links in the navbar."
+code_example: |-
+  <nav class="navbar bg-body-tertiary" aria-label="Main">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#home">Station guide</a>
+      <a class="nav-link" href="#departures">Departures</a>
+    </div>
+  </nav>
 notes: |-
   Source: Bootstrap 5.3 documentation — navbar. https://getbootstrap.com/docs/5.3/components/navbar/
 learning_priority: 2

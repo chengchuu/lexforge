@@ -4,6 +4,11 @@ word: "class selector"
 part_of_speech: noun phrase
 meaning: "类选择器，按元素的 class 值匹配"
 example: "The class selector .card matches every element with that class."
+code_example: |-
+  <style>
+    .highlight { background: gold; }
+  </style>
+  <p class="highlight">Deadline: Friday</p>
 notes: |-
   Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
 learning_priority: 1

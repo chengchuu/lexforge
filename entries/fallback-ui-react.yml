@@ -4,6 +4,16 @@ word: "fallback UI"
 part_of_speech: noun phrase
 meaning: "后备界面，内容暂不可用时显示的替代内容"
 example: "The fallback UI shows a loading indicator while the content is pending."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [ticket, setTicket] = useState(null);
+    return <>
+      <button onClick={() => setTicket('Ready to board')}>Show ticket</button>
+      <p>{ticket ?? 'Your ticket is unavailable.'}</p>
+    </>;
+  }
 notes: |-
   Source: React docs — Suspense. https://react.dev/reference/react/Suspense
 learning_priority: 2

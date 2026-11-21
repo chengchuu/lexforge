@@ -4,6 +4,14 @@ word: "stacking context"
 part_of_speech: noun phrase
 meaning: "层叠上下文，独立计算内部绘制层次的盒子分组"
 example: "The tooltip sits inside its parent's stacking context."
+code_example: |-
+  <style>
+    .sample { position: relative; isolation: isolate; width: 180px; height: 60px; }
+    .panel { position: absolute; inset: 0; z-index: 1; background: aliceblue; }
+    .child { position: absolute; inset: 0; z-index: 99; }
+    .cover { position: absolute; inset: 0; z-index: 2; background: gold; }
+  </style>
+  <div class="sample"><div class="panel"><span class="child">99 inside layer 1</span></div><div class="cover">Layer 2</div></div>
 notes: |-
   不同的层叠上下文各自排序。局部 z-index 无法直接跨上下文比较。
 

@@ -4,6 +4,17 @@ word: "Rules of Hooks"
 part_of_speech: noun phrase
 meaning: "Hook 使用规则，规定从哪里及在何处调用 Hook"
 example: "The Rules of Hooks explain why this Hook belongs at the top level."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    // Always call Hooks at the top level, even when the output is conditional.
+    const [visible, setVisible] = useState(false);
+    return <>
+      <button onClick={() => setVisible(!visible)}>Toggle details</button>
+      {visible && <p>Now visible</p>}
+    </>;
+  }
 notes: |-
   普通 Hook 应在组件或自定义 Hook 的顶层调用。React 的 use API 具有官方文档单独描述的例外。
 

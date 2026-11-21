@@ -5,6 +5,11 @@ pronunciation: "/ˌsiː.esˈes/"
 part_of_speech: noun
 meaning: "层叠样式表，用于描述文档呈现样式的语言"
 example: "CSS controls how the page looks."
+code_example: |-
+  <style>
+    h1 { color: navy; font-family: system-ui, sans-serif; }
+  </style>
+  <h1>Station guide</h1>
 notes: |-
   CSS 是 Cascading Style Sheets 的缩写。
 

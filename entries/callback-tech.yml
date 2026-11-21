@@ -6,6 +6,20 @@ part_of_speech: noun
 meaning: "回调函数"
 context: "传给其他代码、在指定时机由其调用的函数。"
 example: "The callback restores the previous state after the operation."
+code_example: |-
+  import { useState } from 'react';
+
+  function SaveButton({ onSave }) {
+    return <button onClick={onSave}>Save</button>;
+  }
+
+  export default function Demo() {
+    const [status, setStatus] = useState('Ready');
+    return <>
+      <SaveButton onSave={() => setStatus('Saved')} />
+      <output>{status}</output>
+    </>;
+  }
 notes: |-
   Source: go101/go101-321.md.
 

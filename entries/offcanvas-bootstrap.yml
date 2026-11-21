@@ -4,6 +4,16 @@ word: "offcanvas"
 part_of_speech: noun
 meaning: "画布外面板，从视口边缘滑入的面板组件"
 example: "Open the filters in an offcanvas panel."
+code_example: |-
+  <button type="button" class="btn btn-primary" data-bs-toggle="offcanvas"
+          data-bs-target="#menu" aria-controls="menu">Open menu</button>
+  <aside class="offcanvas offcanvas-start" id="menu" tabindex="-1" aria-labelledby="menu-title">
+    <div class="offcanvas-header">
+      <h2 class="offcanvas-title h5" id="menu-title">Menu</h2>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body"><a href="#trains">Trains</a></div>
+  </aside>
 notes: |-
   Source: Bootstrap 5.3 documentation — offcanvas. https://getbootstrap.com/docs/5.3/components/offcanvas/
 learning_priority: 2

@@ -5,6 +5,11 @@ pronunciation: "/əˈlaɪn.mənt/"
 part_of_speech: noun
 meaning: "对齐，按参考位置或轴布置盒子的方式"
 example: "Check the alignment of the icons in the toolbar."
+code_example: |-
+  <style>
+    .sample { display: grid; place-items: center; min-height: 6rem; background: aliceblue; }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 

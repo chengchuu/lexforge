@@ -5,6 +5,13 @@ pronunciation: "/trænˈzɪʃ.ən/"
 part_of_speech: noun
 meaning: "过渡，在属性值变化时按时间平滑切换的效果"
 example: "Add a transition to soften the color change."
+code_example: |-
+  <style>
+    .sample { background-color: whitesmoke; transition: background-color 250ms; }
+    .sample:is(:hover, :focus-visible) { background-color: gold; }
+    @media (prefers-reduced-motion: reduce) { .sample { transition: none; } }
+  </style>
+  <button class="sample">Hover or focus</button>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 

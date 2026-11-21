@@ -4,6 +4,8 @@ word: "display utility"
 part_of_speech: noun phrase
 meaning: "显示工具类，用于设置元素的 display 属性"
 example: "Use the display utility .d-none to hide the element."
+code_example: |-
+  <span class="d-inline-block border">Inline block</span>
 notes: |-
   Source: Bootstrap 5.3 documentation — display. https://getbootstrap.com/docs/5.3/utilities/display/
 learning_priority: 2

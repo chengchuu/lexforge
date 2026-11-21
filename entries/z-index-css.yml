@@ -4,6 +4,14 @@ word: "z-index"
 part_of_speech: CSS syntax
 meaning: "用于设置盒子在层叠上下文中层级的属性"
 example: "A higher z-index cannot lift a child above a separate higher stacking context."
+code_example: |-
+  <style>
+    .sample { position: relative; height: 80px; }
+    .sample span { position: absolute; padding: 8px; }
+    .front { z-index: 2; background: gold; }
+    .back { z-index: 1; background: silver; }
+  </style>
+  <div class="sample"><span class="front">Front</span><span class="back">Back</span></div>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 learning_priority: 3

@@ -5,6 +5,14 @@ pronunciation: "/ˈren.dɚ/"
 part_of_speech: verb
 meaning: "渲染，调用组件以计算要显示的界面内容"
 example: "React renders the component to calculate its next output."
+code_example: |-
+  function SeatCount({ seats }) {
+    return <p>{seats} seats available</p>;
+  }
+
+  export default function Demo() {
+    return <SeatCount seats={2} />;
+  }
 notes: |-
   渲染阶段计算界面，提交阶段才应用需要的 DOM 变更。
 

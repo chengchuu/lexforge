@@ -4,6 +4,11 @@ word: "normal flow"
 part_of_speech: noun phrase
 meaning: "常规流，盒子按常规布局规则排列的方式"
 example: "The paragraph remains in normal flow after inserting the heading."
+code_example: |-
+  <style>
+    p { margin: 0; }
+  </style>
+  <p>First block</p><p>Second block with <em>inline text</em></p>
 notes: |-
   Source: MDN — CSS layout. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout
 learning_priority: 1

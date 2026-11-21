@@ -4,6 +4,8 @@ word: "character reference"
 part_of_speech: noun phrase
 meaning: "字符引用，在 HTML 源码中用命名或数字形式表示字符的序列"
 example: "Use the character reference &amp; for a literal ampersand in this example."
+code_example: |-
+  <p>&lt;strong&gt; &amp; caf&#233;</p>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
 learning_priority: 2

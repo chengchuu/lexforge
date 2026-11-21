@@ -4,6 +4,11 @@ word: "list group"
 part_of_speech: noun phrase
 meaning: "列表组，用于显示一组内容条目的组件"
 example: "Render the notification items in a list group."
+code_example: |-
+  <ul class="list-group">
+    <li class="list-group-item">Departures</li>
+    <li class="list-group-item">Arrivals</li>
+  </ul>
 notes: |-
   Source: Bootstrap 5.3 documentation — list group. https://getbootstrap.com/docs/5.3/components/list-group/
 learning_priority: 2

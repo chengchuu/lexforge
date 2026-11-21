@@ -5,6 +5,8 @@ pronunciation: "/kənˈteɪ.nɚ/"
 part_of_speech: noun
 meaning: "容器，用于包裹页面内容并控制其宽度与水平内边距"
 example: "Wrap the page content in a container."
+code_example: |-
+  <div class="container border">Centered page content</div>
 notes: |-
   Source: Bootstrap 5.3 documentation — containers. https://getbootstrap.com/docs/5.3/layout/containers/
 

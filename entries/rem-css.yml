@@ -4,6 +4,12 @@ word: "rem"
 part_of_speech: CSS syntax
 meaning: "以根元素字体大小为基准的 CSS 长度单位"
 example: "Set the spacing in rem to follow the root font size."
+code_example: |-
+  <style>
+    html { font-size: 16px; }
+    .sample { font-size: 20px; padding: 1.5rem; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 learning_priority: 2

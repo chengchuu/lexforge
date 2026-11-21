@@ -4,6 +4,13 @@ word: "column"
 part_of_speech: noun
 meaning: "列，位于栅格行内并可占据若干栅格单位的布局项"
 example: "The column spans six grid units at the md breakpoint."
+code_example: |-
+  <div class="container">
+    <div class="row">
+      <div class="col-4 border">One third</div>
+      <div class="col-8 border">Two thirds</div>
+    </div>
+  </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — grid. https://getbootstrap.com/docs/5.3/layout/grid/
 learning_priority: 1

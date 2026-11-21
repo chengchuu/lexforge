@@ -5,6 +5,12 @@ pronunciation: "/ˈmɑːr.dʒɪn/"
 part_of_speech: noun
 meaning: "外边距，位于边框外侧的空间"
 example: "Add a margin below the heading."
+code_example: |-
+  <style>
+    .sample { border: 1px solid; }
+    .sample p { margin: 16px; }
+  </style>
+  <div class="sample"><p>Space outside this paragraph</p></div>
 notes: |-
   Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
 

@@ -5,6 +5,12 @@ pronunciation: "/ˈoʊ.vɚ.floʊ/"
 part_of_speech: noun
 meaning: "溢出，内容超出盒子的可用区域时的状态"
 example: "Set overflow to auto if the panel should scroll when needed."
+code_example: |-
+  <style>
+    .sample { max-height: 50px; overflow: auto; border: 1px solid; }
+    .sample p { height: 120px; }
+  </style>
+  <div class="sample" tabindex="0" role="region" aria-label="Details"><p>Scroll for more space.</p></div>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 

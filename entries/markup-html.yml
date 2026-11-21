@@ -5,6 +5,8 @@ pronunciation: "/ˈmɑːrk.ʌp/"
 part_of_speech: noun
 meaning: "标记，用标签和属性等语法描述文档的结构与含义"
 example: "Review the markup for the navigation section."
+code_example: |-
+  <p>Submit the form by <strong>Friday</strong>.</p>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
 

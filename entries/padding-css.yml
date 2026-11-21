@@ -5,6 +5,11 @@ pronunciation: "/ˈpæd.ɪŋ/"
 part_of_speech: noun
 meaning: "内边距，内容与边框之间的空间"
 example: "Add padding to give the text more room inside the button."
+code_example: |-
+  <style>
+    .sample { padding: 16px; border: 1px solid; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
 

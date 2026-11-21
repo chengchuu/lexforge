@@ -4,6 +4,13 @@ word: "state setter"
 part_of_speech: noun phrase
 meaning: "状态设置函数，用于请求更新状态的函数"
 example: "Call the state setter to change the selected tab."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [status, setStatus] = useState('Waiting');
+    return <><button onClick={() => setStatus('Ready to board')}>Enable boarding</button><output>{status}</output></>;
+  }
 notes: |-
   例如 useState 返回的 setCount。setter 可以接收下一个值，也可以接收 updater function。
 

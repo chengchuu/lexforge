@@ -5,6 +5,18 @@ pronunciation: "/ˈkɑːn.tekst/"
 part_of_speech: noun
 meaning: "上下文，让组件从上层提供者获取值的 React 机制"
 example: "Use context to share the theme with nested components."
+code_example: |-
+  import { createContext, useContext } from 'react';
+
+  const Language = createContext('English');
+
+  function Greeting() {
+    return <p>{useContext(Language)}</p>;
+  }
+
+  export default function Demo() {
+    return <><Greeting /><Language.Provider value="Japanese"><Greeting /></Language.Provider></>;
+  }
 notes: |-
   例如 useContext(ThemeContext) 可读取最近的匹配上层提供者的值。
 

@@ -4,6 +4,13 @@ word: "at-rule"
 part_of_speech: noun
 meaning: "@ 规则，以 @ 和标识符开头并规定特定行为的 CSS 规则"
 example: "An at-rule can conditionally apply a group of styles."
+code_example: |-
+  <style>
+    @supports (display: grid) {
+      .sample { display: grid; gap: 8px; }
+    }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 learning_priority: 2

@@ -4,6 +4,11 @@ word: "focus indicator"
 part_of_speech: noun phrase
 meaning: "焦点指示，以可见样式提示哪个控件拥有输入焦点"
 example: "Keep a visible focus indicator on each interactive control."
+code_example: |-
+  <style>
+    .sample:focus-visible { outline: 3px solid blue; outline-offset: 3px; }
+  </style>
+  <button class="sample">Press Tab to focus me</button>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 learning_priority: 2

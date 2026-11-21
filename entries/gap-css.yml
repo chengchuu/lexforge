@@ -5,6 +5,11 @@ pronunciation: "/ɡæp/"
 part_of_speech: noun
 meaning: "间距，用于设置布局中的行间距和列间距"
 example: "Set a gap between the grid items."
+code_example: |-
+  <style>
+    .sample { display: flex; gap: 16px; }
+  </style>
+  <div class="sample"><div>One</div><div>Two</div></div>
 notes: |-
   Source: W3C — CSS Grid Layout Module Level 2. https://www.w3.org/TR/css-grid-2/
 

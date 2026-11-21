@@ -4,6 +4,11 @@ word: "font stack"
 part_of_speech: noun phrase
 meaning: "字体栈，按优先顺序排列的候选字体列表"
 example: "The font stack ends with a generic sans-serif family."
+code_example: |-
+  <style>
+    .sample { font-family: system-ui, Arial, sans-serif; }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 learning_priority: 2

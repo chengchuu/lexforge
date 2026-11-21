@@ -5,6 +5,13 @@ pronunciation: "/ˈɡʌt̬.ɚ/"
 part_of_speech: noun
 meaning: "栅格间距，Bootstrap 栅格用列的水平内边距等方式产生的列间和行间空隙"
 example: "Increase the horizontal gutter between the columns with .gx-4."
+code_example: |-
+  <div class="container">
+    <div class="row gx-5">
+      <div class="col border">One</div>
+      <div class="col border">Two</div>
+    </div>
+  </div>
 notes: |-
   横向 gutter 通过列内边距和行的负外边距配合实现。纵向 gutter 使用相应的纵向间距规则。
 

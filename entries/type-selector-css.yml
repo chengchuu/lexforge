@@ -4,6 +4,11 @@ word: "type selector"
 part_of_speech: noun phrase
 meaning: "类型选择器，按元素名称匹配"
 example: "The type selector button matches button elements."
+code_example: |-
+  <style>
+    strong { color: navy; }
+  </style>
+  <p>Platform <strong>4</strong></p>
 notes: |-
   Source: W3C — Selectors Level 4. https://www.w3.org/TR/selectors-4/
 learning_priority: 1

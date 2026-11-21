@@ -4,6 +4,18 @@ word: "modal"
 part_of_speech: noun
 meaning: "模态对话框，显示在页面内容上方并限制用户与背景交互的组件"
 example: "Open a modal to confirm the deletion."
+code_example: |-
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+          data-bs-target="#details">Open details</button>
+  <div class="modal fade" id="details" tabindex="-1" aria-labelledby="title">
+    <div class="modal-dialog"><div class="modal-content">
+      <div class="modal-header"><h2 class="modal-title fs-5" id="title">Details</h2></div>
+      <div class="modal-body">Your reservation is ready.</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div></div>
+  </div>
 notes: |-
   Bootstrap 的 modal 是模态对话框组件，与 HTML 的 dialog 元素是不同概念。
 

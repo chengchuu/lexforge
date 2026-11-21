@@ -5,6 +5,11 @@ pronunciation: "/ˈel.ə.mənt/"
 part_of_speech: noun
 meaning: "元素，文档树中表示一段内容或一个结构单元的节点"
 example: "The main element contains the page's primary content."
+code_example: |-
+  <article>
+    <h2>Park opening</h2>
+    <p>The park opens at dawn.</p>
+  </article>
 notes: |-
   元素是文档树中的结构单元。开始标签与结束标签属于源码语法。元素还可以由浏览器在解析时补出，或在运行时创建。
 

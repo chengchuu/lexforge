@@ -4,6 +4,17 @@ word: "keyframe"
 part_of_speech: noun
 meaning: "关键帧，定义动画某一进度点样式的规则"
 example: "The final keyframe sets the opacity to one."
+code_example: |-
+  <style>
+    @keyframes appear {
+      from { opacity: 0; }
+      50% { opacity: 0.6; }
+      to { opacity: 1; }
+    }
+    .sample { animation: appear 800ms; }
+    @media (prefers-reduced-motion: reduce) { .sample { animation: none; } }
+  </style>
+  <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 learning_priority: 2

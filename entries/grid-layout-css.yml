@@ -4,6 +4,11 @@ word: "grid layout"
 part_of_speech: noun phrase
 meaning: "网格布局；通过行和列组织项目的二维布局。"
 example: "Grid layout defines rows and columns for the panel."
+code_example: |-
+  <style>
+    .sample { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  </style>
+  <div class="sample"><span>One</span><span>Two</span><span>Three</span></div>
 notes: |
   先定义轨道，再按网格线或区域放置项目。fr 分配可用空间，gap 控制轨道间距。Grid 可协调行列尺寸；Flexbox 更侧重单个维度，二者可组合使用。
 

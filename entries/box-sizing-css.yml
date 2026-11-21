@@ -4,6 +4,11 @@ word: "box-sizing"
 part_of_speech: CSS syntax
 meaning: "控制指定宽高按内容盒还是边框盒计算的属性"
 example: "Set box-sizing to border-box so the declared width includes the padding and border."
+code_example: |-
+  <style>
+    .sample { box-sizing: border-box; width: 120px; padding: 12px; border: 2px solid; }
+  </style>
+  <div class="sample">Sample</div>
 notes: |-
   content-box 按内容盒计算宽高。border-box 将内边距和边框计入指定宽高，但不计入外边距。
 

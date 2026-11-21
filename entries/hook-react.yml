@@ -5,6 +5,13 @@ pronunciation: "/hʊk/"
 part_of_speech: noun
 meaning: "Hook，在 React 组件或自定义 Hook 中按规则使用的函数，可接入状态等能力"
 example: "Call the Hook at the top level of the component."
+code_example: |-
+  import { useState } from 'react';
+
+  export default function Demo() {
+    const [seats, setSeats] = useState(0);
+    return <button onClick={() => setSeats(1)}>{seats} seat reserved</button>;
+  }
 notes: |-
   Source: React docs — Rules of React. https://react.dev/reference/rules
 

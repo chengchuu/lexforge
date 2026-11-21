@@ -4,6 +4,25 @@ word: "Effect cleanup"
 part_of_speech: noun phrase
 meaning: "Effect 清理，停止旧同步或释放其资源的过程"
 example: "Effect cleanup disconnects from the previous chat room."
+code_example: |-
+  import { useEffect, useState } from 'react';
+
+  function Clock() {
+    const [seconds, setSeconds] = useState(0);
+    useEffect(() => {
+      const timer = setInterval(() => setSeconds(n => n + 1), 1000);
+      return () => clearInterval(timer);
+    }, []);
+    return <output>{seconds} s</output>;
+  }
+
+  export default function Demo() {
+    const [running, setRunning] = useState(true);
+    return <>
+      <button onClick={() => setRunning(!running)}>{running ? 'Stop' : 'Start'} clock</button>
+      {running && <Clock />}
+    </>;
+  }
 notes: |-
   useEffect 的 setup 可以返回清理函数。React 会在重新运行该 Effect 前及卸载时调用相应的清理函数。
 

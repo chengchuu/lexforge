@@ -5,6 +5,14 @@ pronunciation: "/kəmˈpoʊ.nənt/"
 part_of_speech: noun
 meaning: "组件，用于描述部分界面的可复用单元"
 example: "The component displays a user's profile."
+code_example: |-
+  function Ticket({ city }) {
+    return <article><h2>{city}</h2><p>One-way fare</p></article>;
+  }
+
+  export default function Demo() {
+    return <><Ticket city="Osaka" /><Ticket city="Kyoto" /></>;
+  }
 notes: |-
   Source: React docs — Quick Start. https://react.dev/learn
 

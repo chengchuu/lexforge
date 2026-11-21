@@ -4,6 +4,13 @@ word: "breadcrumb"
 part_of_speech: noun
 meaning: "面包屑导航，显示当前页面所在层级路径的导航组件"
 example: "The breadcrumb links back to the parent category."
+code_example: |-
+  <nav aria-label="Breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#orders">Orders</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Order A17</li>
+    </ol>
+  </nav>
 notes: |-
   Source: Bootstrap 5.3 documentation — breadcrumb. https://getbootstrap.com/docs/5.3/components/breadcrumb/
 learning_priority: 2

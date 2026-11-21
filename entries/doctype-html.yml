@@ -4,6 +4,12 @@ word: "doctype"
 part_of_speech: noun
 meaning: "文档类型声明，放在 HTML 文档开头，帮助浏览器使用标准渲染模式"
 example: "Put the doctype at the start of the document."
+code_example: |-
+  <!doctype html>
+  <html lang="en">
+  <head><meta charset="utf-8"><title>Standards mode</title></head>
+  <body><p>This page uses standards mode.</p></body>
+  </html>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
 learning_priority: 1

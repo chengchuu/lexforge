@@ -5,6 +5,8 @@ pronunciation: "/ˈhaɪ.pɚ.lɪŋk/"
 part_of_speech: noun
 meaning: "超链接，可跳转到指定资源或位置的引用"
 example: "The hyperlink points to the installation guide."
+code_example: |-
+  <a href="https://example.com/">Visit the example site</a>
 notes: |-
   常用写法是带 href 的 <a>。可跳转到另一文档，也可链接到当前文档的片段。
 

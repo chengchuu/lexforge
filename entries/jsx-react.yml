@@ -4,6 +4,11 @@ word: "JSX"
 part_of_speech: noun
 meaning: "用于在 JavaScript 中编写类似标记内容的语法扩展"
 example: "JSX lets the component describe the button and its label."
+code_example: |-
+  export default function Demo() {
+    const platform = 4;
+    return <p className="notice">Departing from platform <strong>{platform}</strong>.</p>;
+  }
 notes: |-
   JSX 是语法扩展。React 是使用 JSX 的常见库。
 

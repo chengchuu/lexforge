@@ -4,6 +4,11 @@ word: "content box"
 part_of_speech: noun phrase
 meaning: "内容盒，位于内边距以内、容纳内容的区域"
 example: "The image fits entirely inside the content box."
+code_example: |-
+  <style>
+    .sample { box-sizing: content-box; width: 100px; padding: 10px; border: 2px solid; }
+  </style>
+  <div class="sample">Sample</div>
 notes: |-
   Source: W3C — CSS Box Model Module Level 4. https://www.w3.org/TR/css-box-4/
 learning_priority: 1

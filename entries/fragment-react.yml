@@ -5,6 +5,16 @@ pronunciation: "/ˈfræɡ.mənt/"
 part_of_speech: noun
 meaning: "片段，将多个节点分组而无需额外 DOM 元素的组件"
 example: "Wrap the two list items in a Fragment."
+code_example: |-
+  import { Fragment } from 'react';
+
+  export default function Demo() {
+    return <dl><Term /></dl>;
+  }
+
+  function Term() {
+    return <Fragment><dt>ETA</dt><dd>Estimated time of arrival</dd></Fragment>;
+  }
 notes: |-
   Source: React docs — React Reference Overview. https://react.dev/reference/react
 
