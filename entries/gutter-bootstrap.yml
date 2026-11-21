@@ -6,10 +6,10 @@ part_of_speech: noun
 meaning: "栅格间距，Bootstrap 栅格用列的水平内边距等方式产生的列间和行间空隙"
 example: "Increase the horizontal gutter between the columns with .gx-4."
 code_example: |-
-  <div class="container">
+  <div class="container px-4">
     <div class="row gx-5">
-      <div class="col border">One</div>
-      <div class="col border">Two</div>
+      <div class="col"><div class="border p-2">One</div></div>
+      <div class="col"><div class="border p-2">Two</div></div>
     </div>
   </div>
 notes: |-

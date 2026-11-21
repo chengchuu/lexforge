@@ -5,11 +5,26 @@ part_of_speech: noun phrase
 meaning: "验证反馈，用于说明输入是否满足校验条件的提示信息"
 example: "Place validation feedback near the email field."
 code_example: |-
-  <form class="was-validated">
+  <form method="get">
     <label for="code" class="form-label">Booking code</label>
-    <input id="code" class="form-control" aria-describedby="code-feedback" required>
+    <input id="code" name="code" class="form-control" required>
     <div id="code-feedback" class="invalid-feedback">Enter your booking code.</div>
+    <button class="btn btn-primary mt-2" type="submit">Continue</button>
   </form>
+  <script>
+    const code = document.querySelector('#code');
+    function updateFeedback() {
+      if (code.validity.valid) code.removeAttribute('aria-describedby');
+      else code.setAttribute('aria-describedby', 'code-feedback');
+    }
+    code.addEventListener('invalid', () => {
+      code.form.classList.add('was-validated');
+      updateFeedback();
+    });
+    code.addEventListener('input', () => {
+      if (code.form.classList.contains('was-validated')) updateFeedback();
+    });
+  </script>
 notes: |-
   应用验证样式时，同时确保反馈能被辅助技术获取。
 

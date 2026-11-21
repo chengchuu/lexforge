@@ -7,8 +7,14 @@ meaning: "轻提示，用于呈现简短消息的轻量通知组件"
 example: "Show a toast after copying the link."
 code_example: |-
   <button type="button" class="btn btn-primary" id="save">Save</button>
-  <div class="toast" role="status" aria-live="polite" aria-atomic="true" id="notice">
-    <div class="toast-body">Ticket saved.</div>
+  <div role="status" aria-atomic="true">
+    <div class="toast" id="notice">
+      <div class="d-flex align-items-center">
+        <div class="toast-body">Ticket saved.</div>
+        <button type="button" class="btn-close me-2" data-bs-dismiss="toast"
+                aria-label="Dismiss notification"></button>
+      </div>
+    </div>
   </div>
   <script>
     const notice = new bootstrap.Toast('#notice', { autohide: false });

@@ -409,6 +409,14 @@ Upload the build artifacts after the test job completes.
 
 Do not prioritize an unrelated dictionary meaning when the entry is clearly technical.
 
+### Frontend code examples
+
+Add a short, runnable `code_example` when code directly demonstrates the HTML, CSS, React, or Bootstrap concept. Store it in a literal YAML block (`|-`) and keep the prose `example` separate for Read Aloud. Use standalone HTML or CSS where practical. Use the [frontend code example lab](guides/FRONTEND_CODE_EXAMPLE_LAB.md) for shared page markup, local fixtures, and React, Bootstrap, or Sass setup. Install lab dependencies in a scratch directory.
+
+1. Run the exact snippet from the entry in the lab. Build JSX or compile Sass where applicable.
+2. Check the expected result in a browser. Exercise the relevant controls, verify responsive behavior at narrow and wide widths when applicable, and check the console for unexpected errors.
+3. Run `go run scripts/validate/main.go` and `go run scripts/build/main.go` from the repository root. Check that the generated `CodeExample` field preserves indentation and line breaks and escapes markup for display. Report what you tested and any limits.
+
 ---
 
 ## Meaning Language

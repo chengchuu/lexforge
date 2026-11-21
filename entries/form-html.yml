@@ -6,7 +6,7 @@ part_of_speech: noun
 meaning: "表单，用于组织相关控件并提交输入数据的元素"
 example: "The form collects the user's email address."
 code_example: |-
-  <form method="get" action="">
+  <form method="get">
     <label>City <input name="city" value="Osaka"></label>
     <button>Search</button>
   </form>

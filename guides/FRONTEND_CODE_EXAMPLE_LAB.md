@@ -46,7 +46,7 @@ Run this command from the scratch directory.
 npm install --no-save bootstrap@5.3.9 sass@1.93.3
 ```
 
-Use the HTML page above. Load the stylesheet and bundle in the head, before any script from the card. This gives the card scripts access to `bootstrap` and includes Popper for dropdowns, tooltips, and popovers. [Bootstrap JavaScript documentation](https://getbootstrap.com/docs/5.3/getting-started/javascript/)
+Use the HTML page above. Add these tags to the head before any card styles or scripts. This lets the theming example override Bootstrap's defaults and gives the card scripts access to `bootstrap` and Popper. [Bootstrap JavaScript documentation](https://getbootstrap.com/docs/5.3/getting-started/javascript/)
 
 ```html
 <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -61,7 +61,7 @@ For a Sass card, paste the HTML portion into the page and the SCSS portion into 
 
 ## React
 
-Use a separate scratch directory if you want to keep the Bootstrap lab installed. Run the React setup command from your scratch directory.
+Use a separate scratch directory if you want to keep the Bootstrap lab installed. If you switch directories, stop the old server with Ctrl+C and start it in the new directory. Start with the HTML page from the first section. Run the React setup command from your scratch directory.
 
 ```sh
 npm install --no-save react@19.2.0 react-dom@19.2.0 esbuild@0.25.12
