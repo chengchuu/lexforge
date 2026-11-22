@@ -6,6 +6,7 @@ part_of_speech: noun
 meaning: "错误；弄错"
 context: "表示错误或弄错这件事，是名词形式。"
 example: "名前に間違いがあります。"
+mnemonic: "用法助记：电话里说自己拨错了，可以用 番号を間違えました，关注做错这件事。检查资料时说名字有误，可以用 名前に間違いがあります，关注发现的错误。"
 audio: machigai.mp3
 learning_priority: 2
 tags:

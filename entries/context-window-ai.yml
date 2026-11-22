@@ -7,6 +7,8 @@ example: "The conversation is close to the context window limit."
 notes: |-
   当前上下文可能包括指令、对话和工具结果。保存的完整历史或记忆文件不一定全部进入当前窗口；实际可用容量及计算方式取决于模型和工具。
   Reference: Claude Code — How Claude Code works. https://code.claude.com/docs/en/how-claude-code-works (accessed 2026-11-19).
+related_entries:
+  - memory-ai
 learning_priority: 2
 prerequisites:
   - context-language

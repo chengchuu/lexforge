@@ -6,6 +6,9 @@ part_of_speech: noun
 meaning: "大学生；在大学就读的学生"
 example: "私は大学生です。"
 notes: "Source: Langoal — 大学生. https://langoal.com/ja/vocabulary/word/daigakusei.html"
+word_formation: "大学（だいがく，大学）+ 生（せい，此处表示学生身份），合起来是大学生。生 在这里读 せい。"
+related_entries:
+  - gakusei
 learning_priority: 1
 prerequisites:
   - daigaku

@@ -12,6 +12,8 @@ notes: |-
   操作参考: OpenAI Codex — SlashCommand. https://github.com/openai/codex/blob/rust-v0.169.0/codex-rs/tui/src/slash_command.rs
   操作参考: OpenAI — Developer commands (CLI). https://learn.chatgpt.com/docs/developer-commands?surface=cli
   Pronunciation source: Collins Dictionary — resume; resume in American English. https://www.collinsdictionary.com/dictionary/english/resume (accent: US; accessed 2026-11-19).
+related_entries:
+  - resumption-workflow
 learning_priority: 1
 audio: resume-workflow.mp3
 tags:

@@ -14,6 +14,7 @@ notes: |-
   Source: W3C WAI — Page Structure Tutorial. https://www.w3.org/WAI/tutorials/page-structure/
 
   Pronunciation source: Cambridge Dictionary — landmark (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/landmark
+mnemonic: "用法助记：纸质地图上先找显眼标记；在 HTML 里可把 landmark 想成帮助定位的页面区域。"
 learning_priority: 2
 prerequisites:
   - semantic-html

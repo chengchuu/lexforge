@@ -1,6 +1,7 @@
 id: narrowing-typescript
 language: en
 word: "narrowing"
+pronunciation: "UK /ˈnærəʊɪŋ/"
 part_of_speech: noun
 meaning: "类型收窄，根据检查和控制流缩小可能的类型"
 example: "Narrowing lets us treat the value as a string after the check."
@@ -11,6 +12,8 @@ code_example: |-
   console.log(format(3), format(" go ")); // 3.0 go
 notes: |-
   Source: TypeScript Handbook — Narrowing. https://www.typescriptlang.org/docs/handbook/2/narrowing.html
+
+  Pronunciation source: Collins Dictionary — narrowing; British English. https://www.collinsdictionary.com/dictionary/english/narrowing (accent: UK; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - union-tech

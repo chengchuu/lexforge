@@ -24,6 +24,9 @@ notes: |-
   Source: Go specification — Defer statements. https://go.dev/ref/spec#Defer_statements
 
   Pronunciation source: Cambridge Dictionary — defer (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/defer
+mnemonic: "用法助记：普通 defer 可泛指推迟。读 Go 代码时，看到 defer 就去找外围函数何时结束，多个已安排的调用按后进先出执行。"
+related_entries:
+  - defer-tech
 learning_priority: 2
 prerequisites:
   - function-tech

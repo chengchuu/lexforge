@@ -8,6 +8,8 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   通用游戏术语。
+related_entries:
+  - auto-save-game
 learning_priority: 2
 prerequisites:
   - save-game

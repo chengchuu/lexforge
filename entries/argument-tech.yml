@@ -1,6 +1,7 @@
 id: argument-tech
 language: en
 word: "argument"
+pronunciation: "/ˈɑrɡjumənt/"
 part_of_speech: noun
 meaning: "实参，调用时传给函数的值"
 example: "We pass 42 as the second argument."
@@ -11,6 +12,8 @@ code_example: |-
   console.log(label("Ada")); // "Ada" is the argument.
 notes: |-
   Source: TypeScript Handbook — More on Functions. https://www.typescriptlang.org/docs/handbook/2/functions.html
+
+  Pronunciation source: Collins Dictionary — argument; American English. https://www.collinsdictionary.com/dictionary/english/argument (accent: US; accessed 2026-11-22).
 learning_priority: 1
 prerequisites:
   - function-tech

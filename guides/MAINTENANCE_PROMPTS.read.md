@@ -6,6 +6,7 @@ Start your coding agent in the repository root and copy the prompt for the task 
 
 - [Add vocabulary](#add-vocabulary)
 - [Collect vocabulary from sources](#collect-vocabulary-from-sources)
+- [Backfill missing pronunciation](#backfill-missing-pronunciation)
 - [Generate missing pronunciation audio](#generate-missing-pronunciation-audio)
 - [Enrich memory aids](#enrich-memory-aids)
   - [Implement approved enrichment](#implement-approved-enrichment)
@@ -16,6 +17,7 @@ Choose the workflow that matches your task:
 | :-------------------------------------------------------------- | :------------------------------------------------------- | :--------------------------------------------- |
 | [Add vocabulary](#add-vocabulary)                               | Add supplied words, expressions, or concepts             | Update entries; optionally generate audio      |
 | [Collect vocabulary](#collect-vocabulary-from-sources)          | Select learning targets from source files                | Create a reviewable plan only                  |
+| [Backfill missing pronunciation](#backfill-missing-pronunciation) | Audit and propose written pronunciations               | Create a reviewable plan only                  |
 | [Generate missing audio](#generate-missing-pronunciation-audio) | Fill missing pronunciation recordings                    | Generate or reuse audio using existing tooling |
 | [Enrich memory aids](#enrich-memory-aids)                       | Review etymology, formation, mnemonics, and associations | Create a reviewable plan only                  |
 
@@ -196,6 +198,68 @@ Check the plan's local links, stable-ID references, counts, and formatting. Repo
 ```
 
 Review the candidate content and proposed relationships before approving implementation. Creating the plan does not authorize an import. For the current entry and audio workflows, see [Add vocabulary](#add-vocabulary) and [Generate missing audio](#generate-missing-pronunciation-audio).
+
+## Backfill missing pronunciation
+
+Use this prompt to audit the collection and prepare batches of written pronunciations for review. Follow the [pronunciation conventions](ENTRY_SCHEMA.md#pronunciation). For recordings, use [Generate missing audio](#generate-missing-pronunciation-audio).
+
+```text
+Audit the written pronunciation field across all LexForge entries and propose
+reviewable batches.
+
+Read AGENTS.md, README.md, and guides/ENTRY_SCHEMA.md. Check Git status and
+use the current YAML and stable IDs as the baseline. This request authorizes
+only creating or updating the plan. Choose a descriptive uppercase snake-case
+Markdown filename under guides/. If that name belongs to a completed plan,
+choose a distinct filename. Leave entries, recordings, tooling, and exports
+untouched during planning.
+
+Inventory every entry by language. Report present and missing pronunciations,
+and account for every missing ID as proposed, researched but deferred, or
+pending research. Preserve populated fields and report suspected mistakes
+separately. Prioritize common words and everyday phrases, then group technical
+terms, names, abbreviations, and symbols for review. Let the evidence and
+learning value determine batch size.
+
+- For English, prefer verified American IPA and write /…/ without a US prefix.
+  If a reasonable lookup yields a reliable British form but no verified
+  American form, write UK /…/ and record why you used it. A blocked or missing
+  source page does not establish that an American form does not exist.
+- Match the exact word form, sense, and part of speech. For phrases, source
+  the complete phrase. Preserve the source's transcription conventions and
+  use complete, consistently labeled forms. Avoid assembling IPA from
+  separate words or suffixes, mixing accents, or deriving IPA from audio.
+- For Japanese, use verified kana readings. For other languages, follow the
+  repository's documented conventions. Defer items whose reading, identity,
+  or relevant convention cannot be established with reliable evidence.
+
+Give each proposed entry a review ID, stable ID, word, current meaning and
+part of speech, exact pronunciation, and exact Notes source line. Include
+the source title, specific URL, accent when applicable, and access date.
+Use readable source content that supports the proposed value. For deferred
+items, record the reason and any lookup or access limitation. Distinguish
+inventory counts from entries researched individually.
+
+After explicit implementation approval, recheck the approved IDs against
+the current entries and snapshot the original YAML, export, and media hashes.
+Apply only the approved pronunciation values and Notes source lines. Append
+source lines without duplicating existing citations or dropping prior notes.
+Keep existing recordings regardless of the written accent. Run:
+
+go run scripts/validate/main.go
+go run scripts/build/main.go
+git diff --check
+
+Verify the approved pronunciations in the rebuilt export and compare the
+source changes, recording hashes, and export with the snapshot. Confirm that
+unrelated fields, audio references, and StudyOrder are preserved. Report
+remaining gaps and distinguish export checks from human listening and live
+Anki verification. Update the plan with actual results.
+
+For this planning request, verify the IDs, counts, and local links in the plan.
+Stop after presenting the review batches and wait for explicit implementation
+approval.
+```
 
 ## Generate missing pronunciation audio
 

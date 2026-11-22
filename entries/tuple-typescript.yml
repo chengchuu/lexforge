@@ -1,6 +1,7 @@
 id: tuple-typescript
 language: en
 word: "tuple"
+pronunciation: "/ˈtuːpəl/"
 part_of_speech: noun
 meaning: "元组，按位置定义元素类型的数组类型"
 example: "This tuple stores a name followed by a count."
@@ -10,6 +11,8 @@ code_example: |-
   console.log(id.toFixed(0), name.toUpperCase());
 notes: |-
   Source: TypeScript Handbook — Object Types. https://www.typescriptlang.org/docs/handbook/2/objects.html
+
+  Pronunciation source: Wiktionary — tuple; English Pronunciation, US. https://en.wiktionary.org/w/index.php?title=tuple&oldid=89359660 (accent: US; accessed 2026-11-22).
 learning_priority: 1
 prerequisites:
   - array-tech

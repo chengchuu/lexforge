@@ -15,6 +15,8 @@ notes: |-
   Lab: guides/NGINX_LOCATION_LAB.md.
   Source: NGINX documentation — alias. https://nginx.org/en/docs/http/ngx_http_core_module.html#alias
   Pronunciation source: Cambridge Dictionary — alias. https://dictionary.cambridge.org/dictionary/english/alias (US, accessed 2026-11-20).
+related_entries:
+  - root-nginx
 learning_priority: 2
 prerequisites:
   - root-nginx

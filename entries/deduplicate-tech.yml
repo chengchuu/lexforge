@@ -10,6 +10,7 @@ notes: |-
 
   Source: /Users/mazey/Web/web/server/docs/PR/react/react-f-compiler.md. Source form: deduplication.
   Pronunciation source: Collins Dictionary — deduplicate; deduplicate in British English. https://www.collinsdictionary.com/dictionary/english/deduplicate (accent: UK; accessed 2026-11-18).
+word_formation: "deduplicate 里的 duplicate 是重复项，de- 表示移除或消减。把重复项识别后按规则保留所需数量，就是去重。"
 learning_priority: 2
 audio: deduplicate-tech.mp3
 tags:

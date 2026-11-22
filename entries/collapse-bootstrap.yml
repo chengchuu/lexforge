@@ -1,6 +1,7 @@
 id: collapse-bootstrap
 language: en
 word: "collapse"
+pronunciation: "/kəˈlæps/"
 part_of_speech: noun
 meaning: "折叠，用于展开和收起来切换内容可见性的组件行为"
 example: "Use collapse to toggle the details panel."
@@ -10,6 +11,8 @@ code_example: |-
   <div id="details" class="collapse"><p>Doors open at 9 a.m.</p></div>
 notes: |-
   Source: Bootstrap 5.3 documentation — collapse. https://getbootstrap.com/docs/5.3/components/collapse/
+
+  Pronunciation source: Collins Dictionary — collapse; American English. https://www.collinsdictionary.com/dictionary/english/collapse (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - bootstrap-framework

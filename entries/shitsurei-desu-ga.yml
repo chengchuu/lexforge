@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "冒昧问一下"
 context: "询问姓名等私人信息或打断谈话前，用于缓和语气。"
 example: "失礼ですが、お名前は。"
+word_formation: "失礼です + が。放在提问前先表示冒昧，が 在这句话里帮助接到后面的礼貌请求。"
 audio: shitsurei-desu-ga.mp3
 learning_priority: 1
 tags:

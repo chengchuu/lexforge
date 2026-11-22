@@ -1,6 +1,7 @@
 id: specificity-css
 language: en
 word: "specificity"
+pronunciation: "/ˌspɛsəˈfɪsəti/"
 part_of_speech: noun
 meaning: "选择器权重，层叠中用于比较匹配规则的一个因素"
 example: "The class selector has greater specificity than the type selector."
@@ -14,6 +15,8 @@ notes: |-
   选择器权重只在适用的层叠条件相同时参与比较。先判断来源、重要性和层叠层等条件。
 
   Source: W3C — CSS Cascading and Inheritance Level 5. https://www.w3.org/TR/css-cascade-5/
+
+  Pronunciation source: Collins Dictionary — specificity; American English. https://www.collinsdictionary.com/dictionary/english/specificity (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - selector-css

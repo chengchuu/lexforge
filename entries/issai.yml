@@ -7,6 +7,9 @@ meaning: "一岁"
 context: "表示年龄为一岁，读音包含促音。"
 example: "娘は一歳です。"
 notes: "截图原记「いちさい」已确认更正为「いっさい」，不作为有效读音保留。"
+mnemonic: "辨音助记：一岁读 いっさい，八岁读 はっさい。两词都保留小 っ 的促音节奏，靠开头 い 和 は 分辨。"
+related_entries:
+  - hassai
 audio: issai.mp3
 learning_priority: 2
 tags:

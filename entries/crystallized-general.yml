@@ -9,6 +9,11 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Pronunciation source: Cambridge Dictionary — crystallized. https://dictionary.cambridge.org/us/dictionary/english/crystallized (US, accessed 2026-11-20).
+
+  Memory-aid source: Merriam-Webster.com Dictionary — crystallize. https://www.merriam-webster.com/dictionary/crystallize
+word_formation: "crystallize 的词尾已经有 e，直接加 -d 得到 crystallized。这里用过去分词作形容词，描述已经形成晶体的状态。"
+related_entries:
+  - crystallize-general
 learning_priority: 2
 prerequisites:
   - crystallize-general

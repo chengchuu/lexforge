@@ -1,12 +1,18 @@
 id: "disguised-combat"
 language: "en"
 word: "disguised"
+pronunciation: "/dɪsˈɡaɪzd/"
 part_of_speech: "adjective"
 meaning: "伪装的"
 example: "The enemy was disguised as a traveler."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: disguised.
+
+  Memory-aid source: Merriam-Webster.com Dictionary — disguise. https://www.merriam-webster.com/dictionary/disguise
+
+  Pronunciation source: Wiktionary — disguised; English Pronunciation, General American. https://en.wiktionary.org/w/index.php?title=disguised&oldid=83217429 (accent: US; accessed 2026-11-22).
+word_formation: "disguise（伪装）已经以 e 结尾，加 -d 得到 disguised。be disguised as 后可接伪装成的身份，如 disguised as a traveler。"
 learning_priority: 2
 audio: disguised-combat.mp3
 tags:

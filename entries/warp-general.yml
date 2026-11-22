@@ -1,6 +1,7 @@
 id: "warp-general"
 language: "en"
 word: "warp"
+pronunciation: "/wɔrp/"
 part_of_speech: "verb"
 meaning: "传送；游戏中快速移动到另一地点。"
 example: "Warp to a nearby travel point."
@@ -9,6 +10,8 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: warp.
+
+  Pronunciation source: Collins Dictionary — warp; American English. https://www.collinsdictionary.com/dictionary/english/warp (accent: US; accessed 2026-11-22).
 learning_priority: 1
 audio: warp-general.mp3
 tags:

@@ -11,6 +11,11 @@ notes: |-
   拆开人为组装的物件用 disassemble，例如拆开车架。decompose 表示物质分解或有机物腐解。
 
   Pronunciation source: Cambridge Dictionary — disassemble. https://dictionary.cambridge.org/us/dictionary/english/disassemble (US, accessed 2026-11-20).
+
+  Memory-aid source: Merriam-Webster.com Dictionary — disassemble. https://www.merriam-webster.com/dictionary/disassemble
+word_formation: "dis- + assemble。这里 dis- 表示逆转 assemble（组装）的动作。同一词族的名词 disassembly 表示拆卸。"
+related_entries:
+  - decompose-general
 learning_priority: 2
 prerequisites:
   - assemble-general

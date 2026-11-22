@@ -1,6 +1,7 @@
 id: keyframe-css
 language: en
 word: "keyframe"
+pronunciation: "/ˈkiˌfɹeɪm/"
 part_of_speech: noun
 meaning: "关键帧，定义动画某一进度点样式的规则"
 example: "The final keyframe sets the opacity to one."
@@ -17,6 +18,8 @@ code_example: |-
   <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+  Pronunciation source: Wiktionary — keyframe (English pronunciation). https://en.wiktionary.org/w/index.php?title=keyframe&oldid=87981835 (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - animation-css

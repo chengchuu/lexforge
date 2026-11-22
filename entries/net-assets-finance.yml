@@ -1,6 +1,7 @@
 id: net-assets-finance
 language: en
 word: "net assets"
+pronunciation: "UK /ˌnet ˈæsets/"
 part_of_speech: "noun"
 meaning: "净资产；资产扣除负债后的净值。"
 example: "Check the account’s net assets."
@@ -9,6 +10,8 @@ notes: |-
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6、S7；原标签: Net Assets。
   Reference: SEC — Beginners’ Guide to Financial Statements. https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements
   Reference: Moomoo API — Get Account Funds. https://openapi.moomoo.com/moomoo-api-doc/en/trade/get-funds.html
+
+  Pronunciation source: A & C Black — Dictionary of Accounting, 4th ed., p. 149 (net assets). https://castudynotes.com/wp-content/uploads/2022/03/14.Dictionary-of-Accounting.pdf#page=156 (accent: UK; accessed 2026-11-22).
 related_entries:
   - market-value-finance
 learning_priority: 2

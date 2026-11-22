@@ -7,6 +7,7 @@ meaning: "跨行范围"
 context: "从一行延伸到另一行的文本区域。"
 example: "The formatter handles multiline ranges separately."
 notes: "Source: react/react-37898.md."
+word_formation: "multi-（多）+ line（行）构成 multiline，再加 range（范围）。指跨越不止一行的范围。"
 audio: multiline-range-tech.mp3
 learning_priority: 3
 tags:

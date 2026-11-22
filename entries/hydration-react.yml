@@ -1,6 +1,7 @@
 id: hydration-react
 language: en
 word: "hydration"
+pronunciation: "/haɪˈdɹeɪʃən/"
 part_of_speech: noun
 meaning: "水合，让客户端 React 接管已有服务端 HTML 并使界面可交互"
 example: "Hydration connects the React tree to the existing server-rendered HTML."
@@ -22,6 +23,8 @@ notes: |-
   hydrateRoot 将客户端 React 树接入已有 HTML。首次客户端输出应与服务器 HTML 对应。
 
   Source: React docs — hydrateRoot. https://react.dev/reference/react-dom/client/hydrateRoot
+
+  Pronunciation source: Wiktionary — hydration (English pronunciation). https://en.wiktionary.org/wiki/hydration (accent: US; accessed 2026-11-22).
 learning_priority: 3
 prerequisites:
   - server-rendering-react

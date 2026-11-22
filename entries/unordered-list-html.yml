@@ -11,6 +11,9 @@ code_example: |-
   </ul>
 notes: |-
   Source: MDN — Structuring content with HTML. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content
+word_formation: "un- + ordered 构成 unordered。这里指条目的先后对列表含义无关紧要，例如一组支持的文件格式。"
+related_entries:
+  - ordered-list-html
 learning_priority: 1
 prerequisites:
   - element-html

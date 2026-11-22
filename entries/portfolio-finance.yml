@@ -10,6 +10,11 @@ notes: |-
   Source: 用户提供的 Moomoo 界面截图，2026-11-06，S6；原标签: % Portfolio。
   Reference: Investment Company Institute — ETF Basics and Structure: FAQs. https://www.ici.org/faqs/faqs_etfs
   Pronunciation source: Collins Dictionary — portfolio; portfolio in American English. https://www.collinsdictionary.com/dictionary/english/portfolio (accent: US; accessed 2026-11-18).
+
+  Memory-aid source: Online Etymology Dictionary — portfolio. https://www.etymonline.com/word/portfolio
+etymology: "portfolio 借自意大利语 portafoglio，原指携带散页的文件夹。portare 是“携带”，foglio 是“纸页”。可以用一只夹子收纳多页的画面记住现代投资组合中的“一组资产”。"
+related_entries:
+  - position-finance
 learning_priority: 2
 prerequisites:
   - asset-finance

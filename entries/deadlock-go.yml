@@ -1,6 +1,7 @@
 id: deadlock-go
 language: en
 word: "deadlock"
+pronunciation: "/ˈdɛdˌlɑk/"
 part_of_speech: noun
 meaning: "死锁，相关执行单元一直等待而无法继续"
 example: "Two workers taking locks in opposite orders can cause a deadlock."
@@ -13,6 +14,8 @@ code_example: |-
   }
 notes: |-
   Source: The Go Memory Model. https://go.dev/ref/mem
+
+  Pronunciation source: Collins Dictionary — deadlock; American English. https://www.collinsdictionary.com/dictionary/english/deadlock (accent: US; accessed 2026-11-22).
 learning_priority: 3
 prerequisites:
   - goroutine-go

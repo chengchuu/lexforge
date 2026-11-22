@@ -1,6 +1,7 @@
 id: breadcrumb-bootstrap
 language: en
 word: "breadcrumb"
+pronunciation: "/ˈbredˌkrʌm/"
 part_of_speech: noun
 meaning: "面包屑导航，显示当前页面所在层级路径的导航组件"
 example: "The breadcrumb links back to the parent category."
@@ -13,6 +14,8 @@ code_example: |-
   </nav>
 notes: |-
   Source: Bootstrap 5.3 documentation — breadcrumb. https://getbootstrap.com/docs/5.3/components/breadcrumb/
+
+  Pronunciation source: Collins Dictionary — breadcrumb; American English. https://www.collinsdictionary.com/dictionary/english/breadcrumb (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - bootstrap-framework

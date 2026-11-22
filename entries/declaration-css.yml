@@ -1,6 +1,7 @@
 id: declaration-css
 language: en
 word: "declaration"
+pronunciation: "/ˌdɛkləˈreɪʃən/"
 part_of_speech: noun
 meaning: "声明，给某个 CSS 属性指定一个值"
 example: "The declaration sets the text color to blue."
@@ -12,6 +13,8 @@ code_example: |-
   <p class="sample">Sample</p>
 notes: |-
   Source: MDN — CSS styling basics. https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Styling_basics
+
+  Pronunciation source: Collins Dictionary — declaration; American English. https://www.collinsdictionary.com/dictionary/english/declaration (accent: US; accessed 2026-11-22).
 learning_priority: 1
 prerequisites:
   - property-css

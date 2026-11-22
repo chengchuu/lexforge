@@ -1,12 +1,15 @@
 id: "orchestration-ai"
 language: "en"
 word: "orchestration"
+pronunciation: "/ˌɔːr.kəˈstreɪ.ʃən/"
 part_of_speech: "noun"
 meaning: "协调执行；安排工具、智能体或步骤的执行顺序与结果流转。"
 example: "The harness handles orchestration across tools and agents."
 notes: |-
   这里学习技术中的协调义，不是音乐配器。协调可以是顺序执行，也可以涉及并行；不能因出现 orchestration 就推定系统使用了多个智能体。
   Reference: Claude Code — How Claude Code works. https://code.claude.com/docs/en/how-claude-code-works (accessed 2026-11-19).
+
+  Pronunciation source: Cambridge Dictionary — orchestration (English pronunciation). https://dictionary.cambridge.org/us/pronunciation/english/orchestration (accent: US; accessed 2026-11-22).
 learning_priority: 3
 prerequisites:
   - delegation-workflow

@@ -17,6 +17,7 @@ code_example: |-
   }
 notes: |-
   Source: React docs — Render and Commit. https://react.dev/learn/render-and-commit
+word_formation: "re-（再次）+ render（渲染）。re-render 是再次运行渲染以计算界面输出。"
 learning_priority: 1
 prerequisites:
   - render-react

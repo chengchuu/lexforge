@@ -8,6 +8,7 @@ notes: |
   携带 ETag 对应的 If-None-Match，或使用 Last-Modified 对应的 If-Modified-Since。资源未变时可收到 304 并复用缓存正文；变化时通常返回新响应。验证需要通信，与直接复用新鲜缓存不同。
 
   Source: Interviews/AprilSkill.md. Verified reference: MDN: HTTP caching: https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching
+word_formation: "cache（缓存）+ revalidation（再次验证）。把 re- 读成“再”，就能认出整个短语是在重新确认缓存能否继续使用。"
 learning_priority: 2
 prerequisites:
   - http-caching-web

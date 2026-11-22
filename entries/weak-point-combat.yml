@@ -1,10 +1,14 @@
 id: weak-point-combat
 language: en
 word: weak point
+pronunciation: "UK /wiːk pɔɪnt/"
 part_of_speech: noun
 meaning: 弱点；容易受到攻击的部位
 example: Aim for the weak point when it is exposed.
-notes: 'Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.'
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  Pronunciation source: Collins Dictionary — weak point (British English). https://www.collinsdictionary.com/dictionary/english/weak-point (accent: UK; accessed 2026-11-22).
 learning_priority: 2
 audio: weak-point-combat.mp3
 tags:

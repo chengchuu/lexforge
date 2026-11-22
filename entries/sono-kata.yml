@@ -6,6 +6,9 @@ part_of_speech: phrase
 meaning: "那位；那个人（礼貌）"
 context: "礼貌地指称前文提到的那个人。"
 example: "その方のお名前を教えてください。"
+mnemonic: "用法助记：刚听对方提到某人时，用 その方 接着指那位。双方都能认出远处或共同想起的人时，可用 あの方；普通说法可用 あの人。"
+related_entries:
+  - ano-kata
 audio: sono-kata.mp3
 learning_priority: 1
 prerequisites:

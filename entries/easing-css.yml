@@ -1,6 +1,7 @@
 id: easing-css
 language: en
 word: "easing"
+pronunciation: "UK /ˈiːzɪŋ/"
 part_of_speech: noun
 meaning: "缓动，控制动画或过渡的变化速度如何随时间改变"
 example: "Use easing to slow the motion near the end."
@@ -13,6 +14,8 @@ code_example: |-
   <button class="sample">Preview</button>
 notes: |-
   Source: MDN — CSS reference. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+  Pronunciation source: Collins Dictionary — easing (British English). https://www.collinsdictionary.com/dictionary/english/easing (accent: UK; accessed 2026-11-22).
 learning_priority: 3
 prerequisites:
   - transition-css

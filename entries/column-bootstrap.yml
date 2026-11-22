@@ -1,6 +1,7 @@
 id: column-bootstrap
 language: en
 word: "column"
+pronunciation: "/ˈkɑləm/"
 part_of_speech: noun
 meaning: "列，位于栅格行内并可占据若干栅格单位的布局项"
 example: "The column spans six grid units at the md breakpoint."
@@ -13,6 +14,8 @@ code_example: |-
   </div>
 notes: |-
   Source: Bootstrap 5.3 documentation — grid. https://getbootstrap.com/docs/5.3/layout/grid/
+
+  Pronunciation source: Collins Dictionary — column; American English. https://www.collinsdictionary.com/dictionary/english/column (accent: US; accessed 2026-11-22).
 learning_priority: 1
 prerequisites:
   - row-bootstrap

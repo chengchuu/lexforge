@@ -6,6 +6,7 @@ part_of_speech: phrase
 meaning: "好奇心旺盛的小猫"
 context: "用「旺盛な」修饰子猫，描述它对周围事物兴趣很大。"
 example: "好奇心旺盛な子猫が箱の中をのぞいています。"
+word_formation: "好奇心旺盛な 修饰后面的 子猫。读到 な 时先向后找被修饰的名词，整句这里是“好奇心旺盛的小猫”。"
 audio: koukishin-ousei-na-koneko.mp3
 learning_priority: 3
 prerequisites:

@@ -13,6 +13,8 @@ notes: |-
 
   Source: Docker Docs — Docker overview. https://docs.docker.com/get-started/docker-overview/
   Pronunciation source: Cambridge Dictionary — image. https://dictionary.cambridge.org/dictionary/english/image (US, accessed 2026-11-20).
+related_entries:
+  - container-docker
 learning_priority: 1
 prerequisites:
   - docker-platform

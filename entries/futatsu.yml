@@ -7,6 +7,9 @@ meaning: "两个"
 context: "数两个事物的常用形式，不依赖具体物品类别。"
 example: "りんごを二つください。"
 notes: "学习来源: 《地獄少女》。"
+mnemonic: "用法助记：点一个说 一つ，点两个说 二つ。结尾都是 つ，先用开头的 ひと 和 ふた 区分数量。"
+related_entries:
+  - hitotsu
 audio: futatsu.mp3
 learning_priority: 1
 tags:

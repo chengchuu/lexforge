@@ -9,6 +9,10 @@ notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: detach.
   Pronunciation source: Collins Dictionary — detach; detach in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/detach (accent: US; accessed 2026-11-18).
+word_formation: "三步记动作：attach 是装上，detach 是把已连接的部件拆开，reattach 是再装回去。"
+related_entries:
+  - attach-general
+  - reattach-general
 learning_priority: 1
 prerequisites:
   - attach-general

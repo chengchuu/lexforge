@@ -1,6 +1,7 @@
 id: quicksave-game
 language: en
 word: quicksave
+pronunciation: "/ˈkwɪkˌseɪv/"
 part_of_speech: noun
 meaning: 快速存档；通过快捷操作保存的进度
 example: Make a quicksave before taking the next turn.
@@ -8,6 +9,11 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   通用游戏术语，也作动词。不同游戏是否提供此功能以及如何操作各不相同。
+
+  Pronunciation source: Wiktionary — quicksave (English pronunciation). https://en.wiktionary.org/w/index.php?title=quicksave&oldid=93717634 (accent: US; accessed 2026-11-22).
+mnemonic: "记忆画面：游戏界面上有三个标签。QUICK 提醒你用快捷操作，MANUAL 提醒你主动保存，AUTO 提醒你由系统触发。前两项描述的操作可以重叠。"
+related_entries:
+  - manual-save-game
 learning_priority: 2
 prerequisites:
   - save-game

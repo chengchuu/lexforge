@@ -1,6 +1,7 @@
 id: alert-bootstrap
 language: en
 word: "alert"
+pronunciation: "/əˈlɜrt/"
 part_of_speech: noun
 meaning: "提示框，用于在页面中显示操作结果或其他上下文反馈的组件"
 example: "Show an alert when the form cannot be saved."
@@ -8,6 +9,8 @@ code_example: |-
   <div class="alert alert-success">Your settings were saved.</div>
 notes: |-
   Source: Bootstrap 5.3 documentation — alerts. https://getbootstrap.com/docs/5.3/components/alerts/
+
+  Pronunciation source: Collins Dictionary — alert; American English. https://www.collinsdictionary.com/dictionary/english/alert (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - bootstrap-framework

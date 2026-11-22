@@ -1,6 +1,7 @@
 id: pagination-bootstrap
 language: en
 word: "pagination"
+pronunciation: "/ˌpædʒəˈneɪʃən/"
 part_of_speech: noun
 meaning: "分页，用于在多页内容之间导航的组件"
 example: "Add pagination below the results."
@@ -13,6 +14,8 @@ code_example: |-
   </nav>
 notes: |-
   Source: Bootstrap 5.3 documentation — pagination. https://getbootstrap.com/docs/5.3/components/pagination/
+
+  Pronunciation source: Collins Dictionary — pagination; American English. https://www.collinsdictionary.com/dictionary/english/pagination (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - bootstrap-framework

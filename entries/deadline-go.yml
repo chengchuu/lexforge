@@ -25,6 +25,7 @@ notes: |-
   Source: Go Concurrency Patterns: Context. https://go.dev/blog/context
 
   Pronunciation source: Cambridge Dictionary — deadline (US, accessed 2026-11-19). https://dictionary.cambridge.org/pronunciation/english/deadline
+mnemonic: "用法助记：看到 deadline，问“最迟几点结束”；看到 deadlock，问“谁在等谁”。一个关心时间界限，一个关心互相卡住的执行。"
 learning_priority: 2
 audio: deadline-go.mp3
 tags:

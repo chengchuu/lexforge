@@ -8,6 +8,11 @@ notes: |-
   这里指通用的缓存失效处理，不等同于 HTTP 缓存再验证。
 
   Source: /Users/mazey/Web/web/server/docs/PR/typescript/reports/typescript-thuoct29.md. Source form: cache invalidation.
+
+  Memory-aid source: MDN — HTTP caching. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching
+mnemonic: "记忆画面：缓存柜上有两张标签。失效时把旧结果标成“先别用”，再验证时拿着旧凭据问“还能用吗”。"
+related_entries:
+  - cache-revalidation-web
 learning_priority: 2
 prerequisites:
   - cache-tech

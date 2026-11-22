@@ -6,7 +6,11 @@ part_of_speech: verb
 meaning: "使失效"
 context: "在输入发生变化后，使旧缓存或已有判断不再可用。"
 example: "A configuration change invalidates the cached project result."
-notes: "Source: typescript/typescript-64936.md. Related form: invalidation."
+notes: |-
+  Source: typescript/typescript-64936.md.
+
+  Memory-aid source: Merriam-Webster.com Dictionary — invalidate. https://www.merriam-webster.com/dictionary/invalidate
+word_formation: "invalidate 表示使失效，invalidation 是对应的名词。把 -ate 换成 -ation，动作就变成过程或结果的名称。"
 audio: invalidate-tech.mp3
 learning_priority: 2
 tags:

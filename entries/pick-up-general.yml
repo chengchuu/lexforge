@@ -1,12 +1,15 @@
 id: "pick-up-general"
 language: "en"
 word: "pick up"
+pronunciation: "UK /pɪk ˈʌp/"
 part_of_speech: "verb"
 meaning: "捡起"
 example: "Pick up the weapon near the gate."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: pick up.
+
+  Pronunciation source: Oxford University Press — English File Pre-intermediate Wordlist, File 11. https://yabancidiller.medeniyet.edu.tr/documents/yabancidiller/2021-2022%20AKADEM%C4%B0K%20YIL/%C3%96%C4%9ERET%C4%B0M%20YILI%20%C4%B0NG%C4%B0L%C4%B0ZCE%20HAZIRLIK%20PROGRAMI/word_list_english-file-pre-intermediate.pdf (accent: UK; accessed 2026-11-22).
 learning_priority: 1
 audio: pick-up-general.mp3
 tags:

@@ -8,6 +8,8 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0011.json; key: Energy_Material_01_Name; version: 1.2.1.
+related_entries:
+  - energy-well-zelda
 learning_priority: 3
 prerequisites:
   - crystallized-general

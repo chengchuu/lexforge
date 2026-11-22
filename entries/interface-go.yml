@@ -1,6 +1,7 @@
 id: interface-go
 language: en
 word: "interface"
+pronunciation: "/ˈɪntərˌfeɪs/"
 part_of_speech: keyword
 meaning: "接口，通过类型集规定哪些类型符合要求，常用一组方法描述行为"
 example: "The interface requires a Read method."
@@ -22,6 +23,8 @@ code_example: |-
   }
 notes: |-
   Source: Go specification — Interface types. https://go.dev/ref/spec#Interface_types
+
+  Pronunciation source: Collins Dictionary — interface; American English. https://www.collinsdictionary.com/dictionary/english/interface (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - method-set-go

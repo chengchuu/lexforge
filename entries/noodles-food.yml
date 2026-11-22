@@ -1,11 +1,15 @@
 id: noodles-food
 language: en
 word: "noodles"
+pronunciation: "UK /ˈnuːdlz/"
 part_of_speech: noun
 meaning: "面条"
 context: "通常用复数形式指一份面条或面条类主食。"
 example: "Would you like beef with noodles?"
-notes: "菜单搭配包括 beef noodles（牛肉面）和 chicken noodles（鸡肉面）；具体是否带汤取决于菜单。"
+notes: |-
+  菜单搭配包括 beef noodles（牛肉面）和 chicken noodles（鸡肉面）；具体是否带汤取决于菜单。
+
+  Pronunciation source: Cambridge Learner’s Dictionary — noodles. https://dictionary.cambridge.org/dictionary/learner-english/noodles (accent: UK; accessed 2026-11-22).
 audio: noodles-food.mp3
 learning_priority: 1
 tags:

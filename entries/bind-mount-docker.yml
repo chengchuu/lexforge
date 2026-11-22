@@ -17,6 +17,9 @@ notes: |-
   使用本机 Docker 环境。容器读取宿主机的临时目录，readonly 禁止容器通过此挂载写入该目录。
 
   Source: Docker Docs — Bind mounts. https://docs.docker.com/engine/storage/bind-mounts/
+mnemonic: "记忆画面：一根线从容器里连到宿主机上你指定的文件夹，这是 bind mount。另一根线连到由 Docker 管理的存储，这是 volume。"
+related_entries:
+  - volume-docker
 learning_priority: 2
 prerequisites:
   - host-docker

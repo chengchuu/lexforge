@@ -1,6 +1,7 @@
 id: nesting-html
 language: en
 word: "nesting"
+pronunciation: "UK /ˈnɛstɪŋ/"
 part_of_speech: noun
 meaning: "嵌套，把一个元素放在另一个元素内部形成层级结构"
 example: "Correct nesting keeps the emphasis inside the paragraph."
@@ -12,6 +13,8 @@ code_example: |-
   </ul>
 notes: |-
   Source: WHATWG HTML — Syntax. https://html.spec.whatwg.org/multipage/syntax.html
+
+  Pronunciation source: Collins Dictionary — nesting; British English. https://www.collinsdictionary.com/dictionary/english/nesting (accent: UK; accessed 2026-11-22).
 learning_priority: 1
 prerequisites:
   - element-html

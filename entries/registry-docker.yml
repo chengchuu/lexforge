@@ -12,6 +12,9 @@ notes: |-
 
   Source: Docker Docs — What is a registry?. https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-registry/
   Pronunciation source: Cambridge Dictionary — registry. https://dictionary.cambridge.org/dictionary/english/registry (US, accessed 2026-11-20).
+mnemonic: "记忆画面：一边放镜像供拉取，一边放源码和版本历史。前者对应当前 Docker registry 卡，后者对应 Git repository 卡。"
+related_entries:
+  - repository-git
 learning_priority: 2
 prerequisites:
   - image-docker

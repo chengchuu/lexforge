@@ -1,6 +1,7 @@
 id: generic-typescript
 language: en
 word: "generic"
+pronunciation: "/dʒəˈnɛrɪk/"
 part_of_speech: noun
 meaning: "泛型，使用类型参数描述可复用的函数或类型"
 example: "A generic function can preserve the type of its input."
@@ -13,6 +14,8 @@ notes: |-
   泛型在类型位置保留输入信息，例如同一个泛型可分别用于 bigint 和 symbol。类型名 bigint 和 symbol 使用小写。
 
   Source: TypeScript Handbook — Generics. https://www.typescriptlang.org/docs/handbook/2/generics.html
+
+  Pronunciation source: Collins Dictionary — generic; American English. https://www.collinsdictionary.com/dictionary/english/generic (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - type-tech

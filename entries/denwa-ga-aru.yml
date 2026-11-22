@@ -6,6 +6,9 @@ part_of_speech: phrase
 meaning: "有电话；接到电话"
 context: "表示有来电或接到电话，过去的来电常用「ありました」。"
 example: "病院から電話がありました。"
+word_formation: "電話（电话）+ が + ある（有）。说已经接到的电话时，可把 ある 换成礼貌过去式 ありました，如 病院から電話がありました。"
+related_entries:
+  - denwa
 audio: denwa-ga-aru.mp3
 learning_priority: 2
 prerequisites:

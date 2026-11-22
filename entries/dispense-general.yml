@@ -9,6 +9,9 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Pronunciation source: Cambridge Dictionary — dispense. https://dictionary.cambridge.org/us/dictionary/english/dispense (US, accessed 2026-11-20).
+word_formation: "装置执行 dispense（发放）的动作，执行这个动作的装置可以叫 dispenser。dispense → dispenser 的拼写是在末尾加 r。"
+related_entries:
+  - dispenser-engineering
 learning_priority: 1
 audio: dispense-general.mp3
 tags:

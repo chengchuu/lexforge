@@ -1,6 +1,7 @@
 id: "saute-cooking"
 language: "en"
 word: "sauté"
+pronunciation: "/sɔːˈteɪ/"
 part_of_speech: "verb"
 meaning: "用少量油快速翻炒或煎炒。"
 example: "Sauté the greens in a little oil."
@@ -11,6 +12,8 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: sautéed.
 
   Memory-aid source: Online Etymology Dictionary — saute. https://www.etymonline.com/word/saute
+
+  Pronunciation source: Cambridge Dictionary — sauté (English pronunciation). https://dictionary.cambridge.org/pronunciation/english/saute (accent: US; accessed 2026-11-22).
 etymology: "借自法语 sauté，是 sauter (跳) 的过去分词；词源中的跳与烹饪时颠动食物的动作有关。现代英语中可作快速煎炒这一动词使用。"
 learning_priority: 2
 audio: saute-cooking.mp3

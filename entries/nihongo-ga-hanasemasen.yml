@@ -6,6 +6,9 @@ part_of_speech: phrase
 meaning: "我不会说日语"
 context: "礼貌说明自己不能用日语交流。"
 example: "すみません、日本語が話せません。"
+word_formation: "日本語 + が + 話せません。話せません 是表示不能说的礼貌形式；日本語 是这里不会说的语言。"
+related_entries:
+  - hanasemasen
 audio: nihongo-ga-hanasemasen.mp3
 learning_priority: 2
 prerequisites:

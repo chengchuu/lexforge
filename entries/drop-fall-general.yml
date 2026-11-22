@@ -14,6 +14,10 @@ notes: |-
   I've lost the HDMI cable. 我找不到 HDMI 线了。
 
   Pronunciation source: Cambridge Dictionary — drop. https://dictionary.cambridge.org/us/dictionary/english/drop (US, accessed 2026-11-20).
+mnemonic: "用法助记：手滑掉了接头，用 drop 描述落下。主动丢下物品，用 drop 描述丢弃。说 the connection drops 时，drop 以连接为主语，意思是掉线。"
+related_entries:
+  - drop-connection
+  - drop-general
 learning_priority: 1
 prerequisites:
   - fall-general
