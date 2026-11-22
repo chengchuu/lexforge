@@ -10,7 +10,7 @@ The checkout contains 1,320 vocabulary entries. This plan proposes **66 distinct
 
 The Handbook pages below are reference documents. Rows in the candidate tables count selected learning targets, so overlapping coverage across pages counts once. The four user examples are included in the foundations. Specialized vocabulary already tagged `typescript`, such as *variance* and *global augmentation*, remains available as later study material outside this plan’s accounting.
 
-New entries use `language: en`, concise Chinese meanings, and `typescript` plus appropriate existing tags. Use the proposed stable ID as the new YAML filename stem. A dash in a prerequisite column means an empty list for planning purposes. Omit the field if no dependency is needed. Prerequisites that point to proposed new IDs require those entries to exist before validation. See the [entry schema](ENTRY_SCHEMA.md) and [maintenance prompt](MAINTENANCE_PROMPTS.md#collect-vocabulary-from-sources).
+New entries use `language: en`, concise Chinese meanings, and `typescript` plus appropriate existing tags. Use the proposed stable ID as the new YAML filename stem. A dash in a prerequisite column means an empty list for planning purposes. Omit the field if no dependency is needed. Prerequisites that point to proposed new IDs require those entries to exist before validation. See the [entry schema](ENTRY_SCHEMA.md) and [maintenance prompt](MAINTENANCE_PROMPTS.read.md#collect-vocabulary-from-sources).
 
 ## Source inventory
 

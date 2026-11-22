@@ -19,6 +19,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - configuration-tech
+audio: directive-nginx.mp3
 tags:
   - nginx
   - devops

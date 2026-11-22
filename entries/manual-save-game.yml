@@ -11,6 +11,7 @@ notes: |-
 learning_priority: 2
 prerequisites:
   - save-game
+audio: manual-save-game.mp3
 tags:
   - noun
   - game

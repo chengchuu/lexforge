@@ -13,6 +13,7 @@ learning_priority: 3
 prerequisites:
   - canada-country
   - alberta-province
+audio: acana-pet-food.mp3
 tags:
   - food
   - proper-noun

@@ -17,6 +17,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - configuration-tech
+audio: nginx-platform.mp3
 tags:
   - nginx
   - devops

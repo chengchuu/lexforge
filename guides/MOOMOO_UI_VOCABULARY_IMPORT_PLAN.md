@@ -38,49 +38,49 @@
 
 ### S1
 
-[Screenshot_20261106-173510.webp](/Users/mazey/Downloads/Screenshot_20261106-173510.webp) — 公司财报与预测。
+[Screenshot_20261106-173510.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173510.webp) — 公司财报与预测。
 
 本页辨认范围: Earnings、Financials、Revenue、Net Income、Estimate、Actual、YoY、EPS、EBIT、Shareholders、Dividends 等。
 
 ### S2
 
-[Screenshot_20261106-173312.webp](/Users/mazey/Downloads/Screenshot_20261106-173312.webp) — 加密资产市场。
+[Screenshot_20261106-173312.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173312.webp) — 加密资产市场。
 
 本页辨认范围: Crypto、Market Cap、Volume、Fear & Greed Index、Top Gainers、Top Losers、Turnover、Heat Map 等。
 
 ### S3
 
-[Screenshot_20261106-173302.webp](/Users/mazey/Downloads/Screenshot_20261106-173302.webp) — Discover 第二页。
+[Screenshot_20261106-173302.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173302.webp) — Discover 第二页。
 
 本页辨认范围: Smart Money、Buffett Holdings、1Y Return、Trade、Crypto。
 
 ### S4
 
-[Screenshot_20261106-173238.webp](/Users/mazey/Downloads/Screenshot_20261106-173238.webp) — Discover 第一页。
+[Screenshot_20261106-173238.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173238.webp) — Discover 第一页。
 
 本页辨认范围: Discover、Community、Wealth；其他基础导航单独记作排除项。
 
 ### S5
 
-[Screenshot_20261106-173228.webp](/Users/mazey/Downloads/Screenshot_20261106-173228.webp) — 期权报价与期权链。
+[Screenshot_20261106-173228.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173228.webp) — 期权报价与期权链。
 
 本页辨认范围: Options、Chain、Call、Put、Strike、Bid、Ask、Closing Price、Pre-Mkt、Futures、At Discount 等。
 
 ### S6
 
-[Screenshot_20261106-173207.webp](/Users/mazey/Downloads/Screenshot_20261106-173207.webp) — 账户资产明细。
+[Screenshot_20261106-173207.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173207.webp) — 账户资产明细。
 
 本页辨认范围: Net Assets、Market Value、Position P/L、Funds on Hold、Excess Liquidity、Withdrawable、Max Buying Power、Cash BP、Cash Sweep、APY、Interest、Portfolio、MV/QTY 等。
 
 ### S7
 
-[Screenshot_20261106-173158.webp](/Users/mazey/Downloads/Screenshot_20261106-173158.webp) — 账户列表。
+[Screenshot_20261106-173158.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173158.webp) — 账户列表。
 
 本页辨认范围: Accounts、Assets、Deposit、Cash Transfer、Exchange、Margin Account、Cash Account。
 
 ### S8
 
-[Screenshot_20261106-173147.webp](/Users/mazey/Downloads/Screenshot_20261106-173147.webp) — 自选列表。
+[Screenshot_20261106-173147.webp](/Users/mazey/Downloads/categories/screenshots/finance-and-investing/Screenshot_20261106-173147.webp) — 自选列表。
 
 本页辨认范围: Watchlists、Positions、Index、Short、Long、Price、% Chg；证券名称、代码与金额不作学习目标。
 
@@ -88,7 +88,7 @@
 
 ## 筛选与复用
 
-已读取 [AGENTS.md](../AGENTS.md)、[README.md](../README.md)、[Entry schema](ENTRY_SCHEMA.md)、[Learning order](LEARNING_ORDER.md) 和 [Maintenance prompts](MAINTENANCE_PROMPTS.md#collect-vocabulary-from-sources)，并核对现有解析器、17 列导出及双向关联实现。初始 Git 状态干净，现有集合为 **1,242 个词条: 999 个英语、243 个日语**。搜索使用整个集合的稳定 ID、Word、Meaning、Context 和 Notes，不以文件名代替身份，也不只做字符串匹配。
+已读取 [AGENTS.md](../AGENTS.md)、[README.md](../README.md)、[Entry schema](ENTRY_SCHEMA.md)、[Learning order](LEARNING_ORDER.md) 和 [Maintenance prompts](MAINTENANCE_PROMPTS.read.md#collect-vocabulary-from-sources)，并核对现有解析器、17 列导出及双向关联实现。初始 Git 状态干净，现有集合为 **1,242 个词条: 999 个英语、243 个日语**。搜索使用整个集合的稳定 ID、Word、Meaning、Context 和 Notes，不以文件名代替身份，也不只做字符串匹配。
 
 词库目前偏技术及游戏语境，没有覆盖本批主要金融义项。编程中的 call stack、return type、prototype chain 和 Symbol 不替代金融 call、return、option chain 和 symbol。`pending-tech` 的待处理/待完成核心义可以复用，保留原内容和录音。本批不提议重写已有词条。拟新增 symbol-market 与既有 symbol-javascript 同形但词义不同，预计产生一条合理的重复词警告；两者不合并。
 

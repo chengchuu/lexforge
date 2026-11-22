@@ -49,7 +49,7 @@
 - 所有表内最终来源均为实际访问的词典正文，不以搜索摘要代替。访问日为 2026-11-18；页面内容可能变化，分区名称用于再次定位，网页行号不作为永久引用。
 - 没有收听词典或现有 MP3，没有声称录音与所选 IPA 完全吻合。没有改写来源未提供的音素、弱读或连读。
 
-规范已更新至 [AGENTS.md](../AGENTS.md#pronunciation)、[字段指南](ENTRY_SCHEMA.md#pronunciation)及[维护提示词](MAINTENANCE_PROMPTS.md)。pronunciation 仍为可选的普通字符串，不新增口音字段、解析规则或主题脚本。原有未标口音的音标、第一批值和日语假名保持不变。
+规范已更新至 [AGENTS.md](../AGENTS.md#pronunciation)、[字段指南](ENTRY_SCHEMA.md#pronunciation)及[维护提示词](MAINTENANCE_PROMPTS.read.md)。pronunciation 仍为可选的普通字符串，不新增口音字段、解析规则或主题脚本。原有未标口音的音标、第一批值和日语假名保持不变。
 
 ## 具体音标提案
 

@@ -16,6 +16,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - try-files-nginx
+audio: internal-redirect-nginx.mp3
 tags:
   - nginx
   - devops

@@ -22,6 +22,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - server-block-nginx
+audio: listen-nginx.mp3
 tags:
   - nginx
   - devops

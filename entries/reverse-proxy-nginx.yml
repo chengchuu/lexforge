@@ -17,6 +17,7 @@ learning_priority: 2
 prerequisites:
   - backend-server-nginx
   - location-nginx
+audio: reverse-proxy-nginx.mp3
 tags:
   - nginx
   - devops

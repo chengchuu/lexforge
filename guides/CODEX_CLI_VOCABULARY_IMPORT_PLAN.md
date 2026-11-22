@@ -4,7 +4,7 @@
 
 目标是读懂常用操作、过程提示与结果状态。以英文词语为学习锚点，在 Notes 中解释真实使用场景。规划阶段仅创建本计划。用户随后明确批准全部 C/T/R 项目并要求实施，现已完成。本批不生成音频。
 
-内容与操作边界遵循 [AGENTS.md](../AGENTS.md)、[README.md](../README.md)、[字段指南](ENTRY_SCHEMA.md)、[学习顺序](LEARNING_ORDER.md)和[维护提示](MAINTENANCE_PROMPTS.md)。
+内容与操作边界遵循 [AGENTS.md](../AGENTS.md)、[README.md](../README.md)、[字段指南](ENTRY_SCHEMA.md)、[学习顺序](LEARNING_ORDER.md)和[维护提示](MAINTENANCE_PROMPTS.read.md)。
 
 ## 导航
 

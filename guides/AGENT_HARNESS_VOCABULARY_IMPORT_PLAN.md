@@ -6,7 +6,7 @@
 
 规划阶段只创建本计划。用户选择先整理跨工具通用词汇，不限定产品；随后明确回复 "approve all of them; implement it"，批准本批全部内容、复用更新与关联。以下表格保留规划基线，实际实施结果见文末。实施仅修改获批词条与本计划，并通过现有构建器更新导出；不生成音频，不更改实现、模板、依赖或配置，也不提交或操作 Anki。
 
-依据当前 [AGENTS.md](../AGENTS.md)、[README](../README.md)、[词条规范](ENTRY_SCHEMA.md)、[学习顺序](LEARNING_ORDER.md) 和 [维护提示](MAINTENANCE_PROMPTS.md) 编写。现有 Codex 批次见 [已实施计划](CODEX_CLI_VOCABULARY_IMPORT_PLAN.md)。
+依据当前 [AGENTS.md](../AGENTS.md)、[README](../README.md)、[词条规范](ENTRY_SCHEMA.md)、[学习顺序](LEARNING_ORDER.md) 和 [维护提示](MAINTENANCE_PROMPTS.read.md) 编写。现有 Codex 批次见 [已实施计划](CODEX_CLI_VOCABULARY_IMPORT_PLAN.md)。
 
 | 项目           | 当前基线或拟议范围                                                       |
 |:---------------|:-------------------------------------------------------------------------|

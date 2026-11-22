@@ -12,6 +12,7 @@ learning_priority: 3
 prerequisites:
   - hdmi-hardware
   - connector-hardware
+audio: hdmi-type-a-connector.mp3
 tags:
   - noun
   - hardware

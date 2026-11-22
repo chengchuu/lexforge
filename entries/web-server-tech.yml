@@ -19,6 +19,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - nginx-platform
+audio: web-server-tech.mp3
 tags:
   - nginx
   - devops

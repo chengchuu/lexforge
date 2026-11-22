@@ -14,6 +14,7 @@ learning_priority: 2
 prerequisites:
   - host-docker
   - port-networking
+audio: port-publishing-docker.mp3
 tags:
   - docker
   - devops

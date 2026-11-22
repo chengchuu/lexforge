@@ -15,6 +15,7 @@ notes: |-
 learning_priority: 1
 prerequisites:
   - image-docker
+audio: container-docker.mp3
 tags:
   - docker
   - devops

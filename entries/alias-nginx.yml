@@ -18,6 +18,7 @@ notes: |-
 learning_priority: 2
 prerequisites:
   - root-nginx
+audio: alias-nginx.mp3
 tags:
   - nginx
   - devops

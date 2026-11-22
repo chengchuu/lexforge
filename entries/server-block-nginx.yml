@@ -23,6 +23,7 @@ learning_priority: 1
 prerequisites:
   - web-server-tech
   - directive-nginx
+audio: server-block-nginx.mp3
 tags:
   - nginx
   - devops

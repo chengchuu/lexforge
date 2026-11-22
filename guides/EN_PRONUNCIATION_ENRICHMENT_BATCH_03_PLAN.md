@@ -42,7 +42,7 @@
 
 ## 来源与口音
 
-遵循 [AGENTS.md](../AGENTS.md#pronunciation)、[字段指南](ENTRY_SCHEMA.md#pronunciation)和[维护提示词](MAINTENANCE_PROMPTS.md)。优先美式；可靠美式证据暂不可得时可接受英式，但须明确标注和说明原因。本批所有值均标为 US，不混入英式音素或另一词典的转写。
+遵循 [AGENTS.md](../AGENTS.md#pronunciation)、[字段指南](ENTRY_SCHEMA.md#pronunciation)和[维护提示词](MAINTENANCE_PROMPTS.read.md)。优先美式；可靠美式证据暂不可得时可接受英式，但须明确标注和说明原因。本批所有值均标为 US，不混入英式音素或另一词典的转写。
 
 30 项最终证据均来自实际打开并阅读的 Collins Dictionary 对应词条的 American English 分区，署名为 Webster’s New World College Dictionary, 5th Digital Edition。每个目标在下表都有具体 URL，完整 Notes 行另列访问日 2026-11-18 和口音。没有使用搜索摘要、拼写推断、汉语谐音或合成录音反推 IPA。
 

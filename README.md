@@ -36,7 +36,7 @@ Use the [Add vocabulary during work guide](guides/ADD_VOCABULARY_DURING_WORK.md)
 
 ### Maintenance prompts
 
-Use the [Maintenance prompts guide](guides/MAINTENANCE_PROMPTS.md) to add vocabulary, collect learning targets from sources, generate missing audio, and plan memory-aid enrichment.
+Use the [Maintenance prompts guide](guides/MAINTENANCE_PROMPTS.read.md) to add vocabulary, collect learning targets from sources, generate missing audio, and plan memory-aid enrichment.
 
 ### Entry schema
 

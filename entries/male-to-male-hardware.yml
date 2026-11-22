@@ -8,6 +8,7 @@ notes: 'Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.'
 learning_priority: 2
 prerequisites:
   - connector-hardware
+audio: male-to-male-hardware.mp3
 tags:
   - adjective
   - hardware

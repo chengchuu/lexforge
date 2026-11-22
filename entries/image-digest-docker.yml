@@ -17,6 +17,7 @@ notes: |-
 learning_priority: 3
 prerequisites:
   - image-tag-docker
+audio: image-digest-docker.mp3
 tags:
   - docker
   - devops

@@ -21,6 +21,7 @@ learning_priority: 2
 prerequisites:
   - host-docker
   - mount-point-docker
+audio: bind-mount-docker.mp3
 tags:
   - docker
   - devops

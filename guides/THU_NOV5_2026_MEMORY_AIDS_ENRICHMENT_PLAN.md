@@ -58,7 +58,7 @@ Baseline SHA-256 fingerprints (for comparison, not a replacement for the impleme
 | Entry path + NUL + file SHA-256 + newline, sorted | `0ac694012524df7cce4faaf5ac2e4051899360faec2ad09df41641ab71866c99` |
 | MP3 path + NUL + file SHA-256 + newline, sorted   | `9801d51422b446d22a11d9f8c75c9035e64b48330605cebb7015e54470f8e682` |
 
-Read: [AGENTS.md](../AGENTS.md), [README.md](../README.md), [Entry schema](ENTRY_SCHEMA.md), [Learning order](LEARNING_ORDER.md), and the [maintenance workflow](MAINTENANCE_PROMPTS.md). Inspected [parsing](../internal/vocabulary/entries.go), [export](../internal/vocabulary/export.go), [associations](../internal/vocabulary/related.go), and the README back template. Historical completed import/enrichment records are background only, not execution instructions.
+Read: [AGENTS.md](../AGENTS.md), [README.md](../README.md), [Entry schema](ENTRY_SCHEMA.md), [Learning order](LEARNING_ORDER.md), and the [maintenance workflow](MAINTENANCE_PROMPTS.read.md). Inspected [parsing](../internal/vocabulary/entries.go), [export](../internal/vocabulary/export.go), [associations](../internal/vocabulary/related.go), and the README back template. Historical completed import/enrichment records are background only, not execution instructions.
 
 The implemented fields are `etymology`, `word_formation`, `mnemonic`, and `related_entries`. `RelatedWords` is derived. The exporter emits 16 note fields and the tags column (17 total), escapes source text, and turns newlines into `<br>`; it does not render Markdown. Existing conditions hide absent aids, Context, Example/TTS, RelatedWords, and Notes. No template edits are proposed. Associations display both direct neighbors, with language tags for cross-language neighbors, and do not change StudyOrder.
 

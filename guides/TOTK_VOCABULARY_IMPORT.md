@@ -8,8 +8,8 @@
 
 ## Sources and evidence
 
-- [Task source](/Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge.md)。执行时附件与该文件的相同段落已按行对照；词条记录此持久源路径。
-- [Background inventory](/Users/mazey/Web/web/server/docs/Prompt/20261104-lexforge-background.md)。表中的一般英语词义与游戏译名分开处理，不将背景说明自动视为官方机制。
+- [Task source](/Users/mazey/Web/web/server/docs/Prompt/lexforge/20261104-lexforge.md)。执行时附件与该文件的相同段落已按行对照；词条记录此持久源路径。
+- [Background inventory](/Users/mazey/Web/web/server/docs/Prompt/lexforge/20261104-lexforge-background.md)。表中的一般英语词义与游戏译名分开处理，不将背景说明自动视为官方机制。
 - [Nintendo official game page](https://www.nintendo.com/en-gb/Games/Nintendo-Switch-games/The-Legend-of-Zelda-Tears-of-the-Kingdom-1576884.html)。用于交叉核对主要人物、区域及 Ultrahand、Fuse、Ascend、Recall 等能力。
 - [Paired game-text snapshot](https://github.com/sh0wer1ee/TotkText/tree/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119)。第三方整理的 1.2.1 版文本；已固定提交，按同一文本键对照 USen 与 CNzh。并非 Nintendo 官方发布的文本资料，也不代表所有游戏版本。相关词条 Notes 保留文件 URL、文本键和版本。仅采用名称及自写说明，不复制整段游戏描述。
 
