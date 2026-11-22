@@ -1,6 +1,7 @@
 id: nginx-platform
 language: en
 word: "NGINX"
+pronunciation: "/ˈɛndʒɪn ˈɛks/"
 part_of_speech: proper noun
 meaning: "用于提供 HTTP 内容、转发请求和分配流量的服务器软件。"
 example: "NGINX serves the site and forwards API requests to a backend."
@@ -14,6 +15,8 @@ notes: |-
 
   Lab: guides/NGINX_LOCATION_LAB.md.
   Source: NGINX documentation — NGINX overview. https://nginx.org/en/
+
+  Pronunciation source: xAI API Documentation — Text to Speech, Pronunciation Replacements (nginx). https://docs.x.ai/developers/model-capabilities/audio/text-to-speech#pronunciation-replacements (accent: US; accessed 2026-11-22).
 learning_priority: 1
 prerequisites:
   - configuration-tech

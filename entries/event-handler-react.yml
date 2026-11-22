@@ -1,6 +1,7 @@
 id: event-handler-react
 language: en
 word: "event handler"
+pronunciation: "UK /ɪˈvent ˌhændlə/"
 part_of_speech: noun phrase
 meaning: "事件处理函数，在相应事件发生时运行的函数"
 example: "The event handler runs when the user clicks the button."
@@ -16,6 +17,8 @@ code_example: |-
   }
 notes: |-
   Source: React docs — Quick Start. https://react.dev/learn
+
+  Pronunciation source: S. M. H. Collin — Dictionary of Computing, 5th ed., p. 128 (event handler). https://image.slidesharecdn.com/dictionaryofcomputing-120601123423-phpapp02/75/Dictionary-of-computing-135-2048.jpg (accent: UK; accessed 2026-11-22).
 learning_priority: 1
 prerequisites:
   - function-tech

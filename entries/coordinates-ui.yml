@@ -1,12 +1,15 @@
 id: "coordinates-ui"
 language: "en"
 word: "coordinates"
+pronunciation: "UK /kəʊˈɔːdɪnəts/"
 part_of_speech: "noun"
 meaning: "坐标"
 example: "Read the coordinates on the map."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: Coordinates.
+
+  Pronunciation source: S. M. H. Collin — Dictionary of Computing, 5th ed., p. 83 (coordinates). https://image.slidesharecdn.com/dictionaryofcomputing-120601123423-phpapp02/75/Dictionary-of-computing-90-2048.jpg (accent: UK; accessed 2026-11-22).
 learning_priority: 1
 audio: coordinates-ui.mp3
 tags:

@@ -1,6 +1,7 @@
 id: auto-save-game
 language: en
 word: auto-save
+pronunciation: "/ˈɔtoʊˌseɪv/"
 part_of_speech: noun
 meaning: 自动存档；系统自动保存的进度
 example: The auto-save loaded from just before the battle.
@@ -8,6 +9,8 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   通用游戏术语。也写作 autosave。
+
+  Pronunciation source: Wiktionary — autosave (English, alternative form auto-save). https://en.wiktionary.org/w/index.php?title=autosave&oldid=93143670 (accent: US; accessed 2026-11-22).
 learning_priority: 2
 prerequisites:
   - save-game

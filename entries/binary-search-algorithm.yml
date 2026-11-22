@@ -1,13 +1,16 @@
 id: binary-search-algorithm
 language: en
 word: "binary search"
+pronunciation: "UK /ˈbaɪnəri sɜːtʃ/"
 part_of_speech: noun phrase
 meaning: "二分查找；在有序区间中比较中点并排除一半候选。"
 example: "Binary search halves the remaining interval at each step."
-notes: |
+notes: |-
   采用闭区间 [left, right] 时，目标小于中点则 right = mid - 1，大于中点则 left = mid + 1。left > right 时停止。每轮严格缩小区间，时间复杂度为 O(log n)。重复值的首末位置需要单独定义返回规则，空数组也应正常结束。
 
   Source: Interviews/AprilSkill.md. Verified reference: NIST DADS: binary search: https://xlinux.nist.gov/dads/HTML/binarySearch.html
+
+  Pronunciation source: S. M. H. Collin — Dictionary of Computing, 5th ed., p. 38 (binary search). https://image.slidesharecdn.com/dictionaryofcomputing-120601123423-phpapp02/75/Dictionary-of-computing-45-2048.jpg (accent: UK; accessed 2026-11-22).
 learning_priority: 2
 audio: binary-search-algorithm.mp3
 tags:
