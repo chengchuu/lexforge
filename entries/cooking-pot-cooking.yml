@@ -6,12 +6,15 @@ meaning: "烹饪锅"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: cooking pot.
+
+  配图来源：sportskeeda.com《王国之泪》用例，图为游戏中的烹饪锅。https://www.sportskeeda.com/esports/best-recipes-increase-link-s-attack-the-legend-zelda-tears-kingdom
 word_formation: "cooking (烹饪) 修饰 pot (锅)，整体表示烹饪用锅。"
 learning_priority: 2
 prerequisites:
   - "cook-cooking"
   - "pot-general"
 audio: cooking-pot-cooking.mp3
+image: cooking-pot-cooking.jpg
 tags:
   - "game"
   - "zelda-totk"

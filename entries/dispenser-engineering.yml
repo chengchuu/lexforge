@@ -11,12 +11,15 @@ notes: |-
   Memory-aid source: Merriam-Webster.com Dictionary — dispenser. https://www.merriam-webster.com/dictionary/dispenser
   Memory-aid source: Merriam-Webster.com Dictionary — -er. https://www.merriam-webster.com/dictionary/-er
   Pronunciation source: Collins Dictionary — dispenser; dispenser in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/dispenser (accent: US; accessed 2026-11-18).
+
+  配图来源：thenerdstash.com《王国之泪》截图，以按需出货的左纳乌装置制造机为例。https://thenerdstash.com/how-to-use-the-device-dispenser-in-zelda-tears-of-the-kingdom/
 word_formation: "dispense (分配、发放) + -er (执行者或装置)，去掉词尾 e 后构成 dispenser。"
 learning_priority: 1
 prerequisites:
   - "device-engineering"
   - "dispense-general"
 audio: dispenser-engineering.mp3
+image: dispenser-engineering.jpg
 tags:
   - "game"
   - "zelda-totk"

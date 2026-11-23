@@ -8,12 +8,15 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Raw Prime Meat.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0018.json; key: Item_Meat_02_Name; version: 1.2.1.
+
+  配图来源：Kiranico《王国之泪》物品图标。https://zelda.kiranico.com/totk/data/materials/Item_Meat_02
 learning_priority: 2
 prerequisites:
   - "raw-food"
   - "prime-food"
   - "meat-food"
 audio: raw-prime-meat-zelda.mp3
+image: raw-prime-meat-zelda.png
 tags:
   - "game"
   - "zelda-totk"

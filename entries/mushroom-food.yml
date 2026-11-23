@@ -6,8 +6,12 @@ part_of_speech: noun
 meaning: "蘑菇"
 context: "可食用的菌类，在菜名中也常放在其他名词前说明食材。"
 example: "The chicken comes with mushroom sauce."
-notes: "Pronunciation source: Collins Dictionary — mushroom; mushroom in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/mushroom (accent: US; accessed 2026-11-18)."
+notes: |-
+  Pronunciation source: Collins Dictionary — mushroom; mushroom in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/mushroom (accent: US; accessed 2026-11-18).
+
+  配图来源：Kiranico《王国之泪》游戏图鉴，以 Hylian Shroom 为例。https://zelda.kiranico.com/totk/data/materials/Item_Mushroom_E
 audio: mushroom-food.mp3
+image: mushroom-food.png
 learning_priority: 1
 tags:
   - noun

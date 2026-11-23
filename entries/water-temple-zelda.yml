@@ -8,11 +8,14 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Water Temple.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LocationMsg/Location/0008.json; key: LargeDungeonWater; version: 1.2.1.
+
+  配图来源：Gameranx《王国之泪》水之神殿截图。https://gameranx.com/features/id/466850/article/legend-of-zelda-tears-of-the-kingdom-water-temple-walkthrough-dungeon-guide/
 learning_priority: 2
 prerequisites:
   - "water-general"
   - "temple-architecture"
 audio: water-temple-zelda.mp3
+image: water-temple-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

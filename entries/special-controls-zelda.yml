@@ -8,8 +8,11 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Special Controls.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/SystemActionGuide_00/0000.json; key: T_Title_00; version: 1.2.1.
+
+  配图来源：zeldawiki.wiki《王国之泪》游戏画面。https://zeldawiki.wiki/wiki/Special_Controls
 learning_priority: 1
 audio: special-controls-zelda.mp3
+image: special-controls-zelda.png
 tags:
   - "game"
   - "zelda-totk"

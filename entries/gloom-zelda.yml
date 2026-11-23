@@ -12,8 +12,11 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: Miasma; version: 1.2.1.
   Pronunciation source: Collins Dictionary — Gloom; gloom in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/gloom (accent: US; accessed 2026-11-18; ordinary English noun pronunciation, not a verified game-voice transcription).
+
+  配图来源：nintendolife.com《王国之泪》游戏画面。https://www.nintendolife.com/guides/zelda-tears-of-the-kingdom-gloom-resistance-how-to-avoid-and-heal-gloom-damage
 learning_priority: 1
 audio: gloom-zelda.mp3
+image: gloom-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

@@ -8,8 +8,11 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Gleeok.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0002.json; key: Drake; version: 1.2.1.
+
+  配图来源：Kiranico《王国之泪》图鉴，图为 Flame Gleeok。https://zelda.kiranico.com/totk/data/enemies/Enemy_Drake_Fire
 learning_priority: 3
 audio: gleeok-zelda.mp3
+image: gleeok-zelda.png
 tags:
   - "game"
   - "zelda-totk"
