@@ -8,10 +8,13 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0020.json; key: LightBall_Small_Name; version: 1.2.1.
+
+  配图来源：Zelda Wiki 的普通种子模型图，Doge229 提取。https://zeldawiki.wiki/wiki/File%3ATotK_Brightbloom_Seed_Model.png
 learning_priority: 2
 prerequisites:
   - seed-general
 audio: brightbloom-seed-zelda.mp3
+image: brightbloom-seed-zelda.png
 tags:
   - noun
   - game

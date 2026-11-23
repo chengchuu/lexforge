@@ -5,6 +5,9 @@ import (
 	"bytes"
 	"errors"
 	"fmt"
+	"image"
+	_ "image/jpeg"
+	_ "image/png"
 	"io"
 	"os"
 	"path/filepath"
@@ -33,6 +36,7 @@ type Entry struct {
 	Mnemonic         string
 	RelatedEntries   []string
 	Audio            string
+	Image            string
 	Tags             []string
 	LearningPriority int
 	Prerequisites    []string
@@ -136,7 +140,7 @@ func parse(data []byte) (Entry, error) {
 		"id": &entry.ID, "language": &entry.Language, "word": &entry.Word, "pronunciation": &entry.Pronunciation,
 		"part_of_speech": &entry.PartOfSpeech, "meaning": &entry.Meaning,
 		"context": &entry.Context, "example": &entry.Example, "code_example": &entry.CodeExample, "notes": &entry.Notes,
-		"audio": &entry.Audio, "etymology": &entry.Etymology, "word_formation": &entry.WordFormation, "mnemonic": &entry.Mnemonic,
+		"audio": &entry.Audio, "image": &entry.Image, "etymology": &entry.Etymology, "word_formation": &entry.WordFormation, "mnemonic": &entry.Mnemonic,
 	}
 	seen := make(map[string]bool)
 	nodes := document.Content[0].Content
@@ -253,6 +257,42 @@ func validate(entry Entry, root string) error {
 		if !info.Mode().IsRegular() || info.Size() == 0 {
 			return fmt.Errorf("field %q: media/%s must be a nonempty regular file", "audio", entry.Audio)
 		}
+	}
+	if entry.Image != "" {
+		return validateImage(root, entry)
+	}
+	return nil
+}
+
+func validateImage(root string, entry Entry) error {
+	format := ""
+	switch entry.Image {
+	case entry.ID + ".jpg":
+		format = "jpeg"
+	case entry.ID + ".png":
+		format = "png"
+	default:
+		return fmt.Errorf("field %q: must be %q or %q, without a directory", "image", entry.ID+".jpg", entry.ID+".png")
+	}
+	path := filepath.Join(root, "media", entry.Image)
+	info, err := os.Lstat(path)
+	if err != nil {
+		return fmt.Errorf("field %q: cannot read media/%s: %w", "image", entry.Image, err)
+	}
+	if !info.Mode().IsRegular() || info.Size() == 0 {
+		return fmt.Errorf("field %q: media/%s must be a nonempty regular file", "image", entry.Image)
+	}
+	file, err := os.Open(path)
+	if err != nil {
+		return fmt.Errorf("field %q: cannot read media/%s: %w", "image", entry.Image, err)
+	}
+	defer file.Close()
+	config, detected, err := image.DecodeConfig(file)
+	if err != nil {
+		return fmt.Errorf("field %q: cannot read image header in media/%s: %w", "image", entry.Image, err)
+	}
+	if detected != format || config.Width <= 0 || config.Height <= 0 {
+		return fmt.Errorf("field %q: media/%s must contain a valid %s header", "image", entry.Image, format)
 	}
 	return nil
 }

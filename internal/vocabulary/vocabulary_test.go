@@ -4,6 +4,9 @@ import (
 	"bytes"
 	"encoding/csv"
 	"fmt"
+	"image"
+	"image/jpeg"
+	"image/png"
 	"os"
 	"path/filepath"
 	"reflect"
@@ -170,33 +173,76 @@ func TestAudio(t *testing.T) {
 	}
 }
 
+func TestImage(t *testing.T) {
+	pixel := image.NewRGBA(image.Rect(0, 0, 1, 1))
+	var jpg, pngImage bytes.Buffer
+	if err := jpeg.Encode(&jpg, pixel, nil); err != nil {
+		t.Fatal(err)
+	}
+	if err := png.Encode(&pngImage, pixel); err != nil {
+		t.Fatal(err)
+	}
+	for _, tc := range []struct {
+		name, field, data, wantError string
+		write                        bool
+	}{
+		{name: "jpeg", field: "idiomatic-tech.jpg", data: jpg.String(), write: true},
+		{name: "png", field: "idiomatic-tech.png", data: pngImage.String(), write: true},
+		{name: "missing", field: "idiomatic-tech.png", wantError: "cannot read media/idiomatic-tech.png"},
+		{name: "empty", field: "idiomatic-tech.png", write: true, wantError: "nonempty regular file"},
+		{name: "wrong format", field: "idiomatic-tech.jpg", data: pngImage.String(), write: true, wantError: "valid jpeg header"},
+		{name: "unreadable", field: "idiomatic-tech.png", data: "not an image", write: true, wantError: "cannot read image header"},
+		{name: "path", field: "../idiomatic-tech.jpg", wantError: "without a directory"},
+		{name: "wrong ID", field: "idiomatic.jpg", wantError: "without a directory"},
+	} {
+		t.Run(tc.name, func(t *testing.T) {
+			root := t.TempDir()
+			writeFile(t, root, "entries/idiomatic.yml", validEntry+"image: "+tc.field+"\n")
+			if tc.write {
+				writeFile(t, root, "media/"+tc.field, tc.data)
+			}
+			entries, _, err := Load(root)
+			if tc.wantError != "" {
+				if err == nil || !strings.Contains(err.Error(), tc.wantError) {
+					t.Fatalf("want %q, got %v", tc.wantError, err)
+				}
+				return
+			}
+			if err != nil || len(entries) != 1 || entries[0].Image != tc.field {
+				t.Fatalf("valid image reference: %v", err)
+			}
+		})
+	}
+}
+
 func TestExportEscapingAndMetadata(t *testing.T) {
 	code, err := parse([]byte(validEntry + "code_example: |2-\n    <tag> & \"quotes\"\n\n  \t[sound:example.mp3] [anki:tts]\n"))
 	if err != nil {
 		t.Fatal(err)
 	}
 	entries := []Entry{{
-		ID: "example-tech", Language: "en", Word: "example", Pronunciation: "/test/", PartOfSpeech: "noun",
+		ID: "example-tech", Language: "en", Word: "a \"quote\" [sound:literal.mp3]", Pronunciation: "/test/", PartOfSpeech: "noun",
 		Meaning: "示例", Context: "Use <div> & \"quotes\".\r\nNext\rLast",
 		Example: "one\ttwo", Notes: "Literal [sound:other.mp3]", Audio: "example-tech.mp3",
+		Image:       "example-tech.png",
 		CodeExample: code.CodeExample, Tags: []string{"tech", "programming"},
 	}}
 	data, err := render(entries)
 	if err != nil {
 		t.Fatal(err)
 	}
-	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:18\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tStudyOrder\tEtymology\tWordFormation\tMnemonic\tRelatedWords\tCodeExample\tTags\n"
+	headers := "#separator:Tab\n#html:true\n#notetype:LexForge\n#tags column:19\n#columns:ID\tLanguage\tWord\tPronunciation\tPartOfSpeech\tMeaning\tContext\tExample\tNotes\tAudio\tTTSLanguage\tStudyOrder\tEtymology\tWordFormation\tMnemonic\tRelatedWords\tCodeExample\tImage\tTags\n"
 	if !bytes.HasPrefix(data, []byte(headers)) {
 		t.Fatalf("wrong headers: %s", data)
 	}
 	reader := csv.NewReader(bytes.NewReader(data[len(headers):]))
 	reader.Comma = '\t'
-	reader.FieldsPerRecord = 18
+	reader.FieldsPerRecord = 19
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)
 	}
-	want := [][]string{{"example-tech", "en", "example", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "en_US", "1", "", "", "", "", "  &lt;tag&gt; &amp; &#34;quotes&#34;<br><br>\t&#91;sound:example.mp3] &#91;anki:tts]", "lang-en programming tech"}}
+	want := [][]string{{"example-tech", "en", "a &#34;quote&#34; &#91;sound:literal.mp3]", "/test/", "noun", "示例", "Use &lt;div&gt; &amp; &#34;quotes&#34;.<br>Next<br>Last", "one\ttwo", "Literal &#91;sound:other.mp3]", "[sound:example-tech.mp3]", "en_US", "1", "", "", "", "", "  &lt;tag&gt; &amp; &#34;quotes&#34;<br><br>\t&#91;sound:example.mp3] &#91;anki:tts]", `<img src="example-tech.png" alt="a &#34;quote&#34; &#91;sound:literal.mp3]">`, "lang-en programming tech"}}
 	if !reflect.DeepEqual(rows, want) {
 		t.Fatalf("want %#v, got %#v", want, rows)
 	}
@@ -272,12 +318,12 @@ func TestTTSLanguageExport(t *testing.T) {
 			lines := bytes.SplitN(readExport(t, root), []byte("\n"), 6)
 			reader := csv.NewReader(bytes.NewReader(lines[5]))
 			reader.Comma = '\t'
-			reader.FieldsPerRecord = 18
+			reader.FieldsPerRecord = 19
 			row, err := reader.Read()
 			if err != nil {
 				t.Fatal(err)
 			}
-			if row[0] != "idiomatic-tech" || row[10] != tc.want || row[16] != "" || row[17] != "lang-"+strings.ToLower(tc.tag) {
+			if row[0] != "idiomatic-tech" || row[10] != tc.want || row[16] != "" || row[17] != "" || row[18] != "lang-"+strings.ToLower(tc.tag) {
 				t.Fatalf("row: %v", row)
 			}
 			actual, err := os.ReadFile(filepath.Join(root, "entries/word.yml"))

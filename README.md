@@ -11,6 +11,7 @@ LexForge turns vocabulary and concepts encountered during work and learning into
   - [Example speech](#example-speech)
   - [Larger AnkiDroid answer buttons](#larger-ankidroid-answer-buttons)
   - [Import and update](#import-and-update)
+  - [Images](#images)
   - [Audio](#audio)
 - [Verify changes](#verify-changes)
 - [Project layout](#project-layout)
@@ -48,7 +49,7 @@ Use the [Learning order guide](guides/LEARNING_ORDER.md) to define introduction 
 
 ## Set up Anki once
 
-Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains seventeen note fields and Anki tags in column 18. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
+Use a current Anki Desktop release. These instructions require Anki 2.1.58 or later for the CSV importer and its match-scope setting. The export contains eighteen note fields and Anki tags in column 19. See the [Anki release notes](https://changes.ankiweb.net/changes/2.1.50-59.html#changes-in-2158) for the import changes.
 
 If you already have LexForge notes, use the [Anki migration guide](guides/ANKI_MIGRATION_GUIDE.md) to update the existing note type while preserving review history.
 
@@ -74,6 +75,7 @@ If you already have LexForge notes, use the [Anki migration guide](guides/ANKI_M
    | 15  | Mnemonic      |
    | 16  | RelatedWords  |
    | 17  | CodeExample   |
+   | 18  | Image         |
 
 3. Keep `ID` first. Select `StudyOrder` as the browser sort field. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID.
 4. In **Cards**, keep one forward card and replace its front, back, and styling with the templates below.
@@ -121,6 +123,7 @@ Back template:
 {{#Audio}}<div class="audio">{{Audio}}</div>{{/Audio}}
 </div>
 {{#PartOfSpeech}}<div class="part-of-speech">{{PartOfSpeech}}</div>{{/PartOfSpeech}}
+{{#Image}}<div class="entry-image">{{Image}}</div>{{/Image}}
 <div class="meaning">{{Meaning}}</div>
 {{#Context}}<div class="context">{{Context}}</div>{{/Context}}
 {{#Example}}<div class="example">{{Example}}
@@ -317,6 +320,20 @@ Styling:
   color: var(--color-muted);
 }
 
+.entry-image {
+  margin-top: 12px;
+}
+
+.entry-image img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 180px;
+  max-height: min(180px, 28vh);
+  object-fit: contain;
+}
+
 .meaning {
   margin-top: 20px;
   color: var(--color-heading);
@@ -372,7 +389,7 @@ Styling:
 
 The styling uses Anki's [night-mode class](https://docs.ankiweb.net/templates/styling.html#night-mode), also supported by AnkiDroid. Font sizes adapt to the viewport and stop growing at desktop widths.
 
-The front shows the word, with pronunciation and audio when available. The back adds part of speech, meaning, optional context, a prose example, a code example, memory aids, related entries, and notes. A populated `CodeExample` appears below the prose example and scrolls horizontally when a line is too long. Read Aloud uses only the prose example. Absent sections leave no labels, spacing, or replay controls. Japanese pronunciation uses kana.
+The front shows the word, with pronunciation and audio when available. The back adds part of speech, an optional image, meaning, optional context, a prose example, a code example, memory aids, related entries, and notes. A populated `CodeExample` appears below the prose example and scrolls horizontally when a line is too long. Read Aloud uses only the prose example. Absent sections leave no labels, spacing, or replay controls. Japanese pronunciation uses kana.
 
 Tags remain available for Anki searches and filtering, including derived language tags such as `lang-en`, but are hidden on cards. To hide tags on existing cards, replace **Back Template** in your installed note type and sync. No TSV reimport or audio regeneration is needed.
 
@@ -414,7 +431,7 @@ These are AnkiDroid controls outside the card content. Change their size in the 
 
 1. Build `dist/vocabulary.tsv`.
 2. In Anki Desktop, import the TSV and select the `LexForge` note type and your deck.
-3. Verify that the preview uses tabs and has HTML enabled. Map columns 1–17 to the matching fields by name, with `ID` first and `CodeExample` in column 17. Map column 18 to Anki tags. The export headers supply defaults. Check the mapping even if you use the recommended field order.
+3. Verify that the preview uses tabs and has HTML enabled. Map columns 1–18 to the matching fields by name. Keep `ID` first, map `CodeExample` to column 17 and `Image` to column 18, and map column 19 to Anki tags. The export headers supply defaults. Check the mapping even if you use the recommended field order.
 4. Choose to **update** existing notes. Use **note type** as the match scope, rather than note type and deck. Keep these settings for later imports.
 5. Import, inspect a card, and sync with AnkiWeb. Then sync AnkiDroid to review on mobile.
 
@@ -422,7 +439,21 @@ Anki matches the first field within the selected note type and preserves schedul
 
 Make vocabulary corrections in YAML. Reimporting can overwrite edits made only in Anki. Keep tags in YAML as well: importing the mapped tags column can replace tags added only in Anki. Removing a source entry excludes it from future exports; it does not delete the existing Anki note. Handle deletions explicitly in Anki.
 
-The exporter escapes plain text for HTML display and converts line breaks to `<br>`. Technical examples such as `<div>` display literally. Tabs are preserved in the TSV using quoting. Audio markup is generated only from the `audio` field.
+The exporter escapes plain text for HTML display and converts line breaks to `<br>`. Technical examples such as `<div>` display literally. Tabs are preserved in the TSV using quoting. The exporter generates media markup from the `audio` and `image` references.
+
+### Images
+
+Add one JPEG or PNG at `media/<id>.jpg` or `media/<id>.png`, then set the entry's `image` to the filename. Use the stable entry ID for the filename. Record the source in Notes, and label illustrative images there when they depict a mnemonic. Verify redistribution terms before adding third-party images to the repository or a shared deck.
+
+Use the Go image optimizer before importing large images. Pass a directory of `.jpg` and `.png` files and a new output directory whose parent already exists.
+
+```bash
+go run scripts/images/main.go path/to/images optimized-images
+```
+
+The optimizer reports dimensions and byte counts before and after processing. It copies images that are at most 200 pixels wide and 250 KiB. For larger images, it targets 150 KiB and preserves aspect ratio, format, and PNG transparency. It never enlarges an image and rejects results over 250 KiB. Rotate JPEGs with orientation metadata before resizing if needed. The optimizer preserves filenames and source files.
+
+Before importing the TSV, copy the referenced images directly into the Anki profile's `collection.media` folder. The TSV carries the image references. Run **Tools → Check Media** in Anki Desktop and sync media to AnkiDroid. On both clients, check that an image appears between part of speech and meaning and that a card without an image has no empty section. On AnkiDroid, confirm that the image is visible offline after media sync.
 
 ### Audio
 
@@ -488,7 +519,7 @@ go run scripts/build/main.go
 git diff --check
 ```
 
-Tests cover strict YAML validation, duplicate handling, deterministic ordering and output, escaping, audio references, and preservation of an existing export after validation fails.
+Tests cover strict YAML validation, duplicate handling, deterministic ordering and output, escaping, media references, and preservation of an existing export after validation fails.
 
 Before using a new note type with your main collection, check it in a separate Anki profile: import twice without increasing the note count, review a card, update its YAML example, rebuild, and reimport. Confirm that the example changes while note identity and scheduling remain intact. Check audio playback and AnkiDroid sync separately when you add media.
 
@@ -496,11 +527,12 @@ Before using a new note type with your main collection, check it in a separate A
 
 ```text
 entries/               Canonical vocabulary, one meaning per YAML file
-media/                 Optional pronunciation MP3 files
+media/                 Optional pronunciation MP3 files and entry images
 internal/vocabulary/   Shared validation and export logic, with tests
 scripts/validate/      Validation command
 scripts/build/         Build command
 scripts/audio/         Local macOS pronunciation command
+scripts/images/        Image optimization command
 dist/                  Generated Anki TSV; ignored by Git
 ```
 

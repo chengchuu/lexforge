@@ -68,7 +68,7 @@ func TestRelatedDisplay(t *testing.T) {
 	reader := csv.NewReader(bytes.NewReader(data))
 	reader.Comma = '\t'
 	reader.Comment = '#'
-	reader.FieldsPerRecord = 18
+	reader.FieldsPerRecord = 19
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)

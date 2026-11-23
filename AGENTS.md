@@ -163,15 +163,17 @@ lexforge/
 │   │   └── main.go
 │   ├── build/
 │   │   └── main.go
+│   ├── images/
+│   │   └── main.go
 │   └── validate/
 │       └── main.go
 └── dist/
     └── vocabulary.tsv
 ```
 
-Go 1.25 or later is required. Run commands from the repository root. Direct dependencies are `go.yaml.in/yaml/v3` for YAML and `golang.org/x/text` for language tags and Unicode handling; `go.mod` records their versions.
+Go 1.25 or later is required. Run commands from the repository root. Direct dependencies are `go.yaml.in/yaml/v3` for YAML, `golang.org/x/text` for language tags and Unicode handling, and `golang.org/x/image` for image resizing. See `go.mod` for their versions.
 
-The commands are thin entry points into `internal/vocabulary/`:
+The audio, build, and validation commands are thin entry points into `internal/vocabulary/`:
 
 - `entries.go`: strict YAML parsing, entry validation, duplicate warnings, and loading in stable-ID order.
 - `related.go`: association reference validation and deterministic bidirectional direct-neighbor displays.
@@ -181,7 +183,7 @@ The commands are thin entry points into `internal/vocabulary/`:
 - `speech.go`: language-matching voice selection and Japanese speech-input handling.
 - `*_test.go`: validation, learning order, associations, export, multilingual speech, and audio source-preservation and failure-path tests.
 
-`dist/` is generated and ignored by Git. Active recordings live in `media/`. The archive under `archives/airline-media/` is outside the build and audio lookup paths. Maintain card templates and CSS in the README. Add directories only when needed.
+`dist/` is generated and ignored by Git. Active recordings and card images live in `media/`. The archive under `archives/airline-media/` is outside the build and audio lookup paths. Maintain card templates and CSS in the README. Add directories only when needed.
 
 ---
 
@@ -205,6 +207,7 @@ word_formation
 mnemonic
 related_entries
 audio
+image
 learning_priority
 prerequisites
 tags
@@ -255,6 +258,7 @@ word_formation
 mnemonic
 related_entries
 audio
+image
 learning_priority
 prerequisites
 tags
@@ -618,7 +622,7 @@ Validation checks for:
 - empty required fields
 - invalid filenames
 - invalid tag format
-- missing referenced audio files
+- missing or invalid referenced media files
 - invalid language tags and unsupported fields
 - invalid learning priorities, prerequisite references, and dependency cycles
 - malformed, duplicate, missing, or self-referencing related-entry IDs; association cycles remain valid
@@ -696,10 +700,11 @@ WordFormation
 Mnemonic
 RelatedWords
 CodeExample
+Image
 Tags
 ```
 
-Keep the stable ID in the first column for import matching and use `StudyOrder` as the browser sort field. The export has seventeen note fields, ending with `CodeExample`, followed by Anki tags in column 18. The exporter derives `TTSLanguage`, `StudyOrder`, and `RelatedWords`.
+Keep the stable ID in the first column for import matching and use `StudyOrder` as the browser sort field. The export has eighteen note fields, ending with `Image` after `CodeExample`, followed by Anki tags in column 19. The exporter derives `TTSLanguage`, `StudyOrder`, and `RelatedWords`.
 
 The README recommends a note-field order, but fields after `ID` may be reordered if import columns map to the correct fields by name. Template field names determine presentation independently. Do not create a custom `Tags` field or map `ID` to Anki's internal GUID. Tags support searches and filtering and are currently hidden on card backs.
 
@@ -738,6 +743,12 @@ If a generated file is incorrect, fix:
 then regenerate it.
 
 ---
+
+## Images
+
+Use optional `image` with one local `media/<id>.jpg` or `media/<id>.png` file named for the stable ID. The validator checks that the image is a nonempty regular file and has a header matching the extension. Record provenance in Notes. The export stores full image markup in the `Image` field, and the back template conditionally renders it between PartOfSpeech and Meaning. See the [image import workflow](README.md#images).
+
+Run `go run scripts/images/main.go INPUT_DIRECTORY NEW_OUTPUT_DIRECTORY` to prepare images for mobile review. The command keeps files at most 200 pixels wide and 250 KiB and preserves input filenames and source files.
 
 ## Audio
 
@@ -1021,6 +1032,7 @@ word_formation
 mnemonic
 related_entries
 audio
+image
 learning_priority
 prerequisites
 tags

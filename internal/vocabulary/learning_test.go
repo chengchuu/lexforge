@@ -89,7 +89,7 @@ func TestStudyOrder(t *testing.T) {
 	first := readExport(t, root)
 	reader := csv.NewReader(bytes.NewReader(bytes.SplitN(first, []byte("\n"), 6)[5]))
 	reader.Comma = '\t'
-	reader.FieldsPerRecord = 18
+	reader.FieldsPerRecord = 19
 	rows, err := reader.ReadAll()
 	if err != nil {
 		t.Fatal(err)
