@@ -12,8 +12,11 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Recall.
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_ReverseRecorder_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — recall; recall in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/recall (accent: US; accessed 2026-11-18).
+
+  配图：AI 生成的原创助记图，用门口回想落在桌上的钥匙联想回忆。
 learning_priority: 2
 audio: recall-general.mp3
+image: recall-general.png
 tags:
   - "game"
   - "zelda-totk"

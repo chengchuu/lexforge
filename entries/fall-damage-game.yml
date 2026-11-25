@@ -4,11 +4,15 @@ word: fall damage
 part_of_speech: noun
 meaning: 坠落伤害
 example: Open the paraglider before you hit the ground to avoid fall damage.
-notes: 'Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.'
+notes: |-
+  Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
+
+  配图：AI 生成的原创助记图，用下坠和心形计数变化表示坠落后损失体力。
 learning_priority: 2
 prerequisites:
   - fall-general
 audio: fall-damage-game.mp3
+image: fall-damage-game.png
 tags:
   - noun
   - game

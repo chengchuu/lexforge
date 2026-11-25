@@ -9,8 +9,11 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Pronunciation source: Cambridge Dictionary — wiggle. https://dictionary.cambridge.org/us/dictionary/english/wiggle (US, accessed 2026-11-20).
+
+  配图：AI 生成的原创助记图。短箭头表示把摇杆小幅来回晃动。动作参考任天堂《王国之泪》冒险指南。https://www.nintendo.com/jp/zelda/totk/guide/en/index.html
 learning_priority: 2
 audio: wiggle-general.mp3
+image: wiggle-general.png
 tags:
   - verb
   - game

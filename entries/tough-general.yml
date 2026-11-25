@@ -11,8 +11,11 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: DefenseUp_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — tough; tough in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/tough (accent: US; accessed 2026-11-18).
+
+  配图：AI 生成的原创助记图，以能承受拉扯的厚皮革联想坚韧。
 learning_priority: 2
 audio: tough-general.mp3
+image: tough-general.png
 tags:
   - "game"
   - "zelda-totk"

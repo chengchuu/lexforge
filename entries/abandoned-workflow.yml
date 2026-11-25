@@ -6,8 +6,12 @@ part_of_speech: adjective
 meaning: "被遗弃的；无人继续处理的"
 context: "原任务似乎已经停止维护，但仍可能留下状态或资源。"
 example: "Inspect an apparently abandoned lock before removing it."
-notes: "Source: schedulers/daily-1am-issue-investigation.md."
+notes: |-
+  Source: schedulers/daily-1am-issue-investigation.md.
+
+  配图：AI 生成的原创助记图，用停在未处理环节的流程图联想已无人处理的工作流。
 audio: abandoned-workflow.mp3
+image: abandoned-workflow.png
 learning_priority: 1
 tags:
   - tech

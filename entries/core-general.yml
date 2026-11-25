@@ -9,8 +9,11 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Pronunciation source: Cambridge Dictionary — core. https://dictionary.cambridge.org/us/dictionary/english/core (US, accessed 2026-11-20).
+
+  配图：AI 生成的原创助记图，用装置剖面中的中心部件联想核心。
 learning_priority: 1
 audio: core-general.mp3
+image: core-general.png
 tags:
   - noun
   - combat

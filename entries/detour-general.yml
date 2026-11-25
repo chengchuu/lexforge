@@ -9,8 +9,11 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Pronunciation source: Cambridge Dictionary — detour. https://dictionary.cambridge.org/us/dictionary/english/detour (US, accessed 2026-11-20).
+
+  配图：AI 生成的原创助记图，展示原路线受阻后从旁边绕行再汇合。
 learning_priority: 2
 audio: detour-general.mp3
+image: detour-general.png
 tags:
   - noun
   - game
