@@ -11,6 +11,8 @@ notes: |-
   Pronunciation source: Cambridge Dictionary — descent. https://dictionary.cambridge.org/us/dictionary/english/descent (US, accessed 2026-11-20).
 
   Memory-aid source: Merriam-Webster.com Dictionary — descent. https://www.merriam-webster.com/dictionary/descent
+
+  配图来源：as.com《王国之泪》游戏画面，展示由高处向下的移动过程。https://as.com/meristation/guia_pagina/guia-the-legend-of-zelda-tears-of-the-kingdom-derrota-a-ganondorf-n/
 word_formation: "descend 是动词，descent 是表示下降动作或过程的名词。记住结尾的对应，descend 以 -d 结尾，descent 以 -t 结尾。"
 related_entries:
   - descend-general
@@ -18,6 +20,7 @@ learning_priority: 2
 prerequisites:
   - descend-general
 audio: descent-flight.mp3
+image: descent-flight.jpg
 tags:
   - noun
   - game

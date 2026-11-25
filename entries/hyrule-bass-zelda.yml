@@ -8,11 +8,14 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Hyrule Bass.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0017.json; key: Item_FishGet_A_Name; version: 1.2.1.
+
+  配图来源：Kiranico《王国之泪》材料图标。https://zelda.kiranico.com/totk/data/materials/Item_FishGet_A
 learning_priority: 2
 prerequisites:
   - "hyrule-zelda"
   - "bass-food"
 audio: hyrule-bass-zelda.mp3
+image: hyrule-bass-zelda.png
 tags:
   - "game"
   - "zelda-totk"

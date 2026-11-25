@@ -15,8 +15,11 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/CharaDirectory_00/0000.json; key: Race_Hyrule; version: 1.2.1.
   Hylian 也可作形容词，表示海利亚的；具体物品的中文名以游戏本地化为准，例如 Hylian Rice 对应海拉鲁米。
+
+  配图来源：nintendolife.com《王国之泪》游戏截图，以村庄中的海利亚居民为例。https://www.nintendolife.com/guides/zelda-tears-of-the-kingdom-how-to-complete-a-new-signature-food-side-adventure
 learning_priority: 2
 audio: hylian-zelda.mp3
+image: hylian-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

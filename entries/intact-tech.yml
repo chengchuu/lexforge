@@ -6,8 +6,12 @@ part_of_speech: adjective
 meaning: "完整的；未受破坏的"
 context: "经过修改或处理之后，内容或保障仍然保持原状。"
 example: "Existing assertions remain intact after the fix."
-notes: "Source: react/react-c-rust-compiler.md. Useful expression: remain intact."
+notes: |-
+  Source: react/react-c-rust-compiler.md. Useful expression: remain intact.
+
+  配图来源：jeuxvideo.com《王国之泪》游戏截图，以地底发现的完好武器为游戏例子。https://www.jeuxvideo.com/wikis-soluce-astuces/1750474/ou-trouver-les-armes-non-corrodees.htm
 audio: intact-tech.mp3
+image: intact-tech.jpg
 learning_priority: 1
 tags:
   - tech

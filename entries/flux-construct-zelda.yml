@@ -8,10 +8,13 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Flux Construct.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_DefeatHonor_04_Name; version: 1.2.1.
+
+  配图来源：Kiranico《王国之泪》图鉴，图为 Flux Construct I。https://zelda.kiranico.com/totk/data/enemies/Enemy_Zonau_BlockMaster_Junior
 learning_priority: 3
 prerequisites:
   - "construct-being-zelda"
 audio: flux-construct-zelda.mp3
+image: flux-construct-zelda.png
 tags:
   - "game"
   - "zelda-totk"

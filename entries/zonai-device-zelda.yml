@@ -10,11 +10,14 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Zonai Device.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0001.json; key: Gadget; version: 1.2.1.
+
+  配图来源：thenerdstash.com《王国之泪》截图，展示物品栏中的多种左纳乌装置。https://thenerdstash.com/can-you-sell-zonai-devices-in-zelda-tears-of-the-kingdom/
 learning_priority: 1
 prerequisites:
   - "zonai-zelda"
   - "device-engineering"
 audio: zonai-device-zelda.mp3
+image: zonai-device-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

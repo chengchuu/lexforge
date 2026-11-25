@@ -13,6 +13,8 @@ notes: |-
   Pronunciation source: Cambridge Dictionary — disassemble. https://dictionary.cambridge.org/us/dictionary/english/disassemble (US, accessed 2026-11-20).
 
   Memory-aid source: Merriam-Webster.com Dictionary — disassemble. https://www.merriam-webster.com/dictionary/disassemble
+
+  配图来源：vandal.elespanol.com《王国之泪》游戏截图，展示究极手拆开已组合部件的过程。https://vandal.elespanol.com/guias/guia-the-legend-of-zelda-tears-of-the-kingdom-trucos-consejos-y-secretos/separar-y-deshacer-combinaciones
 word_formation: "dis- + assemble。这里 dis- 表示逆转 assemble（组装）的动作。同一词族的名词 disassembly 表示拆卸。"
 related_entries:
   - decompose-general
@@ -20,6 +22,7 @@ learning_priority: 2
 prerequisites:
   - assemble-general
 audio: disassemble-general.mp3
+image: disassemble-general.jpg
 tags:
   - verb
   - game

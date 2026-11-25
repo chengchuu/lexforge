@@ -10,7 +10,10 @@ notes: |-
   Source: react/react-d-compiler.md. Related form used in source: restoration.
 
   游戏中常用 restore health 表示恢复生命值，如 Eat food to restore health.
+
+  配图来源：thenerdstash.com《王国之泪》游戏画面，借料理复原心心的说明联想恢复到先前状态。https://thenerdstash.com/how-to-make-the-10-best-elixirs-in-zelda-tears-of-the-kingdom/
 audio: restore-tech.mp3
+image: restore-tech.jpg
 learning_priority: 1
 tags:
   - tech

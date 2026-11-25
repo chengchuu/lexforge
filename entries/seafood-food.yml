@@ -6,8 +6,12 @@ part_of_speech: noun
 meaning: "海鲜"
 context: "鱼、虾、贝类等海产品的统称，点餐时用于说明食材类别。"
 example: "Would you like seafood pasta?"
-notes: "Pronunciation source: Collins Dictionary — seafood; seafood in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/seafood (accent: US; accessed 2026-11-18)."
+notes: |-
+  Pronunciation source: Collins Dictionary — seafood; seafood in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/seafood (accent: US; accessed 2026-11-18).
+
+  配图来源：Kiranico《王国之泪》图鉴，以组合海鲜烤串为例。https://zelda.kiranico.com/totk/data/food/Item_Cook_B_15
 audio: seafood-food.mp3
+image: seafood-food.png
 learning_priority: 1
 tags:
   - noun

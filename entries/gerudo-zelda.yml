@@ -9,9 +9,12 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/CharaDirectory_00/0000.json; key: Race_Gerudo; version: 1.2.1.
   日文名称参考: Wikipedia — Gerudo; https://en.wikipedia.org/wiki/Gerudo; 核对内容: Gerudo 与「ゲルド」的名称对应; 查阅日期: 2026-11-18。
+
+  配图来源：jeuxvideo.com《王国之泪》游戏画面。https://www.jeuxvideo.com/wikis-soluce-astuces/1748061/toutes-les-quetes-des-gerudos.htm
 mnemonic: "日文名称联想：Gerudo 对应「ゲルド」。仅用于识别和联想，不代表英文发音或词源。"
 learning_priority: 2
 audio: gerudo-zelda.mp3
+image: gerudo-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

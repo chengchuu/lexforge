@@ -8,12 +8,15 @@ notes: |-
 
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: Cold Resistance.
+
+  配图来源：Zelda Central《王国之泪》状态效果图标，图为 Cold Resistance。https://zeldacentral.com/games/tears-of-the-kingdom/game-data/status-effects/
 learning_priority: 1
 prerequisites:
   - "resistance-general"
 related_entries:
   - "heat-resistance-combat"
 audio: cold-resistance-combat.mp3
+image: cold-resistance-combat.png
 tags:
   - "game"
   - "zelda-totk"

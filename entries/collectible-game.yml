@@ -9,8 +9,11 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   Pronunciation source: Cambridge Dictionary — collectible. https://dictionary.cambridge.org/us/dictionary/english/collectible (US, accessed 2026-11-20).
+
+  配图来源：Kiranico《王国之泪》图鉴，以可在游戏内收集的 Bubbul Gem 为例。https://zelda.kiranico.com/totk/data/key_items/CaveMasterMedal
 learning_priority: 2
 audio: collectible-game.mp3
+image: collectible-game.png
 tags:
   - noun
   - game

@@ -8,11 +8,14 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Hyrule Compendium.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_PictureBook_Name; version: 1.2.1.
+
+  配图来源：zeldawiki.wiki《王国之泪》游戏画面。https://zeldawiki.wiki/wiki/Hyrule_Compendium
 learning_priority: 1
 prerequisites:
   - "hyrule-zelda"
   - "compendium-general"
 audio: hyrule-compendium-zelda.mp3
+image: hyrule-compendium-zelda.png
 tags:
   - "game"
   - "zelda-totk"

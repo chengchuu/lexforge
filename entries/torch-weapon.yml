@@ -8,8 +8,11 @@ notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: torch.
   Pronunciation source: Collins Dictionary — torch; torch in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/torch (accent: US; accessed 2026-11-18).
+
+  配图来源：Kiranico《王国之泪》装备示例，图为 Torch。https://zelda.kiranico.com/totk/data/weapons/Weapon_Sword_043
 learning_priority: 1
 audio: torch-weapon.mp3
+image: torch-weapon.png
 tags:
   - "game"
   - "zelda-totk"

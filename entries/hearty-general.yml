@@ -11,8 +11,11 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: LifeMaxUp_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — hearty; hearty in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/hearty (accent: US; accessed 2026-11-18).
+
+  配图来源：nintenderos.com《王国之泪》游戏画面，以标为 Hearty 的补给品为例，联想词条记录的游戏效果前缀。https://www.nintenderos.com/2023/06/mejores-recetas-para-corazones-extra-en-zelda-tears-of-the-kingdom/
 learning_priority: 2
 audio: hearty-general.mp3
+image: hearty-general.jpg
 tags:
   - "game"
   - "zelda-totk"

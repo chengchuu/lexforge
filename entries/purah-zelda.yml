@@ -9,9 +9,12 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/CharaDirectory/0000.json; key: Npc_AncientDoctor_Name; version: 1.2.1.
   日文名称参考: Wikipedia — List of The Legend of Zelda: Breath of the Wild and Tears of the Kingdom characters (Notes); https://en.wikipedia.org/wiki/List_of_The_Legend_of_Zelda:_Breath_of_the_Wild_and_Tears_of_the_Kingdom_characters#Notes; 核对内容: Purah 与「プルア」的名称对应; 查阅日期: 2026-11-18。
+
+  配图来源：GAME Watch 刊载的《王国之泪》人物插画。https://game.watch.impress.co.jp/docs/news/1508747.html
 mnemonic: "日文名称联想：Purah 对应「プルア」。仅用于识别和联想，不代表英文发音或词源。"
 learning_priority: 2
 audio: purah-zelda.mp3
+image: purah-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

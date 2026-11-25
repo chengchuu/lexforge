@@ -8,10 +8,13 @@ notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: helm.
   Pronunciation source: Collins Dictionary — helm; helm in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/helm (accent: US; accessed 2026-11-18).
+
+  配图来源：Kiranico《王国之泪》图鉴，以士兵头盔为例（Soldier's Helm）。https://zelda.kiranico.com/totk/data/armors/Armor_020_Head
 related_entries:
   - "helmet-clothing"
 learning_priority: 2
 audio: helm-clothing.mp3
+image: helm-clothing.png
 tags:
   - "game"
   - "zelda-totk"

@@ -9,8 +9,11 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: construct.
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: SoldierGolem; version: 1.2.1.
   Pronunciation source: Collins Dictionary — Construct; construct in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/construct (accent: US; accessed 2026-11-18; ordinary English noun pronunciation, not a verified game-voice transcription).
+
+  配图来源：nintendo.com《王国之泪》游戏截图，以游戏中的 Steward Construct 为例。https://www.nintendo.com/jp/zelda/totk/guide/en/index.html
 learning_priority: 2
 audio: construct-being-zelda.mp3
+image: construct-being-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

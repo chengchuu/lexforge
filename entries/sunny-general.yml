@@ -11,8 +11,11 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0001.json; key: HeartRepair_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — sunny; sunny in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/sunny (accent: US; accessed 2026-11-18).
+
+  配图来源：gamestar.de《王国之泪》游戏画面，以明亮阳光照在草地上的游戏画面为例。https://www.gamestar.de/artikel/the-legend-of-zelda-tears-of-the-kingdom-technik-analyse%2C3394327%2Cseite2.html
 learning_priority: 2
 audio: sunny-general.mp3
+image: sunny-general.jpg
 tags:
   - "game"
   - "zelda-totk"

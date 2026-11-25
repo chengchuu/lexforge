@@ -11,8 +11,11 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: QuietnessUp_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — sneaky; sneaky in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/sneaky (accent: US; accessed 2026-11-18).
+
+  配图来源：gamewith.jp《王国之泪》游戏画面，展示潜行接近目标的情境。https://gamewith.jp/zelda-totk/article/show/399206
 learning_priority: 2
 audio: sneaky-general.mp3
+image: sneaky-general.jpg
 tags:
   - "game"
   - "zelda-totk"

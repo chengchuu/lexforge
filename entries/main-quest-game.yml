@@ -8,10 +8,13 @@ notes: |-
   Source: user-supplied Nintendo Switch & Zelda TOTK vocabulary list.
 
   一般游戏术语。Main Quests 是《王国之泪》中对应类别的复数界面名称。
+
+  配图来源：famitsu.com《王国之泪》游戏画面，展示冒险笔记中的主线任务分类。https://www.famitsu.com/news/202305/12302045.html
 learning_priority: 2
 prerequisites:
   - quest-game
 audio: main-quest-game.mp3
+image: main-quest-game.jpg
 tags:
   - noun
   - game

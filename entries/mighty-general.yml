@@ -11,8 +11,11 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/CookEffect/0000.json; key: AttackUp_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — mighty; mighty in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/mighty (accent: US; accessed 2026-11-18).
+
+  配图来源：attackofthefanboy.com《王国之泪》游戏画面，借游戏中标为 Mighty 的攻击提升道具联想强大有力。https://attackofthefanboy.com/guides/best-elixirs-in-zelda-tears-of-the-kingdom/
 learning_priority: 2
 audio: mighty-general.mp3
+image: mighty-general.jpg
 tags:
   - "game"
   - "zelda-totk"

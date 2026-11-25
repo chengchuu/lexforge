@@ -7,8 +7,11 @@ example: "Use a ranged weapon from the ridge."
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: ranged.
+
+  配图来源：inverse.com《王国之泪》游戏截图，以从远处用弓箭攻击为例。https://www.inverse.com/gaming/zelda-tears-of-the-kingdom-arrow-fusion-guide
 learning_priority: 1
 audio: ranged-combat.mp3
+image: ranged-combat.jpg
 tags:
   - "game"
   - "zelda-totk"
