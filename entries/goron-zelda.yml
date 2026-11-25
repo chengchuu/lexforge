@@ -8,11 +8,8 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Goron.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/CharaDirectory_00/0000.json; key: Race_Goron; version: 1.2.1.
-
-  配图来源：ichiharune.hateblo.jp《王国之泪》游戏画面。https://ichiharune.hateblo.jp/entry/2023/10/29/191527
 learning_priority: 2
 audio: goron-zelda.mp3
-image: goron-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

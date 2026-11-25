@@ -8,14 +8,11 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Hylian Hood.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0001.json; key: Armor_015_Head_Name; version: 1.2.1.
-
-  配图来源：Kiranico《王国之泪》防具图标，图为戴起的兜帽。https://zelda.kiranico.com/totk/data/armors/Armor_001_Head
 learning_priority: 2
 prerequisites:
   - "hylian-zelda"
   - "hood-clothing"
 audio: hylian-hood-zelda.mp3
-image: hylian-hood-zelda.png
 tags:
   - "game"
   - "zelda-totk"

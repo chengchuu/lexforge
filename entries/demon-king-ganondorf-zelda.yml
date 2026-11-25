@@ -8,14 +8,11 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Demon King Ganondorf.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/CharaDirectory/0000.json; key: Enemy_Ganondorf_Name; version: 1.2.1.
-
-  配图来源：Kiranico《王国之泪》海拉鲁图鉴。https://zelda.kiranico.com/totk/data/enemies/Enemy_Ganondorf
 learning_priority: 3
 prerequisites:
   - "demon-king-zelda"
   - "ganondorf-zelda"
 audio: demon-king-ganondorf-zelda.mp3
-image: demon-king-ganondorf-zelda.png
 tags:
   - "game"
   - "zelda-totk"

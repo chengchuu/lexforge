@@ -10,13 +10,10 @@ notes: |-
   来源释义：完美闪避。游戏简体中文用「完美回避」。
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Tips/0004.json; key: Tactics_25_Name; version: 1.2.1.
-
-  配图来源：shacknews.com《王国之泪》游戏画面。https://www.shacknews.com/article/135458/dodge-zelda-tears-of-the-kingdom
 learning_priority: 2
 prerequisites:
   - dodge-general
 audio: perfect-dodge-zelda.mp3
-image: perfect-dodge-zelda.jpg
 tags:
   - noun
   - combat

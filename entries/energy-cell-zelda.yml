@@ -10,13 +10,10 @@ notes: |-
   来源释义：能量电池。游戏简体中文用「电池」。
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0020.json; key: Obj_Battery_Get_Name; version: 1.2.1.
-
-  配图来源：Zelda Dungeon Wiki《王国之泪》随身电池图标，图为三格容量。https://www.zeldadungeon.net/wiki/File:Energy_Cell_%28Capacity_03%29_-_TotK_icon.png
 related_entries:
   - energy-well-zelda
 learning_priority: 2
 audio: energy-cell-zelda.mp3
-image: energy-cell-zelda.png
 tags:
   - noun
   - game

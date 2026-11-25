@@ -8,13 +8,10 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Side Quests.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/ChallengeLog_00/0000.json; key: 0003; version: 1.2.1.
-
-  配图来源：Zelda Dungeon Wiki《王国之泪》截图，展示山麓驿站绘画支线的 Side Quests 提示。https://www.zeldadungeon.net/wiki/File:A_Picture_for_Foothill_Stable_-_TotK.jpg
 learning_priority: 1
 prerequisites:
   - "quest-game"
 audio: side-quests-zelda.mp3
-image: side-quests-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

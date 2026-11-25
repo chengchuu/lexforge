@@ -10,11 +10,8 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Hyrule.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: KingdomOfHyrule; version: 1.2.1.
-
-  配图来源：gamesradar.com《王国之泪》游戏画面。https://www.gamesradar.com/zelda-tears-of-the-kingdom-map-full-hyrule-revealed/
 learning_priority: 2
 audio: hyrule-zelda.mp3
-image: hyrule-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

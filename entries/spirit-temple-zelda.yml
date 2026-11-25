@@ -8,14 +8,11 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Spirit Temple.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LocationMsg/Location/0008.json; key: LargeDungeonSoul; version: 1.2.1.
-
-  配图来源：Attack of the Fanboy《王国之泪》魂之神殿入口截图。https://attackofthefanboy.com/guides/how-to-find-the-spirit-temple-entrance-in-zelda-tears-of-the-kingdom-totk/
 learning_priority: 2
 prerequisites:
   - "spirit-story"
   - "temple-architecture"
 audio: spirit-temple-zelda.mp3
-image: spirit-temple-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

@@ -12,11 +12,8 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_EnergyBank_Capsule_A_01_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — battery; battery in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/battery (accent: US; accessed 2026-11-18).
-
-  配图来源：Kiranico《王国之泪》游戏图鉴，以 Battery 为例。https://zelda.kiranico.com/totk/data/zonai_devices/SpObj_EnergyBank_A_01
 learning_priority: 2
 audio: battery-engineering.mp3
-image: battery-engineering.png
 tags:
   - "game"
   - "zelda-totk"

@@ -8,14 +8,11 @@ notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: broadsword.
   Pronunciation source: Collins Dictionary — broadsword; broadsword in American English; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/broadsword (accent: US; accessed 2026-11-18).
-
-  配图来源：Kiranico《王国之泪》游戏图鉴，以 Rusty Broadsword 为例。https://zelda.kiranico.com/totk/data/weapons/Weapon_Sword_021
 word_formation: "broad（宽阔的）+ sword（剑）。"
 learning_priority: 1
 prerequisites:
   - "sword-weapon"
 audio: broadsword-weapon.mp3
-image: broadsword-weapon.png
 tags:
   - "game"
   - "zelda-totk"

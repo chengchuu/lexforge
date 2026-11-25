@@ -8,15 +8,12 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Sky Island.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0001.json; key: SkyIsland; version: 1.2.1.
-
-  配图来源：nintendo.com《王国之泪》游戏画面。https://www.nintendo.com/kr/games/zelda/totk/discovery/index.html
 word_formation: "sky（天空）+ island（岛屿）。"
 learning_priority: 1
 prerequisites:
   - "sky-terrain"
   - "island-terrain"
 audio: sky-island-zelda.mp3
-image: sky-island-zelda.png
 tags:
   - "game"
   - "zelda-totk"

@@ -12,11 +12,8 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_FlashLight_Capsule_A_01_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — light; light in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/light (accent: US; accessed 2026-11-18).
-
-  配图来源：mynintendonews.com《王国之泪》截图，展示地底场景中的亮点光源。https://mynintendonews.com/2023/09/24/zelda-tears-of-the-kingdoms-depths-didnt-take-as-long-as-youd-expect-to-conceive/
 learning_priority: 1
 audio: light-engineering.mp3
-image: light-engineering.jpg
 tags:
   - "game"
   - "zelda-totk"

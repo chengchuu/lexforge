@@ -8,8 +8,6 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Skyview Tower.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: P_Cannon; version: 1.2.1.
-
-  配图来源：Thonky《王国之泪》鸟望台截图，图为 Thyphlo Ruins Skyview Tower。https://www.thonky.com/zelda-tears-of-the-kingdom/thyphlo-ruins-skyview-tower
 word_formation: "名称中可识别 sky (天空)、view (视野) 和 tower (塔)；游戏简体中文名为鸟望台。此处不推断命名史。"
 learning_priority: 1
 prerequisites:
@@ -17,7 +15,6 @@ prerequisites:
   - "view-general"
   - "tower-architecture"
 audio: skyview-tower-zelda.mp3
-image: skyview-tower-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

@@ -8,13 +8,10 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Adventure Log.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Reference/0000.json; key: Pocketbook; version: 1.2.1.
-
-  配图来源：zeldawiki.wiki《王国之泪》游戏画面。https://zeldawiki.wiki/wiki/Main_Quest
 learning_priority: 1
 prerequisites:
   - "adventure-general"
 audio: adventure-log-zelda.mp3
-image: adventure-log-zelda.png
 tags:
   - "game"
   - "zelda-totk"

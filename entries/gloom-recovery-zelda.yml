@@ -8,8 +8,6 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Gloom Recovery.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/Buff/0000.json; key: LifeRepair; version: 1.2.1.
-
-  配图来源：GamesRadar+《王国之泪》食谱截图，展示 Sunny Veggie Porridge 恢复受瘴气影响心心的说明。https://www.gamesradar.com/zelda-tears-of-the-kingdom-gloom-borne-sickness-how-to-make/
 mnemonic: "记忆画面：盾牌标 Resistance，修补贴标 Recovery。先想到防护，再想到损伤后的回复。"
 related_entries:
   - gloom-resistance-zelda
@@ -18,7 +16,6 @@ prerequisites:
   - "gloom-zelda"
   - "recover-story"
 audio: gloom-recovery-zelda.mp3
-image: gloom-recovery-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

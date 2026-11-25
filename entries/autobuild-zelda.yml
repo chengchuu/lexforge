@@ -10,14 +10,11 @@ notes: |-
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0020.json; key: Obj_AutoBuilder_Name; version: 1.2.1.
 
   Memory-aid source: Merriam-Webster.com Dictionary — auto-. https://www.merriam-webster.com/dictionary/auto-
-
-  配图来源：nintendo.com《王国之泪》游戏画面。https://www.nintendo.com/en-za/Games/Smart-device-games/ZELDA-NOTES-2790439.html
 word_formation: "auto- (自动) + build (建造)。这是可辨认的英语构成说明，不表示已核实命名史。"
 learning_priority: 1
 prerequisites:
   - "build-construction"
 audio: autobuild-zelda.mp3
-image: autobuild-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

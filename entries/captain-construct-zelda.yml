@@ -8,13 +8,10 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Captain Construct.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0017.json; key: Item_Enemy_67_Name; version: 1.2.1.
-
-  配图来源：Kiranico《王国之泪》图鉴，图为 Captain Construct I。https://zelda.kiranico.com/totk/data/enemies/Enemy_Zonau_Golem_Junior
 learning_priority: 3
 prerequisites:
   - "construct-being-zelda"
 audio: captain-construct-zelda.mp3
-image: captain-construct-zelda.png
 tags:
   - "game"
   - "zelda-totk"

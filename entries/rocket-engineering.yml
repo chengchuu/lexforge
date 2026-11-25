@@ -12,11 +12,8 @@ notes: |-
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0023.json; key: SpObj_Rocket_Capsule_A_01_Name; version: 1.2.1.
   Pronunciation source: Collins Dictionary — rocket; rocket in American English 1; Webster’s New World College Dictionary, 5th Digital Edition. https://www.collinsdictionary.com/dictionary/english/rocket (accent: US; accessed 2026-11-18).
-
-  配图来源：Kiranico《王国之泪》左纳乌装置示例，图为 Rocket。https://zelda.kiranico.com/totk/data/zonai_devices/SpObj_Rocket_A_01
 learning_priority: 1
 audio: rocket-engineering.mp3
-image: rocket-engineering.png
 tags:
   - "game"
   - "zelda-totk"

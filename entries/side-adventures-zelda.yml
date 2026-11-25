@@ -8,13 +8,10 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Side Adventures.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/ChallengeLog_00/0000.json; key: 0001; version: 1.2.1.
-
-  配图来源：samurai-gamers.com《王国之泪》游戏画面。https://samurai-gamers.com/zelda-tears-of-the-kingdom/all-side-adventures-list-and-walkthroughs/
 learning_priority: 1
 prerequisites:
   - "adventure-general"
 audio: side-adventures-zelda.mp3
-image: side-adventures-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

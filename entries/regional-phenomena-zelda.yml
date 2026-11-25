@@ -11,14 +11,11 @@ notes: |-
   Nintendo — The Legend of Zelda: Tears of the Kingdom – Beginning Your Journey. https://www.nintendo.com/jp/zelda/totk/guide/en/index.html
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ChallengeMsg/Info_SurveyOfFourVillages/0000.json; key: Name; version: 1.2.1.
-
-  配图来源：Shacknews《王国之泪》地图截图，展示 Regional Phenomena 任务标记。https://www.shacknews.com/article/135732/yunobo-goron-city-zelda-totk
 learning_priority: 3
 prerequisites:
   - regional-general
   - phenomenon-story
 audio: regional-phenomena-zelda.mp3
-image: regional-phenomena-zelda.png
 tags:
   - noun
   - game

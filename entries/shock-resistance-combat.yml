@@ -6,13 +6,10 @@ meaning: "抗电；抵抗电击影响的能力。"
 notes: |-
   学习主题: The Legend of Zelda: Tears of the Kingdom。
   Source: Prompt/20261104-lexforge.md. Source form: Shock Resistance.
-
-  配图来源：Zelda Central《王国之泪》状态效果图标，图为 Shock Resistance。https://zeldacentral.com/games/tears-of-the-kingdom/game-data/status-effects/
 learning_priority: 1
 prerequisites:
   - "resistance-general"
 audio: shock-resistance-combat.mp3
-image: shock-resistance-combat.png
 tags:
   - "game"
   - "zelda-totk"

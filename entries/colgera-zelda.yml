@@ -8,11 +8,8 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Colgera.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PictureBook/0001.json; key: Enemy_DungeonBoss_Rito_Name; version: 1.2.1.
-
-  配图来源：Nintendo Life《王国之泪》急冻盖拉截图。https://www.nintendolife.com/guides/zelda-tears-of-the-kingdom-how-to-defeat-colgera
 learning_priority: 3
 audio: colgera-zelda.mp3
-image: colgera-zelda.jpg
 tags:
   - "game"
   - "zelda-totk"

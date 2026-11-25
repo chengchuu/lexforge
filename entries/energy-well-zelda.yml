@@ -10,14 +10,11 @@ notes: |-
   来源释义：能量单元。游戏简体中文用「附加电池」。
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/ActorMsg/PouchContent/0021.json; key: Obj_EnergyUtuwa_A_01_Name; version: 1.2.1.
-
-  配图来源：Kiranico《王国之泪》条目图。https://zelda.kiranico.com/totk/data/key_items/Obj_EnergyUtuwa_A_01
 mnemonic: "记忆画面：随身电池旁多出一格空容量。Energy Cell 是供能的电池，Energy Well 是让容量增加的那一格。"
 learning_priority: 3
 prerequisites:
   - energy-cell-zelda
 audio: energy-well-zelda.mp3
-image: energy-well-zelda.png
 tags:
   - noun
   - game

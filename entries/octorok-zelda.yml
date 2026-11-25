@@ -8,11 +8,8 @@ notes: |-
   Source: Prompt/20261104-lexforge.md. Source form: Octorok.
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/StaticMsg/AttachmentCommonName/0000.json; key: Octarock_Adjective; version: 1.2.1.
-
-  配图来源：Kiranico《王国之泪》图鉴，图为 Water Octorok。https://zelda.kiranico.com/totk/data/enemies/Enemy_Octarock
 learning_priority: 3
 audio: octorok-zelda.mp3
-image: octorok-zelda.png
 tags:
   - "game"
   - "zelda-totk"

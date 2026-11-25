@@ -11,13 +11,10 @@ notes: |-
   Nintendo — More tips for your The Legend of Zelda: Tears of the Kingdom adventures! https://www.nintendo.com/en-gb/News/2023/July/More-tips-for-your-The-Legend-of-Zelda-Tears-of-the-Kingdom-adventures--2411783.html
 
   Game text reference: https://github.com/sh0wer1ee/TotkText/blob/1c66ac1a02edf2d73d10b0dc6f0f2de29da7b119/data/chunks/LayoutMsg/DoCommand_00/0000.json; key: 0035; version: 1.2.1.
-
-  配图来源：zeldadungeon.net《王国之泪》战斗操作截图。https://www.zeldadungeon.net/forum/threads/totk-screenshot-thread.75485/
 learning_priority: 3
 prerequisites:
   - perfect-dodge-zelda
 audio: flurry-rush-zelda.mp3
-image: flurry-rush-zelda.jpg
 tags:
   - noun
   - combat
