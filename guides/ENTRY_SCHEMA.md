@@ -32,6 +32,32 @@ Learning metadata validation also rejects invalid priorities, malformed or repea
 
 Repeated words within the same canonical language tag produce warnings for human review, including when their capitalization or whitespace differs. Distinct meanings remain valid. This check does not infer semantic equivalence or detect synonyms. Warnings do not block a build.
 
+## YAML formatting
+
+Use two-space indentation and keep existing field order when editing an entry. For new files, use this field order where practical and omit unused optional fields.
+
+```text
+id
+language
+word
+pronunciation
+part_of_speech
+meaning
+context
+example
+code_example
+notes
+etymology
+word_formation
+mnemonic
+related_entries
+audio
+image
+learning_priority
+prerequisites
+tags
+```
+
 ## Pronunciation
 
 `pronunciation` remains an optional plain-text string. For common English words and everyday phrases, seek reliable IPA rather than omitting it merely because the field is optional. Prefer American English; after a reasonable lookup, use verified British English if a reliable American pronunciation cannot be established. Record the reason for a British selection. A failed page request means the page was inaccessible, not that the pronunciation does not exist.

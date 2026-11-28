@@ -29,6 +29,8 @@ The build repeatedly selects an entry whose prerequisites have already been plac
 
 The exporter derives `StudyOrder`: a unique, zero-padded rank shared across all languages. It is not stored in YAML or shown on the cards. Ranks may change when entries or metadata change; IDs remain permanent. Import the complete rebuilt export to refresh ranks consistently. See the [initial classification record](#initial-classification).
 
+For a topic intended for standalone study, verify that its tag covers all direct and indirect prerequisites. Reuse each foundation's stable ID and add the topic tag where needed. The exporter writes one global order, so filtering the deck by topic does not automatically include prerequisites. Check the filtered TSV rows to confirm that all foundations are present and sort before their dependents.
+
 ## Apply the order in Anki
 
 The current export has eighteen note fields plus tags in column 19. See the [README field mapping](../README.md#set-up-anki-once) for note-type setup.

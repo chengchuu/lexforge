@@ -17,6 +17,12 @@ Choose one useful learning target per entry. Prefer dictionary headwords where a
 
 Use separate IDs and descriptive filenames for distinct meanings, such as `commit-git` and `commit-general`. Changing an ID can create another Anki note. Renaming a source file while preserving its ID does not change its identity.
 
+For useful compounds, reuse matching component entries and add missing components only when they are independent learning targets within the approved scope. Keep the whole term's distinct meaning and use selective prerequisites to introduce components first.
+
+When a name has limited context, verify recognizable components before proposing a split. Preserve the name's ID, spelling, and recording. Use Notes to explain how components fit together and keep any unverified naming origin, identity, or business scope uncertain. Leave ambiguous kanji and unknown initials unresolved.
+
+When consolidating a supplied list, record how each source item maps to a retained entry or preserved example. Follow the approved scope when deleting entries or changing IDs or recordings.
+
 ## Write the entry
 
 For example, `entries/idiomatic.yml` can contain:
